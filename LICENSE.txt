@@ -20,5 +20,4 @@ Attribuzione:
 Giorgio Arcara
 2025
 
-Se utilizzi o distribuisci queste slide, attribuisci come segue:  
-"Giorgio Arcara (2025), Metodi statistici per la Neuropsicologia forense", rilasciato sotto licenza CC BY-NC 3.0"
+Se utilizzi o distribuisci il materiale contenuto in questo libro cita segue:  "Giorgio Arcara (2025), "Guida alla psicometria per la neuropsicologia Clinica e Forense, rilasciato sotto licenza CC BY-NC 3.0"
