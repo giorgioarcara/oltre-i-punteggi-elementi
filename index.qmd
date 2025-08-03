@@ -6,3 +6,12 @@ knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 ```
 
 Questa guida ha come obiettivo fornire le conoscenze fondamentali di psicometria da utilizzare nella pratica clinica in neuropsicologia clinica e forense.
+A differenza dei diversi testi disponibili, questo libro si focalizza specificamente nella neuropsicologia e nei test cognitivi usati per pratica clinica e forense, approfondendo aspetti statistici in maniera semplice e accessibile. Lo scopo è quello di fornire degli strumenti pratici per il clinico in modo da integrare _best practices_ di tipo psicometrico e statistica nella propria pratica professionale. 
+Ci sono due importanti principi alla base di questo libro:
+1. Le conoscenze psicometriche possono essere incorporate nella routine clinica, portando ad unitilizzo più consapevole dei test psicologici e neuropsicologici e quindi ad interpretazioni più motivate e ragionate.
+2. Le conoscenze psicometriche sono solo una parte delle conoscenze necessarie per la pratica clinica. Conoscenze teoriche (es. di neuropsicologia cognitiva e clinica) e cliniche (es. su come condurre un )
+
+Il libro è rilasciato con licenza Creative Commons 3.0 (CC BY-NC 3.0). Con questa licenza sei libero di scaricare, stampare e distribuire questo libro. Puoi anche copiare parte dei contenuti e modificarli purché sia citata la fonte di orgine.
+
+Se utilizzi o distribuisci il materiale contenuto in questo libro cita segue:  
+"Giorgio Arcara (2025), "Guida alla psicometria per la neuropsicologia Clinica e Forense, rilasciato sotto licenza CC BY-NC 3.0"
