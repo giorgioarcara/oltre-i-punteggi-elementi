@@ -1,17 +1,58 @@
 # Premessa {.unnumbered}
-## una guida pratica per la/il professionista.
+## Una guida pratica per la/il professionista.
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 ```
 
 Questa guida ha come obiettivo fornire le conoscenze fondamentali di psicometria da utilizzare nella pratica clinica in neuropsicologia clinica e forense.
-A differenza dei diversi testi disponibili, questo libro si focalizza specificamente nella neuropsicologia e nei test cognitivi usati per pratica clinica e forense, approfondendo aspetti statistici in maniera semplice e accessibile. Lo scopo è quello di fornire degli strumenti pratici per il clinico in modo da integrare _best practices_ di tipo psicometrico e statistica nella propria pratica professionale. 
-Ci sono due importanti principi alla base di questo libro:
-1. Le conoscenze psicometriche possono essere incorporate nella routine clinica, portando ad unitilizzo più consapevole dei test psicologici e neuropsicologici e quindi ad interpretazioni più motivate e ragionate.
-2. Le conoscenze psicometriche sono solo una parte delle conoscenze necessarie per la pratica clinica. Conoscenze teoriche (es. di neuropsicologia cognitiva e clinica) e cliniche (es. su come condurre un )
+A differenza di altri testi disponibili su Psicometria, questo libro si focalizza specificamente alla sua applicazione pratica nei contesti della neuropsicologia clinica e forense. Nello specifico sono approfonditi aspetti psicometrici e statistici in maniera che cerca di essere semplice e accessibile, senza però banalizzare la complessità di certi problemi. 
+Lo scopo è quello di fornire degli strumenti pratici per il clinico in modo da integrare _best practices_ di tipo psicometrico e statistico nella propria pratica professionale. 
+Ci sono due importanti principi alla base di questo libro che vorrei esplicitare sin dall'inizio:
 
-Il libro è rilasciato con licenza Creative Commons 3.0 (CC BY-NC 3.0). Con questa licenza sei libero di scaricare, stampare e distribuire questo libro. Puoi anche copiare parte dei contenuti e modificarli purché sia citata la fonte di orgine.
+1. Le conoscenze psicometriche _possono_ essere incorporate nella routine clinica, portando ad un utilizzo più consapevole dei test psicologici e neuropsicologici, delle loro potenzialità e limiti, e quindi ad interpretazioni più motivate e ragionate.
+2. Le conoscenze psicometriche _sono solo una parte_ delle conoscenze necessarie per la pratica clinica. Conoscenze teoriche (es. di neuropsicologia cognitiva e clinica) e cliniche (es. su come condurre un colloquio). Questo dovrebbe essere quasi scontato, ma è importante chiarire questo punto per una corretta lettura del libro e dei suoi contenuti.
+
+**Il libro è (e sarà sempre) completamento gratuito**
+
+
+Il libro è infatti rilasciato con licenza Creative Commons 3.0 (CC BY-NC 3.0). Con questa licenza sei libero di scaricare, stampare e distribuire questo libro. Puoi anche copiare parte dei contenuti e modificarli purché sia citata la fonte di orgine.
 
 Se utilizzi o distribuisci il materiale contenuto in questo libro cita segue:  
-"Giorgio Arcara (2025), "Guida alla psicometria per la neuropsicologia Clinica e Forense, rilasciato sotto licenza CC BY-NC 3.0"
+
+_Giorgio Arcara (2025), "Guida alla Psicometria per la neuropsicologia Clinica e Forense", rilasciato sotto licenza CC BY-NC 3.0_
+
+## Indice Provvisorio
+Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere modificato sulla base dei feedback ricevuti durante il suo sviluppo.
+
+**1. Introduzione**
+
+**2. Elementi di base di statistica per la neuropsicologia**
+
+  * campione e popolazione
+  * rappresentatività del campione
+  * teorema del limite centrale
+  * Il concetto di p-value
+  * z-scores
+
+**3. Psicometria per la Neuropsicologia clinica**
+
+  * Teoria Classica dei test
+  * Validità ed Affidabilità
+  * Tipi di Validità e perché sono importanti
+  * Affidabilità
+  * Tipi di affidabilità e perché sono importanti
+  * Nella pratica clinica: Come usare Affidabilità e Validità nella pratica clinica per scegliere i test
+  * Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
+
+**4. Identificare Deficit e danni cognitivi**
+
+  * il concetto di deficit e danno
+  * cut-off clinici e dati normativi
+    * cosa sono i dati normativi
+    * come si ottengono i dati normativi
+    * cut-off a partire dai dati normativi
+  * Approfondimento: Perché usiamo i cut-off basati su soggetti normali?
+  * Approfondimento pratico, il MoCA nella versione originale di Nasreddine.
+
+**5. Identificare patologie o condizioni di interesse**
