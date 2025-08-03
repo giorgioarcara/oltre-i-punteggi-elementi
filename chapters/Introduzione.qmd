@@ -1,0 +1,31 @@
+# Introduzione
+
+## Il protagonosta del libro: Il test neuropsicologico
+DA COMPLETARE
+
+## Filosofia di base
+Per spiegare la filosofia alla base di questo libro utilizzerò una metafora a cui sono affezionato e che è stata utilizzata da Harald Baayen durante un corso di statistica a cui ho avuto la fortuna di partecipare nel 2008 ad Edmonton in Canada.
+Non ricordo esattamente le parole, ma il concetto era il seguente:
+
+_"utilizzare la statistica per la ricerca è come guidare un'automobile, non occorre capire come funziona il motore per utilizzarla bene, basta sapere cosa è giusto o cosa non è giusto fare."_
+
+![**Motore di un automobile**: non serve conoscere il suo funzionamento esatto per guidare un'automobile](../Figures/Engine.png){width="50%"}
+
+
+Detta da H. Baayen, grandissimo esperto di statistica, questa affermazione faceva sorridere gli studenti, ma era chiara: utilizzare i metodi statistici correttamente non implica necessariamente conoscere tutto ciò che sta al di sotto, ma capire cosa è corretto fare e cosa non è corretto fare. Nel corso degli anni ho però pensato che fosse utile aggiungere una seconda parte che la metafora in un certo senso, già implica.
+
+_"è vero che non serve conoscere come funziona il motore di un'automobile per saperla guidare, ma chi conosce bene come funziona il motore permette di sfruttarne meglio le potenzialità. Questo è ciò che accade per esempio per i piloti di formula 1"_
+
+
+![**Una macchina **: non serve conoscere il suo funzionamento esatto per guidare un'automobile](../Figures/Auto_ChatGPT.png){width="50%"}
+
+
+Per tornare al nostro argomento (e cioè i metodi statistici per la neuropsicologia) già conoscere cosa è corretto e cosa è sbagliato fare in termini di utilizzo dei test in neuropsicologia clinica e forense è molto importante, ma una conoscenza più approfondita ci permette di utilizzarli meglio e di capire in quali situazioni ci possono essere problemi o situazioni particolari.
+
+Nello scrivere questo libro ho realizzato che si puà aggiungere una terza parte alla metafora che mi sembra particolarmente pertinente.
+
+_"un pilota non è però unì/un ingegnere o un/una meccanica/o che è in grado di montare e smontare un motore. Ne conosce bene il funzionamento (più di una persona comune), per notare possibili problemi, come vibrazioni o rumori insoliti e aiutre a comunicare con il team, ma rimane pur sempre un utilizzatore, che deve concentrarsi su altre abilità, cioè quelle di guida"_
+
+![**Un pilota di F1 **: una/un pilota professionista ha conoscenze approfondite su come funziona il motore della propria vettura](../Figures/F1_1_ChatGPT.png){width="30%"}
+
+Una cosa analoga avviene per la/il neuropsicologa/o: se conosce bene aspetti psicometrici ha conoscenze in più per capire quando un test non sta funzionando come deve o, in generale, ad interpretare correttamente il significato dei numeri o classificazioni che hanno.
