@@ -1,0 +1,8 @@
+# Premessa {.unnumbered}
+## una guida pratica per la/il professionista.
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+Questa guida ha come obiettivo fornire le conoscenze fondamentali di psicometria da utilizzare nella pratica clinica in neuropsicologia clinica e forense.

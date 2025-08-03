@@ -1,0 +1,17 @@
+{
+  "hash": "85349919fe64c00c52c24ff73298ac4b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"\"\nauthor: \"Giorgio Arcara\"\ndate: \"\"\nformat:\n  beamer:\n    theme: metropolis\n    keep-tex: true\nincremental: true\n---\n\n```{=latex}\n\\title{Introduzione}\n\\author{Giorgio Arcara,\\\\ Università di Padova \\\\ IRCCS San Camillo, Venezia}\n\n\\titlegraphic{\n\n \\vspace*{7cm}\n\\includegraphics[scale=0.15]{Figures/LogoSanCamilloIRCCS_Unipd_alpha.png}\n\\hfill \\includegraphics[scale=0.15]{Figures/CC_license_3_0.png}\n}\n\\date{\\today}\n\\maketitle\n```\n\n# First part\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.\n\n## Bullets\n\nWhen you click the **Render** button a document will be generated that includes:\n\n-   Content authored with markdown\n-   Output from executable code\n\n## Code\n\nWhen you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\\pause\n\nquesto compare dopo la pausa.\n\n##\n```{=latex}\n\\frametitle{Prova di Latex}\npuro codice Latex qui\n\\vfill\neccoci qui\n\n```\n",
+    "supporting": [
+      "0-Introduction_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

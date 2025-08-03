@@ -1,0 +1,10 @@
+project:
+  type: default
+
+format:
+  beamer:
+    theme: madrid
+    slide-level: 2
+  revealjs:
+    theme: simple
+    transition: slide

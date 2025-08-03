@@ -1,0 +1,7 @@
+/.quarto/
+_book
+result
+*.tex
+
+# macOS
+.DS_Store
