@@ -13,7 +13,7 @@ Ci sono due importanti principi alla base di questo libro che vorrei esplicitare
 1. Le conoscenze psicometriche _possono_ essere incorporate nella routine clinica, portando ad un utilizzo più consapevole dei test psicologici e neuropsicologici, delle loro potenzialità e limiti, e quindi ad interpretazioni più motivate e ragionate.
 2. Le conoscenze psicometriche _sono solo una parte_ delle conoscenze necessarie per la pratica clinica. Conoscenze teoriche (es. di neuropsicologia cognitiva e clinica) e cliniche (es. su come condurre un colloquio). Questo dovrebbe essere quasi scontato, ma è importante chiarire questo punto per una corretta lettura del libro e dei suoi contenuti.
 
-**Il libro è (e sarà sempre) completamento gratuito**
+**Il libro è (e sarà sempre) completamente gratuito**
 
 
 Il libro è infatti rilasciato con licenza Creative Commons 3.0 (CC BY-NC 3.0). Con questa licenza sei libero di scaricare, stampare e distribuire questo libro. Puoi anche copiare parte dei contenuti e modificarli purché sia citata la fonte di orgine.

@@ -41,7 +41,7 @@ format:
   pdf:
     keep-tex: true
     documentclass: scrbook
-    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,12pt]
+    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,11pt]
     include-in-header:
       text: |
         \usepackage{fvextra}
