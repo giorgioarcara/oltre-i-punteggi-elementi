@@ -14,7 +14,7 @@ Lo scopo è quello di fornire degli strumenti pratici per il clinico in modo da 
 Al momento iniziale di scrittura di questo libro è in programma di scrivere due manuali separati ma strettamente connessi. Uno (quello presente) è destinato al clinico e contiene tutti gli elementi fondamentali, ma evita approfondimenti relativi a formule e ad aspetti matematici. Il secondo, più approfondito, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia approfondire tutti gli aspetti statistici/psicometrici e matematici. Questo secondo libro conterrà anche codice in `R` per approfondire gli argomenti esplorati, 
 
 ### Contribuire alla guida
-Questo libro è pensato per professionisti (principalmente neuropsicologhe/i cliniche/i e forensi) e idealmente è anche _sviluppato_ insieme a loro in maniera collaborativa. Se hai un suggerimento su un argomento da trattare, su come migliorare una spiegazione, se vuoi segnalare un errore di battitura o in generale per qualsiasi consiglio, puoi usare lo strumento "Segnala un problema" nella versione web del libro o puoi scrivermi una mail a <giorgio.arcara@gmail.com> . Cercherò di integrare ogni segnalazione/richiesta e il tuo nome verrà inserito all'interno dei ringraziamenti del libro per riconoscere il tuo contributo.
+Questo libro è pensato per professionisti (principalmente neuropsicologhe/i cliniche/i e forensi) e idealmente è anche _sviluppato_ insieme a loro in maniera collaborativa. Se hai un suggerimento su un argomento da trattare, su come migliorare una spiegazione, se vuoi segnalare un errore di battitura o in generale per qualsiasi consiglio, puoi usare lo strumento ["Segnala un problema"](https://github.com/giorgioarcara/guida-psicometria-pratica-clinica/issues/new) nella versione web del libro o puoi scrivermi una mail a <giorgio.arcara@gmail.com> . Cercherò di integrare ogni segnalazione/richiesta e il tuo nome verrà inserito all'interno dei ringraziamenti del libro per riconoscere il tuo contributo.
 
 
 ### Due principi fondamentali
@@ -40,7 +40,7 @@ _Giorgio Arcara (2025), "Guida alla Psicometria per la neuropsicologia Clinica e
 
 
 Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda la pagina 
-[Note di redazione](appendices/note-redazione#note-di-redazione)
+[**Note di redazione**](appendices/note-redazione#note-di-redazione)
 
 :::{.raw-latex}
 \vspace{2em}
@@ -61,6 +61,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * z-scores
 
 **1. Psicometria per la Neuropsicologia clinica e forense**
+
   * Principi di teoria della misurazione
   * Teoria Classica dei test
   * Validità ed Affidabilità
@@ -87,6 +88,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Approfondimento pratico, il MoCA nella versione originale di Nasreddine
   
 **3. Identificare patologie o condizioni di interesse**
+
   * il _gold standard_ in neuropsicologia clinica e forense
   * cut-off di discriminazione
   * Sensibilità, Specificità e la curva ROC
