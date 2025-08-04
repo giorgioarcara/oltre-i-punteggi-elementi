@@ -11,7 +11,7 @@ Psicometria e statistica applicate alla neuropsicologia sono anche discipline in
 In un ottica di gender balance ho deciso di evitare il più possibile di usare solo il maschile nel testo mettendo ogni volta che fosse necessario prima femminile e poi maschile (es. la/il neuropsicologa/o). Questa è una scelta che ho dovuto inevitabilmente fare visto che la prima stesura del testo è in Italiano. Mi rendo conto che questa scelta, per quanto motivata, potrebbe rendere più difficile la lettura. Le evidenze sull'impatto di una scelta come questa nella lettura sono tuttora non chiare e mi sono basato quindi su una scelta più personale che non su evidenze scientifiche.
 
 ### Utilizzo di AI nella stesura del libro
-Nel momenti in cui sto cominciando a scrivere questo libro (Agosto 2025), siamo in piena esplosione dell'utilizzo di sistemi di Intelligenza Artificiale (In particolare Large Language Models, LLM come ChatGPT). Sta diventando sempre più comunque quindi esplicitare che utilizzo se ne è fatto, in maniera trasparente. 
+Nel momenti in cui sto cominciando a scrivere questo libro (Agosto 2025), siamo in piena esplosione dell'utilizzo di sistemi di Intelligenza Artificiale (In particolare Large Language Models, LLM come ChatGPT). Sta diventando sempre più comune dunque esplicitare che utilizzo se ne è fatto, in maniera trasparente. 
 Tutte le idee di questo libro sono generate **senza** l'ausilio di sistemi di intelligenza artificiale.
 Sistemi di AI (e in particolare ChatGPT) sono stati utilizzati per i seguenti scopi:
 
