@@ -1,15 +1,32 @@
 # Introduzione
 
+## Il libro in breve
+Dal momento che questo non è un romanzo, ritengo sia utile partire dalla fine e cioè fornire una panoramica di tutto il contenuto del libro e della sua filosofia (vedi anche il paragrafo [una metafora utile](#una-metafora-utile).
+L'idea di base è (ovviamente) che conoscere la Psicometria è utile per chi lavora nel campo della neuropsicologia clinica e forense. Con questo (lo sottolineo), non si vuol dire che valutazioni cliniche e forensi sono principalmente psicometriche, tutt'altro. L'idea che voglio sottolineare è che _a parità di competenze cliniche e forensi_ chi conosce bene la Psicometria farà valutazioni più accurate e più rigorose. Non solo, una conoscenza base di queste competenze (che questa guida dovrebbe fornire), riduce la possibilità di cadere in errori di interpretazioni dei test.
+Nella mia intereazioni con i professionisti, infatti, il problema è quasi sempre l'opposto di ciò che si tende a pensare e cioè ridimensionare il cieco affidarsi ai test. In altre parole, conoscere la Psicometria permette di capire come, nella pratica clinica e forense, risultati ai test non possono essere meramente _letti_ ma vanno e anzi, sono inevitabilmente sempre _interpretati_. Che la/il professionista lo voglia oppure no, mette sempre qualcosa di suo nell'utilizzo dei test e questo è un aspetto fondamentale. In questo senso, il contenuto del presente libro intreccia conoscenze più pure di Psicometria (che riguardano più la teoria della misurazione e dei test) o di statistica con l' _Assessment_ e cioè con il procedimento che utilizza queste informazioni per trarre delle conclusioni.
+
+La Psicometria e la Statistica (si veda il paragrafo [Definizioni](#Definizioni) per un approfondimento) sono utili essenzialmente in due momenti. 
+
+1. Nella scelta dei test da utilizzare (in generale o per una specifica valutazione)
+2. Nell'interpretare il più correttamente possibile i risultati ad uno o più test somministrati.
+
+Nel [Capitolo 1](#Capitolo 1). Psicometria per la Neuropsicologia clinica e Forense]. il libro tratta elementi di base di Psicometria. A partire da cosa si intende per _misurazione_ fino alle principali qualità che definiscono la qualità di un Test e cioè _Validità_ e _Affidabilità_. Usare un Test in maniera consapevole significa anche conoscere quanto fuziona bene in quanto strumento di misurazione. Chiunque debba misurare la temperatura al proprio figlio sa che usare un termometro a gallio (i termometri a mercurio non esistono più), fornisce una misura più precisa di utilizzare un termometro digitale da orecchio. Lo stesso principio dovrebbe valere per i Test Neuropsicologici, dovremmo sempre scegliere quelli che hanno le migliori qualità di misura (o conoscerne quantomeno i limiti). Questo influenza le interpretazioni che possiamo trarne e si studia appunto tramite la conoscenza delle proprietà psicometriche.
+
+Nel [Capitolo 2](#Capitolo-2) si parla di uno dei momenti principali in neuropsicologia forense e clinica e cioè, confrontare il risultato di un test con un valore soglia che ci può indicare se è presente un _deficit_ o un _danno_. Questo avviene tramite l'utilizzo di _dati normativi_ cioè dati ottenuti da soggetti presunti "normali". Il confronto dei dati normativi è fondamentale per la neuropsicologia e per questa ragione è un argomento che sarà molto approfondito. Tra gli approfondimenti sarà specificato perché è cruciale la differenza tra _campione_ e _popolazione_ nell'utilizzo dei dati normativi, quali sono i limiti di utilizzo di metodi molto diffusi (come gli _z-scores_) e come valutare la _rappresentatività_ dei dati normativi. Saranno inoltre approfonditi aspetti pratici di come integrare le conoscenze statistiche approfondite in questo capitolo nella pratica.
+
+Nel [Capitolo 3](#Capitolo-3)
+
+
 ## Il protagonosta del libro: Il test neuropsicologico
 DA COMPLETARE
 
-## Filosofia di base
-Per spiegare la filosofia alla base di questo libro utilizzerò una metafora a cui sono affezionato e che è stata utilizzata da Harald Baayen durante un corso di statistica a cui ho avuto la fortuna di partecipare nel 2008 ad Edmonton in Canada.
+## Una metafora utile
+Per spiegare la filosofia alla base di questo libro utilizzerò una metafora a cui sono affezionato e che è stata utilizzata da Harald Baayen durante un corso di statistica a cui ho avuto la fortuna di partecipare nel 2008 ad Edmonton, in Canada. Il corso era di statistica per linguisti e psicolinguisti, ma si applica benissimo a qualsiasi utilizzatore di statistica e, nel nostro caso, anche di psicometria.
 Non ricordo esattamente le parole, ma il concetto era il seguente:
 
-_"utilizzare la statistica per la ricerca è come guidare un'automobile, non occorre capire come funziona il motore per utilizzarla bene, basta sapere cosa è giusto o cosa non è giusto fare."_
+_"utilizzare la statistica è come guidare un'automobile, non occorre capire come funziona il motore per utilizzarla bene, basta sapere cosa è giusto o cosa non è giusto fare."_
 
-![**Motore di un automobile**: non serve conoscere il suo funzionamento esatto per guidare un'automobile](../Figures/Engine.png){width="50%"}
+![**Utilizzare i test come guidare un automobile**: non serve conoscere il funzionamento esatto del motore per poterla guidare in maniera adeguata (ma vedi la prossima Figura)](../Figures/Auto_ChatGPT.png){width="50%"}
 
 
 Detta da H. Baayen, grandissimo esperto di statistica, questa affermazione faceva sorridere gli studenti, ma era chiara: utilizzare i metodi statistici correttamente non implica necessariamente conoscere tutto ciò che sta al di sotto, ma capire cosa è corretto fare e cosa non è corretto fare. Nel corso degli anni ho però pensato che fosse utile aggiungere una seconda parte che la metafora in un certo senso, già implica.
@@ -17,15 +34,22 @@ Detta da H. Baayen, grandissimo esperto di statistica, questa affermazione facev
 _"è vero che non serve conoscere come funziona il motore di un'automobile per saperla guidare, ma chi conosce bene come funziona il motore permette di sfruttarne meglio le potenzialità. Questo è ciò che accade per esempio per i piloti di formula 1"_
 
 
-![**Una macchina **: non serve conoscere il suo funzionamento esatto per guidare un'automobile](../Figures/Auto_ChatGPT.png){width="50%"}
+![**Guidare un auto di F1 **: per essere un pilota professionista occorre conoscere bene come funziona il motore della propria vettura (ma guarda la prossima figura)](../Figures/F1_1_ChatGPT.png){width="30%"}
 
 
 Per tornare al nostro argomento (e cioè i metodi statistici per la neuropsicologia) già conoscere cosa è corretto e cosa è sbagliato fare in termini di utilizzo dei test in neuropsicologia clinica e forense è molto importante, ma una conoscenza più approfondita ci permette di utilizzarli meglio e di capire in quali situazioni ci possono essere problemi o situazioni particolari.
 
 Nello scrivere questo libro ho realizzato che si puà aggiungere una terza parte alla metafora che mi sembra particolarmente pertinente.
 
-_"un pilota non è però unì/un ingegnere o un/una meccanica/o che è in grado di montare e smontare un motore. Ne conosce bene il funzionamento (più di una persona comune), per notare possibili problemi, come vibrazioni o rumori insoliti e aiutre a comunicare con il team, ma rimane pur sempre un utilizzatore, che deve concentrarsi su altre abilità, cioè quelle di guida"_
+_"un pilota non è però un ingegnere o un meccanico che è in grado di montare e smontare un motore o addirittura di costruirlo. Ne conosce bene il funzionamento (più di una persona comune), per notare possibili problemi, come vibrazioni o rumori insoliti e aiutare a comunicare con il team, ma rimane pur sempre un utilizzatore, che deve concentrarsi su altre abilità, cioè quelle di guida"_
 
-![**Un pilota di F1 **: una/un pilota professionista ha conoscenze approfondite su come funziona il motore della propria vettura](../Figures/F1_1_ChatGPT.png){width="30%"}
+![**Un pilota di F1 ha comunque una conoscenza limitata del funzionamento del motore**: un pilota di F1 non ha necessariamente le conoscenze di un meccanico o un ingegnere](../Figures/F1_1_ChatGPT.png){width="30%"}
 
-Una cosa analoga avviene per la/il neuropsicologa/o: se conosce bene aspetti psicometrici ha conoscenze in più per capire quando un test non sta funzionando come deve o, in generale, ad interpretare correttamente il significato dei numeri o classificazioni che hanno.
+_In conclusione_
+
+La metafora che ho qui illustrata 
+
+
+## Cosa il libro NON tratta
+La guida è essenzialmente focalizzata su utilizzo dei test e quindi su: proprietà psicometriche dei test e quella analisi riferite al caso singolo.
+Non tratta analisi di gruppo (perché meno rilevante per la neuropsicologia clinica e forense, nella loro pratica professionale). DA COMPLETARE

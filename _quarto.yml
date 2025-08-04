@@ -8,12 +8,14 @@ book:
   date: "2025-08-03"
   search: true
   repo-url: "https://github.com/giorgioarcara/guida-psicometria-pratica-clinica"
-  repo-actions: [edit]
+  repo-actions: [issue, edit]
   sharing: [twitter, facebook]
   downloads: [pdf, epub]
   chapters:
     - index.qmd
     - chapters/Introduzione.qmd
+  appendices:
+    - appendices/note-redazione.qmd
   page-navigation: true
 
 bibliography: references.bib
@@ -39,9 +41,9 @@ format:
     lang: it   # Sets the page language
   pdf:
     keep-tex: true
-    documentclass: scrbook
+    documentclass:  scrbook #book
     lang: it
-    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,9pt]
+    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,10pt]
     include-in-header:
       text: |
         \usepackage{fvextra}
@@ -54,6 +56,6 @@ format:
            showtabs = false,
            breaksymbolleft={},
            breaklines
-           % Note: setting commandchars=\\\{\} here will cause an error 
-        }  
+           % Note: setting commandchars=\\\{\} here will cause an error
+        }
     fig-pos: 'H'
