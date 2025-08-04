@@ -17,8 +17,10 @@ book:
   chapters:
     - index.qmd
     - chapters/Introduzione.qmd
-  appendices:
-    - appendices/note-redazione.qmd
+    - part: "Appendici"
+      chapters:
+      - chapters/Appendici/note-redazione.qmd
+      #- chapters/Appendici/elementi-di-statistica.qmd
   page-navigation: true
 
 bibliography: references.bib
