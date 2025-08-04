@@ -59,6 +59,8 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
 **1. Psicometria per la Neuropsicologia clinica e forense**
 
   * Principi di teoria della misurazione
+    * Test di prestazione tipica 
+    * Test di prestazione massima
   * Teoria Classica dei test
   * Validità ed Affidabilità
   * Tipi di Validità e perché sono importanti
@@ -113,7 +115,16 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Il teorema di Bayes in breve
   * Perché il teorema di Bayes è rilevante in neuropsicologia clinica
   * Perché il teorema di Bayes è rilevante in neuropsicologia forense
- 
+
+**8. Interpretare i risultati ai test neuropsicologici**
+  * Perché _Interpretazione_ e non _Lettura_?
+  * L' _Interpretative Approach_ nella pratica clinica
+  * Esempi di interpretazione
+    * interpretare test contraddittori
+    * integrare risultati ai test con informazioni qualitative
+    * interpretare casi anomali
+  * Conclusioni: il ruolo fondamentale della/del professionista
+  
 **Appendice**
 
   * Definizioni

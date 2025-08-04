@@ -16,9 +16,8 @@ Nel [\underline{Capitolo 2}](#Capitolo-2) si parla di uno dei momenti principali
 
 Nel [Capitolo 3](#Capitolo-3)
 
-
 ## Il protagonosta del libro: Il test neuropsicologico
-DA COMPLETARE
+È utile chiarire sin da subito che questo testo avrà un protagonista indiscusso: il **test neuropsicologico**, Come sarà chiarito anche nel [Capitolo 1.](#Capitolo 1.) questa guida insegna essenzialmente come utilizzare in maniera appropriata i test neuropsicologici nella pratica clinica, Si parte dalla scelta dei test migliori e più appropriati, fino ad arrivare ad un'interpretazione ragionevole dei risultati, a partire da tutte le evidenze disponibili. Il libro cercherà però di non celebrare troppo il suo protagonista. In un certo senso potete leggerlo come un libro che insegna a capire i _limiti_ dei test neuropsicologici e nelle informazioni che ci forniscono. Se da un lato questo può spaventare (delegare la responsabilità di un risultato allo strumento di misurazione è certamente confortante), il messaggio che se ne può derivare è in realtà assolutamente positivo per la professionalità della/del neuropsicologa/o. Quello che penso sia chiaro emergerà è che il ruolo del professionista è molto più rilevante di quello che potrebbe sembrare, specie se si conoscono i principi psicometrici e statistici alla base dell'utilizzo dei test.
 
 ## Una metafora utile
 Per spiegare la filosofia alla base di questo libro utilizzerò una metafora a cui sono affezionato e che è stata utilizzata da Harald Baayen durante un corso di statistica a cui ho avuto la fortuna di partecipare nel 2008 ad Edmonton, in Canada. Il corso era di statistica per linguisti e psicolinguisti, ma si applica benissimo a qualsiasi utilizzatore di statistica e, nel nostro caso, anche di psicometria.
@@ -47,9 +46,12 @@ _"un pilota non è però un ingegnere o un meccanico che è in grado di montare 
 
 _In conclusione_
 
-La metafora che ho qui illustrata 
+La metafora che ho qui illustrato mi è utile a chiarire il _perché_ è importante conoscere la Psicometria per la pratica in neuropsicologia clinica e forense. Alcune conoscenze di base sono fondamentali per poter utilizzare correttamente i nostri strumenti senza fare errori (nella metafora sarebbe come usare l'acceleratore per frenare). Conoscere meglio il funzionamento dei test ci permette di capire quali sono i loro limiti, specie in situazioni non convenzionali (es. posso utilizzare il mio test se l'età del mio paziente non è rappresentata nel campione normativo?). Non tutti dobbiamo però essere "ingegneri" dei test: non penso affatto sia necessario che per utilizzare in maniera corretta i test sia necessario o imprescindibile conoscere ogni dettaglio tecnico e statistico dello sviluppo. Del resto ci sono specialisti che si occupano di questo. Questo è ciò che normalmente accade in ogni branca clinica o applicativa in cui ci sia utilizzo di strumenti, anche di alta precisione, non è necessario conoscere ogni dettaglio per poterli usare efficacemente.
 
 
 ## Cosa il libro NON tratta
 La guida è essenzialmente focalizzata su utilizzo dei test e quindi su: proprietà psicometriche dei test e quella analisi riferite al caso singolo.
-Non tratta analisi di gruppo (perché meno rilevante per la neuropsicologia clinica e forense, nella loro pratica professionale). DA COMPLETARE
+Non tratta analisi di gruppi di pazienti perché meno rilevante per la neuropsicologia clinica e forense, nella loro pratica professionale. 
+Non tratta inoltra di alcuni aspetti metodologico/statistici fondamentali per la _neuropsicologia cognitiva_ se non hanno rilevanza per la pratica clinica (es. la doppia dissociazione, che implica il confronto di due pazienti con deficit "puri" e che è rilevante per inferenze teoriche).
+Il libro tratta solo in maniera marginale gli aspetti dell'assessment che forniscono informazioni fondementali per una buona valutazione clinica o forense, come l'anamnesi e il colloquio.
+In generale non fornisce informazioni su come condurre in maniera appropriata queste fasi perché di pertinenza più clinica che non psicometrico/statistica. 
