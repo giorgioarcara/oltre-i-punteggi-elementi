@@ -9,7 +9,7 @@ cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Vers
 
 ### Obiettivo della guida
 Questa guida ha come obiettivo fornire le conoscenze fondamentali di psicometria da utilizzare nella pratica clinica in neuropsicologia clinica e forense.
-A differenza di altri testi disponibili su Psicometria, questo libro si focalizza specificamente ad applicazioni pratiche nella professione. Nel corso dei suoi capitoli sono approfonditi aspetti psicometrici e statistici in maniera che cerca di essere semplice e accessibile, senza però banalizzare la complessità degli argomenti trattati. 
+A differenza di altri testi di psicometria disponibili, questo libro si focalizza specificamente ad applicazioni pratiche nella professione. Nel corso dei suoi capitoli sono approfonditi aspetti psicometrici e statistici in un modo che cerca di essere semplice e accessibile, senza però banalizzare la complessità degli argomenti trattati. 
 Lo scopo è quello di fornire degli strumenti pratici per il clinico in modo da integrare _best practices_ di tipo psicometrico e statistico nella propria pratica professionale. 
 Al momento iniziale di scrittura di questo libro è in programma di scrivere due manuali separati ma strettamente connessi. Uno (quello presente) è destinato al clinico e contiene tutti gli elementi fondamentali, ma evita approfondimenti relativi a formule e ad aspetti matematici. Il secondo, più approfondito, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia approfondire tutti gli aspetti statistici/psicometrici e matematici. Questo secondo libro conterrà anche codice in `R` per approfondire gli argomenti esplorati, 
 
