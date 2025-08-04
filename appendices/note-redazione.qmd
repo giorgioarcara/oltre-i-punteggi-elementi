@@ -1,6 +1,7 @@
 # Note di redazione
 
 ## Un libro Open
+La scelta di scrivere un libro completamente Open è principalmente ideologico. Sono un fermo sostenitore dell'Open Science da più di quindici anni e trovo che sia la scelta più logica per un testo del genere. Molti dei testi da cui ho imparato quello che ho scritto erano infatti disponibili gratuitamente e trovo sia la scelta più sensata. La scelta di un libro Open come questo ha anche degli altri vantaggi spiegati nel prossimo paragrafo.
 
 ## Un libro in costante scrittura
 Ho scelto di scrivere un libro in questa modalità (tramite un sito e un libro scaricabile associato) e perché sono fermamente convinto che (nel 2025), bisogna sfruttare le opportunità date dalla tecnologia.
@@ -13,9 +14,10 @@ In un ottica di gender balance ho deciso di evitare il più possibile di usare s
 Nel momenti in cui sto cominciando a scrivere questo libro (Agosto 2025), siamo in piena esplosione dell'utilizzo di sistemi di Intelligenza Artificiale (In particolare Large Language Models, LLM come ChatGPT). Sta diventando sempre più comunque quindi esplicitare che utilizzo se ne è fatto, in maniera trasparente. 
 Tutte le idee di questo libro sono generate **senza** l'ausilio di sistemi di intelligenza artificiale.
 Sistemi di AI (e in particolare ChatGPT) sono stati utilizzati per i seguenti scopi:
-- revisione del testo (per typos o miglioramento frasi)
-- supporto nel codice per generare il libro (Quarto e i linguaggi associati).
-- generazioni di alcune immagini esemplificativi (questo per evitare problemi di immagini con copyright).
-- supporto nella generazione di codice `R`per alcuni esempi.
+
+* revisione del testo (per typos o miglioramento frasi)
+* supporto nel codice per generare il libro (Quarto e i linguaggi associati).
+* generazioni di alcune immagini esemplificativi (questo per evitare problemi di immagini con copyright).
+* supporto nella generazione di codice `R`per alcuni esempi.
 
 In ogni caso, mi prendo ogni responsabilità di errori legati all'utilizzo di sistemi di AI.
