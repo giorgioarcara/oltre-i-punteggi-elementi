@@ -13,7 +13,7 @@ A differenza di altri testi disponibili su Psicometria, questo libro si focalizz
 Lo scopo è quello di fornire degli strumenti pratici per il clinico in modo da integrare _best practices_ di tipo psicometrico e statistico nella propria pratica professionale. 
 Al momento iniziale di scrittura di questo libro è in programma di scrivere due manuali separati ma strettamente connessi. Uno (quello presente) è destinato al clinico e contiene tutti gli elementi fondamentali, ma evita approfondimenti relativi a formule e ad aspetti matematici. Il secondo, più approfondito, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia approfondire tutti gli aspetti statistici/psicometrici e matematici. Questo secondo libro conterrà anche codice in `R` per approfondire gli argomenti esplorati, 
 
-### Contribuire alla guida
+### Contribuire a questo libro
 Questo libro è pensato per professionisti (principalmente neuropsicologhe/i cliniche/i e forensi) e idealmente è anche _sviluppato_ insieme a loro in maniera collaborativa. Se hai un suggerimento su un argomento da trattare, su come migliorare una spiegazione, se vuoi segnalare un errore di battitura o in generale per qualsiasi consiglio, puoi usare lo strumento ["Segnala un problema"](https://github.com/giorgioarcara/guida-psicometria-pratica-clinica/issues/new) nella versione web del libro o puoi scrivermi una mail a <giorgio.arcara@gmail.com> . Cercherò di integrare ogni segnalazione/richiesta e il tuo nome verrà inserito all'interno dei ringraziamenti del libro per riconoscere il tuo contributo.
 
 
@@ -33,11 +33,9 @@ Tutto il materiale è infatti rilasciato con licenza Creative Commons 3.0 (CC BY
 ![](Figures/CC_license_3_0.png){width="25%"}
 
 Con questa licenza sei libera/o di scaricare, stampare e distribuire questa guida Puoi anche copiare parte dei contenuti e modificarli e utilizzarli per altri libri o presentazioni, purché sia citata la fonte di orgine.
-
 Se utilizzi o distribuisci il materiale contenuto in questo libro ti prego di utilizzare la seguente citazione:  
 
 _Giorgio Arcara (2025), "Guida alla Psicometria per la neuropsicologia Clinica e Forense", rilasciato sotto licenza CC BY-NC 3.0_
-
 
 Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda la pagina 
 [**Note di redazione**](appendices/note-redazione#note-di-redazione)
@@ -57,8 +55,6 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
 
   * Il protagonosta del libro: Il test neuropsicologico
   * Filosofia alla base del libro
-
-  * z-scores
 
 **1. Psicometria per la Neuropsicologia clinica e forense**
 
@@ -111,14 +107,20 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
 
   * La validità della performance
   * Identificare la simulazione in una valutazione
+  
+**7. Il teorema di Bayes e la sua rilevanza applicativa**
+
+  * Il teorema di Bayes in breve
+  * Perché il teorema di Bayes è rilevante in neuropsicologia clinica
+  * Perché il teorema di Bayes è rilevante in neuropsicologia forense
  
 **Appendice**
 
   * Definizioni
   * Statistica di base per la neuropsicologia clinico e forense
-    * elementi di probabilità
-    * campione e popolazione
-    * teorema del limite centrale
+    * Elementi di probabilità
+    * Campione e popolazione (approfondimento)
+    * Teorema del limite centrale
     * Il concetto di p-value
-    * correlazioni
-    * regressioni lineari (in breve)
+    * Correlazioni
+    * Regressioni lineari (in breve)
