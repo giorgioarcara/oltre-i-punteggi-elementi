@@ -5,12 +5,12 @@ filters:
   - filters/date.lua
 
 book:
-  title: "Guida alla psicometria e statistica per la neuropsicologia clinica e forense"
-  subtitle: "Elementi per la pratica clinica in psicologia"
+  title: "Oltre i punteggi"
+  subtitle: "Elementi di psicometria per la neuropsicologia clinica"
   author: "Giorgio Arcara"
   date: today
   search: true
-  repo-url: "https://github.com/giorgioarcara/guida-psicometria-pratica-clinica"
+  repo-url: "https://github.com/giorgioarcara/psicometria-pratica-clinica"
   repo-actions: [issue, edit]
   sharing: [twitter, facebook]
   downloads: [pdf, epub]
