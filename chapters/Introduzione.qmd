@@ -43,7 +43,7 @@ Nello scrivere questo libro ho realizzato che si puà aggiungere una terza parte
 
 _"un pilota non è però un ingegnere o un meccanico che è in grado di montare e smontare un motore o addirittura di costruirlo. Ne conosce bene il funzionamento (più di una persona comune), per notare possibili problemi, come vibrazioni o rumori insoliti e aiutare a comunicare con il team, ma rimane pur sempre un utilizzatore, che deve concentrarsi su altre abilità, cioè quelle di guida"_
 
-![**Un pilota di F1 ha comunque una conoscenza limitata del funzionamento del motore**: un pilota di F1 non ha necessariamente le conoscenze di un meccanico o un ingegnere](../Figures/Mechanic_ChatGPT_BN.png){width="40%"}
+![**Un pilota di F1 ha comunque una conoscenza limitata del funzionamento del motore**: non possiede necessariamente le competenze di un meccanico o di un ingegnere, e questo è del tutto normale, non è ciò che ci si aspetta da chi guida a livello professionistico](../Figures/Mechanic_ChatGPT_BN.png){width="40%"}
 
 _In conclusione_
 
