@@ -34,7 +34,7 @@ Detta da H. Baayen, grandissimo esperto di statistica, questa affermazione facev
 _"è vero che non serve conoscere come funziona il motore di un'automobile per saperla guidare, ma chi conosce bene come funziona il motore permette di sfruttarne meglio le potenzialità. Questo è ciò che accade per esempio per i piloti di formula 1"_
 
 
-![**Guidare un auto di F1 **: per essere un pilota professionista occorre conoscere bene come funziona il motore della propria vettura (ma guarda la prossima figura)](../Figures/F1_1_ChatGPT_BN.png){width="30%"}
+![**Guidare un auto di F1 **: per essere un pilota professionista occorre conoscere bene come funziona il motore della propria vettura (ma guarda la prossima figura)](../Figures/F1_1_ChatGPT_BN.png){width="40%"}
 
 
 Per tornare al nostro argomento (e cioè i metodi statistici per la neuropsicologia) già conoscere cosa è corretto e cosa è sbagliato fare in termini di utilizzo dei test in neuropsicologia clinica e forense è molto importante, ma una conoscenza più approfondita ci permette di utilizzarli meglio e di capire in quali situazioni ci possono essere problemi o situazioni particolari.
@@ -43,7 +43,7 @@ Nello scrivere questo libro ho realizzato che si puà aggiungere una terza parte
 
 _"un pilota non è però un ingegnere o un meccanico che è in grado di montare e smontare un motore o addirittura di costruirlo. Ne conosce bene il funzionamento (più di una persona comune), per notare possibili problemi, come vibrazioni o rumori insoliti e aiutare a comunicare con il team, ma rimane pur sempre un utilizzatore, che deve concentrarsi su altre abilità, cioè quelle di guida"_
 
-![**Un pilota di F1 ha comunque una conoscenza limitata del funzionamento del motore**: un pilota di F1 non ha necessariamente le conoscenze di un meccanico o un ingegnere](../Figures/F1_2_ChatGPT_BN.png){width="30%"}
+![**Un pilota di F1 ha comunque una conoscenza limitata del funzionamento del motore**: un pilota di F1 non ha necessariamente le conoscenze di un meccanico o un ingegnere](../Figures/Mechanic_ChatGPT_BN.png){width="40%"}
 
 _In conclusione_
 
