@@ -8,9 +8,8 @@ cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Vers
 ```
 
 ### Obiettivo del libro
-Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica. Pur essendo principalmente focalizzato sulla neuropsicologia clinica, contiene anche delle sezioni dedicate alle applicazioni nell'ambito della neuropsicologia forense.
-A differenza di altri testi di psicometria disponibili, questo libro si focalizza specificamente ad applicazioni pratiche nella professione di neuropsicologa/o. Nel corso dei suoi capitoli sono approfonditi aspetti psicometrici e statistici in un modo che cerca di essere semplice e accessibile, cercando di non banalizzare la complessità degli argomenti trattati. 
-Lo scopo è quello di fornire degli strumenti pratici per poter integrare _best practices_ di tipo psicometrico e statistico nella propria pratica professionale. 
+Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica. Pur essendo principalmente focalizzato sulla neuropsicologia clinica, contiene anche delle sezioni dedicate alle applicazioni nell'ambito della neuropsicologia forense e alla psicologia clinica in generale. 
+A differenza di altri testi di psicometria disponibili, il libro si focalizza specificamente ad applicazioni pratiche da utilizzare nella professione di neuropsicologa/o. Nel corso dei suoi capitoli sono trattati diversi aspetti psicometrici e statistici in un modo che cerca di essere semplice e accessibile, cercando di non banalizzare la complessità degli argomenti trattati. 
 Al momento iniziale di scrittura di questo libro è in programma di scrivere due manuali separati ma strettamente connessi. Uno (quello presente) è destinato a chi si occupa di pratica clinica e contiene tutti gli elementi fondamentali evitando approfondimenti relativi alle formule o ai dettagli tecnici. Il secondo, più approfondito, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia approfondire tutti i dettagli psicometrici e statistici. Tale libro sarà dedicato anche a chi voglia effettuare attività di ricerca nell'ambito e conterrà anche codice in `R` per approfondire gli argomenti esplorati, 
 
 ### Contribuire a questo libro
@@ -20,7 +19,7 @@ Questo libro è pensato per professionisti (principalmente neuropsicologhe/i cli
 ### Due principi fondamentali
 Ci sono due importanti principi alla base di questo libro che vorrei esplicitare sin dall'inizio:
 
-1. Le conoscenze psicometriche _possono_ essere incorporate nella routine clinica, portando ad un utilizzo più consapevole dei test psicologici e neuropsicologici, delle loro potenzialità e limiti, e quindi ad interpretazioni più motivate e ragionate.
+1. Le conoscenze psicometriche _possono_ essere incorporate nella routine clinica, portando ad un utilizzo più consapevole dei test neuropsicologici e psicologici, delle loro potenzialità e limiti, e quindi ad interpretazioni più motivate e ragionate.
 2. Le conoscenze psicometriche _sono solo una parte_ delle conoscenze necessarie per la pratica clinica. Conoscenze teoriche (es. di neuropsicologia cognitiva e clinica) e cliniche (es. su come condurre un colloquio) sono altrettanto fondamentali. Questo dovrebbe essere scontato, ma è importante chiarire questo punto per una corretta lettura del libro e dei suoi contenuti.
 
 
