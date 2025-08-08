@@ -1,22 +1,33 @@
 project:
   type: book
+  
+filters:
+  - filters/date.lua
 
 book:
-  title: "Guida alla psicometria e statistica per la neuropsicologia clinica e forense"
-  subtitle: "Elementi per la pratica clinica in psicologia"
+  title: "Oltre i punteggi"
+  subtitle: "Elementi di psicometria per la neuropsicologia clinica"
   author: "Giorgio Arcara"
-  date: "2025-08-03"
+  date: today
   search: true
-  repo-url: "https://github.com/giorgioarcara/guida-psicometria-pratica-clinica"
-  repo-actions: [edit]
+  repo-url: "https://github.com/giorgioarcara/psicometria-pratica-clinica"
+  repo-actions: [issue, edit]
   sharing: [twitter, facebook]
   downloads: [pdf, epub]
   chapters:
     - index.qmd
     - chapters/Introduzione.qmd
+    - chapters/Bibliografia.qmd
+    - part: "Appendici"
+      chapters:
+      - chapters/Appendici/note-redazione.qmd
+      #- chapters/Appendici/elementi-di-statistica.qmd
+  #appendices:
+  #  - chapters/Appendici/note-redazione.qmd
   page-navigation: true
 
 bibliography: references.bib
+csl: apa-6th-edition.csl
 
 format:
   epub:
@@ -39,11 +50,18 @@ format:
     lang: it   # Sets the page language
   pdf:
     keep-tex: true
-    documentclass: scrbook
+    documentclass: scrbook #book
     lang: it
-    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,9pt]
+    citation_package: biblatex
+    citeproc: false
+    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,10pt]
     include-in-header:
       text: |
+        \renewcommand*{\thepart}{} % to avoid numbers in parts
+        \renewcommand*{\partname}{} % to avoid label "Parte"
+        \renewcommand*{\partformat}{}
+        \usepackage[backend=biber,style=apa]{biblatex}
+        \addbibresource{references.bib}  % path corretto al tuo .bib
         \usepackage{fvextra}
         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
         \areaset[0.50in]{4.5in}{8in}
@@ -54,6 +72,9 @@ format:
            showtabs = false,
            breaksymbolleft={},
            breaklines
-           % Note: setting commandchars=\\\{\} here will cause an error 
-        }  
+           % Note: setting commandchars=\\\{\} here will cause an error
+        }
+    # include-after-body:
+    #  text: |
+    #    \printbibliography
     fig-pos: 'H'

@@ -1,89 +1,156 @@
-## Premessa {.unnumbered}
+---
+suppress-bibliography: true
+---
 
+## Premesse {.unnumbered}
 ```{r, include = FALSE}
 knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 ```
 
-Questa guida ha come obiettivo fornire le conoscenze fondamentali di psicometria da utilizzare nella pratica clinica in neuropsicologia clinica e forense.
-A differenza di altri testi disponibili su Psicometria, questo libro si focalizza specificamente ad applicazioni pratiche nella professione. Nel corso dei suoi capitoli sono approfonditi aspetti psicometrici e statistici in maniera che cerca di essere semplice e accessibile, senza però banalizzare la complessità dei problemi. 
-Lo scopo è quello di fornire degli strumenti pratici per il clinico in modo da integrare _best practices_ di tipo psicometrico e statistico nella propria pratica professionale. 
-Al momento iniziale di scrittura di questo libro è in programma di scrivere due manuali separati ma strettamente connessi. Uno (quello presente) è destinato al clinico e contiene tutti gli elementi fondamentali, ma evita approfondimenti relativi a formule e ad aspetti matematici. Il secondo, più approfondito, è destinato a chiunque voglia approfondire tutti gli aspetti statistici/psicometrici e matematici. Questo secondo libro contiene anche codice in `R` per approfondire gli argomenti di base. 
+```{r, echo=FALSE}
+cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.0.1."))
+```
 
+### Obiettivo del libro
+Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica neuropsicologica. Pur essendo principalmente focalizzato sulla neuropsicologia clinica, contiene anche delle sezioni dedicate alle applicazioni nell'ambito della neuropsicologia forense e alla psicologia clinica in generale. 
+Nel corso dei suoi capitoli sono trattati diversi aspetti psicometrici e statistici in un modo che cerca di essere semplice e accessibile, cercando di non banalizzare la complessità degli argomenti trattati. 
+A differenza di altri testi di psicometria disponibili, il libro si focalizza specificamente su come le conoscenze di psicometria e statistica possano (e debbano) essere incorporate nella pratica clinica. 
+Al momento iniziale di scrittura di questo libro è in programma di scrivere due volumi, separati ma strettamente connessi. Uno (quello presente) è destinato a chi si occupa di clinica: contiene tutti gli elementi fondamentali, ma evita approfondimenti relativi alle formule e non scende nei dettagli più tecnici. Il secondo, più specialistico, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia conoscere più in dettaglio gli psicometrici e statistici rilevanti per la neuropsicologia clinica. Quest'ultimo volume sarà dedicato anche a chi voglia effettuare attività di ricerca nell'ambito e conterrà codice in `R` per approfondire gli argomenti esplorati, 
+
+### Contribuire a questo libro
+Questo libro è pensato per professioniste/i (principalmente neuropsicologhe/i cliniche/i e forensi) e idealmente è anche _sviluppato insieme a loro_ in maniera collaborativa. Se hai un suggerimento su un argomento da trattare, su come migliorare una spiegazione, se vuoi segnalare un errore di battitura o in generale per qualsiasi consiglio, puoi usare lo strumento ["Segnala un problema"](https://github.com/giorgioarcara/psicometria-pratica-clinica/issues/new) nella versione web del libro o puoi scrivermi una mail a <giorgio.arcara@gmail.com> . Cercherò di integrare ogni segnalazione/richiesta e il tuo nome verrà inserito all'interno dei ringraziamenti del libro per riconoscere il tuo contributo.
+
+
+### Due principi fondamentali
 Ci sono due importanti principi alla base di questo libro che vorrei esplicitare sin dall'inizio:
 
-1. Le conoscenze psicometriche _possono_ essere incorporate nella routine clinica, portando ad un utilizzo più consapevole dei test psicologici e neuropsicologici, delle loro potenzialità e limiti, e quindi ad interpretazioni più motivate e ragionate.
-2. Le conoscenze psicometriche _sono solo una parte_ delle conoscenze necessarie per la pratica clinica. Conoscenze teoriche (es. di neuropsicologia cognitiva e clinica) e cliniche (es. su come condurre un colloquio). Questo dovrebbe essere quasi scontato, ma è importante chiarire questo punto per una corretta lettura del libro e dei suoi contenuti.
+1. Le conoscenze psicometriche _possono e dovrebbero_ essere incorporate nella routine clinica, portando ad un utilizzo più consapevole dei test neuropsicologici e psicologici, delle loro potenzialità e limiti, e quindi ad interpretazioni più motivate e ragionate.
+2. Le conoscenze psicometriche _sono solo una parte_ delle conoscenze necessarie per la pratica clinica. Conoscenze teoriche (es. di neuropsicologia cognitiva e clinica) e cliniche (es. su come condurre un colloquio) sono altrettanto fondamentali. Questo dovrebbe essere scontato, ma è importante chiarire questo punto per una corretta lettura del libro e dei suoi contenuti.
+
+
+### Costo del libro (nessuno)
 
 **Il libro è (e sarà sempre) completamente gratuito**
 
+Tutto il materiale è infatti rilasciato con licenza Creative Commons 3.0 (CC BY-NC 3.0). 
 
-Il libro è infatti rilasciato con licenza Creative Commons 3.0 (CC BY-NC 3.0). Con questa licenza sei libero di scaricare, stampare e distribuire questo libro. Puoi anche copiare parte dei contenuti e modificarli purché sia citata la fonte di orgine.
+![](Figures/CC_license_3_0.png){width="25%"}
 
-Se utilizzi o distribuisci il materiale contenuto in questo libro cita segue:  
+Con questa licenza sei libera/o di scaricare, stampare e distribuire questa guida Puoi anche copiare parte dei contenuti e modificarli e utilizzarli per altri libri o presentazioni, purché sia citata la fonte di orgine. Al momento della scrittura sto valutando se metterlo anche in vendita tramite una piattaforma online, ma questo non toglie che la versione online sarà sempre gratuita.
+Se utilizzi o distribuisci il materiale contenuto in questo libro ti prego di utilizzare la seguente citazione:  
 
-_Giorgio Arcara (2025), "Guida alla Psicometria per la neuropsicologia Clinica e Forense", rilasciato sotto licenza CC BY-NC 3.0_
+_Giorgio Arcara (2025), "Oltre i punteggi. Elementi di psicometria per la neuropsicologia clinica", rilasciato sotto licenza CC BY-NC 3.0_
 
-## Indice Provvisorio
-Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere modificato sulla base dei feedback ricevuti durante il suo sviluppo.
+Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda la pagina 
+[**Note di redazione**](appendices/note-redazione#note-di-redazione)
 
-**1. Introduzione**
+:::{.raw-latex}
+\vspace{2em}
+:::
+
+::: {.raw-html}
+<br /><br />
+:::
+<!-- code above necessary for epub rendering -->
+
+### Indice Provvisorio
+Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere modificato sulla base dei commenti ricevuti durante il suo sviluppo.
+
+**Introduzione**
+
   * Il protagonosta del libro: Il test neuropsicologico
-  * Filosofia alla base del libro
+  * Il libro in breve
+  * Una metafora utile
+  * Cosa il libro NON tratta
+  * Sezioni speciali: _Approfondimenti_, _Nella pratica clinica_, _Errori comuni_
 
-**2. Elementi di base di statistica per la neuropsicologia**
+**1. Psicometria per la Neuropsicologia clinica**
 
-  * campione e popolazione
-  * rappresentatività del campione
-  * teorema del limite centrale
-  * Il concetto di p-value
-  * z-scores
-
-**3. Psicometria per la Neuropsicologia clinica**
-
+  * Principi di teoria della misurazione
+  * I test
+    * Test di prestazione tipica 
+    * Test di prestazione massima
   * Teoria Classica dei test
   * Validità ed Affidabilità
-  * Tipi di Validità e perché sono importanti
+    * Tipi di Validità e perché sono importanti
   * Affidabilità
-  * Tipi di affidabilità e perché sono importanti
+    * Tipi di affidabilità e perché sono importanti
+  * Introduzione alla _Item Response Theory_
   * Nella pratica clinica: Come usare Affidabilità e Validità nella pratica clinica per scegliere i test
   * Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
+  * Errori comuni nel considerare gli aspetti psicometrici dei test.
 
-**4. Identificare Deficit e danni cognitivi**
+**2. Identificare Deficit e danni cognitivi**
 
-  * il concetto di _deficit_ e i di _danno_
-  * il concetto di _deficit_ in età evolutiva
-  * cut-off clinici e dati normativi
-    * cosa sono i dati normativi
-    * come si ottengono i dati normativi
-    * cut-off a partire dai dati normativi
-  * Metodi per calcolare i cut-offs
-    * z-score e percentili
-    * metodi basati su regressione
+  * I concetti di _deficit_ e _danno_ in valutazione dell'adulto
+  * Il concetto di _deficit_ in età evolutiva
+  * I dati normativi e il _cut-off di normalità_ 
+    * Come si ottengono i dati normativi
+  * Metodi per calcolare i cut-off di normalità
+    * Z-score e percentili
+    * Metodi basati su regressione
         * I Punteggi Equivalenti (Capitani, 1987)
-        * Il metodo di Crawford & Howell per il caso singolo
-    * altri metodi
+        * Il metodo di Crawford & Howell (1998) per il caso singolo
+    * Altri metodi
+  * Aspetti importanti da considerare nell'utilizzare i dati normativi
   * Approfondimento: Perché usiamo i cut-off basati su soggetti normali?
-  * Approfondimento pratico, il MoCA nella versione originale di Nasreddine
+  * Approfondimento: il MoCA e la sua introduzione in Italia
+  * Nella pratica clinica
+  * Errori comuni nell'utilizzo dei cut-offs di normalità
   
-**5. Identificare patologie o condizioni di interesse**
-  * il gold standard in neuropsicologia clinica e forense
-  * Sensibilità, Specificità e la curva ROC.
-  * Altre misure di performance.
-  
-**6. Indagare cambiamenti nel tempo** 
+**3. Identificare patologie o condizioni di interesse**
 
-  * errori comuni nell'indagare cambiamenti nel tempo
-  * affidabilità test-retest e importanza per studiare cambiamenti nel tempo
-  * forme parallele
-  * effetto pratica
-  * Reliable Change Index e altri metodi per cambiamenti nel tempo.
+  * Il _gold standard_ in neuropsicologia clinica e forense
+  * Cut-off di discriminazione
+  * Sensibilità, Specificità e la curva ROC
+  * Altre misure di performance di identificazione
+  * Approfondimento pratico: utilizzare test con cut-off di discriminazione
+  * Errori comuni nell'utilizzo di cut-off di discriminiazione
   
-**7. Confrontare punteggi a test diversi**
+**4. Indagare cambiamenti nel tempo** 
+  
+  * Affidabilità test-retest e importanza per studiare cambiamenti nel tempo
+  * Forme parallele
+  * Effetto pratica
+  * Reliable Change Index e altri metodi per cambiamenti nel tempo
+  * Errori comuni nell'indagare cambiamenti nel tempo
 
- * utilizzo di z-score o percentili.
+  
+**5. Confrontare punteggi a test diversi**
+
+ * Utilizzo di z-score o percentili.
  * Punteggi Equivalenti.
  
+**6. Valutazioni forensi e il problema della Simulazione**
+
+  * La validità di performance
+  * Identificare la simulazione in una valutazione
+  
+**7. Il teorema di Bayes e la sua rilevanza in clinica**
+
+  * Il teorema di Bayes in breve
+  * Perché il teorema di Bayes è rilevante in neuropsicologia clinica
+  * Perché il teorema di Bayes è rilevante in neuropsicologia forense
+  * Errori comuni: cosa può succedere se non si utilizza il Teorema di Bayes nelle interpretazioni.
+
+**8. Interpretare i risultati ai test neuropsicologici**
+
+  * Perché _Interpretazione_ e non _Lettura_?
+  * L' _Interpretative Approach_ nella pratica clinica
+  * Esempi di interpretazione
+    * Interpretare risultati contraddittori ai test
+    * Integrare i risultati ai test con informazioni qualitative
+    * Interpretare casi anomali
+  * Conclusioni: il ruolo fondamentale della/del professionista nell'utilizzo dei test.
+  
 **Appendice**
 
- * Definizioni
- * Statistica di base per il neuropsicologo clinico e forense.
+  * Definizioni
+  * Statistica di base per la neuropsicologia clinica
+    * Elementi di probabilità
+    * Campione e popolazione (approfondimento)
+    * Teorema del limite centrale
+    * Il concetto di p-value
+    * Correlazioni
+    * Correlazione e causa
+    * Regressioni lineari (in breve)

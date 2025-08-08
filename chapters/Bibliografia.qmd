@@ -1,0 +1,10 @@
+---
+nocite: '@*'
+---
+## Bibliografia {.unnumbered}
+
+::: {.only-html}
+<!-- Pandoc genera automaticamente la bibliografia perché c'è nocite:'@*' (non trovando #href lo genera alla fine della pagine) -->
+:::
+
+`\printbibliography[heading=none]`{=latex}
