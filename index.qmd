@@ -1,3 +1,7 @@
+---
+suppress-bibliography: true
+---
+
 ## Premesse {.unnumbered}
 ```{r, include = FALSE}
 knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
@@ -8,18 +12,19 @@ cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Vers
 ```
 
 ### Obiettivo del libro
-Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica. Pur essendo principalmente focalizzato sulla neuropsicologia clinica, contiene anche delle sezioni dedicate alle applicazioni nell'ambito della neuropsicologia forense e alla psicologia clinica in generale. 
-A differenza di altri testi di psicometria disponibili, il libro si focalizza specificamente ad applicazioni pratiche da utilizzare nella professione di neuropsicologa/o. Nel corso dei suoi capitoli sono trattati diversi aspetti psicometrici e statistici in un modo che cerca di essere semplice e accessibile, cercando di non banalizzare la complessità degli argomenti trattati. 
-Al momento iniziale di scrittura di questo libro è in programma di scrivere due manuali separati ma strettamente connessi. Uno (quello presente) è destinato a chi si occupa di pratica clinica e contiene tutti gli elementi fondamentali evitando approfondimenti relativi alle formule o ai dettagli tecnici. Il secondo, più approfondito, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia approfondire tutti i dettagli psicometrici e statistici. Tale libro sarà dedicato anche a chi voglia effettuare attività di ricerca nell'ambito e conterrà anche codice in `R` per approfondire gli argomenti esplorati, 
+Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica neuropsicologica. Pur essendo principalmente focalizzato sulla neuropsicologia clinica, contiene anche delle sezioni dedicate alle applicazioni nell'ambito della neuropsicologia forense e alla psicologia clinica in generale. 
+Nel corso dei suoi capitoli sono trattati diversi aspetti psicometrici e statistici in un modo che cerca di essere semplice e accessibile, cercando di non banalizzare la complessità degli argomenti trattati. 
+A differenza di altri testi di psicometria disponibili, il libro si focalizza specificamente su come le conoscenze di psicometria e statistica possano (e debbano) essere incorporate nella pratica clinica. 
+Al momento iniziale di scrittura di questo libro è in programma di scrivere due volumi, separati ma strettamente connessi. Uno (quello presente) è destinato a chi si occupa di clinica: contiene tutti gli elementi fondamentali, ma evita approfondimenti relativi alle formule e non scende nei dettagli più tecnici. Il secondo, più specialistico, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia conoscere più in dettaglio gli psicometrici e statistici rilevanti per la neuropsicologia clinica. Quest'ultimo volume sarà dedicato anche a chi voglia effettuare attività di ricerca nell'ambito e conterrà codice in `R` per approfondire gli argomenti esplorati, 
 
 ### Contribuire a questo libro
-Questo libro è pensato per professionisti (principalmente neuropsicologhe/i cliniche/i e forensi) e idealmente è anche _sviluppato_ insieme a loro in maniera collaborativa. Se hai un suggerimento su un argomento da trattare, su come migliorare una spiegazione, se vuoi segnalare un errore di battitura o in generale per qualsiasi consiglio, puoi usare lo strumento ["Segnala un problema"](https://github.com/giorgioarcara/psicometria-pratica-clinica/issues/new) nella versione web del libro o puoi scrivermi una mail a <giorgio.arcara@gmail.com> . Cercherò di integrare ogni segnalazione/richiesta e il tuo nome verrà inserito all'interno dei ringraziamenti del libro per riconoscere il tuo contributo.
+Questo libro è pensato per professioniste/i (principalmente neuropsicologhe/i cliniche/i e forensi) e idealmente è anche _sviluppato insieme a loro_ in maniera collaborativa. Se hai un suggerimento su un argomento da trattare, su come migliorare una spiegazione, se vuoi segnalare un errore di battitura o in generale per qualsiasi consiglio, puoi usare lo strumento ["Segnala un problema"](https://github.com/giorgioarcara/psicometria-pratica-clinica/issues/new) nella versione web del libro o puoi scrivermi una mail a <giorgio.arcara@gmail.com> . Cercherò di integrare ogni segnalazione/richiesta e il tuo nome verrà inserito all'interno dei ringraziamenti del libro per riconoscere il tuo contributo.
 
 
 ### Due principi fondamentali
 Ci sono due importanti principi alla base di questo libro che vorrei esplicitare sin dall'inizio:
 
-1. Le conoscenze psicometriche _possono_ essere incorporate nella routine clinica, portando ad un utilizzo più consapevole dei test neuropsicologici e psicologici, delle loro potenzialità e limiti, e quindi ad interpretazioni più motivate e ragionate.
+1. Le conoscenze psicometriche _possono e dovrebbero_ essere incorporate nella routine clinica, portando ad un utilizzo più consapevole dei test neuropsicologici e psicologici, delle loro potenzialità e limiti, e quindi ad interpretazioni più motivate e ragionate.
 2. Le conoscenze psicometriche _sono solo una parte_ delle conoscenze necessarie per la pratica clinica. Conoscenze teoriche (es. di neuropsicologia cognitiva e clinica) e cliniche (es. su come condurre un colloquio) sono altrettanto fondamentali. Questo dovrebbe essere scontato, ma è importante chiarire questo punto per una corretta lettura del libro e dei suoi contenuti.
 
 
@@ -31,7 +36,7 @@ Tutto il materiale è infatti rilasciato con licenza Creative Commons 3.0 (CC BY
 
 ![](Figures/CC_license_3_0.png){width="25%"}
 
-Con questa licenza sei libera/o di scaricare, stampare e distribuire questa guida Puoi anche copiare parte dei contenuti e modificarli e utilizzarli per altri libri o presentazioni, purché sia citata la fonte di orgine.
+Con questa licenza sei libera/o di scaricare, stampare e distribuire questa guida Puoi anche copiare parte dei contenuti e modificarli e utilizzarli per altri libri o presentazioni, purché sia citata la fonte di orgine. Al momento della scrittura sto valutando se metterlo anche in vendita tramite una piattaforma online, ma questo non toglie che la versione online sarà sempre gratuita.
 Se utilizzi o distribuisci il materiale contenuto in questo libro ti prego di utilizzare la seguente citazione:  
 
 _Giorgio Arcara (2025), "Oltre i punteggi. Elementi di psicometria per la neuropsicologia clinica", rilasciato sotto licenza CC BY-NC 3.0_
@@ -48,16 +53,20 @@ Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda l
 :::
 
 ### Indice Provvisorio
-Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere modificato sulla base dei feedback ricevuti durante il suo sviluppo.
+Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere modificato sulla base dei commenti ricevuti durante il suo sviluppo.
 
 **Introduzione**
 
   * Il protagonosta del libro: Il test neuropsicologico
-  * Filosofia alla base del libro
+  * Il libro in breve
+  * Una metafora utile
+  * Cosa il libro NON tratta
+  * Sezioni speciali: _Approfondimenti_, _Nella pratica clinica_, _Errori comuni_
 
 **1. Psicometria per la Neuropsicologia clinica**
 
   * Principi di teoria della misurazione
+  * I test
     * Test di prestazione tipica 
     * Test di prestazione massima
   * Teoria Classica dei test
@@ -72,19 +81,20 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
 
 **2. Identificare Deficit e danni cognitivi**
 
-  * Il concetto di _deficit_ e _danno_ in valutazione dell'adulto
+  * I concetti di _deficit_ e _danno_ in valutazione dell'adulto
   * Il concetto di _deficit_ in età evolutiva
-  * Cut-off clinici e dati normativi
+  * I dati normativi e il _cut-off di normalità_ 
     * Come si ottengono i dati normativi
-    * Cut-off di normalità
-  * Metodi per calcolare i cut-offs
+  * Metodi per calcolare i cut-off di normalità
     * Z-score e percentili
     * Metodi basati su regressione
         * I Punteggi Equivalenti (Capitani, 1987)
-        * Il metodo di Crawford & Howell per il caso singolo
+        * Il metodo di Crawford & Howell (1998) per il caso singolo
     * Altri metodi
+  * Aspetti importanti da considerare nell'utilizzare i dati normativi
   * Approfondimento: Perché usiamo i cut-off basati su soggetti normali?
-  * Approfondimento pratico, il MoCA nella versione originale di Nasreddine
+  * Approfondimento: il MoCA e la sua introduzione in Italia
+  * Nella pratica clinica
   * Errori comuni nell'utilizzo dei cut-offs di normalità
   
 **3. Identificare patologie o condizioni di interesse**
@@ -126,9 +136,9 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Perché _Interpretazione_ e non _Lettura_?
   * L' _Interpretative Approach_ nella pratica clinica
   * Esempi di interpretazione
-    * interpretare test contraddittori
-    * integrare risultati ai test con informazioni qualitative
-    * interpretare casi anomali
+    * Interpretare risultati contraddittori ai test
+    * Integrare i risultati ai test con informazioni qualitative
+    * Interpretare casi anomali
   * Conclusioni: il ruolo fondamentale della/del professionista
   
 **Appendice**

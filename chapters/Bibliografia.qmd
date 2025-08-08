@@ -1,0 +1,9 @@
+---
+nocite: '@*'
+---
+## Bibliografia {.unnumbered}
+
+:::{#refs}
+:::
+
+`\printbibliography[heading=none]`{=latex}

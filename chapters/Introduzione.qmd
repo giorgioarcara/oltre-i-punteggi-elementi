@@ -1,3 +1,7 @@
+---
+suppress-bibliography: true
+---
+
 # Introduzione
 
 ## Il protagonosta del libro: Il test neuropsicologico
@@ -12,12 +16,11 @@ La Psicometria e la statistica (si veda il paragrafo [Definizioni](#Definizioni)
 1. Nella scelta dei test da utilizzare (in generale o per una specifica valutazione)
 2. Nell'interpretare il più correttamente possibile i risultati ad uno o più test somministrati.
 
-Nel [\underline{Capitolo 1}](#Capitolo 1). Psicometria per la Neuropsicologia clinica e Forense]. il libro tratta elementi di base di Psicometria. A partire da cosa si intende per _misurazione_ fino alle principali qualità che definiscono la qualità di un Test e cioè _Validità_ e _Affidabilità_. Usare un Test in maniera consapevole significa anche conoscere quanto fuziona bene in quanto strumento di misurazione. Chiunque debba misurare la temperatura al proprio figlio sa che usare un termometro a gallio (i termometri a mercurio non esistono più), fornisce una misura più precisa di utilizzare un termometro digitale da orecchio. Lo stesso principio dovrebbe valere per i Test Neuropsicologici, dovremmo sempre scegliere quelli che hanno le migliori qualità di misura (o conoscerne quantomeno i limiti). Questo influenza le interpretazioni che possiamo trarne e si studia appunto tramite la conoscenza delle proprietà psicometriche.
+Nel [\underline{Capitolo 1}](#Capitolo-1). Psicometria per la Neuropsicologia clinica e Forense]. il libro tratta elementi di base di Psicometria. A partire da cosa si intende per _misurazione_ fino alle principali qualità che definiscono la qualità di un Test e cioè _Validità_ e _Affidabilità_. Usare un Test in maniera consapevole significa anche conoscere quanto fuziona bene in quanto strumento di misurazione. Chiunque debba misurare la temperatura al proprio figlio sa che usare un termometro a gallio (i termometri a mercurio non esistono più), fornisce una misura più precisa di utilizzare un termometro digitale da orecchio. Lo stesso principio dovrebbe valere per i Test Neuropsicologici, dovremmo sempre scegliere quelli che hanno le migliori qualità di misura (o conoscerne quantomeno i limiti). Questo influenza le interpretazioni che possiamo trarne e si studia appunto tramite la conoscenza delle proprietà psicometriche.
 
-Nel [\underline{Capitolo 2}](#Capitolo-2) si parla di uno dei momenti principali in neuropsicologia forense e clinica e cioè, confrontare il risultato di un test con un valore soglia che ci può indicare se è presente un _deficit_ o un _danno_. Questo avviene tramite l'utilizzo di _dati normativi_ cioè dati ottenuti da soggetti presunti "normali". Il confronto dei dati normativi è fondamentale per la neuropsicologia e per questa ragione è un argomento che sarà molto approfondito. Tra gli approfondimenti sarà specificato perché è cruciale la differenza tra _campione_ e _popolazione_ nell'utilizzo dei dati normativi, quali sono i limiti di utilizzo di metodi molto diffusi (come gli _z-scores_) e come valutare la _rappresentatività_ dei dati normativi. Saranno inoltre approfonditi aspetti pratici di come integrare le conoscenze statistiche approfondite in questo capitolo nella pratica.
+Nel [\underline{Capitolo 2}](#Capitolo-2) si parla di uno dei momenti principali in neuropsicologia forense e clinica e cioè confrontare il risultato di un test con un valore soglia che ci può indicare se è presente un _deficit_ o un _danno_. Questo avviene tramite l'utilizzo di _dati normativi_, dati ottenuti da partecipanti che assumiamo siano "normali". Il confronto dei punteggi con i dati normativi è fondamentale per la neuropsicologia clinica e rappresenta forse il momento più comune di una valutazione neuropsicologica. Per questa ragione è un argomento che sarà molto approfondito. Tra gli argomenti trattati sarà specificato perché è cruciale la differenza tra _campione_ e _popolazione_ nell'utilizzo dei dati normativi, quali sono i limiti di utilizzo di metodi molto diffusi (come gli _z-scores_) e come valutare la _rappresentatività_ dei dati normativi. Saranno inoltre approfonditi aspetti pratici di come integrare le conoscenze statistiche approfondite in questo capitolo nella pratica.
 
-Nel [Capitolo 3](#Capitolo-3)
-CONTINUARE PER CAPITOLO
+Nel [\underline{Capitolo 3}](#Capitolo-3) 
 
 
 ## Una metafora utile
@@ -49,10 +52,17 @@ _In conclusione_
 
 La metafora che ho qui illustrato mi è utile a chiarire il _perché_ è importante conoscere la Psicometria per la pratica in neuropsicologia clinica e forense. Alcune conoscenze di base sono fondamentali per poter utilizzare correttamente i nostri strumenti senza fare errori (nella metafora sarebbe come usare l'acceleratore per frenare). Conoscere meglio il funzionamento dei test ci permette di capire quali sono i loro limiti, specie in situazioni non convenzionali (es. posso utilizzare il mio test se l'età del mio paziente non è rappresentata nel campione normativo?). Non tutti dobbiamo però essere "ingegneri" dei test: non penso affatto sia necessario che per utilizzare in maniera corretta i test sia necessario o imprescindibile conoscere ogni dettaglio tecnico e statistico dello sviluppo. Del resto ci sono specialisti che si occupano di questo. Questo è ciò che normalmente accade in ogni branca clinica o applicativa in cui ci sia utilizzo di strumenti, anche di alta precisione, non è necessario conoscere ogni dettaglio per poterli usare efficacemente.
 
-
 ## Cosa il libro NON tratta
 La guida è essenzialmente focalizzata su utilizzo dei test e quindi su: proprietà psicometriche dei test e quella analisi riferite al caso singolo.
 Non tratta analisi di gruppi di pazienti perché meno rilevante per la neuropsicologia clinica e forense, nella loro pratica professionale. 
 Non tratta inoltra di alcuni aspetti metodologico/statistici fondamentali per la _neuropsicologia cognitiva_ se non hanno rilevanza per la pratica clinica (es. la doppia dissociazione, che implica il confronto di due pazienti con deficit "puri" e che è rilevante per inferenze teoriche).
 Il libro tratta solo in maniera marginale gli aspetti dell'assessment che forniscono informazioni fondementali per una buona valutazione clinica o forense, come l'anamnesi e il colloquio.
-In generale non fornisce informazioni su come condurre in maniera appropriata queste fasi perché di pertinenza più clinica che non psicometrico/statistica. 
+In generale non fornisce informazioni su come condurre in maniera appropriata queste fasi perché di pertinenza più clinica che non psicometrico/statistica. Parte di queste informazioni aggiuntive sono trattate in altri libri a cui ho contribuito
+[@mondini2009valutazione; @mondini2016semeiotica; @mondini2022methodology] `\cite{mondini2009valutazione,mondini2016semeiotica,mondini2022methodology}`{=latex}
+
+
+## Sezioni speciali: _Approfondimenti e curiosità_, _Nella pratica clinica_, _Errori comuni_
+Per facilitare la comprensione di certi concetti il volume contiene delle sezioni speciali che hanno come scopo il trattamento più dettagliato di alcuni aspetti.
+- Le sezioni _Approfondimenti e cuorisità_, come il titolo suggerisce, forniscono un trattamento più dettagliato di alcuni argomenti o curiosità storiche, teoriche, tecniche o di altro tipo.
+- Le sezioni _Nella pratica clinica_, illustrano applicazioni pratiche dei concetti spiegati, fornendo esempi concreti.
+- Le sezioni _Errori comuni_, hanno lo scopo di rafforzare alcuni concetti utilizzando una prospettiva diversa: invece di dire cosa sarebbe corretto fare, sottolineano quali sono degli errori comuni, fornendo motivazioni dettagliate del il perché certi comportamenti sarebbero da considerare appunto errori.

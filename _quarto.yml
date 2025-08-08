@@ -17,13 +17,17 @@ book:
   chapters:
     - index.qmd
     - chapters/Introduzione.qmd
+    - chapters/Bibliografia.qmd
     - part: "Appendici"
       chapters:
       - chapters/Appendici/note-redazione.qmd
       #- chapters/Appendici/elementi-di-statistica.qmd
+  #appendices:
+  #  - chapters/Appendici/note-redazione.qmd
   page-navigation: true
 
 bibliography: references.bib
+csl: apa-6th-edition.csl
 
 format:
   epub:
@@ -46,11 +50,17 @@ format:
     lang: it   # Sets the page language
   pdf:
     keep-tex: true
-    documentclass:  scrbook #book
+    documentclass: scrbook #book
     lang: it
+    citation_package: biblatex
+    citeproc: false
     classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,10pt]
     include-in-header:
       text: |
+        \renewcommand*{\thepart}{} % to avoid numbers in parts
+        \renewcommand*{\partname}{} % to avoid label "Parte"
+        \usepackage[backend=biber,style=apa]{biblatex}
+        \addbibresource{references.bib}  % path corretto al tuo .bib
         \usepackage{fvextra}
         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
         \areaset[0.50in]{4.5in}{8in}
@@ -63,4 +73,7 @@ format:
            breaklines
            % Note: setting commandchars=\\\{\} here will cause an error
         }
+    # include-after-body:
+    #  text: |
+    #    \printbibliography
     fig-pos: 'H'
