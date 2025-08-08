@@ -59,6 +59,7 @@ format:
       text: |
         \renewcommand*{\thepart}{} % to avoid numbers in parts
         \renewcommand*{\partname}{} % to avoid label "Parte"
+        \renewcommand*{\partformat}{}
         \usepackage[backend=biber,style=apa]{biblatex}
         \addbibresource{references.bib}  % path corretto al tuo .bib
         \usepackage{fvextra}

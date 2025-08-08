@@ -49,8 +49,9 @@ Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda l
 :::
 
 ::: {.raw-html}
-<br><br>
+<br /><br />
 :::
+<!-- code above necessary for epub rendering -->
 
 ### Indice Provvisorio
 Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere modificato sulla base dei commenti ricevuti durante il suo sviluppo.
@@ -125,11 +126,12 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * La validità di performance
   * Identificare la simulazione in una valutazione
   
-**7. Il teorema di Bayes e la sua rilevanza applicativa**
+**7. Il teorema di Bayes e la sua rilevanza in clinica**
 
   * Il teorema di Bayes in breve
   * Perché il teorema di Bayes è rilevante in neuropsicologia clinica
   * Perché il teorema di Bayes è rilevante in neuropsicologia forense
+  * Errori comuni: cosa può succedere se non si utilizza il Teorema di Bayes nelle interpretazioni.
 
 **8. Interpretare i risultati ai test neuropsicologici**
 
@@ -139,7 +141,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
     * Interpretare risultati contraddittori ai test
     * Integrare i risultati ai test con informazioni qualitative
     * Interpretare casi anomali
-  * Conclusioni: il ruolo fondamentale della/del professionista
+  * Conclusioni: il ruolo fondamentale della/del professionista nell'utilizzo dei test.
   
 **Appendice**
 
