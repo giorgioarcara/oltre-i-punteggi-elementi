@@ -42,7 +42,7 @@ Se utilizzi o distribuisci il materiale contenuto in questo libro ti prego di ut
 _Giorgio Arcara (2025), "Oltre i punteggi. Elementi di psicometria per la neuropsicologia clinica", rilasciato sotto licenza CC BY-NC-SA 4.0_
 
 Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda la pagina 
-[**Note di redazione**](appendices/note-redazione#note-di-redazione)
+[**Note di redazione**](chapters/Appendici/note-redazione.qmd#note_redazione)
 
 :::{.raw-latex}
 \vspace{2em}

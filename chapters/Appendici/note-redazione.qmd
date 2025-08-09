@@ -1,4 +1,4 @@
-## A1. Note di redazione {.unnumbered}
+## A1. Note di redazione {.unnumbered #note_redazione}
 
 ### Un libro Open
 La decisione di scrivere un libro _Open_ (cioè liberamente scaricabile, modificabile e riutilizzabile) è innanzitutto una scelta ideologica: sono un convinto sostenitore dell’Open Science da oltre quindici anni e ritengo che, per un testo di questo tipo, sia l’opzione più logica. Gran parte dei libri e delle risorse da cui ho appreso i contenuti che propongo in queste pagine erano, o sono tuttora, liberamente accessibili, e considero questa modalità non solo sensata, ma anche eticamente corretta. Oltre alla dimensione ideologica, un libro _Open_ come questo offre ulteriori vantaggi, che verranno illustrati nel paragrafo seguente.
