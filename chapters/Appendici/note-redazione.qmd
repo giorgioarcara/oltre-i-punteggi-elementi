@@ -3,9 +3,51 @@
 ### Un libro Open
 La decisione di scrivere un libro _Open_ (cioè liberamente scaricabile, modificabile e riutilizzabile) è innanzitutto una scelta ideologica: sono un convinto sostenitore dell’Open Science da oltre quindici anni e ritengo che, per un testo di questo tipo, sia l’opzione più logica. Gran parte dei libri e delle risorse da cui ho appreso i contenuti che propongo in queste pagine erano, o sono tuttora, liberamente accessibili, e considero questa modalità non solo sensata, ma anche eticamente corretta. Oltre alla dimensione ideologica, un libro _Open_ come questo offre ulteriori vantaggi, che verranno illustrati nel paragrafo seguente.
 
+### Un libro collaborativo
+Il libro è pensato per essere scritto anche contando sul contributo dei lettori. I contributi possono essere segnalazioni di typos, richiesta di chiarimenti, o di approfondimento, ma sono anche apprezzati anche commenti generali (es. suggerimenti a rimodulare la struttura di un capitolo). Non escludo di includere anche intere sezioni scritte da altre persone, se vorranno contribuire in questa maniera. Ovviamente, se il contributo sarà sostanziale, la persona sarà inserita tra coautori del libro.
+Alla destra di ogni pagina trovi due pulsanti che aiutano per una comunicazione rapida. Nota che per utilizzarli dovrai però creare un account `github`:
+
+- _"Segnala un problema"_  può essere utilizzato per segnalare un errore generale o se vuoi lasciarmi un commento esteso.
+- _"Modifica questa pagina"_ , può essere utilizzato se vuoi dare un contributo più fattivo e direttamente suggerire una correzione. Queste mi verranno segnalato e potrò incorporarle. Puoi utilizzare questo strumento per piccole modifiche, ma se pensi di fare una modifica sostanziale ti chiedo di contattarmi prima e di concordarla. Questo è per rispetto del tuo tempo, nel caso alla fine preferissi non inserire la modifica.
+
+In alternativa a questi, considera sempre che puoi scrivermi una mail a <giorgio.arcara@gmail.com>.
+Se sei pratico di github ovviamente sei invitato ad utilizzarlo, creando una fork e poi aprendo pull request per le modifiche.
+Ricorda che contribuendo accetti che i tuoi testi vengano inclusi sotto la licenza del progetto (CC BY-NC-SA 4.0).
+
+
 ### Un libro in costante miglioramento
 Ho scelto di scrivere un libro in questa modalità, tramite un sito e un .pdf scaricabile associato, perché sono fermamente convinto che (nel 2025, momento in cui sto cominciando a scrivere il volume), bisogna sfruttare tutte le opportunità date dalla tecnologia.
-Psicometria e statistica applicate alla neuropsicologia sono anche discipline in costante crescita e un libro pubblicato tramite canali tradizionali rischierebbe di essere obsoleto in alcune sue parti già al momento della pubblicazione. In questa maniera potrò anche migliorarlo costantemente sulla base dei commenti di lettori, professioniste/i e studenti/studentesse. 
+Psicometria e statistica applicate alla neuropsicologia sono anche discipline in costante crescita e un libro pubblicato tramite canali tradizionali rischierebbe di essere obsoleto in alcune sue parti già al momento della pubblicazione. Usare questo sistema permetterà anche un miglioramento dopo che il libro potrà essere considerato completo.
+Il libro usa una convenzione numerica ispirata al **Semantic Versioning (SemVer)** (sistema di numerazione di versioni dei software), adattato al processo di scrittura.
+
+Il formato è:
+
+```
+vMAJOR.MINOR.PATCH[-fase]
+```
+
+#### Significato delle parti
+- **MAJOR** → Cambia quando viene raggiunta una pietra miliare importante (es. bozza completa, revisione principale, versione finale).
+- **MINOR** → Cambia quando viene aggiunto un nuovo capitolo o una sezione importante, o quando avviene una ristrutturazione significativa del testo.
+- **PATCH** → Cambia per correzioni minori, refusi, aggiustamenti di frasi, formattazione.
+
+#### Etichette di fase
+- **alpha** → Bozza iniziale, non revisionata.
+- **beta** → Contenuti quasi completi, pronti per revisione.
+- **rc** (release candidate) → Testo completo e rivisto, in attesa di pubblicazione.
+- *Nessuna etichetta* → Versione finale.
+
+#### Esempi
+```
+v0.1.0-alpha   # Primo capitolo in bozza
+v0.1.1-alpha   # Piccole correzioni al primo capitolo
+v0.2.0-alpha   # Secondo capitolo in bozza
+v1.0.0-beta    # Bozza del libro completa, in revisione
+v1.0.0         # Prima Versione finale pubblicata
+```
+
+Nota che la numerazione inizia da **0** finché il libro non è completo.
+
 
 ### Una nota sul titolo
 Il titolo del libro _Oltre i punteggi_ è volto a sottolineare la mia posizione sull'importanza di integrare i punteggi ai test con altre informazioni e non penso abbia bisogno di altre spiegazioni. Il sottitolo del libro invece, per precisione, sarebbe dovuto essere "Elementi di psicometria _e statistica_ per la neuropsicologia clinica". Psicometria e statistica sono infatti due discipline separate (per quanto strettamente connesse) ed entrambi i termini avrebbero meritato di essere presenti. La mia scelta è stata solo di escludere il termine statistica per evitare un sottotitolo troppo lungo e di intimorire troppo. Del resto la materia "Psicometria" per come è insegnata all'Università tratta spesso numerosi elementi di statistica.   

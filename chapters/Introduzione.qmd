@@ -74,6 +74,7 @@ In generale non fornisce informazioni su come condurre in maniera appropriata qu
 
 ## Sezioni speciali: _Approfondimenti e curiosità_, _Nella pratica clinica_, _Errori comuni_
 Per facilitare la comprensione di certi concetti il volume contiene delle sezioni speciali che hanno come scopo il trattamento più dettagliato di alcuni aspetti.
-- Le sezioni _Approfondimenti e cuorisità_, come il titolo suggerisce, forniscono un trattamento più dettagliato di alcuni argomenti o curiosità storiche, teoriche, tecniche o di altro tipo.
-- Le sezioni _Nella pratica clinica_, illustrano applicazioni pratiche dei concetti spiegati, fornendo esempi concreti.
-- Le sezioni _Errori comuni_, hanno lo scopo di rafforzare alcuni concetti utilizzando una prospettiva diversa: invece di dire cosa sarebbe corretto fare, sottolineano quali sono degli errori comuni, fornendo motivazioni dettagliate del il perché certi comportamenti sarebbero da considerare appunto errori.
+
+- Le sezioni _"Nella pratica clinica"_, illustrano applicazioni pratiche dei concetti spiegati, fornendo esempi concreti.
+- Le sezioni _"Errori comuni"_, hanno lo scopo di rafforzare alcuni concetti utilizzando una prospettiva diversa: invece di dire cosa sarebbe corretto fare, sottolineano quali sono degli errori comuni, fornendo motivazioni dettagliate del il perché certi comportamenti sarebbero da considerare appunto errori.
+- Le sezioni _"Approfondimenti e cuorisità"_, come il titolo suggerisce, forniscono un trattamento più dettagliato di alcuni argomenti o curiosità storiche, teoriche, tecniche, o di altro tipo.

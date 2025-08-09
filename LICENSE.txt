@@ -1,9 +1,9 @@
-Licenza Creative Commons Attribuzione - Non Commerciale 3.0 Unported (CC BY-NC 3.0)
+Licenza Creative Commons Attribuzione - Non Commerciale - Condividi allo stesso modo 4.0 Internazionale (CC BY-NC-SA 4.0)
 
-Sei libero di:
+Tu sei libero di:
 
 - Condividere — copiare e ridistribuire il materiale in qualsiasi formato o mezzo
-- Modificare — remixare, trasformare e costruire a partire dal materiale
+- Modificare — remixare, trasformare e sviluppare il materiale
 
 Alle seguenti condizioni:
 
@@ -11,13 +11,16 @@ Alle seguenti condizioni:
 
 - Non Commerciale — Non puoi utilizzare il materiale per scopi commerciali.
 
+- Condividi allo stesso modo — Se modifichi, trasformi o sviluppi il materiale, devi distribuire i tuoi contributi con la stessa licenza dell'originale.
+
 Nessuna restrizione ulteriore — Non puoi applicare termini legali o misure tecnologiche che limitino legalmente altri dal fare quanto la licenza consente.
 
-Testo completo della licenza: https://creativecommons.org/licenses/by-nc/3.0/legalcode
+Testo completo della licenza: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.it
+
 
 Attribuzione:
 
 Giorgio Arcara
 2025
 
-Se utilizzi o distribuisci il materiale contenuto in questo libro cita segue:  "Giorgio Arcara (2025), "Guida alla psicometria per la neuropsicologia Clinica e Forense, rilasciato sotto licenza CC BY-NC 3.0"
+Se utilizzi o distribuisci il materiale contenuto in questo libro cita segue:  "Giorgio Arcara (2025), "Guida alla psicometria per la neuropsicologia Clinica e Forense, rilasciato sotto licenza CC BY-NC-SA 4.0"
