@@ -30,7 +30,7 @@ Il [**Capitolo 6**](#Capitolo-6) è dedicato alla _Neuropsicologia Forense_ e in
 
 Nel [**Capitolo 7**](#Capitolo-7) è fornita una breve spiegazione di cosa è il _Teorema di Bayes_ e il perché è rilevante nella pratica clinica. Il capitolo cerca di spiegare in maniera semplice perché questo teorema matematico è uno dei più importanti mai sviluppato e perché ogni neuropsicologa o neuropsicologo dovrebbero consocerlo, quantomeno in maniera intuitiva.
 
-Il [**Capitolo 8**](#Capitolo-8) spiega l'importanza dell' _Interpretazione_ dei test, alla luce di tutte le informazioni disponibili e non solo dei punteggi. IL capitolo spiega inoltra brevemente cosa è l' _Interpretative approach' (tr. "Approccio interpretativo"), un modello di integrazione tra clinica e utilizzo di dati psicometrici proposto da Sara Mondini, Marinella Cappelletti e me, nel 2022.
+Il [**Capitolo 8**](#Capitolo-8) spiega l'importanza dell' _Interpretazione_ dei test, alla luce di tutte le informazioni disponibili e non solo dei punteggi. IL capitolo spiega inoltra brevemente cosa è l' _"Interpretative approach"_ (tr. "Approccio interpretativo"), un modello di integrazione tra clinica e utilizzo di dati psicometrici proposto da Sara Mondini, Marinella Cappelletti e me, nel 2022.
 
 Il Libro contiene anche diverse **Appendici**: la prima chiarisce alcune scelte redazionali, la seconda chiarisce alcuni scelte metodologiche ed epistemologiche del libro ed elenca in dettaglio le definizioni di alcuni termini tecnici utilizzati. L'ultima contiene degli approfondimenti di statistica di base, utili per chi volesse ripassarle.
 
@@ -68,8 +68,8 @@ La guida è essenzialmente focalizzata su utilizzo dei test e quindi su: proprie
 Non tratta analisi di gruppi di pazienti perché meno rilevante per la neuropsicologia clinica e forense, nella loro pratica professionale. 
 Non tratta inoltra di alcuni aspetti metodologico/statistici fondamentali per la _neuropsicologia cognitiva_ se non hanno rilevanza per la pratica clinica (es. la doppia dissociazione, che implica il confronto di due pazienti con deficit "puri" e che è rilevante per inferenze teoriche).
 Il libro tratta solo in maniera marginale gli aspetti dell'assessment che forniscono informazioni fondementali per una buona valutazione clinica o forense, come l'anamnesi e il colloquio.
-In generale non fornisce informazioni su come condurre in maniera appropriata queste fasi perché di pertinenza più clinica che non psicometrico/statistica. Parte di queste informazioni aggiuntive sono trattate in altri libri a cui ho contribuito
-[@mondini2009valutazione; @mondini2016semeiotica; @mondini2022methodology] `\cite{mondini2009valutazione,mondini2016semeiotica,mondini2022methodology}`{=latex}
+In generale non fornisce informazioni su come condurre in maniera appropriata queste fasi perché di pertinenza più clinica che non psicometrico/statistica. Parte di queste informazioni aggiuntive sono trattate in altri libri a cui ho contribuito `(\cite{mondini2009valutazione,mondini2016semeiotica,mondini2022methodology})`{=latex}
+`(Mondini, Mapelli, & Arcara 2009); Mondini, Mapelli & Arcara, 2016, Mondini, Cappelletti, & Arcara, 2022)`{=html}
 
 
 ## Sezioni speciali: _Approfondimenti e curiosità_, _Nella pratica clinica_, _Errori comuni_
