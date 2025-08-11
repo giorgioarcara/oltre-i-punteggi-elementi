@@ -65,6 +65,9 @@ format:
         \usepackage{fvextra}
         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
         \areaset[0.50in]{4.5in}{8in}
+        %\usepackage{fontspec}
+        %\newfontfamily\headingfont{Alegreya}
+
     include-before-body:
       text: |
         \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
@@ -74,7 +77,9 @@ format:
            breaklines
            % Note: setting commandchars=\\\{\} here will cause an error
         }
-    # include-after-body:
-    #  text: |
-    #    \printbibliography
+    include-after-body:
+      text: |
+        %\setkomafont{section}{\headingfont\bfseries\Large}
+        %\setkomafont{subsection}{\headingfont\bfseries\large}
+        %\printbibliography
     fig-pos: 'H'
