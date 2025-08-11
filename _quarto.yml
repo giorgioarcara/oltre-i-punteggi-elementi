@@ -65,8 +65,12 @@ format:
         \usepackage{fvextra}
         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
         \areaset[0.50in]{4.5in}{8in}
+        \usepackage{tgheros} % load the font
+        \setkomafont{section}{\sffamily\bfseries\Large}
+        \setkomafont{subsection}{\sffamily\bfseries\large}
         %\usepackage{fontspec}
         %\newfontfamily\headingfont{Alegreya}
+        
 
     include-before-body:
       text: |
