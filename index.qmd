@@ -2,6 +2,11 @@
 suppress-bibliography: true
 ---
 
+::: {.only-html}
+![](Figures/cover-html.png){style="width:100%; height:auto; display:block; margin:auto;"}
+:::
+
+
 ## Premesse {.unnumbered}
 ```{r, include = FALSE}
 knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
@@ -10,6 +15,7 @@ knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 ```{r, echo=FALSE}
 cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.0.1-alpha"))
 ```
+
 
 ### Obiettivo del libro
 Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica neuropsicologica. Pur avendo questo principale focus, il libro contiene anche delle sezioni dedicate alle applicazioni nell'ambito della neuropsicologia forense e alla psicologia clinica in generale. 
