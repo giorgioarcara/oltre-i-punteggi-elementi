@@ -67,6 +67,10 @@ format:
         \areaset[0.50in]{4.5in}{8in}
         %\usepackage{fontspec}
         %\newfontfamily\headingfont{Alegreya}
+        \usepackage{pdfpages}
+        % Redefine \maketitle to do nothing
+        \renewcommand{\maketitle}{}
+
 
     include-before-body:
       text: |
@@ -77,6 +81,7 @@ format:
            breaklines
            % Note: setting commandchars=\\\{\} here will cause an error
         }
+        \includepdf[pages=1,fitpaper=true]{Figures/Cover.pdf}
     include-after-body:
       text: |
         %\setkomafont{section}{\headingfont\bfseries\Large}
