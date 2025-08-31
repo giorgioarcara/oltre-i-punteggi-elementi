@@ -62,7 +62,7 @@ Sistemi di AI (e in particolare ChatGPT) sono stati utilizzati per i seguenti sc
 
 * revisione del testo (per typos o miglioramento chiarezza di alcune frasi)
 * supporto nel codice per generare il libro (Quarto e i linguaggi associati).
-* generazioni di alcune immagini esemplificativi (questo per evitare problemi di immagini con copyright).
+* generazioni di alcune immagini esemplificative o per l'immagine di copertina (questo per evitare problemi di immagini con copyright).
 * supporto nella generazione di codice `R` per alcuni esempi.
 
 In ogni caso, mi prendo ogni responsabilità di errori legati all'utilizzo di sistemi di AI.
