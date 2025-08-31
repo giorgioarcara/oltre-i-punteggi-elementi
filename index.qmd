@@ -2,7 +2,7 @@
 suppress-bibliography: true
 ---
 
-`![](Figures/cover-html.png){style="width:100%; height:auto; display:block; margin:auto;"}`{=html}
+`<img src="Figures/cover-html.png" style="width:100%; height:auto; display:block; margin:auto;" />`{=html}
 
 ## Premesse {.unnumbered}
 ```{r, include = FALSE}
