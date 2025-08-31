@@ -21,6 +21,7 @@ book:
     - part: "Appendici"
       chapters:
       - chapters/Appendici/note-redazione.qmd
+      - chapters/Appendici/registro-aggiornamenti.qmd
       #- chapters/Appendici/elementi-di-statistica.qmd
   #appendices:
   #  - chapters/Appendici/note-redazione.qmd
@@ -54,7 +55,8 @@ format:
     lang: it
     citation_package: biblatex
     citeproc: false
-    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,10pt]
+    classoption: [paper=A4, headinclude=on,footinclude=on,12pt]
+    #classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,10pt]
     include-in-header:
       text: |
         \renewcommand*{\thepart}{} % to avoid numbers in parts
