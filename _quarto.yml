@@ -64,6 +64,7 @@ format:
         \SetWatermarkText{BOZZA}
         \SetWatermarkScale{1.5} % bigger/smaller watermark
         \SetWatermarkLightness{0.95} % 0=black, 1=white (default 0.8)
+        \usepackage{datetime}
         \renewcommand*{\thepart}{} % to avoid numbers in parts
         \renewcommand*{\partname}{} % to avoid label "Parte"
         \renewcommand*{\partformat}{}
@@ -91,6 +92,13 @@ format:
         \includepdf[pages=1,fitpaper=true]{Figures/Cover.pdf}
     include-after-body:
       text: |
+        \begin{center}
+        {\Large
+        \textit{Questo è un libro in scrittura continua.}\\
+        Per aggiornamenti visita: \url{https://giorgioarcara.github.io}\\
+        Ultimo rendering: \today\  \currenttime
+        }
+        \end{center}
         %\setkomafont{section}{\headingfont\bfseries\Large}
         %\setkomafont{subsection}{\headingfont\bfseries\large}
         %\printbibliography
