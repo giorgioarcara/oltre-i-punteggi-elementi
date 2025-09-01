@@ -60,6 +60,10 @@ format:
     include-in-header:
       text: |
         \KOMAoptions{DIV=12, BCOR=10mm, headings=standardclasses}
+        \usepackage{draftwatermark}
+        \SetWatermarkText{BOZZA}
+        \SetWatermarkScale{1.5} % bigger/smaller watermark
+        \SetWatermarkLightness{0.95} % 0=black, 1=white (default 0.8)
         \renewcommand*{\thepart}{} % to avoid numbers in parts
         \renewcommand*{\partname}{} % to avoid label "Parte"
         \renewcommand*{\partformat}{}

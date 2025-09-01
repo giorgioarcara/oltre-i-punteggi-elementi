@@ -1,9 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'Oltre-i-punteggi.blg'
-[37] biber-darwin:340> INFO - === Fri Aug  8, 2025, 09:59:51
-[47] Biber.pm:419> INFO - Reading 'Oltre-i-punteggi.bcf'
-[98] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[111] bbl.pm:660> INFO - Writing 'Oltre-i-punteggi.bbl' with encoding 'UTF-8'
-[111] bbl.pm:763> INFO - Output to Oltre-i-punteggi.bbl
-[111] Biber.pm:131> WARN - The file 'Oltre-i-punteggi.bcf' does not contain any citations!
-[111] Biber.pm:133> INFO - WARNINGS: 1
