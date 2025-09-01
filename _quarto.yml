@@ -59,6 +59,7 @@ format:
     #classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,10pt]
     include-in-header:
       text: |
+        \KOMAoptions{DIV=12, BCOR=10mm, headings=standardclasses}
         \renewcommand*{\thepart}{} % to avoid numbers in parts
         \renewcommand*{\partname}{} % to avoid label "Parte"
         \renewcommand*{\partformat}{}
@@ -66,7 +67,7 @@ format:
         \addbibresource{references.bib}  % path corretto al tuo .bib
         \usepackage{fvextra}
         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-        \areaset[0.50in]{4.5in}{8in}
+        %\areaset[0.50in]{4.5in}{8in} uncomment for default Koma option according to template
         %\usepackage{fontspec}
         %\newfontfamily\headingfont{Alegreya}
         \usepackage{pdfpages}
