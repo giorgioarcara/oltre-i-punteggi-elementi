@@ -36,8 +36,7 @@ format:
       true
     lang:
       it
-    date:
-      "2023-10-19"
+    date: today
     css:
       epub.css
   html:
@@ -49,6 +48,13 @@ format:
     css:
       html.css
     lang: it   # Sets the page language
+    include-after-body:
+      text: |
+        <div style="margin-top:2em; font-size:0.9em; text-align:center; color:gray;">
+        Questo è un libro in scrittura continua.<br>
+        Per aggiornamenti visita: <a href="https://giorgioarcara.github.io">giorgioarcara.github.io</a><br>
+        Ultimo rendering: {{< meta todaytime >}}
+        </div>
   pdf:
     keep-tex: true
     documentclass: scrbook #book
