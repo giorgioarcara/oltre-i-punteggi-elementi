@@ -2,20 +2,24 @@
 suppress-bibliography: true
 ---
 
-## Premesse {.unnumbered}
-```{r, include = FALSE}
-knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
-```
+`<img src="Figures/cover-html.png" style="width:100%; height:auto; display:block; margin:auto;" />`{=html}
 
 ```{r, echo=FALSE}
 cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.0.1-alpha"))
 ```
 
+
+## Premesse {.unnumbered}
+```{r, include = FALSE}
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+
 ### Obiettivo del libro
-Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica neuropsicologica. Pur essendo principalmente focalizzato sulla neuropsicologia clinica, contiene anche delle sezioni dedicate alle applicazioni nell'ambito della neuropsicologia forense e alla psicologia clinica in generale. 
-Nel corso dei suoi capitoli sono trattati diversi aspetti psicometrici e statistici in un modo che cerca di essere semplice e accessibile, cercando di non banalizzare la complessità degli argomenti trattati. 
-A differenza di altri testi di psicometria disponibili, il libro si focalizza specificamente su come le conoscenze di psicometria e statistica possano (e debbano) essere incorporate nella pratica clinica. 
-Al momento iniziale di scrittura di questo libro è in programma la scrittura di due volumi, separati ma strettamente connessi. Uno (quello presente) è destinato a chi si occupa di clinica: contiene tutti gli elementi fondamentali, ma evita approfondimenti relativi alle formule e non scende nei dettagli più tecnici. Il secondo, più specialistico, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia conoscere più in dettaglio gli psicometrici e statistici rilevanti per la neuropsicologia clinica. Quest'ultimo volume sarà dedicato anche a chi voglia effettuare attività di ricerca nell'ambito e conterrà codice in `R` per approfondire gli argomenti esplorati, 
+Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica neuropsicologica. Pur avendo questo principale focus, il libro contiene anche delle sezioni dedicate alle applicazioni nell'ambito della neuropsicologia forense e alla psicologia clinica in generale. 
+Nel corso dei suoi capitoli sono trattati diversi aspetti psicometrici e statistici in una maniera che cerca di essere il più possibile accessibile e basata su esempi, senza però banalizzare la complessità degli argomenti trattati. 
+A differenza di altri testi di psicometria disponibili, il libro si focalizza specificamente sull' __applicazione pratica__ delle conoscenze psicometriche e statistiche. 
+Al momento iniziale di scrittura di questo libro è in programma la scrittura di due volumi, separati ma strettamente connessi. Il primo (quello presente) è destinato proprio a chi si occupa di clinica: contiene tutti gli elementi fondamentali, ma evita approfondimenti relativi alle formule e non scende nei dettagli più tecnici. Il secondo, più specialistico, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia conoscere più in dettaglio gli psicometrici e statistici rilevanti per la neuropsicologia clinica. Quest'ultimo volume sarà dedicato anche a chi voglia effettuare attività di ricerca nell'ambito e conterrà codice in `R` per approfondire gli argomenti esplorati, 
 
 ### Contribuire a questo libro
 Questo libro è pensato per professioniste/i (principalmente neuropsicologhe/i cliniche/i e forensi) e idealmente è anche _sviluppato insieme a loro_ in maniera collaborativa. Se hai un suggerimento su un argomento da trattare, su come migliorare una spiegazione, se vuoi segnalare un errore di battitura o in generale per qualsiasi consiglio, puoi usare i pulsanti _"Segnala un problema"_ e _"Modifica questa pagina"_ che trovi a destra nella versione web del libro. In alternativa puoi scrivermi una mail a <giorgio.arcara@gmail.com> . Cercherò di integrare ogni segnalazione/richiesta e il tuo nome verrà inserito all'interno dei ringraziamenti del libro per riconoscere il tuo contributo.
@@ -42,7 +46,7 @@ Se utilizzi o distribuisci il materiale contenuto in questo libro ti prego di ut
 _Giorgio Arcara (2025), "Oltre i punteggi. Elementi di psicometria per la neuropsicologia clinica", rilasciato sotto licenza CC BY-NC-SA 4.0_
 
 Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda la pagina 
-[**Note di redazione**](chapters/Appendici/note-redazione.qmd#a1.note-di-redazione)
+[**Note di redazione**](chapters/Appendici/note-redazione.qmd#note_redazione)
 
 :::{.raw-latex}
 \vspace{2em}
@@ -142,6 +146,10 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
     * Integrare i risultati ai test con informazioni qualitative
     * Interpretare casi anomali
   * Conclusioni: il ruolo fondamentale della/del professionista nell'utilizzo dei test.
+  
+**9. Epistemologia della Neuropsicologia Clinica**
+ * Perché è importante un capitolo sull'Epistemologia?
+ * Metodologia ed Epistemologia
   
 **Appendice**
 
