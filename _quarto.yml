@@ -47,7 +47,7 @@ format:
       light: flatly
       dark: solar
     css:
-      epub.css
+      html.css
     lang: it   # Sets the page language
   pdf:
     keep-tex: true
