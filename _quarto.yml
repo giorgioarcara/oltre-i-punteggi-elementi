@@ -71,6 +71,10 @@ format:
         \SetWatermarkScale{1.5} % bigger/smaller watermark
         \SetWatermarkLightness{0.95} % 0=black, 1=white (default 0.8)
         \usepackage{datetime}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyfoot{} % clear existing footer
+        \fancyfoot[C]{\footnotesize \textit{Questo è un libro in scrittura continua. Ultimo rendering: \today\ \currenttime}}
         \renewcommand*{\thepart}{} % to avoid numbers in parts
         \renewcommand*{\partname}{} % to avoid label "Parte"
         \renewcommand*{\partformat}{}
@@ -84,7 +88,6 @@ format:
         \usepackage{pdfpages}
         % Redefine \maketitle to do nothing
         \renewcommand{\maketitle}{}
-
 
     include-before-body:
       text: |
