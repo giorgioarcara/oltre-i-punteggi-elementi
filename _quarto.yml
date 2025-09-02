@@ -18,9 +18,11 @@ book:
     - index.qmd
     - chapters/Introduzione.qmd
     - chapters/Bibliografia.qmd
+    - chapters/Temp.qmd
     - part: "Appendici"
       chapters:
       - chapters/Appendici/note-redazione.qmd
+      - chapters/Appendici/registro-aggiornamenti.qmd
       #- chapters/Appendici/elementi-di-statistica.qmd
   #appendices:
   #  - chapters/Appendici/note-redazione.qmd
@@ -35,8 +37,7 @@ format:
       true
     lang:
       it
-    date:
-      "2023-10-19"
+    date: today
     css:
       epub.css
   html:
@@ -46,17 +47,35 @@ format:
       light: flatly
       dark: solar
     css:
-      epub.css
+      html.css
     lang: it   # Sets the page language
+    include-after-body:
+      text: |
+        <div style="margin-top:2em; font-size:0.9em; text-align:center; color:gray;">
+        Questo è un libro in fase di scrittura.<br>
+        Per aggiornamenti visita: <a href="https://giorgioarcara.github.io/oip-book">giorgioarcara.github.io/oip-book</a><br>
+        Ultimo aggiornamento: {{< meta todaytime >}}
+        </div>
   pdf:
     keep-tex: true
     documentclass: scrbook #book
     lang: it
     citation_package: biblatex
     citeproc: false
-    classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,10pt]
+    classoption: [paper=A4, headinclude=on,footinclude=on,12pt]
+    #classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,10pt]
     include-in-header:
       text: |
+        \KOMAoptions{DIV=12, BCOR=10mm, headings=standardclasses}
+        \usepackage{draftwatermark}
+        \SetWatermarkText{BOZZA}
+        \SetWatermarkScale{1.5} % bigger/smaller watermark
+        \SetWatermarkLightness{0.95} % 0=black, 1=white (default 0.8)
+        \usepackage{datetime}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyfoot{} % clear existing footer
+        \fancyfoot[C]{\footnotesize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}. \\ Per aggiornamenti visita: \url{giorgioarcara.github.io/oip-book}}
         \renewcommand*{\thepart}{} % to avoid numbers in parts
         \renewcommand*{\partname}{} % to avoid label "Parte"
         \renewcommand*{\partformat}{}
@@ -64,7 +83,13 @@ format:
         \addbibresource{references.bib}  % path corretto al tuo .bib
         \usepackage{fvextra}
         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-        \areaset[0.50in]{4.5in}{8in}
+        %\areaset[0.50in]{4.5in}{8in} uncomment for default Koma option according to template
+        %\usepackage{fontspec}
+        %\newfontfamily\headingfont{Alegreya}
+        \usepackage{pdfpages}
+        % Redefine \maketitle to do nothing
+        \renewcommand{\maketitle}{}
+
     include-before-body:
       text: |
         \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
@@ -74,7 +99,17 @@ format:
            breaklines
            % Note: setting commandchars=\\\{\} here will cause an error
         }
-    # include-after-body:
-    #  text: |
-    #    \printbibliography
+        \includepdf[pages=1,fitpaper=true]{Figures/Cover.pdf}
+    include-after-body:
+      text: |
+        %\begin{center}
+        %{\Large
+        %\textit{Questo è un libro in fase di scrittura.}\\
+        %Per aggiornamenti visita: \url{https://giorgioarcara.github.io/oip-book}\\
+        %Ultimo rendering: \today\  \currenttime
+        %}
+        %\end{center}
+        %\setkomafont{section}{\headingfont\bfseries\Large}
+        %\setkomafont{subsection}{\headingfont\bfseries\large}
+        %\printbibliography
     fig-pos: 'H'
