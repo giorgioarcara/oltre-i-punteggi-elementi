@@ -18,6 +18,7 @@ book:
     - index.qmd
     - chapters/Introduzione.qmd
     - chapters/Bibliografia.qmd
+    - chapters/Temp.qmd
     - part: "Appendici"
       chapters:
       - chapters/Appendici/note-redazione.qmd
@@ -51,8 +52,8 @@ format:
     include-after-body:
       text: |
         <div style="margin-top:2em; font-size:0.9em; text-align:center; color:gray;">
-        Questo è un libro in scrittura continua.<br>
-        Per aggiornamenti visita: <a href="https://giorgioarcara.github.io/oip-book">giorgioarcara.github.io</a><br>
+        Questo è un libro in fase di scrittura.<br>
+        Per aggiornamenti visita: <a href="https://giorgioarcara.github.io/oip-book">giorgioarcara.github.io/oip-book</a><br>
         Ultimo aggiornamento: {{< meta todaytime >}}
         </div>
   pdf:
@@ -74,7 +75,7 @@ format:
         \usepackage{fancyhdr}
         \pagestyle{fancy}
         \fancyfoot{} % clear existing footer
-        \fancyfoot[C]{\footnotesize \textit{Questo è un libro in scrittura continua. Ultimo rendering: \today\ \currenttime}}
+        \fancyfoot[C]{\footnotesize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}. \\ Per aggiornamenti vedi \url{giorgioarcara.github.io/oip-book}}
         \renewcommand*{\thepart}{} % to avoid numbers in parts
         \renewcommand*{\partname}{} % to avoid label "Parte"
         \renewcommand*{\partformat}{}
@@ -101,13 +102,13 @@ format:
         \includepdf[pages=1,fitpaper=true]{Figures/Cover.pdf}
     include-after-body:
       text: |
-        \begin{center}
-        {\Large
-        \textit{Questo è un libro in scrittura continua.}\\
-        Per aggiornamenti visita: \url{https://giorgioarcara.github.io/oip-book}\\
-        Ultimo rendering: \today\  \currenttime
-        }
-        \end{center}
+        %\begin{center}
+        %{\Large
+        %\textit{Questo è un libro in fase di scrittura.}\\
+        %Per aggiornamenti visita: \url{https://giorgioarcara.github.io/oip-book}\\
+        %Ultimo rendering: \today\  \currenttime
+        %}
+        %\end{center}
         %\setkomafont{section}{\headingfont\bfseries\Large}
         %\setkomafont{subsection}{\headingfont\bfseries\large}
         %\printbibliography
