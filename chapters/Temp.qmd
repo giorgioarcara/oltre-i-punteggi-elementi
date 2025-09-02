@@ -5,6 +5,6 @@ suppress-bibliography: true
 
 # Lavoro in fase di sviluppo {.unnumbered}
 
-`\begin{center}{\Large \textcolor{gray}{\textbf{Questo Libro è in fase di scrittura,\\ per versioni aggiornate visita il sito\\ \url{giorgioarcara.github.io/oip-book}}}\end{center}`{=latex}
+`\begin{center}{\Large \textcolor{gray}{\textbf{Questo Libro è in fase di scrittura,\\ per versioni aggiornate visita il sito\\ \url{giorgioarcara.github.io/oip-book}}}}\end{center}`{=latex}
 
 `<span style="color:gray; font-weight:bold; font-size:1.5em;"> Questo Libro è in fase di scrittura, per versioni aggiornate visita il sito  <a href="https://giorgioarcara.github.io/oip-book">giorgioarcara.github.io/oip-book</a> </span>`{=html}

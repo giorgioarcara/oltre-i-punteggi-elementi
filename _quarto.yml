@@ -75,7 +75,8 @@ format:
         \usepackage{fancyhdr}
         \pagestyle{fancy}
         \fancyfoot{} % clear existing footer
-        \fancyfoot[C]{\footnotesize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}. \\ Per aggiornamenti visita: \url{giorgioarcara.github.io/oip-book}}
+        \fancyfoot[C]{\footnotesize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}.
+        \\ Per aggiornamenti visita: \url{giorgioarcara.github.io/oip-book}}
         \renewcommand*{\thepart}{} % to avoid numbers in parts
         \renewcommand*{\partname}{} % to avoid label "Parte"
         \renewcommand*{\partformat}{}

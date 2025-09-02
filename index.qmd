@@ -5,7 +5,7 @@ suppress-bibliography: true
 `<img src="Figures/cover-html.png" style="width:100%; height:auto; display:block; margin:auto;" />`{=html}
 
 ```{r, echo=FALSE}
-cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.0.1-alpha"))
+cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.0.1"))
 ```
 
 
