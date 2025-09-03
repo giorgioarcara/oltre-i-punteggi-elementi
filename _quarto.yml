@@ -10,7 +10,7 @@ book:
   author: "Giorgio Arcara"
   date: today
   search: true
-  repo-url: "https://github.com/giorgioarcara/psicometria-pratica-clinica"
+  repo-url: "https://github.com/giorgioarcara/oltre-i-punteggi-elementi"
   repo-actions: [issue, edit]
   sharing: [twitter, facebook]
   downloads: [pdf, epub]
