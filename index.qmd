@@ -19,7 +19,7 @@ knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica neuropsicologica. Oltre a questo principale focus, il libro contiene anche delle sezioni dedicate alle applicazioni nell'ambito della neuropsicologia forense e alla psicologia clinica in generale. 
 Nel corso dei suoi capitoli sono trattati diversi aspetti psicometrici e statistici in una maniera che cerca di essere il più possibile accessibile e basata su esempi concreti, senza però banalizzare la complessità degli argomenti trattati. 
 A differenza di altri testi di psicometria disponibili, il libro si focalizza specificamente sull' __applicazione pratica__ delle conoscenze psicometriche e statistiche. 
-Al momento iniziale di scrittura di questo libro è in programma la scrittura di due volumi, separati ma strettamente connessi. Il primo (quello presente) è destinato proprio a chi si occupa di clinica: contiene tutti gli elementi fondamentali, ma evita approfondimenti relativi alle formule e non scende nei dettagli più tecnici. Il secondo, più specialistico, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia conoscere più in dettaglio gli psicometrici e statistici rilevanti per la neuropsicologia clinica. Quest'ultimo volume sarà dedicato anche a chi voglia effettuare attività di ricerca nell'ambito e conterrà codice in `R` per approfondire gli argomenti esplorati, 
+Al momento iniziale di scrittura di questo libro è in programma la scrittura di due volumi, separati ma strettamente connessi. Il primo (quello presente) è destinato proprio a chi si occupa di clinica: contiene tutti gli elementi fondamentali, ma evita approfondimenti relativi alle formule e non scende nei dettagli più tecnici. Il secondo, più specialistico, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia conoscere più in dettaglio gli aspetti psicometrici e statistici rilevanti per la neuropsicologia clinica. Quest'ultimo volume sarà dedicato anche a chi voglia effettuare attività di ricerca nell'ambito e conterrà codice in `R` per approfondire gli argomenti esplorati, 
 
 ### Contribuire a questo libro
 Questo libro è pensato per professioniste/i (principalmente neuropsicologhe/i cliniche/i e forensi) e idealmente è anche _sviluppato insieme a loro_ in maniera collaborativa. Se hai un suggerimento su un argomento da trattare, su come migliorare una spiegazione, se vuoi segnalare un errore di battitura o in generale per qualsiasi consiglio, puoi usare i pulsanti _"Segnala un problema"_ e _"Modifica questa pagina"_ che trovi a destra nella versione web del libro. In alternativa puoi scrivermi una mail a <giorgio.arcara@gmail.com> . Cercherò di integrare ogni segnalazione/richiesta e il tuo nome verrà inserito all'interno dei ringraziamenti del libro per riconoscere il tuo contributo.
@@ -40,7 +40,7 @@ Tutto il materiale è infatti rilasciato con licenza Creative Commons 4.0 [CC BY
 
 ![](Figures/CC_license_3_0.png){width="25%"}
 
-Con questa licenza sei libera/o di scaricare, stampare e distribuire questa guida Puoi anche copiare parte dei contenuti e modificarli e utilizzarli per altri libri o presentazioni, purché sia citata la fonte di orgine. Al momento della scrittura sto valutando se metterlo anche in vendita tramite una piattaforma online, ma questo non toglie che la versione online sarà sempre gratuita.
+Con questa licenza sei libera/o di scaricare, stampare e distribuire questa guida. Puoi anche copiare parte dei contenuti e modificarli e utilizzarli per altri libri o presentazioni, purché sia citata la fonte di orgine. Al momento della scrittura sto valutando se metterlo anche in vendita tramite una piattaforma online, ma questo non toglie che la versione online sarà sempre gratuita.
 Se utilizzi o distribuisci il materiale contenuto in questo libro ti prego di utilizzare la seguente citazione:  
 
 _Giorgio Arcara (2025), "Oltre i punteggi. Elementi di psicometria per la neuropsicologia clinica", rilasciato sotto licenza CC BY-NC-SA 4.0_
@@ -62,7 +62,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
 
 **Introduzione**
 
-  * Il protagonosta del libro: Il test neuropsicologico
+  * Il protagonista del libro: Il test neuropsicologico
   * Il libro in breve
   * Una metafora utile
   * Cosa il libro NON tratta
