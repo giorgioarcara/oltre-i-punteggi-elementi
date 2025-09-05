@@ -1,10 +1,9 @@
 ## A2. Registro aggiornamenti {.unnumbered #registro_aggiornamenti}
 
-### v0.0.1-alpha - 31/08/2025
+### v0.0.1 - 5/09/2025
 Rilasciata versione iniziale del libro che include:
 
 - Premesse
 - Introduzione
 - Appendici A1 e A2.
-
 

@@ -6,7 +6,7 @@ filters:
 
 book:
   title: "Oltre i punteggi"
-  subtitle: "Elementi di psicometria per la neuropsicologia clinica"
+  subtitle: "Elementi di psicometria e statistica per la neuropsicologia clinica"
   author: "Giorgio Arcara"
   date: today
   search: true
@@ -99,7 +99,7 @@ format:
            breaklines
            % Note: setting commandchars=\\\{\} here will cause an error
         }
-        \includepdf[pages=1,fitpaper=true]{Figures/Cover.pdf}
+        \includepdf[pages=1,fitpaper=true]{Figures/Cover2.pdf}
     include-after-body:
       text: |
         %\begin{center}
