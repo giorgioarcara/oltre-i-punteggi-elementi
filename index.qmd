@@ -152,9 +152,11 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
  * Perché è importante un capitolo sull'Epistemologia?
  * Metodologia ed Epistemologia
   
-**Appendice**
+**Appendici**
 
+  * Note di redazione
   * Definizioni
+  * Registro aggiornamenti
   * Statistica di base per la neuropsicologia clinica
     * Elementi di probabilità
     * Campione e popolazione (approfondimento)
