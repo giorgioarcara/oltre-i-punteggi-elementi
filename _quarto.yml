@@ -23,6 +23,7 @@ book:
       chapters:
       - chapters/Appendici/note-redazione.qmd
       - chapters/Appendici/registro-aggiornamenti.qmd
+      - chapters/Appendici/definizioni.qmd
       #- chapters/Appendici/elementi-di-statistica.qmd
   #appendices:
   #  - chapters/Appendici/note-redazione.qmd
