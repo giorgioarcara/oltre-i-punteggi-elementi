@@ -103,6 +103,10 @@ format:
         \includepdf[pages=1,fitpaper=true]{Figures/Cover2.pdf}
     include-after-body:
       text: |
+        \clearpage
+        \ifodd\value{page}\hbox{}\newpage\fi
+        % Insert the back cover PDF, full page
+        \includepdf[pages=-,fitpaper]{Figures/Quarta.pdf}
         %\begin{center}
         %{\Large
         %\textit{Questo è un libro in fase di scrittura.}\\
