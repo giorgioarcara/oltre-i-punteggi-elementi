@@ -17,6 +17,7 @@ book:
   chapters:
     - index.qmd
     - chapters/Introduzione.qmd
+    - chapters/Misurazione.qmd
     - chapters/Bibliografia.qmd
     - chapters/Temp.qmd
     - part: "Appendici"

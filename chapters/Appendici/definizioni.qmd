@@ -15,3 +15,5 @@ La statistica è quella disciplina che studia la raccolta, descrizione, analisi 
 
 _Nota_: è importante conoscere la statistica non solo perché essa viene utilizzata abbondantemente in psicometria, ma anche perché certi aspetti rilevanti per le interpretazioni di test neuropsicologici sono meramente statistici (e non psicometrici, secondo la definizione di "psicometria" riportata sopra). Ad esempio stimare le probabilità di classificare un paziente come a rischio di Alzheimer a partire da dati biologici e anamnestici non prevede misurazioni di costrutti psicologici e quindi non è pertinenza delle psicometria.
 
+#### Valutazione neuropsicologica
+La valutazione neuropsicologica è un esame clinico in cui si cerca di ottenere informazioni sullo stato cognitivo di un individuo a fini diagnostici, prognostici o riabilitativi. Essa consiste in genere in raccolta di dati anamnestici, un colloquio e la somministrazione di test standardizzati. Tutte queste informazioni sono integrate per stilare un referto neuropsicologico.
