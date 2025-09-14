@@ -29,9 +29,9 @@ Immaginate i quattro scenari descritti nella tabella sotto che corrispondono a q
 :Quattro diversi centri clinici tra cui scegliere.
 
 <br>
-Penso che chiunque e senza dubbi, se potesse scegliere a parità di altre condizioni tra questi centri, sceglierebbe il Centro A. Ho usato questo stratagemma retorico per chiarire un principio di base e la sua motivazione: utilizzare strumenti precisi e utilizzarli bene è fondamentale, ma non è certamente tutto. Le competenze cliniche in alcuni casi possono anche sopperire in maniera importante eventuali carenze nell'utilizzo dei test e dei punteggi. A parità però di competenze cliniche, tutti sceglieremmo chi utilizza i test migliori. 
-Conoscere la psicometria e la statistica per chi fa neuropsicologia dovrebbe avere proprio questo scopo, effettuare valutazioni migliori. Non voglio però suggerire che sia utile o importante fare confronti tra professioniste e professionisti in una sorta di gara. Il confronto dovrebbe essere piuttosto con se stessi. 
-In breve, visto che utilizzo dei test e misurazione sono così importanti nella neuropsicologia clinica, usare i test migliori e utilizzarli nel modo più corretto può essere la chiave per diventare diventare una _versione migliore di sè stessi, in quanto professionisti_. 
+Penso che chiunque e senza dubbi, se potesse scegliere a parità di altre condizioni tra questi centri, sceglierebbe il Centro A. Ho usato questo stratagemma retorico per chiarire un principio di base e la sua motivazione: utilizzare strumenti precisi e utilizzarli bene è fondamentale, ma non è certamente tutto. Le competenze cliniche in alcuni casi possono anche sopperire in maniera importante eventuali carenze nell'utilizzo dei test e dei punteggi. A parità però di competenze cliniche, tutti sceglieremmo chi utilizza i test migliori e nella maniera più appropriata. 
+È importante sottolineare che nell'esempio sopra non si parla soltanto di usare strumenti accurati, ma anche di _saperli usare correttamente_. Questo è un piccolo dettaglio con implicazioni molto importanti (e che saranno trattate ampiamente nel libro). Non si tratta solo di scegliere i test migliori, ma anche di usarli nella maniera più appropriata.
+In sostanza, conoscere la psicometria e la statistica per chi fa neuropsicologia dovrebbe avere lo scopo finale di effettuare valutazioni migliori. Non voglio però suggerire che sia utile o importante fare confronti tra professioniste e professionisti in una sorta di competizione. Il confronto dovrebbe essere piuttosto con se stessi: poiché l'utilizzo dei test e misurazione sono così importanti nella neuropsicologia clinica, usare i test migliori e utilizzarli nel modo più corretto può essere la chiave per diventare diventare una _versione migliore di sè stessi, in quanto professionisti_. 
 
 Queste considerazioni però aprono tanti altri quesiti a cui diventa importante rispondere. Come fare a capire quali test sono più precisi o, in generale, migliori per poterli utilizzare? Come utilizzare correttamente i numeri e le classificazioni che risultano dai risultati ai test? Risponderemo a tutte queste domande nel corso di questo libro.
 
@@ -42,15 +42,15 @@ Queste considerazioni però aprono tanti altri quesiti a cui diventa importante 
 ### Test di prestazione tipica 
 ### Test di prestazione massima
 
-# Teoria Classica dei test
+## Teoria Classica dei test
 
-# Validità ed Affidabilità
+## Validità ed Affidabilità
 
 ## Tipi di Validità e perché sono importanti
 
-# Affidabilità
+## Affidabilità
 
-## Tipi di affidabilità e perché sono importanti
+### Tipi di affidabilità e perché sono importanti
 
 ## Introduzione alla _Item Response Theory_
 
