@@ -90,7 +90,7 @@ format:
         \fancyfoot[LE,RO]{\thepage}
         
         % Custom center footer text
-        \fancyfoot[C]{\footnotesize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}. \\ Per aggiornamenti visita: \url{giorgioarcara.github.io/oip-book}}
+        \fancyfoot[C]{\scriptsize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}. \\ Per aggiornamenti visita: \url{giorgioarcara.github.io/oip-book}}
         
         % Remove numbering and labels from parts
         \renewcommand*{\thepart}{} 
