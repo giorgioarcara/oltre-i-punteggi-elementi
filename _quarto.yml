@@ -74,13 +74,29 @@ format:
         \SetWatermarkScale{1.5} % bigger/smaller watermark
         \SetWatermarkLightness{0.95} % 0=black, 1=white (default 0.8)
         \usepackage{datetime}
+        
+        % set headers and footers
         \usepackage{fancyhdr}
         \pagestyle{fancy}
-        \fancyfoot{} % clear existing footer
-        \fancyfoot[C]{\footnotesize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}. \\ Per aggiornamenti visita: \url{giorgioarcara.github.io/oip-book}}
-        \renewcommand*{\thepart}{} % to avoid numbers in parts
-        \renewcommand*{\partname}{} % to avoid label "Parte"
+        
+        % Clear header/foot
+        \fancyhf{}
+        
+        % Header: only chapter title (no numbers)
+        \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+        \fancyhead[LE,RO]{\nouppercase{\leftmark}}
+        
+        % Footer: page numbers left/right depending on page parity
+        \fancyfoot[LE,RO]{\thepage}
+        
+        % Custom center footer text
+        \fancyfoot[C]{\scriptsize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}. \\ Per aggiornamenti visita: \url{giorgioarcara.github.io/oip-book}}
+        
+        % Remove numbering and labels from parts
+        \renewcommand*{\thepart}{} 
+        \renewcommand*{\partname}{} 
         \renewcommand*{\partformat}{}
+
         \usepackage[backend=biber,style=apa]{biblatex}
         \addbibresource{references.bib}  % path corretto al tuo .bib
         \usepackage{fvextra}
