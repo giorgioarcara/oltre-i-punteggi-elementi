@@ -16,7 +16,7 @@ knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 
 
 ### Obiettivo del libro
-Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica neuropsicologica. In aggiunta il libro contiene sezioni dedicate alla neuropsicologia forense e alla psicologia clinica in generale. 
+Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica neuropsicologica. In aggiunta a ciò, il libro contiene sezioni dedicate alla neuropsicologia forense e alla psicologia clinica in generale. 
 Nel corso dei suoi capitoli sono trattati diversi aspetti psicometrici e statistici in una maniera che cerca di essere il più possibile accessibile e basata su esempi concreti, senza però banalizzare la complessità degli argomenti trattati. 
 Per le psicologhe e gli psicologi alle parole "psicometria" e "statistica" spesso si associano ricordi dolorosi del periodo universitario piuttosto che aspetti quotidiani dell'attività professionale. Questo libro ha l'ambizioso obiettivo di mostrarvi come questo sia profondamente sbagliato e che sia la psicometria, sia la statistica possano avere un ruolo cruciale nell'attività clinica.
 
