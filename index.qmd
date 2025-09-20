@@ -38,17 +38,18 @@ Ci sono due importanti principi alla base di questo libro che vorrei esplicitare
 
 **Il libro è, e sarà sempre, completamente gratuito**
 
-Tutto il materiale è infatti rilasciato con licenza Creative Commons 4.0 [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it). 
+Tutto il materiale è infatti rilasciato con licenza Creative Commons 4.0 
+[CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it). 
 
 ![](Figures/CC_license_3_0.png){width="25%"}
 
 Con questa licenza sei libera/o di scaricare, stampare e distribuire questa guida. Puoi anche copiare parte dei contenuti e modificarli e utilizzarli per altri libri o presentazioni, purché sia citata la fonte di orgine. Al momento della scrittura sto valutando se metterlo anche in vendita tramite una piattaforma online, ma questo non toglie che la versione online sarà sempre gratuita.
 Se utilizzi o distribuisci il materiale contenuto in questo libro ti prego di utilizzare la seguente citazione:  
 
-_Giorgio Arcara (2025), "Oltre i punteggi. Elementi di psicometria per la neuropsicologia clinica", rilasciato sotto licenza CC BY-NC-SA 4.0_
+_Giorgio Arcara (2025), "Oltre i punteggi. Elementi di psicometria e statistica per la neuropsicologia clinica", rilasciato sotto licenza CC BY-NC-SA 4.0_
 
 Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda la pagina 
-[**Note di redazione**](chapters/Appendici/note-redazione.qmd#note_redazione)
+[**Note di redazione**](chapters/Appendici/note-redazione.qmd#note_redazione).
 
 :::{.raw-latex}
 \vspace{2em}
@@ -82,9 +83,9 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Affidabilità
     * Tipi di affidabilità e perché sono importanti
   * Introduzione alla _Item Response Theory_
-  * Nella pratica clinica: Come usare Affidabilità e Validità nella pratica clinica per scegliere i test
+  * Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
   * Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
-  * Errori comuni nel considerare gli aspetti psicometrici dei test.
+  * Errori comuni nel considerare gli aspetti psicometrici dei test
   * Capitolo 1: Riassunto
 
 **2. Identificare Deficit e danni cognitivi**
@@ -114,7 +115,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Sensibilità, Specificità e la curva ROC
   * Altre misure di performance di identificazione
   * Approfondimento pratico: utilizzare test con cut-off di discriminazione
-  * Errori comuni nell'utilizzo di cut-off di discriminiazione.
+  * Errori comuni nell'utilizzo di cut-off di discriminiazione
   * Capitolo 3: Riassunto
 
   
@@ -165,7 +166,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
 
  * Perché è importante un capitolo sull'Epistemologia?
  * Metodologia ed Epistemologia
- * Il potenziale ruolo dell'AI nella valutazione neuropsicologica.
+ * Il potenziale ruolo dell'AI nella valutazione neuropsicologica
  * Capitolo 9: Riassunto
 
   
