@@ -11,5 +11,6 @@ Rilasciata versione iniziale del libro che include
 
 - corretti vari typos e migliorato il flusso di alcune frasi.
 - aggiunta quarta di copertina.
-- aggiunta bozza del Capitolo 1.
+- aggiunta prima versione del Capitolo 1.
+- aggiunta previsione di nuovi paragrafi (Riassunti a fine capitolo e paragrafo su AI).
 
