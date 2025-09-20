@@ -26,7 +26,7 @@ Immaginate i quattro scenari descritti nella tabella sotto che corrispondono a q
 | Personale clinico esperto             | Centro A                                     | Centro B                         |
 | Personale clinico non esperto         | Centro C                                     | Centro D                          |
 
-:Quattro diversi centri clinici tra cui scegliere.
+:Tabella 1.1: Quattro diversi centri clinici tra cui scegliere.
 
 <br>
 Penso che chiunque e senza dubbi, se potesse scegliere a parità di altre condizioni tra questi centri, sceglierebbe il Centro A. Ho usato questo stratagemma retorico per chiarire un principio di base e la sua motivazione: utilizzare strumenti precisi e utilizzarli bene è fondamentale, ma non è certamente tutto. Le competenze cliniche in alcuni casi possono anche sopperire in maniera importante eventuali carenze nell'utilizzo dei test e dei punteggi. A parità però di competenze cliniche, tutti sceglieremmo chi utilizza i test migliori e nella maniera più appropriata. 
@@ -36,31 +36,42 @@ In sostanza, conoscere la psicometria e la statistica per chi fa neuropsicologia
 Queste considerazioni però aprono tanti altri quesiti a cui diventa importante rispondere. Come fare a capire quali test sono più precisi o, in generale, migliori per poterli utilizzare? Come utilizzare correttamente i numeri e le classificazioni che risultano dai risultati ai test? Risponderemo a tutte queste domande nel corso di questo libro.
 
 ## Misurazione e neuropsicologia clinica
-Un aspetto spesso implicito nell'utilizzo dei risultati ai test neuropsicologici è quello di stare _misurando_ una proprietà del funzionamento mentale: tramite i test misuriamo la memoria, misuriamo l'attenzione, etc. Diventa pertanto necessario dare una definizione di cosa si intenda per _misurare_ e già qui sorgono i primi problemi: non esiste una definizione univoca di misurazione, unanimamente accettata (questa considerazione sarà proprio il punto di partenza del pargrafo _Introduzione all'Item Response Theory_). Esistono però delle definizioni molto diffuse, specie in Psicologia, e che sono riportate in tutti i test. La più famosa è certamente quella di S.S. Stevens, che in un articolo che ha sicuramente influenzato (nel bene e nel male) la storia della misurazione in psicologia dava questa definizione:
+Un aspetto spesso implicito nell'utilizzo dei risultati ai test neuropsicologici è quello di stare _misurando_ una proprietà del funzionamento mentale: tramite i test misuriamo la memoria, misuriamo l'attenzione, etc. Diventa pertanto necessario dare una definizione di cosa si intenda per _misurare_ e già qui sorgono i primi problemi: non esiste una definizione univoca di misurazione, unanimamente accettata (questa considerazione sarà proprio il punto di partenza del paragrafo [Introduzione all'Item Response Theory](#introduzione-item-response-theory)). Esistono però delle definizioni molto diffuse, specie in Psicologia, e che sono riportate in tutti i test. La più famosa è certamente quella di S.S. Stevens, che in un articolo del 1946 ha fornito una definizione che influenzato (nel bene e nel male) la storia della misurazione in psicologia:
 
 _"...possiamo dire che la misurazione, nel senso piu ampio, è definita come l’assegnazione di numeri a oggetti o eventi secondo determinate regole.” (p. 667) _
 
-La proposta di Stevens va contestualizzata al clima del momento. Alla fine degli anni 40 si stava discutendo (in ambito scientifico), se la gli oggetti di interesse della psicologia potessero essere misurati e se, quindi, la psicologia potesse essere considerata una scienza. L'iniziale conclusione della commissione di fisici e psicologi che si era riunita per dare una risposta a questa domanda era arrivata alla conclusione che, secondo una definizione rigorosa di misurazione, la risposta era: no. 
-Secondo Stevens però, il problema era proprio in questo aspetto, nella definizione troppo restrittiva di misurazione. Propose dunque la definizione riportata sopra, e sottolineò che anche se ogni regola porta a misurazione, un aspetto importante (ma separabile) è l'utilizzo che si può fare dei numeri o classificazioni che sono l'esito della misurazione e questo dipende dalla **Scala di Misurazione**. A seconda delle proprietà misurate (ma che possiamo sempre definire come una _misurazione_ potrebbe essere diverso l'utilizzo che possiamo fare dei numeri). Per esempio, il solo rilevare se una persona è femmina o maschio è, secondo la definizione di Stevens, un caso di misurazione e la scala utilizzale sarebbe una _scala categoriale_. In questo caso non hanno senso operazioni tipo addizione o sottrazione o moltiplicazione (non ha senso dire che una femmina è due volte un maschio o viceversa) e una delle poche operazioni possibili è contare quanti casi abbiamo per ogni categoria (es. confrontare il numero di femmine con il numero di maschi). Un riassunto delle scale e delle operazioni possibili è riportata nella tabella XX, che è un diretto adattamento della tabella di Stevens per la misurazione.
+La proposta di Stevens va contestualizzata al clima del momento. Alla fine degli anni 40 si stava discutendo (in ambito scientifico), se la gli oggetti di interesse della psicologia potessero essere misurati e se, quindi, la psicologia potesse essere considerata una scienza. L'iniziale conclusione di una commissione internazionale di fisici e psicologi che si era riunita per dare una risposta a questa domanda era arrivata alla conclusione che, secondo una definizione rigorosa di misurazione, la risposta era: no. 
+Secondo Stevens però, il problema era proprio nei presupposti della commissione e, più in particolare, nella definizione troppo restrittiva di misurazione. Propose dunque la definizione riportata sopra, e sottolineò che anche se ogni regola porta a misurazione, un aspetto importante (ma separabile) è l'utilizzo che si può fare dei numeri o classificazioni che sono l'esito della misurazione e questo dipende dalla **Scala di Misurazione**. A seconda delle proprietà misurate (ma che possiamo sempre definire come una _misurazione_ potrebbe essere diverso l'utilizzo che possiamo fare dei numeri). Per esempio, il solo rilevare se una persona è femmina o maschio è, secondo la definizione di Stevens, un caso di misurazione e la scala utilizzale sarebbe una _scala categoriale_. In questo caso non hanno senso operazioni tipo addizione o sottrazione o moltiplicazione (non ha senso dire che una femmina è due volte un maschio o viceversa) e una delle poche operazioni possibili è contare quanti casi abbiamo per ogni categoria (es. confrontare il numero di femmine con il numero di maschi). Un riassunto delle scale e delle operazioni possibili è riportata nella tabella 1.2, che è un diretto adattamento della tabella di Stevens per la misurazione.
 
 | Scala        | Descrizione                                                                 | Esempio                         | Operazioni possibili                                   |
 |--------------|------------------------------------------------------------------------------|---------------------------------|--------------------------------------------------------|
-| **Nominale** | Classificazione in categorie senza ordine implicito                         | Genere (M/F), Colori, Nazionalità | Conteggio, moda, verifica uguaglianza/differenza      |
-| **Ordinale** | Classificazione con ordine, ma senza distanze significative tra categorie   | Classifica di gara, Livello di istruzione | Ordinamento, mediane, percentili                     |
-| **Intervallo** | Misura con ordine e intervalli uguali, ma senza zero assoluto significativo | Temperatura in °C, IQ           | Differenze, media, deviazione standard                |
-| **Rapporto** | Misura con ordine, intervalli uguali e zero assoluto significativo           | Peso, Altezza, Età, Reddito     | Tutte le operazioni aritmetiche (×, ÷, +, −), rapporti |
+| **Nominale** | Classificazione in categorie senza ordine implicito                         | Sesso (M/F), Colori, Nazionalità | Conteggio, moda, verifica uguaglianza/differenza      |
+| **Ordinale** | Classificazione con ordine, ma senza distanze significative tra categorie   | Classifica di gara, Livello di istruzione (scuola) | Ordinamento, mediane, percentili                     |
+| **Intervallo** | Misura con ordine e intervalli uguali, ma senza zero assoluto significativo | Temperatura in °C, IQ           | Addizione, Sottrazione,Media, Deviazione standard, z-score                |
+| **Rapporto** | Misura con ordine, intervalli uguali e zero assoluto significativo           | Peso, Altezza, Età, Reddito     | Tutte le operazioni aritmetiche (×, ÷, +, −), z-score, rapporti|
 **Legenda**  
 - *Scala*: tipo di misura secondo la classificazione di Stevens.  
 - *Descrizione*: caratteristiche principali della scala.  
 - *Esempio*: variabili reali che rientrano in quella scala.  
 - *Operazioni possibili*: trasformazioni matematiche e statistiche consentite dai dati.
+:Tabella 1.2: Le quattro tipologie di scale di misurazione secondo S.S. Stevens.
 
-Tutte queste considerazioni e queste scale potrebbero sembrare una complicazione eccessiva, un sofismo, e comunque di scarso impatto a livello di pratica clinica. 
+
+Tutte queste considerazioni e queste scale potrebbero sembrare una complicazione eccessiva, un sofismo, e comunque di scarso impatto a livello di pratica clinica. Ma ciò non è vero. Facciamo un breve esempio. In neuropsicologia clinica è molto diffusa la pratica di ottenere punteggi "corretti" cioè punteggi a cui è tolto il contributo di età e scolarità, sesso e talvolta anche altre variabili.
+L'ottenere una "correzione" presuppone che si possa "sottrarre" un contributo di età e scolarità al punteggio in modo che i valori siano comparibili questo ha senso solo se la scale è a misurata a livello di Scala ad Intervalli o Scala a Rapporti. Ad esempio, se il mio punteggio originale è 8, ma il contributo stimato di età, scolarità e sesso di un individuo è 3, per rimuoverlo devo sottrarlo e il punteggio corretto sarà `8-3=5`.
+Di fatto, nella maggior parte dei test neuropsicologici _si assume_ che la misura sia su una Scala a intervalli o a rapporti, ma (come sarà ripreso nel paragrafo [**Misurare Cambiamenti nel  Tempo**](chapters/Appendici/Cambiamenti-nel-tempo.qmd#misurare_cambiamenti)).
+Vorrei chiarire che il neuropsicologo (clinico o forense), non dovrebbe porsi quotidianamente il problema sulla scala di misurazione del test che sta usando, a meno che non decida di fare delle operazioni sui punteggi che non sono quelle normalmente previste per la pratica clinica e dal test stesso.
+
 
 ## I test
+Già dall'introduzione è stato detto che il protoganista assoluto del libro è il test neuropsicologico. Ma cosa è un test? Come sempre, non possiamo non procedere senza fornire una definizione precisa che ci aiuti a definire cosa è un test (e cosa non lo è) e quali sono le caratteristiche che lo contraddistinguono.
 
 ### Test di prestazione tipica 
+
 ### Test di prestazione massima
+
+### Alti test utili per la valutazione neuropsicologica
+(Es. test di stima di riserva Criq, scale, etc.)
 
 ## Teoria Classica dei test
 
@@ -83,7 +94,7 @@ Tutte queste considerazioni e queste scale potrebbero sembrare una complicazione
 ### Inter-Rater Agreement
 
 
-## Introduzione alla _Item Response Theory_
+## Introduzione alla _Item Response Theory_{#introduzione-item-response-theory}
 
 ## Nella pratica clinica: Come usare Affidabilità e Validità nella pratica clinica per scegliere i test
 
