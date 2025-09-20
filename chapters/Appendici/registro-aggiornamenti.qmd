@@ -7,7 +7,7 @@ Rilasciata versione iniziale del libro che include
 - Introduzione
 - Appendici A1 e A2
 
-### v0.0.2 - _in corso_
+### v0.1.0 - _in corso_
 
 - corretti vari typos e migliorato il flusso di alcune frasi.
 - aggiunta quarta di copertina.

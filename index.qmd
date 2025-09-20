@@ -5,7 +5,7 @@ suppress-bibliography: true
 `<img src="Figures/cover-html.png" style="width:100%; height:auto; display:block; margin:auto;" />`{=html}
 
 ```{r, echo=FALSE}
-cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.0.2"))
+cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.1.0"))
 ```
 
 
@@ -82,7 +82,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
     * Tipi di Validità e perché sono importanti
   * Affidabilità
     * Tipi di affidabilità e perché sono importanti
-  * Introduzione alla _Item Response Theory_
+  * Introduzione alla Item Response Theory
   * Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
   * Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
   * Errori comuni nel considerare gli aspetti psicometrici dei test
