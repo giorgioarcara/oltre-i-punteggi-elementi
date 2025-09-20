@@ -21,12 +21,22 @@ Immagino che la scelta ricadrebbe sul centro con lo strumento più moderno e pre
 Spero che però sia chiaro quale vuole essere il mio punto e l'analogia che voglio sottolineare: i test non sono certamente la sola cosa importante in una valutazione ma, _in quanto strumenti di misurazione_, possono essere più o meno precisi e possono essere usati più o meno correttamente. 
 Immaginate i quattro scenari descritti nella tabella sotto che corrispondono a quattro centri clinici (A, B, C e D), Quale centro scegliereste?
 
-|                                       | Strumento di valutazione <br> preciso | Strumento di valutazione <br>impreciso |
-|:---------------------------------------:|:----------------------------------------------:|:-----------------------------------:|
-| Personale clinico esperto             | Centro A                                     | Centro B                         |
-| Personale clinico non esperto         | Centro C                                     | Centro D                          |
+```{=latex}
+\begingroup
+{\footnotesize
+```
 
-:Tabella 1.1: Quattro diversi centri clinici tra cui scegliere.
+|                                                 | **Strumento preciso** | **Strumento impreciso** |
+|:-------------------------------------------------:|:----------------------------------------------:|:-----------------------------------:|
+| **Personale clinico esperto**                  | Centro A                                     | Centro B                         |
+| **Personale clinico non esperto**              | Centro C                                     | Centro D                          |
+
+: Quattro diversi centri clinici tra cui scegliere.
+```{=latex}
+}
+\endgroup
+```
+
 
 <br>
 Penso che chiunque e senza dubbi, se potesse scegliere a parità di altre condizioni tra questi centri, sceglierebbe il Centro A. Ho usato questo stratagemma retorico per chiarire un principio di base e la sua motivazione: utilizzare strumenti precisi e utilizzarli bene è fondamentale, ma non è certamente tutto. Le competenze cliniche in alcuni casi possono anche sopperire in maniera importante eventuali carenze nell'utilizzo dei test e dei punteggi. A parità però di competenze cliniche, tutti sceglieremmo chi utilizza i test migliori e nella maniera più appropriata. 
@@ -55,7 +65,7 @@ Secondo Stevens però, il problema era proprio nei presupposti della commissione
 | **Ordinale** | Classificazione con ordine, ma le distanza tra categorie non hanno significato   | Classifica di gara, Livello di istruzione (scuola) | Ordinamento, mediane, percentili                     |
 | **Intervallo** | Misura con ordine e intervalli uguali, ma senza zero assoluto significativo | Temperatura in °C, IQ           | Addizione, Sottrazione,Media, Deviazione standard, z-score                |
 | **Rapporto** | Misura con ordine, intervalli uguali e lo zero ha un significato          | Peso, Altezza, Età, Reddito     | Tutte le operazioni aritmetiche (×, ÷, +, −), z-score, rapporti|
-:Tabella 1.2: Le quattro tipologie di scale di misurazione secondo S.S. Stevens.
+:Le quattro tipologie di scale di misurazione secondo S.S. Stevens.
 
 **Legenda**  
 - *Scala*: tipo di misura secondo la classificazione di Stevens.  
@@ -72,6 +82,7 @@ Tutte queste considerazioni e queste scale potrebbero sembrare una complicazione
 L'ottenere una correzione per età e scolarità presuppone che si possa sottrarre il contributo di queste variabili al punteggio in modo che i valori di individui con età e scolarità diverse siano comparibili (questo argomento sarà approfondito nel [Capitolo 2](#chapters/Identificare-deficit)). Ad esempio, se il mio punteggio originale è 8, ma il contributo stimato di età, scolarità e sesso di un individuo è 3, per rimuoverlo devo sottrarlo e il punteggio corretto sarà 8-3=5. Questo operazione (di correzione) ha senso solo se la scale è a misurata a livello di scala ad intervalli o scala a rapporti. Se non lo fosse, la mia operazione sarebbe sbagliata e potrebbe portarmi ad un errore di utilizzo del punteggio e della sua interpretazione.
 Di fatto, nella maggior parte dei test neuropsicologici _si assume_ che la misura sia su una Scala a intervalli o a rapporti ma, come sarà ripreso nei paragrafi, [**Misurare Cambiamenti nel  Tempo**](chapters/Appendici/Cambiamenti-nel-tempo.qmd#misurare_cambiamenti) e [**Introduzione all'_Item Response Theory_**](#introduzione-item-response-theory)), questa è un'assunzione che potrebbe non essere rispettata rendendo questo utilizzo improprio.
 Vorrei chiarire che il neuropsicologo (clinico o forense), non dovrebbe porsi quotidianamente il problema sulla scala di misurazione del test che sta usando, a meno che non decida di fare delle operazioni sui punteggi che non sono quelle normalmente previste per la pratica clinica e dal test stesso. Il messaggio importante è: **il fatto che abbiamo ottenuto dei numeri non ci permette di fare ciò che vogliamo di questi numeri**. Alcune operazioni anche se praticamente possibili potrebbero non avere alcun senso.
+
 La disciplina che si occupa della misurazione in psicologia è la _psicometria_, una delle materie (insieme alla statistica), che sono il fondamento di questo libro. La psicometria si occupa proprio delle questioni della misurazione in psicologia, una tipologia di misurazione molto particolare perchè non tratta di proprietà di oggetti fisici ma di concetti psicologici e la relazione tra ciò che è l'esito della misura (cioè il punteggio) e cioè che si vuole misurare, cioè il costrutto è  molto indiretto. Il fatto che ci sia un'intera disciplina dedicato a questo sottolinea una cosa importante: che la misurazione in psicologia è un argomento complesso che non può essere banalizzato.
 
 
