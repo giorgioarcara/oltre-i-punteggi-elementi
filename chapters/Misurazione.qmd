@@ -118,15 +118,15 @@ Già dall'introduzione è stato detto che il protoganista assoluto del libro è 
 ## Affidabilità
 
 ### Tipi di affidabilità e perché sono importanti
-### Consistenza Interna
-### Affidabilità Test Retest
-### Affidabilità Split-Half
-### Inter-Rater Agreement
+#### Consistenza Interna
+#### Affidabilità Test Retest
+#### Affidabilità Split-Half
+#### Inter-Rater Agreement
 
 
 ## Introduzione alla _Item Response Theory_{#introduzione-item-response-theory}
 
-## Nella pratica clinica: Come usare Affidabilità e Validità nella pratica clinica per scegliere i test
+## Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
 
 ## Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
 
