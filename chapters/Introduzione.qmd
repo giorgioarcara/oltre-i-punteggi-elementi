@@ -33,13 +33,15 @@ Nel [**Capitolo 7**](#Capitolo-7) è fornita una breve spiegazione di cosa è il
 
 Il [**Capitolo 8**](#Capitolo-8) spiega l'importanza dell' _interpretazione_ dei test, alla luce di tutte le informazioni disponibili e non solo dei punteggi. IL capitolo spiega inoltre brevemente cosa è l' _"interpretative approach"_ (tr. "Approccio interpretativo"), una modalità di integrazione tra clinica e utilizzo di dati psicometrici proposto da Sara Mondini, Marinella Cappelletti e me, nel 2022.
 
-Il Libro contiene anche diverse **Appendici**: la prima chiarisce alcune scelte redazionali, la seconda chiarisce alcuni scelte metodologiche ed epistemologiche del libro ed elenca in dettaglio le definizioni di alcuni termini tecnici utilizzati. L'ultima contiene degli approfondimenti di statistica di base, utili per chi volesse ripassarle.
+Il [**Capitolo 9**](#Capitolo-9) tratta alcuni argomenti che ritengo necessario inserire in un testo di questo genere e che affrontano temi delicati, che per motivi di spazio saranno soltanto trattati in superficie. Il primo paragrafo spiega perché è importante l'epistemologia della neuropsicologia clinica e come una mancanza di un accordo comune su certi base epistemologiche è, almeno in parte, un grosso freno allo sviluppo della neuropsicologia clinica stessa. Il secondo approfondisce la relazione (e differenza), tra metodologia ed epistemologia. Un paragrafo è dedicato al tema scottante dell'intelligenza artificiale e fornisce alcuni spunti su come può essere utilizzata in maniera virtuosa nell'ambito di applicazione di aspetti psicometrici e statistici in clinica.  
+
+Il libro contiene anche diverse **Appendici**: la prima chiarisce alcune scelte redazionali, la seconda chiarisce alcuni scelte metodologiche ed epistemologiche del libro ed elenca in dettaglio le definizioni di alcuni termini tecnici utilizzati. L'ultima contiene degli approfondimenti di statistica di base, utili per chi volesse ripassarle.
 
 ## Una metafora utile
 Per spiegare la filosofia alla base di questo libro utilizzerò una metafora a cui sono affezionato e che è stata utilizzata da Harald Baayen (Professore di Linguistica Quantitativa all'Università di Tubingen) durante un corso di statistica a cui ho avuto la fortuna di partecipare nel 2008 ad Edmonton, in Canada[^1]. Il corso era di statistica per linguisti e psicolinguisti, ma si applica benissimo a qualsiasi utilizzatore di statistica e, nel nostro caso, anche di psicometria.
 Non ricordo esattamente le parole, ma il concetto era il seguente:
 
-[^1] Resta inteso che potrei avere un ricordo distorto della citazione, per cui mi prendo eventuali responsabilità in caso di inesattezze. 
+[^1]: Resta inteso che potrei avere un ricordo distorto della citazione, per cui mi prendo eventuali responsabilità in caso di inesattezze. 
 
 _"utilizzare la statistica è come guidare un'automobile, non occorre capire come funziona il motore per utilizzarla bene, basta sapere cosa è giusto o cosa non è giusto fare."_
 
