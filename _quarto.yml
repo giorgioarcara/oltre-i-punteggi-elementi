@@ -107,7 +107,12 @@ format:
         \usepackage{pdfpages}
         % Redefine \maketitle to do nothing
         \renewcommand{\maketitle}{}
-
+        
+        % remove table number from captions (to uniform with html)
+        \usepackage{caption}
+        % Remove the "Table X:" label for tables (only affects printed captions)
+        \captionsetup[table]{labelformat=empty, labelsep=none}
+        
     include-before-body:
       text: |
         \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
