@@ -64,9 +64,39 @@ _"un pilota non è però un ingegnere o un meccanico che è in grado di montare 
 
 ![**Un pilota di F1 ha comunque una conoscenza limitata del funzionamento del motore**: non possiede necessariamente le competenze di un meccanico o di un ingegnere, e questo è del tutto normale, non è ciò che ci si aspetta da chi guida a livello professionistico](../Figures/Mechanic_ChatGPT_BN.png){width="40%"}
 
-_In conclusione_
+La metafora che ho appena utilizzato ha però un rischio intrinseco e cioè quello di suggerire che ci debba essere una qualche competizione tra professioniste/i della neuropsicologia. In generale non penso che questo sia vero a parte rari casi (es. in ambito forense, siete in una sorta di _competizione_ con la controparte rispetto al convincere il giudice sulla vostra posizione). Il confronto dovrebbe essere piuttosto con sé stessi: poiché l'utilizzo dei test e misurazione sono così importanti nella neuropsicologia clinica, usare i test migliori e utilizzarli nel modo più corretto può essere la chiave per diventare diventare una _versione migliore di sè stessi, in quanto professionisti_. 
 
-La metafora che ho qui illustrato mi è utile a chiarire il _perché_ è importante conoscere la psicometria per la pratica in neuropsicologia clinica e forense. Alcune conoscenze di base sono fondamentali per poter utilizzare correttamente i nostri strumenti senza fare errori (nella metafora sarebbe come usare l'acceleratore per frenare). Conoscere meglio il funzionamento dei test ci permette di capire quali sono i loro limiti, specie in situazioni non convenzionali (es. posso utilizzare il mio test se l'età del mio paziente non è rappresentata nel campione normativo?). Non tutti dobbiamo però essere "ingegneri" dei test: non penso affatto sia necessario che per utilizzare in maniera corretta i test sia necessario o imprescindibile conoscere ogni dettaglio tecnico e statistico dello sviluppo. Del resto ci sono specialisti che si occupano di questo. Questo è ciò che normalmente accade in ogni branca clinica o applicativa in cui ci sia utilizzo di strumenti, anche di alta precisione, non è necessario conoscerne ogni dettaglio per poterli usare efficacemente.
+La metafora che ho qui illustrato mi è utile a sottolineare il _perché_ è importante conoscere psicometria e statistica per la pratica in neuropsicologia clinica e forense. Alcune conoscenze di base sono fondamentali per poter utilizzare correttamente i nostri strumenti senza fare errori (nella metafora sarebbe come usare l'acceleratore per frenare). Conoscere meglio il funzionamento dei test ci permette di capire quali sono i loro limiti, specie in situazioni non convenzionali (es. posso utilizzare il mio test se l'età del mio paziente non è rappresentata nel campione normativo?). Non tutti dobbiamo però essere "ingegneri" dei test: non penso affatto sia necessario che per utilizzare in maniera corretta i test sia necessario o imprescindibile conoscere ogni dettaglio tecnico e statistico dello sviluppo. Del resto ci sono specialisti che si occupano di questo. Questo è ciò che normalmente accade in ogni branca clinica o applicativa in cui ci sia utilizzo di strumenti, anche di alta precisione, non è necessario conoscerne ogni dettaglio per poterli usare efficacemente.
+
+## Competenze psicometriche/statistiche e competenze cliniche 
+Immaginate di dover fare un esame del sangue per capire se avete qualche anomalia che potrebbe segnalare una patologia. Immaginate adesso di poter scegliere tra due centri: Il primo utilizza una nuova tecnologia all'avanguardia, che porta a risultati molto precisi. Il secondo utilizza invece una tecnologia degli anni 70, notoriamente imprecisa. Quale centro scegliereste?
+Immagino che la scelta ricadrebbe sul centro con lo strumento più moderno e preciso. Ma complichiamo l'esempio: supponiamo adesso che sappiate che nel centro con lo strumento più moderno i tecnici e i medici che si occupano dello strumento non godano di una buona fama ed è noto non conoscano bene l'utilizzo di questo strumento innovativo. Immaginate inoltre, che nel centro con la tecnologia obsoleta il medico di riferimento sia un luminare, esperto della patologia che state indagando. Quale scegliereste? In questo caso la scelta è certamente più difficile. Ed è giusto che sia così: gli strumenti di misurazione non sono tutto e la capacità clinica, in questo caso del medico, va certamente considerata. Se non fosse altrimenti sceglieremmo principalmente sulla base dello strumento e non del medico.
+Spero che però sia chiaro quale vuole essere il mio punto e l'analogia che voglio sottolineare: i test non sono certamente la sola cosa importante in una valutazione ma, _in quanto strumenti di misurazione_ (vedi [Capitolo 2. Psicometria per la neuropsicologia clinica](#chapters/Misurazione.qmd)), possono essere più o meno precisi e possono essere usati più o meno correttamente. 
+Immaginate i quattro scenari descritti nella tabella sotto che corrispondono a quattro centri clinici (A, B, C e D), Quale centro scegliereste?
+
+```{=latex}
+\begingroup
+{\footnotesize
+```
+
+|                                                 | **Strumento preciso/ <br> usato bene ** | **Strumento impreciso/ <br> usato male** |
+|:-------------------------------------------------:|:----------------------------------------------:|:-----------------------------------:|
+| **Personale clinico esperto**                  | Centro A                                     | Centro B                         |
+| **Personale clinico non esperto**              | Centro C                                     | Centro D                          |
+
+:Tabella 1.1: Quattro diversi centri clinici tra cui scegliere.
+```{=latex}
+}
+\endgroup
+```
+
+
+<br>
+Penso che chiunque e senza dubbi, se potesse scegliere a parità di altre condizioni tra questi centri, sceglierebbe il Centro A. Ho usato questo stratagemma retorico per chiarire un principio di base e la sua motivazione: utilizzare strumenti precisi e utilizzarli bene è fondamentale, ma non è certamente tutto. Le competenze cliniche in alcuni casi possono anche sopperire in maniera importante eventuali carenze nell'utilizzo dei test e dei punteggi. A parità però di competenze cliniche, tutti sceglieremmo chi utilizza i test migliori e nella maniera più appropriata. 
+È importante sottolineare che nell'esempio sopra non si parla soltanto di usare strumenti accurati, ma anche di _saperli usare correttamente_. Questo è un piccolo dettaglio con implicazioni molto importanti (e che saranno trattate ampiamente nel libro). Non si tratta solo di scegliere i test migliori, ma anche di usarli nella maniera più appropriata.
+In sostanza, conoscere la psicometria e la statistica per chi fa neuropsicologia dovrebbe avere lo scopo finale di effettuare valutazioni migliori e ciò avviene sia scegliendo i test con migliori proprietà, sia utilizzandoli nella maniera più corretta.
+Ma queste competenze non sono tutto, così come per ogni disciplina clinica, competenze cliniche e metodologiche contribuiscono a valutazioni più precise. 
+
 
 ## Cosa il libro NON tratta
 La guida è essenzialmente focalizzata su utilizzo dei test e quindi su: proprietà psicometriche dei test e quella analisi riferite al caso singolo.
