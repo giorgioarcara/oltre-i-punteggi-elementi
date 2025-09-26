@@ -9,8 +9,8 @@ Senza scendere nel dettaglio delle implicazioni di questa asserzione, è utile r
 
 
 #### Psicometria
-La Psicometria è quella disciplina che studia teorie e metodi di misurazione in psicologia. Nello specifico si occupa di test, misurazioni e valutazioni di tipo psicologico e di misurazione di costrutti latenti (cioè non osservabili).
-[fonte: Wikpedia](https://en.wikipedia.org/w/index.php?title=Psychometrics&oldid=1307897603)
+La Psicometria è quella disciplina che studia teorie e metodi di misurazione in psicologia. Nello specifico si occupa di test, misurazioni e valutazioni di tipo psicologico e di misurazione di costrutti latenti, cioè non osservabili.
+([(fonte: Wikpedia)](https://en.wikipedia.org/w/index.php?title=Psychometrics&oldid=1307897603)
 
 _Nota_: la psicometria fa grande utilizzo di metodi di statistica, tanto che, specie in ambito psicologico, spesso c'è confusione tra i confini tra le due discipline. Anche se è vero che ci sono numerose aree di sovrapposizione (perché la Psicometria fa utilizzo di tecniche statistiche), non sono da considerare come sinonimi, visto che molti aspetti psicometrici non sono strettamente statistici e numerosi aspetti statistici non è detto che siano rilevanti per la psicometria.
 
