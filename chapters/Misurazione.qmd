@@ -32,10 +32,10 @@ La disciplina che si occupa della misurazione in psicologia (e in neuropsicologi
 ## Definizione
 **Costrutto**
 Un concetto psicologico non direttamente osservabile.
-(La neuropsicologia la misurazione è spesso di costrutti non osservabili come memoria, attenzione, etc.)
+(in neuropsicologia clinica la misurazione è spesso di costrutti non osservabili come memoria, attenzione, etc.)
 :::
 
-La neuropsicologia tramite test e misurazione non si occupa però solo di costrutti, ma anche di altri aspetti, più legati alla medicina in generale. Ne è un esempio il rischio di sviluppare una patologia. Alcuni test restituiscono come risultato proprio delle probabilità e in questo caso l'oggetto di interesse non è dunque un costrutto.
+La neuropsicologia tramite test e misurazione non si occupa però solo di costrutti, ma anche di altri entità, legate alla medicina in generale. Ne è un esempio il rischio di sviluppare una patologia. Alcuni test restituiscono come risultato proprio delle probabilità di sviluppo di patologia e in questo caso l'oggetto di interesse non è dunque un costrutto. 
 
 
 ## Misurazione e neuropsicologia clinica{#misurazione_e_neuropsicologia_clinica}
