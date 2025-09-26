@@ -1,7 +1,11 @@
 ## A3. Definizioni {.unnumbered #note_redazione}
 
 ### Perché sono importanti le definizioni.
-Un libro che ambisce a insegnare l'importanza della metodologia non può prescindere dall'includere una sezione con le definizioni dei termini più importanti. Questo è fondamentale perchè le definizioni di termini anche comunemente usati in neuropsicologia o nell'uso dei test, come _"normalità"_ ha un impatto enorme nei metodi che poi usiamo.
+Un libro che ambisce a insegnare l'importanza della metodologia non può prescindere dall'includere una sezione con le definizioni dei termini più importanti. Wittgenstein in una delle più famose proposizioni del suo _Tractatus_ affermava: 
+
+_5.6 I limiti del mio linguaggio sono i limiti del mio mondo._
+
+Senza scendere nel dettaglio delle implicazioni di questa asserzione, è utile riflettere sul fatto che il modo in cui definiamo le entità che ci interessano definiscono il confine entro cui ci muoviamo e, anche se ce ne rendiamo conto, influenzano in maniera determinante la metodologia e il nostro approccio alla clinica. Si pensi a parole che usiamo frequentemente nella pratica clinica, come _deficit_, _normalità_, _peggioramento_. L'esatta sfumatura che diamo a questi significati ha un grande impatto sulla nostra pratica clinica e, per quanto riguarda la metodologia, nello stabilire se un metodo è adeguato oppure no.
 
 
 #### Psicometria
