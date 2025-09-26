@@ -53,7 +53,13 @@ Ciò che abbiamo descritto sopra non è altro che esempi di _misurazione_ di una
 Per una trattazione approfondita diventa però necessario dare una definizione di cosa si intenda esattamente per _misurare_ e già qui sorgono i primi problemi. Non esiste infatti una definizione di misurazione unanimamente accettata (questa considerazione sarà proprio il punto di partenza del paragrafo [Introduzione all'Item Response Theory](#introduzione-item-response-theory)). Esistono però delle definizioni molto diffuse, s e alcune di queste sono implicitamente utilizzate in maniera molto diffusa nella neuropsicologica clinica. La più famosa definizione di misurazione è certamente quella di S.S. Stevens, che in un articolo del 1946 ha fornito una definizione che influenzato (nel bene e nel male) la storia della psicologia `(\cite{stevens1946measurement})`{=latex}
 `(Stevens, 1946)`{=html}:
 
+::: {.callout-note}
+## Definizione
+**Misurazione secondo S.S. Stevens**
+
 _"...possiamo dire che la misurazione, nel senso piu ampio, è definita come l’assegnazione di numeri a oggetti o eventi secondo determinate regole.” (p. 667) _
+
+:::
 
 La proposta di Stevens va contestualizzata al clima del momento. Alla fine degli anni 40 si stava discutendo (in ambito scientifico), se gli oggetti di interesse della psicologia potessero essere misurati e se, quindi, la psicologia potesse essere considerata una scienza. L'iniziale conclusione di una commissione internazionale di fisici e psicologi che si era riunita per dare una risposta a questa domanda era arrivata alla conclusione che, secondo una definizione rigorosa di misurazione, la risposta era _no_. 
 Secondo Stevens però, il problema era proprio nei presupposti della commissione e, più in particolare, nella definizione troppo restrittiva di misurazione. Propose dunque la definizione riportata sopra, e sottolineò che anche se ogni regola porta a misurazione, un aspetto importante (ma separabile) è l'utilizzo che si può fare dei numeri o classificazioni e questo dipende dalla **Scala di Misurazione**. A seconda delle proprietà misurate (ma che possiamo sempre definire come una _misurazione_ ) potrebbe quindi essere diverso l'utilizzo che possiamo fare dei numeri. Per esempio, il solo rilevare se una persona è femmina o maschio è, secondo la definizione di Stevens, un caso di misurazione e la scala utilizzabile sarebbe una _scala categoriale_. In questo caso non hanno senso operazioni tipo addizione o sottrazione o moltiplicazione (non ha senso dire che una femmina è due volte un maschio o viceversa) e una delle poche operazioni possibili è contare quanti casi abbiamo per ogni categoria (es. confrontare il numero di femmine con il numero di maschi). Un riassunto delle scale e delle operazioni possibili è riportata nella tabella 1.2.
@@ -85,6 +91,9 @@ La proposta di Stevens salvava la psicologia come scienza e anzi aiutava a chiar
 ```
 
 Adesso proviamo però ad andare oltre alla definizione di Stevens e approfondire ulteriormente il significato di misurazione. In generale misurare significa utilizzare numeri per descrivere delle proprietà di entità che vogliamo descrivere. Ad esempio quando misuriamo la lunghezza di un tavolo, supponendo che essa sia 50 cm, il numero "50" indica una proporietà del tavolo in una maniera per noi utile. 
+
+-- inserire qui una definizione migliore di misurazione --
+
 Definiamo qui il _Sistema Relazionale Empirico_, come l'insieme di entità del mondo empirico che hanno una determinata proprietà che vogliamo misurare (es. oggetti di diversa lunghezza) e il _Sistema Relazionale Numerico_ un insieme di numeri (es. i numeri Reali) con i quali vogliamo descrivere questa misura.
 
 ![](../Figures/Latex - Figure Measurement 1/Fig_measurement_1.png){fig-align="center" width=70%}
