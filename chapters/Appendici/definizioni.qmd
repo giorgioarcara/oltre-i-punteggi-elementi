@@ -17,3 +17,6 @@ _Nota_: è importante conoscere la statistica non solo perché essa viene utiliz
 
 #### Valutazione neuropsicologica
 La valutazione neuropsicologica è un esame clinico in cui si cerca di ottenere informazioni sullo stato cognitivo di un individuo a fini diagnostici, prognostici o riabilitativi. Essa consiste in genere in raccolta di dati anamnestici, un colloquio e la somministrazione di test standardizzati. Tutte queste informazioni sono integrate per stilare un referto neuropsicologico.
+
+#### Costrutto{#costrutto}
+Un concetto psicologico non direttamente osservabile. Sono esempi di costrutti, esempi come Ansia, Depressione, Memoria, Attenzione, etc. I costrutti sono osservabili tramite _comportamenti_ direttamente osservabili che si assume siano associati al costrutto. Un aspetto fondamentale (e caratteristico della Psicometria) è che la relazione tra Costrutto e comportamenti osservabili non è mai perfetta. 

@@ -161,6 +161,22 @@
 % Remove the "Table X:" label for tables (only affects printed captions)
 \captionsetup[table]{labelformat=empty, labelsep=none}
 \makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
 \@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
 \makeatother
 \makeatletter
@@ -225,7 +241,7 @@
 \subtitle{Elementi di psicometria e statistica per la neuropsicologia
 clinica}
 \author{Giorgio Arcara}
-\date{2025-09-25}
+\date{2025-09-26}
 \begin{document}
 \frontmatter
 \maketitle
@@ -254,7 +270,7 @@ clinica}
 \markboth{Premesse}{Premesse}
 
 \begin{verbatim}
-Ultima modifica: 2025-09-25 23:09:19 CEST. Versione 0.1.0
+Ultima modifica: 2025-09-26 09:39:24 CEST. Versione 0.1.0
 \end{verbatim}
 
 \subsection*{Obiettivo del libro}\label{obiettivo-del-libro}
@@ -902,24 +918,125 @@ che ci si aspetta da chi guida a livello professionistico}
 
 \end{figure}%
 
-\emph{In conclusione}
+La metafora che ho appena utilizzato ha però un rischio intrinseco e
+cioè quello di suggerire che ci debba essere una qualche competizione
+tra professioniste/i della neuropsicologia. In generale non penso che
+questo sia vero a parte rari casi (es. in ambito forense, siete in una
+sorta di \emph{competizione} con la controparte rispetto al convincere
+il giudice sulla vostra posizione). Il confronto dovrebbe essere
+piuttosto con sé stessi: poiché l'utilizzo dei test e misurazione sono
+così importanti nella neuropsicologia clinica, usare i test migliori e
+utilizzarli nel modo più corretto può essere la chiave per diventare
+diventare una \emph{versione migliore di sè stessi, in quanto
+professionisti}.
 
-La metafora che ho qui illustrato mi è utile a chiarire il \emph{perché}
-è importante conoscere la psicometria per la pratica in neuropsicologia
-clinica e forense. Alcune conoscenze di base sono fondamentali per poter
-utilizzare correttamente i nostri strumenti senza fare errori (nella
-metafora sarebbe come usare l'acceleratore per frenare). Conoscere
-meglio il funzionamento dei test ci permette di capire quali sono i loro
-limiti, specie in situazioni non convenzionali (es. posso utilizzare il
-mio test se l'età del mio paziente non è rappresentata nel campione
-normativo?). Non tutti dobbiamo però essere ``ingegneri'' dei test: non
-penso affatto sia necessario che per utilizzare in maniera corretta i
-test sia necessario o imprescindibile conoscere ogni dettaglio tecnico e
-statistico dello sviluppo. Del resto ci sono specialisti che si occupano
-di questo. Questo è ciò che normalmente accade in ogni branca clinica o
-applicativa in cui ci sia utilizzo di strumenti, anche di alta
-precisione, non è necessario conoscerne ogni dettaglio per poterli usare
-efficacemente.
+La metafora che ho qui illustrato mi è utile a sottolineare il
+\emph{perché} è importante conoscere psicometria e statistica per la
+pratica in neuropsicologia clinica e forense. Alcune conoscenze di base
+sono fondamentali per poter utilizzare correttamente i nostri strumenti
+senza fare errori (nella metafora sarebbe come usare l'acceleratore per
+frenare). Conoscere meglio il funzionamento dei test ci permette di
+capire quali sono i loro limiti, specie in situazioni non convenzionali
+(es. posso utilizzare il mio test se l'età del mio paziente non è
+rappresentata nel campione normativo?). Non tutti dobbiamo però essere
+``ingegneri'' dei test: non penso affatto sia necessario che per
+utilizzare in maniera corretta i test sia necessario o imprescindibile
+conoscere ogni dettaglio tecnico e statistico dello sviluppo. Del resto
+ci sono specialisti che si occupano di questo. Questo è ciò che
+normalmente accade in ogni branca clinica o applicativa in cui ci sia
+utilizzo di strumenti, anche di alta precisione, non è necessario
+conoscerne ogni dettaglio per poterli usare efficacemente.
+
+\section*{Competenze psicometriche/statistiche e competenze
+cliniche}\label{competenze-psicometrichestatistiche-e-competenze-cliniche}
+\addcontentsline{toc}{section}{Competenze psicometriche/statistiche e
+competenze cliniche}
+
+\markright{Competenze psicometriche/statistiche e competenze cliniche}
+
+Immaginate di dover fare un esame del sangue per capire se avete qualche
+anomalia che potrebbe segnalare una patologia. Immaginate adesso di
+poter scegliere tra due centri: Il primo utilizza una nuova tecnologia
+all'avanguardia, che porta a risultati molto precisi. Il secondo
+utilizza invece una tecnologia degli anni 70, notoriamente imprecisa.
+Quale centro scegliereste? Immagino che la scelta ricadrebbe sul centro
+con lo strumento più moderno e preciso. Ma complichiamo l'esempio:
+supponiamo adesso che sappiate che nel centro con lo strumento più
+moderno i tecnici e i medici che si occupano dello strumento non godano
+di una buona fama ed è noto non conoscano bene l'utilizzo di questo
+strumento innovativo. Immaginate inoltre, che nel centro con la
+tecnologia obsoleta il medico di riferimento sia un luminare, esperto
+della patologia che state indagando. Quale scegliereste? In questo caso
+la scelta è certamente più difficile. Ed è giusto che sia così: gli
+strumenti di misurazione non sono tutto e la capacità clinica, in questo
+caso del medico, va certamente considerata. Se non fosse altrimenti
+sceglieremmo principalmente sulla base dello strumento e non del medico.
+Spero che però sia chiaro quale vuole essere il mio punto e l'analogia
+che voglio sottolineare: i test non sono certamente la sola cosa
+importante in una valutazione ma, \emph{in quanto strumenti di
+misurazione} (vedi
+\hyperref[chaptersux2fMisurazione.qmdux2fux5cux23psicometria-per-la-neuropsicologia-clinica]{Capitolo
+2. Psicometria per la neuropsicologia clinica}), possono essere più o
+meno precisi e possono essere usati più o meno correttamente. Immaginate
+i quattro scenari descritti nella tabella sotto che corrispondono a
+quattro centri clinici (A, B, C e D), Quale centro scegliereste?
+
+\begingroup
+{\footnotesize
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3750}}
+  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3529}}
+  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2721}}@{}}
+\caption{Tabella 1.1: Quattro diversi centri clinici tra cui
+scegliere.}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{Strumento preciso/ usato bene }
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{Strumento impreciso/ usato male}
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{Strumento preciso/ usato bene }
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{Strumento impreciso/ usato male}
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Personale clinico esperto} & Centro A & Centro B \\
+\textbf{Personale clinico non esperto} & Centro C & Centro D \\
+\end{longtable}
+
+}
+\endgroup
+
+Penso che chiunque e senza dubbi, se potesse scegliere a parità di altre
+condizioni tra questi centri, sceglierebbe il Centro A. Ho usato questo
+stratagemma retorico per chiarire un principio di base e la sua
+motivazione: utilizzare strumenti precisi e utilizzarli bene è
+fondamentale, ma non è certamente tutto. Le competenze cliniche in
+alcuni casi possono anche sopperire in maniera importante eventuali
+carenze nell'utilizzo dei test e dei punteggi. A parità però di
+competenze cliniche, tutti sceglieremmo chi utilizza i test migliori e
+nella maniera più appropriata. È importante sottolineare che
+nell'esempio sopra non si parla soltanto di usare strumenti accurati, ma
+anche di \emph{saperli usare correttamente}. Questo è un piccolo
+dettaglio con implicazioni molto importanti (e che saranno trattate
+ampiamente nel libro). Non si tratta solo di scegliere i test migliori,
+ma anche di usarli nella maniera più appropriata. In sostanza, conoscere
+la psicometria e la statistica per chi fa neuropsicologia dovrebbe avere
+lo scopo finale di effettuare valutazioni migliori e ciò avviene sia
+scegliendo i test con migliori proprietà, sia utilizzandoli nella
+maniera più corretta. Ma queste competenze non sono tutto, così come per
+ogni disciplina clinica, competenze cliniche e metodologiche
+contribuiscono a valutazioni più precise.
 
 \section*{Cosa il libro NON tratta}\label{cosa-il-libro-non-tratta}
 \addcontentsline{toc}{section}{Cosa il libro NON tratta}
@@ -980,31 +1097,35 @@ dettagliato di alcuni aspetti.
 \chapter{Psicometria per la neuropsicologia
 clinica}\label{psicometria-per-la-neuropsicologia-clinica}
 
-\section{Valutazioni neuropsicologiche, test e misurazione: una
-riflessione
-iniziale}\label{valutazioni-neuropsicologiche-test-e-misurazione-una-riflessione-iniziale}
+\section{Perché è importante
+misurare?}\label{perchuxe9-uxe8-importante-misurare}
 
-Quando si parla di ``valutazione neuropsicologica'', la prima cosa che
-viene in mente è certamente una persona che sta effettuando una serie di
-test per riuscire a comprendere lo stato cognitivo di un individuo. Lo
-scopo potrebbe essere l'accertamento sul sospetto di una patologia in
-corso (es. un sospetto di demenza), o la caratterizzazione di un
-disturbo cognitivo in una condizione accertata (es. capire se un trauma
-cranico ha avuto delle conseguenze). Le informazioni possono avere fini
-diagnostici, prognostici o riabilitativi. Quello che accomuna tutti
-questi scenari è che difficilmente ci si potrebbe immaginare una
-valutazione neuropsicologica completamente senza test e, aggiungo, senza
-l'utilizzo di punteggi. Immaginiamo di voler descrivere a qualcuno che
-deve sottoporsi ad una valutazione neuropsicologica e che non sa ancora
-in cosa consiste, la risposta potrebbe essere qualcosa del tipo \emph{''
-le verranno fatto alcune domande e verranno somministrate alcune prove,
-ad esempio ricordare una lista di parole, o fare altri semplici compiti.
-Alla fine tutte queste informazioni saranno utilizzate per capire come
-funziona la tua mente o, più precisamente, i suoi processi cognitivi.''}
-Provando a chiedere a ChatGPT4.0 la seguente cosa \emph{Crea un disegno
-in bianco e nero di una neuropsicologa che sta effettuando una
-valutazione neuropsicologica} il risultato che ho ottenuto (14/09/2025)
-è la figura qui di seguito.
+Un intero capitolo dedicato alla misurazione non può che partire
+spiegando perchè è importante misurare. Accontentiamoci per il momento
+di una definizione generica di misurazione come dell'utilizzo di numeri
+per descrivere alcune proprietà (la definizione di misurazione è il tema
+del \hyperref[misurazione_e_neuropsicologia_clinica]{prossimo
+paragrafo}. Per farlo usiamo i \textbf{test} cioè specifici strumenti di
+misurazione per la psicologia e neuropsicologia (i test sono oggetto di
+un \hyperref[i-test]{paragrafo dedicato})
+
+La misurazione è considerata una delle basi del metodo scientifico e un
+approccio scientifico (e basato dall'evidenza), non può che passare
+dalla misurazione degli oggetti di interesse. In breve quindi
+
+\emph{misurare in neuropsicologia clinica ci permette di andare oltre la
+semplice osservazione clinica}
+
+Mentre in alcune branche della psicologia clinica la misurazione non è
+sempre considerata necessaria, ma quando si parla di valutazione
+neuropsicologica, la prima cosa che viene in mente è certamente una
+persona che sta effettuando una serie di test per riuscire a comprendere
+lo stato cognitivo di un individuo e una serie di punteggi ottenuti da
+questi test: la misurazione sembra un aspetto imprescindibile. Provando
+a chiedere a ChatGPT4.0 la seguente cosa \emph{Crea un disegno in bianco
+e nero di una neuropsicologa che sta effettuando una valutazione
+neuropsicologica} il risultato che ho ottenuto (14/09/2025) è la figura
+qui di seguito.
 
 \begin{figure}[H]
 
@@ -1019,135 +1140,69 @@ per il prompt esatto)}
 
 La figura (come siamo abituati adesso con questi sistemi di
 ``Intelligenza Artificiale'') è piuttosto accurata e quello che mostra è
-proprio una persona che somministra un \textbf{test} (vedi
-\hyperref[i-test]{prossimo paragrafo}.
+proprio una persona che somministra un \textbf{test}, verosimilmente in
+qualità di strumento di misurazione (vedi paragrafo \hyperref[i-test]{I
+test}.
 
-Tutta questa premessa (un po' ridondante), serve unicamente a chiarire
-che la neuropsicologia clinica è intrinsecamente legata alla
-somministrazione dei test sullo stato cognitivo, tanto che le cose sono
-spesso considerate inscindibili. Non solo, la valutazione
-neuropsicologica fa praticamente sempre utilizzo di \emph{punteggi} dei
-test (cioè numeri) per trarre delle conclusioni. I punteggi sono
-confrontati con delle soglie e se i valori sono al di là di queste
+Fermiamoci un attimo a riflettere su quale è lo scopo di una valutazione
+neuropsicologica, come quella rappresentata nella figura sopra. Lo scopo
+potrebbe essere l'accertamento sul sospetto di una patologia in corso
+(es. un sospetto di demenza), o la caratterizzazione di un disturbo
+cognitivo in una condizione accertata (es. capire se un trauma cranico
+ha avuto delle conseguenze). Le informazioni possono avere fini
+diagnostici, prognostici o riabilitativi. La neuropsicologia clinica
+come disciplina \textbf{assume} che tramite misurazione degli oggetti di
+interesse (funzionamento cognitivo, rischio di sviluppare una malattia,
+etc), sia possibile raggiungere delle conclusioni diagnostiche migliori,
+sia possibile fare delle migliori scelte terapeutiche e cliniche in
+generale. La misurazione, cioè l'utilizzo di punteggi, ci aiuta a
+quantificare delle proprietà di interesse e poter fare delle scelte
+cliniche più precise rispetto al solo utilizzo della osservazione
+clinica qualitativa. Il più delle volte questo implica che i punteggi
+sono confrontati con delle soglie e se i valori sono al di là di queste
 soglie, viene concluso che qualcosa probabilmente non va (useremo più
 avanti termini più tecnici e definizioni più precise). La persona con il
 punteggio al di là della soglia potrebbe avere un deficit cognitivo, o
-forse un rischio di avere una patologia neurodegenerativa. Va da sé, che
-se questa è di norma la pratica neuropsicologica clinica, come
-utilizziamo questi punteggi (cioè dei numeri), come li confrontiamo con
-queste soglie (chiamate ``cut-off'') è fondamentale perché rappresenta
-una parte fondante proprio della pratica clinica. Nel \textbf{prossimo
-paragrafo} vedremo come l'utilizzo di punteggi non è altro che un caso
-di \emph{misurazione} .
+forse un rischio di avere una patologia neurodegenerativa.
+
+Va da sé, che se questo è uno dei presupposti della neuropsicologica
+clinica come disciplina, effettuare correttamente la misurazione è un
+primo aspetto fondamentale che determinerà la qualità della nostra
+attività clinica.
+
+\section{La psicometria}\label{la-psicometria}
 
 La disciplina che si occupa della misurazione in psicologia (e in
 neuropsicologia) è la \emph{psicometria}, una delle materie insieme alla
 statistica, che rappresentano le fondamenta di questo libro. La
 psicometria si occupa proprio delle questioni della misurazione in
 psicologia, una tipologia di misurazione molto particolare perchè non
-tratta di proprietà di oggetti fisici ma di concetti psicologici. Una
-caratteristica peculiare della misurazione psicologica è che la
-relazione tra ciò che è l'esito della misura (cioè il punteggio) e ciò
-che si vuole misurare, cioè il costrutto è molto indiretto. Il fatto che
-ci sia un'intera disciplina dedicato a questo sottolinea una cosa
-importante: la misurazione in psicologia è un argomento complesso che
-non può essere banalizzato o trascurato.
+tratta di proprietà di oggetti fisici ma di
+\hyperref[chaptersux2fAppendiciux2fdefinzioni.qmdux2fcostrutto]{\textbf{costrutti}},
+cioè concetti psicologici non osservabili. Una caratteristica peculiare
+della misurazione psicologica è che la relazione tra ciò che è l'esito
+della misura (cioè il punteggio) e ciò che si vuole misurare, cioè il
+costrutto è molto indiretto. Il fatto che ci sia un'intera disciplina
+dedicato a questo sottolinea una cosa importante: la misurazione in
+psicologia è un argomento complesso che non può essere banalizzato o
+trascurato.
 
-Immaginate di dover fare un esame del sangue per capire se avete qualche
-anomalia che potrebbe segnalare una patologia. Immaginate adesso di
-poter scegliere tra due centri: Il primo utilizza una nuova tecnologia
-all'avanguardia, che porta a risultati molto precisi. Il secondo
-utilizza invece una tecnologia degli anni 70, notoriamente imprecisa.
-Quale centro scegliereste? Immagino che la scelta ricadrebbe sul centro
-con lo strumento più moderno e preciso. Ma complichiamo l'esempio:
-supponiamo adesso che sappiate che nel centro con lo strumento più
-moderno i tecnici e i medici che si occupano dello strumento non godano
-di una buona fama ed è noto non conoscano bene l'utilizzo di questo
-strumento innovativo. Immaginate inoltre, che nel centro con la
-tecnologia obsoleta il medico di riferimento sia un luminare, esperto
-della patologia che state indagando. Quale scegliereste? In questo caso
-la scelta è certamente più difficile. Ed è giusto che sia così: gli
-strumenti di misurazione non sono tutto e la capacità clinica, in questo
-caso del medico, va certamente considerata. Se non fosse altrimenti
-sceglieremmo principalmente sulla base dello strumento e non del medico.
-Spero che però sia chiaro quale vuole essere il mio punto e l'analogia
-che voglio sottolineare: i test non sono certamente la sola cosa
-importante in una valutazione ma, \emph{in quanto strumenti di
-misurazione}, possono essere più o meno precisi e possono essere usati
-più o meno correttamente. Immaginate i quattro scenari descritti nella
-tabella sotto che corrispondono a quattro centri clinici (A, B, C e D),
-Quale centro scegliereste?
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, colframe=quarto-callout-note-color-frame, arc=.35mm, bottomrule=.15mm, colback=white, rightrule=.15mm, titlerule=0mm, opacityback=0, bottomtitle=1mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toptitle=1mm, left=2mm, leftrule=.75mm, breakable, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white]
 
-\begingroup
-{\footnotesize
+\textbf{Costrutto} Un concetto psicologico non direttamente osservabile.
+(La neuropsicologia la misurazione è spesso di costrutti non osservabili
+come memoria, attenzione, etc.)
 
-\begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3750}}
-  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3529}}
-  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2721}}@{}}
-\caption{Tabella 1.1: Quattro diversi centri clinici tra cui
-scegliere.}\tabularnewline
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\centering
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Strumento preciso/ usato bene }
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Strumento impreciso/ usato male}
-\end{minipage} \\
-\midrule\noalign{}
-\endfirsthead
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\centering
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Strumento preciso/ usato bene }
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-\textbf{Strumento impreciso/ usato male}
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-\textbf{Personale clinico esperto} & Centro A & Centro B \\
-\textbf{Personale clinico non esperto} & Centro C & Centro D \\
-\end{longtable}
+\end{tcolorbox}
 
-}
-\endgroup
-
-Penso che chiunque e senza dubbi, se potesse scegliere a parità di altre
-condizioni tra questi centri, sceglierebbe il Centro A. Ho usato questo
-stratagemma retorico per chiarire un principio di base e la sua
-motivazione: utilizzare strumenti precisi e utilizzarli bene è
-fondamentale, ma non è certamente tutto. Le competenze cliniche in
-alcuni casi possono anche sopperire in maniera importante eventuali
-carenze nell'utilizzo dei test e dei punteggi. A parità però di
-competenze cliniche, tutti sceglieremmo chi utilizza i test migliori e
-nella maniera più appropriata. È importante sottolineare che
-nell'esempio sopra non si parla soltanto di usare strumenti accurati, ma
-anche di \emph{saperli usare correttamente}. Questo è un piccolo
-dettaglio con implicazioni molto importanti (e che saranno trattate
-ampiamente nel libro). Non si tratta solo di scegliere i test migliori,
-ma anche di usarli nella maniera più appropriata. In sostanza, conoscere
-la psicometria e la statistica per chi fa neuropsicologia dovrebbe avere
-lo scopo finale di effettuare valutazioni migliori. Non voglio però
-suggerire che sia utile o importante fare confronti tra professioniste e
-professionisti in una sorta di competizione. Il confronto dovrebbe
-essere piuttosto con se stessi: poiché l'utilizzo dei test e misurazione
-sono così importanti nella neuropsicologia clinica, usare i test
-migliori e utilizzarli nel modo più corretto può essere la chiave per
-diventare diventare una \emph{versione migliore di sè stessi, in quanto
-professionisti}.
-
-Queste considerazioni però aprono tanti altri quesiti a cui diventa
-importante rispondere. Come fare a capire quali test sono più precisi o,
-in generale, migliori per poterli utilizzare? Come utilizzare
-correttamente i numeri e le classificazioni che risultano dai risultati
-ai test? Risponderemo a tutte queste domande nel corso di questo libro.
-Il percorso non sarà breve e per farlo dobbiamo partire proprio dalle
-basi e cioè su cosa significa misurare.
+La neuropsicologia tramite test e misurazione non si occupa però solo di
+costrutti, ma anche di altri aspetti, più legati alla medicina in
+generale. Ne è un esempio il rischio di sviluppare una patologia. Alcuni
+test restituiscono come risultato proprio delle probabilità e in questo
+caso l'oggetto di interesse non è dunque un costrutto.
 
 \section{Misurazione e neuropsicologia
-clinica}\label{misurazione-e-neuropsicologia-clinica}
+clinica}\label{misurazione_e_neuropsicologia_clinica}
 
 Il più delle volte in neuropsicologia somministriamo test per ottenere
 dei punteggi e cioè dei numeri. Questi numeri ci aiutano a descrivere
@@ -1178,9 +1233,15 @@ nella neuropsicologica clinica. La più famosa definizione di misurazione
 fornito una definizione che influenzato (nel bene e nel male) la storia
 della psicologia (\cite{stevens1946measurement}) :
 
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, colframe=quarto-callout-note-color-frame, arc=.35mm, bottomrule=.15mm, colback=white, rightrule=.15mm, titlerule=0mm, opacityback=0, bottomtitle=1mm, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toptitle=1mm, left=2mm, leftrule=.75mm, breakable, toprule=.15mm, colbacktitle=quarto-callout-note-color!10!white]
+
+\textbf{Misurazione secondo S.S. Stevens}
+
 \emph{``\ldots possiamo dire che la misurazione, nel senso piu ampio, è
 definita come l'assegnazione di numeri a oggetti o eventi secondo
 determinate regole.'' (p.~667) }
+
+\end{tcolorbox}
 
 La proposta di Stevens va contestualizzata al clima del momento. Alla
 fine degli anni 40 si stava discutendo (in ambito scientifico), se gli
@@ -1275,12 +1336,15 @@ approfondire ulteriormente il significato di misurazione. In generale
 misurare significa utilizzare numeri per descrivere delle proprietà di
 entità che vogliamo descrivere. Ad esempio quando misuriamo la lunghezza
 di un tavolo, supponendo che essa sia 50 cm, il numero ``50'' indica una
-proporietà del tavolo in una maniera per noi utile. Definiamo qui il
-\emph{Sistema Relazionale Empirico}, come l'insieme di entità del mondo
-empirico che hanno una determinata proprietà che vogliamo misurare (es.
-oggetti di diversa lunghezza) e il \emph{Sistema Relazionale Numerico}
-un insieme di numeri (es. i numeri Reali) con i quali vogliamo
-descrivere questa misura.
+proporietà del tavolo in una maniera per noi utile.
+
+-- inserire qui una definizione migliore di misurazione --
+
+Definiamo qui il \emph{Sistema Relazionale Empirico}, come l'insieme di
+entità del mondo empirico che hanno una determinata proprietà che
+vogliamo misurare (es. oggetti di diversa lunghezza) e il \emph{Sistema
+Relazionale Numerico} un insieme di numeri (es. i numeri Reali) con i
+quali vogliamo descrivere questa misura.
 
 \begin{center}
 \includegraphics[width=0.7\linewidth,height=\textheight,keepaspectratio]{chapters/../Figures/Latex - Figure Measurement 1/Fig_measurement_1.png}
@@ -1830,6 +1894,16 @@ diagnostici, prognostici o riabilitativi. Essa consiste in genere in
 raccolta di dati anamnestici, un colloquio e la somministrazione di test
 standardizzati. Tutte queste informazioni sono integrate per stilare un
 referto neuropsicologico.
+
+\subsubsection*{Costrutto}\label{costrutto}
+\addcontentsline{toc}{subsubsection}{Costrutto}
+
+Un concetto psicologico non direttamente osservabile. Sono esempi di
+costrutti, esempi come Ansia, Depressione, Memoria, Attenzione, etc. I
+costrutti sono osservabili tramite \emph{comportamenti} direttamente
+osservabili che si assume siano associati al costrutto. Un aspetto
+fondamentale (e caratteristico della Psicometria) è che la relazione tra
+Costrutto e comportamenti osservabili non è mai perfetta.
 
 
 \backmatter
