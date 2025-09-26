@@ -66,8 +66,30 @@ _"...possiamo dire che la misurazione, nel senso piu ampio, è definita come l�
 :::
 
 La proposta di Stevens va contestualizzata al clima del momento. Alla fine degli anni 40 si stava discutendo (in ambito scientifico), se gli oggetti di interesse della psicologia potessero essere misurati e se, quindi, la psicologia potesse essere considerata una scienza. L'iniziale conclusione di una commissione internazionale di fisici e psicologi che si era riunita per dare una risposta a questa domanda era arrivata alla conclusione che, secondo una definizione rigorosa di misurazione, la risposta era _no_. 
-Secondo Stevens però, il problema era proprio nei presupposti della commissione e, più in particolare, nella definizione troppo restrittiva di misurazione. Propose dunque la definizione riportata sopra, e sottolineò che anche se ogni regola porta a misurazione, un aspetto importante (ma separabile) è l'utilizzo che si può fare dei numeri o classificazioni e questo dipende dalla **Scala di Misurazione**. A seconda delle proprietà misurate (ma che possiamo sempre definire come una _misurazione_ ) potrebbe quindi essere diverso l'utilizzo che possiamo fare dei numeri. Per esempio, il solo rilevare se una persona è femmina o maschio è, secondo la definizione di Stevens, un caso di misurazione e la scala utilizzabile sarebbe una _scala categoriale_. In questo caso non hanno senso operazioni tipo addizione o sottrazione o moltiplicazione (non ha senso dire che una femmina è due volte un maschio o viceversa) e una delle poche operazioni possibili è contare quanti casi abbiamo per ogni categoria (es. confrontare il numero di femmine con il numero di maschi). Un riassunto delle scale e delle operazioni possibili è riportata nella tabella 1.2.
-La proposta di Stevens salvava la psicologia come scienza e anzi aiutava a chiarire l'utilizzo dei numeri per la misurazione in diverse circostanze.
+Secondo Stevens però, il problema era proprio nei presupposti della commissione e, più in particolare, nella definizione troppo restrittiva di misurazione. Propose dunque la definizione riportata sopra, e sottolineò che anche se ogni regola porta a misurazione, un aspetto importante (ma separabile) è l'utilizzo che si può fare dei numeri o classificazioni e questo dipende dalla **Scala di Misurazione**. A seconda delle proprietà misurate (ma che possiamo sempre definire come una _misurazione_ ) potrebbe quindi essere diverso l'utilizzo che possiamo fare dei numeri. Le diverse scale di misura identificate sono riportate nel paragrafo [scale di misura](#scale-di-misura). La proposta di Stevens salvava la psicologia come scienza e anzi aiutava a chiarire l'utilizzo dei numeri per la misurazione in diverse circostanze.
+
+
+
+
+Definiamo qui il _Sistema Relazionale Empirico_, come l'insieme di entità del mondo empirico che hanno una determinata proprietà che vogliamo misurare (es. oggetti di diversa lunghezza) e il _Sistema Relazionale Numerico_ un insieme di numeri (es. i numeri Reali) con i quali vogliamo descrivere questa misura.
+
+![](../Figures/Latex - Figure Measurement 1/Fig_measurement_1.png){fig-align="center" width=70%}
+
+
+Nell'esempio della Figura sopra, un tavolo ha un lato lungo 120 cm. Possiamo usare questo numero (120) per numerosi utilizzi. Supponiamo ad esempio di avere due tavoli quadrati, uno con il lato di 120 cm e uno con il lato di 60 cm. Tramite questa misurazione del loro lato, sappiamo che il tavolo con lato 120 cm è più lungo di quello con lato 60 cm. Sappiamo che il tavolo con lato 120 cm ha il lato di 60 cm più lungo di quello con lato 60 cm. Infine sappiamo che il tavolo con lato 120 cm è lungo il doppio del tavolo con lato 60 cm (nello stesso spazio del tavolo lungo 120 cm, possiamo mettere due tavoli da 60 cm). Questi numeri ci permettono dunque di una serie di operazioni utili per comprendere le proprietà dei tavoli, in questo caso la loro lunghezza, e interagire con loro. Tornando alla Tabella 1.2, La lunghezza di un tavolo è misurata su una _scala a rapporti_ e sapere questo ci permette di sapere quali operazioni possiamo fare con i numeri associati alla misura. La stessa cosa accade quando vogliamo fare una misurazione psicologica o neuropsicologica. Lo scopo è ottenere un numero che vogliamo utilizzare per alcuni scopi.
+
+![](../Figures/Latex - Figure Measurement 2/Fig_measurement_2.png){fig-align="center" width=70%}
+
+
+In questo caso possiamo dire che il nostro Sistema Relazionale Empirico[^2] è dato dall'insieme di tutte le persone con diversa memoria e il Sistema Relazione Numerico come l'insieme di numeri che utilizziamo per descrivere la memoria di queste persone. 
+Alcune operazioni con questi numeri sono intuitivamente sensate, ad esempio possiamo dire che alcune persone hanno più memoria di altre (possiamo quindi ordinare), ma nel momento in cui cerchiamo di capire l'applicabilità di altre operazioni diventa più difficile rispondere. Ad esempio, tramite un test possiamo arrivare a dire che una persona ha il doppio di memoria di un altra? Oppure che ha +20 unità di memoria più di un'altra? (qualsiasi sia questa unità). Per poter una risposta a queste domande, dovremmo sapere appunto in che scala di misurazione è stata misurata la memoria.
+
+
+
+### Scale di misura {#scale-di-misura}
+
+Nel suo importantissimo lavoro S.S. Stevens, oltre a fornire una definizione di misurazione sosteneva l'importanza di identificare diverse scale di misura, che definiscono l'utilizzo che si può fare dei numeri o classificazioni che emergono dal processo di misurazione stessa. Questa divisione in scale di misura è stata adottata e incorporata anche in altre definizioni di misurazione, per la sua rilevanza pratica ed esplicativa. Esistono cinque scale di misura. Le scale sono _categoriale, ordinale, a intervalli, a rapporti_. Queste scale possono essere organizzate gerarchicamente (categoriale al livello più basso, a rapporti al livello più alto), e le operazioni possibili ad un livello più basso sono possibili a tutti i livelli superiori. Per esempio calcolare la mediana è possibile a livello di scala ordinale, ma anche nella scala ad intervalli e a rapporti in quanto più alte nella gerarchia.
+Da notare che anche il solo rilevare se una persona è femmina o maschio è, secondo la definizione di Stevens, un caso di misurazione, utilizzando una _scala categoriale_. In questo caso non hanno senso operazioni tipo addizione o sottrazione o moltiplicazione (non ha senso dire che una femmina è due volte un maschio o viceversa) e una delle poche operazioni possibili è contare quanti casi abbiamo per ogni categoria (es. confrontare il numero di femmine con il numero di maschi). Un riassunto delle scale e delle operazioni possibili è riportata nella tabella 1.2.
 
 
 ```{=latex}
@@ -81,7 +103,7 @@ La proposta di Stevens salvava la psicologia come scienza e anzi aiutava a chiar
 | **Ordinale** | Classificazione con ordine, ma le distanza tra categorie non hanno significato   | Posizione in una classifica, Titolo di studio | Ordinamento, mediane, percentili                     |
 | **Intervallo** | Misura con ordine e intervalli uguali, ma senza zero assoluto significativo | Temperatura in °C, IQ           | Addizione, Sottrazione,Media, Deviazione standard, z-score                |
 | **Rapporto** | Misura con ordine, intervalli uguali e lo zero ha un significato          |  Età, Scolarità in anni, tempi di reazione | Tutte le operazioni aritmetiche (×, ÷, +, −), z-score, rapporti|
-:Tabella 1.2: Le quattro tipologie di scale di misurazione secondo S.S. Stevens.
+:Tabella 1.2: Le quattro tipologie di scale di misura secondo S.S. Stevens.
 
 **Legenda**  
 - *Scala*: tipo di misura secondo la classificazione di Stevens.  
@@ -98,18 +120,8 @@ Adesso proviamo però ad andare oltre alla definizione di Stevens e approfondire
 
 -- inserire qui una definizione migliore di misurazione --
 
-Definiamo qui il _Sistema Relazionale Empirico_, come l'insieme di entità del mondo empirico che hanno una determinata proprietà che vogliamo misurare (es. oggetti di diversa lunghezza) e il _Sistema Relazionale Numerico_ un insieme di numeri (es. i numeri Reali) con i quali vogliamo descrivere questa misura.
-
-![](../Figures/Latex - Figure Measurement 1/Fig_measurement_1.png){fig-align="center" width=70%}
 
 
-Nell'esempio della Figura sopra, un tavolo ha un lato lungo 120 cm. Possiamo usare questo numero (120) per numerosi utilizzi. Supponiamo ad esempio di avere due tavoli quadrati, uno con il lato di 120 cm e uno con il lato di 60 cm. Tramite questa misurazione del loro lato, sappiamo che il tavolo con lato 120 cm è più lungo di quello con lato 60 cm. Sappiamo che il tavolo con lato 120 cm ha il lato di 60 cm più lungo di quello con lato 60 cm. Infine sappiamo che il tavolo con lato 120 cm è lungo il doppio del tavolo con lato 60 cm (nello stesso spazio del tavolo lungo 120 cm, possiamo mettere due tavoli da 60 cm). Questi numeri ci permettono dunque di una serie di operazioni utili per comprendere le proprietà dei tavoli, in questo caso la loro lunghezza, e interagire con loro. Tornando alla Tabella 1.2, La lunghezza di un tavolo è misurata su una _scala a rapporti_ e sapere questo ci permette di sapere quali operazioni possiamo fare con i numeri associati alla misura. La stessa cosa accade quando vogliamo fare una misurazione psicologica o neuropsicologica. Lo scopo è ottenere un numero che vogliamo utilizzare per alcuni scopi.
-
-![](../Figures/Latex - Figure Measurement 2/Fig_measurement_2.png){fig-align="center" width=70%}
-
-
-In questo caso possiamo dire che il nostro Sistema Relazionale Empirico[^2] è dato dall'insieme di tutte le persone con diversa memoria e il Sistema Relazione Numerico come l'insieme di numeri che utilizziamo per descrivere la memoria di queste persone. 
-Alcune operazioni con questi numeri sono intuitivamente sensate, ad esempio possiamo dire che alcune persone hanno più memoria di altre (possiamo quindi ordinare), ma nel momento in cui cerchiamo di capire l'applicabilità di altre operazioni diventa più difficile rispondere. Ad esempio, tramite un test possiamo arrivare a dire che una persona ha il doppio di memoria di un altra? Oppure che ha +20 unità di memoria più di un'altra? (qualsiasi sia questa unità). Per poter una risposta a queste domande, dovremmo sapere appunto in che scala di misurazione è stata misurata la memoria.
 
 [^2]:è importante notare che non tutti sarebbero daccordo nel dire che l'insieme di costrutti psicologici (cioè concetti non osservabili) sono parte di un sistema relazionale empirico. La domanda è però proprio al confine dell'epistemologia: un concetto psicologico non osservabile è parte del mondo empirico (così come lo sono altri entità non osservabili) oppure no? Non è lo scopo di questo libro né di questo paragrafo rispondere a questa domanda, ma per i nostri scopi la diversa collocazione dei concetti psicologici (come entità del mondo empirico o no), è irrilevante. Qui assumo che i concetti psicologici siano di fatti parte dei sistemi relazionali empirici in un certo senso aggirando il problema, e utilizzando la definizione di sistema relazionale empirico come ogni sistema relazionale _non_ numerico.
 
