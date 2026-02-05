@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.3)  25 SEP 2025 21:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.3)  26 SEP 2025 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -389,7 +389,7 @@ File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
 \g__pdf_backend_annotation_int=\count282
 \g__pdf_backend_link_int=\count283
 )
-No file Fig_measurement_2.aux.
+(./Fig_measurement_2.aux)
 \openout1 = `Fig_measurement_2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -403,6 +403,7 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
 .
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -420,8 +421,8 @@ File: mind.png Graphic file (type bmp)
 ]
 (./Fig_measurement_2.aux) ) 
 Here is how much of TeX's memory you used:
- 12100 strings out of 476683
- 257308 string characters out of 5804048
+ 12102 strings out of 476683
+ 257352 string characters out of 5804048
  1846018 words of memory out of 5000000
  32157 multiletter control sequences out of 15000+600000
  512303 words of font info for 34 fonts, out of 8000000 for 9000
