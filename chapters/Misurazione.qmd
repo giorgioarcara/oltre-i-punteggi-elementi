@@ -16,11 +16,14 @@ La misurazione è innanzitutto considerata una delle basi del metodo scientifico
 
 _misurare in neuropsicologia clinica ci permette di adottare un approccio scientifico e andare oltre la semplice osservazione clinica qualitativa_
 
-Fermiamoci adesso un attimo a riflettere su quale è lo scopo di una valutazione neuropsicologica. Lo scopo potrebbe essere l'accertamento sul sospetto di una patologia in corso (es. un sospetto di demenza, sospetto di ADHD), o la caratterizzazione di un disturbo cognitivo in una condizione accertata (es. capire se un trauma cranico ha avuto delle conseguenze). Le informazioni possono avere fini diagnostici, prognostici o riabilitativi.
+Fermiamoci adesso un attimo a riflettere su quale è lo scopo di una valutazione neuropsicologica. Lo scopo potrebbe essere l'accertamento sul sospetto di una patologia in corso (es. un sospetto di demenza, sospetto di ADHD), o la caratterizzazione di un disturbo cognitivo in una condizione accertata (es. capire se un trauma cranico ha avuto delle conseguenze). Le informazioni possono avere fini diagnostici, prognostici, o di monitoraggio longitudinale. Nel caso di monitoraggio longitudinale questo in genere è effettuato per investigare il decorso di una patologia nel tempo o per valutare l'effetto di un trattamento riabilitativo.
 La misurazione è utile perchè ci permette dunque di avere più informazioni rilevanti per la valutazione neuropsicologica e di risultati più _oggettivi_[^1].
+
 [^1]: per _oggettivo_ indichiamo un risultato che non è dipendente da chi sta effettuando l'esame.
 
-È importante notare che in alcune branche della psicologia clinica, la misurazione non è considerata necessaria o fondamentale. Si pensi ad esempio ad approcci come la psicoanalisi, o alcuni approcci costruttivisti alla psicoterapia. Entrambi non fanno quasi uso di strumenti misurazione e i test hanno un ruolo nullo o marginale.
+Un ulteriore e importante aspetto è che utilizzare punteggi permette di crare una sorta di _linguaggio comune_ per la discussione di un caso clinico. Oltre ad alcune etichette cliniche diffuse in certi ambiti, come _decadimento cognitivo lieve_, _decadimento cognitivo moderato_, i punteggi ai test rappresentano infatti un'opportunità per comunicare rapidamente lo stato di un'individuo. Per esempio per chi lavora in ambito di disturbi cognitivi nell'ambito delle demenza, dire che un paziente ha un MMSE (MiniMental State Examination) pari a 12, denota senza bisogno di ulteriori dettagli uno stato di decadimento cognitivo piuttosto grave. Questo aspetto verrà approfondito nel corso del libro.
+
+È inoltre importante notare che in alcune branche della psicologia clinica, l'utilizzo di punteggi e la misurazione non sono considerati necessari o fondamentali. Si pensi ad esempio ad approcci come la psicoanalisi, o alcuni approcci costruttivisti alla psicoterapia. Entrambi non fanno quasi uso di strumenti misurazione e i test hanno un ruolo nullo o marginale.
 Quando si parla però di neuropsicologia clinica o di di valutazione neuropsicologica, la prima cosa che viene in mente è invece una persona che sta effettuando una serie di test per riuscire a comprendere lo stato cognitivo di un individuo e una serie di punteggi ottenuti da questi test: la misurazione sembra un aspetto imprescindibile. Provando a chiedere a ChatGPT4.0 la seguente cosa _Crea un disegno in bianco e nero di una neuropsicologa che sta effettuando una valutazione neuropsicologica_ il risultato che ho ottenuto (14/09/2025) è la figura qui di seguito: una persona che sta somministrando un test, verosimilmente per misurare qualche aspetto del funzionamento cognitivo della persona esaminata.
 
 ![Una valutazione neuropsicologica secondo ChatGPT (vedi testo per il prompt esatto)](../Figures/Valutazione_Neuropsi_ChatGPT.png){width=60%}
@@ -61,7 +64,7 @@ Ciò che abbiamo descritto sopra non è altro che esempi di _misurazione_ di una
 Finora ci siamo accontentati di una definizione generica di misurazione, ma per una trattazione metodologicamente rigorosa abbiamo bisogno di avere una definizione più precisa di cosa si intenda per _misurare_ . Già qui sorgono i primi problemi. Non esiste infatti una definizione di misurazione unanimamente accettata (questa considerazione sarà proprio il punto di partenza del paragrafo [Introduzione all'Item Response Theory](#introduzione-item-response-theory)), ma esistono delle definizioni molto diffuse e, come vedremo, alcune di queste sono implicitamente utilizzate nella pratica neuropsicologica clinica o forense.
 
 
-### La definizione di misurazione di S.S. Stevens e le scale di misura
+### La definizione di misurazione di S.S. Stevens (1946) e le scale di misura
 
 La più famosa definizione di misurazione è certamente quella di S.S. Stevens, che in un articolo del 1946 ha fornito una definizione che influenzato (nel bene e nel male) la storia della psicologia `(\cite{stevens1946measurement})`{=latex}
 `(Stevens, 1946)`{=html}:
@@ -107,9 +110,7 @@ Esistono quattro scale di misura: _categoriale, ordinale, a intervalli, a rappor
 
 L'idea di avere una definizione di misurazione molto generica, accompagnata ad una distinzione di scale di misura è molto potente e tuttora è molto influente nella misurazione in psicologia. Come anticipato, però, ci sono anche altre definizioni. Nel prossimo paragrafo sarà approfondita una di queste, che entrava in forte contrasto con la proposta di Stevens. <!-- aggiungere che questa definizione non è prima di problemi). -->
 
-
-<!--
-## Definizione di Misurazione secondo Suppes & Zinnes
+## Definizione di Misurazione secondo Suppes & Zinnes (1963)
 
 Un'altra possibile definizione di misurazione, molto celebre in Psicometria è quella di Suppes & Zinnes 
 
@@ -117,6 +118,13 @@ Definiamo qui il _Sistema Relazionale Empirico_, come l'insieme di entità del m
 
 ![](../Figures/Latex - Figure Measurement 1/Fig_measurement_1.png){fig-align="center" width=70%}
 
+::: {.callout-note}
+## Definizione
+**Misurazione secondo Suppes & Zinnes (1963)**
+
+La misurazione consiste in un **omomorfismo** tra un _Sistema Relazionale Numerico_ e un _Sistema Relazionale Empirico_.
+
+:::
 
 Nell'esempio della Figura sopra, un tavolo ha un lato lungo 120 cm. Possiamo usare questo numero (120) per numerosi utilizzi. Supponiamo ad esempio di avere due tavoli quadrati, uno con il lato di 120 cm e uno con il lato di 60 cm. Tramite questa misurazione del loro lato, sappiamo che il tavolo con lato 120 cm è più lungo di quello con lato 60 cm. Sappiamo che il tavolo con lato 120 cm ha il lato di 60 cm più lungo di quello con lato 60 cm. Infine sappiamo che il tavolo con lato 120 cm è lungo il doppio del tavolo con lato 60 cm (nello stesso spazio del tavolo lungo 120 cm, possiamo mettere due tavoli da 60 cm). Questi numeri ci permettono dunque di una serie di operazioni utili per comprendere le proprietà dei tavoli, in questo caso la loro lunghezza, e interagire con loro. Tornando alla Tabella 1.2, La lunghezza di un tavolo è misurata su una _scala a rapporti_ e sapere questo ci permette di sapere quali operazioni possiamo fare con i numeri associati alla misura. La stessa cosa accade quando vogliamo fare una misurazione psicologica o neuropsicologica. Lo scopo è ottenere un numero che vogliamo utilizzare per alcuni scopi.
 
