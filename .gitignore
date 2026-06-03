@@ -6,3 +6,7 @@ result
 .DS_Store
 .Rproj.user
 .Rshistory
+
+chapters/*.html
+chapters/Appendici/*.html
+
