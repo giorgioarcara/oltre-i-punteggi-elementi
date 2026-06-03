@@ -14,6 +14,9 @@ Rilasciata versione iniziale del libro che include
 - aggiunta prima versione del Capitolo 1.
 - aggiunta previsione di nuovi paragrafi (Riassunti a fine capitolo e paragrafo su AI).
 
-### v0.1.1 - _in corso_
-- aggiunta prima parte paragrafo misurazione 
+### v0.1.1
 
+- aggiunta prima parte paragrafo misurazione
+
+### v0.1.2
+- migliorata prima parte paragrafo misurazione.
