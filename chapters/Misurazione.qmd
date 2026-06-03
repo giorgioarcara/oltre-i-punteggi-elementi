@@ -39,7 +39,12 @@ La disciplina che si occupa della misurazione in psicologia (e in neuropsicologi
 
 
 Il fatto di non essere proprietà non osservabili non è di per sé un problema insormontabile ed è comune in vari campi al di là di quello psicologico. Per esempio, si pensi, al campo magnetico prodotto da un oggetto, o alla sua temperatura.
-Nel caso di costrutti per renderlo osservabile ci basiamo sull'osservazione di comportamenti associati al costrutto di interesse. Tali comportamenti sono spesso detti **indicatori** (o proxy in inglese). 
+
+Un esempio particolarmente illuminante è il termometro a mercurio. La _temperatura_ di un corpo non è direttamente osservabile: non si può "toccare" la temperatura in sé, ma solo percepire i suoi effetti. Tuttavia, possiamo misurarla grazie a un indicatore fisico osservabile: l'espansione di una colonna di mercurio all'interno di un tubo calibrato. Quando la temperatura aumenta, il mercurio si espande e sale, fornendo un numero (es. in gradi Celsius) che rappresenta indirettamente la proprietà fisica che ci interessa. Nessuno mette in dubbio la validità di questa misurazione perché sappiamo con precisione la relazione fisica tra la temperatura e l'espansione del mercurio.
+
+La misurazione psicologica funziona in modo analogo, ma con una complicazione importante: nei costrutti psicologici la relazione tra il costrutto non osservabile (es. la memoria) e l'indicatore osservabile (es. le risposte a un test) non è mai altrettanto diretta o univocamente definita. Ecco perché la psicometria, come disciplina, si occupa proprio di come rendere questa relazione il più precisa e giustificata possibile.
+
+Nel caso di costrutti psicologici, per rendere osservabile il costrutto ci basiamo sull'osservazione di comportamenti associati al costrutto di interesse. Tali comportamenti sono spesso detti **indicatori** (o _proxy_ in inglese). 
 
 ::: {.callout-note}
 ## Definizione
@@ -183,19 +188,43 @@ Esistono in letteratura numerose definizioni di test e, come spesso accade in ps
 _"Un test è una procedura sistematica per l'osservazione del comportamento di una persona e per la sua descrizione con l'aiuto di una scala numerica o un sistema di categorie."_ (p. 32)
 :::
 
-Questa definizione ha il vantaggio di essere ampia e inclusiva: si applica tanto ai test cognitivi quanto ai questionari di personalità, alle scale di autovalutazione e a molti altri strumenti di misura in ambito psicologico. Tuttavia, presenta un limite importante per i nostri scopi: non fa riferimento al **costrutto** che si vuole misurare. Come discusso nel [paragrafo precedente](#cosa-misuriamo-in-neuropsicologia-clinica), in neuropsicologia l'interesse non è nel comportamento in sé — le risposte del paziente agli item del test — bensì nel costrutto che quel comportamento indica. Il punteggio è un indicatore indiretto di qualcosa di non direttamente osservabile (memoria, attenzione, funzioni esecutive, ecc.), non il costrutto stesso.
+Questa definizione ha il vantaggio di essere ampia e inclusiva: si applica tanto ai test cognitivi quanto ai questionari di personalità, alle scale di autovalutazione e a molti altri strumenti di misura in ambito psicologico. Tuttavia, presenta un limite importante per i nostri scopi: non fa riferimento al **costrutto** che si vuole misurare. Come discusso nel [paragrafo precedente](#cosa-misuriamo-in-neuropsicologia-clinica), in neuropsicologia l'interesse non è nel comportamento in sé (le risposte del paziente agli item del test) bensì nel costrutto che quel comportamento indica. Il punteggio è un indicatore indiretto di qualcosa di non direttamente osservabile (memoria, attenzione, funzioni esecutive, ecc.), non il costrutto stesso.
 
-![Relazione tra punteggio al test e costrutto misurato. Adattato da Mondini, Cappelletti & Arcara (2022)](../Figures/measurement_diagramma.png){fig-align="center" width=60%}
+![Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) produce comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio. Le altre variabili (Motivazione, Umore, Fatica, etc.) influenzano il comportamento osservato indipendentemente dal costrutto di interesse.](../Figures/Latex - Figure Unobservable Concepts/Fig_unobservable_concepts.png){fig-align="center" width=70%}
 
 Come già ricordato con le parole di Sivan & Benton (1999) citate da Lezak nel [paragrafo sulla misurazione](#misurazione_e_neuropsicologia_clinica), le abilità cognitive "non vengono osservate direttamente, ma piuttosto inferite dal comportamento". Questa considerazione, che può sembrare ovvia, ha conseguenze rilevanti per l'interpretazione dei punteggi: lo stesso risultato potrebbe riflettere abilità cognitive diverse a seconda del paziente e del contesto clinico, e il neuropsicologo ha sempre un ruolo attivo nell'interpretare ciò che un punteggio rappresenta.
 
 
-### Test di prestazione tipica 
-
 ### Test di prestazione massima
 
-### Alti test utili per la valutazione neuropsicologica
-(Es. test di stima di riserva Criq, scale IADL ADL, etc.)
+I **test di prestazione massima** (_maximal performance tests_) sono strumenti in cui si chiede al paziente di impegnarsi al massimo delle proprie capacità per ottenere il miglior risultato possibile. L'obiettivo è valutare _cosa una persona è in grado di fare_ quando le condizioni sono ottimali e lo sforzo è massimo. La stragrande maggioranza dei test neuropsicologici per la valutazione delle funzioni cognitive (test di memoria, attenzione, funzioni esecutive, linguaggio, abilità visuospaziali) rientra in questa categoria. Il punteggio ottenuto è interpretato come una stima della capacità massima del paziente in quel dominio cognitivo.
+
+### Test di comportamento tipico
+
+I **test di comportamento tipico** (_typical behaviour tests_) sono invece strumenti progettati per valutare come una persona si comporta o risponde _tipicamente_, ovvero nel suo quotidiano, non necessariamente con un sforzo massimo. In questi strumenti non esiste una risposta "giusta" da dare. Rientrano in questa categoria due grandi famiglie di strumenti:
+
+- **Autosomministrati** (compilati dal paziente stesso): questionari di personalità, scale di autovalutazione per sintomi psicologici come ansia e depressione (es. Beck Depression Inventory, Hamilton Anxiety Scale), scale per la qualità della vita. Il paziente descrive come si sente o come si comporta generalmente.
+- **Eterosomministrati** (compilati dal clinico o da un caregiver): scale per la valutazione del funzionamento nelle attività quotidiane, come le ADL (_Activities of Daily Living_) e le IADL (_Instrumental Activities of Daily Living_). In questo caso è il clinico o un familiare a rispondere sulla base dell'osservazione diretta del paziente, non il paziente stesso.
+
+La distinzione tra questi due tipi di test è rilevante per la somministrazione, per l'interpretazione dei punteggi e per il tipo di costrutto che si intende misurare.
+
+### Un esempio: qualsiasi test è un buon test?
+
+La definizione di Cronbach, pur essendo ampia e inclusiva, lascia aperta una domanda importante: _qualunque_ strumento che assegni numeri a comportamenti osservati può essere considerato un buon test? Considera il seguente test ipotetico per la memoria:
+
+> Al paziente viene letta ad alta voce la seguente lista di 7 parole: _casa, mela, treno, fiume, cane, libro, sole_. Dopo 30 secondi, gli viene chiesto di ricordare quante ne riesce. Il punteggio finale è il numero di parole ricordate (da 0 a 7).
+
+Questo strumento soddisfa formalmente la definizione di Cronbach: è una procedura sistematica, osserva il comportamento (le parole ricordate) e lo descrive con una scala numerica. Soddisfa anche la definizione di Stevens: assegna numeri a eventi secondo regole precise.
+
+_Ma questo è davvero un buon test per la memoria?_
+
+A prima vista sembrerebbe di sì, in fondo stiamo chiedendo di ricordare delle parole. Eppure ci sono molte domande a cui questo test ipotetico non dà risposta: Perché 7 parole e non 5 o 10? Il ritardo di 30 secondi è sufficiente a distinguere una memoria normale da una deficitaria? Le 7 parole specifiche influenzano il punteggio (una parola ad alta frequenza come _casa_ è più facile da ricordare di una a bassa frequenza)? Il test misura la memoria a breve termine, quella di lavoro, o quella episodica? Cosa succede se il paziente è distratto, stanco o ha un deficit di attenzione: il punteggio riflette davvero la sua memoria? 
+Si potrebbe rispondere che 7 parole sono poche per un buon test, ma quale è allora un numero sufficiente? Il problema è solo rimandato e ci servirebbe un riferimento per capire quando il numero è sufficiente.
+
+Questo esempio illustra un principio fondamentale: soddisfare formalmente le definizioni di test e di misurazione che abbiamo fornito finora sono condizioni _necessarie_ ma non _sufficiente_ per avere uno strumento clinicamente utile. Il fatto che abbiamo assegnato dei numeri non garantisce che quei numeri misurino ciò che ci interessa, né che lo misurino in modo accurato e affidabile. La **validità** (la giustificazione del legame tra punteggio e costrutto) e l'**affidabilità** (la precisione e la consistenza della misura) sono gli aspetti più critici della psicometria e saranno trattati in dettaglio nei capitoli dedicati.
+
+### Altri strumenti utili per la valutazione neuropsicologica
+(Es. test di stima di riserva cognitiva come il CRIq, scale funzionali ADL/IADL, etc.)
 
 ## Teoria Classica dei test
 
