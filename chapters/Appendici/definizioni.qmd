@@ -1,4 +1,4 @@
-## A3. Definizioni {.unnumbered #note_redazione}
+## A3. Definizioni {.unnumbered #definizioni}
 
 ### Perché sono importanti le definizioni.
 Un libro che ambisce a insegnare l'importanza della metodologia non può prescindere dall'includere una sezione con le definizioni dei termini più importanti. Wittgenstein in una delle più famose proposizioni del suo _Tractatus_ affermava: 
