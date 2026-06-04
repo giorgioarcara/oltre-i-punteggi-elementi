@@ -30,6 +30,10 @@ book:
   #  - chapters/Appendici/note-redazione.qmd
   page-navigation: true
 
+language:
+  title-block-author-single: "Autore"
+  title-block-author-plural: "Autori"
+
 bibliography: references.bib
 csl: apa-6th-edition.csl
 
