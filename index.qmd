@@ -57,7 +57,7 @@ Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda l
 
 ### Ringraziamenti
 Di seguito trovate una lista dettagliata delle persone che hanno contrubuito a questo libro, in ordine alfabetico.
-_Per suggerimenti sul testo_:  Giovanni Lazzaro, Chiara Longo.
+_Per suggerimenti/correzioni del testo_:  Giovanni Lazzaro, Chiara Longo, Alessandra Mele.
 
 
 :::{.raw-latex}
