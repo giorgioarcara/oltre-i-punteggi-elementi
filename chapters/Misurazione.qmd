@@ -183,7 +183,7 @@ Tutto ciò che abbiamo descritto in questo paragrafo — l'assunzione implicita 
 
 La CTT (_Classical Test Theory_, Teoria Classica dei Test) è il framework psicometrico su cui si basa la grande maggioranza dei test neuropsicologici attualmente disponibili. Come accennato nel paragrafo precedente, spesso non vi è una dichiarazione esplicita di seguire la CTT, ma i principi che ne ispirano la costruzione, l'utilizzo di alcune analisi (es. la consistenza interna o l'affidabilità test-retest) ne sono una diretta espressione. Comprendere questi presupposti è quindi fondamentale non solo per chi costruisce test, ma anche per chi li usa nella pratica clinica quotidiana.
 
-### Il principio cardinale: X = T + E
+### Il principio cardine: X = T + E
 
 Il principio fondamentale della CTT è espresso in una formula apparentemente semplice:
 
@@ -227,7 +227,7 @@ legend("topright", legend = c("punteggio osservato", "punteggio vero"),
 
 Questa consapevolezza porta a identificare due obiettivi prioritari nel processo di costruzione di un test: il primo è ridurre al minimo l'errore $E$, affinché il punteggio osservato sia il più possibile vicino al punteggio vero; il secondo è riuscire a stimare l'entità di quell'errore, in modo da sapere con quale margine di incertezza si sta lavorando quando si interpreta un punteggio.
 
-Questi due obiettivi si traducono operativamente nei due concetti psicometrici più importanti dell'intera tradizione CTT, che saranno trattati in dettaglio nei prossimi paragrafi: la **validità** — che risponde alla domanda _"stiamo misurando davvero ciò che intendiamo misurare?"_ — e l'**affidabilità** — che risponde alla domanda _"con quanta precisione e consistenza lo misuriamo?"_. Entrambi i concetti possono essere letti, in ultima analisi, come tentativi di rispondere alla stessa domanda di fondo: quanto ci possiamo fidare del punteggio $X$ come stima del punteggio vero $T$?
+Questi due obiettivi si traducono operativamente nei due concetti psicometrici più importanti dell'intera tradizione CTT, che saranno trattati in dettaglio nei prossimi paragrafi: la **validità**, che risponde alla domanda: _"stiamo misurando davvero ciò che intendiamo misurare?"_; e l'**affidabilità** — che risponde alla domanda _"con quanta precisione e consistenza lo misuriamo?"_. Entrambi i concetti possono essere letti, in ultima analisi, come tentativi di rispondere alla stessa domanda di fondo: quanto ci possiamo fidare del punteggio $X$ come stima del punteggio vero $T$?
 
 ### Limiti della CTT
 
