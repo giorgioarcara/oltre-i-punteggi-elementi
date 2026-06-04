@@ -304,7 +304,9 @@ La definizione di Cronbach, pur essendo ampia e inclusiva, lascia aperta una dom
 
 Questo strumento soddisfa formalmente la definizione di Cronbach: è una procedura sistematica, osserva il comportamento (le parole ricordate) e lo descrive con una scala numerica. Soddisfa anche la definizione di Stevens: assegna numeri a eventi secondo regole precise.
 
-_Ma questo è davvero un buon test per la memoria?_
+::: {.domanda}
+Ma questo è davvero un buon test per la memoria?
+:::
 
 è verosimile che la vostra risposta "di pancia", sia stata "no", anche se non avete ancora una spiegazione easustiva. Potreste dire per esempio che è troppo semplice, che 7 parole sono poche, che 30 secondi sono pochi, che le parole sono troppo facili, etc. Tutte queste considerazioni sono sensate e probabilmente condivisibili, ma non sono basate su un modello di misurazione o su una teoria della memoria. Sono semplicemente basate sul buon senso e sull'esperienza clinica.
 
