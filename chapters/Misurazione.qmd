@@ -237,7 +237,11 @@ Il primo limite riguarda il fatto che nella CTT le abilità del soggetto e la di
 
 Il secondo limite riguarda l'assunzione di indipendenza tra $T$ ed $E$. Questa assunzione — pur ragionevole nella parte centrale della scala — è sistematicamente violata ai valori estremi. Se il punteggio vero di una persona è vicino al massimo del test (si parla in questo caso di _effetto soffitto_), l'errore non può distribuirsi liberamente in entrambe le direzioni: la persona non può ottenere un punteggio osservato superiore al massimo, quindi l'errore può solo abbassare il punteggio, mai alzarlo oltre il limite. Lo stesso accade al limite inferiore (_effetto pavimento_): il punteggio osservato non può scendere sotto lo zero, per cui l'errore diventa asimmetrico e smette di essere indipendente dal punteggio vero. Ai valori estremi, in altre parole, l'errore stesso dipende da dove si trova la persona nella scala, il che viola direttamente l'assunzione fondamentale del modello.
 
-Questi limiti non rendono la CTT inutilizzabile — e i test neuropsicologici che ne derivano rimangono strumenti clinicamente preziosi nella pratica quotidiana — ma spiegano perché nel corso degli anni si siano sviluppati modelli di misurazione alternativi. Il principale è l'_Item Response Theory_, che tenta di superare entrambi i problemi modellando separatamente l'abilità del soggetto e la difficoltà degli item. Sarà introdotta nel paragrafo [_Introduzione all'Item Response Theory_](#introduzione-item-response-theory).
+Questi limiti non rendono la CTT inutilizzabile — e i test neuropsicologici che ne derivano rimangono strumenti clinicamente preziosi nella pratica quotidiana — ma spiegano perché nel corso degli anni si siano sviluppati modelli di misurazione alternativi.
+
+### Cenni sull'Item Response Theory
+
+L'alternativa principale alla CTT è l'**Item Response Theory** (IRT), una famiglia di modelli in cui l'abilità del soggetto e la difficoltà degli item vengono modellate separatamente, superando così uno dei limiti fondamentali della CTT. Questo aspetto sarà approfondito nel paragrafo [_Introduzione all'Item Response Theory_](#introduzione-item-response-theory).
 
 ## I test {#i-test}
 Già dall'introduzione è stato detto che il protagonista assoluto del libro è il test neuropsicologico. Ma cosa è un test? Come sempre, non possiamo non procedere senza fornire una definizione precisa che ci aiuti a definire cosa è un test (e cosa non lo è) e quali sono le caratteristiche che lo contraddistinguono.
@@ -311,7 +315,14 @@ Per introdurre dei termini tecnici, quello che ci manca è quantomeno delle info
 Se alla domanda "_Ma questo è davvero un buon test per la memoria?_" avete risposto di no, e siete d'accordo sul fatto che per rispondere sono necessarie ulteriori informazioni, vi invito a mantenere questo scetticismo e questa posizione anche di fronte a un nuovo test psicologico o neuropsicologico che vi viene presentato. Uno dei messaggi chiave di questo testo sarà infatti che non basta che un test sia pubblicato o disponibile perché sia un buon test e che è un dovere professionale quello di informarsi sulle sue qualità psicometriche prima di utilizzarlo o interpretarlo.
 
 ### Altri strumenti utili per la valutazione neuropsicologica
-(Es. test di stima di riserva cognitiva come il CRIq, scale funzionali ADL/IADL, etc.)
+
+Nella pratica clinica, accanto ai test di prestazione massima e ai questionari di comportamento tipico, esiste una terza categoria di strumenti che fanno parte della valutazione neuropsicologica standard pur non rientrando in senso stretto nella classificazione fin qui descritta: si tratta di **questionari e scale somministrate come parte integrante della valutazione clinica**, non per misurare una funzione cognitiva, ma per raccogliere informazioni contestuali utili per l'interpretazione dei risultati.
+
+L'esempio più rilevante in ambito neuropsicologico e che negli ultimi anni ha avuto sempre più utilizzo è la stima della **riserva cognitiva**. La riserva cognitiva, cioè la capacità del cervello di compensare per i danni di una la patologia degenerativa o acuta senza manifestare sintomi espliciti, è considerata una variabile moderatrice importante nell'interpretazione delle prestazioni cognitive, soprattutto nelle valutazioni legate a patologie neurodegenerative. Per stimarla si utilizzano strumenti come il **CRIq** (_Cognitive Reserve Index questionnaire_, Nucci et al., 2012), un questionario in cui si raccolgono informazioni su anni di istruzione, attività lavorativa e attività del tempo libero nel corso della vita. Il CRIq non è un test di prestazione massima: non si chiede al paziente di fare del proprio meglio su un compito, ma di riportare informazioni anamnestiche strutturate.
+
+Analogamente, le scale **ADL** (_Activities of Daily Living_) e **IADL** (_Instrumental Activities of Daily Living_), già menzionate nel paragrafo sui test di comportamento tipico, vengono spesso incluse nei protocolli standard proprio per integrare i punteggi ai test cognitivi con una stima del funzionamento reale nella vita quotidiana.
+
+Questi strumenti condividono con i test psicologici il fatto di produrre un punteggio numerico, e rientrano quindi nella definizione di test di Cronbach che abbiamo visto. Tuttavia, le considerazioni psicometriche che si applicano loro, in particolare quelle relative alla validità e all'affidabilità, hanno sfumature proprie che è utile tenere presenti quando si interpretano i loro risultati nel contesto della valutazione.
 
 ## Validità ed Affidabilità
 
