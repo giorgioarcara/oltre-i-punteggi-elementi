@@ -198,9 +198,32 @@ Un'assunzione cruciale è che $T$ ed $E$ siano **indipendenti tra loro**: l'erro
 
 Per fare un esempio concreto: supponiamo che il punteggio vero di una persona a un test di memoria sia $T = 10$. Se il giorno della somministrazione la persona è stanca o ansiosa, potrebbe ottenere $X = 7$, con un errore $E = -3$ che ha abbassato il punteggio. Se invece è riposata e particolarmente motivata, potrebbe ottenere $X = 12$, con $E = +2$ che lo ha leggermente sovrastimato. In entrambi i casi, il punteggio vero rimane $T = 10$: è la stima dell'abilità reale, quella che rimarrebbe stabile se potessimo somministrare lo stesso test infinite volte nelle stesse condizioni ideali.
 
-### La situazione pratica: X si vede, T no
+L'idea delle "misurazioni infinite" non è solo un espediente retorico: nella CTT il punteggio vero $T$ è definito formalmente proprio come il valore atteso (la media) di $X$ su infinite ripetizioni della misura. Se l'errore $E$ è davvero casuale e con media zero — come la CTT assume — allora i contributi positivi e negativi dell'errore si cancellerebbero a vicenda su infinite somministrazioni, e la media di tutti i punteggi osservati convergerebbe esattamente a $T$. In una singola somministrazione non sappiamo se l'errore ci ha penalizzato o favorito; ma l'idea che $T$ "esista" come limite di questo processo ci dà un fondamento teorico per trattare il punteggio osservato come una stima — imperfetta, ma orientata nella direzione giusta — dell'abilità reale.
 
-Nella pratica clinica, però, osserviamo soltanto $X$. Il punteggio vero $T$ è per definizione non osservabile — è, a tutti gli effetti, un **costrutto**, esattamente come la memoria o l'attenzione discusse nei paragrafi precedenti. Di $T$ non vediamo mai il valore diretto: possiamo solo stimarlo a partire da $X$, sapendo che tra i due si frappone sempre una quota di errore.
+La @fig-ctt-true-obs illustra questa dinamica con una simulazione: trenta somministrazioni ripetute dello stesso test alla stessa persona (punteggio vero $T = 10$), con i punteggi osservati che fluttuano attorno alla linea del punteggio vero per effetto dell'errore casuale. Nessuna singola misurazione coincide esattamente con $T$, ma tutte ruotano intorno ad esso: è proprio questo che rende $T$ il "centro di gravità" della distribuzione dei punteggi osservati.
+
+```{r}
+#| label: fig-ctt-true-obs
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Trenta somministrazioni simulate dello stesso test alla stessa persona con punteggio vero $T = 10$ (linea continua). I cerchi rappresentano i punteggi osservati, che fluttuano attorno a $T$ per effetto dell'errore casuale $E$."
+#| fig-width: 6
+#| fig-height: 4
+
+library(ONDAutils)
+
+set.seed(10)
+X <- simulate_obs(Ts = 10, n = 30, rel = 0.8, mu_true = 10, sd_true = 2,
+                  label = "Punteggio vero e punteggi osservati")
+abline(h = 10, col = "steelblue", lwd = 2)
+legend("topright", legend = c("punteggio osservato", "punteggio vero"),
+       pch = c(1, NA), lty = c(NA, 1), lwd = c(NA, 2),
+       col = c("black", "steelblue"), cex = 0.8)
+```
+
+
+è importante sottolineare che nella pratica clinica, ciò che vedremo sarà sempre e solo il punteggio osservato e cioè $X$. Il punteggio vero $T$ è infatti per definizione non osservabile possiamo solo stimarlo a partire da $X$, sapendo che sarà sempre una stima imperfetta, con un margine di errore.
 
 Questa consapevolezza porta a identificare due obiettivi prioritari nel processo di costruzione di un test: il primo è ridurre al minimo l'errore $E$, affinché il punteggio osservato sia il più possibile vicino al punteggio vero; il secondo è riuscire a stimare l'entità di quell'errore, in modo da sapere con quale margine di incertezza si sta lavorando quando si interpreta un punteggio.
 
