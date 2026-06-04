@@ -29,7 +29,7 @@ Il [**Capitolo 5**](#Capitolo-5) illustra i principali metodi che permettono di 
 
 Il [**Capitolo 6**](#Capitolo-6) è dedicato alla _neuropsicologia forense_ e in particolare all'identificazione di tentativi di _simulazione_ di deficit o danni. Il capitolo tratta i principali metodi statistici utilizzati per poter identificare un sospetto simulatore.
 
-Nel [**Capitolo 7**](#Capitolo-7) è fornita una breve spiegazione di cosa è il _teorema di bayes_ e il perché è rilevante nella pratica clinica. Il capitolo cerca di spiegare in maniera semplice perché questo teorema matematico è uno dei più importanti mai sviluppato e perché ogni neuropsicologa o neuropsicologo dovrebbero consocerlo, quantomeno in maniera intuitiva.
+Nel [**Capitolo 7**](#Capitolo-7) è fornita una breve spiegazione di cosa è il _teorema di Bayes_ e il perché è rilevante nella pratica clinica. Il capitolo cerca di spiegare in maniera semplice perché questo teorema matematico è uno dei più importanti mai sviluppato e perché ogni neuropsicologa o neuropsicologo dovrebbero consocerlo, quantomeno in maniera intuitiva.
 
 Il [**Capitolo 8**](#Capitolo-8) spiega l'importanza dell' _interpretazione_ dei test, alla luce di tutte le informazioni disponibili e non solo dei punteggi. IL capitolo spiega inoltre brevemente cosa è l' _"interpretative approach"_ (tr. "Approccio interpretativo"), una modalità di integrazione tra clinica e utilizzo di dati psicometrici proposto da Sara Mondini, Marinella Cappelletti e me, nel 2022.
 
@@ -112,4 +112,4 @@ Per facilitare la comprensione di certi concetti il volume contiene delle sezion
 
 - Le sezioni _"Nella pratica clinica"_, illustrano applicazioni pratiche dei concetti spiegati, fornendo esempi concreti.
 - Le sezioni _"Errori comuni"_, hanno lo scopo di rafforzare alcuni concetti utilizzando una prospettiva diversa: invece di dire cosa sarebbe corretto fare, sottolineano quali sono degli errori comuni, fornendo motivazioni dettagliate del perché certi comportamenti sarebbero da considerare appunto errori.
-- Le sezioni _"Approfondimenti e cuoriosità"_, come il titolo suggerisce, forniscono un trattamento più dettagliato di alcuni argomenti o curiosità storiche, teoriche, tecniche, o di altro tipo.
+- Le sezioni _"Approfondimenti e curiosità"_, come il titolo suggerisce, forniscono un trattamento più dettagliato di alcuni argomenti o curiosità storiche, teoriche, tecniche, o di altro tipo.
