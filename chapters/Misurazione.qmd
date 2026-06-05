@@ -5,8 +5,12 @@ suppress-bibliography: true
 # Psicometria per la neuropsicologia clinica {#psicometria-per-la-neuropsicologia-clinica}
 
 ## Perché è importante misurare?
-Un intero capitolo dedicato alla misurazione non può che partire da una definizione di misurazione, per quanto generale: _La misurazione è l'utilizzo di numeri per descrivere delle entità di interesse_. La definizione di misurazione in ambito neuropsicologico sarà il tema del [prossimo paragrafo](#misurazione_e_neuropsicologia_clinica), in cui approfondiremo molto questo argomento. 
-Le _entità di interesse_ della misurazione in neuropsicologia sono di diverso tipo, ma il più delle volte sono funzioni cognitive, come attenzione o memoria
+Un intero capitolo dedicato alla misurazione non può che iniziare da una possibile definizione del concetto stesso:
+
+_La misurazione è l'utilizzo di numeri per descrivere delle entità di interesse_. 
+
+Come vedremo nel [prossimo paragrafo](#misurazione_e_neuropsicologia_clinica), esistono svariate possibili definizioni di misurazione, con implicazioni non banali, ma accontentiamoci per il momento di questa sopra per fare alcune prime considerazioni.
+Innanzittutto, misurare quasi sempre è associato all'ottenimento di _numeri_, cioè punteggi, che ci aiutano nella descrizione di qualcosa. Queste _entità di interesse_ in in neuropsicologia sono di diverso tipo, ma il più delle volte sono funzioni cognitive, come attenzione o memoria.
 
 Per misurare utilizziamo i **test** cioè specifici strumenti di misurazione sviluppati appositamente in ambito psicologico e neuropsicologico. Anche i test saranno oggetto di un [paragrafo dedicato](#i-test)
 
@@ -40,7 +44,7 @@ La disciplina che si occupa della misurazione in psicologia (e in neuropsicologi
 
 Il fatto di non essere proprietà non osservabili non è di per sé un problema insormontabile ed è comune in vari campi al di là di quello psicologico. Per esempio, si pensi, al campo magnetico prodotto da un oggetto, o alla sua temperatura.
 
-Un esempio particolarmente illuminante è il termometro con colonnina di galinstan (un tempo a mercurio). La _temperatura_ del nostro corpo non è direttamente osservabile ma possiamo misurarla grazie a un indicatore fisico osservabile: l'espansione di una colonna di un metallo liquido (galinstan o mercurio) all'interno del termometro. Quando la temperatura aumenta, il mercurio si espande e sale, ma la sua variazione in lunghezza di fornisce un numero che rappresenta la proprietà fisica che ci interessa, cioè la temperatura. Nessuno mette in dubbio la bontà di questa misurazione perché sappiamo con precisione la relazione fisica tra la temperatura e l'espansione del mercurio.
+Consideriamo il classico termometro con colonnina di galinstan (un tempo a mercurio). La _temperatura_ del nostro corpo non è direttamente osservabile ma possiamo misurarla grazie a un indicatore fisico osservabile: l'espansione di una colonna di un metallo liquido (galinstan o mercurio) all'interno del termometro. Quando la temperatura aumenta, il liquido si espande e sale, e la sua variazione in lunghezza di fornisce un numero che rappresenta la proprietà fisica che ci interessa, cioè la temperatura. Nessuno mette in dubbio la bontà di questa misurazione perché diamo per scontata con precisione la relazione fisica tra la temperatura e l'espansione del metallo.
 
 La misurazione psicologica funziona in modo analogo, ma con una complicazione importante: nei costrutti psicologici la relazione tra il costrutto non osservabile (es. la memoria) e l'indicatore osservabile (es. le risposte a un test) _non è mai altrettanto diretta o univocamente definita_. Ecco perché la psicometria, come disciplina, si occupa proprio di come rendere questa relazione il più precisa e giustificata possibile.
 
