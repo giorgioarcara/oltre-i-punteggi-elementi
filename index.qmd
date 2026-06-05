@@ -25,7 +25,7 @@ Al momento iniziale di scrittura di questo libro è in programma la scrittura di
 
 ### Un libro in sviluppo
 Il libro "Oltre i Punteggi" è reso già disponibile anche prima della sua stesura definitiva. La versione che state per leggere infatti è un lavoro in via di sviluppo ancora incompleto. Potete seguire aggiornamenti più puntuali e commenti sugli sviluppi del libro nella newsletter associata (https://oltreipunteggi.substack.com/). 
-Questo modello di scrittura potrebbe sembrare strano, ma è molto comune in Open Science e ha due principali vantaggi: 1) presenta la conoscenza scientifica per quello che è, cioè qualcosa di fallibile e in costante miglioramento. Un libro scritto in questa maniera può pià facilmente essere al passo con i più recenti sviluppo e anche dopo la sua conclusione potrà essere migliorato. È un modello che permette un maggiore contributo di lettrici e lettori, che possono, già nel corso della scrittura, dare suggerimenti o commenti su come il libro potrebbe essere scritto per essere più fruibile.
+Questo modello di scrittura potrebbe sembrare strano, ma è molto comune in Open Science e ha due principali vantaggi: 1) presenta la conoscenza scientifica per quello che è, cioè qualcosa di fallibile e in costante miglioramento. Un libro scritto in questa maniera può più facilmente essere al passo con i più recenti sviluppi e anche dopo la sua conclusione potrà essere migliorato. È un modello che permette un maggiore contributo di lettrici e lettori, che possono, già nel corso della scrittura, dare suggerimenti o commenti su come il libro potrebbe essere scritto per essere più fruibile.
 
 ### Contribuire a questo libro
 Questo libro è pensato per professioniste/i (principalmente neuropsicologhe/i cliniche/i e forensi) e idealmente è anche _sviluppato insieme a loro_ in maniera collaborativa. Se hai un suggerimento su un argomento da trattare, su come migliorare una spiegazione, se vuoi segnalare un errore di battitura o in generale per qualsiasi consiglio, puoi usare i pulsanti _"Segnala un problema"_ e _"Modifica questa pagina"_ che trovi a destra nella versione web del libro. In alternativa puoi scrivermi una mail a <giorgio.arcara@gmail.com> . Cercherò di integrare ogni segnalazione/richiesta e il tuo nome verrà inserito all'interno dei ringraziamenti del libro per riconoscere il tuo contributo.
@@ -47,7 +47,7 @@ Tutto il materiale è infatti rilasciato con licenza Creative Commons 4.0
 
 ![](Figures/CC_license_3_0.png){width="25%"}
 
-Con questa licenza sei libera/o di scaricare, stampare e distribuire questa guida. Puoi anche copiare parte dei contenuti e modificarli e utilizzarli per altri libri o presentazioni, purché sia citata la fonte di orgine. Al momento della scrittura sto valutando se metterlo anche in vendita tramite una piattaforma online, ma questo non toglie che la versione online sarà sempre gratuita.
+Con questa licenza sei libera/o di scaricare, stampare e distribuire questa guida. Puoi anche copiare parte dei contenuti e modificarli e utilizzarli per altri libri o presentazioni, purché sia citata la fonte di origine. Al momento della scrittura sto valutando se metterlo anche in vendita tramite una piattaforma online, ma questo non toglie che la versione online sarà sempre gratuita.
 Se utilizzi o distribuisci il materiale contenuto in questo libro ti prego di utilizzare la seguente citazione:  
 
 _Giorgio Arcara (2025), "Oltre i punteggi. Elementi di psicometria e statistica per la neuropsicologia clinica", rilasciato sotto licenza CC BY-NC-SA 4.0_
@@ -56,7 +56,7 @@ Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda l
 [**Note di redazione**](chapters/Appendici/note-redazione.qmd#note_redazione).
 
 ### Ringraziamenti
-Di seguito trovate una lista dettagliata delle persone che hanno contrubuito a questo libro, in ordine alfabetico.
+Di seguito trovate una lista dettagliata delle persone che hanno contribuito a questo libro, in ordine alfabetico.
 _Per suggerimenti/correzioni del testo_:  Giovanni Lazzaro, Chiara Longo, Alessandra Mele.
 
 
