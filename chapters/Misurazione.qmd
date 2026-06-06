@@ -14,7 +14,13 @@ Innanzittutto, misurare quasi sempre è associato all'ottenimento di _numeri_, c
 
 Per misurare utilizziamo i **test** cioè specifici strumenti  sviluppati appositamente in ambito psicologico e neuropsicologico. Anche i test saranno oggetto di un [paragrafo dedicato](#i-test)
 
-Prima di cominciare ad entrare in tutti i dettagli è importante soffermarsi su una domanda fondamentale: _Perché è importante misurare?_ Non possiamo dare per scontato che sia una cosa necessaria o indispensabile e anzi, è utile riflettere sull'utilità di utilizzare numeri per descrivere qualcosa.
+Prima di cominciare ad entrare in tutti i dettagli è importante soffermarsi su una domanda fondamentale: 
+
+:::{.domanda}
+_Perché è importante misurare?_ 
+:::
+
+Non possiamo dare per scontato che sia una cosa necessaria o indispensabile e anzi, è utile riflettere sull'utilità di utilizzare numeri per descrivere qualcosa.
 
 La misurazione è innanzitutto considerata una delle basi del metodo scientifico e un approccio scientifico e basato dall'evidenza, non può che passare dalla misurazione. Un celebre aforisma (probabilmente apocrifo) di Galileo Galilei, uno dei padri del metodo scientifico è: _misura ciò che puoi misurare, rendi misurabile ciò che non lo è_ .  Anche ogni libro che parli di epistemologia, cioè la filosofia della scienza, tende ad avere un capitolo o una sezione dedicata alla misurazione, a sostegno di quanto sia fondamentale per il processo scientifico (es. `(\cite{boniolo1999filosofia})`{=latex}`Boniolo & Vidali, 1999`{=html}). In breve quindi:
 
