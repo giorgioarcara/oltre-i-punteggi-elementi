@@ -202,7 +202,7 @@ Ricapitolando: la maggior parte dei test neuropsicologici assume implicitamente 
 
 Va tuttavia chiarito che il neuropsicologo non deve porsi quotidianamente il problema della scala di misurazione, a meno che non decida di effettuare operazioni sui punteggi al di là di quelle previste dalla pratica clinica standard. Il messaggio centrale è: **ottenere dei numeri non ci autorizza a fare di essi ciò che vogliamo**. Alcune operazioni, pur tecnicamente possibili, possono essere delicate o problematiche, e sapere che derivano da un'assunzione discutibile è fondamentale per un'interpretazione consapevole dei punteggi.
 
-Tutto ciò che abbiamo descritto in questo paragrafo — l'assunzione implicita di scala ad intervalli, l'utilizzo di correzioni demografiche, il confronto con soglie normative — è esattamente ciò che contraddistingue il framework psicometrico dominante in neuropsicologia, noto come **Teoria Classica dei Test** (CTT, _Classical Test Theory_), che approfondiamo nel prossimo paragrafo.
+In questo paragrafo abbiamo visto come molte delle operazioni che si effettuano sui punteggi di test neuropsicologici assumono che le misure siano su una scala ad intervalli. Nel corso del prossimo paragrafo, tratteremo invece un altro aspetto spesso implicito nei test neuropsicologici e cioè il framework in cui sono sviluppati e in cui si verifica la loro bontà. Questo framework è noto come **Teoria Classica dei Test** (CTT, _Classical Test Theory_).
 
 ## Teoria Classica dei Test {#teoria-classica-dei-test}
 
@@ -373,6 +373,12 @@ L'esempio più rilevante in ambito neuropsicologico e che negli ultimi anni ha a
 Analogamente, le scale **ADL** (_Activities of Daily Living_) e **IADL** (_Instrumental Activities of Daily Living_), già menzionate nel paragrafo sui test di comportamento tipico, vengono spesso incluse nei protocolli standard proprio per integrare i punteggi ai test cognitivi con una stima del funzionamento reale nella vita quotidiana.
 
 Questi strumenti condividono con i test psicologici il fatto di produrre un punteggio numerico, e rientrano quindi nella definizione di test di Cronbach che abbiamo visto. Tuttavia, le considerazioni psicometriche che si applicano loro, in particolare quelle relative alla validità e all'affidabilità, hanno sfumature proprie che è utile tenere presenti quando si interpretano i loro risultati nel contesto della valutazione.
+
+:::{.callout-tip}
+## Nota
+Nei test neuropsicologici spesso non è esplicitamente scritto che sono sviluppati secondo la Classical Test Theory. Questo è desumibile però dall'utilizzo di certe caratteristiche, come l'utilizzo di Validità e Affidabilità, secondo specifiche declinazioni tipiche di questo framework.
+:::
+
 
 ## Validità ed Affidabilità
 
