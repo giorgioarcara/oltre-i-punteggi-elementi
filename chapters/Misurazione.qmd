@@ -206,7 +206,7 @@ Il principio fondamentale della CTT è espresso in una formula apparentemente se
 
 :::{.callout.note}
 ## Definizione
-$X = T + E$$
+$X = T + E$
 
 $X$: punteggio osservato (observed score)
 $T$: punteggio vero (true score)
@@ -316,7 +316,7 @@ Questo è in linea con le parole di Sivan & Benton (1999) citate da Lezak nel [p
 
 `\pagebreak`{=latex}
 
-:::{.callout-note}
+:::{.callout-important}
 ## Nota.
 Il fatto che un test sia una **procedura sistematica** implica che, per somministrarlo correttamente, occorre attenersi scrupolosamente alla procedura originale: quella indicata dagli autori, nel manuale del test o nella pubblicazione scientifica di riferimento. Anche una deviazione apparentemente piccola può avere un impatto rilevante sui risultati e sulla loro interpretazione, producendo effetti a cascata difficili da prevedere. Per esempio, modificare leggermente le istruzioni, anche con il nobile intento di essere più chiari, può rendere il test più facile e alterare il significato del confronto con i dati normativi (si veda il paragrafo sui dati normativi). <!-- aggiungi qui hyperlink al paragrafo sui dati normativi -->
 :::
