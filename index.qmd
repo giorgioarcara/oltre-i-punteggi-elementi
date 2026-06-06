@@ -64,7 +64,7 @@ Di seguito trovate una lista dettagliata delle persone che hanno contribuito sin
 
 _Per suggerimenti/correzioni del testo_:  Giovanni Lazzaro, Chiara Longo, Alessandra Mele.
 
-Per i ringraziamenti personali più estesi, si veda la sezione [**Ringraziamenti personali**](chapters/Appendici/ringraziamenti-pers.qmd).
+Per i ringraziamenti personali più estesi, si veda la sezione [**Ringraziamenti personali**](chapters/Appendici/ringraziamenti-pers.qmd#ringraziamenti_personali).
 
 
 :::{.raw-latex}

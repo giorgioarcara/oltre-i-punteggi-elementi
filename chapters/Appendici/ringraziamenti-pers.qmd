@@ -1,4 +1,4 @@
-## Ringraziamenti personali {.unnumbered}
+## Ringraziamenti personali {.unnumbered #ringraziamenti_personali}
 Tutti i ringraziamenti che seguono vanno considerati in ordine sparso, senza una gerarchia particolare.
 
 Ringrazio la mia supervisor di dottorato, la Prof.ssa Sara Mondini, per avermi fatto appassionare alla neuropsicologia clinica e per le numerose interessantissime discussioni. Diverse parti di questo libro sono state sviluppate a partire da scambi con lei e sono almeno in parte state già riportate in altri testi, che abbiamo scritto anche insieme alla Prof.ssa Daniela Mapelli e la Prof.ssa Marinella Cappelletti.
