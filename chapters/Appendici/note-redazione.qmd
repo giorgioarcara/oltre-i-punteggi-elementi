@@ -58,7 +58,7 @@ In un ottica di gender balance ho deciso di evitare il più possibile di usare s
 ### Utilizzo di AI nella stesura del libro
 Nel momento in cui sto cominciando a scrivere questo libro (Agosto 2025), siamo in piena esplosione dell'utilizzo e delle opportunità di sistemi di Intelligenza Artificiale (In particolare Large Language Models, LLM come ChatGPT). Sta diventando sempre più comune dunque esplicitare che utilizzo se ne è fatto, in maniera trasparente. 
 Tutte le idee di questo libro sono generate **senza** l'ausilio di sistemi di intelligenza artificiale.
-Sistemi di AI (e in particolare ChatGPT, Claude, Claude-Code) sono stati utilizzati per i seguenti scopi:
+Sistemi di AI (e in particolare ChatGPT, Claude, Claude-Code, GitHub Copilot) sono stati utilizzati per i seguenti scopi:
 
 * revisione del testo (per typos o miglioramento chiarezza di alcune frasi)
 * supporto nel codice per generare il libro (Quarto e i linguaggi associati).
