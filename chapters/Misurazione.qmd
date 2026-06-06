@@ -14,6 +14,8 @@ Innanzittutto, misurare quasi sempre è associato all'ottenimento di _numeri_, c
 
 Per misurare utilizziamo i **test** cioè specifici strumenti  sviluppati appositamente in ambito psicologico e neuropsicologico. Anche i test saranno oggetto di un [paragrafo dedicato](#i-test)
 
+`\pagebreak`{=latex}
+
 Prima di cominciare ad entrare in tutti i dettagli è importante soffermarsi su una domanda fondamentale: 
 
 :::{.domanda}
