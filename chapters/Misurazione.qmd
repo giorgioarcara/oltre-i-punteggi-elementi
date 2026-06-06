@@ -157,9 +157,11 @@ Nell'esempio della @fig-measurement-fisico, un tavolo ha un lato lungo 120 cm. P
 ![Sistema Relazionale Empirico e Sistema Relazionale Numerico: esempio della misurazione di un costrutto psicologico (memoria).](../Figures/Latex-Figure-Measurement-2/Fig_measurement_2.png){#fig-measurement-psicologico fig-align="center" width=70%}
 
 In questo caso possiamo dire che il nostro Sistema Relazionale Empirico[^sis] è dato dall'insieme di tutte le persone con diversa memoria e il Sistema Relazionale Numerico come l'insieme di numeri che utilizziamo per descrivere la memoria di queste persone. 
-Alcune operazioni con questi numeri sono intuitivamente sensate, ad esempio possiamo dire che alcune persone hanno più memoria di altre (possiamo quindi ordinare), ma nel momento in cui cerchiamo di capire l'applicabilità di altre operazioni diventa più difficile rispondere. Ad esempio, tramite un test possiamo arrivare a dire che una persona ha il doppio di memoria di un altra? Oppure che ha +20 unità di memoria più di un'altra? (qualsiasi sia questa unità). Per poter dare una risposta a queste domande, dovremmo sapere appunto in che scala di misurazione è stata misurata la memoria.
+Alcune operazioni con questi numeri sono intuitivamente sensate, ad esempio possiamo dire che alcune persone hanno più memoria di altre (possiamo quindi ordinare), ma nel momento in cui cerchiamo di capire l'applicabilità di altre operazioni diventa più difficile rispondere. Ad esempio, tramite un test possiamo arrivare a dire che una persona ha il doppio di memoria di un altra? Oppure che ha +20 unità di memoria più di un'altra? (qualsiasi sia questa unità). Rispetto alla definizione di Suppes & Zinnes questo potrebbe essere possibile o no ed è una dei possibili esiti ed è attraverso la specificazione della _struttura assiomatica della relazione empirica_[^supp] che si stabilisce quale relazione esista tra costrutto e punteggio e quali operazioni siano giustificate.
 
-Adesso proviamo però ad andare oltre alla definizione di Stevens e approfondire ulteriormente il significato di misurazione. In generale misurare significa utilizzare numeri per descrivere delle proprietà di entità che vogliamo descrivere. Ad esempio quando misuriamo la lunghezza di un tavolo, supponendo che essa sia 50 cm, il numero "50" indica una proprietà del tavolo in una maniera per noi utile. 
+
+[^supp]: questo aspetto è affrontato più in dettaglio nella sezione _Approfondimenti tecnici_
+
 
 
 [^sis]:è importante notare che non tutti sarebbero d'accordo nel dire che l'insieme di costrutti psicologici (cioè concetti non osservabili) sono parte di un sistema relazionale empirico. La domanda è però proprio al confine dell'epistemologia: un concetto psicologico non osservabile è parte del mondo empirico (così come lo sono altri entità non osservabili) oppure no? Non è lo scopo di questo libro né di questo paragrafo rispondere a questa domanda, ma per i nostri scopi la diversa collocazione dei concetti psicologici (come entità del mondo empirico o no), è irrilevante. Qui assumo che i concetti psicologici siano di fatti parte dei sistemi relazionali empirici in un certo senso aggirando il problema, e utilizzando la definizione di sistema relazionale empirico come ogni sistema relazionale _non_ numerico.
@@ -169,7 +171,7 @@ Adesso proviamo però ad andare oltre alla definizione di Stevens e approfondire
 ## Quale definizione di misurazione adottano i test neuropsicologici?
 Visto che esistono diversi modelli di misurazione, viene spontaneo chiedersi quale di essi adottino i test neuropsicologici (specie quelli disponibili in Italia) e quali conseguenze pratiche ne derivino.
 
-La risposta non è semplice: per la maggior parte dei test, il modello di misurazione sottostante non viene mai dichiarato esplicitamente. È tuttavia possibile analizzare criticamente questi strumenti e ricavarne un quadro.
+La risposta non è semplice: per la maggior parte dei test, il modello di misurazione sottostante non viene mai dichiarato esplicitamente. Tuttavia, se facciamo un ragionamento al contrario e cerchiamo di desumerlo a partire dall'utilizzo che si fanno dei punteggi, possiamo dire che implicitamente si assuma la definizione di Stevens e che la misura sia su scala ad intervalli. 
 
 
 ::: {.callout-important}
@@ -178,14 +180,13 @@ Nella maggior parte dei test neuropsicologici _si assume_ implicitamente che la 
 
 :::
 
+ Ricordiamo che assumere una scala ad intervalli significa che le differenze tra punteggi hanno un significato costante lungo tutta la scala. Un esempio classico è la temperatura in gradi Celsius: un aumento di 2°C ha lo stesso significato indipendentemente dal valore di partenza (che si passi da 36 a 38 o da 38 a 40, in entrambi i casi la variazione è identica).
 
-**Nella maggior parte dei test neuropsicologici _si assume_ implicitamente che la misura sia su scala a intervalli**, senza che questo venga mai dichiarato. Assumere una scala ad intervalli significa che le differenze tra punteggi hanno un significato costante lungo tutta la scala. Un esempio classico è la temperatura in gradi Celsius: un aumento di 2°C ha lo stesso significato indipendentemente dal valore di partenza (che si passi da 36 a 38 o da 38 a 40, in entrambi i casi la variazione è identica).
+Applicare lo stesso ragionamento a un test neuropsicologico è meno scontato. Prendiamo il MoCA: se fosse davvero una scala a intervalli, un aumento di 2 punti dovrebbe avere lo stesso significato sia partendo da 20 sia partendo da 28. Eppure un aumento da 28 a 30 porta a un punteggio perfetto, mentre uno da 26 a 28 indica semplicemente una prestazione medio-alta che migliora[^mis3]: è quantomeno discutibile sostenere che le due variazioni abbiano lo stesso significato.
 
-Applicare lo stesso ragionamento a un test neuropsicologico è meno scontato. Prendiamo il MoCA: se fosse davvero una scala a intervalli, un aumento di 2 punti dovrebbe avere lo stesso significato sia partendo da 20 sia partendo da 28. Eppure un aumento da 28 a 30 porta a un punteggio perfetto, mentre uno da 26 a 28 indica semplicemente una prestazione medio-alta che migliora[^mis3]: è quantomeno discutibile sostenere che le due variazioni abbiano lo stesso peso.
+Lo stesso vale per il Digit Span, test in cui si chiede di ricordare sequenze di numeri di lunghezza crescente e il punteggio corrisponde alla sequenza più lunga correttamente richiamata. Un aumento di 2 punti da 3 a 5 segna il passaggio da una prestazione molto bassa a una nella norma; un aumento da 8 a 10 porta invece da una prestazione già eccellente a una quasi irraggiungibile (provate a ricordare una sequenza di 10 cifre per capire). Anche qui le due variazioni potrebbero non sembrano equivalenti.
 
-Lo stesso vale per il Digit Span, test in cui si chiede di ricordare sequenze di numeri di lunghezza crescente e il punteggio corrisponde alla sequenza più lunga correttamente richiamata. Un aumento di 2 punti da 3 a 5 segna il passaggio da una prestazione molto bassa a una nella norma; un aumento da 8 a 10 porta invece da una prestazione già eccellente a una quasi irraggiungibile (provate a ricordare una sequenza di 10 cifre per capire). Anche qui le due variazioni non sembrano equivalenti.
-
-Questi esempi mostrano come interpretare i punteggi grezzi di un test come se fossero su scala a intervalli sia, quantomeno, problematico.
+Questi esempi mostrano come interpretare i punteggi grezzi di un test come se fossero su scala a intervalli non si possa dare per scontato.
 
 [^mis3]: per complicare ulteriormente il quadro qualcuno che conosce il MoCA potrebbe anche dire che il significato di questi $+2$, dipende molto da quale è l'item (o gli item) a cui è legato questo punteggio, questo esempio è trattato in un [Approfondimento](#Approfondimento-item-arbitrari)).
 
@@ -200,7 +201,7 @@ Tutte queste considerazioni sono sensate e condivisibili, ma, dal punto di vista
 
 Come sarà approfondito nel paragrafo [_Introduzione all'Item Response Theory_](#introduzione-item-response-theory) e nel capitolo _Misurare Cambiamenti nel Tempo_, l'assunzione di scala ad intervalli nei punteggi dei test neuropsicologici ha implicazioni concrete che saranno analizzate più in dettaglio nei capitoli successivi.
 
-Ricapitolando: la maggior parte dei test neuropsicologici assume implicitamente una scala ad intervalli senza dichiararlo. Questa assunzione è di per sé discutibile, come mostrano gli esempi del MoCA e del Digit Span, e lo diventa ancor di più quando si applicano correzioni demografiche per età e scolarità. Sebbene esistano test sviluppati su modelli più rigorosi di misurazione come quelli dell'Item Response Theory, questi rimangono ancora poco diffusi nella pratica clinica italiana (e non solo).
+Ricapitolando: la maggior parte dei test neuropsicologici adotta implicitamente la definizione di Stevens e assume una scala ad intervalli, pur senza dichiararlo. L'assunzione di una scala ad intervalli non è però così scontata, come mostrano gli esempi del MoCA e del Digit Span, e lo diventa ancor di più quando si applicano correzioni demografiche per età e scolarità. Sebbene esistano test sviluppati su modelli più rigorosi di misurazione come quelli dell'Item Response Theory, questi rimangono ancora poco diffusi nella pratica clinica italiana (e non solo).
 
 Va tuttavia chiarito che il neuropsicologo non deve porsi quotidianamente il problema della scala di misurazione, a meno che non decida di effettuare operazioni sui punteggi al di là di quelle previste dalla pratica clinica standard. Il messaggio centrale è: **ottenere dei numeri non ci autorizza a fare di essi ciò che vogliamo**. Alcune operazioni, pur tecnicamente possibili, possono essere delicate o problematiche, e sapere che derivano da un'assunzione discutibile è fondamentale per un'interpretazione consapevole dei punteggi.
 
