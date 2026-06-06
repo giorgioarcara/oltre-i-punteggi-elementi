@@ -209,84 +209,7 @@ Ricapitolando: la maggior parte dei test neuropsicologici adotta implicitamente 
 
 Va tuttavia chiarito che il neuropsicologo non deve porsi quotidianamente il problema della scala di misurazione, a meno che non decida di effettuare operazioni sui punteggi al di là di quelle previste dalla pratica clinica standard. Il messaggio centrale è: **ottenere dei numeri non ci autorizza a fare di essi ciò che vogliamo**. Alcune operazioni, pur tecnicamente possibili, possono essere delicate o problematiche, e sapere che derivano da un'assunzione discutibile è fondamentale per un'interpretazione consapevole dei punteggi.
 
-In questo paragrafo abbiamo visto come molte delle operazioni che si effettuano sui punteggi di test neuropsicologici assumono che le misure siano su una scala ad intervalli. Nel corso del prossimo paragrafo, tratteremo invece un altro aspetto spesso implicito nei test neuropsicologici e cioè il framework in cui sono sviluppati e in cui si verifica la loro bontà. Questo framework è noto come **Teoria Classica dei Test** (CTT, _Classical Test Theory_).
-
-## Teoria Classica dei Test {#teoria-classica-dei-test}
-
-La CTT (_Classical Test Theory_, Teoria Classica dei Test) è il framework psicometrico su cui si basa la grande maggioranza dei test neuropsicologici attualmente disponibili. Come accennato nel paragrafo precedente, spesso non vi è una dichiarazione esplicita di seguire la CTT, ma i principi che ne ispirano la costruzione, l'utilizzo di alcune analisi (ad esempio, calcolare la consistenza interna o l'affidabilità test-retest) ne sono una diretta espressione. Comprendere questi presupposti è quindi fondamentale non solo per chi costruisce test, ma anche per chi li usa nella pratica clinica quotidiana.
-
-### Il principio cardine: X = T + E
-
-Il principio fondamentale della CTT è espresso in una formula apparentemente semplice:
-
-:::{.callout-note}
-## Definizione
-$X = T + E$
-
-$X$: punteggio osservato (observed score)\
-$T$: punteggio vero (true score)\
-$E$: errore di misura (error)\
-
-:::
-
-Nell'equazione base della CTT, $X$ rappresenta il **punteggio osservato**, ovvero quello che si ottiene concretamente somministrando il test a una persona in una specifica occasione. $T$ è il **punteggio vero** (_true score_), cioè la quantità del costrutto che la persona davvero possiede, la sua vera capacità di memoria, attenzione o qualsiasi altro attributo il test intenda misurare. Infine, $E$ è l'**errore di misura** (_error_), la componente casuale che in ogni singola somministrazione porta il punteggio osservato a discostarsi, in più o in meno, dal punteggio vero.
-
-L'idea centrale della CTT è che ogni volta che somministriamo un test otteniamo una stima imperfetta dell'abilità reale della persona: il punteggio osservato $X$ è la somma di quanto la persona sa o può fare davvero ($T$) e di una quota di rumore casuale ($E$) che dipende da molte circostanze, anche contingenti (ad esempio la stanchezza del giorno, il livello di ansia durante la valutazione, una distrazione durante le istruzioni, un item che per qualche motivo è risultato più facile o difficile del solito). _L'errore, può essere positivo o negativo e varia simmetricamente intorno allo zero._
-Un altro modo di pensare $T$ è quello del punteggio che otterremmo se non avessimo alcun errore di misura.
-
-Un'assunzione cruciale è che $T$ ed $E$ siano **indipendenti tra loro**: l'errore non dipende sistematicamente dalla quantità di abilità posseduta dalla persona. In altre parole, essere molto capaci o molto poco capaci non rende l'errore sistematicamente più grande o più piccolo, è sempre una componente casuale che oscilla intorno allo zero.
-
-Per fare un esempio concreto: supponiamo che il punteggio vero di una persona a un test di memoria sia $T = 10$. Se il giorno della somministrazione la persona è stanca o ansiosa, potrebbe ottenere $X = 7$, con un errore $E = -3$ che ha abbassato il punteggio. Se invece è riposata e particolarmente motivata, potrebbe ottenere $X = 12$, con $E = +2$ che lo ha leggermente sovrastimato. In entrambi i casi, il punteggio vero rimane $T = 10$: è la stima dell'abilità reale, quella che rimarrebbe stabile se potessimo somministrare lo stesso test infinite volte nelle stesse condizioni ideali.
-
-L'idea delle "misurazioni infinite" non è solo un espediente retorico: nella CTT il punteggio vero $T$ è definito formalmente proprio come il valore atteso (la media) di $X$ su infinite ripetizioni della misura. Se l'errore $E$ è davvero casuale e con media zero, come la CTT assume, allora i contributi positivi e negativi dell'errore si cancellerebbero a vicenda su infinite somministrazioni, e la media di tutti i punteggi osservati convergerebbe esattamente a $T$. In una singola somministrazione non sappiamo se l'errore ci ha penalizzato o favorito; ma l'idea che $T$ "esista" come limite di questo processo ci dà un fondamento teorico per trattare il punteggio osservato come una stima, per quanto imperfetta, dell'abilità reale.
-
-La @fig-ctt-true-obs illustra questa dinamica con una simulazione: trenta somministrazioni ripetute dello stesso test alla stessa persona (punteggio vero $T = 10$), con i punteggi osservati che fluttuano attorno alla linea del punteggio vero per effetto dell'errore casuale. Nessuna singola misurazione coincide esattamente con $T$, ma tutte sono intorno ad esso: è proprio questo che rende $T$ una sorta di "centro di gravità" della distribuzione dei punteggi osservati.
-
-```{r}
-#| label: fig-ctt-true-obs
-#| echo: false
-#| warning: false
-#| message: false
-#| fig-cap: "Trenta somministrazioni simulate dello stesso test alla stessa persona con punteggio vero $T = 10$ (linea continua). I cerchi rappresentano i punteggi osservati, che fluttuano attorno a $T$ per effetto dell'errore casuale $E$."
-#| fig-width: 6
-#| fig-height: 4
-
-library(ONDAutils)
-
-set.seed(10)
-X <- simulate_obs(Ts = 10, n = 30, rel = 0.8, mu_true = 10, sd_true = 2,
-                  label = "Punteggio vero e punteggi osservati")
-abline(h = 10, col = "steelblue", lwd = 3)
-legend("topright", legend = c("punteggio osservato", "punteggio vero"),
-       pch = c(1, NA), lty = c(NA, 1), lwd = c(NA, 2),
-       col = c("black", "steelblue"), cex = 0.8)
-```
-
-
-È importante sottolineare che nella pratica clinica, ciò che vedremo sarà sempre e solo _un punteggio osservato_ e cioè $X$, molto spesso una singola realizzazione di uno dei possibili punteggi osservati possibili (in riferimento alla @fig-ctt-true-obs, quello che vedremo è uno solo dei possibili cerchietti). Tale punteggio sarà dunque sempre e solo una stima del punteggio vero $T$, e non potremo mai sapere con certezza se quell'osservazione è stata influenzata da un errore positivo o negativo, né di quanto.
-
-Questa consapevolezza porta a identificare due obiettivi prioritari nel processo di costruzione di un test: il primo è ridurre al minimo l'errore $E$, affinché il punteggio osservato sia il più possibile vicino al punteggio vero; il secondo è riuscire a stimare l'entità di quell'errore, in modo da sapere con quale margine di incertezza si sta lavorando quando si interpreta un punteggio.
-Va da sé, che in neuropsicologia clinica, sarebbe prioritario avere test con il più piccolo errore di misura possibile, in modo da ottenere stime più precise dell'abilità reale dei pazienti e che siano il meno possibile influenzati da fattori contingenti. Questo ci assicurerebbe di avere una stima più accurata del funzionamento cognitivo dei pazienti, migliorando la nostra capacità di diagnosticare deficit, monitorare cambiamenti nel tempo e valutare l'efficacia di interventi riabilitativi. 
-
-Questi due obiettivi si traducono operativamente nei due concetti psicometrici più importanti dell'intera tradizione CTT, che saranno trattati in dettaglio nei prossimi paragrafi: la **validità**, che risponde alla domanda: _"stiamo misurando davvero ciò che intendiamo misurare?"_; e l'**affidabilità** — che risponde alla domanda _"con quanta precisione e consistenza lo misuriamo?"_. Entrambi i concetti possono essere letti, in ultima analisi, come tentativi di rispondere alla stessa domanda di fondo: quanto ci possiamo fidare del punteggio $X$ come stima del punteggio vero $T$?
-
-### Limiti della CTT
-
-La CTT, pur essendo il framework dominante e pur avendo dimostrato grande utilità pratica, presenta alcuni limiti intrinseci che è importante conoscere, non per scartare il modello, ma per sapere dove le sue assunzioni devono essere accettate con una certa cautela o quantomeno con consapevolezza.
-
-Il primo limite riguarda il fatto che nella CTT le abilità del soggetto e la difficoltà degli item non sono modellate separatamente. Il punteggio di una persona dipende sia dalla sua abilità sia dalla difficoltà specifica degli item inclusi in quella versione del test: un test composto da item particolarmente difficili abbassa i punteggi di tutti i soggetti, indipendentemente dalla loro abilità reale. Il problema pratico più evidente è che diventa difficile confrontare punteggi ottenuti con versioni diverse dello stesso test, per esempio in valutazioni ripetute nel tempo, perché non è chiaro quanto di una differenza di punteggio rifletta un reale cambiamento nell'abilità e quanto dipenda semplicemente dalla diversa difficoltà degli item somministrati. Questo tornerà come tema centrale nel capitolo dedicato a [_Misurare Cambiamenti nel Tempo_](chapters/Cambiamenti-nel-tempo.qmd).
-
-Il secondo limite riguarda l'assunzione di indipendenza tra $T$ ed $E$. Questa assunzione, pur ragionevole nella parte centrale della scala, è sistematicamente violata ai valori estremi. Se il punteggio vero di una persona è vicino al massimo del test, l'errore non può distribuirsi liberamente in entrambe le direzioni: la persona non può ottenere un punteggio osservato superiore al massimo, quindi l'errore può solo abbassare il punteggio, mai alzarlo oltre il limite. Lo stesso accade al limite inferiore: il punteggio osservato non può scendere sotto lo zero, per cui l'errore diventa asimmetrico e smette di essere indipendente dal punteggio vero. Ai valori estremi, in altre parole, l'errore stesso dipende da dove si trova la persona nella scala, il che viola direttamente l'assunzione fondamentale del modello.
-
-Per esempio, se (nel test precedente con punteggio da 0 a 10) la persona avesse che punteggio vero $T=10$, l'errore $E$ non potrebbe mai essere positivo, perché il punteggio osservato $X$ non può superare il massimo di 10. Se invece $T=0$, l'errore non potrebbe mai essere negativo, perché $X$ non può scendere sotto zero. In entrambi i casi, l'errore è limitato in una sola direzione, e quindi dipende dal valore di $T$, violando l'assunzione di indipendenza.
-
-Questi limiti non rendono la CTT inutilizzabile, e i test neuropsicologici che ne derivano rimangono strumenti clinicamente preziosi nella pratica quotidiana, ma spiegano perché nel corso degli anni si siano sviluppati modelli di misurazione alternativi.
-
-<!-- FORSE QUI CENNI SU ALTRI FRAMEWORK DI MISURAZIONE?
-### Cenni sull'Item Response Theory
-
-L'alternativa principale alla CTT è l'**Item Response Theory** (IRT), una famiglia di modelli in cui l'abilità del soggetto e la difficoltà degli item vengono modellate separatamente, superando così uno dei limiti fondamentali della CTT. Questo aspetto sarà approfondito nel paragrafo [_Introduzione all'Item Response Theory_](#introduzione-item-response-theory).
--->
+Abbiamo parlato a lungo di misurazione, ma lasciamo adesso spazio a quelli che sono gli strumenti di misurazione in neuropsicologia: i test.
 
 ## I test {#i-test}
 Già dall'introduzione è stato detto che il protagonista assoluto del libro è il test neuropsicologico. Ma cos'è un test? Come sempre, non possiamo non procedere senza fornire una definizione precisa che ci aiuti a definire cosa è un test (e cosa non lo è) e quali sono le caratteristiche che lo contraddistinguono.
@@ -360,6 +283,7 @@ Analogamente, le scale **ADL** (_Activities of Daily Living_) e **IADL** (_Instr
 
 Questi strumenti condividono con i test psicologici il fatto di produrre un punteggio numerico, e rientrano quindi nella definizione di test di Cronbach che abbiamo visto. Tuttavia, le considerazioni psicometriche che si applicano loro, in particolare quelle relative alla validità e all'affidabilità, hanno sfumature proprie che è utile tenere presenti quando si interpretano i loro risultati nel contesto della valutazione.
 
+
 ### Questo è un buon test?
 
 La definizione di Cronbach, pur essendo ampia e inclusiva, lascia aperta una domanda importante: _qualunque_ strumento che assegni numeri a comportamenti osservati può essere considerato un buon test? Considera il seguente test ipotetico per la memoria:
@@ -374,20 +298,95 @@ Ma questo è davvero un buon test per la memoria?
 
 È verosimile che la vostra risposta "di pancia", sia stata "no", anche se non avete una spiegazione tecnica. Potreste dire per esempio che è troppo semplice, che 7 parole sono poche[^pochiitems], che 30 secondi sono pochi, che le parole sono troppo facili, etc. Tutte queste considerazioni sono ragionevoli e probabilmente condivisibili, ma non sono basate su un modello di misurazione o su una teoria della memoria. Sono semplicemente basate sul buon senso e sull'esperienza clinica.
 
-Nel corso di questo libro troveremo un modo per dare una risposta più rigorosa a questa domanda. Quello che per ora è importante sottolineare che, anche se questo strumento soddisfa formalmente le definizioni di test e di misurazione, non è detto che sia un buon test: dobbiamo avere altre evidenze per poter dire che questo strumento misura la memoria in modo accurato e preciso.
 
-Per introdurre dei termini tecnici, quello che ci manca è quantomeno delle informazioni sulla **validità** (la giustificazione del legame tra punteggio e costrutto) e l'**affidabilità** (la precisione e la consistenza della misura) sono gli aspetti più critici della psicometria nel contesto della CTT e saranno trattati in dettaglio nei capitoli dedicati.
+Nel corso di questo libro daremo delle risposte più rigorose a questa domanda. Quello che per ora è importante sottolineare che, anche se questo strumento soddisfa formalmente le definizioni di test e di misurazione, non è detto che sia un buon test: dobbiamo avere altre evidenze per poter dire che questo strumento misura la memoria in modo accurato e preciso.
 
-Se siete d'accordo sul fatto che per capire se questo è un buon test sono necessarie ulteriori informazioni, vi invito a mantenere questo scetticismo e questa posizione anche di fronte a un nuovo test psicologico o neuropsicologico che vi viene presentato. Uno dei messaggi chiave di questo testo sarà infatti che non basta che un test sia pubblicato o disponibile perché sia un buon test e che è un dovere professionale quello di informarsi sulle sue qualità psicometriche prima di utilizzarlo o interpretarlo.
+Esistono diversi framework teorici che hanno cercato di definire questi aspetti fondamentali che definiscono come identificare se un test sta funzionando come dovrebbe e, più in generale, come si dovrebbe costruire un test. Come è possibile immaginare, tutto ciò è spesso strettamente intrecciato a veri e propri modelli di misurazione psicologica. Nel prossimo paragrafo tratteremo il framework più diffuso e utilizzato in neuropsicologia clinica, noto come la Teoria Classica dei Test.
 
-[^pochiitems]: Il numero di item da solo non è un indicatore della qualità di un test. Esistono test pubblicati e validati anche con pochissimi item: per esempio, esiste una versione a 3 item della _UCLA Loneliness Scale_ per la misurazione (`(\cite{gosling2024measuring})`{=latex}`Gosling et al., 2024`{=html}).
+
+## Teoria Classica dei Test {#teoria-classica-dei-test}
+
+La CTT (_Classical Test Theory_, Teoria Classica dei Test) è il framework psicometrico su cui si basa la grande maggioranza dei test neuropsicologici attualmente disponibili. è da notare che spesso non vi è una dichiarazione esplicita di seguire la CTT, ma questo può essere desunto dall'utilizzo di alcune analisi (ad esempio, calcolare la consistenza interna o l'affidabilità test-retest), che ne sono una diretta espressione. Comprendere i presupposti della CTT è quindi fondamentale non solo per chi costruisce test, ma anche per chi li usa nella pratica clinica quotidiana.
+
+### Il principio cardine: X = T + E
+
+Il principio fondamentale della CTT è espresso in una formula apparentemente semplice:
+
+:::{.callout-note}
+## Definizione
+$X = T + E$
+
+$X$: punteggio osservato (observed score)\
+$T$: punteggio vero (true score)\
+$E$: errore di misura (error)\
+
+:::
+
+Nell'equazione base della CTT, $X$ rappresenta il **punteggio osservato**, ovvero quello che si ottiene concretamente somministrando il test a una persona in una specifica occasione. $T$ è il **punteggio vero** (_true score_), cioè la quantità del costrutto che la persona davvero possiede, la sua vera capacità di memoria, attenzione o qualsiasi altro attributo il test intenda misurare. Infine, $E$ è l'**errore di misura** (_error_), la componente casuale che in ogni singola somministrazione porta il punteggio osservato a discostarsi, in più o in meno, dal punteggio vero.
+
+L'idea centrale della CTT è che ogni volta che somministriamo un test otteniamo una stima imperfetta dell'abilità reale della persona: il punteggio osservato $X$ è la somma di quanto la persona sa o può fare davvero ($T$) e di una quota di rumore casuale ($E$) che dipende da molte circostanze, anche contingenti (ad esempio la stanchezza del giorno, il livello di ansia durante la valutazione, una distrazione durante le istruzioni, un item che per qualche motivo è risultato più facile o difficile del solito). _L'errore, può essere positivo o negativo e varia simmetricamente intorno allo zero._
+Un altro modo di pensare $T$ è quello del punteggio che otterremmo se non avessimo alcun errore di misura.
+
+Un'assunzione cruciale è che $T$ ed $E$ siano **indipendenti tra loro**: l'errore non dipende sistematicamente dalla quantità di abilità posseduta dalla persona. In altre parole, essere molto capaci o molto poco capaci non rende l'errore sistematicamente più grande o più piccolo, è sempre una componente casuale che oscilla intorno allo zero.
+
+Per fare un esempio concreto: supponiamo che il punteggio vero di una persona a un test di memoria sia $T = 10$. Se il giorno della somministrazione la persona è stanca o ansiosa, potrebbe ottenere $X = 7$, con un errore $E = -3$ che ha abbassato il punteggio. Se invece è riposata e particolarmente motivata, potrebbe ottenere $X = 12$, con $E = +2$ che lo ha leggermente sovrastimato. In entrambi i casi, il punteggio vero rimane $T = 10$: è la stima dell'abilità reale, quella che rimarrebbe stabile se potessimo somministrare lo stesso test infinite volte nelle stesse condizioni ideali.
+
+L'idea delle "misurazioni infinite" non è solo un espediente retorico: nella CTT il punteggio vero $T$ è definito formalmente proprio come il valore atteso (la media) di $X$ su infinite ripetizioni della misura. Se l'errore $E$ è davvero casuale e con media zero, come la CTT assume, allora i contributi positivi e negativi dell'errore si cancellerebbero a vicenda su infinite somministrazioni, e la media di tutti i punteggi osservati convergerebbe esattamente a $T$. In una singola somministrazione non sappiamo se l'errore ci ha penalizzato o favorito; ma l'idea che $T$ "esista" come limite di questo processo ci dà un fondamento teorico per trattare il punteggio osservato come una stima, per quanto imperfetta, dell'abilità reale.
+
+La @fig-ctt-true-obs illustra questa dinamica con una simulazione: trenta somministrazioni ripetute dello stesso test alla stessa persona (punteggio vero $T = 10$), con i punteggi osservati che fluttuano attorno alla linea del punteggio vero per effetto dell'errore casuale. Nessuna singola misurazione coincide esattamente con $T$, ma tutte sono intorno ad esso: è proprio questo che rende $T$ una sorta di "centro di gravità" della distribuzione dei punteggi osservati.
+
+```{r}
+#| label: fig-ctt-true-obs
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Trenta somministrazioni simulate dello stesso test alla stessa persona con punteggio vero $T = 10$ (linea continua). I cerchi rappresentano i punteggi osservati, che fluttuano attorno a $T$ per effetto dell'errore casuale $E$."
+#| fig-width: 6
+#| fig-height: 4
+
+library(ONDAutils)
+
+set.seed(10)
+X <- simulate_obs(Ts = 10, n = 30, rel = 0.8, mu_true = 10, sd_true = 2,
+                  label = "Punteggio vero e punteggi osservati")
+abline(h = 10, col = "steelblue", lwd = 3)
+legend("topright", legend = c("punteggio osservato", "punteggio vero"),
+       pch = c(1, NA), lty = c(NA, 1), lwd = c(NA, 2),
+       col = c("black", "steelblue"), cex = 0.8)
+```
+
+
+È importante sottolineare che nella pratica clinica, ciò che vedremo sarà sempre e solo _un punteggio osservato_ e cioè $X$, molto spesso una singola realizzazione di uno dei possibili punteggi osservati possibili (in riferimento alla @fig-ctt-true-obs, quello che vedremo è uno solo dei possibili cerchietti). Tale punteggio sarà dunque sempre e solo una stima del punteggio vero $T$, e non potremo mai sapere con certezza se quell'osservazione è stata influenzata da un errore positivo o negativo, né di quanto.
+
+Questa consapevolezza porta a identificare due obiettivi prioritari nel processo di costruzione di un test: il primo è ridurre al minimo l'errore $E$, affinché il punteggio osservato sia il più possibile vicino al punteggio vero; il secondo è riuscire a stimare l'entità di quell'errore, in modo da sapere con quale margine di incertezza si sta lavorando quando si interpreta un punteggio.
+Va da sé, che in neuropsicologia clinica, sarebbe prioritario avere test con il più piccolo errore di misura possibile, in modo da ottenere stime più precise dell'abilità reale dei pazienti e che siano il meno possibile influenzati da fattori contingenti. Questo ci assicurerebbe di avere una stima più accurata del funzionamento cognitivo dei pazienti, migliorando la nostra capacità di diagnosticare deficit, monitorare cambiamenti nel tempo e valutare l'efficacia di interventi riabilitativi. 
+
+Questi due obiettivi si traducono operativamente nei due concetti psicometrici più importanti dell'intera tradizione CTT, che saranno trattati in dettaglio nei prossimi paragrafi: la **validità**, che risponde alla domanda: _"stiamo misurando davvero ciò che intendiamo misurare?"_; e l'**affidabilità** — che risponde alla domanda _"con quanta precisione e consistenza lo misuriamo?"_. Entrambi i concetti possono essere letti, in ultima analisi, come tentativi di rispondere alla stessa domanda di fondo: quanto ci possiamo fidare del punteggio $X$ come stima del punteggio vero $T$?
+
+### Limiti della CTT
+
+La CTT, pur essendo il framework dominante e pur avendo dimostrato grande utilità pratica, presenta alcuni limiti intrinseci che è importante conoscere, non per scartare il modello, ma per sapere dove le sue assunzioni devono essere accettate con una certa cautela o quantomeno con consapevolezza.
+
+Il primo limite riguarda il fatto che nella CTT le abilità del soggetto e la difficoltà degli item non sono modellate separatamente. Il punteggio di una persona dipende sia dalla sua abilità sia dalla difficoltà specifica degli item inclusi in quella versione del test: un test composto da item particolarmente difficili abbassa i punteggi di tutti i soggetti, indipendentemente dalla loro abilità reale. Il problema pratico più evidente è che diventa difficile confrontare punteggi ottenuti con versioni diverse dello stesso test, per esempio in valutazioni ripetute nel tempo, perché non è chiaro quanto di una differenza di punteggio rifletta un reale cambiamento nell'abilità e quanto dipenda semplicemente dalla diversa difficoltà degli item somministrati. Questo tornerà come tema centrale nel capitolo dedicato a [_Misurare Cambiamenti nel Tempo_](chapters/Cambiamenti-nel-tempo.qmd).
+
+Il secondo limite riguarda l'assunzione di indipendenza tra $T$ ed $E$. Questa assunzione, pur ragionevole nella parte centrale della scala, è sistematicamente violata ai valori estremi. Se il punteggio vero di una persona è vicino al massimo del test, l'errore non può distribuirsi liberamente in entrambe le direzioni: la persona non può ottenere un punteggio osservato superiore al massimo, quindi l'errore può solo abbassare il punteggio, mai alzarlo oltre il limite. Lo stesso accade al limite inferiore: il punteggio osservato non può scendere sotto lo zero, per cui l'errore diventa asimmetrico e smette di essere indipendente dal punteggio vero. Ai valori estremi, in altre parole, l'errore stesso dipende da dove si trova la persona nella scala, il che viola direttamente l'assunzione fondamentale del modello.
+
+Per esempio, se (nel test precedente con punteggio da 0 a 10) la persona avesse che punteggio vero $T=10$, l'errore $E$ non potrebbe mai essere positivo, perché il punteggio osservato $X$ non può superare il massimo di 10. Se invece $T=0$, l'errore non potrebbe mai essere negativo, perché $X$ non può scendere sotto zero. In entrambi i casi, l'errore è limitato in una sola direzione, e quindi dipende dal valore di $T$, violando l'assunzione di indipendenza.
+
+Questi limiti non rendono la CTT inutilizzabile, e i test neuropsicologici che ne derivano rimangono strumenti clinicamente preziosi nella pratica quotidiana, ma spiegano perché nel corso degli anni si siano sviluppati modelli di misurazione alternativi.
+
+<!-- FORSE QUI CENNI SU ALTRI FRAMEWORK DI MISURAZIONE?
+### Cenni sull'Item Response Theory
+
+L'alternativa principale alla CTT è l'**Item Response Theory** (IRT), una famiglia di modelli in cui l'abilità del soggetto e la difficoltà degli item vengono modellate separatamente, superando così uno dei limiti fondamentali della CTT. Questo aspetto sarà approfondito nel paragrafo [_Introduzione all'Item Response Theory_](#introduzione-item-response-theory).
+-->
+### Riassunto sulla CTT
+Abbiamo descritto brevemente il principio cardine della CTT e alcune assunzioni di fondo di questo framework teorico. Abbiamo però anche detto che spesso questo non è detto esplicitamente. Il segno più chiaro dell'utilizzo di questo framework è legato alla domanda di chiusura che ci siamo posti "come fare a decidere se un test è un buon test"? Per farlo la CTT, risponde che bisogna avere informazioni sulla **validità** del test (la giustificazione del legame tra punteggio e costrutto) e la sua **affidabilità** (la precisione e la consistenza della misura). Questi sono gli aspetti più critici della psicometria nel contesto della CTT e saranno trattati in dettaglio nei prossimi paragrafi.
 
 :::{.callout-tip}
 ## Nota
 Nei manuali o articoli test neuropsicologici spesso non è esplicitamente scritto che sono sviluppati secondo la Classical Test Theory. Questo è desumibile però dall'utilizzo di certe caratteristiche, come l'utilizzo di Validità e Affidabilità, secondo specifiche declinazioni tipiche di questo framework.
 :::
-
-
 
 ## Validità ed Affidabilità
 
