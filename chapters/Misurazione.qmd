@@ -49,16 +49,16 @@ La disciplina che si occupa della misurazione in psicologia (e in neuropsicologi
 Un concetto psicologico non direttamente osservabile (es. memoria, attenzione, intelligenza). Per renderlo misurabile, è associato ad uno o più _indicatori_ (o _proxy_ in inglese).
 
 **Indicatore**
-Un comportamenti osservabili che, da solo o insieme ad altri, si assume sia manifestazione di un costrutto a cui è associato. In neuropsicologia clinica, sono tipici indicatori le risposte ad un test.
+Un comportamento osservabile che, da solo o insieme ad altri, si assume sia manifestazione di un costrutto a cui è associato. In neuropsicologia clinica, sono tipici indicatori le risposte ad un test. 
 :::
 
-Il fatto che i costrutti siano proprietà non osservabili non è di per sé un problema insormontabile ed è comune in vari campi al di là di quello psicologico. Per esempio, si pensi, al campo magnetico prodotto da un oggetto, o alla sua temperatura.
+Il fatto che i costrutti siano proprietà non osservabili non è di per sé un problema insormontabile ed è comune in vari ambiti diversi da quello psicologico. Per esempio, si pensi, al campo magnetico prodotto da un oggetto, o alla sua temperatura, entrambe proprietà non direttamente osservabili ma misurabili attraverso indicatori fisici.
 
-Consideriamo il classico termometro con colonnina di galinstan (un tempo a mercurio). La _temperatura_ del nostro corpo non è direttamente osservabile ma possiamo misurarla grazie a un indicatore fisico osservabile: l'espansione di una colonna di un metallo liquido (galinstan o mercurio) all'interno del termometro. Quando la temperatura aumenta, il liquido si espande e sale, e la sua variazione in lunghezza di fornisce un numero che rappresenta la proprietà fisica che ci interessa, cioè la temperatura. Nessuno mette in dubbio la bontà di questa misurazione perché diamo per scontata con precisione la relazione fisica tra la temperatura e l'espansione del metallo.
+Consideriamo il classico termometro con colonnina di galinstan (un tempo a mercurio). La _temperatura_ del nostro corpo non è direttamente osservabile ma possiamo misurarla grazie a un indicatore fisico osservabile: l'espansione di una colonna di un metallo liquido (galinstan o mercurio) all'interno del termometro. Quando la temperatura aumenta, il liquido si espande e la sua variazione in lunghezza viene trasfromata in un numero che rappresenta la proprietà fisica che ci interessa, cioè la temperatura. Nessuno mette in dubbio la bontà di questa misurazione perché diamo per scontata con precisione la relazione fisica tra la temperatura e l'espansione del metallo.
 
 La misurazione psicologica funziona in modo analogo, ma con una complicazione importante: nei costrutti psicologici la relazione tra il costrutto non osservabile (es. la memoria) e gli indicatori osservabili (es. le risposte a un test) _non è mai altrettanto diretta o univocamente definita_. Ecco perché la psicometria, come disciplina, si occupa proprio di come rendere questa relazione il più precisa e giustificata possibile.
 
-Una caratteristica peculiare della misurazione psicologica è infatti che la relazione tra ciò che è l'esito della misura (cioè il punteggio) e ciò che si vuole misurare, cioè il costrutto, è molto indiretto. <!--(Nota Giorgio: qui si parlava  di numeri e poi la citazione di lezk è su comportamento-->  Nel suo manuale "Neuropsychological Assessment", Muriel Lezak, una delle persone più influenti nella neuropsicologia clinica riporta questo passaggio (di Sivan & Benton, 1999) molto esplicito a riguardo.
+Una caratteristica peculiare della misurazione psicologica è infatti che la relazione tra ciò che è l'esito della misura (cioè il punteggio) e ciò che si vuole misurare, cioè il costrutto, è molto indiretto. <!--(Nota Giorgio: qui si parlava  di numeri e poi la citazione di lezak è su comportamento-->  Nel suo manuale "Neuropsychological Assessment", Muriel Lezak, una delle persone più influenti nella neuropsicologia clinica riporta questo passaggio (di Sivan & Benton, 1999) molto esplicito a riguardo.
 
 _“Le abilità cognitive (e le disabilità) sono proprietà funzionali dell’individuo che non vengono osservate direttamente, ma piuttosto inferite dal comportamento. Ogni comportamento (compresa la performance nei test neuropsicologici) è determinato da molteplici fattori: l’insuccesso di un paziente in una prova di ragionamento astratto può non dipendere da un deficit specifico nel pensiero concettuale, ma da un disturbo dell’attenzione, da una difficoltà verbale o dall’incapacità di discriminare gli stimoli della prova.”_ `(\cite{sivan1999cognitive})`{=latex}`(Sivan & Benton, 1999)`{=html}
 
@@ -66,7 +66,7 @@ In breve:
 
 _Non esiste una corrispondenza univoca tra un comportamento e uno specifico aspetto del funzionamento cognitivo (normale o deficitario). Quasi per definizione ogni comportamento è riconducibile a più funzioni cognitive_. <!--(Nota Giorgio: aggiungere? altre citazioni qui?) -->
 
-è importante sottolineare che in neuropsicologia clinica non si effettuano solo misurazioni di costrutti. In numerosi casi infatti i punteggi hanno un diverso scopo, come stimare la probabilità di sviluppare una patologia neurologica, la probabilità di sviluppare sintomi comportamentali, o semplicemente predire quale potrebbe essere il punteggio di un test particolarmente lungo a partire da un test più breve. Distinguere tra questi casi è rilevante perché alcuni metodi psicometrici e alcune considerazioni statistiche valgono solo per i costrutti oppure solo per i test che non misurano costrutti. Tutti questi aspetti saranno approfonditi nei paragrafi e capitoli successivi <!-- NOTA GIORGIO: Aggiungere hyperlink corretti qui -->
+È importante sottolineare che in neuropsicologia clinica non si effettuano solo misurazioni di costrutti. In numerosi casi infatti i punteggi hanno un diverso scopo, come stimare la probabilità di sviluppare una patologia neurologica, la probabilità di sviluppare sintomi comportamentali, o semplicemente predire quale potrebbe essere il punteggio di un test particolarmente lungo a partire da un test più breve. Distinguere tra questi casi è rilevante perché alcuni metodi psicometrici e alcune considerazioni statistiche valgono solo per i test che misurano costrutti oppure solo per i test che _non_ misurano costrutti. Tutti questi aspetti saranno approfonditi nei paragrafi e capitoli successivi <!-- NOTA GIORGIO: Aggiungere hyperlink corretti qui -->
 
 
 ## Misurazione e neuropsicologia clinica{#misurazione_e_neuropsicologia_clinica}
@@ -121,15 +121,15 @@ Esistono quattro scale di misura: _categoriale, ordinale, a intervalli, a rappor
 \endgroup
 ```
 
-L'idea di avere una definizione di misurazione molto generica, accompagnata ad una distinzione di scale di misura è molto potente e tuttora è molto influente nella misurazione in psicologia. Come anticipato, però, ci sono anche altre definizioni. Nel prossimo paragrafo sarà approfondita una di queste, che entrava in forte contrasto con la proposta di Stevens. <!-- aggiungere che questa definizione non è prima di problemi). -->
+L'idea di avere una definizione di misurazione molto generica, accompagnata ad una distinzione di scale di misura è molto potente e tuttora è molto influente nella misurazione in psicologia. Come anticipato, però, ci sono anche altre definizioni. Nel prossimo paragrafo sarà approfondita una di queste, che entrava in forte contrasto con la proposta di Stevens. <!-- forse aggiungere che questa definizione non è prima di problemi). -->
 
 ## Definizione di Misurazione secondo Suppes & Zinnes (1963)
 
-Un'altra possibile definizione di misurazione, molto celebre in Psicometria è quella di Suppes & Zinnes (1963) `(\cite{suppes1963basic})`{=latex} `(\cite{suppes1963basic})`{=html} che, a differenza di quella di Stevens, è più rigorosa e formale, ma anche più complessa e meno intuitiva e per essere capita necessita alcune definizioni.
+Un'altra possibile definizione di misurazione, molto celebre in Psicometria è quella di Suppes & Zinnes (1963) `(\cite{suppes1963basic})`{=latex} `(\cite{suppes1963basic})`{=html} che, a differenza di quella di Stevens, è più rigorosa e formale, ma anche più complessa e meno intuitiva e per essere capita necessita alcune definizioni preliminari.
 
-Definiamo qui il _Sistema Relazionale Empirico_, come l'insieme di entità del mondo empirico che hanno una determinata proprietà che vogliamo misurare (es. oggetti di diversa lunghezza) e il _Sistema Relazionale Numerico_ un insieme di numeri (es. i numeri Reali) con i quali vogliamo descrivere questa misura. 
+Definiamo ** _Sistema Relazionale Empirico_, come l'insieme di entità del mondo empirico che hanno una determinata proprietà che vogliamo misurare (es. oggetti di diversa lunghezza) e il _Sistema Relazionale Numerico_ un insieme di numeri (es. i numeri Reali) con i quali vogliamo descrivere il sistema Relazionale Empirico. 
 
-![Omomorfismo tra il Sistema Relazionale Empirico e il Sistema Relazionale Numerico: esempio della misurazione della lunghezza di un tavolo.](../Figures/Latex-Figure-Measurement-1/Fig_measurement_1.png){#fig-measurement-fisico fig-align="center" width=70%}
+![Sistema Relazionale Empirico e il Sistema Relazionale Numerico: esempio della misurazione della lunghezza di un tavolo.](../Figures/Latex-Figure-Measurement-1/Fig_measurement_1.png){#fig-measurement-fisico fig-align="center" width=70%}
 
 ::: {.callout-note}
 ## Definizione
@@ -139,20 +139,17 @@ La misurazione consiste in un **omomorfismo** tra un _Sistema Relazionale Numeri
 
 :::
 
-Con omomorfismo si intende una corrispondenza tra i due sistemi che preserva le relazioni tra gli elementi. Ad esempio, se nel Sistema Relazionale Empirico abbiamo una relazione di ordine (ad esempio, l'oggetto A è più lungo dell'oggetto B), allora questa relazione deve essere preservata nel Sistema Relazionale Numerico (il numero associato all'oggetto A deve essere maggiore del numero associato all'oggetto B).
+Con _omomorfismo_ si intende una corrispondenza tra i due sistemi che preserva le relazioni tra gli elementi. Ad esempio, se nel Sistema Relazionale Empirico abbiamo una relazione di ordine (ad esempio, l'oggetto A è più lungo dell'oggetto B), allora questa relazione deve essere preservata nel Sistema Relazionale Numerico (il numero associato all'oggetto A deve essere maggiore del numero associato all'oggetto B).
 
 Nell'esempio della @fig-measurement-fisico, un tavolo ha un lato lungo 120 cm. Possiamo usare questo numero (120) per numerosi utilizzi. Supponiamo ad esempio di avere due tavoli quadrati, uno con il lato di 120 cm e uno con il lato di 60 cm. Tramite questa misurazione del loro lato, sappiamo che il tavolo con lato 120 cm è più lungo di quello con lato 60 cm. Sappiamo che il tavolo con lato 120 cm ha il lato di 60 cm più lungo di quello con lato 60 cm. Infine sappiamo che il tavolo con lato 120 cm è lungo il doppio del tavolo con lato 60 cm (nello stesso spazio del tavolo lungo 120 cm, possiamo mettere due tavoli da 60 cm). Questi numeri ci permettono dunque di una serie di operazioni utili per comprendere le proprietà dei tavoli, in questo caso la loro lunghezza, e interagire con loro. Tornando alla Tabella 1.2, La lunghezza di un tavolo è misurata su una _scala a rapporti_ e sapere questo ci permette di sapere quali operazioni possiamo fare con i numeri associati alla misura. La stessa cosa accade quando vogliamo fare una misurazione psicologica o neuropsicologica. Lo scopo è ottenere un numero che vogliamo utilizzare per alcuni scopi.
 
-![Omomorfismo tra il Sistema Relazionale Empirico e il Sistema Relazionale Numerico: esempio della misurazione di un costrutto psicologico (memoria).](../Figures/Latex-Figure-Measurement-2/Fig_measurement_2.png){#fig-measurement-psicologico fig-align="center" width=70%}
+![Sistema Relazionale Empirico e Sistema Relazionale Numerico: esempio della misurazione di un costrutto psicologico (memoria).](../Figures/Latex-Figure-Measurement-2/Fig_measurement_2.png){#fig-measurement-psicologico fig-align="center" width=70%}
 
 
 In questo caso possiamo dire che il nostro Sistema Relazionale Empirico[^mis2] è dato dall'insieme di tutte le persone con diversa memoria e il Sistema Relazionale Numerico come l'insieme di numeri che utilizziamo per descrivere la memoria di queste persone. 
 Alcune operazioni con questi numeri sono intuitivamente sensate, ad esempio possiamo dire che alcune persone hanno più memoria di altre (possiamo quindi ordinare), ma nel momento in cui cerchiamo di capire l'applicabilità di altre operazioni diventa più difficile rispondere. Ad esempio, tramite un test possiamo arrivare a dire che una persona ha il doppio di memoria di un altra? Oppure che ha +20 unità di memoria più di un'altra? (qualsiasi sia questa unità). Per poter dare una risposta a queste domande, dovremmo sapere appunto in che scala di misurazione è stata misurata la memoria.
 
-
 Adesso proviamo però ad andare oltre alla definizione di Stevens e approfondire ulteriormente il significato di misurazione. In generale misurare significa utilizzare numeri per descrivere delle proprietà di entità che vogliamo descrivere. Ad esempio quando misuriamo la lunghezza di un tavolo, supponendo che essa sia 50 cm, il numero "50" indica una proprietà del tavolo in una maniera per noi utile. 
-
--- inserire qui una definizione migliore di misurazione --
 
 
 [^mis2]:è importante notare che non tutti sarebbero d'accordo nel dire che l'insieme di costrutti psicologici (cioè concetti non osservabili) sono parte di un sistema relazionale empirico. La domanda è però proprio al confine dell'epistemologia: un concetto psicologico non osservabile è parte del mondo empirico (così come lo sono altri entità non osservabili) oppure no? Non è lo scopo di questo libro né di questo paragrafo rispondere a questa domanda, ma per i nostri scopi la diversa collocazione dei concetti psicologici (come entità del mondo empirico o no), è irrilevante. Qui assumo che i concetti psicologici siano di fatti parte dei sistemi relazionali empirici in un certo senso aggirando il problema, e utilizzando la definizione di sistema relazionale empirico come ogni sistema relazionale _non_ numerico.
@@ -294,14 +291,16 @@ Nonostante questa apparente somiglianza, la misurazione in neuropsicologia (e in
 
 Questo è in linea con le parole di Sivan & Benton (1999) citate da Lezak nel [paragrafo sulla misurazione](#misurazione_e_neuropsicologia_clinica), le abilità cognitive "non vengono osservate direttamente, ma piuttosto inferite dal comportamento". Questa considerazione, che può sembrare ovvia, merita di essere ripetuta perché ha conseguenze rilevanti per l'interpretazione dei punteggi: lo stesso risultato potrebbe riflettere abilità cognitive diverse a seconda del paziente e del contesto clinico, e come tratteremo nel corso dei capitoli di questo libro, richiede un'interpretazione critica e attiva dei risultati.
 
+`\pagebreak`{=latex}
+
 :::{.callout-note}
 ## Nota.
-Il fatto che un test sia una **procedura sistematica** implica che, per somministrarlo correttamente, occorre attenersi scrupolosamente alla procedura originale: quella indicata dagli autori, nel manuale del test o nella pubblicazione scientifica di riferimento. Anche una deviazione apparentemente piccola può avere un impatto rilevante sui risultati e sulla loro interpretazione, producendo effetti a cascata difficili da prevedere. Per esempio, modificare leggermente le istruzioni, anche con il nobile intento di essere più chiari, può rendere il test più facile e alterare il significato del confronto con i dati normativi (si veda il paragrafo sui dati normativi).
+Il fatto che un test sia una **procedura sistematica** implica che, per somministrarlo correttamente, occorre attenersi scrupolosamente alla procedura originale: quella indicata dagli autori, nel manuale del test o nella pubblicazione scientifica di riferimento. Anche una deviazione apparentemente piccola può avere un impatto rilevante sui risultati e sulla loro interpretazione, producendo effetti a cascata difficili da prevedere. Per esempio, modificare leggermente le istruzioni, anche con il nobile intento di essere più chiari, può rendere il test più facile e alterare il significato del confronto con i dati normativi (si veda il paragrafo sui dati normativi). <!-- aggiungi qui hyperlink al paragrafo sui dati normativi -->
 :::
 
 ### Test di prestazione massima
 
-I **test di prestazione massima** (_maximal performance tests_) sono strumenti in cui si chiede al paziente di impegnarsi al massimo delle proprie capacità per ottenere il miglior risultato possibile. L'obiettivo è valutare _cosa una persona è in grado di fare_ quando le condizioni sono ottimali e lo sforzo è massimo. La stragrande maggioranza dei test neuropsicologici per la valutazione delle funzioni cognitive (test di memoria, attenzione, funzioni esecutive, linguaggio, abilità visuospaziali) rientra in questa categoria. Il punteggio ottenuto è interpretato come una stima della capacità massima del paziente in quel dominio cognitivo.
+I **test di prestazione massima** (_maximal performance tests_) sono strumenti in cui si chiede al paziente di impegnarsi al massimo delle proprie capacità per ottenere il miglior risultato possibile. L'obiettivo è valutare _cosa una persona è in grado di fare_ quando le condizioni sono ottimali e lo sforzo è massimo. La maggior parte dei test neuropsicologici per la valutazione delle funzioni cognitive (test di memoria, attenzione, funzioni esecutive, linguaggio, abilità visuospaziali) rientra in questa categoria. Il punteggio ottenuto è interpretato come una stima della capacità massima del paziente in quel dominio cognitivo.
 
 ### Test di comportamento tipico
 
@@ -324,9 +323,9 @@ Questo strumento soddisfa formalmente la definizione di Cronbach: è una procedu
 Ma questo è davvero un buon test per la memoria?
 :::
 
-è verosimile che la vostra risposta "di pancia", sia stata "no", anche se non avete ancora una spiegazione easustiva. Potreste dire per esempio che è troppo semplice, che 7 parole sono poche, che 30 secondi sono pochi, che le parole sono troppo facili, etc. Tutte queste considerazioni sono sensate e probabilmente condivisibili, ma non sono basate su un modello di misurazione o su una teoria della memoria. Sono semplicemente basate sul buon senso e sull'esperienza clinica.
+È verosimile che la vostra risposta "di pancia", sia stata "no", anche se non avete ancora una spiegazione. Potreste dire per esempio che è troppo semplice, che 7 parole sono poche, che 30 secondi sono pochi, che le parole sono troppo facili, etc. Tutte queste considerazioni sono sensate e probabilmente condivisibili, ma non sono basate su un modello di misurazione o su una teoria della memoria. Sono semplicemente basate sul buon senso e sull'esperienza clinica.
 
-Nel corso di questo libro approndiremo questo e troveremo un modo per dare una risposta più rigorosa a questa domand. Quello che per ora è importante sottolineare che, anche se questo strumento soddisfa formalmente le definizioni di test e di misurazione, non è detto che sia un buon test: dobbiamo avere altre evidenze per poter dire che questo strumento misura la memoria in modo accurato e affidabile.
+Nel corso di questo libro troveremo un modo per dare una risposta più rigorosa a questa domanda. Quello che per ora è importante sottolineare che, anche se questo strumento soddisfa formalmente le definizioni di test e di misurazione, non è detto che sia un buon test: dobbiamo avere altre evidenze per poter dire che questo strumento misura la memoria in modo accurato e preciso.
 
 Per introdurre dei termini tecnici, quello che ci manca è quantomeno delle informazioni sulla **validità** (la giustificazione del legame tra punteggio e costrutto) e l'**affidabilità** (la precisione e la consistenza della misura) sono gli aspetti più critici della psicometria e saranno trattati in dettaglio nei capitoli dedicati.
 
