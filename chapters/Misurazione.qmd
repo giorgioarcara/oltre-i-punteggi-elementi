@@ -282,7 +282,7 @@ Esistono in letteratura numerose definizioni di test e, come spesso accade in ps
 ## Definizione
 **Test secondo Cronbach (1990)**
 
-_"Un test è una procedura sistematica per l'osservazione del comportamento di una persona e per la sua descrizione con l'aiuto di una scala numerica o un sistema di categorie."_ (p. 32)
+_"Un test è una procedura sistematica per l'osservazione del comportamento di una persona e per la sua descrizione con l'aiuto di una scala numerica o tramite categorie prefissate."_ (p. 32)
 :::
 
 Fermiamoci a riflettere un attimo sui vari aspetti catturati da questa definizione:
@@ -295,14 +295,14 @@ _"... per l'osservazione del comportamento ..."_
 
 In questa seconda parte della definizione, viene sottolineato quanto già detto riguardo la misurazione psicologica: i test psicologici si basano sull'osservazione di comportamenti.
 
-_"... e per la sua descrizione con l'aiuto di una scala numerica o un sistema di categorie."_
+_"... e per la sua descrizione con l'aiuto di una scala numerica o tramite categorie prefissate."_
 
-In quest'ultima parte della definizione, è catturata l'essenza della esito di una misurazione: una punteggio o l'appartenenza ad una categoria..
+In quest'ultima parte della definizione, è catturata l'essenza della esito di una misurazione: una punteggio o l'appartenenza ad una categoria (es. "sano", "Mild Cognitive Impairment").
 
 Questa definizione ha il vantaggio di essere ampia e inclusiva: si applica tanto ai test cognitivi quanto ai questionari di personalità, alle scale di autovalutazione e a molti altri strumenti di misura in ambito psicologico. Tuttavia, presenta un limite importante per i nostri scopi, che è facile identificare con un esempio.
  Provate a immaginare ad uno strumento che valuti l'equilibrio di una persona durante il cammino tramite una serie di prove fisiche. Per ogni prova superata si da un punteggio di 1, e il punteggio globale è dato dalla somma dei punteggi delle varie prove. Questo strumento soddisferebbe formalmente la definizione di Cronbach: è una procedura sistematica, per osservare il comportamento e lo descriverebbe con una scala numerica (il punteggio totale). Tuttavia, questo strumento non sarebbe un test "psicologico". 
 
-La Cronbach è utile quindi perché permette di sottolineare, tramite una mancanza, un punto fondamentale che contraddistingue ig test psicologici: a differenza di altri tipi di test, i test psicologici non hanno interesse direttamente nel comportamento osservato (le risposte del paziente agli item del test) ma nel **costrutto** psicologico che si vuole misurare. Come discusso nel [paragrafo precedente](#cosa-misuriamo-in-neuropsicologia-clinica), in neuropsicologia l'interesse non è nel comportamento in sé (le risposte del paziente agli item del test) bensì nel costrutto associato a quel comportamento. Il punteggio è dunque una rappresentazione _indiretta_ di qualcosa di non direttamente osservabile (memoria, attenzione, funzioni esecutive, ecc.), tramite un comportamento osservabile. Questa relazione è rappresentata nella @fig-costrutto-punteggio.
+La Cronbach è utile quindi perché permette di sottolineare, tramite una mancanza, un punto fondamentale che contraddistingue ig test psicologici: a differenza di altri tipi di test, i test psicologici non hanno quasi mai hanno interesse solo nel comportamento osservato (le risposte del paziente agli item del test) ma nel **costrutto** psicologico che si vuole misurare. Come discusso nel [paragrafo precedente](#cosa-misuriamo-in-neuropsicologia-clinica), in neuropsicologia l'interesse non è nel comportamento in sé (le risposte del paziente agli item del test) bensì nel costrutto associato a quel comportamento. Il punteggio è dunque una rappresentazione _indiretta_ di qualcosa di non direttamente osservabile (memoria, attenzione, funzioni esecutive, ecc.), tramite un comportamento osservabile. Questa relazione è rappresentata nella @fig-costrutto-punteggio.
 
 ![Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) è legato a comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio.](../Figures/Latex-Figure-Measurement-3/Fig_measurement_3.png){#fig-costrutto-punteggio fig-align="center" width=80%}
 
@@ -312,7 +312,7 @@ Nonostante questa apparente somiglianza, la misurazione in neuropsicologia (e in
 
 ![Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) produce comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio. Le altre variabili (Motivazione, Umore, Fatica, etc.) influenzano il comportamento osservato indipendentemente dal costrutto di interesse.](../Figures/Latex-Figure-Measurement-4/Fig_measurement_4.png){#fig-altre-variabili fig-align="center" width=80%}
 
-Questo è in linea con le parole di Sivan & Benton (1999) citate da Lezak nel [paragrafo sulla misurazione](#misurazione_e_neuropsicologia_clinica), le abilità cognitive "non vengono osservate direttamente, ma piuttosto inferite dal comportamento". Questa considerazione, che può sembrare ovvia, merita di essere ripetuta perché ha conseguenze rilevanti per l'interpretazione dei punteggi: lo stesso risultato potrebbe riflettere abilità cognitive diverse a seconda del paziente e del contesto clinico, e come tratteremo nel corso dei capitoli di questo libro, richiede un'interpretazione critica e attiva dei risultati.
+Questo è in linea con le parole di Sivan & Benton (1999) citate da Lezak nel [paragrafo sulla misurazione](#misurazione_e_neuropsicologia_clinica), le abilità cognitive "non vengono osservate direttamente, ma piuttosto inferite dal comportamento". Questa considerazione, che può sembrare ovvia, merita di essere ripetuta perché ha conseguenze rilevanti per l'interpretazione dei punteggi: lo stesso risultato potrebbe riflettere abilità cognitive diverse a seconda del paziente e del contesto clinico, e come tratteremo nel corso dei capitoli di questo libro, richiede un'interpretazione critica dei risultati.
 
 `\pagebreak`{=latex}
 
@@ -346,13 +346,15 @@ Questo strumento soddisfa formalmente la definizione di Cronbach: è una procedu
 Ma questo è davvero un buon test per la memoria?
 :::
 
-È verosimile che la vostra risposta "di pancia", sia stata "no", anche se non avete ancora una spiegazione. Potreste dire per esempio che è troppo semplice, che 7 parole sono poche, che 30 secondi sono pochi, che le parole sono troppo facili, etc. Tutte queste considerazioni sono sensate e probabilmente condivisibili, ma non sono basate su un modello di misurazione o su una teoria della memoria. Sono semplicemente basate sul buon senso e sull'esperienza clinica.
+È verosimile che la vostra risposta "di pancia", sia stata "no", anche se non avete una spiegazione tecnica. Potreste dire per esempio che è troppo semplice, che 7 parole sono poche[^pochiitems], che 30 secondi sono pochi, che le parole sono troppo facili, etc. Tutte queste considerazioni sono ragionevoli e probabilmente condivisibili, ma non sono basate su un modello di misurazione o su una teoria della memoria. Sono semplicemente basate sul buon senso e sull'esperienza clinica.
 
 Nel corso di questo libro troveremo un modo per dare una risposta più rigorosa a questa domanda. Quello che per ora è importante sottolineare che, anche se questo strumento soddisfa formalmente le definizioni di test e di misurazione, non è detto che sia un buon test: dobbiamo avere altre evidenze per poter dire che questo strumento misura la memoria in modo accurato e preciso.
 
 Per introdurre dei termini tecnici, quello che ci manca è quantomeno delle informazioni sulla **validità** (la giustificazione del legame tra punteggio e costrutto) e l'**affidabilità** (la precisione e la consistenza della misura) sono gli aspetti più critici della psicometria e saranno trattati in dettaglio nei capitoli dedicati.
 
 Se siete d'accordo sul fatto che per capire se questo è un buon test sono necessarie ulteriori informazioni, vi invito a mantenere questo scetticismo e questa posizione anche di fronte a un nuovo test psicologico o neuropsicologico che vi viene presentato. Uno dei messaggi chiave di questo testo sarà infatti che non basta che un test sia pubblicato o disponibile perché sia un buon test e che è un dovere professionale quello di informarsi sulle sue qualità psicometriche prima di utilizzarlo o interpretarlo.
+
+[^pochiitems]: Il numero di item da solo non è un indicatore della qualità di un test. Esistono test pubblicati e validati anche con pochissimi item: per esempio, esiste una versione a 3 item della _UCLA Loneliness Scale_ per la misurazione (`(\cite{gosling2024measuring})`{=latex}`Gosling et al., 2024`{=html}).
 
 ### Altri strumenti utili per la valutazione neuropsicologica
 
