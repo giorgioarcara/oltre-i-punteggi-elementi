@@ -22,11 +22,17 @@
      cognitive, etc.)}};
 
 % Main horizontal blocks (A anchored below AV)
-\node[block1, below=2cm of AV] (A) {\textbf{Sistema}\\ \textbf{Relazionale}\\ \textbf{Empirico}};
+\node[block1, text width=3cm, below=2cm of AV] (A)
+    {\textbf{Sistema}\\ \textbf{Relazionale}\\ \textbf{Empirico}\\
+     {\small (Es. Memoria)}};
 
-\node[block1, right of=A, xshift=2cm] (B) {\textbf{Comportamento}\\ \textbf{Osservabile}};
+\node[block1, text width=3.5cm, right of=A, xshift=2cm] (B)
+    {\textbf{Comportamento}\\ \textbf{Osservato}\\
+     {\small (Es. Numero di elementi ricordati)}};
 
-\node[block1, right of=B, xshift=2cm] (C) {\textbf{Sistema}\\ \textbf{Relazionale}\\ \textbf{Numerico}};
+\node[block1, text width=3cm, right of=B, xshift=2cm] (C)
+    {\textbf{Sistema}\\ \textbf{Relazionale}\\ \textbf{Numerico}\\
+     {\small (Es. Punteggio al test)}};
 
 % Draw double arrows between main blocks
 \draw[<->, thick] (A) -- (B);
@@ -44,7 +50,7 @@
 \node[below=0.5cm of A] (A_image) {\includegraphics[width=2.5cm]{mind.png}};
 
 % Add label below node C
-\node[below=1cm of C] (C_label) {80};
+\node[below=1cm of C] (C_label) {22};
 
 \end{tikzpicture}
 
