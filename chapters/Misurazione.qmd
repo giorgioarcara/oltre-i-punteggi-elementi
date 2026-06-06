@@ -29,9 +29,9 @@ La misurazione è innanzitutto considerata una delle basi del metodo scientifico
 _misurare in neuropsicologia clinica ci permette di adottare un approccio scientifico e andare oltre la semplice osservazione clinica qualitativa_
 
 Fermiamoci adesso un attimo a riflettere su quale è lo scopo di una valutazione neuropsicologica. Lo scopo potrebbe essere l'accertamento sul sospetto di una patologia in corso (es. un sospetto di demenza, sospetto di ADHD), o la caratterizzazione di un disturbo cognitivo in una condizione accertata (es. capire se un trauma cranico ha avuto delle conseguenze). Le informazioni possono avere fini diagnostici, prognostici, o di monitoraggio longitudinale. Nel caso di monitoraggio longitudinale questo in genere è effettuato per investigare il decorso di una patologia nel tempo o per valutare l'effetto di un trattamento riabilitativo.
-La misurazione è utile perché ci permette dunque di avere più informazioni rilevanti per la valutazione neuropsicologica e di risultati più _oggettivi_[^mis1].
+La misurazione è utile perché ci permette dunque di avere più informazioni rilevanti per la valutazione neuropsicologica e di risultati più _oggettivi_[^ogg].
 
-[^mis1]: per _oggettivo_ indichiamo un risultato che non è dipendente da chi sta effettuando l'esame.
+[^ogg]: per _oggettivo_ indichiamo un risultato che non è dipendente da chi sta effettuando l'esame.
 
 Ma effettuare delle misurazioni ci è utile anche per altro: utilizzare dei punteggi ci permette di creare una sorta di _linguaggio comune_ per la discussione di un caso clinico. Oltre ad alcune etichette cliniche diffuse in certi ambiti, come _decadimento cognitivo lieve_, _decadimento cognitivo moderato_, i punteggi ai test rappresentano infatti un'opportunità per comunicare rapidamente lo stato di un individuo. Per esempio per chi lavora in ambito di disturbi cognitivi nell'ambito delle demenza, dire che un paziente ha un MMSE (MiniMental State Examination) pari a 12, denota senza bisogno di ulteriori dettagli uno stato di decadimento cognitivo piuttosto grave. Questo aspetto verrà approfondito nel corso del libro.
 
@@ -135,7 +135,7 @@ L'idea di avere una definizione di misurazione molto generica, accompagnata ad u
 
 Un'altra possibile definizione di misurazione, molto celebre in Psicometria è quella di Suppes & Zinnes (1963) `(\cite{suppes1963basic})`{=latex} `(\cite{suppes1963basic})`{=html} che, a differenza di quella di Stevens, è più rigorosa e formale, ma anche più complessa e meno intuitiva e per essere capita necessita alcune definizioni preliminari.
 
-Definiamo ** _Sistema Relazionale Empirico_, come l'insieme di entità del mondo empirico che hanno una determinata proprietà che vogliamo misurare (es. oggetti di diversa lunghezza) e il _Sistema Relazionale Numerico_ un insieme di numeri (es. i numeri Reali) con i quali vogliamo descrivere il sistema Relazionale Empirico. 
+Definiamo  _Sistema Relazionale Empirico_, come l'insieme di entità del mondo empirico che hanno una determinata proprietà che vogliamo misurare (es. oggetti di diversa lunghezza) e il _Sistema Relazionale Numerico_ un insieme di numeri (es. i numeri Reali) con i quali vogliamo descrivere il sistema Relazionale Empirico. 
 
 ![Sistema Relazionale Empirico e il Sistema Relazionale Numerico: esempio della misurazione della lunghezza di un tavolo.](../Figures/Latex-Figure-Measurement-1/Fig_measurement_1.png){#fig-measurement-fisico fig-align="center" width=70%}
 
@@ -149,18 +149,20 @@ La misurazione consiste in un **omomorfismo** tra un _Sistema Relazionale Numeri
 
 Con _omomorfismo_ si intende una corrispondenza tra i due sistemi che preserva le relazioni tra gli elementi. Ad esempio, se nel Sistema Relazionale Empirico abbiamo una relazione di ordine (ad esempio, l'oggetto A è più lungo dell'oggetto B), allora questa relazione deve essere preservata nel Sistema Relazionale Numerico (il numero associato all'oggetto A deve essere maggiore del numero associato all'oggetto B).
 
-Nell'esempio della @fig-measurement-fisico, un tavolo ha un lato lungo 120 cm. Possiamo usare questo numero (120) per numerosi utilizzi. Supponiamo ad esempio di avere due tavoli quadrati, uno con il lato di 120 cm e uno con il lato di 60 cm. Tramite questa misurazione del loro lato, sappiamo che il tavolo con lato 120 cm è più lungo di quello con lato 60 cm. Sappiamo che il tavolo con lato 120 cm ha il lato di 60 cm più lungo di quello con lato 60 cm. Infine sappiamo che il tavolo con lato 120 cm è lungo il doppio del tavolo con lato 60 cm (nello stesso spazio del tavolo lungo 120 cm, possiamo mettere due tavoli da 60 cm). Questi numeri ci permettono dunque di una serie di operazioni utili per comprendere le proprietà dei tavoli, in questo caso la loro lunghezza, e interagire con loro. Tornando alla Tabella 1.2, La lunghezza di un tavolo è misurata su una _scala a rapporti_ e sapere questo ci permette di sapere quali operazioni possiamo fare con i numeri associati alla misura. La stessa cosa accade quando vogliamo fare una misurazione psicologica o neuropsicologica. Lo scopo è ottenere un numero che vogliamo utilizzare per alcuni scopi.
+Nell'esempio della @fig-measurement-fisico, un tavolo ha un lato lungo 120 cm. Possiamo usare questo numero (120) per numerosi utilizzi. Supponiamo ad esempio di avere due tavoli quadrati, uno con il lato di 120 cm e uno con il lato di 60 cm. Tramite questa misurazione del loro lato, sappiamo che il tavolo con lato 120 cm è più lungo di quello con lato 60 cm. Sappiamo che il tavolo con lato 120 cm ha il lato di 60 cm più lungo di quello con lato 60 cm. Infine sappiamo che il tavolo con lato 120 cm è lungo il doppio del tavolo con lato 60 cm (nello stesso spazio del tavolo lungo 120 cm, possiamo mettere due tavoli da 60 cm). Questi numeri ci permettono dunque di una serie di operazioni utili per comprendere le proprietà dei tavoli, in questo caso la loro lunghezza, e interagire con loro[^scale]. La stessa cosa accade quando vogliamo fare una misurazione psicologica o neuropsicologica: lo scopo è ottenere un numero che vogliamo utilizzare per alcuni scopi (si veda @fig-measurement-psicologico).
+
+[^scale]:Tornando per un attimo alla Definizione di misurazione di Stevens  e alla Tabella 1.2, La lunghezza di un tavolo è misurata su una _scala a rapporti_ e sapere questo ci permette di sapere quali operazioni possiamo fare con i numeri associati alla misura. 
+
 
 ![Sistema Relazionale Empirico e Sistema Relazionale Numerico: esempio della misurazione di un costrutto psicologico (memoria).](../Figures/Latex-Figure-Measurement-2/Fig_measurement_2.png){#fig-measurement-psicologico fig-align="center" width=70%}
 
-
-In questo caso possiamo dire che il nostro Sistema Relazionale Empirico[^mis2] è dato dall'insieme di tutte le persone con diversa memoria e il Sistema Relazionale Numerico come l'insieme di numeri che utilizziamo per descrivere la memoria di queste persone. 
+In questo caso possiamo dire che il nostro Sistema Relazionale Empirico[^sis] è dato dall'insieme di tutte le persone con diversa memoria e il Sistema Relazionale Numerico come l'insieme di numeri che utilizziamo per descrivere la memoria di queste persone. 
 Alcune operazioni con questi numeri sono intuitivamente sensate, ad esempio possiamo dire che alcune persone hanno più memoria di altre (possiamo quindi ordinare), ma nel momento in cui cerchiamo di capire l'applicabilità di altre operazioni diventa più difficile rispondere. Ad esempio, tramite un test possiamo arrivare a dire che una persona ha il doppio di memoria di un altra? Oppure che ha +20 unità di memoria più di un'altra? (qualsiasi sia questa unità). Per poter dare una risposta a queste domande, dovremmo sapere appunto in che scala di misurazione è stata misurata la memoria.
 
 Adesso proviamo però ad andare oltre alla definizione di Stevens e approfondire ulteriormente il significato di misurazione. In generale misurare significa utilizzare numeri per descrivere delle proprietà di entità che vogliamo descrivere. Ad esempio quando misuriamo la lunghezza di un tavolo, supponendo che essa sia 50 cm, il numero "50" indica una proprietà del tavolo in una maniera per noi utile. 
 
 
-[^mis2]:è importante notare che non tutti sarebbero d'accordo nel dire che l'insieme di costrutti psicologici (cioè concetti non osservabili) sono parte di un sistema relazionale empirico. La domanda è però proprio al confine dell'epistemologia: un concetto psicologico non osservabile è parte del mondo empirico (così come lo sono altri entità non osservabili) oppure no? Non è lo scopo di questo libro né di questo paragrafo rispondere a questa domanda, ma per i nostri scopi la diversa collocazione dei concetti psicologici (come entità del mondo empirico o no), è irrilevante. Qui assumo che i concetti psicologici siano di fatti parte dei sistemi relazionali empirici in un certo senso aggirando il problema, e utilizzando la definizione di sistema relazionale empirico come ogni sistema relazionale _non_ numerico.
+[^sis]:è importante notare che non tutti sarebbero d'accordo nel dire che l'insieme di costrutti psicologici (cioè concetti non osservabili) sono parte di un sistema relazionale empirico. La domanda è però proprio al confine dell'epistemologia: un concetto psicologico non osservabile è parte del mondo empirico (così come lo sono altri entità non osservabili) oppure no? Non è lo scopo di questo libro né di questo paragrafo rispondere a questa domanda, ma per i nostri scopi la diversa collocazione dei concetti psicologici (come entità del mondo empirico o no), è irrilevante. Qui assumo che i concetti psicologici siano di fatti parte dei sistemi relazionali empirici in un certo senso aggirando il problema, e utilizzando la definizione di sistema relazionale empirico come ogni sistema relazionale _non_ numerico.
 
 <!-- NOTA: forse aggiungere definizione breve di Rasch come ponte per IRT_ -->
 
@@ -364,6 +366,11 @@ Se siete d'accordo sul fatto che per capire se questo è un buon test sono neces
 
 [^pochiitems]: Il numero di item da solo non è un indicatore della qualità di un test. Esistono test pubblicati e validati anche con pochissimi item: per esempio, esiste una versione a 3 item della _UCLA Loneliness Scale_ per la misurazione (`(\cite{gosling2024measuring})`{=latex}`Gosling et al., 2024`{=html}).
 
+:::{.callout-tip}
+## Nota
+Nei manuali o articoli test neuropsicologici spesso non è esplicitamente scritto che sono sviluppati secondo la Classical Test Theory. Questo è desumibile però dall'utilizzo di certe caratteristiche, come l'utilizzo di Validità e Affidabilità, secondo specifiche declinazioni tipiche di questo framework.
+:::
+
 ### Altri strumenti utili per la valutazione neuropsicologica
 
 Nella pratica clinica, accanto ai test di prestazione massima e ai questionari di comportamento tipico, esiste una terza categoria di strumenti che fanno parte della valutazione neuropsicologica standard pur non rientrando in senso stretto nella classificazione fin qui descritta: si tratta di **questionari e scale somministrate come parte integrante della valutazione clinica**, non per misurare una funzione cognitiva, ma per raccogliere informazioni contestuali utili per l'interpretazione dei risultati.
@@ -374,10 +381,7 @@ Analogamente, le scale **ADL** (_Activities of Daily Living_) e **IADL** (_Instr
 
 Questi strumenti condividono con i test psicologici il fatto di produrre un punteggio numerico, e rientrano quindi nella definizione di test di Cronbach che abbiamo visto. Tuttavia, le considerazioni psicometriche che si applicano loro, in particolare quelle relative alla validità e all'affidabilità, hanno sfumature proprie che è utile tenere presenti quando si interpretano i loro risultati nel contesto della valutazione.
 
-:::{.callout-tip}
-## Nota
-Nei test neuropsicologici spesso non è esplicitamente scritto che sono sviluppati secondo la Classical Test Theory. Questo è desumibile però dall'utilizzo di certe caratteristiche, come l'utilizzo di Validità e Affidabilità, secondo specifiche declinazioni tipiche di questo framework.
-:::
+
 
 
 ## Validità ed Affidabilità
