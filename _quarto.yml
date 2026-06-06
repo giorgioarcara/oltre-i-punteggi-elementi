@@ -4,6 +4,7 @@ project:
 filters:
   - filters/date.lua
   - filters/domanda.lua
+  - filters/callout_style.lua
 
 book:
   title: "Oltre i punteggi"
@@ -78,7 +79,7 @@ format:
         \usepackage{draftwatermark}
         \SetWatermarkText{BOZZA}
         \SetWatermarkScale{1.5} % bigger/smaller watermark
-        \SetWatermarkLightness{0.95} % 0=black, 1=white (default 0.8)
+        \SetWatermarkLightness{0.96} % 0=black, 1=white (default 0.8)
         \usepackage{datetime}
         
         % set headers and footers
