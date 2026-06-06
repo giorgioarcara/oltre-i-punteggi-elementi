@@ -112,7 +112,12 @@ format:
         %\usepackage{fontspec}
         %\newfontfamily\headingfont{Alegreya}
         \usepackage{xcolor}
-        \newenvironment{domanda}{\begin{center}\large\itshape\color{gray}}{\end{center}}
+        \newenvironment{domanda}{%
+          \par\medskip\noindent\rule{\linewidth}{0.4pt}\vspace{3pt}%
+          \begin{center}\large\itshape
+        }{%
+          \end{center}\vspace{-4pt}\noindent\rule{\linewidth}{0.4pt}\par\medskip
+        }
         \usepackage{pdfpages}
         % Redefine \maketitle to do nothing
         \renewcommand{\maketitle}{}
