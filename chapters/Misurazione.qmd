@@ -204,13 +204,13 @@ La CTT (_Classical Test Theory_, Teoria Classica dei Test) è il framework psico
 
 Il principio fondamentale della CTT è espresso in una formula apparentemente semplice:
 
-:::{.callout.note}
+:::{.callout-note}
 ## Definizione
 $X = T + E$
 
-$X$: punteggio osservato (observed score)
-$T$: punteggio vero (true score)
-$E$: errore di misura (error)
+$X$: punteggio osservato (observed score)\
+$T$: punteggio vero (true score)\
+$E$: errore di misura (error)\
 
 :::
 
