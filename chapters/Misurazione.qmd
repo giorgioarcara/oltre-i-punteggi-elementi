@@ -395,7 +395,7 @@ L'alternativa principale alla CTT è l'**Item Response Theory** (IRT), una famig
 ### Riassunto sulla CTT
 Abbiamo descritto il principio cardine della CTT e alcune delle sue assunzioni fondamentali. Come anticipato, la maggior parte dei test neuropsicologici adotta implicitamente questo framework e questo lo si desume dalle analisi e dalle metodologie impiegate nel loro sviluppo, più che da una dichiarazione esplicita.
 
-Queste analisi rispondono alla domanda posta in precedenza: come stabilire se un test è un buon test? Secondo la CTT, sono necessarie informazioni sulla **validità** del test — intesa come giustificazione del legame tra punteggio e costrutto — e sulla sua **affidabilità** — ovvero la precisione e la consistenza della misura. Questi due concetti costituiscono il nucleo della psicometria nell'ambito della CTT e saranno trattati in dettaglio nei paragrafi successivi.
+Queste analisi rispondono alla domanda posta in precedenza: come stabilire se un test è un buon test? Secondo la CTT, sono necessarie informazioni sulla **validità** del test, intesa come giustificazione del legame tra punteggio e costrutto, e sulla sua **affidabilità**, ovvero la precisione e la consistenza della misura. Questi due concetti costituiscono il nucleo della psicometria nell'ambito della CTT e saranno trattati in dettaglio nei paragrafi successivi.
 
 :::{.callout-tip}
 ## Nota
