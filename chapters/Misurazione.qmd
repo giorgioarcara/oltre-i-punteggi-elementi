@@ -24,7 +24,7 @@ _Perché è importante misurare?_
 
 Non possiamo dare per scontato che sia una cosa necessaria o indispensabile e anzi, è utile riflettere sull'utilità di utilizzare numeri per descrivere qualcosa.
 
-La misurazione è innanzitutto considerata una delle basi del metodo scientifico e un approccio scientifico e basato sull'evidenza, non può che passare dalla misurazione. Un celebre aforisma (probabilmente apocrifo) di Galileo Galilei, uno dei padri del metodo scientifico è: _misura ciò che puoi misurare, rendi misurabile ciò che non lo è_ .  Anche ogni libro che parli di epistemologia, cioè la filosofia della scienza, tende ad avere un capitolo o una sezione dedicata alla misurazione, a sostegno di quanto sia fondamentale per il processo scientifico (es. `(\cite{boniolo1999filosofia})`{=latex}`Boniolo & Vidali, 1999`{=html}). In breve quindi:
+La misurazione è innanzitutto considerata una delle basi del metodo scientifico e un approccio scientifico e basato sull'evidenza, non può che passare dalla misurazione. Un celebre aforisma (probabilmente apocrifo) di Galileo Galilei, uno dei padri del metodo scientifico è: _misura ciò che puoi misurare, rendi misurabile ciò che non lo è_ .  Anche ogni libro che parli di epistemologia, cioè la filosofia della scienza, tende ad avere un capitolo o una sezione dedicata alla misurazione, a sostegno di quanto sia fondamentale per il processo scientifico `(\cite{boniolo1999filosofia})`{=latex}(Boniolo & Vidali, 1999)`{=html}. In breve quindi:
 
 _misurare in neuropsicologia clinica ci permette di adottare un approccio scientifico e andare oltre la semplice osservazione clinica qualitativa_
 
@@ -42,7 +42,7 @@ Quando si parla però di neuropsicologia clinica o di valutazione neuropsicologi
 
 ![Una valutazione neuropsicologica secondo ChatGPT (vedi testo per il prompt esatto)](../Figures/Valutazione_Neuropsi_ChatGPT.png){#fig-chatgpt-valutazione fig-align="center" width=60%}
 
-In altre parole, la neuropsicologia clinica come disciplina **assume** che la misurazione degli oggetti di interesse (funzionamento cognitivo, rischio di sviluppare una malattia, ecc.) consenta di raggiungere conclusioni diagnostiche migliori, di fare scelte terapeutiche più efficaci e, in generale, di svolgere una migliore attività clinica (si veda il paragrafo *Epistemologia della neuropsicologia clinica* per ulteriori dettagli). 
+In altre parole, la neuropsicologia clinica come disciplina **presuppone** che la misurazione degli oggetti di interesse (funzionamento cognitivo, rischio di sviluppare una malattia, ecc.) consenta di raggiungere conclusioni diagnostiche migliori, di fare scelte terapeutiche più efficaci e, in generale, di svolgere una migliore attività clinica (si veda il paragrafo *Epistemologia della neuropsicologia clinica* per ulteriori dettagli). 
 La misurazione, cioè l'utilizzo di punteggi, ci aiuta a quantificare delle proprietà di interesse e poter fare delle scelte cliniche più precise rispetto al solo utilizzo della osservazione clinica qualitativa e basate su evidenze scientifiche. Il più delle volte questo implica che i punteggi sono confrontati con delle soglie e se i valori sono al di là di queste soglie, viene concluso che il risultato ha rilevanza clinica (useremo più avanti termini più tecnici e definizioni più precise). La persona con il punteggio al di là della soglia potrebbe avere un deficit cognitivo, o forse un rischio di avere una patologia neurodegenerativa o un disturbo del neurosviluppo. 
 
 Va da sé, che se questo è uno dei presupposti della neuropsicologia clinica come disciplina, effettuare correttamente le misurazioni è un primo aspetto fondamentale che determinerà la qualità della nostra attività clinica.
@@ -65,7 +65,7 @@ Il fatto che i costrutti siano proprietà non osservabili non è di per sé un p
 
 Consideriamo il classico termometro con colonnina di galinstan (un tempo a mercurio). La _temperatura_ del nostro corpo non è direttamente osservabile ma possiamo misurarla grazie a un indicatore fisico osservabile: l'espansione di una colonna di un metallo liquido (galinstan o mercurio) all'interno del termometro. Quando la temperatura aumenta, il liquido si espande e la sua variazione in lunghezza viene trasformata in un numero che rappresenta la proprietà fisica che ci interessa, cioè la temperatura. Nessuno mette in dubbio la bontà di questa misurazione perché diamo per scontata con precisione la relazione fisica tra la temperatura e l'espansione del metallo.
 
-La misurazione psicologica funziona in modo analogo, ma con una complicazione importante: nei costrutti psicologici la relazione tra il costrutto non osservabile (es. la memoria) e gli indicatori osservabili (es. le risposte a un test) _non è mai altrettanto diretta o univocamente definita_. Ecco perché la psicometria, come disciplina, si occupa proprio di come rendere questa relazione il più precisa e giustificata possibile.
+La misurazione psicologica funziona in modo analogo, ma con una complicazione importante: nei costrutti psicologici la relazione tra il costrutto non osservabile (es. la memoria) e gli indicatori osservabili (es. le risposte a un test) _non è mai altrettanto diretta o univocamente definita_. Ecco perché la psicometria, come disciplina, si occupa proprio di come rendere questa relazione il più precisa e giustificata possibile (questo esempio è ripreso e approfondito anche nel paragrafo ["i test"](#i-test)).
 
 Una caratteristica peculiare della misurazione psicologica è infatti che la relazione tra ciò che è l'esito della misura (cioè il punteggio) e ciò che si vuole misurare, cioè il costrutto, è molto indiretto. <!--(Nota Giorgio: qui si parlava  di numeri e poi la citazione di lezak è su comportamento-->  Nel suo manuale "Neuropsychological Assessment", Muriel Lezak, una delle persone più influenti nella neuropsicologia clinica riporta questo passaggio (di Sivan & Benton, 1999) molto esplicito a riguardo.
 
@@ -92,7 +92,7 @@ La più famosa definizione di misurazione è certamente quella di S.S. Stevens, 
 
 ::: {.callout-note}
 ## Definizione
-**Misurazione secondo S.S. Stevens**
+**Misurazione secondo Stevens**
 
 _"...possiamo dire che la misurazione, nel senso più ampio, è definita come l’assegnazione di numeri a oggetti o eventi secondo determinate regole.”_  `(\cite{stevens1946measurement})`{=latex}
 `(Stevens, 1946)`{=html} - p. 667 
@@ -134,7 +134,7 @@ L'idea di avere una definizione di misurazione molto generica, accompagnata ad u
 
 #### Definizione di Misurazione secondo Suppes & Zinnes (1963)
 
-Un'altra possibile definizione di misurazione, molto celebre in Psicometria è quella di Suppes & Zinnes `(\cite{suppes1963basic})`{=latex} `(\cite{suppes1963basic})`{=html}. A differenza di quella di Stevens è più rigorosa e formale, ma anche più complessa e meno intuitiva e per essere capita necessita alcune definizioni preliminari.
+Un'altra possibile definizione di misurazione, molto celebre in psicometria è quella di Suppes & Zinnes `(\cite{suppes1963basic})`{=latex} `(\cite{suppes1963basic})`{=html}. A differenza di quella di Stevens è più rigorosa e formale, ma anche più complessa e meno intuitiva e per essere capita necessita alcune definizioni preliminari.
 
 Definiamo  _Sistema Relazionale Empirico_, come l'insieme di entità del mondo empirico che hanno una determinata proprietà che vogliamo misurare (es. oggetti di diversa lunghezza) e il _Sistema Relazionale Numerico_ un insieme di numeri (es. i numeri Reali) con i quali vogliamo descrivere il sistema Relazionale Empirico. 
 
@@ -208,6 +208,7 @@ Tutte queste considerazioni sono sensate e condivisibili, ma, dal punto di vista
 
 
 Anche se quanto appena detto potrebbe sembrare una speculazione da psicometristi, con poco impatto pratico, nel corso di questo libro cercherò di dimostrare che non lo è, e che anzi, in certi casi è una semplificazione che non possiamo dare per scontata. 
+
 È doveroso anticipare già adesso che non sempre i test psicologici soffrono di queste problematiche. Alcuni infatti sono costruiti in modo tale che il significato delle variazioni di punteggio sia formalmente definito e preciso, grazie all'impiego di modelli alternativi di misurazione, ad esempio quelli appartenenti all'_Item Response Theory_. Purtroppo, per ragioni pratiche e storiche, strumenti con tali caratteristiche sono ancora poco diffusi nella pratica neuropsicologica italiana, e dobbiamo quindi accontentarci di test che assumono una scala ad intervalli, con tutte le problematicità evidenziate (si veda il paragrafo Introduzione all'Item Response Theory per un approfondimento).
 
 Devo però anche anticipare che adotterò una posizione molto pragmatica su questo aspetto. Anche quando alcune assunzioni di un test risultano discutibili, ciò non significa che il test vada scartato: uno strumento con limitazioni può essere comunque più utile di una valutazione clinica puramente qualitativa.
@@ -244,6 +245,12 @@ _"... e per la sua descrizione con l'aiuto di una scala numerica o tramite categ
 
 In quest'ultima parte della definizione, è catturata l'essenza dell'esito di una misurazione: un punteggio o l'appartenenza ad una categoria (es. "sano", "Mild Cognitive Impairment").
 
+
+:::{.callout-important}
+## Nota
+Il fatto che un test sia una **procedura sistematica** implica che, per somministrarlo correttamente, occorre attenersi scrupolosamente alla procedura originale: quella indicata dagli autori, nel manuale del test o nella pubblicazione scientifica di riferimento. Anche una deviazione apparentemente piccola può avere un impatto rilevante sui risultati e sulla loro interpretazione, producendo effetti a cascata difficili da prevedere. Per esempio, modificare leggermente le istruzioni, anche con il nobile intento di essere più chiari, può rendere il test più facile e alterare il significato del confronto con i dati normativi (si veda il paragrafo sui dati normativi). <!-- aggiungi qui hyperlink al paragrafo sui dati normativi -->
+:::
+
 Questa definizione ha il vantaggio di essere ampia e inclusiva: si applica tanto ai test cognitivi quanto ai questionari di personalità, alle scale di autovalutazione e a molti altri strumenti di misura in ambito psicologico. Tuttavia, presenta un limite importante per i nostri scopi, che è facile identificare con un esempio.
  Provate a immaginare uno strumento che valuti l'equilibrio di una persona durante il cammino tramite una serie di prove fisiche. Per ogni prova superata si da un punteggio di 1, e il punteggio globale è dato dalla somma dei punteggi delle varie prove. Questo strumento soddisferebbe formalmente la definizione di Cronbach: è una procedura sistematica, per osservare il comportamento e lo descriverebbe con una scala numerica (il punteggio totale). Tuttavia, questo strumento non sarebbe un test "psicologico". 
 
@@ -251,8 +258,8 @@ La definizione di Cronbach è utile quindi perché permette di sottolineare, tra
 
 ![Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) è legato a comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio.](../Figures/Latex-Fig-Costrutto-Comportamento-Punteggio/Fig_measurement_3.png){#fig-costrutto-punteggio fig-align="center" width=80%}
 
-
-A pensarci, questa situazione potrebbe sembrare non troppo diversa da quella dell'esempio del termometro: del resto la temperatura non è direttamente osservabile, ma è legata a un indicatore osservabile (l'espansione del galinstan o mercurio) che ci permettono di ottenere un numero (i gradi) che rappresenta indirettamente ciò che vogliamo misurare. 
+Quanto appena detto è, in sostanza, quello che abbiamo già trattato nel [paragrafo iniziale sulla misurazione](#cosa-misuriamo-in-neuropsicologia-clinica)
+Riprendiamo questo esempio e approfondiamolo ancora una volta. La situazione di una misurazione indiretta potrebbe sembrare non troppo diversa da quella dell'esempio del termometro: del resto la temperatura non è direttamente osservabile, ma è legata a un indicatore osservabile (l'espansione del galinstan o mercurio) che ci permettono di ottenere un numero (i gradi) che rappresenta indirettamente ciò che vogliamo misurare. 
 Nonostante questa apparente somiglianza, la misurazione in neuropsicologia (e in psicologia in generale) è molto più complessa. Senza addentrarci troppo, la ragione è che non esiste una relazione _causale_ univoca tra proprietà non osservabile e comportamento osservabile: avere una certa memoria non determina in maniera causale che si ottenga un certo comportamento (piuttosto probabilistica, si veda paragrafo: cenni sull'Item Response Theory). A complicare le cose, molte variabili non direttamente di interesse possono alterare in maniera importante la relazione tra comportamento osservato e costrutto. Sempre in relazione al punteggio al test di memoria si consideri per esempio la motivazione, l'umore, la fatica, la stanchezza, l'ansia, la confusione, la distrazione, la presenza di dolore o di sintomi fisici, e così via. Tutte queste variabili possono influenzare il comportamento osservato (le risposte al test) e di conseguenza il punteggio ottenuto, indipendentemente dal costrutto di interesse (la memoria).
 
 ![Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) produce comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio. Le altre variabili (Motivazione, Umore, Fatica, etc.) influenzano il comportamento osservato indipendentemente dal costrutto di interesse.](../Figures/Latex-Fig-AltreVariabili/Fig_measurement_4.png){#fig-altre-variabili fig-align="center" width=80%}
@@ -263,10 +270,6 @@ Questo è in linea con le parole di Sivan & Benton (1999) citate da Lezak nel [p
 
 `\pagebreak`{=latex}
 
-:::{.callout-important}
-## Nota
-Il fatto che un test sia una **procedura sistematica** implica che, per somministrarlo correttamente, occorre attenersi scrupolosamente alla procedura originale: quella indicata dagli autori, nel manuale del test o nella pubblicazione scientifica di riferimento. Anche una deviazione apparentemente piccola può avere un impatto rilevante sui risultati e sulla loro interpretazione, producendo effetti a cascata difficili da prevedere. Per esempio, modificare leggermente le istruzioni, anche con il nobile intento di essere più chiari, può rendere il test più facile e alterare il significato del confronto con i dati normativi (si veda il paragrafo sui dati normativi). <!-- aggiungi qui hyperlink al paragrafo sui dati normativi -->
-:::
 
 ### Tipologie di test
 Esistono diverse tipologie di test così come diversi modi di poterli classificare. Di seguito vengono descritti i principali tipi di test utilizzati in neuropsicologia clinica. Queste classificazioni sono utili perché diversi tipi di test hanno diverse peculiarità di tipo psicometrico e diverse criticità.
