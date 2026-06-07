@@ -399,7 +399,7 @@ Queste analisi rispondono alla domanda posta in precedenza: come stabilire se un
 
 :::{.callout-tip}
 ## Nota
-Nei manuali o articoli test neuropsicologici spesso non è esplicitamente scritto che sono sviluppati secondo la Classical Test Theory. Questo è desumibile però dall'utilizzo di certe caratteristiche, come l'utilizzo di Validità e Affidabilità, secondo specifiche declinazioni tipiche di questo framework.
+Nei manuali o articoli dei test neuropsicologici spesso non è esplicitamente scritto che sono sviluppati secondo la Classical Test Theory. Questo è desumibile però dall'utilizzo di certe caratteristiche, come l'utilizzo di Validità e Affidabilità, secondo specifiche declinazioni tipiche di questo framework.
 :::
 
 ## Validità ed Affidabilità
