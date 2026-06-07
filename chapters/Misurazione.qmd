@@ -56,6 +56,7 @@ La disciplina che si occupa della misurazione in psicologia (e in neuropsicologi
 **Costrutto**:
 Un concetto psicologico non direttamente osservabile (es. memoria, attenzione, intelligenza). Per renderlo misurabile, è associato ad uno o più _indicatori_ (o _proxy_ in inglese).
 
+
 **Indicatore**
 Un comportamento osservabile che, da solo o insieme ad altri, si assume sia manifestazione di un costrutto a cui è associato. In neuropsicologia clinica, sono tipici indicatori le risposte ad un test. 
 :::
@@ -82,7 +83,7 @@ _Non esiste una corrispondenza univoca tra un comportamento e uno specifico aspe
 Abbiamo già detto come in neuropsicologia clinica somministriamo test per ottenere dei punteggi, cioè dei numeri, che ci aiutano a descrivere ciò che è di interesse che, il più delle volte è legato **costrutti neuropsicologici, psicologici o cognitivi**, quali memoria, attenzione, benessere, depressione, etc. L'utilizzo dei numeri ci aiuta a capire meglio il funzionamento cognitivo e capire se, per esempio, per una specifica funzione (es. la memoria) è talmente basso da farci sospettare un deficit oppure l'inizio di una patologia neurodegenerativa. Allo stesso tempo l'avere dei numeri ci permette di avere una stima della capacità in un certo momento per poi tornare a ripetere la rilevazione e vedere se c'è stato un peggioramento, per esempio dovuto ad un declino, oppure un miglioramento, per esempio dovuto ad un trattamento riabilitativo.  
 Ciò che abbiamo descritto sopra non sono altro che esempi di _misurazione_ di una proprietà del funzionamento mentale: tramite i test misuriamo la memoria, misuriamo l'attenzione o altre caratteristiche di interesse. 
 
-Finora ci siamo accontentati di una definizione generica di misurazione, ma per una trattazione metodologicamente rigorosa abbiamo bisogno di avere una definizione più precisa di cosa si intenda per _misurare_ . Già qui sorgono i primi problemi. Non esiste infatti una definizione di misurazione unanimemente accettata (questa considerazione sarà proprio il punto di partenza del paragrafo [Introduzione all'Item Response Theory](#introduzione-item-response-theory)), ma esistono delle definizioni molto diffuse e, come vedremo, alcune di queste sono implicitamente utilizzate nella pratica neuropsicologica clinica o forense.
+Finora ci siamo accontentati di una definizione generica di misurazione, ma per una trattazione metodologicamente rigorosa abbiamo bisogno di avere una definizione più precisa di cosa si intenda per _misurare_. E già qui sorgono i primi problemi. Non esiste infatti una definizione di misurazione unanimemente accettata, ma esistono delle definizioni molto diffuse e, come vedremo, alcune di queste sono implicitamente utilizzate nella pratica neuropsicologica clinica o forense.
 
 
 #### La definizione di misurazione di S.S. Stevens (1946) e le scale di misura
@@ -240,17 +241,19 @@ In quest'ultima parte della definizione, è catturata l'essenza dell'esito di un
 Questa definizione ha il vantaggio di essere ampia e inclusiva: si applica tanto ai test cognitivi quanto ai questionari di personalità, alle scale di autovalutazione e a molti altri strumenti di misura in ambito psicologico. Tuttavia, presenta un limite importante per i nostri scopi, che è facile identificare con un esempio.
  Provate a immaginare uno strumento che valuti l'equilibrio di una persona durante il cammino tramite una serie di prove fisiche. Per ogni prova superata si da un punteggio di 1, e il punteggio globale è dato dalla somma dei punteggi delle varie prove. Questo strumento soddisferebbe formalmente la definizione di Cronbach: è una procedura sistematica, per osservare il comportamento e lo descriverebbe con una scala numerica (il punteggio totale). Tuttavia, questo strumento non sarebbe un test "psicologico". 
 
-La Cronbach è utile quindi perché permette di sottolineare, tramite una mancanza, un punto fondamentale che contraddistingue i test psicologici: a differenza di altri tipi di test, i test psicologici non hanno quasi mai hanno interesse solo nel comportamento osservato (le risposte del paziente agli item del test) ma nel **costrutto** psicologico che si vuole misurare. Come discusso nel [paragrafo precedente](#cosa-misuriamo-in-neuropsicologia-clinica), in neuropsicologia l'interesse non è nel comportamento in sé (le risposte del paziente agli item del test) bensì nel costrutto associato a quel comportamento. Il punteggio è dunque una rappresentazione _indiretta_ di qualcosa di non direttamente osservabile (memoria, attenzione, funzioni esecutive, ecc.), tramite un comportamento osservabile. Questa relazione è rappresentata nella @fig-costrutto-punteggio.
+La definizione di Cronbach è utile quindi perché permette di sottolineare, tramite una mancanza, un punto fondamentale che contraddistingue i test psicologici: a differenza di altri tipi di test, i test psicologici non hanno quasi mai hanno interesse solo nel comportamento osservato (le risposte del paziente agli item del test) ma nel **costrutto** psicologico che si vuole misurare (vedi [paragrafo precedente](#cosa-misuriamo-in-neuropsicologia-clinica)). Il punteggio è dunque una rappresentazione _indiretta_ di qualcosa di non direttamente osservabile (memoria, attenzione, funzioni esecutive, ecc.), tramite un comportamento osservabile. Questa relazione è rappresentata nella @fig-costrutto-punteggio.
 
 ![Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) è legato a comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio.](../Figures/Latex-Figure-Measurement-3/Fig_measurement_3.png){#fig-costrutto-punteggio fig-align="center" width=80%}
 
 
-Questa rappresentazione non è molto diversa da quello che accade nell'esempio del termometro: del resto la temperatura non è direttamente osservabile, ma è legata a un indicatore osservabile (l'espansione del galinstan o mercurio) che ci permettono di ottenere un numero (i gradi) che rappresenta indirettamente ciò che vogliamo misurare. 
-Nonostante questa apparente somiglianza, la misurazione in neuropsicologia (e in psicologia in generale) è molto più complessa. Questo perché non esiste una relazione _causale_ univoca tra proprietà non osservabile e comportamento osservabile: avere una certa memoria non determina in maniera causale che si ottenga un certo comportamento (piuttosto probabilistica, si veda paragrafo: cenni sull'Item Response Theory). A complicare le cose, molte variabili non direttamente di interesse possono alterare in maniera importante la relazione tra comportamento osservato e costrutto. Sempre in relazione al punteggio al test di memoria si consideri per esempio la motivazione, l'umore, la fatica, la stanchezza, l'ansia, la confusione, la distrazione, la presenza di dolore o di sintomi fisici, e così via. Tutte queste variabili possono influenzare il comportamento osservato (le risposte al test) e di conseguenza il punteggio ottenuto, indipendentemente dal costrutto di interesse (la memoria).
+A pensarci, questa situazione potrebbe sembrare non troppo diversa da quella dell'esempio del termometro: del resto la temperatura non è direttamente osservabile, ma è legata a un indicatore osservabile (l'espansione del galinstan o mercurio) che ci permettono di ottenere un numero (i gradi) che rappresenta indirettamente ciò che vogliamo misurare. 
+Nonostante questa apparente somiglianza, la misurazione in neuropsicologia (e in psicologia in generale) è molto più complessa. Senza addentrarci troppo, la ragione è che non esiste una relazione _causale_ univoca tra proprietà non osservabile e comportamento osservabile: avere una certa memoria non determina in maniera causale che si ottenga un certo comportamento (piuttosto probabilistica, si veda paragrafo: cenni sull'Item Response Theory). A complicare le cose, molte variabili non direttamente di interesse possono alterare in maniera importante la relazione tra comportamento osservato e costrutto. Sempre in relazione al punteggio al test di memoria si consideri per esempio la motivazione, l'umore, la fatica, la stanchezza, l'ansia, la confusione, la distrazione, la presenza di dolore o di sintomi fisici, e così via. Tutte queste variabili possono influenzare il comportamento osservato (le risposte al test) e di conseguenza il punteggio ottenuto, indipendentemente dal costrutto di interesse (la memoria).
 
 ![Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) produce comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio. Le altre variabili (Motivazione, Umore, Fatica, etc.) influenzano il comportamento osservato indipendentemente dal costrutto di interesse.](../Figures/Latex-Figure-Measurement-4/Fig_measurement_4.png){#fig-altre-variabili fig-align="center" width=80%}
 
+<!-- RIPETIZIONE, DA TOGLIERE?
 Questo è in linea con le parole di Sivan & Benton (1999) citate da Lezak nel [paragrafo sulla misurazione](#misurazione_e_neuropsicologia_clinica), le abilità cognitive "non vengono osservate direttamente, ma piuttosto inferite dal comportamento". Questa considerazione, che può sembrare ovvia, merita di essere ripetuta perché ha conseguenze rilevanti per l'interpretazione dei punteggi: lo stesso risultato potrebbe riflettere abilità cognitive diverse a seconda del paziente e del contesto clinico, e come tratteremo nel corso dei capitoli di questo libro, richiede un'interpretazione critica dei risultati.
+-->
 
 `\pagebreak`{=latex}
 
@@ -258,6 +261,9 @@ Questo è in linea con le parole di Sivan & Benton (1999) citate da Lezak nel [p
 ## Nota
 Il fatto che un test sia una **procedura sistematica** implica che, per somministrarlo correttamente, occorre attenersi scrupolosamente alla procedura originale: quella indicata dagli autori, nel manuale del test o nella pubblicazione scientifica di riferimento. Anche una deviazione apparentemente piccola può avere un impatto rilevante sui risultati e sulla loro interpretazione, producendo effetti a cascata difficili da prevedere. Per esempio, modificare leggermente le istruzioni, anche con il nobile intento di essere più chiari, può rendere il test più facile e alterare il significato del confronto con i dati normativi (si veda il paragrafo sui dati normativi). <!-- aggiungi qui hyperlink al paragrafo sui dati normativi -->
 :::
+
+### Tipologie di test
+Esistono diverse tipologie di test così come diversi modi di poterli classificare. Di seguito vengono descritti i principali tipi di test utilizzati in neuropsicologia clinica. Queste classificazioni sono utili perché diversi tipi di test hanno diverse peculiarità di tipo psicometrico e diverse criticità.
 
 ### Test di prestazione massima
 
@@ -286,9 +292,9 @@ Questi strumenti condividono con i test psicologici il fatto di produrre un punt
 
 ### Questo è un buon test?
 
-La definizione di Cronbach, pur essendo ampia e inclusiva, lascia aperta una domanda importante: _qualunque_ strumento che assegni numeri a comportamenti osservati può essere considerato un buon test? Considera il seguente test ipotetico per la memoria:
+La definizione di Cronbach, pur essendo ampia e inclusiva, lascia aperta una domanda importante: _qualunque_ strumento che assegni numeri a comportamenti osservati può essere considerato un buon test? Consideriamo il seguente test ipotetico per la memoria:
 
-> Al paziente viene letta ad alta voce la seguente lista di 7 parole: _casa, mela, treno, fiume, cane, libro, sole_. Dopo 30 secondi, gli viene chiesto di ricordare quante ne riesce. Il punteggio finale è il numero di parole ricordate (da 0 a 7).
+> Al paziente viene letta ad alta voce la seguente lista di 7 parole: _casa, mela, treno, fiume, cane, libro, sole_. Dopo 30 secondi, gli viene chiesto di ricordare quante più possibili. Il punteggio finale è il numero di parole ricordate (da 0 a 7).
 
 Questo strumento soddisfa formalmente la definizione di Cronbach: è una procedura sistematica, osserva il comportamento (le parole ricordate) e lo descrive con una scala numerica. Soddisfa anche la definizione di Stevens: assegna numeri a eventi secondo regole precise.
 
@@ -297,7 +303,6 @@ Ma questo è davvero un buon test per la memoria?
 :::
 
 È verosimile che la vostra risposta "di pancia", sia stata "no", anche se non avete una spiegazione tecnica. Potreste dire per esempio che è troppo semplice, che 7 parole sono poche[^pochiitems], che 30 secondi sono pochi, che le parole sono troppo facili, etc. Tutte queste considerazioni sono ragionevoli e probabilmente condivisibili, ma non sono basate su un modello di misurazione o su una teoria della memoria. Sono semplicemente basate sul buon senso e sull'esperienza clinica.
-
 
 Nel corso di questo libro daremo delle risposte più rigorose a questa domanda. Quello che per ora è importante sottolineare che, anche se questo strumento soddisfa formalmente le definizioni di test e di misurazione, non è detto che sia un buon test: dobbiamo avere altre evidenze per poter dire che questo strumento misura la memoria in modo accurato e preciso.
 
