@@ -309,6 +309,7 @@ Ma questo è davvero un buon test per la memoria?
 :::
 
 È verosimile che la vostra risposta "di pancia", sia stata "no", anche se non avete una spiegazione tecnica. Potreste dire per esempio che è troppo semplice, che 7 parole sono poche[^pochiitems], che 30 secondi sono pochi, che le parole sono troppo facili, etc. Tutte queste considerazioni sono ragionevoli e probabilmente condivisibili, ma non sono basate su un modello di misurazione o su una teoria della memoria. Sono semplicemente basate sul buon senso e sull'esperienza clinica.
+[^pochiitems]: Il numero di item da solo non è un indicatore della qualità di un test. Esistono test pubblicati e validati anche con pochissimi item: per esempio, esiste una versione a 3 item della _UCLA Loneliness Scale_ per la misurazione (`(\cite{gosling2024measuring})`{=latex}`Gosling et al., 2024`{=html}).
 
 Nel corso di questo libro daremo delle risposte più rigorose a questa domanda. Quello che per ora è importante sottolineare che, anche se questo strumento soddisfa formalmente le definizioni di test e di misurazione, non è detto che sia un buon test: dobbiamo avere altre evidenze per poter dire che questo strumento misura la memoria in modo accurato e preciso.
 
