@@ -108,13 +108,14 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
 
   * I concetti di _deficit_ e _danno_ in valutazione dell'adulto
   * Il concetto di _deficit_ in età evolutiva
-  * I dati normativi e il _cut-off di normalità_ 
+  * Dati normativi, percentili e _cut-off di normalità_ 
     * Come si ottengono i dati normativi
   * Metodi per calcolare i cut-off di normalità
     * Z-score e percentili
+    * Il metodo di Crawford & Howell (1998) per il caso singolo
     * Metodi basati su regressione
         * I Punteggi Equivalenti (Capitani, 1987)
-        * Il metodo di Crawford & Howell (1998) per il caso singolo
+        * Il metodo di Crawford & Garthwaite (2006)
     * Altri metodi
   * Aspetti importanti da considerare nell'utilizzare i dati normativi
   * Nella pratica clinica: esempi di utilizzo dei cut-offs
