@@ -192,7 +192,7 @@ Proviamo però ad applicare lo stesso ragionamento a qualche test neuropsicologi
 
 Lo stesso vale per il Digit Span, test in cui si chiede di ricordare sequenze di numeri di lunghezza crescente e il punteggio corrisponde alla sequenza più lunga correttamente richiamata. Un aumento di 2 punti da 3 a 5 segna il passaggio da una prestazione molto bassa a una intermedia; un aumento da 8 a 10 porta invece da una prestazione già eccellente a una quasi irraggiungibile (provate a ricordare una sequenza di 10 cifre per capire). Anche qui le due variazioni potrebbero non sembrano equivalenti.
 
-Questi esempi mostrano come interpretare i punteggi grezzi di un test come se fossero su scala a intervalli non si possa dare per scontato.
+Questi esempi, per quanto informali, mostrano come interpretare i punteggi grezzi di un test come se fossero su scala a intervalli non si possa dare per scontato.
 
 [^mis3]: per complicare ulteriormente il quadro qualcuno che conosce il MoCA potrebbe anche dire che il significato di questi $+2$, dipende molto da quale è l'item (o gli item) a cui è legato questo punteggio, questo esempio è trattato in un [Approfondimento](#Approfondimento-item-arbitrari)).
 
@@ -204,8 +204,6 @@ L'aspetto più delicato di questa discussione è che il trattare i punteggi come
 
 <!--
 Tutte queste considerazioni sono sensate e condivisibili, ma, dal punto di vista della teoria della misurazione, si tratta di ragionamenti fondati sul buon senso clinico, non su un modello formale. Conoscere queste basi teoriche permette al neuropsicologo di comprendere meglio le implicazioni delle proprie scelte e di orientarsi in modo più consapevole tra gli strumenti disponibili.
--->
-
 -->
 
 
