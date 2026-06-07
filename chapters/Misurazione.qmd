@@ -88,19 +88,19 @@ Finora ci siamo accontentati di una definizione generica di misurazione, ma per 
 
 #### La definizione di misurazione di S.S. Stevens (1946) e le scale di misura
 
-La più famosa definizione di misurazione è certamente quella di S.S. Stevens, che in un articolo del 1946 ha fornito una definizione che ha influenzato (nel bene e nel male) la storia della psicologia `(\cite{stevens1946measurement})`{=latex}
-`(Stevens, 1946)`{=html}:
+La più famosa definizione di misurazione è certamente quella di S.S. Stevens, che in un articolo del 1946 ha fornito una definizione che ha influenzato (nel bene e nel male) la storia della psicologia:
 
 ::: {.callout-note}
 ## Definizione
 **Misurazione secondo S.S. Stevens**
 
-_"...possiamo dire che la misurazione, nel senso più ampio, è definita come l’assegnazione di numeri a oggetti o eventi secondo determinate regole.” (p. 667) _
+_"...possiamo dire che la misurazione, nel senso più ampio, è definita come l’assegnazione di numeri a oggetti o eventi secondo determinate regole.”_  `(\cite{stevens1946measurement})`{=latex}
+`(Stevens, 1946)`{=html} - p. 667 
 
 :::
 
 La proposta di Stevens va contestualizzata al clima del momento. Alla fine degli anni quaranta si stava discutendo in ambito scientifico se gli oggetti di interesse della psicologia potessero essere misurati e se, quindi, la psicologia potesse essere considerata una scienza. L'iniziale conclusione di una commissione internazionale di fisici e psicologi che si era riunita per dare una risposta a questa domanda era arrivata alla conclusione che, secondo una definizione rigorosa di misurazione, la risposta era _no_. 
-Secondo Stevens però, il problema era proprio nei presupposti della commissione e, più in particolare, nella definizione troppo restrittiva di misurazione. Propose dunque la definizione riportata sopra, e sottolineò che anche se ogni regola porta a misurazione, un aspetto importante (ma separabile) è l'utilizzo che si può fare dei numeri o classificazioni e questo dipende dalla **Scala di misura**. A seconda delle proprietà misurate (ma che possiamo sempre definire come una _misurazione_ ) potrebbe quindi essere diverso l'utilizzo che possiamo fare dei numeri. La proposta di Stevens salvava la psicologia come scienza e anzi aiutava a chiarire l'utilizzo dei numeri per la misurazione in diverse circostanze.
+Secondo Stevens però, il problema era proprio nei presupposti della commissione e, più in particolare, nella definizione troppo restrittiva di misurazione. Propose dunque la definizione riportata sopra, e sottolineò che anche se ogni regola porta a misurazione, un aspetto importante (ma separabile) è l'utilizzo che si può fare dei numeri o classificazioni e questo dipende dalla **Scala di misura**. A seconda delle proprietà misurate potrebbe quindi essere diverso l'utilizzo che possiamo fare dei numeri. La proposta di Stevens salvava la psicologia come scienza e anzi aiutava a chiarire l'utilizzo dei numeri per la misurazione in diverse circostanze.
 
 
 Esistono quattro scale di misura: _categoriale, ordinale, a intervalli, a rapporti_. Queste scale possono essere organizzate gerarchicamente (categoriale al livello più basso, a rapporti al livello più alto), e le operazioni possibili ad un livello più basso sono possibili a tutti i livelli superiori. Per esempio calcolare la mediana è possibile a livello di scala ordinale, ma anche nella scala ad intervalli e a rapporti in quanto più alte nella gerarchia. Da notare che anche il solo rilevare se una persona è femmina o maschio è, secondo la definizione di Stevens, un caso di misurazione, utilizzando una _scala categoriale_. In questo caso non hanno senso operazioni tipo addizione o sottrazione o moltiplicazione (non ha senso dire che una femmina è due volte un maschio o viceversa) e una delle poche operazioni possibili è contare quanti casi abbiamo per ogni categoria (es. confrontare il numero di femmine con il numero di maschi). Un riassunto delle scale e delle operazioni possibili è riportato nella tabella 1.2.
@@ -134,11 +134,11 @@ L'idea di avere una definizione di misurazione molto generica, accompagnata ad u
 
 #### Definizione di Misurazione secondo Suppes & Zinnes (1963)
 
-Un'altra possibile definizione di misurazione, molto celebre in Psicometria è quella di Suppes & Zinnes (1963) `(\cite{suppes1963basic})`{=latex} `(\cite{suppes1963basic})`{=html} che, a differenza di quella di Stevens, è più rigorosa e formale, ma anche più complessa e meno intuitiva e per essere capita necessita alcune definizioni preliminari.
+Un'altra possibile definizione di misurazione, molto celebre in Psicometria è quella di Suppes & Zinnes `(\cite{suppes1963basic})`{=latex} `(\cite{suppes1963basic})`{=html}. A differenza di quella di Stevens è più rigorosa e formale, ma anche più complessa e meno intuitiva e per essere capita necessita alcune definizioni preliminari.
 
 Definiamo  _Sistema Relazionale Empirico_, come l'insieme di entità del mondo empirico che hanno una determinata proprietà che vogliamo misurare (es. oggetti di diversa lunghezza) e il _Sistema Relazionale Numerico_ un insieme di numeri (es. i numeri Reali) con i quali vogliamo descrivere il sistema Relazionale Empirico. 
 
-![Sistema Relazionale Empirico e il Sistema Relazionale Numerico: esempio della misurazione della lunghezza di un tavolo.](../Figures/Latex-Figure-Measurement-1/Fig_measurement_1.png){#fig-measurement-fisico fig-align="center" width=70%}
+![Sistema Relazionale Empirico e il Sistema Relazionale Numerico: esempio della misurazione della lunghezza di un tavolo.](../Figures/Latex-Fig-Misurazione-Fisica/Fig_measurement_1.png){#fig-measurement-fisico fig-align="center" width=70%}
 
 ::: {.callout-note}
 ## Definizione
@@ -155,9 +155,9 @@ Nell'esempio della @fig-measurement-fisico, un tavolo ha un lato lungo 120 cm. P
 [^scale]:Tornando per un attimo alla Definizione di misurazione di Stevens  e alla Tabella 1.2, La lunghezza di un tavolo è misurata su una _scala a rapporti_ e sapere questo ci permette di sapere quali operazioni possiamo fare con i numeri associati alla misura. 
 
 
-![Sistema Relazionale Empirico e Sistema Relazionale Numerico: esempio della misurazione di un costrutto psicologico (memoria).](../Figures/Latex-Figure-Measurement-2/Fig_measurement_2.png){#fig-measurement-psicologico fig-align="center" width=70%}
+![Sistema Relazionale Empirico e Sistema Relazionale Numerico: esempio della misurazione di un costrutto psicologico (memoria).](../Figures/Latex-Fig-Misurazione-Psicologica/Fig_measurement_2.png){#fig-measurement-psicologico fig-align="center" width=70%}
 
-In questo caso possiamo dire che il nostro Sistema Relazionale Empirico[^sis] è dato dall'insieme di tutte le persone con diversa memoria e il Sistema Relazionale Numerico come l'insieme di numeri che utilizziamo per descrivere la memoria di queste persone. 
+In questo caso possiamo dire che il nostro Sistema Relazionale Empirico[^sis] è dato dall'insieme di tutti i possibili livelli di memoria e il Sistema Relazionale Numerico come l'insieme di numeri che utilizziamo per descrivere questi livelli memoria. 
 Alcune operazioni con questi numeri sono intuitivamente sensate, ad esempio possiamo dire che alcune persone hanno più memoria di altre (possiamo quindi ordinare), ma nel momento in cui cerchiamo di capire l'applicabilità di altre operazioni diventa più difficile rispondere. Ad esempio, tramite un test possiamo arrivare a dire che una persona ha il doppio di memoria di un altra? Oppure che ha +20 unità di memoria più di un'altra? (qualsiasi sia questa unità). La risposta non è ovvia, e non possiamo darla per scontata solo perché abbiamo dei numeri. Suppes & Zinnes sostengono che bisogna effettivamente verificare la possibilità di fare certe operazioni, dimostrando che il mondo empirico le supporta[^supp].
 
 <!-- Per sezione "Approfondimenti tecnici"
@@ -188,9 +188,9 @@ Nella maggior parte dei test neuropsicologici _si assume_ implicitamente che la 
 
  Ricordiamo che assumere una scala ad intervalli significa che le differenze tra punteggi hanno un significato costante lungo tutta la scala. Un esempio classico è la temperatura in gradi Celsius: un aumento di 2°C ha lo stesso significato indipendentemente dal valore di partenza (che si passi da 36 a 38 o da 38 a 40, in entrambi i casi la variazione è identica).
 
-Proviamo però ad applicare lo stesso ragionamento a qualche test neuropsicologico. Prendiamo ad esempio il MoCA: se fosse davvero una scala a intervalli, un aumento di 2 punti dovrebbe avere lo stesso significato sia partendo da 20 sia partendo da 28. Eppure un aumento da 28 a 30 porta a un punteggio perfetto, mentre uno da 26 a 28 indica semplicemente una prestazione medio-alta che migliora[^mis3]: è quantomeno discutibile sostenere che le due variazioni abbiano lo stesso significato.
+Proviamo però ad applicare lo stesso ragionamento a qualche test neuropsicologico, in maniera intuitiva. Prendiamo ad esempio il MoCA: se fosse davvero una scala a intervalli, un aumento di 2 punti dovrebbe avere lo stesso significato sia partendo da 20 sia partendo da 28. Eppure un aumento da 28 a 30 porta a un punteggio perfetto, mentre uno da 26 a 28 indica semplicemente una prestazione medio-alta che migliora[^mis3]: è quantomeno discutibile sostenere che le due variazioni abbiano lo stesso significato.
 
-Lo stesso vale per il Digit Span, test in cui si chiede di ricordare sequenze di numeri di lunghezza crescente e il punteggio corrisponde alla sequenza più lunga correttamente richiamata. Un aumento di 2 punti da 3 a 5 segna il passaggio da una prestazione molto bassa a una nella norma; un aumento da 8 a 10 porta invece da una prestazione già eccellente a una quasi irraggiungibile (provate a ricordare una sequenza di 10 cifre per capire). Anche qui le due variazioni potrebbero non sembrano equivalenti.
+Lo stesso vale per il Digit Span, test in cui si chiede di ricordare sequenze di numeri di lunghezza crescente e il punteggio corrisponde alla sequenza più lunga correttamente richiamata. Un aumento di 2 punti da 3 a 5 segna il passaggio da una prestazione molto bassa a una intermedia; un aumento da 8 a 10 porta invece da una prestazione già eccellente a una quasi irraggiungibile (provate a ricordare una sequenza di 10 cifre per capire). Anche qui le due variazioni potrebbero non sembrano equivalenti.
 
 Questi esempi mostrano come interpretare i punteggi grezzi di un test come se fossero su scala a intervalli non si possa dare per scontato.
 
@@ -243,13 +243,13 @@ Questa definizione ha il vantaggio di essere ampia e inclusiva: si applica tanto
 
 La definizione di Cronbach è utile quindi perché permette di sottolineare, tramite una mancanza, un punto fondamentale che contraddistingue i test psicologici: a differenza di altri tipi di test, i test psicologici non hanno quasi mai hanno interesse solo nel comportamento osservato (le risposte del paziente agli item del test) ma nel **costrutto** psicologico che si vuole misurare (vedi [paragrafo precedente](#cosa-misuriamo-in-neuropsicologia-clinica)). Il punteggio è dunque una rappresentazione _indiretta_ di qualcosa di non direttamente osservabile (memoria, attenzione, funzioni esecutive, ecc.), tramite un comportamento osservabile. Questa relazione è rappresentata nella @fig-costrutto-punteggio.
 
-![Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) è legato a comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio.](../Figures/Latex-Figure-Measurement-3/Fig_measurement_3.png){#fig-costrutto-punteggio fig-align="center" width=80%}
+![Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) è legato a comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio.](../Figures/Latex-Fig-Costrutto-Comportamento-Punteggio/Fig_measurement_3.png){#fig-costrutto-punteggio fig-align="center" width=80%}
 
 
 A pensarci, questa situazione potrebbe sembrare non troppo diversa da quella dell'esempio del termometro: del resto la temperatura non è direttamente osservabile, ma è legata a un indicatore osservabile (l'espansione del galinstan o mercurio) che ci permettono di ottenere un numero (i gradi) che rappresenta indirettamente ciò che vogliamo misurare. 
 Nonostante questa apparente somiglianza, la misurazione in neuropsicologia (e in psicologia in generale) è molto più complessa. Senza addentrarci troppo, la ragione è che non esiste una relazione _causale_ univoca tra proprietà non osservabile e comportamento osservabile: avere una certa memoria non determina in maniera causale che si ottenga un certo comportamento (piuttosto probabilistica, si veda paragrafo: cenni sull'Item Response Theory). A complicare le cose, molte variabili non direttamente di interesse possono alterare in maniera importante la relazione tra comportamento osservato e costrutto. Sempre in relazione al punteggio al test di memoria si consideri per esempio la motivazione, l'umore, la fatica, la stanchezza, l'ansia, la confusione, la distrazione, la presenza di dolore o di sintomi fisici, e così via. Tutte queste variabili possono influenzare il comportamento osservato (le risposte al test) e di conseguenza il punteggio ottenuto, indipendentemente dal costrutto di interesse (la memoria).
 
-![Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) produce comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio. Le altre variabili (Motivazione, Umore, Fatica, etc.) influenzano il comportamento osservato indipendentemente dal costrutto di interesse.](../Figures/Latex-Figure-Measurement-4/Fig_measurement_4.png){#fig-altre-variabili fig-align="center" width=80%}
+![Relazione tra costrutto, comportamento e punteggio al test. Il costrutto non osservabile (es. Memoria, Ansia) produce comportamenti osservabili (es. risposte al test), i quali determinano il punteggio. La freccia tratteggiata bidirezionale indica la relazione indiretta tra costrutto e punteggio. Le altre variabili (Motivazione, Umore, Fatica, etc.) influenzano il comportamento osservato indipendentemente dal costrutto di interesse.](../Figures/Latex-Fig-AltreVariabili/Fig_measurement_4.png){#fig-altre-variabili fig-align="center" width=80%}
 
 <!-- RIPETIZIONE, DA TOGLIERE?
 Questo è in linea con le parole di Sivan & Benton (1999) citate da Lezak nel [paragrafo sulla misurazione](#misurazione_e_neuropsicologia_clinica), le abilità cognitive "non vengono osservate direttamente, ma piuttosto inferite dal comportamento". Questa considerazione, che può sembrare ovvia, merita di essere ripetuta perché ha conseguenze rilevanti per l'interpretazione dei punteggi: lo stesso risultato potrebbe riflettere abilità cognitive diverse a seconda del paziente e del contesto clinico, e come tratteremo nel corso dei capitoli di questo libro, richiede un'interpretazione critica dei risultati.
@@ -386,7 +386,9 @@ Questi limiti non rendono la CTT inutilizzabile, e i test neuropsicologici che n
 L'alternativa principale alla CTT è l'**Item Response Theory** (IRT), una famiglia di modelli in cui l'abilità del soggetto e la difficoltà degli item vengono modellate separatamente, superando così uno dei limiti fondamentali della CTT. Questo aspetto sarà approfondito nel paragrafo [_Introduzione all'Item Response Theory_](#introduzione-item-response-theory).
 -->
 ### Riassunto sulla CTT
-Abbiamo descritto brevemente il principio cardine della CTT e alcune assunzioni di fondo di questo framework teorico. Abbiamo però anche detto che spesso questo non è detto esplicitamente. Il segno più chiaro dell'utilizzo di questo framework è legato alla domanda di chiusura che ci siamo posti "come fare a decidere se un test è un buon test"? Per farlo la CTT, risponde che bisogna avere informazioni sulla **validità** del test (la giustificazione del legame tra punteggio e costrutto) e la sua **affidabilità** (la precisione e la consistenza della misura). Questi sono gli aspetti più critici della psicometria nel contesto della CTT e saranno trattati in dettaglio nei prossimi paragrafi.
+Abbiamo descritto il principio cardine della CTT e alcune delle sue assunzioni fondamentali. Come anticipato, la maggior parte dei test neuropsicologici adotta implicitamente questo framework e questo lo si desume dalle analisi e dalle metodologie impiegate nel loro sviluppo, più che da una dichiarazione esplicita.
+
+Queste analisi rispondono alla domanda posta in precedenza: come stabilire se un test è un buon test? Secondo la CTT, sono necessarie informazioni sulla **validità** del test — intesa come giustificazione del legame tra punteggio e costrutto — e sulla sua **affidabilità** — ovvero la precisione e la consistenza della misura. Questi due concetti costituiscono il nucleo della psicometria nell'ambito della CTT e saranno trattati in dettaglio nei paragrafi successivi.
 
 :::{.callout-tip}
 ## Nota
