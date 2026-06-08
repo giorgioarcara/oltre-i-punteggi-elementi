@@ -47,7 +47,7 @@ La misurazione, cioè l'utilizzo di punteggi, ci aiuta a quantificare delle prop
 
 Va da sé, che se questo è uno dei presupposti della neuropsicologia clinica come disciplina, effettuare correttamente le misurazioni è un primo aspetto fondamentale che determinerà la qualità della nostra attività clinica.
 
-## Cosa misuriamo in neuropsicologia clinica?
+## Misurazione e neuropsicologia clinica{#misurazione_e_neuropsicologia_clinica}
 
 La disciplina che si occupa della misurazione in psicologia (e in neuropsicologia) è la _psicometria_, una delle discipline che, insieme alla statistica, rappresentano le fondamenta di questo libro. La psicometria si occupa proprio delle questioni della misurazione in psicologia, una tipologia di misurazione molto particolare perché non tratta di proprietà di oggetti fisici ma di **costrutti**, cioè concetti psicologici non osservabili.
 
@@ -76,14 +76,6 @@ In breve:
 _Non esiste una corrispondenza univoca tra un comportamento e uno specifico aspetto del funzionamento cognitivo (normale o deficitario). Quasi per definizione ogni comportamento è riconducibile a più funzioni cognitive_. <!--(Nota Giorgio: aggiungere? altre citazioni qui?) -->
 
 È importante sottolineare che in neuropsicologia clinica non si effettuano solo misurazioni di costrutti. In numerosi casi infatti i punteggi hanno un diverso scopo, come stimare la probabilità di sviluppare una patologia neurologica, la probabilità di sviluppare sintomi comportamentali, o semplicemente predire quale potrebbe essere il punteggio di un test particolarmente lungo a partire da un test più breve. Distinguere tra questi casi è rilevante perché alcuni metodi psicometrici e alcune considerazioni statistiche valgono solo per i test che misurano costrutti oppure solo per i test che _non_ misurano costrutti. Tutti questi aspetti saranno approfonditi nei paragrafi e capitoli successivi <!-- NOTA GIORGIO: Aggiungere hyperlink corretti qui -->
-
-
-## Misurazione e neuropsicologia clinica{#misurazione_e_neuropsicologia_clinica}
-
-Abbiamo già detto come in neuropsicologia clinica somministriamo test per ottenere dei punteggi, cioè dei numeri, che ci aiutano a descrivere ciò che è di interesse che, il più delle volte è legato **costrutti neuropsicologici, psicologici o cognitivi**, quali memoria, attenzione, benessere, depressione, etc. L'utilizzo dei numeri ci aiuta a capire meglio il funzionamento cognitivo e capire se, per esempio, per una specifica funzione (es. la memoria) è talmente basso da farci sospettare un deficit oppure l'inizio di una patologia neurodegenerativa. Allo stesso tempo l'avere dei numeri ci permette di avere una stima della capacità in un certo momento per poi tornare a ripetere la rilevazione e vedere se c'è stato un peggioramento, per esempio dovuto ad un declino, oppure un miglioramento, per esempio dovuto ad un trattamento riabilitativo.  
-Ciò che abbiamo descritto sopra non sono altro che esempi di _misurazione_ di una proprietà del funzionamento mentale: tramite i test misuriamo la memoria, misuriamo l'attenzione o altre caratteristiche di interesse. 
-
-Finora ci siamo accontentati di una definizione generica di misurazione, ma per una trattazione metodologicamente rigorosa abbiamo bisogno di avere una definizione più precisa di cosa si intenda per _misurare_. E già qui sorgono i primi problemi. Non esiste infatti una definizione di misurazione unanimemente accettata, ma esistono delle definizioni molto diffuse e, come vedremo, alcune di queste sono implicitamente utilizzate nella pratica neuropsicologica clinica o forense.
 
 
 #### La definizione di misurazione di S.S. Stevens (1946) e le scale di misura
