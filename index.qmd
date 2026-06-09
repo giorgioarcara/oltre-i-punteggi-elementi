@@ -93,14 +93,14 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Quale definizione di misurazione adottano i test neuropsicologici?
   * I test
     * Tipologie di test
-    * Test di prestazione tipica 
     * Test di prestazione massima
-  * Teoria Classica dei Test (CTT)
-  * Validità e Affidabilità
+    * Test di comportamento tipico
+  * Teoria Classica dei Test
+  * Validità ed Affidabilità
     * Validità
     * Affidabilità
-  * Sviluppo di test secondo CTT
-  * Oltre la Teoria Classica Dei Test
+  * Sviluppo di test tramite Teoria Classica dei Test
+  * Oltre la Teoria Classica dei Test
   * Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
   * Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
   * Errori comuni nel considerare gli aspetti psicometrici dei test
