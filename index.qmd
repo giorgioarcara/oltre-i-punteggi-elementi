@@ -58,7 +58,7 @@ Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda l
 ### Ringraziamenti
 Per la stesura di questo libro ho ricevuto un grande supporto da parte di molte persone, a cui va il mio più sentito ringraziamento. 
 
-Vorrei innanzitutto ringraziare la Associazione Italiana di Specialisti in Neuropsicologia [_AISN_](https://aisn.pro/) (e in particolare la sua presidente la dott.ssa Jessica Rigon), per avere supportato il progetto e avere permesso dei momenti di scambio con i suoi membri che sono stati fondamentali per la stesura di questo libro.
+Vorrei innanzitutto ringraziare la Associazione Italiana di Specialisti in Neuropsicologia [_AISN_](https://aisn.pro/) (e in particolare la sua presidente la dott.ssa Jessica Rigon), per il supporto al progetto e per avere organizzato dei momenti di scambio con i suoi membri. Tutti i commenti e le discussioni sono stati fondamentali per la stesura di questo libro.
 
 Di seguito trovate una lista dettagliata delle persone che hanno contribuito singolarmente, in ordine alfabetico.
 
@@ -134,7 +134,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Sensibilità, Specificità e la curva ROC
   * Altre misure di performance di identificazione
   * Approfondimento pratico: utilizzare test con cut-off di discriminazione
-  * Errori comuni nell'utilizzo di cut-off di discriminiazione
+  * Errori comuni nell'utilizzo di cut-off di discriminazione
   * Capitolo 3: Riassunto
 
   
