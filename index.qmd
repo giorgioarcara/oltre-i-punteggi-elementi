@@ -88,17 +88,19 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Sezioni speciali: _Approfondimenti_, _Nella pratica clinica_, _Errori comuni_
 
 **1. Psicometria per la Neuropsicologia clinica**
-
-  * Principi di teoria della misurazione
+  * Perché è importante misurare?
+  * Misurazione e neuropsicologia clinica
+  * Quale definizione di misurazione adottano i test neuropsicologici?
   * I test
+    * Tipologie di test
     * Test di prestazione tipica 
     * Test di prestazione massima
   * Teoria Classica dei test
-  * Validità ed Affidabilità
-    * Tipi di Validità e perché sono importanti
-  * Affidabilità
-    * Tipi di affidabilità e perché sono importanti
-  * Introduzione alla Item Response Theory
+  * Validità e Affidabilità
+    * Validità
+    * Affidabilità
+  * Sviluppo di test tramite Teoria Classica Dei Test
+  * Oltre la Teoria Classica Dei Test
   * Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
   * Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
   * Errori comuni nel considerare gli aspetti psicometrici dei test
