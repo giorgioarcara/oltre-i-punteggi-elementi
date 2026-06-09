@@ -76,7 +76,7 @@ _Non esiste una corrispondenza univoca tra un comportamento e uno specifico aspe
 È importante sottolineare che in neuropsicologia clinica non si effettuano solo misurazioni di costrutti. In numerosi casi infatti i punteggi hanno un diverso scopo, come stimare la probabilità di sviluppare una patologia neurologica, la probabilità di sviluppare sintomi comportamentali, o semplicemente predire quale potrebbe essere il punteggio di un test particolarmente lungo a partire da un test più breve. Distinguere tra questi casi è rilevante perché alcuni metodi psicometrici e alcune considerazioni statistiche valgono solo per i test che misurano costrutti oppure solo per i test che _non_ misurano costrutti. Tutti questi aspetti saranno approfonditi nei paragrafi e capitoli successivi <!-- NOTA GIORGIO: Aggiungere hyperlink corretti qui -->
 
 
-#### La definizione di misurazione di S.S. Stevens (1946) e le scale di misura
+### La definizione di misurazione di S.S. Stevens (1946) e le scale di misura
 
 La più famosa definizione di misurazione è certamente quella di S.S. Stevens, che in un articolo del 1946 ha fornito una definizione che ha influenzato (nel bene e nel male) la storia della psicologia:
 
@@ -122,7 +122,7 @@ Esistono quattro scale di misura: _categoriale, ordinale, a intervalli, a rappor
 
 L'idea di avere una definizione di misurazione molto generica, accompagnata ad una distinzione di scale di misura è molto potente e tuttora è molto influente nella misurazione in psicologia. Come anticipato, però, ci sono anche altre definizioni. Nel prossimo paragrafo sarà approfondita una di queste, che entrava in contrasto con la proposta di Stevens. <!-- forse aggiungere che questa definizione non è prima di problemi). -->
 
-#### Definizione di Misurazione secondo Suppes e Zinnes (1963)
+### Definizione di Misurazione secondo Suppes e Zinnes (1963)
 
 Un'altra possibile definizione di misurazione, molto celebre in psicometria è quella di Suppes e Zinnes `(\cite{suppes1963basic})`{=latex} `(\cite{suppes1963basic})`{=html}. A differenza di quella di Stevens è più rigorosa e formale, ma anche più complessa e meno intuitiva e per essere capita necessita alcune definizioni preliminari.
 
