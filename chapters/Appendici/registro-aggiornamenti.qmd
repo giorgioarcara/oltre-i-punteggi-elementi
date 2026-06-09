@@ -1,9 +1,22 @@
 ## A2. Registro aggiornamenti {.unnumbered #registro_aggiornamenti}
 
 ### v0.0.1 - 5/09/2025
-Rilasciata versione iniziale del libro che include:
+Rilasciata versione iniziale del libro che include
 
 - Premesse
 - Introduzione
-- Appendici A1 e A2.
+- Appendici A1 e A2
 
+### v0.1.0
+
+- corretti vari typos e migliorato il flusso di alcune frasi.
+- aggiunta quarta di copertina.
+- aggiunta prima versione del Capitolo 1.
+- aggiunta previsione di nuovi paragrafi (Riassunti a fine capitolo e paragrafo su AI).
+
+### v0.1.1
+
+- aggiunta prima parte paragrafo misurazione
+
+### v0.1.2
+- migliorata prima parte paragrafo misurazione.

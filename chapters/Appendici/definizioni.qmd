@@ -1,17 +1,26 @@
-## A3. Definizioni {.unnumbered #note_redazione}
+## A3. Definizioni {.unnumbered #definizioni}
 
 ### Perché sono importanti le definizioni.
-Un libro che ambisce a insegnare l'importanza della metodologia non può prescindere dall'includere una sezione con le definizioni dei termini più importanti. Questo è fondamentale perchè le definizioni di termini anche comunemente usati in neuropsicologia o nell'uso dei test, come _"normalità"_ ha un impatto enorme nei metodi che poi usiamo.
+Un libro che ambisce a insegnare l'importanza della metodologia non può prescindere dall'includere una sezione con le definizioni dei termini più importanti. Wittgenstein in una delle più famose proposizioni del suo _Tractatus_ affermava: 
+
+_5.6 I limiti del mio linguaggio sono i limiti del mio mondo._
+
+Senza scendere nel dettaglio delle implicazioni di questa asserzione, è utile riflettere sul fatto che il modo in cui definiamo le entità che ci interessano definiscono il confine entro cui ci muoviamo e, anche se ce ne rendiamo conto, influenzano in maniera determinante la metodologia e il nostro approccio alla clinica. Si pensi a parole che usiamo frequentemente nella pratica clinica, come _deficit_, _normalità_, _peggioramento_. L'esatta sfumatura che diamo a questi significati ha un grande impatto sulla nostra pratica clinica e, per quanto riguarda la metodologia, nello stabilire se un metodo è adeguato oppure no.
 
 
 #### Psicometria
-La Psicometria è quella disciplina che studia teorie e metodi di misurazione in psicologia. Nello specifico si occupa di test, misurazioni e valutazioni di tipo psicologico e di misurazione di costrutti latenti (cioè non osservabili).
-[fonte: Wikpedia](https://en.wikipedia.org/w/index.php?title=Psychometrics&oldid=1307897603)
+La Psicometria è quella disciplina che studia teorie e metodi di misurazione in psicologia. Nello specifico si occupa di test, misurazioni e valutazioni di tipo psicologico e di misurazione di costrutti latenti, cioè non osservabili.
+([(fonte: Wikpedia)](https://en.wikipedia.org/w/index.php?title=Psychometrics&oldid=1307897603)
 
 _Nota_: la psicometria fa grande utilizzo di metodi di statistica, tanto che, specie in ambito psicologico, spesso c'è confusione tra i confini tra le due discipline. Anche se è vero che ci sono numerose aree di sovrapposizione (perché la Psicometria fa utilizzo di tecniche statistiche), non sono da considerare come sinonimi, visto che molti aspetti psicometrici non sono strettamente statistici e numerosi aspetti statistici non è detto che siano rilevanti per la psicometria.
 
 #### Statistica
-La statistica è quella disciplina che studia la raccolta, descrizione, analisi e interpretazione di _dati_, La statistica si occupa di ogni fase del trattamento dei dati, dalla pianificazione dei disegni, fino alle tecniche di analisi e inferenze sui risultati ottenuti. [fonte: Wikpedia](https://en.wikipedia.org/w/index.php?title=Statistics&oldid=1307451692)
+La statistica è quella disciplina che studia la raccolta, descrizione, analisi e interpretazione di _dati_, La statistica si occupa di ogni fase del trattamento dei dati, dalla pianificazione dei disegni, fino alle tecniche di analisi e inferenze sui risultati ottenuti. [(fonte: Wikpedia)](https://en.wikipedia.org/w/index.php?title=Statistics&oldid=1307451692)
 
 _Nota_: è importante conoscere la statistica non solo perché essa viene utilizzata abbondantemente in psicometria, ma anche perché certi aspetti rilevanti per le interpretazioni di test neuropsicologici sono meramente statistici (e non psicometrici, secondo la definizione di "psicometria" riportata sopra). Ad esempio stimare le probabilità di classificare un paziente come a rischio di Alzheimer a partire da dati biologici e anamnestici non prevede misurazioni di costrutti psicologici e quindi non è pertinenza delle psicometria.
 
+#### Valutazione neuropsicologica
+La valutazione neuropsicologica è un esame clinico in cui si cerca di ottenere informazioni sullo stato cognitivo di un individuo a fini diagnostici, prognostici o riabilitativi. Essa consiste in genere in raccolta di dati anamnestici, un colloquio e la somministrazione di test standardizzati. Tutte queste informazioni sono integrate per stilare un referto neuropsicologico.
+
+#### Costrutto{#costrutto}
+Un concetto psicologico non direttamente osservabile. Sono esempi di costrutti, esempi come Ansia, Depressione, Memoria, Attenzione, etc. I costrutti sono osservabili tramite _comportamenti_ direttamente osservabili che si assume siano associati al costrutto. Un aspetto fondamentale (e caratteristico della Psicometria) è che la relazione tra Costrutto e comportamenti osservabili non è mai perfetta. 

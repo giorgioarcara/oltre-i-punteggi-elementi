@@ -3,6 +3,8 @@ project:
   
 filters:
   - filters/date.lua
+  - filters/domanda.lua
+  - filters/callout_style.lua
 
 book:
   title: "Oltre i punteggi"
@@ -17,6 +19,7 @@ book:
   chapters:
     - index.qmd
     - chapters/Introduzione.qmd
+    - chapters/Misurazione.qmd
     - chapters/Bibliografia.qmd
     - chapters/Temp.qmd
     - part: "Appendici"
@@ -24,10 +27,15 @@ book:
       - chapters/Appendici/note-redazione.qmd
       - chapters/Appendici/registro-aggiornamenti.qmd
       - chapters/Appendici/definizioni.qmd
+      - chapters/Appendici/ringraziamenti-pers.qmd
       #- chapters/Appendici/elementi-di-statistica.qmd
   #appendices:
   #  - chapters/Appendici/note-redazione.qmd
   page-navigation: true
+
+language:
+  title-block-author-single: "Autore"
+  title-block-author-plural: "Autori"
 
 bibliography: references.bib
 csl: apa-6th-edition.csl
@@ -71,15 +79,31 @@ format:
         \usepackage{draftwatermark}
         \SetWatermarkText{BOZZA}
         \SetWatermarkScale{1.5} % bigger/smaller watermark
-        \SetWatermarkLightness{0.95} % 0=black, 1=white (default 0.8)
+        \SetWatermarkLightness{0.96} % 0=black, 1=white (default 0.8)
         \usepackage{datetime}
+        
+        % set headers and footers
         \usepackage{fancyhdr}
         \pagestyle{fancy}
-        \fancyfoot{} % clear existing footer
-        \fancyfoot[C]{\footnotesize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}. \\ Per aggiornamenti visita: \url{giorgioarcara.github.io/oip-book}}
-        \renewcommand*{\thepart}{} % to avoid numbers in parts
-        \renewcommand*{\partname}{} % to avoid label "Parte"
+        
+        % Clear header/foot
+        \fancyhf{}
+        
+        % Header: only chapter title (no numbers)
+        \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+        \fancyhead[LE,RO]{\nouppercase{\leftmark}}
+        
+        % Footer: page numbers left/right depending on page parity
+        \fancyfoot[LE,RO]{\thepage}
+        
+        % Custom center footer text
+        \fancyfoot[C]{\textcolor{gray}{\scriptsize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}. \\ Per aggiornamenti visita: \url{giorgioarcara.github.io/oip-book}}}
+        
+        % Remove numbering and labels from parts
+        \renewcommand*{\thepart}{} 
+        \renewcommand*{\partname}{} 
         \renewcommand*{\partformat}{}
+
         \usepackage[backend=biber,style=apa]{biblatex}
         \addbibresource{references.bib}  % path corretto al tuo .bib
         \usepackage{fvextra}
@@ -87,10 +111,22 @@ format:
         %\areaset[0.50in]{4.5in}{8in} uncomment for default Koma option according to template
         %\usepackage{fontspec}
         %\newfontfamily\headingfont{Alegreya}
+        \usepackage{xcolor}
+        \newenvironment{domanda}{%
+          \par\medskip\noindent\rule{\linewidth}{0.4pt}\vspace{3pt}%
+          \begin{center}\large\itshape
+        }{%
+          \end{center}\vspace{-4pt}\noindent\rule{\linewidth}{0.4pt}\par\medskip
+        }
         \usepackage{pdfpages}
         % Redefine \maketitle to do nothing
         \renewcommand{\maketitle}{}
-
+        
+        % remove table number from captions (to uniform with html)
+        \usepackage{caption}
+        % Remove the "Table X:" label for tables (only affects printed captions)
+        \captionsetup[table]{labelformat=empty, labelsep=none}
+        
     include-before-body:
       text: |
         \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
@@ -103,13 +139,19 @@ format:
         \includepdf[pages=1,fitpaper=true]{Figures/Cover2.pdf}
     include-after-body:
       text: |
-        %\begin{center}
-        %{\Large
-        %\textit{Questo è un libro in fase di scrittura.}\\
-        %Per aggiornamenti visita: \url{https://giorgioarcara.github.io/oip-book}\\
-        %Ultimo rendering: \today\  \currenttime
-        %}
-        %\end{center}
+        \clearpage
+        \ifodd\value{page}\hbox{}\newpage\fi
+        \begin{center}
+        \textcolor{gray}{\Large
+        \textit{Questo è un libro in fase di scrittura.}\\
+        Per aggiornamenti visita: \url{https://giorgioarcara.github.io/oip-book}\\
+        Ultimo rendering: \today\  \currenttime
+        }
+        \end{center}
+        \clearpage
+        \ifodd\value{page}\hbox{}\newpage\fi
+        % Insert the back cover PDF, full page
+        \includepdf[pages=-,fitpaper]{Figures/Quarta.pdf}
         %\setkomafont{section}{\headingfont\bfseries\Large}
         %\setkomafont{subsection}{\headingfont\bfseries\large}
         %\printbibliography

@@ -1,9 +1,13 @@
 /.quarto/
 _book
 result
-*.tex
 
 # macOS
 .DS_Store
 .Rproj.user
 .Rshistory
+
+chapters/*.html
+chapters/Appendici/*.html
+
+CLAUDE.md

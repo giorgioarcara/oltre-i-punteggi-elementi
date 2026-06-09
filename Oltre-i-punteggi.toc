@@ -1,0 +1,62 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{Premesse}{1}{chapter*.2}%
+\contentsline {subsection}{Obiettivo del libro}{1}{section*.3}%
+\contentsline {subsection}{Contribuire a questo libro}{2}{section*.4}%
+\contentsline {subsection}{Due principi fondamentali}{2}{section*.5}%
+\contentsline {subsection}{Costo del libro (nessuno)}{2}{section*.6}%
+\contentsline {subsection}{Indice Provvisorio}{3}{section*.7}%
+\contentsline {chapter}{Introduzione}{7}{chapter*.8}%
+\contentsline {section}{Il protagonosta del libro: Il test neuropsicologico}{7}{section*.9}%
+\contentsline {section}{Il libro in breve}{7}{section*.10}%
+\contentsline {section}{Una metafora utile}{10}{section*.11}%
+\contentsline {section}{Cosa il libro NON tratta}{13}{section*.15}%
+\contentsline {section}{Sezioni speciali: \emph {Approfondimenti e curiosità}, \emph {Nella pratica clinica}, \emph {Errori comuni}}{14}{section*.16}%
+\contentsline {chapter}{\numberline {1}Psicometria per la neuropsicologia clinica}{15}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Valutazioni neuropsicologiche, test e misurazione: una riflessione iniziale}{15}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Misurazione e neuropsicologia clinica}{18}{section.1.2}%
+\contentsline {section}{\numberline {1.3}I test}{20}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Test di prestazione tipica}{21}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Test di prestazione massima}{21}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Alti test utili per la valutazione neuropsicologica}{21}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Teoria Classica dei test}{23}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Validità ed Affidabilità}{23}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Tipi di Validità e perché sono importanti}{23}{subsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.1.1}Validità di costrutto}{23}{subsubsection.1.5.1.1}%
+\contentsline {subsubsection}{\numberline {1.5.1.2}Validità concorrente}{23}{subsubsection.1.5.1.2}%
+\contentsline {subsubsection}{\numberline {1.5.1.3}Validità predittiva}{23}{subsubsection.1.5.1.3}%
+\contentsline {subsubsection}{\numberline {1.5.1.4}Validità interna}{23}{subsubsection.1.5.1.4}%
+\contentsline {subsubsection}{\numberline {1.5.1.5}Validità di facciata}{23}{subsubsection.1.5.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1.6}Validità ecologica}{23}{subsubsection.1.5.1.6}%
+\contentsline {section}{\numberline {1.6}Affidabilità}{23}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Tipi di affidabilità e perché sono importanti}{23}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Consistenza Interna}{23}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Affidabilità Test Retest}{23}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}Affidabilità Split-Half}{23}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.5}Inter-Rater Agreement}{23}{subsection.1.6.5}%
+\contentsline {section}{\numberline {1.7}Introduzione alla \emph {Item Response Theory}}{23}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Nella pratica clinica: Come usare Affidabilità e Validità nella pratica clinica per scegliere i test}{23}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test}{23}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Errori comuni nel considerare gli aspetti psicometrici dei test.}{23}{section.1.10}%
+\contentsline {chapter}{Bibliografia}{25}{chapter*.18}%
+\contentsline {chapter}{Lavoro in fase di sviluppo}{27}{chapter*.19}%
+\contentsline {part}{\numberline {}Appendici}{29}{part.1}%
+\contentsline {chapter}{A1. Note di redazione}{31}{chapter*.20}%
+\contentsline {subsection}{Un libro Open}{31}{section*.21}%
+\contentsline {subsection}{Un libro collaborativo}{31}{section*.22}%
+\contentsline {subsection}{Un libro in costante miglioramento}{32}{section*.23}%
+\contentsline {subsubsection}{Significato delle parti}{32}{section*.24}%
+\contentsline {subsubsection}{Etichette di fase}{33}{section*.25}%
+\contentsline {subsubsection}{Esempi}{33}{section*.26}%
+\contentsline {subsection}{Una nota sul titolo}{33}{section*.27}%
+\contentsline {subsection}{Femminile e maschile nel testo}{33}{section*.28}%
+\contentsline {subsection}{Utilizzo di AI nella stesura del libro}{34}{section*.29}%
+\contentsline {chapter}{A2. Registro aggiornamenti}{35}{chapter*.30}%
+\contentsline {subsection}{v0.0.1 - 5/09/2025}{35}{section*.31}%
+\contentsline {subsection}{v0.0.2 - \emph {in corso}}{35}{section*.32}%
+\contentsline {chapter}{A3. Definizioni}{37}{chapter*.33}%
+\contentsline {subsection}{Perché sono importanti le definizioni.}{37}{section*.34}%
+\contentsline {subsubsection}{Psicometria}{37}{section*.35}%
+\contentsline {subsubsection}{Statistica}{37}{section*.36}%
+\contentsline {subsubsection}{Valutazione neuropsicologica}{38}{section*.37}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

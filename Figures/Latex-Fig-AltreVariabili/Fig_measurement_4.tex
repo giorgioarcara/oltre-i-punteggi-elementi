@@ -1,0 +1,54 @@
+\documentclass[tikz]{standalone}
+
+% Required packages
+\usepackage{tikz}
+\usetikzlibrary{positioning} % for node distance
+\usepackage{graphicx}        % for including images
+
+\begin{document}
+
+\begin{tikzpicture}[
+    node distance=4cm, % Default spacing between blocks
+    thick,             % Line thickness
+    block1/.style={draw, minimum width=2.5cm, minimum height=1.5cm, align=center, rounded corners}, % block1: with border
+    block2/.style={minimum width=2.5cm, minimum height=1.5cm, align=center} % block2: without border
+]
+
+% Altre variabili block above A
+\node[block1, text width=3cm] (AV)
+    {\textbf{Altre variabili}\\
+     {\small (es.\ Ansia, Motivazione,\\
+     Fatica, altre funzioni\\
+     cognitive, etc.)}};
+
+% Main horizontal blocks (A anchored below AV)
+\node[block1, text width=3cm, below=2cm of AV] (A)
+    {\textbf{Costrutto}\\ \textit{(Es. Memoria)}};
+
+\node[block1, text width=3.5cm, right of=A, xshift=2cm] (B)
+    {\textbf{Comportamento}\\ \textbf{Osservabile}\\ \textit{(Es. Numero di elementi ricordati)}};
+
+\node[block1, text width=3cm, right of=B, xshift=2cm] (C)
+    {\textbf{Punteggio al test}};
+
+% Draw double arrows between main blocks
+\draw[<->, thick] (A) -- (B);
+\draw[<->, thick] (B) -- (C);
+
+% Dashed line from Costrutto (A) to Punteggio (C)
+\draw[<->, dashed, thick, color=gray!70] (A) to[out=60, in=120] (C);
+
+% Arrow from Altre variabili to Comportamento Osservabile
+\draw[<->, thick] (AV.east) to[out=0, in=90] (B.north);
+
+
+
+% Add image below node A
+\node[below=0.5cm of A] (A_image) {\includegraphics[width=2.5cm]{mind.png}};
+
+% Add label below node C
+\node[below=1cm of C] (C_label) {22};
+
+\end{tikzpicture}
+
+\end{document}
