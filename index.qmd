@@ -95,11 +95,11 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
     * Tipologie di test
     * Test di prestazione tipica 
     * Test di prestazione massima
-  * Teoria Classica dei test
+  * Teoria Classica dei Test (CTT)
   * Validità e Affidabilità
     * Validità
     * Affidabilità
-  * Sviluppo di test tramite Teoria Classica Dei Test
+  * Sviluppo di test secondo CTT
   * Oltre la Teoria Classica Dei Test
   * Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
   * Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test

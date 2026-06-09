@@ -305,7 +305,7 @@ Nel corso di questo libro daremo delle risposte più rigorose a questa domanda. 
 Esistono diversi framework teorici che hanno cercato di definire questi aspetti fondamentali che definiscono come identificare se un test sta funzionando come dovrebbe e, più in generale, come si dovrebbe costruire un test. Come è possibile immaginare, tutto ciò è spesso strettamente intrecciato a veri e propri modelli di misurazione psicologica. Nel prossimo paragrafo tratteremo il framework più diffuso e utilizzato in neuropsicologia clinica, noto come la Teoria Classica dei Test.
 
 
-## Teoria Classica dei Test {#teoria-classica-dei-test}
+## Teoria Classica dei Test (CTT) {#teoria-classica-dei-test}
 
 La Teoria Classica dei Test o _Classical Test Theory (CTT)_ è il framework psicometrico su cui si basa la grande maggioranza dei test neuropsicologici attualmente disponibili. Come già visto per altri aspetti psicometrici, spesso non vi è una dichiarazione esplicita di seguire la CTT, ma questo può essere desunto dall'utilizzo di alcune analisi (ad esempio, calcolare la consistenza interna o l'affidabilità test-retest), che ne sono una diretta espressione. Comprendere i presupposti della CTT è quindi fondamentale non solo per chi costruisce test, ma anche per chi li usa nella pratica clinica quotidiana.
 
@@ -409,7 +409,7 @@ Nei manuali o articoli dei test neuropsicologici spesso non è esplicitamente sc
 #### Affidabilità Split-Half
 #### Inter-Rater Agreement
 
-## Sviluppo di test tramite Teoria Classica dei Test
+## Sviluppo di test secondo CTT
 
 ## Oltre la Teoria Classica dei Test {#oltre-la-teoria-classica-dei-test}
 <!--
