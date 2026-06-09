@@ -42,7 +42,7 @@ Quando si parla però di neuropsicologia clinica o di valutazione neuropsicologi
 
 ![Una valutazione neuropsicologica secondo ChatGPT (vedi testo per il prompt esatto)](../Figures/Valutazione_Neuropsi_ChatGPT.png){#fig-chatgpt-valutazione fig-align="center" width=60%}
 
-In altre parole, la neuropsicologia clinica come disciplina **presuppone** che la misurazione degli oggetti di interesse (funzionamento cognitivo, rischio di sviluppare una malattia, ecc.) consenta di raggiungere conclusioni diagnostiche migliori, di fare scelte terapeutiche più efficaci e, in generale, di svolgere una migliore attività clinica (si veda il paragrafo *Epistemologia della neuropsicologia clinica* per ulteriori dettagli). 
+In altre parole, la neuropsicologia clinica come disciplina _presuppone_ che la misurazione degli oggetti di interesse (funzionamento cognitivo, rischio di sviluppare una malattia, ecc.) consenta di raggiungere conclusioni diagnostiche migliori, di fare scelte terapeutiche più efficaci e, in generale, di svolgere una migliore attività clinica (si veda il paragrafo *Epistemologia della neuropsicologia clinica* per ulteriori dettagli). 
 La misurazione, cioè l'utilizzo di punteggi, ci aiuta a quantificare delle proprietà di interesse e poter fare delle scelte cliniche più precise rispetto al solo utilizzo della osservazione clinica qualitativa e basate su evidenze scientifiche. Il più delle volte questo implica che i punteggi sono confrontati con delle soglie e se i valori sono al di là di queste soglie, viene concluso che il risultato ha rilevanza clinica (useremo più avanti termini più tecnici e definizioni più precise). La persona con il punteggio al di là della soglia potrebbe avere un deficit cognitivo, o forse un rischio di avere una patologia neurodegenerativa o un disturbo del neurosviluppo. 
 
 Va da sé, che se questo è uno dei presupposti della neuropsicologia clinica come disciplina, effettuare correttamente le misurazioni è un primo aspetto fondamentale che determinerà la qualità della nostra attività clinica.
@@ -263,21 +263,21 @@ Questo è in linea con le parole di Sivan & Benton (1999) citate da Lezak nel [p
 ### Tipologie di test
 Esistono diverse tipologie di test così come diversi modi di poterli classificare. Di seguito vengono descritti i principali tipi di test utilizzati in neuropsicologia clinica. Fornire una classificazione è utile perché diversi tipi di test hanno diverse peculiarità di tipo psicometrico. Nel corso del libro specificheremo quando alcune considerazioni si applicano solo, o prevalentemente, ad un tipo di test.
 
-### Test di prestazione massima
+#### Test di prestazione massima
 
 I **test di prestazione massima** (_maximal performance tests_) sono strumenti in cui si chiede al paziente di impegnarsi al massimo delle proprie capacità per ottenere il miglior risultato possibile. L'obiettivo è valutare _cosa una persona è in grado di fare_ quando le condizioni sono ottimali e lo sforzo è massimo. La maggior parte dei test neuropsicologici per la valutazione delle funzioni cognitive (test di memoria, attenzione, funzioni esecutive, linguaggio, abilità visuospaziali) rientra in questa categoria. Il punteggio ottenuto è interpretato come una stima della capacità massima del paziente in quel dominio cognitivo.
 
-### Test di comportamento tipico
+#### Test di comportamento tipico
 
 I **test di comportamento tipico** (_typical behaviour tests_) sono invece strumenti progettati per valutare come una persona si comporta o risponde _tipicamente_, ovvero nel suo quotidiano, non necessariamente con un sforzo massimo. In questi strumenti non esiste una risposta "giusta" da dare. Rientrano in questa categoria due grandi famiglie di strumenti:
 
 - **Autosomministrati** (compilati dal paziente stesso): questionari di personalità, scale di autovalutazione per sintomi psicologici come ansia e depressione (es. Beck Depression Inventory `(\cite{beck1961inventory})`{=latex}`(Beck et al., 1961)`{=html}, Hamilton Anxiety Scale `(\cite{hamilton1959assessment})`{=latex}`(Hamilton, 1959)`{=html}), scale per la qualità della vita. Il paziente descrive come si sente o come si comporta generalmente.
-- **Eterosomministrati** (compilati dal clinico o da un caregiver): scale per la valutazione del funzionamento nelle attività quotidiane, come le ADL (_Activities of Daily Living_; `(\cite{katz1963studies})`{=latex}`Katz et al., 1963`{=html}) e le IADL (_Instrumental Activities of Daily Living_; `(\cite{lawton1969assessment})`{=latex}`Lawton & Brody, 1969`{=html}). In questo caso è il clinico o un familiare a rispondere sulla base dell'osservazione diretta del paziente, non il paziente stesso.
+- **Eterosomministrati** (compilati dal clinico o da un caregiver): scale per la valutazione del funzionamento nelle attività quotidiane, come le ADL, _Activities of Daily Living_; `(\cite{katz1963studies})`{=latex}`(Katz et al., 1963)`{=html} e le IADL, _Instrumental Activities of Daily Living_ `(\cite{lawton1969assessment})`{=latex}`(Lawton & Brody, 1969)`{=html}). In questo caso è il clinico o un familiare a rispondere sulla base dell'osservazione diretta del paziente, non il paziente stesso.
 
 La distinzione tra questi due tipi di test è rilevante per la somministrazione, per l'interpretazione dei punteggi e per il tipo di costrutto che si intende misurare.
 
 
-### Altri strumenti utili per la valutazione neuropsicologica
+#### Altri strumenti utili per la valutazione neuropsicologica
 
 Nella pratica clinica, accanto ai test di prestazione massima e ai questionari di comportamento tipico, esiste una terza categoria di strumenti che fanno parte della valutazione neuropsicologica standard pur non rientrando in senso stretto nella classificazione fin qui descritta: si tratta di **questionari e scale somministrate come parte integrante della valutazione clinica**, non per misurare una funzione cognitiva, ma per raccogliere informazioni contestuali utili per l'interpretazione dei risultati.
 
@@ -412,8 +412,36 @@ Nei manuali o articoli dei test neuropsicologici spesso non è esplicitamente sc
 #### Affidabilità Split-Half
 #### Inter-Rater Agreement
 
+## Sviluppo di test tramite Teoria Classica dei Test
 
-## Introduzione alla Item Response Theory {#introduzione-item-response-theory}
+## Oltre la Teoria Classica dei Test {#oltre-la-teoria-classica-dei-test}
+<!--
+Finora il capitolo ha trattato la misurazione in neuropsicologia e sui test con un focus sulle prassi di utilizzo nella pratica clinica e in quello che neuropsicologhe e neuropsicologi possono trovare nei test che utilizzaranno. 
+Il focus sulla Teoria Classica dei Test è stato infatti scelto sulla base dell'attuale utilizzo della stessa nella prassi di sviluppo dei test neuropsicologici (in Italia e non solo), più che per una posizione. La psicometria è però un ambito molto ampio ed esistono diverse prospettive alla misurazione e allo sviluppo di test, spesso in grado di risolvere tutti quei problemi che abbiamo sottolineato (es. l'assunzione non dimostrato di misurazione su scala ad intervalli).
+
+### Introduzione all'Item Response Theory
+Il principale approccio alternativo alla Teoria Classica dei Test è quella famiglia di modelli noti come Teoria di Risposta all'Item, o _Item Response Theory_ (IRT) (si veda anche Approfondimenti Tecnici, Item Response Theory).
+L'Item Response Theory nasce quasi in contrapposizione alla Classical Test Theory e ne critica le fondamenta, così come critica la permissività della definizione di misurazione di Stevens. 
+Esistono diversi modelli di Item Response Theory, ma tutti condividono un aspetto di base: assumere che ci sia un costrutto latente da misurare e che in base al livello di abilità nel costrutto latente, cabmbia la probabilità di rispondere correttamente ad un determinato item. Un individuo con un abilità alta avrà una probabilità alta di rispondere ad item facili e una probabilità graduamente minore di risposte ai più difficili. Un individuo con abilità bassa avrà già una probabilità bassa di rispondere a item magari giù più facile e una probabilità quasi nulla di rispondere agli item più difficili. Gli elementi principali che caratterizzano i modelli IRT sono:
+
+- il focus è sulla _probabilità di risposta ad un singolo item_ e non al punteggio totale del test (come era per la TCT, in cui focus è su $T$).
+- nei modelli più diffusi di IRT, a partire dal modello di _Rasch_ in un certo senso, il capostipite di questa famiglia, si assume che il costrutto da misurare sia _unidimensionale_ cioè sia possa rappresentare lungo un unica dimensione (es. posso dire di avere più o meno ansia, ma non diversi tipi di ansia). Altri modelli della IRT rilassano questo assunto.
+- il processo di sviluppo di un Test secondo IRT è più difficile di un test sviluppato secondo TCT ed è anche possibile che il risultato non sia positivo. In altre parole, potrebbe risultare più facilmente che il test non sia adeguato secondo il modello di misurazione.
+
+Ci si potrebbe chiedere perché non si usano questi modelli che sembrano più rigorosi. Come spesso accade nella scienza, la risposta è complessa e non è necessariamente una motivazione logica. Probabilmente è un insieme di fattori, tra cui la maggiore semplicità di sviluppare test con la TCT e, quantomeno in alcuni casi, la percezione che sviluppare un test con IRT non porta a grandi vantaggi pratici, rispetto al corrispettivo sviluppato con TCT.
+
+### I Punteggi Equivalenti come modello di misurazione
+Un libro italiano su psicometria della neuropsicologia invitabilmente dedicherà molto spazio ai Punteggi Equivalenti (Capitani & Laiacona, 1989, Capitani, 1987).
+I Punteggi Equivalenti è una metodologia di trasformazione di un punteggio grezzo totale di un test in una scala di punteggi da 0 a 4, in cui la probabilità di ottenere un punteggio non è influenzata 
+da età, scolarità o sesso. I punteggi equivlaenti nascono principalmente come metodo per ottenere delle soglie (un punteggio di 0 è considerato sospetto di deficit/danno cognitivo) e pertanto saranno descritti in maniera approfondita nel capitolo dedicato a soglie e cut-off di normalità. È utile però citare i Punteggi Equivalenti anche qui perchè di fatto questa metodologia fa anche specifiche ipotesi e assunzioni sulla relazione tra costrutto misurato e punteggio ottenuto ai test, in un certo senso, proprio ipotizzando un modello di misurazione, in particolare assumendo che il costrutto sia distribuito normalmente, mentre che il punteggio sia con una relazione ordinale rispetto al costrutto. Nell'utilizzo dei Punteggi Equivalenti si utilizzano però anche spesso riferimenti alla TCT. Infatti, nel famoso compendio di test neuropsicologici pubblicato da Spinnler & Tognoni nel 1987 e in cui Capitani per la prima volta ha spiegato in dettaglio il metodo, vengono presentati dati di affidabilità test-retest, in chiaro riferimento all TCT. Per un approfondimento sui Punteggi Equivalenti si veda il [paragrafo dedicato](#I-Punteggi-Equivalenti).
+
+### Altri modelli di misurazione
+Ovviamente esistono molti altri modelli di misurazione con grandi potenzialità per la neuropsicologia e molti di questi non saranno trattati in questo libro perché non utilizzati in alcun test disponibile. Nonostante ciò penso sia utile menzionarli, anche auspicando che questi saranno sempre più popolari nel futuro in ambito neuropsicologico.
+Un metodo che certamente ha molte potenzialità è quello della _Knowledge Space Theory (KST)_ che parte da presupposti molto diversi da quelli che abbiamo visto finora. 
+Invece di assumere che il costrutto sia descrivibile con un numero, la KST cerca invece di definire degli _stati_ entro cui una persona può trovarsi sulla base delle risposte agli item. Questi stati non sono rappresentabili lungo una linea (come l'unidimensionalità dei modelli IRT di norma assumono), ma sono all'interno di una struttura a "grafo" che descrive il legame probabilisitico Di passaggio da uno stato ad un altro stato. Per fornire un esempio neuropsicologico, uno stato potrebbe essere quello in cui l'individuo sa vestirsi autonomamente, mentre un altro stato potrebbe essere quello di poter comunicare autonomamente (es. al telefono), e un ulteriore stato potrebbe essere caratterizzato dalla capacità di vestirsi _e_ comunicare autonomamente.
+Scopo della KST è capire se una classificazione in questi stati è effettivamente supportata empiricamente e se fornisce un quadro che può dire quali sono le transizioni più probabili da uno stato all'altro. Questo appare di ovvia utilità da un punto di vista di riabilitazione neuropsicologica, per esempio potrebbe suggerire quale è la direzione su cui insistere per andare verso un grado sempre maggiore di autonomia.
+La caratteristica della KST, in contrapposizione ad altri modelli di sviluppo di test (come TCT e IRT) e di misurazione è che appunto non cerca di descrivere costrutti come numeri. Considerando i costrutti neuropsicologici, queste premesse della KST sembrano quantomeno molto promettenti e sembrano catturare meglio la complessità degli stati in cui può trovare un paziente con una cerebrolesione o una malattia neurodegenerativa.
+-->
 
 ## Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
 
