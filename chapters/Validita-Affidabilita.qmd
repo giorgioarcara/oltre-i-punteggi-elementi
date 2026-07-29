@@ -230,7 +230,7 @@ Tabella riassuntiva:
 Una domanda che una/un neuropsicologa/o dovrebbe porsi, quantomeno quando sceglie di utilizzare un test è: _il mio test ha validità e affidabilità adeguate?_.
 
 Il primo posto in cui cercare queste informazioni è il manuale del test, oppure l'articolo scientifico originale con cui lo strumento è stato presentato: è lì che dovrebbero trovarsi le evidenze di validità e affidabilità raccolte dagli autori al momento della pubblicazione.
-Le evidenze non si esauriscono però con la prima pubblicazione: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022), quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche gli **studi successivi** che lo citano (per esempio tramite Google Scholar o PubMed), per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
+Le evidenze non si esauriscono però con la prima pubblicazione: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022), quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche altri studi successivano che lo citano (per esempio tramite Google Scholar o PubMed) e che ne approfondiscono le proprietà psicometriche, per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
 
 :::{.callout-tip}
 ## Il fatto che un test sia pubblicato non garantisce che abbia validità e affidabilità sufficienti.
@@ -241,9 +241,18 @@ Come già sottolineato all'inizio di questa sezione, le evidenze di validità e 
 
 È anche per questo motivo che l'aggiornamento professionale continuo è così rilevante in questo ambito: nuove prove pubblicate nel tempo possono spostare la valutazione complessiva di uno strumento, in meglio o in peggio, verso una scelta più consapevolezza degli strumenti da mettere nella propria cassetta deglia attrezzi.
 
-
-## Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
-
-## Errori comuni nel considerare gli aspetti psicometrici dei test.
-
 ## Capitolo 2: Riassunto
+
+In questo capitolo sono state apprfondite Validità e Affidabilità, due qualità fondamentali dei test neuropsicologici.
+
+La validità può essere definita come la qualità di un test di misurare ciò che intende misurare, mentre l'affidabilità la precisione di un test.
+
+Esistono diversi tipi di validità e affidabilità, e ognuna cattura una diversa sfaccettatura delle proprietà del test.
+
+In generale sarebbe preferibile sempre scegliere test che abbiamo buone (o quantomeno migliori), validità e affidabilità. 
+
+![Sintesi dei tipi di validità e di affidabilità. A sinistra, i tipi di validità sono raggruppati nelle due famiglie introdotte all'inizio del capitolo: le validità **a priori** (di facciata e di contenuto), valutate sul contenuto del test prima della raccolta dati, e le validità **a posteriori** (di costrutto, di criterio ed ecologica), che richiedono invece evidenze empiriche. Per la validità non esistono valori soglia universali: i risultati vanno di volta in volta motivati. A destra, i quattro tipi di affidabilità trattati nel capitolo, con il valore soglia "standard" più diffuso in letteratura (vedi il testo per le soglie più stringenti raccomandate per le decisioni cliniche sul singolo individuo).](../Figures/Latex-Fig-Validita-Affidabilita/Fig_validita_affidabilita.png){#fig-validita-affidabilita fig-align="center" width=100%}
+
+<!-- ## Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
+## Errori comuni nel considerare gli aspetti psicometrici dei test.
+-->
