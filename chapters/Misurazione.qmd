@@ -568,9 +568,11 @@ Tornando all'equazione cardine della CTT ($X = T + E$), l'affidabilità esprime 
 
 Affidabilità e validità sono concetti distinti ma collegati, in un modo spesso reso con l'analogia tra **precisione** e **accuratezza**: un test può essere affidabile senza essere valido, cioè misurare qualcosa con grande precisione, ma non il costrutto che ci interessa. Il contrario non è invece possibile: un test valido deve necessariamente essere anche affidabile, perché non è possibile misurare bene un costrutto con uno strumento impreciso. L'affidabilità è quindi una condizione necessaria, ma non sufficiente, per la validità.
 
-### Tipi di affidabilità e perché sono importanti
+### Valori soglia per affidabilità.
 
-I valori soglia riportati in questo paragrafo sono **indicativi e non universali**: la letteratura non è unanime, e non è raro che test pubblicati e ampiamente utilizzati circolino con valori di affidabilità ben al di sotto di quelli raccomandati `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}. Una classificazione generale della grandezza dei coefficienti di affidabilità, che vale come riferimento orientativo per tutti i tipi di affidabilità trattati di seguito, è la seguente (Slick, cap. 1):
+Una delle domanda che ci si potrebbe porre é: l'affidaibilità del mio test è sufficiente alta? 
+Questa è una domanda delicata in cui la risposta dipenda anche dal tipo di utilizzo che si intende fare con il test. Di seguito sono riportati, a titolo indicativo, alcuni valori soglia che provengono 
+dall'analisi di (`\cite{slick2006psychometrics})`{=latex} `(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}. Una classificazione generale della grandezza dei coefficienti di affidabilità, che vale come riferimento orientativo per tutti i tipi di affidabilità trattati di seguito, è la seguente (Slick, cap. 1):
 
 | Grandezza del coefficiente | Interpretazione |
 |---|---|
@@ -582,7 +584,9 @@ I valori soglia riportati in questo paragrafo sono **indicativi e non universali
 
 : Classificazione generale della grandezza dei coefficienti di affidabilità (Slick, cap. 1 in Spreen & Strauss, 2006). {#tbl-affidabilita-generale}
 
-Per le decisioni cliniche, Sattler `(\cite{sattler2001assessment})`{=latex}`(Sattler, 2001)`{=html} propone soglie più stringenti: per i test usati nella valutazione del singolo individuo si raccomanda un'affidabilità pari o superiore a .80; per i test usati per decisioni particolarmente importanti (per esempio la stima del QI o una diagnosi), .90 è considerato il minimo assoluto, e .95 il valore ottimale.
+Per le decisioni cliniche, Sattler (`\cite{sattler2001assessment}`{=latex}`Sattler, 2001`{=html} sempre riportato da `\cite{slick2006psychometrics}`{=latex}`Slick, cap. 1 in Spreen & Strauss, 2006`{=html}) propone soglie più stringenti: per i test usati nella valutazione del singolo individuo si raccomanda un'affidabilità pari o superiore a .80; per i test usati per decisioni particolarmente importanti (per esempio la stima del QI o una diagnosi), .90 è considerato il minimo assoluto, e .95 il valore ottimale.
+
+È da notare che anche in questo aspetto la letteratura non è unanime, e non è raro che test pubblicati e ampiamente utilizzati circolino con valori di affidabilità ben al di sotto di quelli raccomandati. Per tale ragione, per quanto riguarda i valori di affidabilità, suggerisco un approccio _comparativo_ : meglio scegliere i test con affidabilità più alta (e con più evidenze di affidabilità), interpretando con cautela quando l'affidabilità è al di sotto di valori raccomandati.  
 
 #### Consistenza Interna
 
@@ -590,24 +594,24 @@ La consistenza interna misura quanto gli item di un test siano tra loro coerenti
 
 [^omega]: Le assunzioni statistiche alla base di $\alpha$ e $\omega$, e le formule per calcolarli, sono trattate più in dettaglio nella sezione _Approfondimenti tecnici_.
 
-Valori indicativi per la consistenza interna (Cicchetti et al., 1990, citato in Slick, cap. 1): valori inferiori a .70 sono considerati inaccettabili, tra .70 e .79 discreti, tra .80 e .89 buoni, e pari o superiori a .90 eccellenti. Nei test neuropsicologici la consistenza interna tende però ad essere più bassa della media, spesso intorno a .60, in parte perché molti di questi test valutano domini eterogenei di abilità piuttosto che un singolo costrutto omogeneo (Slick, cap. 1).
+Valori indicativi per la consistenza interna (Slick, cap. 1): valori inferiori a .70 sono considerati inaccettabili, tra .70 e .79 discreti, tra .80 e .89 buoni, e pari o superiori a .90 eccellenti. Nei test neuropsicologici la consistenza interna tende però ad essere più bassa della media, spesso intorno a .60, in parte perché molti di questi test valutano domini eterogenei di abilità piuttosto che un singolo costrutto omogeneo (Slick, cap. 1).
 
 È importante ricordare che un'alta consistenza interna non implica di per sé validità: item molto correlati tra loro potrebbero riflettere un costrutto diverso da quello che il test intende misurare. Inoltre, per i test di velocità (in cui il punteggio dipende dal numero di item completati entro un tempo limite, più che dalla loro correttezza) la consistenza interna, sia calcolata come alpha sia come split-half, non è una misura di affidabilità appropriata (Slick, cap. 1).
 
 #### Affidabilità Test-Retest
 
-L'affidabilità test-retest misura la consistenza dei punteggi ottenuti somministrando lo stesso test alla stessa persona in due occasioni diverse, assumendo che nell'intervallo tra le due somministrazioni non vi siano stati cambiamenti reali nel costrutto misurato. Si esprime tipicamente con un coefficiente di correlazione o con un Intraclass Correlation Coefficient (ICC; cfr. paragrafo su Inter-Rater Agreement).
+L'affidabilità test-retest misura la consistenza dei punteggi ottenuti somministrando lo stesso test alla stessa persona in due occasioni diverse, assumendo che nell'intervallo tra le due somministrazioni non vi siano stati cambiamenti reali nel costrutto misurato. Si esprime tipicamente con un coefficiente di correlazione o con l'Intraclass Correlation Coefficient (ICC).
 
 Valori indicativi: pari o superiori a .70 (Andrews et al., 1994; Burlingame et al., 1995, citati in Slick, cap. 1); per le decisioni cliniche sul singolo individuo si raccomanda .80 (Sattler, 2001).
 
 Due punti critici meritano attenzione:
 
-1. **Dipendenza dall'intervallo**: uno stesso test non ha un'unica affidabilità test-retest, ma infinite, perché il valore cambia a seconda dell'intervallo scelto tra le due somministrazioni, ed è tipicamente più alto con intervalli brevi (Anastasi & Urbina, 1997, citati in Slick, cap. 1).
-2. **Effetto pratica**: se il test misura una prestazione, la seconda somministrazione potrebbe beneficiare dell'esperienza acquisita nella prima. Un simile effetto sistematico non viene catturato dal coefficiente di correlazione, che è sensibile a quanto i punteggi si muovono insieme, ma non a un eventuale cambiamento sistematico del livello medio dei punteggi (Slick, cap. 1).
+1. **Dipendenza dall'intervallo**: uno stesso test non ha un'unica affidabilità test-retest, ma infinite, perché il valore cambia a seconda dell'intervallo scelto tra le due somministrazioni, ed è tipicamente più alto con intervalli brevi (Anastasi & Urbina, 1997, `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}).
+2. **Effetto pratica**: se il test misura una prestazione, la seconda somministrazione potrebbe beneficiare dell'esperienza acquisita nella prima. Un simile effetto sistematico non viene catturato dal coefficiente di correlazione, che è sensibile a quanto i punteggi si muovono insieme, ma non a un eventuale cambiamento sistematico del livello medio dei punteggi `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}.
 
 Nonostante queste complessità, l'affidabilità test-retest è spesso considerata, in ambito clinico, la forma di affidabilità più rilevante, perché più vicina alla domanda pratica che un clinico si pone: se rivalutassi questa persona tra qualche tempo, quanto potrei fidarmi di un'eventuale differenza tra i due punteggi?
 
-#### Affidabilità Split-Half
+#### Affidabilità Split-Half{#affidabilità-split-half}
 
 L'affidabilità split-half stima l'affidabilità di un test dividendolo in due metà (tipicamente gli item pari da un lato e gli item dispari dall'altro) e calcolando la correlazione tra i punteggi ottenuti sulle due metà. Il vantaggio principale, rispetto al test-retest, è che non richiede due somministrazioni separate. Il limite principale è che il risultato dipende, almeno in parte, da come viene effettuata la divisione in due metà, che resta in una certa misura arbitraria.
 
@@ -615,7 +619,7 @@ Poiché ciascuna metà è più corta dell'intero test, e un test più corto tend
 
 [^spearmanbrown]: La formula della correzione di Spearman-Brown è trattata più in dettaglio nella sezione _Approfondimenti tecnici_.
 
-Valori indicativi: pari o superiori a .70-.80 (Slick, cap. 1).
+Valori indicativi: pari o superiori a .70-.80 `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}.
 
 #### Inter-Rater Agreement
 
@@ -623,7 +627,7 @@ L'accordo tra valutatori (_inter-rater agreement_) misura quanto sia consistente
 
 Si esprime tipicamente con l'Intraclass Correlation Coefficient (ICC), che varia da 0 a 1 ed è generalmente preferito alla correlazione di Pearson perché tiene conto anche dell'accordo assoluto tra i valutatori (cioè se assegnano più o meno lo stesso punteggio), e non solo di quanto i loro punteggi si muovono insieme (Fastenau et al., 1996, citati in Slick, cap. 1).
 
-Valori indicativi (Cicchetti & Sparrow, 1981, citati in Slick, cap. 1): inferiori a .40 scarsi, tra .40 e .59 discreti, tra .60 e .74 buoni, pari o superiori a .75 eccellenti. Con una classificazione lievemente diversa, Fastenau et al. (1996) considerano .60 come soglia per un accordo "sostanziale" e .75-.80 per un accordo "quasi perfetto".
+Valori indicativi (Cicchetti & Sparrow, 1981, citati `\cite{slick2006psychometrics}`{=latex}`Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}): inferiori a .40 scarsi, tra .40 e .59 discreti, tra .60 e .74 buoni, pari o superiori a .75 eccellenti. Con una classificazione lievemente diversa, Fastenau et al. (1996) considerano .60 come soglia per un accordo "sostanziale" e .75-.80 per un accordo "quasi perfetto".
 
 Tabella riassuntiva:
 
@@ -636,20 +640,22 @@ Tabella riassuntiva:
 
 : Sintesi dei tipi di affidabilità, delle modalità con cui vengono tipicamente valutati e dei valori soglia indicativi riportati in letteratura. Tutti i valori sono indicativi e non costituiscono uno standard universalmente condiviso: valgono, anche qui, il principio del continuum Peggio/Meglio e le soglie più stringenti raccomandate da Sattler (2001) per le decisioni cliniche sul singolo individuo (≥ .80; ≥ .90 per le decisioni ad alto impatto). {#tbl-affidabilita}
 
-### Come faccio a sapere se il mio test è adeguato?
+## Nella pratica clinica: Come usare affidabilità e validità per scegliere i test
+
+Una domanda che una/un neuropsicologa/o dovrebbe porsi, quantomeno quando sceglie di utilizzare un test è: _il mio test ha validità e affidabilità adeguate?_. 
+
+Il primo posto in cui cercare queste informazioni è il manuale del test, oppure l'articolo scientifico originale con cui lo strumento è stato presentato: è lì che dovrebbero trovarsi le evidenze di validità e affidabilità raccolte dagli autori al momento della pubblicazione.
+Le evidenze non si esauriscono però con la prima pubblicazione: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022), quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche gli **studi successivi** che lo citano (per esempio tramite Google Scholar o PubMed), per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
 
 :::{.callout-tip}
-## Come documentarsi
-- **Il primo posto in cui cercare** è il manuale del test, oppure l'articolo originale con cui lo strumento è stato presentato: è lì che si trovano le evidenze di validità e affidabilità raccolte dagli autori al momento della pubblicazione.
-- **Le evidenze non si esauriscono con la pubblicazione**: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022), quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche gli **studi successivi** che lo citano (per esempio tramite Google Scholar o PubMed), per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
-- **Il fatto che un test sia pubblicato, anche da autori esperti, non garantisce di per sé nulla**: uno strumento pubblicato può comunque avere una bassa affidabilità, o nessuna evidenza di validità per lo specifico utilizzo che se ne vuole fare. Valutare criticamente queste evidenze fa parte del lavoro di chi utilizza il test in ambito clinico.
+## Il fatto che un test sia pubblicato non garantisce che abbia validità e affidabilità sufficienti. 
+Uno strumento pubblicato potrebbe comunque avere una bassa affidabilità (o non nota), e lo stesso vale per la validità. Questo vale indipendentemente dall'autorevolezza degli autori. 
 :::
 
-Come già sottolineato all'inizio di questa sezione, le evidenze di validità e affidabilità si accumulano nel tempo, e vanno lette come un continuum piuttosto che come un giudizio definitivo: usare oggi un test con prove ancora limitate non equivale automaticamente a usare un test "non valido", ma significa muoversi verso il polo peggiore del continuum. È anche per questo motivo che l'aggiornamento professionale continuo è così rilevante in questo ambito: nuove prove pubblicate nel tempo possono spostare la valutazione complessiva di uno strumento, in meglio o in peggio.
+Come già sottolineato all'inizio di questa sezione, le evidenze di validità e affidabilità si accumulano nel tempo, e vanno considerate come all'interno di un continuum. Ci sono test con migliore validità e test con peggiore validità. Il fatto che informazioni su affidabilità o validità non siano disponibile non significa necessariamente che siano scarse, ma segnalano l'importante fatto che non le conosciamo. Non siamo quindi in grado di giudicare se quel test è adeguato o no. Per tale motivo, scegliere di usare test senza evidenze su affidabilità o validità andrebbe visto come muoversi verso il polo peggiore del continuum, specie se alternative in cui questi valori sono noti sono disponibile. 
 
+È anche per questo motivo che l'aggiornamento professionale continuo è così rilevante in questo ambito: nuove prove pubblicate nel tempo possono spostare la valutazione complessiva di uno strumento, in meglio o in peggio, verso una scelta più consapevolezza degli strumenti da mettere nella propria cassetta deglia attrezzi.
 
-
-## Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
 
 ## Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
 
