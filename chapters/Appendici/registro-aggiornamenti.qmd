@@ -29,3 +29,7 @@ Rilasciata versione iniziale del libro che include
 ### v0.2.0
 - separata la sezione Validità e Affidabilità in un capitolo autonomo (chapters/Validita-Affidabilita.qmd), distinto dal capitolo su misurazione e test (rinominato "Misurazione e Test in Neuropsicologia Clinica").
 - aggiornati indice provvisorio e riferimenti incrociati (Introduzione, numerazione dei capitoli) di conseguenza.
+
+### v0.2.1
+- corrette numerose citazioni non inserite correttamente nello standard a doppio rendering (LaTeX/HTML): parentesi sbilanciate, citazioni narrative con nome autore duplicato, citazioni testuali senza markup.
+- aggiunte a references.bib le voci per Sacco et al. (2008, ABaCo), Arcara e Bambini (2016, APACS) e Capitani e Laiacona (1988, Punteggi Equivalenti); corretto l'anno di quest'ultima citazione in index.qmd (da 1987 a 1988).

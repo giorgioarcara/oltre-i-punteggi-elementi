@@ -5,7 +5,7 @@ suppress-bibliography: true
 `<img src="Figures/cover-html.png" style="width:100%; height:auto; display:block; margin:auto;" />`{=html}
 
 ```{r, echo=FALSE}
-cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.2.0"))
+cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.2.1"))
 ```
 
 
@@ -118,7 +118,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
     * Z-score e percentili
     * Il metodo di Crawford & Howell (1998) per il caso singolo
     * Metodi basati su regressione
-        * I Punteggi Equivalenti (Capitani, 1987)
+        * I Punteggi Equivalenti (Capitani & Laiacona, 1988)
         * Il metodo di Crawford & Garthwaite (2006)
     * Altri metodi
   * Aspetti importanti da considerare nell'utilizzare i dati normativi
