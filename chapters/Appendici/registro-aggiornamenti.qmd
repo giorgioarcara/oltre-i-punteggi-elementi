@@ -20,3 +20,7 @@ Rilasciata versione iniziale del libro che include
 
 ### v0.1.2
 - migliorata prima parte paragrafo misurazione.
+
+### v0.1.3
+- aggiunta sezione su Validità (teoria).
+- aggiornata figura sulla CTT.

@@ -381,6 +381,10 @@ Questi limiti non rendono la CTT inutilizzabile, e i test neuropsicologici che n
 
 L'alternativa principale alla CTT è l'**Item Response Theory** (IRT), una famiglia di modelli in cui l'abilità del soggetto e la difficoltà degli item vengono modellate separatamente, superando così uno dei limiti fondamentali della CTT. Questo aspetto sarà approfondito nel paragrafo [_Introduzione all'Item Response Theory_](#introduzione-item-response-theory).
 -->
+
+## Sviluppo di un test secondo la CTT
+
+
 ### Riassunto sulla CTT
 Abbiamo descritto il principio cardine della CTT e alcune delle sue assunzioni fondamentali. Come anticipato, la maggior parte dei test neuropsicologici adotta implicitamente questo framework e questo lo si desume dalle analisi e dalle metodologie impiegate nel loro sviluppo, più che da una dichiarazione esplicita.
 
@@ -391,7 +395,6 @@ Queste rispondono alla domanda posta in precedenza: come stabilire se un test è
 Nei manuali o articoli dei test neuropsicologici spesso non è esplicitamente scritto che sono sviluppati secondo la Classical Test Theory. Questo è desumibile però dall'utilizzo di certe caratteristiche, come l'utilizzo di Validità e Affidabilità, secondo specifiche declinazioni tipiche di questo framework.
 :::
 
-## Sviluppo di test secondo CTT
 
 ## Oltre la Teoria Classica dei Test {#oltre-la-teoria-classica-dei-test}
 <!--
@@ -401,29 +404,30 @@ Il focus sulla Teoria Classica dei Test è stato infatti scelto sulla base dell'
 ### Introduzione all'Item Response Theory
 Il principale approccio alternativo alla Teoria Classica dei Test è quella famiglia di modelli noti come Teoria di Risposta all'Item, o _Item Response Theory_ (IRT) (si veda anche Approfondimenti Tecnici, Item Response Theory).
 L'Item Response Theory nasce quasi in contrapposizione alla Classical Test Theory e ne critica le fondamenta, così come critica la permissività della definizione di misurazione di Stevens. 
-Esistono diversi modelli di Item Response Theory, ma tutti condividono un aspetto di base: assumere che ci sia un costrutto latente da misurare e che in base al livello di abilità nel costrutto latente, cabmbia la probabilità di rispondere correttamente ad un determinato item. Un individuo con un abilità alta avrà una probabilità alta di rispondere ad item facili e una probabilità graduamente minore di risposte ai più difficili. Un individuo con abilità bassa avrà già una probabilità bassa di rispondere a item magari giù più facile e una probabilità quasi nulla di rispondere agli item più difficili. Gli elementi principali che caratterizzano i modelli IRT sono:
+Esistono diversi modelli di Item Response Theory, ma tutti condividono un aspetto di base: assumere che ci sia un costrutto latente da misurare e che in base al livello di abilità nel costrutto latente, cambia la probabilità di rispondere correttamente ad un determinato item. Un individuo con un abilità alta avrà una probabilità alta di rispondere ad item facili e una probabilità graduamente minore di risposte ai più difficili. Un individuo con abilità bassa avrà già una probabilità bassa di rispondere a item magari giù più facile e una probabilità quasi nulla di rispondere agli item più difficili. Gli elementi principali che caratterizzano i modelli IRT sono:
 
 - il focus è sulla _probabilità di risposta ad un singolo item_ e non al punteggio totale del test (come era per la CTT, in cui focus è su $T$).
 - nei modelli più diffusi di IRT, a partire dal modello di _Rasch_ in un certo senso, il capostipite di questa famiglia, si assume che il costrutto da misurare sia _unidimensionale_ cioè sia possa rappresentare lungo un unica dimensione (es. posso dire di avere più o meno ansia, ma non diversi tipi di ansia). Altri modelli della IRT rilassano questo assunto.
 - il processo di sviluppo di un Test secondo IRT è più difficile di un test sviluppato secondo CTT ed è anche possibile che il risultato non sia positivo. In altre parole, potrebbe risultare più facilmente che il test non sia adeguato secondo il modello di misurazione.
 
-Ci si potrebbe chiedere perché non si usano questi modelli che sembrano più rigorosi. Come spesso accade nella scienza, la risposta è complessa e non è necessariamente una motivazione logica. Probabilmente è un insieme di fattori, tra cui la maggiore semplicità di sviluppare test con la CTT e, quantomeno in alcuni casi, la percezione che sviluppare un test con IRT non porta a grandi vantaggi pratici, rispetto al corrispettivo sviluppato con CTT.
+Ci si potrebbe chiedere perché non si usano questi modelli che sembrano più rigorosi. Come spesso accade nella scienza, la risposta è complessa e non è necessariamente una motivazione squisitamente scientifica Probabilmente è un insieme di fattori, tra cui la maggiore semplicità di sviluppare test con la CTT e, quantomeno in alcuni casi, la percezione che sviluppare un test con IRT non porta a grandi vantaggi pratici, rispetto al corrispettivo sviluppato con CTT.
 
 ### I Punteggi Equivalenti come modello di misurazione
 Un libro italiano su psicometria della neuropsicologia invitabilmente dedicherà molto spazio ai Punteggi Equivalenti (Capitani & Laiacona, 1989, Capitani, 1987).
 I Punteggi Equivalenti è una metodologia di trasformazione di un punteggio grezzo totale di un test in una scala di punteggi da 0 a 4, in cui la probabilità di ottenere un punteggio non è influenzata 
-da età, scolarità o sesso. I punteggi equivlaenti nascono principalmente come metodo per ottenere delle soglie (un punteggio di 0 è considerato sospetto di deficit/danno cognitivo) e pertanto saranno descritti in maniera approfondita nel capitolo dedicato a soglie e cut-off di normalità. È utile però citare i Punteggi Equivalenti anche qui perchè di fatto questa metodologia fa anche specifiche ipotesi e assunzioni sulla relazione tra costrutto misurato e punteggio ottenuto ai test, in un certo senso, proprio ipotizzando un modello di misurazione, in particolare assumendo che il costrutto sia distribuito normalmente, mentre che il punteggio sia con una relazione ordinale rispetto al costrutto. Nell'utilizzo dei Punteggi Equivalenti si utilizzano però anche spesso riferimenti alla CTT. Infatti, nel famoso compendio di test neuropsicologici pubblicato da Spinnler & Tognoni nel 1987 e in cui Capitani per la prima volta ha spiegato in dettaglio il metodo, vengono presentati dati di affidabilità test-retest, in chiaro riferimento all CTT. Per un approfondimento sui Punteggi Equivalenti si veda il [paragrafo dedicato](#I-Punteggi-Equivalenti).
+da età, scolarità o sesso. I punteggi equivlaenti nascono principalmente come metodo per ottenere delle soglie (un punteggio di 0 è considerato sospetto di deficit/danno cognitivo) e pertanto saranno descritti in maniera approfondita nel capitolo dedicato a soglie e cut-off di normalità. È utile però citare i Punteggi Equivalenti anche qui perchè di fatto questa metodologia fa anche specifiche ipotesi e assunzioni sulla relazione tra costrutto misurato e punteggio ottenuto ai test, in un certo senso, proprio ipotizzando un modello di misurazione, in particolare assumendo che i possibili valori lungo un costrutto siano distribuiti normalmente, mentre che il punteggio sia con una relazione ordinale rispetto al costrutto sottostante. Nell'utilizzo dei Punteggi Equivalenti si utilizzano però anche spesso riferimenti alla CTT. Infatti, nel famoso compendio di test neuropsicologici pubblicato da Spinnler & Tognoni nel 1987 e in cui Capitani per la prima volta ha spiegato in dettaglio il metodo, vengono presentati dati di affidabilità test-retest, in chiaro riferimento all CTT. Per un approfondimento sui Punteggi Equivalenti si veda il [paragrafo dedicato](#I-Punteggi-Equivalenti).
 
 ### Altri modelli di misurazione
 Ovviamente esistono molti altri modelli di misurazione con grandi potenzialità per la neuropsicologia e molti di questi non saranno trattati in questo libro perché non utilizzati in alcun test disponibile. Nonostante ciò penso sia utile menzionarli, anche auspicando che questi saranno sempre più popolari nel futuro in ambito neuropsicologico.
 Un metodo che certamente ha molte potenzialità è quello della _Knowledge Space Theory (KST)_ che parte da presupposti molto diversi da quelli che abbiamo visto finora. 
-Invece di assumere che il costrutto sia descrivibile con un numero, la KST cerca invece di definire degli _stati_ entro cui una persona può trovarsi sulla base delle risposte agli item. Questi stati non sono rappresentabili lungo una linea (come l'unidimensionalità dei modelli IRT di norma assumono), ma sono all'interno di una struttura a "grafo" che descrive il legame probabilisitico Di passaggio da uno stato ad un altro stato. Per fornire un esempio neuropsicologico, uno stato potrebbe essere quello in cui l'individuo sa vestirsi autonomamente, mentre un altro stato potrebbe essere quello di poter comunicare autonomamente (es. al telefono), e un ulteriore stato potrebbe essere caratterizzato dalla capacità di vestirsi _e_ comunicare autonomamente.
+Invece di assumere che il costrutto sia descrivibile con un numero, la KST cerca invece di definire degli _stati_ entro cui una persona può trovarsi sulla base delle risposte agli item. Questi stati non sono rappresentabili lungo una linea (come l'unidimensionalità dei modelli IRT di norma assumono), ma sono all'interno di una struttura a "lattice" che descrive il legame probabilisitico di passaggio da uno stato ad un altro stato. Per fornire un esempio neuropsicologico, uno stato potrebbe essere quello in cui l'individuo sa vestirsi autonomamente, mentre un altro stato potrebbe essere quello di poter comunicare autonomamente (es. al telefono), e un ulteriore stato potrebbe essere caratterizzato dalla capacità di vestirsi _e_ comunicare autonomamente.
 Scopo della KST è capire se una classificazione in questi stati è effettivamente supportata empiricamente e se fornisce un quadro che può dire quali sono le transizioni più probabili da uno stato all'altro. Questo appare di ovvia utilità da un punto di vista di riabilitazione neuropsicologica, per esempio potrebbe suggerire quale è la direzione su cui insistere per andare verso un grado sempre maggiore di autonomia.
 La caratteristica della KST, in contrapposizione ad altri modelli di sviluppo di test (come CTT e IRT) e di misurazione è che appunto non cerca di descrivere costrutti come numeri. Considerando i costrutti neuropsicologici, queste premesse della KST sembrano quantomeno molto promettenti e sembrano catturare meglio la complessità degli stati in cui può trovare un paziente con una cerebrolesione o una malattia neurodegenerativa.
 -->
 
 
 ## Validità ed Affidabilità
+
 
 :::{.callout-tip}
 ## Il mio test è adeguato?
@@ -432,37 +436,59 @@ Per alcuni tipi di validità e affidabilità la letteratura riporta valori sogli
 
 Validità e affidabilità sono le due proprietà fondamentali a cui fare riferimento per stabilire se un test è un buon test, e si collegano direttamente al principio cardine della CTT ($X = T + E$; cfr. paragrafo _Il principio cardine: X = T + E_). La validità risponde alla domanda _cosa stiamo misurando?_, cioè se il punteggio vero $T$ rifletta effettivamente il costrutto che il test intende misurare. L'affidabilità risponde invece alla domanda _quanto precisamente lo misuriamo?_, cioè quanto è piccola la componente d'errore $E$ rispetto al punteggio osservato $X$. Nei prossimi paragrafi tratteremo prima la validità e poi, in una sezione dedicata, l'affidabilità.
 
-### Validità: definizione
+### Validità: introduzione
 
-### Tipi di Validità e perché sono importanti
+Come per molti termini di questo libro, non esiste una definizione univoca di alidità. Di seguito ne è riportata una che cattura l'essenza di come è considerata la validità.
 
 :::{.callout-note}
 ## Definizione
-_"La validità è il grado in cui un test misura effettivamente il costrutto che intende misurare."_ `(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}
+_"La validità è il grado in cui un test misura effettivamente ciò che intende misurare."_ `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}
 :::
 
-Un aspetto spesso trascurato è che la validità non è una proprietà generale e assoluta di un test, ma è sempre riferita a un **utilizzo specifico**: non ha senso dire semplicemente che "un test è valido", mentre ha senso dire che un test è valido per un certo scopo, in una certa popolazione, in un certo contesto. Uno stesso test di memoria può avere buone evidenze di validità per identificare un decadimento cognitivo in soggetti anziani, e nessuna evidenza per, ad esempio, predire il rendimento scolastico in età evolutiva.
+Un'altra possibile definizione di validità, con una sfumatura leggermente diversa è "la capacità di misurare quanto bene misura ciò che si propone di misurare, nel contesto in cui deve essere applicato"`(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}.
+In questo caso è evidenziato un aspetto importante e cioè che la validità non è semplicemente una proprità del test, ma può cambiare a seconda del contesto in cui è utilizzato (questo aspetto sarà ripreso nel paragrafo "validità di una misurazione" (DA COMPLETARE).
 
-Come per l'affidabilità, anche la validità è più utile pensarla come un **continuum**, piuttosto che come una proprietà binaria (valido/non valido): un test accumula, nel tempo e attraverso diversi studi, un insieme di evidenze a favore (o contro) un determinato utilizzo, e la nostra fiducia nel test dovrebbe aggiornarsi di conseguenza.
+È importante notare che _ciò che si intende misurare_ non è necessariamento un costrutto.
+Un test potrebbe infatti avere come scopo quello di prevedere le possibilità di reinserimento a lavoro dopo il trauma cranico, oppure distinguere tra pazienti con Mild Cognitive Impairment (MCI) e soggetti con invecchiamento fisiologico. In tali casi l'obiettivo è chiaro e misurabile, ma non è, strettamente parlando, un concetto psicologico inosservabile.
+
+Indipendentemte dall'esatta definizione la validità è associata alla presenza di evidenze scientifiche, di diverso tipo, che il test possa dare , dando una base per le interpretazioni ai punteggi.
+Un test con buona validità per misurare la memoria avrà dunque evidenze scientifiche che effettivamente misuri la memoria. Un test che è in grado di distinguere tra pazienti con Mild Cognitive Impairment (MCI) e soggetti sani, ha evidenze scientifiche che effettivamente sia in grado di farlo efficacemente.
+
+Un aspetto che è fondamentale sottolinare sin da subito è che la validità non è una proprietà generale e assoluta di un test, ma è sempre riferita a un suo **utilizzo specifico**. Non ha pertanto senso dire semplicemente che "un test è valido", mentre ha senso dire che un test è valido per un certo scopo, in una certa popolazione, in un certo contesto. Uno stesso test di memoria può avere buone evidenze di validità per identificare un decadimento cognitivo in soggetti anziani, e nessuna evidenza per, ad esempio, predire il rendimento scolastico in età evolutiva.
+
+:::{.callout-tip}
+## Non ha senso dire che un test "è valido".
+La validità non è una proprietà generale, ma è relativa ad una specifica interpretazione di un test.
+:::
+
+È più utile pensare alla validità come una proprietà lungo un **continuum**[^val], piuttosto che come una proprietà binaria (valido/non valido): un test accumula, nel tempo e attraverso diversi studi, un insieme di evidenze a favore (o contro) un determinato utilizzo, e la nostra fiducia nel test dovrebbe aggiornarsi di conseguenza.
 
 Esistono diversi tipi di validità, spesso raggruppati in due grandi famiglie. Le validità **a priori** (di facciata e di contenuto) si valutano ragionando sul contenuto del test stesso, prima ancora di somministrarlo e raccogliere dati. Le validità **a posteriori** (di costrutto, di criterio ed ecologica) richiedono invece la raccolta di dati empirici, tipicamente confrontando il punteggio del test con altre misure esterne.
+
+[^val] Considerando che possono esistere più scopi, forse è più esatto usare il plurale e dire che le diverse validità sono più proprietà lungo diversi continuum.
 
 #### Validità di facciata
 
 :::{.callout-note}
 ## Definizione
-La validità di facciata è il grado in cui un test **sembra** misurare ciò che intende misurare, sulla base di un giudizio superficiale e non di dati empirici.
+La validità di facciata è il grado in cui un test **appare** misuri ciò che intende misurare, sulla base di un giudizio e non di dati empirici.
 :::
 
 Un test di memoria che chiede esplicitamente al paziente di "ricordare" una serie di elementi ha un'alta validità di facciata per la memoria; un questionario sull'ansia i cui item chiedono "quanto ti senti nervoso/a" ha un'alta validità di facciata per l'ansia. In entrambi i casi, chiunque guardi il test (paziente, clinico, valutatore esterno) ne intuisce lo scopo semplicemente osservandone il contenuto.
 
-La validità di facciata è la forma di validità meno rigorosa: viene valutata solo qualitativamente, senza alcuna analisi statistica. Talvolta è l'unica evidenza disponibile per un test, ma la sua plausibilità superficiale non è sufficiente per concludere che lo strumento misuri davvero il costrutto di interesse[^qmp].
+La validità di facciata è la forma di validità meno rigorosa: viene valutata solo qualitativamente, senza alcuna analisi statistica. Talvolta è l'unica evidenza disponibile per un test, ma la sua plausibilità superficiale non è sufficiente per concludere che lo strumento misuri davvero il costrutto di interesse.
+Questo può avvenire per diversi motivi: per esempio, potrebbero esserci strategie alternative per affrontare il test che non si basano sulla funzione cognitiva attesa, oppure le istruzioni potrebbero essere poco chiare e non essere affrontato nella maniera che dovrebbe coinvolgere la funzione cognitiva oggetto del test.
 
-[^qmp]: Un esempio didattico spesso usato per illustrare questo punto è quello di un ipotetico "questionario di qualità psicologica" (QMP), che appare del tutto plausibile a prima vista, ma che una volta verificato empiricamente si rivela inaffidabile e privo di reali evidenze di validità.
+In ogni caso, non ci si dovrebbe mai basare solo sulla validità di facciata per la scelta di un test.
 
 :::{.callout-tip}
-## Nota
+## Validità di facciata in ambito forense
 In ambito forense vale, per certi versi, il ragionamento opposto: i test progettati per rilevare la simulazione (_malingering_) non devono avere validità di facciata. Se il paziente comprende immediatamente che lo strumento valuta la sincerità delle sue risposte, la sua utilità clinica viene meno.
+:::
+
+:::{.callout-tip}
+## Validità di facciata e test neuropsicologici italiani.
+Nei test neuropsicologici disponibili in Italia, in molti casi l'unica validità disponibile è purtroppo quella di facciata (quindi quella meno rigorosa). 
 :::
 
 #### Validità di contenuto
@@ -487,13 +513,13 @@ Oltre al giudizio qualitativo di esperti, esiste anche un approccio quantitativo
 La validità di costrutto è il grado in cui i punteggi di un test si comportano in accordo con la teoria del costrutto che il test intende misurare.
 :::
 
-Si articola tipicamente in tre componenti complementari:
+La validità di costrutto è genericamente considerata il principale tipo di validità. Essa si articola tipicamente in tre componenti complementari:
 
 - **Validità convergente**: il punteggio del test correla con altre misure dello stesso costrutto, o di costrutti teoricamente vicini.
 - **Validità divergente (o discriminante)**: il punteggio del test mostra una correlazione bassa con misure di costrutti teoricamente distinti. Per esempio, un test di autonomia funzionale come la NADL-F dovrebbe correlare pochissimo con una scala di depressione come la GDS, se i due strumenti misurano davvero costrutti diversi.
-- **Struttura fattoriale**: gli item del test si raggruppano in modo coerente con il modello teorico del costrutto, tipicamente verificato con l'analisi fattoriale esplorativa (EFA) o confermativa (CFA), talvolta con un cenno all'analisi delle componenti principali (PCA). Anche in questo caso, ciò che conta ai fini della validità è che il raggruppamento empirico degli item rispecchi le dimensioni teoriche attese, più dei dettagli tecnici della procedura statistica utilizzata.
+- **Struttura fattoriale**: gli item del test si raggruppano in modo coerente con il modello teorico del costrutto, tipicamente verificato con l'analisi fattoriale esplorativa (Exploratory Factor Analysis, EFA) o confermativa (Confirmatory Factorr Analysis, CFA). Anche se non propriamente corretto talvolta è anche analizzata tramite analisi delle componenti principali (Principal Component Analysis, PCA). 
 
-Per la validità di costrutto non esiste un valore soglia universale (una correlazione convergente "abbastanza alta" o divergente "abbastanza bassa"), il che la rende, tra i tipi di validità, quella più esposta al rischio di flessibilità interpretativa post-hoc: è facile, guardando i dati a posteriori, trovare una spiegazione plausibile per qualunque pattern di correlazioni osservato. Per questo motivo, le ipotesi su quali correlazioni ci si aspetta di trovare (e quali no) andrebbero specificate prima di raccogliere i dati, per esempio tramite pre-registrazione dello studio.
+Per la validità di costrutto non esiste un valore soglia universale (una correlazione convergente "abbastanza alta" o divergente "abbastanza bassa"), il che la rende, tra i tipi di validità, quella più esposta al rischio di flessibilità interpretativa post-hoc: è facile, guardando i dati a posteriori, trovare una spiegazione plausibile per qualunque pattern di correlazioni osservato. Per questo motivo, le ipotesi su quali correlazioni ci si aspetta di trovare (e quali no) andrebbero specificate prima di raccogliere i dati oppure andrebbero testate in due passi: una prima analisi esplorativa su un campione e una seconda analisi confermativa su un campione indipendente. La "pre-registrazione" dei risultati (cioè una registrazione in un punto sicuro e pubblico delle attese sperimentali) è uno strumento dell' _Open Science_ che sembra particolarmente utile per una valutazione della robustezza della validità di costrutto.
 
 #### Validità concorrente
 
