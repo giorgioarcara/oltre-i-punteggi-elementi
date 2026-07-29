@@ -309,7 +309,7 @@ Esistono diversi framework teorici che hanno cercato di definire questi aspetti 
 
 La Teoria Classica dei Test o _Classical Test Theory (CTT)_ è il framework psicometrico su cui si basa la grande maggioranza dei test neuropsicologici attualmente disponibili. Come già visto per altri aspetti psicometrici, spesso non vi è una dichiarazione esplicita di seguire la CTT, ma questo può essere desunto dall'utilizzo di alcune analisi (ad esempio, calcolare la consistenza interna o l'affidabilità test-retest), che ne sono una diretta espressione. Comprendere i presupposti della CTT è quindi fondamentale non solo per chi costruisce test, ma anche per chi li usa nella pratica clinica quotidiana.
 
-### Il principio cardine: X = T + E
+### Il principio cardine: X = T + E 
 
 Il principio fondamentale della CTT è espresso in una formula apparentemente semplice:
 
@@ -428,17 +428,11 @@ La caratteristica della KST, in contrapposizione ad altri modelli di sviluppo di
 
 ## Validità ed Affidabilità
 
-
-:::{.callout-tip}
-## Il mio test è adeguato?
-Per alcuni tipi di validità e affidabilità la letteratura riporta valori soglia indicativi, ma non esiste un criterio universalmente condiviso per stabilire quando un test sia "adeguato". Per questo motivo, più che chiedersi se un test sia sufficiente o insufficiente, conviene ragionare in termini comparativi: un test ha più o meno evidenze di validità e affidabilità, ed è migliore o peggiore rispetto alle alternative disponibili per lo stesso scopo. I valori soglia riportati in questo capitolo vanno quindi letti come orientamenti pratici, non come standard assoluti, in linea con l'idea di un continuum Peggio ↔ Meglio, piuttosto che di una dicotomia netta.
-:::
-
-Validità e affidabilità sono le due proprietà fondamentali a cui fare riferimento per stabilire se un test è un buon test, e si collegano direttamente al principio cardine della CTT ($X = T + E$; cfr. paragrafo _Il principio cardine: X = T + E_). La validità risponde alla domanda _cosa stiamo misurando?_, cioè se il punteggio vero $T$ rifletta effettivamente il costrutto che il test intende misurare. L'affidabilità risponde invece alla domanda _quanto precisamente lo misuriamo?_, cioè quanto è piccola la componente d'errore $E$ rispetto al punteggio osservato $X$. Nei prossimi paragrafi tratteremo prima la validità e poi, in una sezione dedicata, l'affidabilità.
+Validità e affidabilità sono le due proprietà fondamentali a cui fare riferimento per stabilire se un test è un buon test, e si collegano direttamente ai principi della Classical Test Theory (e in particolare la formula $X = T + E$, vedi il parafrago [Teoria Classica dei test](#teoria-classica-dei-test)) La validità risponde alla domanda _cosa stiamo misurando?_, cioè se il punteggio vero $T$ rifletta effettivamente il costrutto che il test intende misurare. L'affidabilità risponde invece alla domanda _quanto precisamente lo misuriamo?_, cioè quanto è piccola la componente d'errore $E$ rispetto al punteggio osservato $X$. Nei prossimi paragrafi tratteremo prima la validità e poi, in una sezione dedicata, l'affidabilità.
 
 ### Validità: introduzione
 
-Come per molti termini di questo libro, non esiste una definizione univoca di alidità. Di seguito ne è riportata una che cattura l'essenza di come è considerata la validità.
+Come per molti termini di questo libro, non esiste una definizione unanimamente accettata di validità. Di seguito ne è riportata una che cattura però bene l'essenza principale.
 
 :::{.callout-note}
 ## Definizione
@@ -446,12 +440,12 @@ _"La validità è il grado in cui un test misura effettivamente ciò che intende
 :::
 
 Un'altra possibile definizione di validità, con una sfumatura leggermente diversa è "la capacità di misurare quanto bene misura ciò che si propone di misurare, nel contesto in cui deve essere applicato"`(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}.
-In questo caso è evidenziato un aspetto importante e cioè che la validità non è semplicemente una proprità del test, ma può cambiare a seconda del contesto in cui è utilizzato (questo aspetto sarà ripreso nel paragrafo "validità di una misurazione" (DA COMPLETARE).
+In questo caso è messo in evidenza un aspetto importante e cioè che la validità non è semplicemente una proprità del test, ma può cambiare a seconda del contesto in cui è utilizzato (questo aspetto sarà ripreso nel paragrafo "validità di una specifica misurazione" (DA COMPLETARE).
 
-È importante notare che _ciò che si intende misurare_ non è necessariamento un costrutto.
-Un test potrebbe infatti avere come scopo quello di prevedere le possibilità di reinserimento a lavoro dopo il trauma cranico, oppure distinguere tra pazienti con Mild Cognitive Impairment (MCI) e soggetti con invecchiamento fisiologico. In tali casi l'obiettivo è chiaro e misurabile, ma non è, strettamente parlando, un concetto psicologico inosservabile.
+È importante notare che _ciò che si intende misurare_ non è necessariamento un costrutto (come la memoria, o l'attenzione).
+Un test potrebbe infatti avere uno scopo diverso dalla misurazione di un concetto psicologico inosservabile: sono esempi pratici quello di prevedere le possibilità di reinserimento a lavoro dopo il trauma cranico, oppure distinguere tra pazienti con Mild Cognitive Impairment (MCI) e soggetti con invecchiamento fisiologico. In tali casi l'obiettivo è chiaro e misurabile ma non è, strettamente parlando, un «costrutto».
 
-Indipendentemte dall'esatta definizione la validità è associata alla presenza di evidenze scientifiche, di diverso tipo, che il test possa dare , dando una base per le interpretazioni ai punteggi.
+Indipendentemte dall'esatta di cosa sia la validità, essa è associata alla presenza di evidenze scientifiche, di diverso tipo, che il test possa dare , dando una base per le interpretazioni ai punteggi.
 Un test con buona validità per misurare la memoria avrà dunque evidenze scientifiche che effettivamente misuri la memoria. Un test che è in grado di distinguere tra pazienti con Mild Cognitive Impairment (MCI) e soggetti sani, ha evidenze scientifiche che effettivamente sia in grado di farlo efficacemente.
 
 Un aspetto che è fondamentale sottolinare sin da subito è che la validità non è una proprietà generale e assoluta di un test, ma è sempre riferita a un suo **utilizzo specifico**. Non ha pertanto senso dire semplicemente che "un test è valido", mentre ha senso dire che un test è valido per un certo scopo, in una certa popolazione, in un certo contesto. Uno stesso test di memoria può avere buone evidenze di validità per identificare un decadimento cognitivo in soggetti anziani, e nessuna evidenza per, ad esempio, predire il rendimento scolastico in età evolutiva.
