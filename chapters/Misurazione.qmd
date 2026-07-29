@@ -391,24 +391,6 @@ Queste rispondono alla domanda posta in precedenza: come stabilire se un test è
 Nei manuali o articoli dei test neuropsicologici spesso non è esplicitamente scritto che sono sviluppati secondo la Classical Test Theory. Questo è desumibile però dall'utilizzo di certe caratteristiche, come l'utilizzo di Validità e Affidabilità, secondo specifiche declinazioni tipiche di questo framework.
 :::
 
-## Validità ed Affidabilità
-
-### Tipi di Validità e perché sono importanti
-#### Validità di costrutto
-#### Validità concorrente
-#### Validità predittiva
-#### Validità interna
-#### Validità di facciata
-#### Validità ecologica
-
-## Affidabilità
-
-### Tipi di affidabilità e perché sono importanti
-#### Consistenza Interna
-#### Affidabilità Test Retest
-#### Affidabilità Split-Half
-#### Inter-Rater Agreement
-
 ## Sviluppo di test secondo CTT
 
 ## Oltre la Teoria Classica dei Test {#oltre-la-teoria-classica-dei-test}
@@ -439,6 +421,213 @@ Invece di assumere che il costrutto sia descrivibile con un numero, la KST cerca
 Scopo della KST è capire se una classificazione in questi stati è effettivamente supportata empiricamente e se fornisce un quadro che può dire quali sono le transizioni più probabili da uno stato all'altro. Questo appare di ovvia utilità da un punto di vista di riabilitazione neuropsicologica, per esempio potrebbe suggerire quale è la direzione su cui insistere per andare verso un grado sempre maggiore di autonomia.
 La caratteristica della KST, in contrapposizione ad altri modelli di sviluppo di test (come CTT e IRT) e di misurazione è che appunto non cerca di descrivere costrutti come numeri. Considerando i costrutti neuropsicologici, queste premesse della KST sembrano quantomeno molto promettenti e sembrano catturare meglio la complessità degli stati in cui può trovare un paziente con una cerebrolesione o una malattia neurodegenerativa.
 -->
+
+
+## Validità ed Affidabilità
+
+:::{.callout-tip}
+## Il mio test è adeguato?
+Per alcuni tipi di validità e affidabilità la letteratura riporta valori soglia indicativi, ma non esiste un criterio universalmente condiviso per stabilire quando un test sia "adeguato". Per questo motivo, più che chiedersi se un test sia sufficiente o insufficiente, conviene ragionare in termini comparativi: un test ha più o meno evidenze di validità e affidabilità, ed è migliore o peggiore rispetto alle alternative disponibili per lo stesso scopo. I valori soglia riportati in questo capitolo vanno quindi letti come orientamenti pratici, non come standard assoluti, in linea con l'idea di un continuum Peggio ↔ Meglio, piuttosto che di una dicotomia netta.
+:::
+
+Validità e affidabilità sono le due proprietà fondamentali a cui fare riferimento per stabilire se un test è un buon test, e si collegano direttamente al principio cardine della CTT ($X = T + E$; cfr. paragrafo _Il principio cardine: X = T + E_). La validità risponde alla domanda _cosa stiamo misurando?_, cioè se il punteggio vero $T$ rifletta effettivamente il costrutto che il test intende misurare. L'affidabilità risponde invece alla domanda _quanto precisamente lo misuriamo?_, cioè quanto è piccola la componente d'errore $E$ rispetto al punteggio osservato $X$. Nei prossimi paragrafi tratteremo prima la validità e poi, in una sezione dedicata, l'affidabilità.
+
+### Validità: definizione
+
+### Tipi di Validità e perché sono importanti
+
+:::{.callout-note}
+## Definizione
+_"La validità è il grado in cui un test misura effettivamente il costrutto che intende misurare."_ `(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}
+:::
+
+Un aspetto spesso trascurato è che la validità non è una proprietà generale e assoluta di un test, ma è sempre riferita a un **utilizzo specifico**: non ha senso dire semplicemente che "un test è valido", mentre ha senso dire che un test è valido per un certo scopo, in una certa popolazione, in un certo contesto. Uno stesso test di memoria può avere buone evidenze di validità per identificare un decadimento cognitivo in soggetti anziani, e nessuna evidenza per, ad esempio, predire il rendimento scolastico in età evolutiva.
+
+Come per l'affidabilità, anche la validità è più utile pensarla come un **continuum**, piuttosto che come una proprietà binaria (valido/non valido): un test accumula, nel tempo e attraverso diversi studi, un insieme di evidenze a favore (o contro) un determinato utilizzo, e la nostra fiducia nel test dovrebbe aggiornarsi di conseguenza.
+
+Esistono diversi tipi di validità, spesso raggruppati in due grandi famiglie. Le validità **a priori** (di facciata e di contenuto) si valutano ragionando sul contenuto del test stesso, prima ancora di somministrarlo e raccogliere dati. Le validità **a posteriori** (di costrutto, di criterio ed ecologica) richiedono invece la raccolta di dati empirici, tipicamente confrontando il punteggio del test con altre misure esterne.
+
+#### Validità di facciata
+
+:::{.callout-note}
+## Definizione
+La validità di facciata è il grado in cui un test **sembra** misurare ciò che intende misurare, sulla base di un giudizio superficiale e non di dati empirici.
+:::
+
+Un test di memoria che chiede esplicitamente al paziente di "ricordare" una serie di elementi ha un'alta validità di facciata per la memoria; un questionario sull'ansia i cui item chiedono "quanto ti senti nervoso/a" ha un'alta validità di facciata per l'ansia. In entrambi i casi, chiunque guardi il test (paziente, clinico, valutatore esterno) ne intuisce lo scopo semplicemente osservandone il contenuto.
+
+La validità di facciata è la forma di validità meno rigorosa: viene valutata solo qualitativamente, senza alcuna analisi statistica. Talvolta è l'unica evidenza disponibile per un test, ma la sua plausibilità superficiale non è sufficiente per concludere che lo strumento misuri davvero il costrutto di interesse[^qmp].
+
+[^qmp]: Un esempio didattico spesso usato per illustrare questo punto è quello di un ipotetico "questionario di qualità psicologica" (QMP), che appare del tutto plausibile a prima vista, ma che una volta verificato empiricamente si rivela inaffidabile e privo di reali evidenze di validità.
+
+:::{.callout-tip}
+## Nota
+In ambito forense vale, per certi versi, il ragionamento opposto: i test progettati per rilevare la simulazione (_malingering_) non devono avere validità di facciata. Se il paziente comprende immediatamente che lo strumento valuta la sincerità delle sue risposte, la sua utilità clinica viene meno.
+:::
+
+#### Validità di contenuto
+
+:::{.callout-note}
+## Definizione
+La validità di contenuto è il grado in cui gli item di un test coprono in modo adeguato e rappresentativo tutti gli aspetti rilevanti del costrutto che si intende misurare.
+:::
+
+Un test con buona validità di contenuto campiona in modo sistematico l'intero dominio del costrutto: un test per la patente di guida che simula molte condizioni di guida reali (traffico urbano, manovre, situazioni di emergenza) ha una validità di contenuto migliore di un test che valuta solo la conoscenza teorica del codice della strada. Al contrario, un test di lettura composto da sole parole isolate ha una validità di contenuto scarsa se lo scopo è valutare la comprensione di un testo, perché non campiona aspetti come la coesione tra frasi o l'inferenza.
+
+Oltre al giudizio qualitativo di esperti, esiste anche un approccio quantitativo alla validità di contenuto, proposto da Lawshe `(\cite{lawshe1975quantitative})`{=latex}`(Lawshe, 1975)`{=html}: un gruppo di giudici esperti valuta ogni singolo item, e le loro valutazioni vengono aggregate in un indice per item (_Content Validity Ratio_, CVR) e in un indice complessivo per il test (_Content Validity Index_, CVI)[^cvi]. Nei test italiani la validità di contenuto è riportata raramente in modo esplicito; tra le eccezioni vi sono l'ABaCo (Sacco et al., 2008) e l'APACS (Arcara & Bambini, 2016).
+
+[^cvi]: Il calcolo del CVR e del CVI, così come le tabelle con i valori soglia in funzione del numero di giudici coinvolti, sono trattati più in dettaglio nella sezione _Approfondimenti tecnici_.
+
+<!-- Per sezione "Approfondimenti tecnici": formula del CVR di Lawshe (1975), CVR = (ne - N/2)/(N/2), dove ne è il numero di giudici che valutano l'item come "essenziale" e N il numero totale di giudici; tabella dei valori soglia in funzione di N (Lawshe, 1975; aggiornamenti in Wilson et al., 2012; Ayre & Scally, 2014); relazione tra CVR per item e CVI complessivo del test (media dei CVR degli item mantenuti); cenni alla tabella di Yusoff (2019) per i valori minimi accettabili. -->
+
+#### Validità di costrutto
+
+:::{.callout-note}
+## Definizione
+La validità di costrutto è il grado in cui i punteggi di un test si comportano in accordo con la teoria del costrutto che il test intende misurare.
+:::
+
+Si articola tipicamente in tre componenti complementari:
+
+- **Validità convergente**: il punteggio del test correla con altre misure dello stesso costrutto, o di costrutti teoricamente vicini.
+- **Validità divergente (o discriminante)**: il punteggio del test mostra una correlazione bassa con misure di costrutti teoricamente distinti. Per esempio, un test di autonomia funzionale come la NADL-F dovrebbe correlare pochissimo con una scala di depressione come la GDS, se i due strumenti misurano davvero costrutti diversi.
+- **Struttura fattoriale**: gli item del test si raggruppano in modo coerente con il modello teorico del costrutto, tipicamente verificato con l'analisi fattoriale esplorativa (EFA) o confermativa (CFA), talvolta con un cenno all'analisi delle componenti principali (PCA). Anche in questo caso, ciò che conta ai fini della validità è che il raggruppamento empirico degli item rispecchi le dimensioni teoriche attese, più dei dettagli tecnici della procedura statistica utilizzata.
+
+Per la validità di costrutto non esiste un valore soglia universale (una correlazione convergente "abbastanza alta" o divergente "abbastanza bassa"), il che la rende, tra i tipi di validità, quella più esposta al rischio di flessibilità interpretativa post-hoc: è facile, guardando i dati a posteriori, trovare una spiegazione plausibile per qualunque pattern di correlazioni osservato. Per questo motivo, le ipotesi su quali correlazioni ci si aspetta di trovare (e quali no) andrebbero specificate prima di raccogliere i dati, per esempio tramite pre-registrazione dello studio.
+
+#### Validità concorrente
+
+Un aspetto della validità di costrutto, riferito nello specifico a un confronto con un **criterio esterno** (una variabile osservabile, spesso considerata un gold standard per il costrutto di interesse), è quello che va sotto il nome di validità di criterio. Se il criterio è misurato **nello stesso momento** in cui si somministra il test, si parla di validità concorrente. Esempi tipici sono la correlazione tra un test breve di screening e una batteria estesa somministrata nella stessa sessione, oppure il confronto tra una versione online e una versione in presenza dello stesso strumento. Per un criterio continuo, in letteratura si trovano tipicamente valori attesi di correlazione pari o superiori a 0.70-0.80.
+
+#### Validità predittiva
+
+Se invece il criterio esterno viene misurato in un momento **successivo**, si parla di validità predittiva. Esempi: un punteggio basale che predice la diagnosi di demenza a due anni di distanza, oppure uno screening scolastico che predice l'esito degli apprendimenti a fine anno. Non a caso, strumenti come il MoCA `(\cite{nasreddine2005montreal})`{=latex}`(Nasreddine et al., 2005)`{=html} e il MMSE `(\cite{folstein1975mini})`{=latex}`(Folstein et al., 1975)`{=html} nascono proprio con evidenze di validità di criterio, verificando cioè che i punteggi distinguessero correttamente gruppi noti (per esempio pazienti con decadimento cognitivo lieve, con demenza conclamata, e controlli sani).
+
+Questa variante, in cui il criterio non è una misura continua ma un'appartenenza a gruppi già noti a priori (per esempio diagnosi confermate con altri mezzi), va sotto il nome di **validità dei gruppi noti** (_known-groups validity_), e viene tipicamente espressa in termini di sensibilità e specificità nel distinguere i gruppi, per cui in letteratura si raccomandano spesso valori pari o superiori a 0.80. Su questi indici, e sulla scelta dei punteggi di cut-off, torneremo in modo più approfondito nei capitoli dedicati.
+
+#### Validità interna
+
+Un aspetto distinto, ma strettamente collegato, riguarda la qualità metodologica degli studi con cui si raccolgono le evidenze di validità: si parla in questo caso di **validità interna** del disegno di ricerca. Se lo studio che raccoglie le evidenze presenta dei confondimenti, le conclusioni sulla validità del test diventano meno solide. Per esempio, in uno studio di validità concorrente in cui il gruppo di pazienti e il gruppo di controllo differiscono sistematicamente per età o scolarità, un'eventuale differenza nei punteggi al test potrebbe riflettere queste variabili di confondimento, piuttosto che il costrutto che il test intende misurare.
+
+La validità interna si contrappone alla **validità esterna**, cioè alla generalizzabilità dei risultati di uno studio ad altri contesti, popolazioni o momenti temporali. Un disegno di ricerca con alta validità interna, ma condotto su un campione molto specifico, può avere scarsa validità esterna, e viceversa.
+
+#### Validità ecologica
+
+:::{.callout-note}
+## Definizione
+La validità ecologica è il grado in cui il punteggio di un test predice il comportamento della persona nella vita quotidiana reale, al di fuori del contesto di somministrazione.
+:::
+
+Si valuta tipicamente calcolando la correlazione tra il punteggio del test e misure del funzionamento quotidiano, per esempio scale di attività della vita quotidiana (ADL/IADL) o questionari compilati dal paziente o da un caregiver. Anche in questo caso non esiste un valore soglia condiviso in letteratura.
+
+La validità ecologica è spesso trascurata nella pratica, in parte perché raccogliere dati sul funzionamento quotidiano reale è più difficile e costoso che raccogliere altri tipi di evidenza. È però una dimensione particolarmente rilevante in neuropsicologia clinica e forense, dove l'obiettivo ultimo della valutazione è spesso proprio stabilire l'impatto di un deficit cognitivo sull'autonomia della persona nella vita reale.
+
+Tabella riassuntiva:
+
+| Tipo di validità | Come si valuta | Soglia indicativa |
+|---|---|---|
+| Facciata | Giudizio qualitativo | Nessuna (solo qualitativa) |
+| Contenuto | Giudizio di esperti; CVR/CVI (Lawshe, 1975) | Dipende dal numero di giudici |
+| Costrutto (convergente) | Correlazione con test dello stesso costrutto | Nessun valore universale |
+| Costrutto (divergente) | Correlazione (bassa attesa) con costrutto diverso | Nessun valore universale |
+| Costrutto (struttura fattoriale) | Analisi fattoriale (EFA/CFA) | Dipende dal modello teorico |
+| Concorrente | Correlazione con criterio esterno simultaneo | ≥ 0.70-0.80 |
+| Predittiva / gruppi noti | Correlazione, oppure sensibilità/specificità | ≥ 0.80 per sensibilità/specificità |
+| Ecologica | Correlazione con scale di vita quotidiana | Nessuna soglia condivisa |
+
+: Sintesi dei tipi di validità, delle modalità con cui vengono tipicamente valutati e dei valori soglia indicativi riportati in letteratura. {#tbl-validita}
+
+## Affidabilità
+
+:::{.callout-note}
+## Definizione
+L'affidabilità è la qualità di un test di fornire punteggi consistenti in diverse misurazioni; può essere intesa, in prima approssimazione, come la precisione di un test.
+:::
+
+Tornando all'equazione cardine della CTT ($X = T + E$), l'affidabilità esprime quanto la componente d'errore $E$ sia piccola rispetto al punteggio osservato $X$: un test molto affidabile è un test in cui, somministrazione dopo somministrazione, $E$ resta sistematicamente piccolo, e i punteggi osservati restano quindi vicini al punteggio vero $T$.
+
+Affidabilità e validità sono concetti distinti ma collegati, in un modo spesso reso con l'analogia tra **precisione** e **accuratezza**: un test può essere affidabile senza essere valido, cioè misurare qualcosa con grande precisione, ma non il costrutto che ci interessa. Il contrario non è invece possibile: un test valido deve necessariamente essere anche affidabile, perché non è possibile misurare bene un costrutto con uno strumento impreciso. L'affidabilità è quindi una condizione necessaria, ma non sufficiente, per la validità.
+
+### Tipi di affidabilità e perché sono importanti
+
+I valori soglia riportati in questo paragrafo sono **indicativi e non universali**: la letteratura non è unanime, e non è raro che test pubblicati e ampiamente utilizzati circolino con valori di affidabilità ben al di sotto di quelli raccomandati `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}. Una classificazione generale della grandezza dei coefficienti di affidabilità, che vale come riferimento orientativo per tutti i tipi di affidabilità trattati di seguito, è la seguente (Slick, cap. 1):
+
+| Grandezza del coefficiente | Interpretazione |
+|---|---|
+| ≥ .90 | Molto alta |
+| .80-.89 | Alta |
+| .70-.79 | Adeguata |
+| .60-.69 | Marginale |
+| < .60 | Bassa |
+
+: Classificazione generale della grandezza dei coefficienti di affidabilità (Slick, cap. 1 in Spreen & Strauss, 2006). {#tbl-affidabilita-generale}
+
+Per le decisioni cliniche, Sattler `(\cite{sattler2001assessment})`{=latex}`(Sattler, 2001)`{=html} propone soglie più stringenti: per i test usati nella valutazione del singolo individuo si raccomanda un'affidabilità pari o superiore a .80; per i test usati per decisioni particolarmente importanti (per esempio la stima del QI o una diagnosi), .90 è considerato il minimo assoluto, e .95 il valore ottimale.
+
+#### Consistenza Interna
+
+La consistenza interna misura quanto gli item di un test siano tra loro coerenti, cioè quanto misurino, almeno in parte, la stessa cosa. L'indice più diffuso è l'alpha di Cronbach ($\alpha$), che varia da 0 a 1 e può essere pensato, in modo intuitivo, come la media di tutte le possibili affidabilità split-half calcolabili su quel test (cfr. paragrafo successivo). Un'alternativa più recente, e in generale considerata più robusta, è l'omega di McDonald ($\omega$)[^omega].
+
+[^omega]: Le assunzioni statistiche alla base di $\alpha$ e $\omega$, e le formule per calcolarli, sono trattate più in dettaglio nella sezione _Approfondimenti tecnici_.
+
+Valori indicativi per la consistenza interna (Cicchetti et al., 1990, citato in Slick, cap. 1): valori inferiori a .70 sono considerati inaccettabili, tra .70 e .79 discreti, tra .80 e .89 buoni, e pari o superiori a .90 eccellenti. Nei test neuropsicologici la consistenza interna tende però ad essere più bassa della media, spesso intorno a .60, in parte perché molti di questi test valutano domini eterogenei di abilità piuttosto che un singolo costrutto omogeneo (Slick, cap. 1).
+
+È importante ricordare che un'alta consistenza interna non implica di per sé validità: item molto correlati tra loro potrebbero riflettere un costrutto diverso da quello che il test intende misurare. Inoltre, per i test di velocità (in cui il punteggio dipende dal numero di item completati entro un tempo limite, più che dalla loro correttezza) la consistenza interna, sia calcolata come alpha sia come split-half, non è una misura di affidabilità appropriata (Slick, cap. 1).
+
+#### Affidabilità Test-Retest
+
+L'affidabilità test-retest misura la consistenza dei punteggi ottenuti somministrando lo stesso test alla stessa persona in due occasioni diverse, assumendo che nell'intervallo tra le due somministrazioni non vi siano stati cambiamenti reali nel costrutto misurato. Si esprime tipicamente con un coefficiente di correlazione o con un Intraclass Correlation Coefficient (ICC; cfr. paragrafo su Inter-Rater Agreement).
+
+Valori indicativi: pari o superiori a .70 (Andrews et al., 1994; Burlingame et al., 1995, citati in Slick, cap. 1); per le decisioni cliniche sul singolo individuo si raccomanda .80 (Sattler, 2001).
+
+Due punti critici meritano attenzione:
+
+1. **Dipendenza dall'intervallo**: uno stesso test non ha un'unica affidabilità test-retest, ma infinite, perché il valore cambia a seconda dell'intervallo scelto tra le due somministrazioni, ed è tipicamente più alto con intervalli brevi (Anastasi & Urbina, 1997, citati in Slick, cap. 1).
+2. **Effetto pratica**: se il test misura una prestazione, la seconda somministrazione potrebbe beneficiare dell'esperienza acquisita nella prima. Un simile effetto sistematico non viene catturato dal coefficiente di correlazione, che è sensibile a quanto i punteggi si muovono insieme, ma non a un eventuale cambiamento sistematico del livello medio dei punteggi (Slick, cap. 1).
+
+Nonostante queste complessità, l'affidabilità test-retest è spesso considerata, in ambito clinico, la forma di affidabilità più rilevante, perché più vicina alla domanda pratica che un clinico si pone: se rivalutassi questa persona tra qualche tempo, quanto potrei fidarmi di un'eventuale differenza tra i due punteggi?
+
+#### Affidabilità Split-Half
+
+L'affidabilità split-half stima l'affidabilità di un test dividendolo in due metà (tipicamente gli item pari da un lato e gli item dispari dall'altro) e calcolando la correlazione tra i punteggi ottenuti sulle due metà. Il vantaggio principale, rispetto al test-retest, è che non richiede due somministrazioni separate. Il limite principale è che il risultato dipende, almeno in parte, da come viene effettuata la divisione in due metà, che resta in una certa misura arbitraria.
+
+Poiché ciascuna metà è più corta dell'intero test, e un test più corto tende ad essere meno affidabile di uno più lungo, il coefficiente di correlazione tra le due metà sottostima l'affidabilità del test completo. Per correggere questa sottostima si applica tipicamente la correzione di Spearman-Brown[^spearmanbrown].
+
+[^spearmanbrown]: La formula della correzione di Spearman-Brown è trattata più in dettaglio nella sezione _Approfondimenti tecnici_.
+
+Valori indicativi: pari o superiori a .70-.80 (Slick, cap. 1).
+
+#### Inter-Rater Agreement
+
+L'accordo tra valutatori (_inter-rater agreement_) misura quanto sia consistente il punteggio assegnato da valutatori diversi che osservano la stessa prestazione. È particolarmente rilevante per i test in cui il punteggio dipende da un giudizio qualitativo dell'esaminatore, più che da una correzione automatica e univoca: per esempio test di fluenza verbale, test di disegno, o compiti di descrizione.
+
+Si esprime tipicamente con l'Intraclass Correlation Coefficient (ICC), che varia da 0 a 1 ed è generalmente preferito alla correlazione di Pearson perché tiene conto anche dell'accordo assoluto tra i valutatori (cioè se assegnano più o meno lo stesso punteggio), e non solo di quanto i loro punteggi si muovono insieme (Fastenau et al., 1996, citati in Slick, cap. 1).
+
+Valori indicativi (Cicchetti & Sparrow, 1981, citati in Slick, cap. 1): inferiori a .40 scarsi, tra .40 e .59 discreti, tra .60 e .74 buoni, pari o superiori a .75 eccellenti. Con una classificazione lievemente diversa, Fastenau et al. (1996) considerano .60 come soglia per un accordo "sostanziale" e .75-.80 per un accordo "quasi perfetto".
+
+Tabella riassuntiva:
+
+| Tipo di affidabilità | Come si valuta | Soglia indicativa | Fonte |
+|---|---|---|---|
+| Consistenza interna | Alpha di Cronbach, Omega di McDonald | ≥ .70 (buono ≥ .80; in neuropsicologia spesso ~.60) | Cicchetti et al., 1990; Sattler, 2001 |
+| Test-retest | Correlazione o ICC | ≥ .70 (valutazione individuale ≥ .80) | Andrews et al., 1994; Sattler, 2001 |
+| Split-half | Correlazione + correzione di Spearman-Brown | ≥ .70-.80 | Slick, cap. 1 |
+| Inter-rater | ICC (preferito a Pearson) | ≥ .60 buono; ≥ .75 eccellente | Cicchetti & Sparrow, 1981; Fastenau et al., 1996 |
+
+: Sintesi dei tipi di affidabilità, delle modalità con cui vengono tipicamente valutati e dei valori soglia indicativi riportati in letteratura. Tutti i valori sono indicativi e non costituiscono uno standard universalmente condiviso: valgono, anche qui, il principio del continuum Peggio/Meglio e le soglie più stringenti raccomandate da Sattler (2001) per le decisioni cliniche sul singolo individuo (≥ .80; ≥ .90 per le decisioni ad alto impatto). {#tbl-affidabilita}
+
+### Come faccio a sapere se il mio test è adeguato?
+
+:::{.callout-tip}
+## Come documentarsi
+- **Il primo posto in cui cercare** è il manuale del test, oppure l'articolo originale con cui lo strumento è stato presentato: è lì che si trovano le evidenze di validità e affidabilità raccolte dagli autori al momento della pubblicazione.
+- **Le evidenze non si esauriscono con la pubblicazione**: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022), quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche gli **studi successivi** che lo citano (per esempio tramite Google Scholar o PubMed), per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
+- **Il fatto che un test sia pubblicato, anche da autori esperti, non garantisce di per sé nulla**: uno strumento pubblicato può comunque avere una bassa affidabilità, o nessuna evidenza di validità per lo specifico utilizzo che se ne vuole fare. Valutare criticamente queste evidenze fa parte del lavoro di chi utilizza il test in ambito clinico.
+:::
+
+Come già sottolineato all'inizio di questa sezione, le evidenze di validità e affidabilità si accumulano nel tempo, e vanno lette come un continuum piuttosto che come un giudizio definitivo: usare oggi un test con prove ancora limitate non equivale automaticamente a usare un test "non valido", ma significa muoversi verso il polo peggiore del continuum. È anche per questo motivo che l'aggiornamento professionale continuo è così rilevante in questo ambito: nuove prove pubblicate nel tempo possono spostare la valutazione complessiva di uno strumento, in meglio o in peggio.
+
+
 
 ## Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
 
