@@ -25,3 +25,7 @@ Rilasciata versione iniziale del libro che include
 - aggiunta sezione su Validità (teoria).
 - aggiornata figura sulla CTT.
 - aggiornata sezione su Validità.
+
+### v0.2.0
+- separata la sezione Validità e Affidabilità in un capitolo autonomo (chapters/Validita-Affidabilita.qmd), distinto dal capitolo su misurazione e test (rinominato "Misurazione e Test in Neuropsicologia Clinica").
+- aggiornati indice provvisorio e riferimenti incrociati (Introduzione, numerazione dei capitoli) di conseguenza.

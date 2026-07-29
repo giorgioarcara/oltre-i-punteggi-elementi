@@ -5,7 +5,7 @@ suppress-bibliography: true
 `<img src="Figures/cover-html.png" style="width:100%; height:auto; display:block; margin:auto;" />`{=html}
 
 ```{r, echo=FALSE}
-cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.1.3-alpha"))
+cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.2.0"))
 ```
 
 
@@ -87,7 +87,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Cosa il libro NON tratta
   * Sezioni speciali: _Approfondimenti_, _Nella pratica clinica_, _Errori comuni_
 
-**1. Psicometria per la Neuropsicologia clinica**
+**1. Misurazione e Test in Neuropsicologia Clinica**
   * Perché è importante misurare?
   * Misurazione e neuropsicologia clinica
   * Quale definizione di misurazione adottano i test neuropsicologici?
@@ -96,17 +96,19 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
     * Test di prestazione massima
     * Test di comportamento tipico
   * Teoria Classica dei Test
-  * Validità ed Affidabilità
-    * Validità
-    * Affidabilità
   * Sviluppo di test tramite Teoria Classica dei Test
   * Oltre la Teoria Classica dei Test
+  * Capitolo 1: Riassunto
+
+**2. Validità e Affidabilità**
+  * Validità
+  * Affidabilità
   * Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
   * Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
   * Errori comuni nel considerare gli aspetti psicometrici dei test
-  * Capitolo 1: Riassunto
+  * Capitolo 2: Riassunto
 
-**2. Identificare Deficit e danni cognitivi**
+**3. Identificare Deficit e danni cognitivi**
 
   * I concetti di _deficit_ e _danno_ in valutazione dell'adulto
   * Il concetto di _deficit_ in età evolutiva
@@ -124,10 +126,10 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Errori comuni nell'utilizzo dei cut-offs di normalità
   * Approfondimento: Perché usiamo i cut-off basati su soggetti normali?
   * Approfondimento: il MoCA e i problemi della sua introduzione in Italia
-  * Capitolo 2: Riassunto
+  * Capitolo 3: Riassunto
 
-  
-**3. Identificare patologie o condizioni di interesse**
+
+**4. Identificare patologie o condizioni di interesse**
 
   * Il _gold standard_ in neuropsicologia clinica e forense
   * Cut-off di discriminazione
@@ -135,42 +137,42 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Altre misure di performance di identificazione
   * Approfondimento pratico: utilizzare test con cut-off di discriminazione
   * Errori comuni nell'utilizzo di cut-off di discriminazione
-  * Capitolo 3: Riassunto
+  * Capitolo 4: Riassunto
 
-  
-**4. Indagare cambiamenti nel tempo** 
+
+**5. Indagare cambiamenti nel tempo**
   
   * Affidabilità test-retest e importanza per studiare cambiamenti nel tempo
   * Forme parallele
   * Effetto pratica
   * Reliable Change Index e altri metodi per cambiamenti nel tempo
   * Errori comuni nell'indagare cambiamenti nel tempo
-  * Capitolo 4: Riassunto
+  * Capitolo 5: Riassunto
 
-  
-**5. Confrontare punteggi a test diversi**
+
+**6. Confrontare punteggi a test diversi**
 
  * Utilizzo di z-score o percentili.
  * Punteggi Equivalenti.
- * Capitolo 5: Riassunto
+ * Capitolo 6: Riassunto
 
-**6. Valutazioni forensi e il problema della Simulazione**
+**7. Valutazioni forensi e il problema della Simulazione**
 
   * La validità di performance
   * Identificare la simulazione in una valutazione
-  * Capitolo 6: Riassunto
+  * Capitolo 7: Riassunto
 
-  
-**7. Il teorema di Bayes e la sua rilevanza in clinica**
+
+**8. Il teorema di Bayes e la sua rilevanza in clinica**
 
   * Il teorema di Bayes in breve
   * Perché il teorema di Bayes è rilevante in neuropsicologia clinica
   * Perché il teorema di Bayes è rilevante in neuropsicologia forense
   * Errori comuni: cosa può succedere se non si utilizza il Teorema di Bayes nelle interpretazioni.
-  * Capitolo 7: Riassunto
+  * Capitolo 8: Riassunto
 
 
-**8. Interpretare i risultati ai test neuropsicologici**
+**9. Interpretare i risultati ai test neuropsicologici**
 
   * Perché _Interpretazione_ e non _Lettura_?
   * L' _Interpretative Approach_ nella pratica clinica
@@ -179,16 +181,16 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
     * Integrare i risultati ai test con informazioni qualitative
     * Interpretare casi anomali
   * Conclusioni: il ruolo fondamentale della/del professionista nell'utilizzo dei test.
-  * Capitolo 8: Riassunto
+  * Capitolo 9: Riassunto
 
-**9. Epistemologia della Neuropsicologia Clinica**
+**10. Epistemologia della Neuropsicologia Clinica**
 
  * Perché è importante un capitolo sull'Epistemologia?
  * Metodologia ed Epistemologia
  * Il potenziale ruolo dell'AI nella valutazione neuropsicologica
- * Capitolo 9: Riassunto
+ * Capitolo 10: Riassunto
 
-  
+
 **Appendici**
 
   * Note di redazione
