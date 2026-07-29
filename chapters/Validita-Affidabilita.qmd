@@ -1,10 +1,17 @@
 ---
 suppress-bibliography: true
 ---
-
 # Validità e Affidabilità {#validita-e-affidabilita}
 
-Validità e affidabilità sono le due proprietà fondamentali a cui fare riferimento per stabilire se un test è un buon test, e si collegano direttamente ai principi della Classical Test Theory (e in particolare alla formula $X = T + E$, vedi il paragrafo [Teoria Classica dei Test](Misurazione.qmd#teoria-classica-dei-test) nel capitolo precedente). In sintesi, la validità risponde alla domanda _cosa stiamo misurando?_, cioè se il punteggio vero $T$ rifletta effettivamente il costrutto che il test intende misurare, mentre l'affidabilità risponde a _quanto precisamente lo misuriamo?_, cioè quanto è piccola la componente d'errore $E$ rispetto al punteggio osservato $X$. Nei prossimi paragrafi tratteremo prima la validità e poi, in una sezione dedicata, l'affidabilità.
+:::{.domanda}
+Possiamo considerare gli strumenti di misurazione tutti precisi allo stesso modo?
+:::
+
+La risposta a questa domanda retorica è, chiaramente, no. Sappiamo bene che esistono strumenti più o meno precisi, e nella vita quotidiana ci regoliamo di conseguenza. Un geometra che deve rilevare un muro non si affida a un metro pieghevole, ma a un rilevatore laser. Per misurare con esattezza la temperatura di un bambino preferiamo comunque il termometro ascellare, scomodo ma preciso, al termometro auricolare, che fornisce una lettura più rapida ma meno stabile. Gli esempi si potrebbero moltiplicare, ma il principio resta lo stesso: quando una misurazione è rilevante, scegliamo gli strumenti che riteniamo più adeguati a garantirla.
+
+Su questo principio si fonda il presente capitolo. Anche i test neuropsicologici sono strumenti di misurazione, e come tali impongono attenzione alla loro precisione. Nell'ambito degli strumenti costruiti secondo la teoria classica dei test, la bontà di uno strumento è catturata principalmente da due proprietà: validità e affidabilità.
+
+Entrambe sono direttamente collegate alla formula cardine $X = T + E$, (vedi il paragrafo [Teoria Classica dei Test](Misurazione.qmd#teoria-classica-dei-test) nel capitolo precedente). In sintesi, la validità risponde alla domanda _"cosa stiamo misurando?"_, cioè se il punteggio vero $T$ rifletta effettivamente il costrutto che il test intende misurare, mentre l'affidabilità risponde a _"quanto precisamente siamo misurando?"_, cioè quanto è piccola la componente d'errore $E$ rispetto al punteggio osservato $X$. Nei prossimi paragrafi tratteremo prima la validità e, di seguito, l'affidabilità.
 
 ## Validità
 
