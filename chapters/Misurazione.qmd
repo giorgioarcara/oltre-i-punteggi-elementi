@@ -426,3 +426,13 @@ La caratteristica della KST, in contrapposizione ad altri modelli di sviluppo di
 
 
 ## Capitolo 1: Riassunto
+
+Il capitolo ha introdotto la misurazione come l'assegnazione di numeri a entità di interesse (tipicamente costrutti cognitivi) e ha argomentato perché misurare sia centrale per un approccio scientifico alla neuropsicologia clinica.
+
+Abbiamo poi distinto tra _costrutti_ (proprietà psicologiche non osservabili) e _indicatori_ (comportamenti osservabili, come le risposte a un test), e confrontato due definizioni classiche di misurazione: quella permissiva di Stevens (1946), basata sull'assegnazione di numeri secondo regole e sulle quattro scale di misura, e quella più rigorosa di Suppes e Zinnes (1963), che richiede un omomorfismo verificato empiricamente tra sistema relazionale empirico e numerico.
+
+Applicando queste definizioni ai test neuropsicologici, abbiamo mostrato che la maggior parte di essi assume implicitamente (e senza verifica) una _scala a intervalli_, un'assunzione discutibile ma diffusa.
+
+Abbiamo poi definito cosa sia un _test_, a partire dalla definizione di Cronbach (1990), sottolineando che i test psicologici si distinguono per l'interesse (quasi sempre) verso un costrutto sottostante e non solo verso il comportamento osservato. Abbiamo quindi esaminato alcune possibili classificazioni di test.
+
+Il nucleo psicometrico del capitolo è la Teoria Classica dei Test (CTT), il framework su cui si basa implicitamente la maggior parte dei test neuropsicologici, sintetizzato dall'equazione $X = T + E$ (punteggio osservato = punteggio vero + errore casuale). Abbiamo discusso i suoi limiti principali: l'assenza di una modellazione separata di abilità e difficoltà degli item, e la violazione dell'indipendenza tra $T$ ed $E$ ai valori estremi della scala.
