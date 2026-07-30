@@ -283,7 +283,6 @@ L'esempio più rilevante in ambito neuropsicologico e che negli ultimi anni ha a
 
 Questi strumenti condividono con i test psicologici il fatto di produrre un punteggio numerico, e rientrano quindi nella definizione di test di Cronbach. 
 
-
 ### Questo è un buon test?
 
 La definizione di Cronbach, pur essendo ampia e inclusiva, lascia aperta una domanda importante: _qualunque_ strumento che assegni numeri a comportamenti osservati può essere considerato un buon test? Consideriamo il seguente test ipotetico per la memoria:
@@ -297,6 +296,7 @@ Ma questo è davvero un buon test per la memoria?
 :::
 
 È verosimile che la vostra risposta "di pancia", sia stata _no_, anche se non avete una spiegazione tecnica. Potreste dire per esempio che è troppo semplice, che 7 parole sono poche[^pochiitems], che 30 secondi sono pochi, che le parole sono troppo facili, etc. Tutte queste considerazioni sono ragionevoli e probabilmente condivisibili, ma non sono basate su aspetti tecnici o su effettive verifiche sulla qualità del test. Sono semplicemente basate sul buon senso e sull'esperienza clinica.
+
 [^pochiitems]: Il numero di item da solo non è un indicatore della qualità di un test. Esistono test pubblicati e validati anche con pochissimi item: per esempio, esiste una versione a 3 item della _UCLA Loneliness Scale_ per la misurazione `(\cite{gosling2024measuring})`{=latex}`(Gosling et al., 2024)`{=html}.
 
 Nel corso di questo libro daremo delle risposte più rigorose a questa domanda. Quello che per ora è importante sottolineare che, anche se questo strumento soddisfa formalmente le definizioni di test e di misurazione, non è detto che sia un buon test: dobbiamo avere altre evidenze per poter dire che questo strumento misura la memoria in modo accurato e preciso.
@@ -381,10 +381,14 @@ Questi limiti non rendono la CTT inutilizzabile, e i test neuropsicologici che n
 L'alternativa principale alla CTT è l'**Item Response Theory** (IRT), una famiglia di modelli in cui l'abilità del soggetto e la difficoltà degli item vengono modellate separatamente, superando così uno dei limiti fondamentali della CTT. Questo aspetto sarà approfondito nel paragrafo [_Introduzione all'Item Response Theory_](#introduzione-item-response-theory).
 -->
 
-## Sviluppo di un test secondo la CTT
 
+### Costrutti misurati dai test neuropsicologici
+- intro su quali sono i costrutti? 
+- test eteroegenei e non esiste un chiaro riferimento: ci sono talvolta domini, ma non esiste (se non in libri come Lezak), un elenco comprensivo di domini.
+- altri costrutti sono più vaghi e utilizzati in clinica. Es. FAB.
+- eterogeneità legata ad epistemologia (rimanda).
 
-### Riassunto sulla CTT
+### Riassunto sulla CTT <!-- valutare se mantenere questo paragrafo o se accorpare con riassunto finale-->
 Abbiamo descritto il principio cardine della CTT e alcune delle sue assunzioni fondamentali. Come anticipato, la maggior parte dei test neuropsicologici adotta implicitamente questo framework e questo lo si desume dalle analisi e dalle metodologie impiegate nel loro sviluppo, più che da una dichiarazione esplicita.
 
 Queste rispondono alla domanda posta in precedenza: come stabilire se un test è un buon test? Secondo la CTT, sono necessarie informazioni sulla **validità** del test, intesa come giustificazione del legame tra punteggio e costrutto, e sulla sua **affidabilità**, ovvero la precisione e la consistenza della misura. Questi due concetti costituiscono il nucleo della psicometria nell'ambito della CTT e saranno trattati in dettaglio nel [capitolo successivo](Validita-Affidabilita.qmd#validita-e-affidabilita), dedicato interamente a Validità e Affidabilità.
