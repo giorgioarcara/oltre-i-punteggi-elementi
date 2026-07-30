@@ -1,0 +1,56 @@
+\documentclass[tikz]{standalone}
+
+\usepackage{tikz}
+\usepackage{xcolor}
+\usetikzlibrary{positioning, fit, backgrounds}
+
+% Gentle, low-saturation colors, chosen to remain distinguishable when printed in grayscale
+\definecolor{validfill}{RGB}{209,223,235}
+\definecolor{validline}{RGB}{68,98,128}
+\definecolor{relfill}{RGB}{224,190,152}
+\definecolor{relline}{RGB}{150,98,58}
+
+\begin{document}
+
+\begin{tikzpicture}[
+    thick,
+    box/.style={draw, rounded corners, align=center, text width=4.8cm, minimum height=1cm, font=\small},
+    boxvalid/.style={box, fill=validfill, draw=validline},
+    boxrel/.style={box, fill=relfill, draw=relline},
+    colhead/.style={font=\bfseries\Large},
+    note/.style={align=center, font=\small\itshape, text width=5.2cm}
+]
+
+% ---------- Title ----------
+\node[font=\bfseries\LARGE] (title) at (0,0) {Tipi di Validità e Affidabilità};
+
+% ---------- Column headings ----------
+\node[colhead, text=validline, below=8mm of title, xshift=-4.3cm] (validhead) {Validità};
+\node[colhead, text=relline, below=8mm of title, xshift=4.3cm] (affhead) {Affidabilità};
+
+% ---------- LEFT COLUMN: Validità ----------
+\node[boxvalid, below=12mm of validhead] (facciata) {Validità di facciata};
+\node[boxvalid, below=4mm of facciata] (contenuto) {Validità di contenuto};
+
+\node[boxvalid, below=24mm of contenuto] (costrutto) {Validità di costrutto \\ \footnotesize (convergente, divergente, \\ struttura fattoriale)};
+\node[boxvalid, below=4mm of costrutto] (criterio) {Validità di criterio \\ \footnotesize (concorrente, \\ predittiva / gruppi noti)};
+\node[boxvalid, below=4mm of criterio] (ecologica) {Validità ecologica};
+
+\begin{scope}[on background layer]
+\node[draw=validline, dashed, rounded corners, fit=(facciata)(contenuto), inner sep=4mm, label={[font=\bfseries\small, text=validline]above:A priori}] (aprioribox) {};
+\node[draw=validline, dashed, rounded corners, fit=(costrutto)(criterio)(ecologica), inner sep=4mm, label={[font=\bfseries\small, text=validline]above:A posteriori}] (aposteribox) {};
+\end{scope}
+
+\node[note, below=10mm of aposteribox] (validnote) {Per la validità non esistono valori soglia universali per una validità "adeguata": i risultati vanno opportunamente motivati.};
+
+% ---------- RIGHT COLUMN: Affidabilità ----------
+\node[boxrel, below=12mm of affhead] (consistenza) {Consistenza interna};
+\node[boxrel, below=4mm of consistenza] (testretest) {Affidabilità test-retest};
+\node[boxrel, below=4mm of testretest] (splithalf) {Affidabilità split-half};
+\node[boxrel, below=4mm of splithalf] (interrater) {Inter-rater agreement};
+
+\node[note] (affnote) at (validnote -| affhead) {Valore soglia desiderabile "standard": $\geq$ .70-.80 \\ (vedi testo per approfondimenti)};
+
+\end{tikzpicture}
+
+\end{document}
