@@ -7,7 +7,9 @@ suppress-bibliography: true
 Possiamo considerare gli strumenti di misurazione tutti precisi allo stesso modo?
 :::
 
-La risposta a questa domanda retorica è, chiaramente, no. Sappiamo bene che esistono strumenti più o meno precisi, e nella vita quotidiana ci regoliamo di conseguenza. Un geometra che deve rilevare un muro non si affida a un metro pieghevole, ma a un rilevatore laser. Per misurare con esattezza la temperatura di un bambino preferiamo comunque il termometro ascellare, scomodo ma preciso, al termometro auricolare, che fornisce una lettura più rapida ma meno stabile. Gli esempi si potrebbero moltiplicare, ma il principio resta lo stesso: quando una misurazione è rilevante, scegliamo gli strumenti che riteniamo più adeguati a garantirla.
+La risposta a questa domanda retorica è, chiaramente, no. Sappiamo bene che esistono strumenti più o meno precisi, e nella vita quotidiana ci regoliamo di conseguenza. Un geometra che deve rilevare un muro non si affida a un metro pieghevole, ma a un rilevatore laser. Per misurare con esattezza la temperatura di un bambino è preferito comunque il termometro ascellare, scomodo ma apparantemente più preciso, al termometro auricolare, che fornisce una lettura più rapida ma considerata meno stabile. Gli esempi si potrebbero moltiplicare, ma il principio resta lo stesso: quando una misurazione è rilevante, scegliamo gli strumenti che riteniamo più adeguati.
+
+![Strumenti con diversa precisione: questi due termometri sono ugualmente precisi? La risposta che probabilmente darebbe un pediatra è probabilmente no, favorendo quello ascellare perché più preciso e in grado di fornire misure più stabili, anche se più scomodo rispetto a quello auricolare.](../Figures/termometri.png){fig-align="center" width="80%"}
 
 Su questo principio si fonda il presente capitolo. Anche i test neuropsicologici sono strumenti di misurazione, e come tali impongono attenzione alla loro precisione. Nell'ambito degli strumenti costruiti secondo la teoria classica dei test, la bontà di uno strumento è catturata principalmente da due proprietà: validità e affidabilità.
 
@@ -44,30 +46,31 @@ La validità non è una proprietà generale, ma è relativa ad una specifica int
 
 Esistono diversi tipi di validità, spesso raggruppati in due grandi famiglie. Le validità **a priori** (di facciata e di contenuto) si valutano ragionando sul contenuto del test stesso, prima ancora di somministrarlo e raccogliere dati. Le validità **a posteriori** (di costrutto, di criterio ed ecologica) richiedono invece la raccolta di dati empirici, tipicamente confrontando il punteggio del test con altre misure esterne.
 
-[^val] Considerando che possono esistere più scopi, forse è più esatto usare il plurale e dire che le diverse validità sono più proprietà lungo diversi continuum.
+[^val]:Considerando che possono esistere più scopi, forse è più esatto usare il plurale e dire che le diverse validità sono più proprietà lungo diversi continuum.
 
 #### Validità di facciata
 
 :::{.callout-note}
 ## Definizione
-La validità di facciata è il grado in cui un test **appare** misuri ciò che intende misurare, sulla base di un giudizio e non di dati empirici.
+La validità di facciata è il grado in cui un test **appare** misurare ciò che intende misurare, sulla base di un giudizio e non di dati empirici.
 :::
 
 Un test di memoria che chiede esplicitamente al paziente di "ricordare" una serie di elementi ha un'alta validità di facciata per la memoria; un questionario sull'ansia i cui item chiedono "quanto ti senti nervoso/a" ha un'alta validità di facciata per l'ansia. In entrambi i casi, chiunque guardi il test (paziente, clinico, valutatore esterno) ne intuisce lo scopo semplicemente osservandone il contenuto.
 
-La validità di facciata è la forma di validità meno rigorosa: viene valutata solo qualitativamente, senza alcuna analisi statistica. Talvolta è l'unica evidenza disponibile per un test, ma la sua plausibilità superficiale non è sufficiente per concludere che lo strumento misuri davvero il costrutto di interesse.
-Questo può avvenire per diversi motivi: per esempio, potrebbero esserci strategie alternative per affrontare il test che non si basano sulla funzione cognitiva attesa, oppure le istruzioni potrebbero essere poco chiare, portando il test a non essere svolto nel modo che coinvolgerebbe realmente la funzione cognitiva che si intende valutare.
+La validità di facciata è la forma di validità considerata meno rigorosa: viene valutata solo qualitativamente, senza specifiche analisi statistiche. Talvolta è l'unica evidenza disponibile per un test, ma è sempre importante ricordare che la  plausibilità superficiale non è da considerare mai sufficiente per concludere che lo strumento misuri davvero il costrutto di interesse. 
+Un test non potrebbe essere valido per il suo scopo, nonostante un'apparente _validità di facciata_ per diversi motivi: per esempio, potrebbero esserci strategie alternative per affrontare il test che non si basano sulla funzione cognitiva attesa, oppure le istruzioni potrebbero essere poco chiare, portando il test a non essere svolto nel modo che coinvolgerebbe realmente la funzione cognitiva che si intende valutare.
 
-In ogni caso, non ci si dovrebbe mai basare solo sulla validità di facciata per la scelta di un test.
+In ogni caso, non ci si dovrebbe mai basare solo sulla validità di facciata per la scelta di un test e sono da preferire evidenze di tipo empirico sull'effettiva validità.
 
 :::{.callout-tip}
 ## Validità di facciata in ambito forense
-In ambito forense vale, per certi versi, il ragionamento opposto: i test progettati per rilevare la simulazione (_malingering_) non devono avere validità di facciata. Se il paziente comprende immediatamente che lo strumento valuta la sincerità delle sue risposte, la sua utilità clinica viene meno.
+In ambito forense vale, per certi versi, i test è importante non abbiano validità di facciata, specie per chi deve effettuare il test. I test progettati per rilevare la simulazione (_malingering_) infatti sono disegnati in modo che non sia chiaro quale è il reale scopo, cioè identificare potenziali simulatori di disturbi cognitivi. In questo caso
 :::
 
 :::{.callout-tip}
 ## Validità di facciata e test neuropsicologici italiani.
-Nei test neuropsicologici disponibili in Italia, in molti casi l'unica validità disponibile è purtroppo quella di facciata (quindi quella meno rigorosa).
+Nei test neuropsicologici disponibili in Italia, in molti casi l'unica validità disponibile è purtroppo quella di facciata.
+(si veda approfondimento: affidabilità e validità nei test neuropsicologici in Italia). <!-- NOTA GIORGIO: fare paragrafo -->
 :::
 
 #### Validità di contenuto
@@ -77,9 +80,10 @@ Nei test neuropsicologici disponibili in Italia, in molti casi l'unica validità
 La validità di contenuto è il grado in cui gli item di un test coprono in modo adeguato e rappresentativo tutti gli aspetti rilevanti del costrutto che si intende misurare.
 :::
 
-Un test con buona validità di contenuto campiona in modo sistematico l'intero dominio del costrutto: un test per la patente di guida che simula molte condizioni di guida reali (traffico urbano, manovre, situazioni di emergenza) ha una validità di contenuto migliore di un test che valuta solo la conoscenza teorica del codice della strada. Al contrario, un test di lettura composto da sole parole isolate ha una validità di contenuto scarsa se lo scopo è valutare la comprensione di un testo, perché non campiona aspetti come la coesione tra frasi o l'inferenza.
+Un test con buona validità di contenuto campiona in modo sistematico l'intero dominio del costrutto: un test per la patente di guida che simula molte condizioni di guida reali (traffico urbano, manovre, situazioni di emergenza) ha una validità di contenuto migliore di un test che valuta solo la conoscenza teorica del codice della strada. Al contrario, un test di lettura composto da sole parole isolate ha una validità di contenuto scarsa se lo scopo è valutare la comprensione di un testo, perché non considera aspetti come la capacità di leggere frasi o testi più lunghi e complessi.
 
-Oltre al giudizio qualitativo di esperti, esiste anche un approccio quantitativo alla validità di contenuto, proposto da Lawshe `(\citeyear{lawshe1975quantitative})`{=latex}`(1975)`{=html}: un gruppo di giudici esperti valuta ogni singolo item, e le loro valutazioni vengono aggregate in un indice per item (_Content Validity Ratio_, CVR) e in un indice complessivo per il test (_Content Validity Index_, CVI)[^cvi]. Nei test italiani la validità di contenuto è riportata raramente in modo esplicito; tra le eccezioni vi sono l'ABaCo `(\cite{sacco2008abaco})`{=latex}`(Sacco et al., 2008)`{=html} e l'APACS `(\cite{arcara2016apacs})`{=latex}`(Arcara & Bambini, 2016)`{=html}.
+Il modo più semplice di valutare la validità di contenuto è basarsi sul giudizio qualitativo di esperti, spesso gli autori del test stesso, che dovrebbero motivare le ragioni che hanno portato a disegnare un test e stabilire gli item, in una determinata maniera.
+Oltre a questo approccio, più qualitativo, esistono anche approcci quantitativi alla validità di contenuto. Il più famoso è sicuramente quello proposto da Lawshe `(\citeyear{lawshe1975quantitative})`{=latex}`(1975)`{=html}: un gruppo di giudici esperti valuta ogni singolo item, e le loro valutazioni vengono aggregate in un indice per item (_Content Validity Ratio_, CVR) e in un indice complessivo per il test (_Content Validity Index_, CVI)[^cvi]. Più alto è il CVI maggiore è la validità di contenuto. Nei test neuropsicologici italiani la validità di contenuto è riportata raramente in modo esplicito, mentre prevale la presenza di argomentazioni qualitative sulla presenza di validità di contenuto; tra le eccezioni vi sono l'ABaCo `(\cite{sacco2008abaco})`{=latex}`(Sacco et al., 2008)`{=html} e l'APACS `(\cite{arcara2016apacs})`{=latex}`(Arcara & Bambini, 2016)`{=html}.
 
 [^cvi]: Il calcolo del CVR e del CVI, così come le tabelle con i valori soglia in funzione del numero di giudici coinvolti, sono trattati più in dettaglio nella sezione _Approfondimenti tecnici_.
 
@@ -152,6 +156,9 @@ L'affidabilità è la qualità di un test di fornire punteggi consistenti in div
 Tornando all'equazione cardine della CTT ($X = T + E$), l'affidabilità esprime quanto la componente d'errore $E$ sia piccola rispetto al punteggio osservato $X$: un test molto affidabile è un test in cui, somministrazione dopo somministrazione, $E$ resta sistematicamente piccolo, e i punteggi osservati restano quindi vicini al punteggio vero $T$.
 
 Affidabilità e validità sono concetti distinti ma collegati, in un modo spesso reso con l'analogia tra **precisione** e **accuratezza**: un test può essere affidabile senza essere valido, cioè misurare qualcosa con grande precisione, ma non il costrutto che ci interessa. Il contrario non è invece possibile: un test valido deve necessariamente essere anche affidabile, perché non è possibile misurare bene un costrutto con uno strumento impreciso. L'affidabilità è quindi una condizione necessaria, ma non sufficiente, per la validità.
+
+
+![Relazione tra affidabilità e validità: questa figura riporta le possibili relazioni tra affidabilità e validità. La vicinanza tra i punti rappresenta l'affidabilità (punti molto vicini indicano risultati consistenti e quindi un test affidabile). Il centro del bersaglio è il costrutto target del test: punti nel centro indicano misurazioni valide. A) un test affidabile e valido dà risultati consistenti e che valutano correttamente il costrutto. B) un test affidabile ma non valido dà punteggi consistenti, ma non legati al costrutto (es. un test preciso che intende misura l'attenzione, ma in realtà misura la memoria. C) e D) nel caso un test non sia affidabile viene pesso considerato automaticamente non valido. la condizione C)è infatti solo teorica e indica misurazioni non precise ma che, in media, misurerebbero il costrutto (colpendo il centro del bersaglio)](../Figures/affidabilità_validità.png){ fig-align="center" width=70%}
 
 ### Valori soglia per affidabilità.
 
@@ -244,11 +251,8 @@ Come già sottolineato all'inizio di questa sezione, le evidenze di validità e 
 ## Capitolo 2: Riassunto
 
 In questo capitolo sono state apprfondite Validità e Affidabilità, due qualità fondamentali dei test neuropsicologici.
-
 La validità può essere definita come la qualità di un test di misurare ciò che intende misurare, mentre l'affidabilità la precisione di un test.
-
 Esistono diversi tipi di validità e affidabilità, e ognuna cattura una diversa sfaccettatura delle proprietà del test.
-
 In generale sarebbe preferibile sempre scegliere test che abbiamo buone (o quantomeno migliori), validità e affidabilità. 
 
 ![Sintesi dei tipi di validità e di affidabilità. A sinistra, i tipi di validità sono raggruppati nelle due famiglie introdotte all'inizio del capitolo: le validità **a priori** (di facciata e di contenuto), valutate sul contenuto del test prima della raccolta dati, e le validità **a posteriori** (di costrutto, di criterio ed ecologica), che richiedono invece evidenze empiriche. Per la validità non esistono valori soglia universali: i risultati vanno di volta in volta motivati. A destra, i quattro tipi di affidabilità trattati nel capitolo, con il valore soglia "standard" più diffuso in letteratura (vedi il testo per le soglie più stringenti raccomandate per le decisioni cliniche sul singolo individuo).](../Figures/Latex-Fig-Validita-Affidabilita/Fig_validita_affidabilita.png){#fig-validita-affidabilita fig-align="center" width=100%}
