@@ -27,7 +27,7 @@ _"La validità è il grado in cui un test misura effettivamente ciò che intende
 :::
 
 Un'altra definizione possibile, con una sfumatura leggermente diversa, la descrive come "la capacità di misurare quanto bene misura ciò che si propone di misurare, nel contesto in cui deve essere applicato"`(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}.
-In questo caso è messo in evidenza un aspetto importante, e cioè che la validità non è semplicemente una proprietà del test, ma può cambiare a seconda del contesto in cui è utilizzato. La complessità del significato di "validità" e della sua classificazione è perfettamente testimoniata dai cambiamenti tra le due edizioni di "Essential of Psychological Testing" di Anastasia Urbina (uno dei testi più diffusi sul testing psicologico), in cui la sezione sulla validità ha avuto una grande revisione (Urbina, 2004, Urbina, 2014).
+In questo caso è messo in evidenza un aspetto importante, e cioè che la validità non è semplicemente una proprietà del test, ma può cambiare a seconda del contesto in cui è utilizzato. La complessità del significato di "validità" e della sua classificazione è perfettamente testimoniata dai cambiamenti tra le due edizioni di "Essentials of Psychological Testing" di Susana Urbina (uno dei testi più diffusi sul testing psicologico), in cui la sezione sulla validità ha avuto una grande revisione `(\cite{urbina2004essentials}; \cite{urbina2014essentials})`{=latex}`(Urbina, 2004; Urbina, 2014)`{=html}.
 
 
 È importante notare che _ciò che si intende misurare_ non è necessariamente un costrutto (come la memoria o l'attenzione).
