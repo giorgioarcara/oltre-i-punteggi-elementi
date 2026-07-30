@@ -27,10 +27,13 @@ _"La validità è il grado in cui un test misura effettivamente ciò che intende
 :::
 
 Un'altra definizione possibile, con una sfumatura leggermente diversa, la descrive come "la capacità di misurare quanto bene misura ciò che si propone di misurare, nel contesto in cui deve essere applicato"`(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}.
-In questo caso è messo in evidenza un aspetto importante, e cioè che la validità non è semplicemente una proprietà del test, ma può cambiare a seconda del contesto in cui è utilizzato (questo aspetto sarà ripreso nel paragrafo "validità di una specifica misurazione", DA COMPLETARE).
+In questo caso è messo in evidenza un aspetto importante, e cioè che la validità non è semplicemente una proprietà del test, ma può cambiare a seconda del contesto in cui è utilizzato. La complessità del significato di "validità" e della sua classificazione è perfettamente testimoniata dai cambiamenti tra le due edizioni di "Essential of Psychological Testing" di Anastasia Urbina (uno dei testi più diffusi sul testing psicologico), in cui la sezione sulla validità ha avuto una grande revisione (Urbina, 2004, Urbina, 2014).
+
 
 È importante notare che _ciò che si intende misurare_ non è necessariamente un costrutto (come la memoria o l'attenzione).
 Un test può infatti avere uno scopo diverso dalla misurazione di un concetto psicologico inosservabile: pensiamo, per esempio, a un test che deve prevedere le possibilità di reinserimento lavorativo dopo un trauma cranico, oppure a uno che deve distinguere pazienti con Mild Cognitive Impairment (MCI) da soggetti con invecchiamento fisiologico. In questi casi l'obiettivo è chiaro e misurabile, ma non è, in senso stretto, un «costrutto».
+(questo aspetto sarà ripreso nel paragrafo "validità di una specifica misurazione", DA COMPLETARE).
+
 
 A prescindere da come si definisca esattamente la validità, essa è sempre associata alla presenza di evidenze scientifiche di diverso tipo, che forniscono una base per interpretare i punteggi.
 Un test con buona validità per la memoria, per esempio, dispone di evidenze scientifiche che ne confermano l'effettiva capacità di misurare la memoria; allo stesso modo, uno strumento in grado di distinguere pazienti con MCI da soggetti sani dispone di evidenze che ne dimostrano l'efficacia in questo compito.
