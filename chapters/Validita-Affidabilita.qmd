@@ -9,7 +9,7 @@ Possiamo considerare gli strumenti di misurazione tutti precisi allo stesso modo
 
 La risposta a questa domanda retorica è, chiaramente, no. Sappiamo bene che esistono strumenti più o meno precisi, e nella vita quotidiana ci regoliamo di conseguenza. Un geometra che deve rilevare un muro non si affida a un metro pieghevole, ma a un rilevatore laser. Per misurare con esattezza la temperatura di un bambino è preferito comunque il termometro ascellare, scomodo ma apparantemente più preciso, al termometro auricolare, che fornisce una lettura più rapida ma considerata meno stabile. Gli esempi si potrebbero moltiplicare, ma il principio resta lo stesso: quando una misurazione è rilevante, scegliamo gli strumenti che riteniamo più adeguati.
 
-![Strumenti con diversa precisione: questi due termometri sono ugualmente precisi? La risposta che probabilmente darebbe un pediatra è probabilmente no, favorendo quello ascellare perché più preciso e in grado di fornire misure più stabili, anche se più scomodo rispetto a quello auricolare.](../Figures/termometri.png){fig-align="center" width="80%"}
+![Strumenti con diversa precisione: questi due termometri sono ugualmente precisi? La risposta che probabilmente darebbe un pediatra è probabilmente no, favorendo quello ascellare perché in grado di fornire misure più stabili, anche se più scomodo rispetto a quello auricolare.](../Figures/termometri.png){fig-align="center" width="80%"}
 
 Su questo principio si fonda il presente capitolo. Anche i test neuropsicologici sono strumenti di misurazione, e come tali impongono attenzione alla loro precisione. Nell'ambito degli strumenti costruiti secondo la teoria classica dei test, la bontà di uno strumento è catturata principalmente da due proprietà: validità e affidabilità.
 
@@ -69,6 +69,8 @@ In ogni caso, non ci si dovrebbe mai basare solo sulla validità di facciata per
 ## Validità di facciata in ambito forense
 In ambito forense vale, per certi versi, i test è importante non abbiano validità di facciata, specie per chi deve effettuare il test. I test progettati per rilevare la simulazione (_malingering_) infatti sono disegnati in modo che non sia chiaro quale è il reale scopo, cioè identificare potenziali simulatori di disturbi cognitivi. In questo caso
 :::
+
+`{\vspace{1cm}}`{=latex}
 
 :::{.callout-tip}
 ## Validità di facciata e test neuropsicologici italiani.
@@ -237,12 +239,14 @@ Tabella riassuntiva:
 
 ## Nella pratica clinica: Come usare affidabilità e validità per scegliere i test
 
-Una domanda che una/un neuropsicologa/o dovrebbe porsi, quantomeno quando sceglie di utilizzare un test è: _il mio test ha validità e affidabilità adeguate?_.
+Una domanda che una/un neuropsicologa/o dovrebbe porsi prima di utilizzare un test è: _il mio test ha validità e affidabilità adeguate?_.
 
+Immaginando di voler fare una valutazione neuropsicologica di qualità, questa passa anche dallo scegliere strumenti di qualità. Parte della qualità di un test passa appunto dal valutare validità e affidabilità. Ma come farlo nel concreto?
+Bisogna recuperare delle informazioni e decidere che evidenze ci sono che il test sia effettivamente un buon test.
 Il primo posto in cui cercare queste informazioni è il manuale del test, oppure l'articolo scientifico originale con cui lo strumento è stato presentato: è lì che dovrebbero trovarsi le evidenze di validità e affidabilità raccolte dagli autori al momento della pubblicazione.
-Le evidenze non si esauriscono però con la prima pubblicazione: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022), quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche altri studi successivano che lo citano (per esempio tramite Google Scholar o PubMed) e che ne approfondiscono le proprietà psicometriche, per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
+Le evidenze non si esauriscono però con la prima pubblicazione: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita, tramite nuove pubblicazioni o addendum. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022), quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche altri studi successivano che lo citano (per esempio tramite Google Scholar o PubMed) e che ne approfondiscono le proprietà psicometriche, per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
 
-:::{.callout-tip}
+:::{.callout-important}
 ## Il fatto che un test sia pubblicato non garantisce che abbia validità e affidabilità sufficienti.
 Uno strumento pubblicato potrebbe comunque avere una bassa affidabilità (o non nota), e lo stesso vale per la validità. Questo vale indipendentemente dall'autorevolezza degli autori.
 :::

@@ -88,6 +88,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Sezioni speciali: _Approfondimenti_, _Nella pratica clinica_, _Errori comuni_
 
 **1. Misurazione e Test in Neuropsicologia Clinica**
+
   * Perché è importante misurare?
   * Misurazione e neuropsicologia clinica
   * Quale definizione di misurazione adottano i test neuropsicologici?
@@ -101,6 +102,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Capitolo 1: Riassunto
 
 **2. Validità e Affidabilità**
+
   * Validità
   * Affidabilità
   * Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
