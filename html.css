@@ -17,6 +17,15 @@ p {
   text-align: justify;
 }
 
+.callout-important .callout-title-container {
+  font-weight: 700;
+  font-size: 1.15em;
+}
+
+.callout-important .callout-body-container {
+  font-size: 1.05em;
+}
+
 .domanda {
   font-style: italic;
   text-align: center;

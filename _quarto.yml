@@ -113,6 +113,7 @@ format:
         %\usepackage{fontspec}
         %\newfontfamily\headingfont{Alegreya}
         \usepackage{xcolor}
+        \usepackage{etoolbox}
         \newenvironment{domanda}{%
           \par\medskip\noindent\rule{\linewidth}{0.4pt}\vspace{3pt}%
           \begin{center}\large\itshape
@@ -130,6 +131,16 @@ format:
         
     include-before-body:
       text: |
+        % Make callout-important boxes more prominent: bold, slightly larger
+        % title and slightly larger body text, without touching other callouts
+        \tcbset{
+          colframe/.add code={}{%
+            \def\quartoCalloutFrameTmp{#1}%
+            \ifdefstring{\quartoCalloutFrameTmp}{quarto-callout-important-color-frame}{%
+              \tcbset{fonttitle=\bfseries\fontsize{13}{15.5}\selectfont, fontupper=\fontsize{12.5}{15}\selectfont}%
+            }{}%
+          }
+        }
         \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
            showspaces = false,
            showtabs = false,

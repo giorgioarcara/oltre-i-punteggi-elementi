@@ -4,3 +4,12 @@ iframe {
     max-inline-size: 100%;
     block-size: auto;
 }
+
+.callout-important .callout-title-container {
+  font-weight: 700;
+  font-size: 1.15em;
+}
+
+.callout-important .callout-body-container {
+  font-size: 1.05em;
+}
