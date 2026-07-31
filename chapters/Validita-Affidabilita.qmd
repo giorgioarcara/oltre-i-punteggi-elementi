@@ -107,22 +107,23 @@ _Soglia indicativa_: la soglia minima suggerita per il CVI dipende dal numero de
 
 #### Validità di costrutto
 
-La validità di costrutto è spessa considerata, in psicometria, come la più importante delle validità. 
+La validità di costrutto è spessa considerata come la più importante delle validità. 
 
 :::{.callout-note}
 ## Definizione
 La validità di costrutto è il grado in cui i punteggi di un test si comportano in accordo con la teoria del costrutto che il test intende misurare.
 :::
 
-La validità di costrutto è genericamente considerata il principale tipo di validità. Essa si articola tipicamente in due componenti complementari:
+Dal momento che nella psicometria l'oggetto principale è la misurazione di costrutti, non è sorprendente che la validità di costrutto sia considerata il principale tipo di validità. Alcune classificazioni di fatto considerano tutte le validità come nient'altro che diverse sfaccettature della validità di costrutto`(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}. Essa viene tipicamente classificata in due componenti complementari:
 
 - Validità convergente/divergente
-- struttura fattoriale
+- Struttura fattoriale
+- Risultati coerenti con il costrutto
 
 #### Validità convergente/divergente
-Con questo nome si 
+Con questo nome si intende la capacità del punteggio del test di convergere o divergere in maniera coerente con il costrutto con altre misure. 
 
-- **Validità convergente**: è la qualità del punteggio al test di correlare con altre misure dello stesso costrutto, o di costrutti teoricamente vicini. Una buona validità convergente si può innanzitutto ottenere sia se il test correla con altri test che misurano lo stesso costrutto. Ad esempio, un test di memoria è atteso correli con altri test di memoria. Evidenza convergente può però anche esserci, in generale, se il test correla in maniera coerente con la teoria con altri costrutti. Ad esempio se un test che correla con l'età e dal costrutto ci si aspetta che il punteggio al test correli con l'età, questa può essere considerata come evidenza di validità convergente.
+- **Validità convergente**: è la qualità del punteggio al test di correlare con altre misure dello stesso costrutto, o di costrutti teoricamente vicini. Ad esempio, un test di memoria è atteso che correli con altri test di memoria. Un test di abilità di comprensione del linguaggio, avrebbe evidenza di validità di costrutto se il punteggio correlasse con un altro test che misura abilità di comprensione del testo scritto (che è una parte della comprensione del linguaggio).
 
 - **Validità divergente (o discriminante)**: e la qualità punteggio del punteggio al test di avere correlazioni basse con misure di costrutti teoricamente distinti. Per esempio, un test che misuri un test di comprensione del linguaggio, dovrebbe correlare poco con test di memoria differita, se si assume che i due strumenti misurano davvero costrutti diversi. Questo tipo di validità è molto importante per valutare la selettività con cui un test misura un costrutto, piuttosto che effetti aspecifici e generali. Si noti che generalmente i test neuropsicologici tendono ad essere molto correlati fra loro `(es. \cite{trevino2021attention,mondini2011enb2})`{=latex}`(es., Treviño et al., 2021; Mondini et al., 2011)`{=html}.
 
@@ -132,19 +133,48 @@ _Soglie indicative_: Per la validità di costrutto non esiste un valore soglia u
 #### struttura fattoriale
 - **Struttura fattoriale**: gli item del test si raggruppano in modo coerente con il modello teorico del costrutto, tipicamente verificata con l'analisi fattoriale esplorativa (Exploratory Factor Analysis, EFA) o confermativa (Confirmatory Factor Analysis, CFA); talvolta, anche se non è propriamente corretto dal punto di vista statistico, a questo scopo viene utilizzata anche l'analisi delle componenti principali (Principal Component Analysis, PCA).
 
+Non è facile spiegare queste tipologia di analisi in maniera concisa senza essere imprecisi.  Per tale ragione sono approfondite nella sezione di Approfondimenti tecnici. In breve, un'analisi fattoriale per essere a supporto della validità di costrutto dovrebbe mostrare che gli item del test si comportano in modo coerente con il costrutto. L'analisi fattoriale è infatti spesso utilizzata in fase di sviluppo dei test, come strumento statistico per selezionare quali item tenere e quali invece escludere dalla versione finale. Esistono diverse metriche per valutare l'adeguatezza del modello fattoriale e diversi valori soglia proposti in letteratura legati. Si rimanda al paragrafo su analisi fattoriale negli approfondimenti tecnici per i dettagli. <!-- Nota giorgio: aggiungere citazione corretta-->
 
+
+#### Risultati coerenti con il costrutto
+Ogni evidenza che il punteggio al test si comporta in maniera adeguata secondo la teoria legata al costrutto può di fatto essere considerata come evidenza a favore della validità di costrutto[^gen]. 
+Questo può avvenire anche se il test correla in maniera coerente con la teoria con altri costrutti diversi (magari con una correlazione debole o moderata) o addirittura se il punteggio correla con altre variabili che non siano costrutti. Per esempio un test di memoria che però si assumi coinvolga anche l'attenzione, avrebbe supporto a validità di costrutto se mostrasse una debole correlazione con l'attenzione. Oppure un test su abilità di calcolo in età scolare avrebbe validità di costrutto se correlasse con la media di voti in matematica.
+Relazioni coerenti con il costrutto ossono anche essere legate a variabili demografiche. Ad esempio se i punteggi ad un test mostrano una correlazione positiva con l'età e la teoria prevede che il punteggio al test vari con l'età, quest'ultima può essere considerata un'evidenza di validità di costrutto. 
+
+_Soglie indicative_: Anche per questo tipo di validità non esistono soglie minime, anche perché non esiste un'analisi specifica per valutarla (qualsiasi analisi che mostri la coerenza dei punteggi con la teoria legata al costrutto sarebbe adeguata). I valori che sono ritenuti a supporto della validità dovrebbero però essere motivati e accompagnati, preferibilmente, da una pre-registrazione che di chiare i valori minimi considerati come a supporto (o meno) del fatto che il test stia effettivamente misurando il costrutto oggetto del test.
+
+[^gen]: questa ultima tipologia di validità di costrutto è qui riportata per mostrare come anche altre tipologie di evidenze possono essere considerate come supporto alla validità di costrutto. Ad un occhio attento, con questa definizione però abbracciamo di fatto _tutte_ le possibili validità di costrutto.
+
+### Validità di criterio
+In alcuni casi la validità di un test espressa dalla relazione con una variabile osservabile (e non un costrutto). In tal caso si parla di validità di criterio
+
+:::{.callout-note}
+## Definizione
+La validità di criterio è il grado in cui i punteggi di un test sono associati ad una variabile osssrvabile esterna detta il _criterio_.
+:::
+
+Nel contesto della neuropsicologia clinica il criterio può essere una varibile continua o categoriale.
+Nel caso di variabili continue il caso più comune è il punteggio ad un altro test, magari lungo e complesso, che è considerato il _gold-standard_, ossia la migliore procedura clinica disponibile per raggiungere una certa conclusione.
+La validità di criterio è infatti spesso riportata per i test di screening, il cui scopo potrebbe essere quello di prevedere il potenziale esito ad una batteria di test più lunga o la classificazione rispetto a due o più diagnostico (Es. l'appartenenza al gruppo, "persone con Mild Cognitive Impairment", o al gruppo "persone sane"). Nel caso il criterio non sia una misura continua ma un'appartenenza a gruppi già noti a priori (per esempio diagnosi confermate con altri mezzi), viene anche usato il nome **validità dei gruppi noti** (_known-groups validity_).
+
+La validità di criterio è divisa in due tipologie: _concorrente_ e _predittiva_ .
 
 #### Validità concorrente
 
-Un aspetto della validità di costrutto, riferito nello specifico a un confronto con un **criterio esterno** (una variabile osservabile, spesso considerata un gold standard per il costrutto di interesse), è quello che va sotto il nome di validità di criterio. Se il criterio è misurato **nello stesso momento** in cui si somministra il test, si parla di validità concorrente. Esempi tipici sono la correlazione tra un test breve di screening e una batteria estesa somministrata nella stessa sessione, oppure il confronto tra una versione online e una versione in presenza dello stesso strumento. 
-
-_Soglia indicativa_ : Per un criterio continuo, in letteratura si trovano tipicamente valori attesi di correlazione pari o superiori a 0.70-0.80.
+Se il criterio è misurato **nello stesso momento** in cui si somministra il test, si parla di validità concorrente. Esempi tipici sono la relazione tra un test breve di screening e una batteria estesa somministrata nella stessa sessione, oppure il confronto tra una versione online e una versione in presenza dello stesso strumento, nel caso in cui lo strumento in presenza sia considerato come la versione target che la versione online dovrebbe replicare.
+Come esempi categoriali, un test che ci dica la probabilità che il paziente sia un MCI o AD al momento della valutazione si basa su validità concorrente. Ne sono esempi famosi in ambito neuropsicologico, il MoCA `(\cite{nasreddine2005montreal})`{=latex}`(Nasreddine et al., 2005)`{=html} e il MMSE `(\cite{folstein1975mini})`{=latex}`(Folstein et al., 1975)`{=html} nascono proprio con evidenze di validità di criterio, verificando cioè che i punteggi distinguessero correttamente gruppi noti (per esempio pazienti con decadimento cognitivo lieve, con demenza conclamata, e controlli sani). 
+In ambito forense questo tipo di validità è spesso usata per sviluppare test in grado di identificare simulatori di deficit cognitivi (si veda capitolo dedicato).
 
 #### Validità predittiva
 
-Se invece il criterio esterno viene misurato in un momento **successivo**, si parla di validità predittiva. Esempi: un punteggio basale che predice la diagnosi di demenza a due anni di distanza, oppure uno screening scolastico che predice l'esito degli apprendimenti a fine anno. Non a caso, strumenti come il MoCA `(\cite{nasreddine2005montreal})`{=latex}`(Nasreddine et al., 2005)`{=html} e il MMSE `(\cite{folstein1975mini})`{=latex}`(Folstein et al., 1975)`{=html} nascono proprio con evidenze di validità di criterio, verificando cioè che i punteggi distinguessero correttamente gruppi noti (per esempio pazienti con decadimento cognitivo lieve, con demenza conclamata, e controlli sani).
+Se invece il criterio esterno viene misurato in un momento **successivo**, si parla di validità predittiva. Ad esempio un punteggio basale che predice la diagnosi di demenza a due anni di distanza, oppure uno screening scolastico che predice l'esito degli apprendimenti a fine anno, vanno ad indagare la validità predittiva.
+Nel caso di criteri categoriali (i.e., gruppi-noti) può essere un esempio il reinserimento con successo al lavoro dopo lo stroke (codificato come si/no). In tal caso indagare se un punteggio ad un test subito dopo lo stroke è in grado di prevedere la probbilità di ritornare al lavoro è un esmepio di indagine su validità predittiva del test.
 
-Questa variante, in cui il criterio non è una misura continua ma un'appartenenza a gruppi già noti a priori (per esempio diagnosi confermate con altri mezzi), va sotto il nome di **validità dei gruppi noti** (_known-groups validity_), e viene tipicamente espressa in termini di sensibilità e specificità nel distinguere i gruppi, per cui in letteratura si raccomandano spesso valori pari o superiori a 0.80. Su questi indici, e sulla scelta dei punteggi di cut-off, torneremo in modo più approfondito nei capitoli dedicati.
+
+_Soglia indicativa_ : Le soglie per una buona validità di criterio dipendono dalla tipologia di criterio.
+Per un criterio continuo, in letteratura si trovano tipicamente valori attesi di correlazione pari o superiori a 0.70-0.80.
+Nel caso di validità per gruppi-noti, vengono suggeriti valoro di sensibilità e specificità uguali o superiori a 0.80. Su questi indici, e sulla scelta dei punteggi di cut-off, torneremo in modo più approfondito nei capitoli dedicati.
+
 
 <!--
 #### Validità interna
