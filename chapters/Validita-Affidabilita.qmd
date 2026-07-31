@@ -7,11 +7,11 @@ suppress-bibliography: true
 Possiamo considerare gli strumenti di misurazione tutti precisi allo stesso modo?
 :::
 
-La risposta a questa domanda retorica è, chiaramente, no. Sappiamo bene che esistono strumenti più o meno precisi, e nella vita quotidiana ci regoliamo di conseguenza. Un geometra che deve rilevare un muro non si affida a un metro pieghevole, ma a un rilevatore laser. Per misurare con esattezza la temperatura di un bambino è preferito comunque il termometro ascellare, scomodo ma apparantemente più preciso, al termometro auricolare, che fornisce una lettura più rapida ma considerata meno stabile. Gli esempi si potrebbero moltiplicare, ma il principio resta lo stesso: quando una misurazione è rilevante, scegliamo gli strumenti che riteniamo più adeguati.
+La risposta a questa domanda retorica è, chiaramente, no. Sappiamo bene che ogni strumento di misurazione (non solo psicologica) può essere più o meno precise, e nella vita quotidiana ci regoliamo di conseguenza. Un geometra che deve rilevare un muro non si affida a un metro pieghevole, ma a un rilevatore laser. Per misurare con esattezza la temperatura di un bambino è preferito comunque il termometro ascellare, scomodo ma preciso, al termometro auricolare, che fornisce una lettura più rapida ma spesso considerata meno stabile. Gli esempi si potrebbero moltiplicare, ma il principio resta lo stesso: quando una misurazione è rilevante, scegliamo gli strumenti che riteniamo più adeguati.
 
 ![Strumenti con diversa precisione: questi due termometri sono ugualmente precisi? La risposta che probabilmente darebbe un pediatra è probabilmente no, favorendo quello ascellare perché in grado di fornire misure più stabili, anche se più scomodo rispetto a quello auricolare.](../Figures/termometri.png){fig-align="center" width="80%"}
 
-Su questo principio si fonda il presente capitolo. Anche i test neuropsicologici sono strumenti di misurazione, e come tali impongono attenzione alla loro precisione. Nell'ambito degli strumenti costruiti secondo la teoria classica dei test, la bontà di uno strumento è catturata principalmente da due proprietà: validità e affidabilità.
+Su questo semplice principio si fonda il presente capitolo. Anche i test neuropsicologici sono strumenti di misurazione, e come tali impongono attenzione alla loro precisione. Nell'ambito degli strumenti costruiti secondo la teoria classica dei test, la bontà di uno strumento è catturata principalmente da due proprietà: validità e affidabilità.
 
 Entrambe sono direttamente collegate alla formula cardine $X = T + E$, (vedi il paragrafo [Teoria Classica dei Test](Misurazione.qmd#teoria-classica-dei-test) nel capitolo precedente). In sintesi, la validità risponde alla domanda _"cosa stiamo misurando?"_, cioè se il punteggio vero $T$ rifletta effettivamente il costrutto che il test intende misurare, mentre l'affidabilità risponde a _"quanto precisamente siamo misurando?"_, cioè quanto è piccola la componente d'errore $E$ rispetto al punteggio osservato $X$. Nei prossimi paragrafi tratteremo prima la validità e, di seguito, l'affidabilità.
 
@@ -19,7 +19,7 @@ Entrambe sono direttamente collegate alla formula cardine $X = T + E$, (vedi il 
 
 ### Validità: introduzione
 
-Come per molti termini di questo libro, non esiste una definizione unanimamente accettata di validità. Di seguito ne è riportata una che cattura però bene l'essenza principale.
+Come per molti termini di questo libro, non esiste una definizione unanimamente accettata di validità. Di seguito ne è riportata una che ne cattura bene l'essenza principale.
 
 :::{.callout-note}
 ## Definizione
@@ -27,30 +27,32 @@ _"La validità è il grado in cui un test misura effettivamente ciò che intende
 :::
 
 Un'altra definizione possibile, con una sfumatura leggermente diversa, la descrive come "la capacità di misurare quanto bene misura ciò che si propone di misurare, nel contesto in cui deve essere applicato"`(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}.
-In questo caso è messo in evidenza un aspetto importante, e cioè che la validità non è semplicemente una proprietà del test, ma può cambiare a seconda del contesto in cui è utilizzato. La complessità del significato di "validità" e della sua classificazione è perfettamente testimoniata dai cambiamenti tra le due edizioni di "Essentials of Psychological Testing" di Susana Urbina (uno dei testi più diffusi sul testing psicologico), in cui la sezione sulla validità ha avuto una grande revisione `(\cite{urbina2004essentials}; \cite{urbina2014essentials})`{=latex}`(Urbina, 2004; Urbina, 2014)`{=html}.
-
+In questo caso è messo in evidenza un aspetto importante, e cioè che la validità non è semplicemente una proprietà del test, ma può cambiare a seconda del contesto in cui è utilizzato. 
 
 È importante notare che _ciò che si intende misurare_ non è necessariamente un costrutto (come la memoria o l'attenzione).
-Un test può infatti avere uno scopo diverso dalla misurazione di un concetto psicologico inosservabile: pensiamo, per esempio, a un test che deve prevedere le possibilità di reinserimento lavorativo dopo un trauma cranico, oppure a uno che deve distinguere pazienti con Mild Cognitive Impairment (MCI) da soggetti con invecchiamento fisiologico. In questi casi l'obiettivo è chiaro e misurabile, ma non è, in senso stretto, un «costrutto».
-(questo aspetto sarà ripreso nel paragrafo "validità di una specifica misurazione", DA COMPLETARE).
+Un test può infatti avere uno scopo diverso dalla misurazione di un concetto psicologico inosservabile: pensiamo, per esempio, a un test che deve prevedere le possibilità di reinserimento lavorativo dopo un trauma cranico, oppure a uno che deve distinguere pazienti con Mild Cognitive Impairment (MCI) da soggetti con invecchiamento fisiologico. In questi casi l'obiettivo è chiaro e misurabile, ma non è, in senso stretto, un «costrutto» (questo aspetto sarà ripreso nel paragrafo "Focus: validità di una specifica misurazione").
 
 A prescindere da come si definisca esattamente la validità, essa è sempre associata alla presenza di evidenze scientifiche di diverso tipo, che forniscono una base per interpretare i punteggi.
 Un test con buona validità per la memoria, per esempio, dispone di evidenze scientifiche che ne confermano l'effettiva capacità di misurare la memoria; allo stesso modo, uno strumento in grado di distinguere pazienti con MCI da soggetti sani dispone di evidenze che ne dimostrano l'efficacia in questo compito.
 
-Un aspetto che è fondamentale sottolinare sin da subito è che la validità non è una proprietà generale e assoluta di un test, ma è sempre riferita a un suo **utilizzo specifico**. Non ha pertanto senso dire semplicemente che "un test è valido", mentre ha senso dire che un test è valido per un certo scopo, in una certa popolazione, in un certo contesto. Uno stesso test di memoria può avere buone evidenze di validità per identificare un decadimento cognitivo in soggetti anziani, e nessuna evidenza per, ad esempio, predire il rendimento scolastico in età evolutiva.
+Un aspetto che è fondamentale sottolinare sin da subito è che la validità non è una proprietà generale e assoluta di un test, ma è sempre riferita a un suo **utilizzo specifico**. Non ha pertanto senso dire semplicemente che "un test è valido", mentre ha senso dire che un test ha evidenze di validità per un certo scopo, in una certa popolazione, in un certo contesto. Uno stesso test di memoria può avere buone evidenze di validità per identificare un decadimento cognitivo in soggetti anziani, e nessuna evidenza per, ad esempio, predire il rendimento scolastico in età evolutiva.
 
 :::{.callout-tip}
 ## Non ha senso dire che un test "è valido".
 La validità non è una proprietà generale, ma è relativa ad una specifica interpretazione di un test.
 :::
 
-È più utile pensare alla validità come una proprietà lungo un **continuum**[^val], piuttosto che come una proprietà binaria (valido/non valido): un test accumula, nel tempo e attraverso diversi studi, un insieme di evidenze a favore (o contro) un determinato utilizzo, e la nostra fiducia nel test dovrebbe aggiornarsi di conseguenza.
+Un altro motivo per evitare affermazioni come "quel test è valido/non valido" è che la validità non è una proprietà tutto o nulla, ma una proprietà lungo un **continuum**[^val]: un test accumula, nel tempo e attraverso diversi studi, un insieme di evidenze a favore (o contro) un determinato utilizzo, e la nostra fiducia nel test dovrebbe aggiornarsi di conseguenza.
 
-Esistono diversi tipi di validità, spesso raggruppati in due grandi famiglie. Le validità **a priori** (di facciata e di contenuto) si valutano ragionando sul contenuto del test stesso, prima ancora di somministrarlo e raccogliere dati. Le validità **a posteriori** (di costrutto, di criterio ed ecologica) richiedono invece la raccolta di dati empirici, tipicamente confrontando il punteggio del test con altre misure esterne.
+Proprio per via della complessità spesso vengono riconosciuti diversi tipi di validità, ognuno in grado di cogliere aspetti diversi del test. Inutile dire che anche in questo caso non esiste una classificazione unanimamente riconosciuta. Questa complessità del concetto di validità e delle sue classificaizoni è perfettamente testimoniata dai cambiamenti tra le due edizioni di "Essentials of Psychological Testing" di Susana Urbina (uno dei testi più diffusi sul testing psicologico), in cui la sezione sulla validità ha avuto una grande revisione `(\cite{urbina2004essentials}; \cite{urbina2014essentials})`{=latex}`(Urbina, 2004; Urbina, 2014)`{=html}.
 
-[^val]:Considerando che possono esistere più scopi, forse è più esatto usare il plurale e dire che le diverse validità sono più proprietà lungo diversi continuum.
+Quella che troverete di seguito è quindi solo una delle possibili classificazioni di validità, selezionata per la sua rilevanza in ambito neuropsicologico.
+Una prima importante distinzione è tra validità a priori e validità a posteriori. Le validità **a priori** (di facciata e di contenuto) si valutano analizzando il contenuto del test stesso, prima ancora di somministrarlo e raccogliere dati. Le validità **a posteriori** (di costrutto, di criterio ed ecologica) richiedono invece la raccolta di dati empirici, tipicamente confrontando il punteggio del test con altre misure esterne oppure analizzando il comportamento ai diversi item dello strumento.
+
+[^val]:Considerando che possono esistere più scopi, forse sarebbe più esatto usare il plurale e dire che le diverse validità sono più proprietà lungo diversi continuum.
 
 #### Validità di facciata
+Il primo tipo di validità a priori è la validità di facciata. 
 
 :::{.callout-note}
 ## Definizione
@@ -59,21 +61,22 @@ La validità di facciata è il grado in cui un test **appare** misurare ciò che
 
 Un test di memoria che chiede esplicitamente al paziente di "ricordare" una serie di elementi ha un'alta validità di facciata per la memoria; un questionario sull'ansia i cui item chiedono "quanto ti senti nervoso/a" ha un'alta validità di facciata per l'ansia. In entrambi i casi, chiunque guardi il test (paziente, clinico, valutatore esterno) ne intuisce lo scopo semplicemente osservandone il contenuto.
 
-La validità di facciata è la forma di validità considerata meno rigorosa: viene valutata solo qualitativamente, senza specifiche analisi statistiche. Talvolta è l'unica evidenza disponibile per un test, ma è sempre importante ricordare che la  plausibilità superficiale non è da considerare mai sufficiente per concludere che lo strumento misuri davvero il costrutto di interesse. 
-Un test non potrebbe essere valido per il suo scopo, nonostante un'apparente _validità di facciata_ per diversi motivi: per esempio, potrebbero esserci strategie alternative per affrontare il test che non si basano sulla funzione cognitiva attesa, oppure le istruzioni potrebbero essere poco chiare, portando il test a non essere svolto nel modo che coinvolgerebbe realmente la funzione cognitiva che si intende valutare.
+La validità di facciata è la forma di validità considerata meno rigorosa: viene valutata solo qualitativamente, senza specifiche analisi statistiche. Talvolta è l'unica evidenza disponibile per un test, ma è sempre importante ricordare che la plausibilità superficiale non è da considerare mai sufficiente per concludere che lo strumento misuri davvero il costrutto di interesse. Essa è infatto spesso considerata come una proprietà importante semplicemente perché è un requisito per la collaborazione del paziente e nella sua motivazione ad affrontare il test `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}.
+
+Un test però, potrebbe non essere un buono strumento di misurazione nonostante un'apparente _validità di facciata_ per diversi motivi: potrebbero esserci strategie alternative per affrontare il test che non si basano sulla funzione cognitiva attesa, le istruzioni potrebbero essere poco chiare, gli item del test potrebbero non comportarsi come dovrebbero per dei motivi che possono sfuggire ad una semplice analisi qualitativa.
 
 In ogni caso, non ci si dovrebbe mai basare solo sulla validità di facciata per la scelta di un test e sono da preferire evidenze di tipo empirico sull'effettiva validità.
 
 :::{.callout-tip}
 ## Validità di facciata in ambito forense
-In ambito forense vale, per certi versi, i test è importante non abbiano validità di facciata, specie per chi deve effettuare il test. I test progettati per rilevare la simulazione (_malingering_) infatti sono disegnati in modo che non sia chiaro quale è il reale scopo, cioè identificare potenziali simulatori di disturbi cognitivi. In questo caso
+In ambito forense vale, per certi versi, i test è importante non abbiano validità di facciata, specie per chi deve effettuare il test. I test progettati per rilevare la simulazione (_malingering_) infatti sono disegnati in modo che non sia chiaro quale è il reale scopo, cioè identificare potenziali simulatori di disturbi cognitivi. In questo caso è desiderabile che il test non abbia una elevata validità di facciata.
 :::
 
 `{\vspace{1cm}}`{=latex}
 
 :::{.callout-tip}
 ## Validità di facciata come unico tipo di validità.
-In alcuni casi, di un test neuropsicologico non sono disponibili espliciti approfondimento specifici sulla validità. In tal caso, è come se fosse disponibile solo la validità di facciata. Questa situazione, certamente non desiderabile, indica che l'unico modo per valutare la qualità del test è un giudizio qualitativo di come sembra sia appropriato.
+Nei manuali o articoli scientifici di alcuni test neuropsicologici potrebbe non essere presente alcun tipo di validità. In tal caso, è come se fosse disponibile solo la validità di facciata. Nel valutare la bontà del test, possiamo basarci solo sulla sua apparenza. Questa situazione, certamente non desiderabile, indica che l'unico modo per valutare la qualità del test è un giudizio qualitativo di come sembra sia appropriato.
 (si veda approfondimento: affidabilità e validità nei test neuropsicologici in Italia). <!-- NOTA GIORGIO: fare paragrafo -->
 :::
 
@@ -270,6 +273,39 @@ Le evidenze non si esauriscono con la prima pubblicazione: un test può accumula
 In tal caso, per volere fare un analisi approfondita, bisognerebbe però assicurarsi che il test per cui c'è evidenza di validità sia esattamente lo stesso che stiamo valutando: aveva esattamente gli stessi item? era sviluppato nella stessa lingua? con le stesse istruzioni? 
 Un test che assume la propria validità o affidabilità sulla base di informazioni ed evidenze vaghe o remote dovrebbe essere considerato come un test in cui le evidenze sono, almeno per quessti aspetti, scarse.
 
+```{r}
+#| label: fig-CTT-true-obs
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Valutare validità e affidabilità di un test neuropsicologico: piuttosto che basarsi su soglie, è spesso utile scegliere i test in maniera comparativa, e cioè quelli con proprietà migliori"
+#| fig-width: 10
+#| fig-height: 2.4
+
+library(ggplot2)
+
+n <- 1024
+grad <- data.frame(x = seq(0, 1, length.out = n),
+                   z = seq(0, 1, length.out = n))
+
+ggplot(grad, aes(x = x, y = 0, fill = z)) +
+  geom_tile(height = 0.6) +
+  scale_fill_gradient(low = "grey35", high = "grey67", guide = "none") +
+  annotate("text", x = -0.03, y = 0, label = "Minori evidenze\ndi validità e affidabilità",
+           hjust = 1, size = 5, colour = "grey40", lineheight = 1.1) +
+  annotate("text", x = 1.03, y = 0, label = "Maggiori evidenze\ndi validità e affidabilità",
+           hjust = 0, size = 5, colour = "grey40", lineheight = 1.1) +
+  annotate("text", x = -0.1, y = -0.85, label = "Peggio",
+           hjust = 0, size = 5.5, fontface = "bold") +
+  annotate("text", x = 1.1, y = -0.85, label = "Meglio",
+           hjust = 1, size = 5.5, fontface = "bold") +
+  scale_x_continuous(limits = c(-0.45, 1.45), expand = c(0, 0)) +
+  scale_y_continuous(limits = c(-1.4, 0.9), expand = c(0, 0)) +
+  theme_void()
+
+
+```
+
 :::{.callout-important}
 ## Il fatto che un test sia pubblicato non garantisce che abbia validità e affidabilità sufficienti.
 Uno strumento pubblicato potrebbe comunque avere una bassa affidabilità (o non nota), e lo stesso vale per la validità. Questo vale indipendentemente dall'autorevolezza degli autori.
@@ -290,5 +326,6 @@ In generale sarebbe preferibile sempre scegliere test che abbiamo buone (o quant
 ![Sintesi dei tipi di validità e di affidabilità. A sinistra, i tipi di validità sono raggruppati nelle due famiglie introdotte all'inizio del capitolo: le validità **a priori** (di facciata e di contenuto), valutate sul contenuto del test prima della raccolta dati, e le validità **a posteriori** (di costrutto, di criterio ed ecologica), che richiedono invece evidenze empiriche. Per la validità non esistono valori soglia universali: i risultati vanno di volta in volta motivati. A destra, i quattro tipi di affidabilità trattati nel capitolo, con il valore soglia "standard" più diffuso in letteratura (vedi il testo per le soglie più stringenti raccomandate per le decisioni cliniche sul singolo individuo).](../Figures/Latex-Fig-Validita-Affidabilita/Fig_validita_affidabilita.png){#fig-validita-affidabilita fig-align="center" width=100%}
 
 <!--
+## Focus: validità di una specifica misurazione.
 ## Errori comuni nel considerare gli aspetti psicometrici dei test.
 -->
