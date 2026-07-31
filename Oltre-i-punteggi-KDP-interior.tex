@@ -6,10 +6,11 @@
 \documentclass[
   italian,
   letterpaper,
-  paper=A4,
+  paper=6in:9in,
+  pagesize=pdftex,
   headinclude=on,
   footinclude=on,
-  12pt]{scrbook}
+  11pt]{scrbook}
 \usepackage{xcolor}
 \usepackage{amsmath,amssymb}
 \setcounter{secnumdepth}{5}
@@ -167,6 +168,10 @@
 \usepackage{caption}
 % Remove the "Table X:" label for tables (only affects printed captions)
 \captionsetup[table]{labelformat=empty, labelsep=none}
+\KOMAoptions{DIV=9}
+\recalctypearea
+\SetWatermarkText{}
+\fancyfoot[C]{}
 \makeatletter
 \@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
 \@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
@@ -253,14 +258,15 @@ clinica}
 \frontmatter
 \maketitle
 
-\RecustomVerbatimEnvironment{verbatim}{Verbatim}{
-   showspaces = false,
-   showtabs = false,
-   breaksymbolleft={},
-   breaklines
-   % Note: setting commandchars=\\\{\} here will cause an error
-}
-\includepdf[pages=1,fitpaper=true]{Figures/Cover2.pdf}
+\begin{titlepage}
+\centering
+\vspace*{4cm}
+{\Huge\bfseries Oltre i punteggi\par}
+\vspace{1cm}
+{\Large Elementi di psicometria e statistica per la neuropsicologia clinica\par}
+\vspace{2cm}
+{\large Giorgio Arcara\par}
+\end{titlepage}
 
 \renewcommand*\contentsname{Indice}
 {
@@ -277,7 +283,7 @@ clinica}
 \markboth{Premesse}{Premesse}
 
 \begin{verbatim}
-Ultima modifica: 2026-07-31 11:49:05 CEST. Versione 0.2.1
+Ultima modifica: 2026-07-31 11:51:29 CEST. Versione 0.2.1
 \end{verbatim}
 
 \subsection*{Obiettivo del libro}\label{obiettivo-del-libro}
@@ -1297,7 +1303,7 @@ psicologia, una tipologia di misurazione molto particolare perché non
 tratta di proprietà di oggetti fisici ma di \textbf{costrutti}, cioè
 concetti psicologici non osservabili.
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 \textbf{Costrutto}: Un concetto psicologico non direttamente osservabile
 (es. memoria, attenzione, intelligenza). Per renderlo misurabile, è
@@ -1378,7 +1384,7 @@ La più famosa definizione di misurazione è certamente quella di S.S.
 Stevens, che in un articolo del 1946 ha fornito una definizione che ha
 influenzato (nel bene e nel male) la storia della psicologia:
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 \textbf{Misurazione secondo Stevens}
 
@@ -1519,7 +1525,7 @@ di un tavolo.}
 
 \end{figure}%
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 \textbf{Misurazione secondo Suppes e Zinnes (1963)}
 
@@ -1614,7 +1620,7 @@ desumerlo a partire dall'utilizzo che si fanno dei punteggi, possiamo
 dire che implicitamente si assuma la definizione di Stevens e che la
 misura sia su scala ad intervalli.
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Importante}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-important-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Importante}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-important-color!10!white, titlerule=0mm, colframe=quarto-callout-important-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 Nella maggior parte dei test neuropsicologici \emph{si assume}
 implicitamente che la misura sia su scala a intervalli.
@@ -1733,7 +1739,7 @@ accade in psicometria, non esiste un consenso unanime su quale sia la
 più adeguata. Una delle più influenti in ambito psicologico è quella
 proposta da Lee Cronbach nel suo manuale sul testing psicologico:
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 \textbf{Test secondo Cronbach (1990)}
 
@@ -1768,7 +1774,7 @@ In quest'ultima parte della definizione, è catturata l'essenza
 dell'esito di una misurazione: un punteggio o l'appartenenza ad una
 categoria (es. ``sano'', ``Mild Cognitive Impairment'').
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Nota}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-important-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Nota}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-important-color!10!white, titlerule=0mm, colframe=quarto-callout-important-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 Il fatto che un test sia una \textbf{procedura sistematica} implica che,
 per somministrarlo correttamente, occorre attenersi scrupolosamente alla
@@ -2033,7 +2039,7 @@ E}\label{il-principio-cardine-x-t-e}
 Il principio fondamentale della CTT è espresso in una formula
 apparentemente semplice:
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 \(X = T + E\)
 
@@ -2220,7 +2226,7 @@ saranno trattati in dettaglio nel
 \hyperref[validita-e-affidabilita]{capitolo successivo}, dedicato
 interamente a Validità e Affidabilità.
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Nota}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Nota}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-tip-color!10!white, titlerule=0mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 Nei manuali o articoli dei test neuropsicologici spesso non è
 esplicitamente scritto che sono sviluppati secondo la Classical Test
@@ -2326,7 +2332,7 @@ Come per molti termini di questo libro, non esiste una definizione
 unanimamente accettata di validità. Di seguito ne è riportata una che
 cattura però bene l'essenza principale.
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 \emph{``La validità è il grado in cui un test misura effettivamente ciò
 che intende misurare.''} (\cite{slick2006psychometrics})
@@ -2376,7 +2382,7 @@ validità per identificare un decadimento cognitivo in soggetti anziani,
 e nessuna evidenza per, ad esempio, predire il rendimento scolastico in
 età evolutiva.
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Non ha senso dire che un test ``è valido''.}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Non ha senso dire che un test ``è valido''.}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-tip-color!10!white, titlerule=0mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 La validità non è una proprietà generale, ma è relativa ad una specifica
 interpretazione di un test.
@@ -2402,7 +2408,7 @@ misure esterne.
 
 \subsubsection{Validità di facciata}\label{validituxe0-di-facciata}
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 La validità di facciata è il grado in cui un test \textbf{appare}
 misurare ciò che intende misurare, sulla base di un giudizio e non di
@@ -2434,7 +2440,7 @@ In ogni caso, non ci si dovrebbe mai basare solo sulla validità di
 facciata per la scelta di un test e sono da preferire evidenze di tipo
 empirico sull'effettiva validità.
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Validità di facciata in ambito forense}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Validità di facciata in ambito forense}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-tip-color!10!white, titlerule=0mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 In ambito forense vale, per certi versi, i test è importante non abbiano
 validità di facciata, specie per chi deve effettuare il test. I test
@@ -2446,7 +2452,7 @@ identificare potenziali simulatori di disturbi cognitivi. In questo caso
 
 {\vspace{1cm}}
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Validità di facciata come unico tipo di validità.}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-tip-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Validità di facciata come unico tipo di validità.}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-tip-color!10!white, titlerule=0mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 In alcuni casi, di un test neuropsicologico non sono disponibili
 espliciti approfondimento specifici sulla validità. In tal caso, è come
@@ -2460,7 +2466,7 @@ neuropsicologici in Italia).
 
 \subsubsection{Validità di contenuto}\label{validituxe0-di-contenuto}
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 La validità di contenuto è il grado in cui gli item di un test coprono
 in modo adeguato e rappresentativo tutti gli aspetti rilevanti del
@@ -2508,7 +2514,7 @@ soglia in funzione del numero di giudici coinvolti,
 La validità di costrutto è spessa considerata, in psicometria, come la
 più importante delle validità.
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 La validità di costrutto è il grado in cui i punteggi di un test si
 comportano in accordo con la teoria del costrutto che il test intende
@@ -2629,7 +2635,7 @@ cut-off, torneremo in modo più approfondito nei capitoli dedicati.
 
 \subsubsection{Validità ecologica}\label{validituxe0-ecologica}
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 La validità ecologica è il grado in cui il punteggio di un test predice
 il comportamento della persona nella vita quotidiana reale, al di fuori
@@ -2701,7 +2707,7 @@ condivisa \\
 
 \section{Affidabilità}\label{affidabilituxe0}
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Definizione}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, titlerule=0mm, colframe=quarto-callout-note-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 L'affidabilità è la qualità di un test di fornire punteggi consistenti
 in diverse misurazioni; può essere intesa, in prima approssimazione,
@@ -3003,8 +3009,8 @@ assume la propria validità o affidabilità sulla base di informazioni ed
 evidenze vaghe o remote dovrebbe essere considerato come un test in cui
 le evidenze sono, almeno per quessti aspetti, scarse.
 
-\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, opacityback=0, left=2mm, leftrule=.75mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Il fatto che un test sia pubblicato non garantisce che abbia validità e
-affidabilità sufficienti.}, toprule=.15mm, breakable, coltitle=black, colbacktitle=quarto-callout-important-color!10!white, toptitle=1mm, opacitybacktitle=0.6, colback=white, titlerule=0mm, arc=.35mm, rightrule=.15mm, bottomrule=.15mm, bottomtitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Il fatto che un test sia pubblicato non garantisce che abbia validità e
+affidabilità sufficienti.}, coltitle=black, bottomtitle=1mm, colback=white, bottomrule=.15mm, rightrule=.15mm, breakable, toptitle=1mm, left=2mm, colbacktitle=quarto-callout-important-color!10!white, titlerule=0mm, colframe=quarto-callout-important-color-frame, leftrule=.75mm, opacitybacktitle=0.6, arc=.35mm, toprule=.15mm, opacityback=0]
 
 Uno strumento pubblicato potrebbe comunque avere una bassa affidabilità
 (o non nota), e lo stesso vale per la validità. Questo vale
@@ -3491,20 +3497,6 @@ Grazie a Rachele, per la sua pazienza senza fine.
 
 
 \backmatter
-
-\clearpage
-\ifodd\value{page}\hbox{}\newpage\fi
-\begin{center}
-\textcolor{gray}{\Large
-\textit{Questo è un libro in fase di scrittura.}\\
-Per aggiornamenti visita: \url{https://giorgioarcara.github.io/oip-book}\\
-Ultimo rendering: \today\  \currenttime
-}
-\end{center}
-\clearpage
-\ifodd\value{page}\hbox{}\newpage\fi
-% Insert the back cover PDF, full page
-\includepdf[pages=-,fitpaper]{Figures/Quarta.pdf}
 
 
 \end{document}

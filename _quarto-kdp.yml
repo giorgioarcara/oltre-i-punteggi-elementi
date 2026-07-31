@@ -1,0 +1,47 @@
+# A book render clears its whole output-dir at the start of each run, so
+# the kdp profile needs its own output-dir (a project-level setting) --
+# otherwise a kdp render would wipe out the home profile's PDF (and the
+# HTML site) from the shared _book/ directory, even with a distinct
+# output-file.
+project:
+  output-dir: "_book-kdp"
+
+# output-file is a book-level setting (format.pdf.output-file is ignored
+# for `type: book` projects).
+book:
+  output-file: "Oltre-i-punteggi-KDP-interior"
+
+format:
+  pdf:
+    classoption: [paper=6in:9in, pagesize=pdftex, headinclude=on, footinclude=on, 11pt]
+
+    # Minimal internal title page: the interior must carry no cover art
+    # (the KDP cover is a separate wraparound file uploaded directly to
+    # KDP), so this is the only place inside the printed pages that
+    # states title/subtitle/author. Static text, not pulled from book
+    # metadata (kept in sync manually with the `book:` block above).
+    include-before-body:
+      text: |
+        \begin{titlepage}
+        \centering
+        \vspace*{4cm}
+        {\Huge\bfseries Oltre i punteggi\par}
+        \vspace{1cm}
+        {\Large Elementi di psicometria e statistica per la neuropsicologia clinica\par}
+        \vspace{2cm}
+        {\large Giorgio Arcara\par}
+        \end{titlepage}
+
+    # Appended after the shared preamble (include-in-header is a list in
+    # the base _quarto.yml, so this is added on top rather than
+    # replacing it): re-tune the type area for the much smaller 6x9in
+    # page (DIV=12 was computed for A4 and would leave cramped or
+    # disproportionate margins here), and strip draft markers for a
+    # clean KDP proof. DIV=9 is a first pass -- eyeball line length
+    # after rendering and adjust if needed.
+    include-in-header:
+      - text: |
+          \KOMAoptions{DIV=9}
+          \recalctypearea
+          \SetWatermarkText{}
+          \fancyfoot[C]{}

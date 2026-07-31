@@ -1,6 +1,9 @@
 project:
   type: book
-  
+
+profile:
+  default: home
+
 filters:
   - filters/date.lua
   - filters/domanda.lua
@@ -74,88 +77,57 @@ format:
     lang: it
     citation_package: biblatex
     citeproc: false
-    classoption: [paper=A4, headinclude=on,footinclude=on,12pt]
-    #classoption: [paper=6in:9in,pagesize=pdftex,headinclude=on,footinclude=on,10pt]
     include-in-header:
-      text: |
-        \KOMAoptions{DIV=12, BCOR=10mm, headings=standardclasses}
-        \usepackage{draftwatermark}
-        \SetWatermarkText{BOZZA}
-        \SetWatermarkScale{1.5} % bigger/smaller watermark
-        \SetWatermarkLightness{0.96} % 0=black, 1=white (default 0.8)
-        \usepackage{datetime}
-        
-        % set headers and footers
-        \usepackage{fancyhdr}
-        \pagestyle{fancy}
-        
-        % Clear header/foot
-        \fancyhf{}
-        
-        % Header: only chapter title (no numbers)
-        \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-        \fancyhead[LE,RO]{\nouppercase{\leftmark}}
-        
-        % Footer: page numbers left/right depending on page parity
-        \fancyfoot[LE,RO]{\thepage}
-        
-        % Custom center footer text
-        \fancyfoot[C]{\textcolor{gray}{\scriptsize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}. \\ Per aggiornamenti visita: \url{giorgioarcara.github.io/oip-book}}}
-        
-        % Remove numbering and labels from parts
-        \renewcommand*{\thepart}{} 
-        \renewcommand*{\partname}{} 
-        \renewcommand*{\partformat}{}
+      - text: |
+          \KOMAoptions{DIV=12, BCOR=10mm, headings=standardclasses}
+          \usepackage{draftwatermark}
+          \SetWatermarkText{BOZZA}
+          \SetWatermarkScale{1.5} % bigger/smaller watermark
+          \SetWatermarkLightness{0.96} % 0=black, 1=white (default 0.8)
+          \usepackage{datetime}
 
-        \usepackage[backend=biber,style=apa]{biblatex}
-        \addbibresource{references.bib}  % path corretto al tuo .bib
-        \usepackage{fvextra}
-        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-        %\areaset[0.50in]{4.5in}{8in} uncomment for default Koma option according to template
-        %\usepackage{fontspec}
-        %\newfontfamily\headingfont{Alegreya}
-        \usepackage{xcolor}
-        \newenvironment{domanda}{%
-          \par\medskip\noindent\rule{\linewidth}{0.4pt}\vspace{3pt}%
-          \begin{center}\large\itshape
-        }{%
-          \end{center}\vspace{-4pt}\noindent\rule{\linewidth}{0.4pt}\par\medskip
-        }
-        \usepackage{pdfpages}
-        % Redefine \maketitle to do nothing
-        \renewcommand{\maketitle}{}
-        
-        % remove table number from captions (to uniform with html)
-        \usepackage{caption}
-        % Remove the "Table X:" label for tables (only affects printed captions)
-        \captionsetup[table]{labelformat=empty, labelsep=none}
-        
-    include-before-body:
-      text: |
-        \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
-           showspaces = false,
-           showtabs = false,
-           breaksymbolleft={},
-           breaklines
-           % Note: setting commandchars=\\\{\} here will cause an error
-        }
-        \includepdf[pages=1,fitpaper=true]{Figures/Cover2.pdf}
-    include-after-body:
-      text: |
-        \clearpage
-        \ifodd\value{page}\hbox{}\newpage\fi
-        \begin{center}
-        \textcolor{gray}{\Large
-        \textit{Questo è un libro in fase di scrittura.}\\
-        Per aggiornamenti visita: \url{https://giorgioarcara.github.io/oip-book}\\
-        Ultimo rendering: \today\  \currenttime
-        }
-        \end{center}
-        \clearpage
-        \ifodd\value{page}\hbox{}\newpage\fi
-        % Insert the back cover PDF, full page
-        \includepdf[pages=-,fitpaper]{Figures/Quarta.pdf}
-        %\setkomafont{section}{\headingfont\bfseries\Large}
-        %\setkomafont{subsection}{\headingfont\bfseries\large}
-        %\printbibliography
+          % set headers and footers
+          \usepackage{fancyhdr}
+          \pagestyle{fancy}
+
+          % Clear header/foot
+          \fancyhf{}
+
+          % Header: only chapter title (no numbers)
+          \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+          \fancyhead[LE,RO]{\nouppercase{\leftmark}}
+
+          % Footer: page numbers left/right depending on page parity
+          \fancyfoot[LE,RO]{\thepage}
+
+          % Custom center footer text
+          \fancyfoot[C]{\textcolor{gray}{\scriptsize \textit{Questo è un libro in fase di scrittura. Ultimo rendering: \today\ \currenttime}. \\ Per aggiornamenti visita: \url{giorgioarcara.github.io/oip-book}}}
+
+          % Remove numbering and labels from parts
+          \renewcommand*{\thepart}{}
+          \renewcommand*{\partname}{}
+          \renewcommand*{\partformat}{}
+
+          \usepackage[backend=biber,style=apa]{biblatex}
+          \addbibresource{references.bib}  % path corretto al tuo .bib
+          \usepackage{fvextra}
+          \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+          %\areaset[0.50in]{4.5in}{8in} uncomment for default Koma option according to template
+          %\usepackage{fontspec}
+          %\newfontfamily\headingfont{Alegreya}
+          \usepackage{xcolor}
+          \newenvironment{domanda}{%
+            \par\medskip\noindent\rule{\linewidth}{0.4pt}\vspace{3pt}%
+            \begin{center}\large\itshape
+          }{%
+            \end{center}\vspace{-4pt}\noindent\rule{\linewidth}{0.4pt}\par\medskip
+          }
+          \usepackage{pdfpages}
+          % Redefine \maketitle to do nothing
+          \renewcommand{\maketitle}{}
+
+          % remove table number from captions (to uniform with html)
+          \usepackage{caption}
+          % Remove the "Table X:" label for tables (only affects printed captions)
+          \captionsetup[table]{labelformat=empty, labelsep=none}
     fig-pos: 'H'

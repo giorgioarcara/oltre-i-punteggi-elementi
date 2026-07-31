@@ -1,0 +1,28 @@
+format:
+  pdf:
+    classoption: [paper=A4, headinclude=on, footinclude=on, 12pt]
+    include-before-body:
+      text: |
+        \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+           showspaces = false,
+           showtabs = false,
+           breaksymbolleft={},
+           breaklines
+           % Note: setting commandchars=\\\{\} here will cause an error
+        }
+        \includepdf[pages=1,fitpaper=true]{Figures/Cover2.pdf}
+    include-after-body:
+      text: |
+        \clearpage
+        \ifodd\value{page}\hbox{}\newpage\fi
+        \begin{center}
+        \textcolor{gray}{\Large
+        \textit{Questo è un libro in fase di scrittura.}\\
+        Per aggiornamenti visita: \url{https://giorgioarcara.github.io/oip-book}\\
+        Ultimo rendering: \today\  \currenttime
+        }
+        \end{center}
+        \clearpage
+        \ifodd\value{page}\hbox{}\newpage\fi
+        % Insert the back cover PDF, full page
+        \includepdf[pages=-,fitpaper]{Figures/Quarta.pdf}
