@@ -85,7 +85,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Il libro in breve
   * Una metafora utile
   * Cosa il libro NON tratta
-  * Sezioni speciali: _Approfondimenti_, _Nella pratica clinica_, _Errori comuni_
+  * Sezioni speciali: _Focus_, _Nella pratica clinica_, _Errori comuni_
 
 **1. Misurazione e Test in Neuropsicologia Clinica**
 
@@ -126,8 +126,8 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Aspetti importanti da considerare nell'utilizzare i dati normativi
   * Nella pratica clinica: esempi di utilizzo dei cut-offs
   * Errori comuni nell'utilizzo dei cut-offs di normalità
-  * Approfondimento: Perché usiamo i cut-off basati su soggetti normali?
-  * Approfondimento: il MoCA e i problemi della sua introduzione in Italia
+  * Focus: Perché usiamo i cut-off basati su soggetti normali?
+  * Focus: il MoCA e i problemi della sua introduzione in Italia
   * Capitolo 3: Riassunto
 
 
@@ -137,7 +137,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Cut-off di discriminazione
   * Sensibilità, Specificità e la curva ROC
   * Altre misure di performance di identificazione
-  * Approfondimento pratico: utilizzare test con cut-off di discriminazione
+  * Focus: utilizzare test con cut-off di discriminazione
   * Errori comuni nell'utilizzo di cut-off di discriminazione
   * Capitolo 4: Riassunto
 
@@ -200,7 +200,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Registro aggiornamenti
   * Statistica di base per la neuropsicologia clinica
     * Elementi di probabilità
-    * Campione e popolazione (approfondimento)
+    * Campione e popolazione (focus)
     * Il concetto di p-value
     * Correlazioni
     * Correlazione e causa

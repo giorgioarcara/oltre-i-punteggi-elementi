@@ -81,7 +81,7 @@ In ambito forense vale, per certi versi, i test è importante non abbiano validi
 :::{.callout-tip}
 ## Validità di facciata come unico tipo di validità.
 Nei manuali o articoli scientifici di alcuni test neuropsicologici potrebbe non essere presente alcun tipo di validità. In tal caso, è come se fosse disponibile solo la validità di facciata. Nel valutare la bontà del test, possiamo basarci solo sulla sua apparenza. Questa situazione, certamente non desiderabile, indica che l'unico modo per valutare la qualità del test è un giudizio qualitativo di come sembra sia appropriato.
-(si veda approfondimento: affidabilità e validità nei test neuropsicologici in Italia). <!-- NOTA GIORGIO: fare paragrafo -->
+(si veda Focus: affidabilità e validità nei test neuropsicologici in Italia). <!-- NOTA GIORGIO: fare paragrafo -->
 :::
 
 #### Validità di contenuto

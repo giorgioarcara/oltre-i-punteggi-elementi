@@ -33,3 +33,4 @@ Rilasciata versione iniziale del libro che include
 ### v0.2.1
 - corrette numerose citazioni non inserite correttamente nello standard a doppio rendering (LaTeX/HTML): parentesi sbilanciate, citazioni narrative con nome autore duplicato, citazioni testuali senza markup.
 - aggiunte citazioni a references.bib.
+- le sezioni inizialmente definite come "Approfondimenti e Curiosità" sono state rinominate come "Focus".

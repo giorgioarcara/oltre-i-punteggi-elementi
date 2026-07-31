@@ -183,7 +183,7 @@ Lo stesso vale per il Digit Span, test in cui si chiede di ricordare sequenze di
 
 Questi esempi, per quanto informali, mostrano come interpretare i punteggi grezzi di un test come se fossero su scala a intervalli non si possa dare per scontato. Eppure, la maggior parte dei test neuropsicologici non riporta evidenze o non effettua verifiche che mostrino l'effettiva adeguatezza dell'utilizzo di una scala ad intervalli.
 
-[^mis3]: per complicare ulteriormente il quadro qualcuno che conosce il MoCA potrebbe anche dire che il significato di questi $+2$, dipende molto da quale è l'item (o gli item) a cui è legato questo punteggio, questo esempio è trattato in un [Approfondimento](#Approfondimento-item-arbitrari)).
+[^mis3]: per complicare ulteriormente il quadro qualcuno che conosce il MoCA potrebbe anche dire che il significato di questi $+2$, dipende molto da quale è l'item (o gli item) a cui è legato questo punteggio, questo esempio è trattato in un [Focus](#Focus-item-arbitrari)).
 
 <!-- aggiungere qui forse esempio con scale di misura dell'indicatore e scala di misura del cosrutto?-->
 
