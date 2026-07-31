@@ -34,7 +34,6 @@ In questo caso è messo in evidenza un aspetto importante, e cioè che la validi
 Un test può infatti avere uno scopo diverso dalla misurazione di un concetto psicologico inosservabile: pensiamo, per esempio, a un test che deve prevedere le possibilità di reinserimento lavorativo dopo un trauma cranico, oppure a uno che deve distinguere pazienti con Mild Cognitive Impairment (MCI) da soggetti con invecchiamento fisiologico. In questi casi l'obiettivo è chiaro e misurabile, ma non è, in senso stretto, un «costrutto».
 (questo aspetto sarà ripreso nel paragrafo "validità di una specifica misurazione", DA COMPLETARE).
 
-
 A prescindere da come si definisca esattamente la validità, essa è sempre associata alla presenza di evidenze scientifiche di diverso tipo, che forniscono una base per interpretare i punteggi.
 Un test con buona validità per la memoria, per esempio, dispone di evidenze scientifiche che ne confermano l'effettiva capacità di misurare la memoria; allo stesso modo, uno strumento in grado di distinguere pazienti con MCI da soggetti sani dispone di evidenze che ne dimostrano l'efficacia in questo compito.
 
@@ -73,8 +72,8 @@ In ambito forense vale, per certi versi, i test è importante non abbiano validi
 `{\vspace{1cm}}`{=latex}
 
 :::{.callout-tip}
-## Validità di facciata e test neuropsicologici italiani.
-Nei test neuropsicologici disponibili in Italia, in molti casi l'unica validità disponibile è purtroppo quella di facciata.
+## Validità di facciata come unico tipo di validità.
+In alcuni casi, di un test neuropsicologico non sono disponibili espliciti approfondimento specifici sulla validità. In tal caso, è come se fosse disponibile solo la validità di facciata. Questa situazione, certamente non desiderabile, indica che l'unico modo per valutare la qualità del test è un giudizio qualitativo di come sembra sia appropriato.
 (si veda approfondimento: affidabilità e validità nei test neuropsicologici in Italia). <!-- NOTA GIORGIO: fare paragrafo -->
 :::
 
@@ -88,30 +87,50 @@ La validità di contenuto è il grado in cui gli item di un test coprono in modo
 Un test con buona validità di contenuto campiona in modo sistematico l'intero dominio del costrutto: un test per la patente di guida che simula molte condizioni di guida reali (traffico urbano, manovre, situazioni di emergenza) ha una validità di contenuto migliore di un test che valuta solo la conoscenza teorica del codice della strada. Al contrario, un test di lettura composto da sole parole isolate ha una validità di contenuto scarsa se lo scopo è valutare la comprensione di un testo, perché non considera aspetti come la capacità di leggere frasi o testi più lunghi e complessi.
 
 Il modo più semplice di valutare la validità di contenuto è basarsi sul giudizio qualitativo di esperti, spesso gli autori del test stesso, che dovrebbero motivare le ragioni che hanno portato a disegnare un test e stabilire gli item, in una determinata maniera.
-Oltre a questo approccio, più qualitativo, esistono anche approcci quantitativi alla validità di contenuto. Il più famoso è sicuramente quello proposto da Lawshe `(\citeyear{lawshe1975quantitative})`{=latex}`(1975)`{=html}: un gruppo di giudici esperti valuta ogni singolo item, e le loro valutazioni vengono aggregate in un indice per item (_Content Validity Ratio_, CVR) e in un indice complessivo per il test (_Content Validity Index_, CVI)[^cvi]. Più alto è il CVI maggiore è la validità di contenuto. Nei test neuropsicologici italiani la validità di contenuto è riportata raramente in modo esplicito, mentre prevale la presenza di argomentazioni qualitative sulla presenza di validità di contenuto; tra le eccezioni vi sono l'ABaCo `(\cite{sacco2008abaco})`{=latex}`(Sacco et al., 2008)`{=html} e l'APACS `(\cite{arcara2016apacs})`{=latex}`(Arcara & Bambini, 2016)`{=html}.
+Oltre a questo approccio, più qualitativo, esistono anche approcci quantitativi alla validità di contenuto. Il più famoso è sicuramente quello proposto da Lawshe `(\citeyear{lawshe1975quantitative})`{=latex}`(1975)`{=html}: un gruppo di giudici esperti valuta ogni singolo item, e le loro valutazioni vengono aggregate in un indice per item (_Content Validity Ratio_, CVR) e in un indice complessivo per il test (_Content Validity Index_, CVI)[^cvi]. Più alto è il CVI maggiore è la validità di contenuto. 
+Oltre al CVI esistono altri metodi, tra cui il più famoso è certamente il _Delphi Consensus_. Questo è un metodo strutturato fatto da passi espliciti per raggiungere un accordo tra più esperti.
+Nei test neuropsicologici italiani la validità di contenuto è riportata raramente in modo esplicito, mentre prevale la presenza di argomentazioni qualitative sulla presenza di validità di contenuto; tra le eccezioni vi sono l'ABaCo `(\cite{sacco2008abaco})`{=latex}`(Sacco et al., 2008)`{=html} e l'APACS `(\cite{arcara2016apacs})`{=latex}`(Arcara & Bambini, 2016)`{=html}.
 
-[^cvi]: Il calcolo del CVR e del CVI, così come le tabelle con i valori soglia in funzione del numero di giudici coinvolti, sono trattati più in dettaglio nella sezione _Approfondimenti tecnici_.
+_Soglia indicativa_: la soglia minima suggerita per il CVI dipende dal numero dei giudici coinvolti. così come le tabelle con i valori soglia in funzione del numero di giudici coinvolti,
+
+[^cvi]: Il calcolo del CVR e del CVI sono trattati più in dettaglio nella sezione _Approfondimenti tecnici_.
 
 <!-- Per sezione "Approfondimenti tecnici": formula del CVR di Lawshe (1975), CVR = (ne - N/2)/(N/2), dove ne è il numero di giudici che valutano l'item come "essenziale" e N il numero totale di giudici; tabella dei valori soglia in funzione di N (Lawshe, 1975; aggiornamenti in Wilson et al., 2012; Ayre & Scally, 2014); relazione tra CVR per item e CVI complessivo del test (media dei CVR degli item mantenuti); cenni alla tabella di Yusoff (2019) per i valori minimi accettabili. -->
 
 #### Validità di costrutto
+
+La validità di costrutto è spessa considerata, in psicometria, come la più importante delle validità. 
 
 :::{.callout-note}
 ## Definizione
 La validità di costrutto è il grado in cui i punteggi di un test si comportano in accordo con la teoria del costrutto che il test intende misurare.
 :::
 
-La validità di costrutto è genericamente considerata il principale tipo di validità. Essa si articola tipicamente in tre componenti complementari:
+La validità di costrutto è genericamente considerata il principale tipo di validità. Essa si articola tipicamente in due componenti complementari:
 
-- **Validità convergente**: il punteggio del test correla con altre misure dello stesso costrutto, o di costrutti teoricamente vicini.
-- **Validità divergente (o discriminante)**: il punteggio del test mostra una correlazione bassa con misure di costrutti teoricamente distinti. Per esempio, un test di autonomia funzionale come la NADL-F dovrebbe correlare pochissimo con una scala di depressione come la GDS, se i due strumenti misurano davvero costrutti diversi.
+- Validità convergente/divergente
+- struttura fattoriale
+
+#### Validità convergente/divergente
+Con questo nome si 
+
+- **Validità convergente**: è la qualità del punteggio al test di correlare con altre misure dello stesso costrutto, o di costrutti teoricamente vicini. Una buona validità convergente si può innanzitutto ottenere sia se il test correla con altri test che misurano lo stesso costrutto. Ad esempio, un test di memoria è atteso correli con altri test di memoria. Evidenza convergente può però anche esserci, in generale, se il test correla in maniera coerente con la teoria con altri costrutti. Ad esempio se un test che correla con l'età e dal costrutto ci si aspetta che il punteggio al test correli con l'età, questa può essere considerata come evidenza di validità convergente.
+
+- **Validità divergente (o discriminante)**: e la qualità punteggio del punteggio al test di avere correlazioni basse con misure di costrutti teoricamente distinti. Per esempio, un test che misuri un test di comprensione del linguaggio, dovrebbe correlare poco con test di memoria differita, se si assume che i due strumenti misurano davvero costrutti diversi. Questo tipo di validità è molto importante per valutare la selettività con cui un test misura un costrutto, piuttosto che effetti aspecifici e generali, che sono comuni nei test neuropsicologici (si pensi al fattore _G_ ).
+
+_Soglie indicative_: Per la validità di costrutto non esiste un valore soglia universale (una correlazione convergente "abbastanza alta" o divergente "abbastanza bassa"), il che la rende, tra i tipi di validità, quella più esposta al rischio di flessibilità interpretativa post-hoc: è facile, guardando i dati a posteriori, trovare una spiegazione plausibile per qualunque pattern di correlazioni osservato. Per questo motivo, le ipotesi su quali correlazioni ci si aspetta di trovare (e quali no) andrebbero specificate prima di raccogliere i dati oppure andrebbero testate in due passi: una prima analisi esplorativa su un campione e una seconda analisi confermativa su un campione indipendente. La "pre-registrazione" dei risultati (cioè una registrazione in un punto sicuro e pubblico delle attese sperimentali) è uno strumento della _Open Science_ che sembra particolarmente utile per una valutazione della robustezza della validità di costrutto.
+
+
+#### struttura fattoriale
 - **Struttura fattoriale**: gli item del test si raggruppano in modo coerente con il modello teorico del costrutto, tipicamente verificata con l'analisi fattoriale esplorativa (Exploratory Factor Analysis, EFA) o confermativa (Confirmatory Factor Analysis, CFA); talvolta, anche se non è propriamente corretto dal punto di vista statistico, a questo scopo viene utilizzata anche l'analisi delle componenti principali (Principal Component Analysis, PCA).
 
-Per la validità di costrutto non esiste un valore soglia universale (una correlazione convergente "abbastanza alta" o divergente "abbastanza bassa"), il che la rende, tra i tipi di validità, quella più esposta al rischio di flessibilità interpretativa post-hoc: è facile, guardando i dati a posteriori, trovare una spiegazione plausibile per qualunque pattern di correlazioni osservato. Per questo motivo, le ipotesi su quali correlazioni ci si aspetta di trovare (e quali no) andrebbero specificate prima di raccogliere i dati oppure andrebbero testate in due passi: una prima analisi esplorativa su un campione e una seconda analisi confermativa su un campione indipendente. La "pre-registrazione" dei risultati (cioè una registrazione in un punto sicuro e pubblico delle attese sperimentali) è uno strumento della _Open Science_ che sembra particolarmente utile per una valutazione della robustezza della validità di costrutto.
+
 
 #### Validità concorrente
 
-Un aspetto della validità di costrutto, riferito nello specifico a un confronto con un **criterio esterno** (una variabile osservabile, spesso considerata un gold standard per il costrutto di interesse), è quello che va sotto il nome di validità di criterio. Se il criterio è misurato **nello stesso momento** in cui si somministra il test, si parla di validità concorrente. Esempi tipici sono la correlazione tra un test breve di screening e una batteria estesa somministrata nella stessa sessione, oppure il confronto tra una versione online e una versione in presenza dello stesso strumento. Per un criterio continuo, in letteratura si trovano tipicamente valori attesi di correlazione pari o superiori a 0.70-0.80.
+Un aspetto della validità di costrutto, riferito nello specifico a un confronto con un **criterio esterno** (una variabile osservabile, spesso considerata un gold standard per il costrutto di interesse), è quello che va sotto il nome di validità di criterio. Se il criterio è misurato **nello stesso momento** in cui si somministra il test, si parla di validità concorrente. Esempi tipici sono la correlazione tra un test breve di screening e una batteria estesa somministrata nella stessa sessione, oppure il confronto tra una versione online e una versione in presenza dello stesso strumento. 
+
+_Soglia indicativa_ : Per un criterio continuo, in letteratura si trovano tipicamente valori attesi di correlazione pari o superiori a 0.70-0.80.
 
 #### Validità predittiva
 
@@ -119,11 +138,13 @@ Se invece il criterio esterno viene misurato in un momento **successivo**, si pa
 
 Questa variante, in cui il criterio non è una misura continua ma un'appartenenza a gruppi già noti a priori (per esempio diagnosi confermate con altri mezzi), va sotto il nome di **validità dei gruppi noti** (_known-groups validity_), e viene tipicamente espressa in termini di sensibilità e specificità nel distinguere i gruppi, per cui in letteratura si raccomandano spesso valori pari o superiori a 0.80. Su questi indici, e sulla scelta dei punteggi di cut-off, torneremo in modo più approfondito nei capitoli dedicati.
 
+<!--
 #### Validità interna
 
 Un aspetto distinto, ma strettamente collegato, riguarda la qualità metodologica degli studi con cui si raccolgono le evidenze di validità: si parla in questo caso di **validità interna** del disegno di ricerca. Se lo studio che raccoglie le evidenze presenta dei confondimenti, le conclusioni sulla validità del test diventano meno solide. Per esempio, in uno studio di validità concorrente in cui il gruppo di pazienti e il gruppo di controllo differiscono sistematicamente per età o scolarità, un'eventuale differenza nei punteggi al test potrebbe riflettere queste variabili di confondimento, piuttosto che il costrutto che il test intende misurare.
 
 La validità interna si contrappone alla **validità esterna**, cioè alla generalizzabilità dei risultati di uno studio ad altri contesti, popolazioni o momenti temporali. Un disegno di ricerca con alta validità interna, ma condotto su un campione molto specifico, può avere scarsa validità esterna, e viceversa.
+-->
 
 #### Validità ecologica
 
@@ -241,10 +262,13 @@ Tabella riassuntiva:
 
 Una domanda che una/un neuropsicologa/o dovrebbe porsi prima di utilizzare un test è: _il mio test ha validità e affidabilità adeguate?_.
 
-Immaginando di voler fare una valutazione neuropsicologica di qualità, questa passa anche dallo scegliere strumenti di qualità. Parte della qualità di un test passa appunto dal valutare validità e affidabilità. Ma come farlo nel concreto?
-Bisogna recuperare delle informazioni e decidere che evidenze ci sono che il test sia effettivamente un buon test.
+Immaginando di voler fare una valutazione neuropsicologica di alta qualità, questa dipende anche dallo scegliere strumenti di qualità. Parte della qualità di un test sono appunto la validità e affidabilità, tema di questo capitolo. Ma come farlo nel concreto?
+Bisogna semplicemente recuperare informazioni su validità e affidabilità del test.
 Il primo posto in cui cercare queste informazioni è il manuale del test, oppure l'articolo scientifico originale con cui lo strumento è stato presentato: è lì che dovrebbero trovarsi le evidenze di validità e affidabilità raccolte dagli autori al momento della pubblicazione.
-Le evidenze non si esauriscono però con la prima pubblicazione: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita, tramite nuove pubblicazioni o addendum. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022), quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche altri studi successivano che lo citano (per esempio tramite Google Scholar o PubMed) e che ne approfondiscono le proprietà psicometriche, per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
+Le evidenze non si esauriscono con la prima pubblicazione: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita, tramite nuove pubblicazioni o addendum. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022), quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche altri studi successivano che lo citano (per esempio tramite Google Scholar o PubMed) e che ne approfondiscono le proprietà psicometriche, per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
+è da notare che non è raro che alcune proprietà psicometriche non siano presentata proprio perché si da per scontato che essa sia stata dimostrata in precedenti lavori con frasi del tipo "il test xxx, è noto avere buona validità e affidabilità".
+In tal caso, per volere fare un analisi approfondita, bisognerebbe però assicurarsi che il test per cui c'è evidenza di validità sia esattamente lo stesso che stiamo valutando: aveva esattamente gli stessi item? era sviluppato nella stessa lingua? con le stesse istruzioni? 
+Un test che assume la propria validità o affidabilità sulla base di informazioni ed evidenze vaghe o remote dovrebbe essere considerato come un test in cui le evidenze sono, almeno per quessti aspetti, scarse.
 
 :::{.callout-important}
 ## Il fatto che un test sia pubblicato non garantisce che abbia validità e affidabilità sufficienti.
@@ -253,7 +277,23 @@ Uno strumento pubblicato potrebbe comunque avere una bassa affidabilità (o non 
 
 Come già sottolineato all'inizio di questa sezione, le evidenze di validità e affidabilità si accumulano nel tempo, e vanno considerate come all'interno di un continuum. Ci sono test con migliore validità e test con peggiore validità. Il fatto che informazioni su affidabilità o validità non siano disponibile non significa necessariamente che siano scarse, ma segnalano l'importante fatto che non le conosciamo. Non siamo quindi in grado di giudicare se quel test è adeguato o no. Per tale motivo, scegliere di usare test senza evidenze su affidabilità o validità andrebbe visto come muoversi verso il polo peggiore del continuum, specie se alternative in cui questi valori sono noti sono disponibile.
 
-È anche per questo motivo che l'aggiornamento professionale continuo è così rilevante in questo ambito: nuove prove pubblicate nel tempo possono spostare la valutazione complessiva di uno strumento, in meglio o in peggio, verso una scelta più consapevolezza degli strumenti da mettere nella propria cassetta deglia attrezzi.
+
+```{=latex}
+\begin{figure}
+\begin{tikzpicture}[baseline=(current bounding box.center)]
+
+% : peggio - meglio
+\node[anchor=west] at (0, 0) {\footnotesize \parbox[2cm]{4cm}{\emph{Minori evidenze su Validità/Affidabilità}}};
+\node[anchor=east] at (11, 0) {\footnotesize \parbox[2cm]{4cm}{\emph{Maggiori evidenze su Validità/Affidabilità}}};
+\node[anchor=west] at (0, -1.2) {\textbf{Peggio}};
+\node[anchor=east] at (10, -1.2) {\textbf{Meglio}};
+\draw[thick] (1.5, -1.2) -- (8.5, -1.2);
+\end{tikzpicture}
+\caption*{Scegliere un test su base di validità e affidabilità: per stabilire quale test scegliere, a parità di altre informazioni andrebbero considerate anche validità e affidabilità, come proprietà fondamentali sulla qualità delle misurazione. Piuttosto che classificare il test come al di sopra di una soglia (arbitraria), meglio utilizzare un approccio comparativo, scegliendo i test migliori. Se le evidenze su validità o affidabilità non sono disponibili dovremmo considerarli come nel polo peggiore rispetto a quella proprietà.
+\end{figure}
+```
+
+È anche per questo motivo che l'aggiornamento professionale continuo è così rilevante in questo ambito: nuove prove pubblicate nel tempo possono spostare la valutazione complessiva di uno strumento, in meglio o in peggio, verso una scelta più consapevolezza degli strumenti da mettere nella propria cassetta degli attrezzi.
 
 ## Capitolo 2: Riassunto
 
