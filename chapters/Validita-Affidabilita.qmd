@@ -188,9 +188,8 @@ Un esempio è rappresentato da un punteggio neuropsicologico rilevato ad una pri
 
 Il criterio futuro può essere anche categoriale. Per esempio, il ritorno al lavoro dopo uno *stroke* può essere codificato come esito dicotomico (*sì/no*). Valutare se il punteggio ottenuto a un test somministrato nella fase iniziale sia in grado di predire la probabilità di un successivo reinserimento lavorativo costituisce un’indagine della validità predittiva del test.
 
-#### Interpretazione degli indici
 
-Non esiste una soglia universale oltre la quale la validità di criterio possa essere considerata automaticamente adeguata. L’interpretazione dipende dalla natura del criterio, dalla finalità del test, dalla qualità della misura di riferimento e dalle conseguenze delle decisioni che verranno prese sulla base del punteggio.
+_Soglie indicative_: Non esiste una soglia universale oltre la quale la validità di criterio possa essere considerata automaticamente adeguata. L’interpretazione dipende dalla natura del criterio, dalla finalità del test, dalla qualità della misura di riferimento e dalle conseguenze delle decisioni che verranno prese sulla base del punteggio.
 
 Quando il criterio è continuo, la relazione viene spesso espressa mediante un coefficiente di correlazione. Valori pari o superiori a 0.70–0.80 possono essere considerati elevati in molti contesti applicativi, ma non rappresentano requisiti universalmente validi.
 
@@ -211,9 +210,11 @@ La validità interna si contrappone alla **validità esterna**, cioè alla gener
 La validità ecologica è il grado in cui il punteggio di un test predice il comportamento della persona nella vita quotidiana reale, al di fuori del contesto di somministrazione.
 :::
 
-Si valuta tipicamente calcolando la correlazione tra il punteggio del test e misure del funzionamento quotidiano, per esempio scale di attività della vita quotidiana (ADL/IADL) o questionari compilati dal paziente o da un caregiver. Anche in questo caso non esiste un valore soglia condiviso in letteratura.
+Si valuta tipicamente calcolando la correlazione tra il punteggio del test e misure del funzionamento quotidiano, per esempio scale di attività della vita quotidiana (ADL/IADL), questionari compilati dal paziente o da un caregiver o altri indici che sono relativi alla vita quotidiana (es. numero di comportamenti inappropriati).
 
-La validità ecologica è spesso trascurata nella pratica, in parte perché raccogliere dati sul funzionamento quotidiano reale è più difficile e costoso che raccogliere altri tipi di evidenza. È però una dimensione particolarmente rilevante in neuropsicologia clinica e forense, dove l'obiettivo ultimo della valutazione è spesso proprio stabilire l'impatto di un deficit cognitivo sull'autonomia della persona nella vita reale.
+La validità ecologica è raramente disponibile, in parte perché raccogliere dati sul funzionamento quotidiano reale è più difficile e costoso che raccogliere altri tipi di evidenza (come la relazione con altri test). È però una dimensione particolarmente rilevante in neuropsicologia clinica e forense, dove l'obiettivo ultimo della valutazione è spesso proprio stabilire l'impatto di un deficit cognitivo sul funzionamento della persona nella vita reale, al di fuori dell'ambulatorio e del setting di valutazione.
+
+_Soglia indicativa_: non esiste un valore soglia condiviso in letteratura per giudicare la validità ecologica come sufficiente, anche perché non esiste un'analisi standard. Spesso sono riportate correlazioni o analisi di regressione (es. `(\cite{higginson2000ecological})`{=latex}`(Higginson, Arnett, & Voss, 2000)`{=html})
 
 Tabella riassuntiva:
 
@@ -234,7 +235,7 @@ Tabella riassuntiva:
 
 :::{.callout-note}
 ## Definizione
-L'affidabilità è la qualità di un test di fornire punteggi consistenti in diverse misurazioni; può essere intesa, in prima approssimazione, come la precisione di un test.
+L'affidabilità è la qualità di un test di fornire punteggi consistenti in diverse misurazioni; può essere intesa come la precisione di un test.
 :::
 
 Tornando all'equazione cardine della CTT ($X = T + E$), l'affidabilità esprime quanto la componente d'errore $E$ sia piccola rispetto al punteggio osservato $X$: un test molto affidabile è un test in cui, somministrazione dopo somministrazione, $E$ resta sistematicamente piccolo, e i punteggi osservati restano quindi vicini al punteggio vero $T$.
@@ -246,9 +247,8 @@ Affidabilità e validità sono concetti distinti ma collegati, in un modo spesso
 
 ### Valori soglia per affidabilità.
 
-Una delle domanda che ci si potrebbe porre é: l'affidaibilità del mio test è sufficiente alta?
-Questa è una domanda delicata in cui la risposta dipenda anche dal tipo di utilizzo che si intende fare con il test. Di seguito sono riportati, a titolo indicativo, alcuni valori soglia che provengono
-dall'analisi di `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}. Una classificazione generale della grandezza dei coefficienti di affidabilità, che vale come riferimento orientativo per tutti i tipi di affidabilità trattati di seguito, è la seguente `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}:
+Come abbiamo già visto per la validità una domanda comune è: l'affidabilità del mio test è sufficiente alta?
+Questa è una domanda delicata in cui la risposta dipenda anche dal tipo di utilizzo che si intende fare con il test. Di seguito è riportata una classificazione generale della grandezza dei coefficienti di affidabilità, che vale come riferimento orientativo per tutti i tipi di affidabilità trattati di seguito `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}:
 
 | Grandezza del coefficiente | Interpretazione |
 |---|---|
@@ -260,15 +260,26 @@ dall'analisi di `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spre
 
 : Classificazione generale della grandezza dei coefficienti di affidabilità `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}. {#tbl-affidabilita-generale}
 
-Per le decisioni cliniche, Sattler `(\citeyear{sattler2001assessment})`{=latex}`(2001)`{=html} `(\cite{slick2006psychometrics})`{=latex}`(citato in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html} propone soglie più stringenti: per i test usati nella valutazione del singolo individuo si raccomanda un'affidabilità pari o superiore a .80; per i test usati per decisioni particolarmente importanti (per esempio la stima del QI o una diagnosi), .90 è considerato il minimo assoluto, e .95 il valore ottimale.
+Anche in questo caso le soglie sono da considerare come indicative: per le decisioni cliniche, Sattler `(\citeyear{sattler2001assessment})`{=latex}`(2001)`{=html} `(\cite{slick2006psychometrics})`{=latex}`(citato in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html} propone soglie più stringenti: per i test usati nella valutazione del singolo individuo si raccomanda un'affidabilità pari o superiore a .80; per i test usati per decisioni particolarmente importanti (per esempio la stima del QI o una diagnosi), .90 è considerato il minimo assoluto, e .95 il valore ottimale.
 
-È da notare che anche in questo aspetto la letteratura non è unanime, e non è raro che test pubblicati e ampiamente utilizzati circolino con valori di affidabilità ben al di sotto di quelli raccomandati. Per tale ragione, per quanto riguarda i valori di affidabilità, suggerisco un approccio _comparativo_ : meglio scegliere i test con affidabilità più alta (e con più evidenze di affidabilità), interpretando con cautela quando l'affidabilità è al di sotto di valori raccomandati.
+È da notare che anche in questo aspetto la letteratura non è unanime, e non è raro che test pubblicati e ampiamente utilizzati circolino con valori di affidabilità ben al di sotto di quelli raccomandati. Per tale ragione, per quanto riguarda i valori di affidabilità, suggerisco un approccio _comparativo_ : meglio scegliere i test con affidabilità più alta (e con più evidenze di affidabilità), interpretando con cautela quando l'affidabilità è al di sotto di valori raccomandati (si veda anche il paragrafo [Nella pratica clinica: Come usare affidabilità e validità per scegliere i test]({#prat-clin-aff-val}).
+
+#### Affidabilità Split-Half{#affidabilità-split-half}
+
+L'affidabilità split-half stima l'affidabilità di un test dividendolo in due metà (tipicamente gli item pari da un lato e gli item dispari dall'altro) e calcolando la correlazione tra i punteggi ottenuti sulle due metà. Il vantaggio principale, rispetto al test-retest, è che non richiede due somministrazioni separate. Il limite principale è che il risultato dipende, almeno in parte, da come viene effettuata la divisione in due metà, che resta in una certa misura arbitraria.
+
+Poiché ciascuna metà è più corta dell'intero test, e un test più corto tende ad essere meno affidabile di uno più lungo, il coefficiente di correlazione tra le due metà sottostima l'affidabilità del test completo. Per correggere questa sottostima si applica tipicamente la correzione di Spearman-Brown[^spearmanbrown].
+
+[^spearmanbrown]: La formula della correzione di Spearman-Brown è trattata più in dettaglio nella sezione _Approfondimenti tecnici_.
+
+Valori indicativi: pari o superiori a .70-.80 `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}.
 
 #### Consistenza Interna
 
-La consistenza interna misura quanto gli item di un test siano tra loro coerenti, cioè quanto misurino, almeno in parte, la stessa cosa. L'indice più diffuso è l'alpha di Cronbach ($\alpha$), che varia da 0 a 1 e può essere pensato, in modo intuitivo, come la media di tutte le possibili affidabilità split-half calcolabili su quel test (cfr. paragrafo successivo). Un'alternativa più recente, e in generale considerata più robusta, è l'omega di McDonald ($\omega$)[^omega].
+La consistenza interna misura quanto gli item di un test siano tra loro coerenti, cioè quanto misurino, almeno in parte, la stessa cosa. Per la sua definizione la consistenza interna è un concetto a cavallo tra affidabilità e validità (ed è legata alla struttura fattoriale del test).
+L'indice più diffuso per calcolare la consistenza interna è l'alpha di Cronbach ($\alpha$), che varia da 0 a 1 e può essere pensato, in modo intuitivo, come la media di tutte le possibili affidabilità split-half calcolabili su quel test (cfr. paragrafo successivo). Un'alternativa più recente, e in generale considerata più robusta, è l'omega di McDonald ($\omega$)[^omega].
 
-[^omega]: Le assunzioni statistiche alla base di $\alpha$ e $\omega$, e le formule per calcolarli, sono trattate più in dettaglio nella sezione _Approfondimenti tecnici_.
+[^omega]: Dettagli su $\alpha$ e $\omega$, e le formule per calcolarli, sono trattate più in dettaglio nella sezione _Approfondimenti tecnici_.
 
 Valori indicativi per la consistenza interna `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}: valori inferiori a .70 sono considerati inaccettabili, tra .70 e .79 discreti, tra .80 e .89 buoni, e pari o superiori a .90 eccellenti. Nei test neuropsicologici la consistenza interna tende però ad essere più bassa della media, spesso intorno a .60, in parte perché molti di questi test valutano domini eterogenei di abilità piuttosto che un singolo costrutto omogeneo `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}.
 
@@ -282,20 +293,11 @@ Valori indicativi: pari o superiori a .70 (Andrews et al., 1994; Burlingame et a
 
 Due punti critici meritano attenzione:
 
-1. **Dipendenza dall'intervallo**: uno stesso test non ha un'unica affidabilità test-retest, ma infinite, perché il valore cambia a seconda dell'intervallo scelto tra le due somministrazioni, ed è tipicamente più alto con intervalli brevi (Anastasi & Urbina, 1997, `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}).
+1. **Dipendenza dall'intervallo**: uno stesso test non ha un'unica possibile affidabilità test-retest, ma infinite, perché il valore può cambiare a seconda dell'intervallo scelto tra le due somministrazioni, ed è tipicamente più alto con intervalli brevi (Anastasi & Urbina, 1997, `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}).
 2. **Effetto pratica**: se il test misura una prestazione, la seconda somministrazione potrebbe beneficiare dell'esperienza acquisita nella prima. Un simile effetto sistematico non viene catturato dal coefficiente di correlazione, che è sensibile a quanto i punteggi si muovono insieme, ma non a un eventuale cambiamento sistematico del livello medio dei punteggi `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}.
 
 Nonostante queste complessità, l'affidabilità test-retest è spesso considerata, in ambito clinico, la forma di affidabilità più rilevante, perché più vicina alla domanda pratica che un clinico si pone: se rivalutassi questa persona tra qualche tempo, quanto potrei fidarmi di un'eventuale differenza tra i due punteggi?
 
-#### Affidabilità Split-Half{#affidabilità-split-half}
-
-L'affidabilità split-half stima l'affidabilità di un test dividendolo in due metà (tipicamente gli item pari da un lato e gli item dispari dall'altro) e calcolando la correlazione tra i punteggi ottenuti sulle due metà. Il vantaggio principale, rispetto al test-retest, è che non richiede due somministrazioni separate. Il limite principale è che il risultato dipende, almeno in parte, da come viene effettuata la divisione in due metà, che resta in una certa misura arbitraria.
-
-Poiché ciascuna metà è più corta dell'intero test, e un test più corto tende ad essere meno affidabile di uno più lungo, il coefficiente di correlazione tra le due metà sottostima l'affidabilità del test completo. Per correggere questa sottostima si applica tipicamente la correzione di Spearman-Brown[^spearmanbrown].
-
-[^spearmanbrown]: La formula della correzione di Spearman-Brown è trattata più in dettaglio nella sezione _Approfondimenti tecnici_.
-
-Valori indicativi: pari o superiori a .70-.80 `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}.
 
 #### Inter-Rater Agreement
 
