@@ -145,36 +145,56 @@ _Soglie indicative_: Anche per questo tipo di validità non esistono soglie mini
 
 [^gen]: questa ultima tipologia di validità di costrutto è qui riportata per mostrare come anche altre tipologie di evidenze possono essere considerate come supporto alla validità di costrutto. Ad un occhio attento, con questa definizione però abbracciamo di fatto _tutte_ le possibili validità di costrutto.
 
+
 ### Validità di criterio
-In alcuni casi la validità di un test espressa dalla relazione con una variabile osservabile (e non un costrutto). In tal caso si parla di validità di criterio
+
+In alcuni casi, la validità di un test viene valutata esaminando la relazione tra i suoi punteggi e una variabile esterna direttamente osservabile, denominata *criterio*. Si parla allora di **validità di criterio**.
 
 :::{.callout-note}
+
 ## Definizione
-La validità di criterio è il grado in cui i punteggi di un test sono associati ad una variabile osssrvabile esterna detta il _criterio_.
+
+La validità di criterio indica il grado in cui i punteggi di un test risultano associati a un criterio esterno rilevante, misurabile e, per quanto possibile, stabilito indipendentemente dal test stesso.
+
 :::
 
-Nel contesto della neuropsicologia clinica il criterio può essere una varibile continua o categoriale.
-Nel caso di variabili continue il caso più comune è il punteggio ad un altro test, magari lungo e complesso, che è considerato il _gold-standard_, ossia la migliore procedura clinica disponibile per raggiungere una certa conclusione.
-La validità di criterio è infatti spesso riportata per i test di screening, il cui scopo potrebbe essere quello di prevedere il potenziale esito ad una batteria di test più lunga o la classificazione rispetto a due o più diagnostico (Es. l'appartenenza al gruppo, "persone con Mild Cognitive Impairment", o al gruppo "persone sane"). Nel caso il criterio non sia una misura continua ma un'appartenenza a gruppi già noti a priori (per esempio diagnosi confermate con altri mezzi), viene anche usato il nome **validità dei gruppi noti** (_known-groups validity_).
+Nel contesto della neuropsicologia clinica, il criterio può essere rappresentato da una variabile continua oppure categoriale.
 
-La validità di criterio è divisa in due tipologie: _concorrente_ e _predittiva_ .
+Nel primo caso, il criterio può essere, per esempio, il punteggio ottenuto mediante una procedura di valutazione più lunga e approfondita. Talvolta questa procedura viene considerata un *gold standard*, ossia il migliore metodo disponibile per valutare una determinata condizione o raggiungere una specifica conclusione clinica. Tuttavia, un altro test non costituisce automaticamente un *gold standard*: perché possa fungere da criterio, deve possedere adeguate evidenze di validità ed essere sufficientemente indipendente dal test che si intende valutare.
+
+La validità di criterio viene frequentemente studiata nei test di screening. Lo scopo di questi strumenti può essere, per esempio, prevedere l’esito di una valutazione neuropsicologica più estesa oppure discriminare tra persone appartenenti a differenti categorie diagnostiche, come persone con *Mild Cognitive Impairment* e persone cognitivamente sane.
+
+Quando si verifica se i punteggi di un test differiscono tra gruppi definiti *a priori* sulla base di informazioni indipendenti — per esempio diagnosi già formulate mediante altre procedure — si parla di **validità per gruppi noti** (*known-groups validity*). A seconda del modello teorico adottato, questa evidenza può essere ricondotta alla validità di criterio oppure considerata una forma di evidenza a sostegno della validità di costrutto.
+
+Anche in questo caso la classificazione di diversi tipi di validità è variabile. In questa sede adottiamo la classificazione di Slick `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}, che considera di fatto la known-groups validity come parte della criterion validity.
+
+In base alla relazione temporale tra la somministrazione del test e la rilevazione del criterio, si distinguono tradizionalmente la validità concorrente e la validità predittiva.
 
 #### Validità concorrente
 
-Se il criterio è misurato **nello stesso momento** in cui si somministra il test, si parla di validità concorrente. Esempi tipici sono la relazione tra un test breve di screening e una batteria estesa somministrata nella stessa sessione, oppure il confronto tra una versione online e una versione in presenza dello stesso strumento, nel caso in cui lo strumento in presenza sia considerato come la versione target che la versione online dovrebbe replicare.
-Come esempi categoriali, un test che ci dica la probabilità che il paziente sia un MCI o AD al momento della valutazione si basa su validità concorrente. Ne sono esempi famosi in ambito neuropsicologico, il MoCA `(\cite{nasreddine2005montreal})`{=latex}`(Nasreddine et al., 2005)`{=html} e il MMSE `(\cite{folstein1975mini})`{=latex}`(Folstein et al., 1975)`{=html} nascono proprio con evidenze di validità di criterio, verificando cioè che i punteggi distinguessero correttamente gruppi noti (per esempio pazienti con decadimento cognitivo lieve, con demenza conclamata, e controlli sani). 
-In ambito forense questo tipo di validità è spesso usata per sviluppare test in grado di identificare simulatori di deficit cognitivi (si veda capitolo dedicato).
+Si parla di **validità concorrente** quando il test e il criterio vengono misurati nello stesso momento, o comunque a una distanza temporale sufficientemente breve da rendere improbabile un cambiamento rilevante nella condizione esaminata.
+
+Un esempio è rappresentato dalla relazione tra il punteggio ottenuto a un breve test di screening e l’esito di una batteria neuropsicologica più approfondita somministrata nella stessa sessione. 
+
+Quando il criterio è categoriale, la validità concorrente può essere indagata verificando se i punteggi del test discriminano condizioni diagnostiche stabilite approssimativamente al momento della valutazione. Il MoCA `(\cite{nasreddine2005montreal})`{=latex}`(Nasreddine et al., 2005)`{=html} e il MMSE `(\cite{folstein1975mini})`{=latex}`(Folstein et al., 1975)`{=html}, per esempio, sono stati originariamente studiati anche valutando la capacità dei loro punteggi di distinguere gruppi con differenti condizioni cognitive.
+
+In ambito forense, evidenze di questo tipo vengono utilizzate anche nello sviluppo di strumenti finalizzati a discriminare prestazioni credibili e non credibili o a identificare la possibile _simulazione_ di deficit cognitivi. L’argomento sarà approfondito nel capitolo dedicato.
 
 #### Validità predittiva
 
-Se invece il criterio esterno viene misurato in un momento **successivo**, si parla di validità predittiva. Ad esempio un punteggio basale che predice la diagnosi di demenza a due anni di distanza, oppure uno screening scolastico che predice l'esito degli apprendimenti a fine anno, vanno ad indagare la validità predittiva.
-Nel caso di criteri categoriali (i.e., gruppi-noti) può essere un esempio il reinserimento con successo al lavoro dopo lo stroke (codificato come si/no). In tal caso indagare se un punteggio ad un test subito dopo lo stroke è in grado di prevedere la probbilità di ritornare al lavoro è un esmepio di indagine su validità predittiva del test.
+Si parla invece di **validità predittiva** quando il criterio esterno viene rilevato in un momento successivo rispetto alla somministrazione del test.
 
+Un esempio è rappresentato da un punteggio neuropsicologico rilevato ad una prima valutazione e utilizzato per predire la diagnosi di demenza a due anni di distanza. Analogamente, uno screening scolastico può essere valutato in base alla sua capacità di predire gli esiti degli apprendimenti alla fine dell’anno.
 
-_Soglia indicativa_ : Le soglie per una buona validità di criterio dipendono dalla tipologia di criterio.
-Per un criterio continuo, in letteratura si trovano tipicamente valori attesi di correlazione pari o superiori a 0.70-0.80.
-Nel caso di validità per gruppi-noti, vengono suggeriti valoro di sensibilità e specificità uguali o superiori a 0.80. Su questi indici, e sulla scelta dei punteggi di cut-off, torneremo in modo più approfondito nei capitoli dedicati.
+Il criterio futuro può essere anche categoriale. Per esempio, il ritorno al lavoro dopo uno *stroke* può essere codificato come esito dicotomico (*sì/no*). Valutare se il punteggio ottenuto a un test somministrato nella fase iniziale sia in grado di predire la probabilità di un successivo reinserimento lavorativo costituisce un’indagine della validità predittiva del test.
 
+#### Interpretazione degli indici
+
+Non esiste una soglia universale oltre la quale la validità di criterio possa essere considerata automaticamente adeguata. L’interpretazione dipende dalla natura del criterio, dalla finalità del test, dalla qualità della misura di riferimento e dalle conseguenze delle decisioni che verranno prese sulla base del punteggio.
+
+Quando il criterio è continuo, la relazione viene spesso espressa mediante un coefficiente di correlazione. Valori pari o superiori a 0.70–0.80 possono essere considerati elevati in molti contesti applicativi, ma non rappresentano requisiti universalmente validi.
+
+Quando il criterio è categoriale, possono essere utilizzati indici quali sensibilità, specificità e area sotto la curva ROC. Anche in questo caso, valori pari o superiori a 0.80 sono talvolta proposti come indicativamente adeguati, ma la loro interpretazione deve tenere conto dello scopo del test, della prevalenza della condizione e dei costi associati ai falsi positivi e ai falsi negativi. Questi indici e la scelta dei punteggi di soglia saranno approfonditi nei capitoli dedicati.
 
 <!--
 #### Validità interna
