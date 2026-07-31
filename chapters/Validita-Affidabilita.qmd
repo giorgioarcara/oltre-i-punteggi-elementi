@@ -431,8 +431,13 @@ Immaginiamo un test di memoria con grande evidenza su validità di costrutto e i
 Questo concetto è centrale in alcuni ambiti in cui l'effettivo validità della misurazione va sempre messa in discusione e cioè l'ambito della _neuropsicologia forense_. Il capitolo 7 è specificamente dedicato alle tecniche di _Perfomance Validity Testing_, cioè metodologie per assicurarsi che la valutazione sia (in ambito forense), considerabile come valida o se influenzata dalla volontà di simulare deficit.
 
 ## Focus: Invarianza di misura nei test neuropsicologici
+Un aspetto fondamentale della psicometria (che meriterebbe un capitolo a sé) è quello dell' _invarianza di misura_.
+Con questo termine si indica la proprietà di un test di avere proprietà psicometriche (generalmente validità di costrutto), che non variano a seconda del gruppo a cui sono somministrate. 
+L'invarianza di misura è una proprietà che va empiricamente verificata. Un buon test mostra che funziona in diverse condizioni, inclusi diversi gruppi. Per fornire un esempio esplicito, in ambito neuropsicologico un test di memoria con invarianza di misura è un test che sia che sia applicato a soggetti sani, sia utilizzato con uan popolazione clinica, come persone con malattia di Alzheimer, misura comunque la memoria.
+Quella dell'invarianza di misura è un argomento delicato per i test neuropsicologici per due principali motivi. Il primo è che spesso non è riportata. I test neuropsicologici sono infatti spesso sviluppati e verificati solo in soggetti sani (ma ovviameente ci sono eccezioni ad esempio, (CITAZIONE: Factor Analyses of the ADNI Neuropsychological Battery: An Examination of Diagnostic and Longitudinal Invariance). Il secondo è che in certe condizioni problemi di invarianza di misura sono quasi un presupposto inevitabile che necessità l' _interpretazione_ del test. Si pensi ad un test come il MoCA (screening cognitivo generale), somministrato ad un paziente con una grave afasia. Il fatto che il test non sia facilmente interpretabile e che verosimilmente il risultato cambi è quasi dato per scontato, ma non è studiato sistematicamente ed empiricamente, si basa su un'interpretazione clinica della performance al test, basata su aspettative teoriche. Questo aspetto è approfondito nella sezione "Approfondimenti tecnici", nel capitolo su invarianza di misura.
 
-## Errori comuni: ignorare validità di un test 
+
+## Errori comuni: ignorare validità e affidabilità di un test 
 
 <!--
 ## Focus: validità di una specifica misurazione.
