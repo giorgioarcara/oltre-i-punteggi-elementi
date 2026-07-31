@@ -116,7 +116,7 @@ Con questo nome si
 
 - **Validità convergente**: è la qualità del punteggio al test di correlare con altre misure dello stesso costrutto, o di costrutti teoricamente vicini. Una buona validità convergente si può innanzitutto ottenere sia se il test correla con altri test che misurano lo stesso costrutto. Ad esempio, un test di memoria è atteso correli con altri test di memoria. Evidenza convergente può però anche esserci, in generale, se il test correla in maniera coerente con la teoria con altri costrutti. Ad esempio se un test che correla con l'età e dal costrutto ci si aspetta che il punteggio al test correli con l'età, questa può essere considerata come evidenza di validità convergente.
 
-- **Validità divergente (o discriminante)**: e la qualità punteggio del punteggio al test di avere correlazioni basse con misure di costrutti teoricamente distinti. Per esempio, un test che misuri un test di comprensione del linguaggio, dovrebbe correlare poco con test di memoria differita, se si assume che i due strumenti misurano davvero costrutti diversi. Questo tipo di validità è molto importante per valutare la selettività con cui un test misura un costrutto, piuttosto che effetti aspecifici e generali, che sono comuni nei test neuropsicologici (si pensi al fattore _G_ ).
+- **Validità divergente (o discriminante)**: e la qualità punteggio del punteggio al test di avere correlazioni basse con misure di costrutti teoricamente distinti. Per esempio, un test che misuri un test di comprensione del linguaggio, dovrebbe correlare poco con test di memoria differita, se si assume che i due strumenti misurano davvero costrutti diversi. Questo tipo di validità è molto importante per valutare la selettività con cui un test misura un costrutto, piuttosto che effetti aspecifici e generali. Si noti che generalmente i test neuropsicologici tendono ad essere molto correlati fra loro `(es. \cite{trevino2021attention,mondini2011enb2})`{=latex}`(es., Treviño et al., 2021; Mondini et al., 2011)`{=html}.
 
 _Soglie indicative_: Per la validità di costrutto non esiste un valore soglia universale (una correlazione convergente "abbastanza alta" o divergente "abbastanza bassa"), il che la rende, tra i tipi di validità, quella più esposta al rischio di flessibilità interpretativa post-hoc: è facile, guardando i dati a posteriori, trovare una spiegazione plausibile per qualunque pattern di correlazioni osservato. Per questo motivo, le ipotesi su quali correlazioni ci si aspetta di trovare (e quali no) andrebbero specificate prima di raccogliere i dati oppure andrebbero testate in due passi: una prima analisi esplorativa su un campione e una seconda analisi confermativa su un campione indipendente. La "pre-registrazione" dei risultati (cioè una registrazione in un punto sicuro e pubblico delle attese sperimentali) è uno strumento della _Open Science_ che sembra particolarmente utile per una valutazione della robustezza della validità di costrutto.
 
@@ -277,21 +277,6 @@ Uno strumento pubblicato potrebbe comunque avere una bassa affidabilità (o non 
 
 Come già sottolineato all'inizio di questa sezione, le evidenze di validità e affidabilità si accumulano nel tempo, e vanno considerate come all'interno di un continuum. Ci sono test con migliore validità e test con peggiore validità. Il fatto che informazioni su affidabilità o validità non siano disponibile non significa necessariamente che siano scarse, ma segnalano l'importante fatto che non le conosciamo. Non siamo quindi in grado di giudicare se quel test è adeguato o no. Per tale motivo, scegliere di usare test senza evidenze su affidabilità o validità andrebbe visto come muoversi verso il polo peggiore del continuum, specie se alternative in cui questi valori sono noti sono disponibile.
 
-
-```{=latex}
-\begin{figure}
-\begin{tikzpicture}[baseline=(current bounding box.center)]
-
-% : peggio - meglio
-\node[anchor=west] at (0, 0) {\footnotesize \parbox[2cm]{4cm}{\emph{Minori evidenze su Validità/Affidabilità}}};
-\node[anchor=east] at (11, 0) {\footnotesize \parbox[2cm]{4cm}{\emph{Maggiori evidenze su Validità/Affidabilità}}};
-\node[anchor=west] at (0, -1.2) {\textbf{Peggio}};
-\node[anchor=east] at (10, -1.2) {\textbf{Meglio}};
-\draw[thick] (1.5, -1.2) -- (8.5, -1.2);
-\end{tikzpicture}
-\caption*{Scegliere un test su base di validità e affidabilità: per stabilire quale test scegliere, a parità di altre informazioni andrebbero considerate anche validità e affidabilità, come proprietà fondamentali sulla qualità delle misurazione. Piuttosto che classificare il test come al di sopra di una soglia (arbitraria), meglio utilizzare un approccio comparativo, scegliendo i test migliori. Se le evidenze su validità o affidabilità non sono disponibili dovremmo considerarli come nel polo peggiore rispetto a quella proprietà.
-\end{figure}
-```
 
 È anche per questo motivo che l'aggiornamento professionale continuo è così rilevante in questo ambito: nuove prove pubblicate nel tempo possono spostare la valutazione complessiva di uno strumento, in meglio o in peggio, verso una scelta più consapevolezza degli strumenti da mettere nella propria cassetta degli attrezzi.
 
