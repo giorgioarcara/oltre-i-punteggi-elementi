@@ -266,6 +266,11 @@ Anche in questo caso le soglie sono da considerare come indicative: per le decis
 
 #### Affidabilità Split-Half{#affidabilità-split-half}
 
+:::{.callout-note}
+## Definizione
+L'affidabilità split-half indica la consistenza di un test quando si confrontano il punteggio totale ottenuto da metà degli item con il punteggio totale ottenuto con gli altri item.
+:::
+
 L'affidabilità split-half stima l'affidabilità di un test dividendolo in due metà (tipicamente gli item pari da un lato e gli item dispari dall'altro) e calcolando la correlazione tra i punteggi ottenuti sulle due metà. Il vantaggio principale, rispetto al test-retest, è che non richiede due somministrazioni separate. Il limite principale è che il risultato dipende, almeno in parte, da come viene effettuata la divisione in due metà, che resta in una certa misura arbitraria.
 
 Poiché ciascuna metà è più corta dell'intero test, e un test più corto tende ad essere meno affidabile di uno più lungo, il coefficiente di correlazione tra le due metà sottostima l'affidabilità del test completo. Per correggere questa sottostima si applica tipicamente la correzione di Spearman-Brown[^spearmanbrown].
@@ -276,8 +281,12 @@ Valori indicativi: pari o superiori a .70-.80 `(\cite{slick2006psychometrics})`{
 
 #### Consistenza Interna
 
-La consistenza interna misura quanto gli item di un test siano tra loro coerenti, cioè quanto misurino, almeno in parte, la stessa cosa. Per la sua definizione la consistenza interna è un concetto a cavallo tra affidabilità e validità (ed è legata alla struttura fattoriale del test).
-L'indice più diffuso per calcolare la consistenza interna è l'alpha di Cronbach ($\alpha$), che varia da 0 a 1 e può essere pensato, in modo intuitivo, come la media di tutte le possibili affidabilità split-half calcolabili su quel test (cfr. paragrafo successivo). Un'alternativa più recente, e in generale considerata più robusta, è l'omega di McDonald ($\omega$)[^omega].
+:::{.callout-note}
+## Definizione
+La consistenza interna misura quanto gli item di un test siano tra loro coerenti, cioè quanto misurino, almeno in parte, la stessa cosa.
+:::
+
+La consistenza interna rappresenta tuttora uno dei principali approcci alla stima dell’affidabilità nell’ambito della teoria classica dei test. Per la sua definizione la consistenza interna è un concetto a cavallo tra affidabilità e validità (ed è legata alla  struttura fattoriale del test). L'indice più diffuso per calcolare la consistenza interna è l'alpha di Cronbach ($\alpha$), che varia da 0 a 1 e può essere pensato, in modo intuitivo, come la media di tutte le possibili affidabilità split-half calcolabili su quel test (cfr. paragrafo successivo). Un'alternativa più recente, e in generale considerata più robusta, è l'omega di McDonald ($\omega$)[^omega].
 
 [^omega]: Dettagli su $\alpha$ e $\omega$, e le formule per calcolarli, sono trattate più in dettaglio nella sezione _Approfondimenti tecnici_.
 
@@ -287,14 +296,29 @@ Valori indicativi per la consistenza interna `(\cite{slick2006psychometrics})`{=
 
 #### Affidabilità test–retest
 
+:::{.callout-note}
+## Definizione
 L’affidabilità test–retest riguarda la stabilità dei punteggi ottenuti quando lo stesso test viene somministrato alle stesse persone in due occasioni diverse, assumendo che nell’intervallo tra le somministrazioni non si siano verificati cambiamenti reali nel costrutto misurato e che le condizioni di valutazione siano comparabili.
+:::
 
-L’affidabilità test–retest non è una proprietà univoca e immutabile del test: la sua stima dipende dalla popolazione considerata, dalle condizioni di somministrazione e, soprattutto, dall’intervallo tra test e retest. Due aspetti meritano particolare attenzione:
+L’affidabilità test–retest è una delle principali aspetti di affidabilità di un test e in numerosi casi è proprio considerato il più importante `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}. 
+Questo dipo di affidabilità ha però una serie di caratteristiche e sfumature che è importante approfondire per una corretta interpretazione.
+Innanzitutto l'affidabilità test-retest, del resto come altre proprietà, non è una proprietà univoca e immutabile del test: la sua stima dipende dalla popolazione considerata, dalle condizioni di somministrazione e, soprattutto, dall’intervallo tra test e retest. Due aspetti meritano particolare attenzione:
 
 1. **Dipendenza dall’intervallo**: uno stesso punteggio non possiede un unico valore di affidabilità test–retest. In genere, il coefficiente tende a essere più elevato quando l’intervallo è breve, mentre intervalli più lunghi aumentano la possibilità che si verifichino cambiamenti reali nella caratteristica misurata `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}.
 2. **Effetto pratica**: quando il test misura una prestazione, la seconda somministrazione può beneficiare dell’esperienza acquisita durante la prima. Un miglioramento sistematico può non essere rilevato da alcuni indici comunemente utilizzati per quantificare l’affidabilità test–retest, come il coefficiente di correlazione o una ICC basata sulla consistenza `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}.
 
 In ambito clinico, l’affidabilità test–retest è particolarmente rilevante quando si assume che il punteggio rappresenti una caratteristica relativamente stabile oppure quando si vogliono confrontare valutazioni effettuate in momenti diversi. Tuttavia, il solo coefficiente di affidabilità non permette di stabilire se la variazione osservata nel singolo individuo sia sufficientemente ampia da superare l’errore di misurazione. A questo scopo sono necessarie procedure specifiche, eventualmente corretti per l’effetto pratica (si veda paragrafo _indagare cambiamenti nel tempo_).
+
+:::{.callout-tip}
+
+## Rilevanza per una singola misurazione
+
+Contrariamente a quanto si potrebbe pensare, l’affidabilità test–retest non è importante soltanto quando si vogliono confrontare due misurazioni effettuate nel tempo. Se il punteggio è interpretato come misura di una caratteristica relativamente stabile, la singola somministrazione può essere concepita come una delle molte possibili somministrazioni comparabili del test. Nella teoria classica dei test, il _punteggio vero_ corrisponde infatti al valore atteso dei punteggi che la persona otterrebbe attraverso un numero indefinito di misurazioni equivalenti.
+
+Una bassa affidabilità test–retest indica quindi che il punteggio dipende in misura rilevante dalla specifica occasione in cui è stato rilevato. Di conseguenza, anche quando il test viene somministrato una sola volta, il punteggio osservato può rappresentare con scarsa precisione la caratteristica stabile che si intende misurare.
+
+:::
 
 L’affidabilità test–retest viene spesso quantificata mediante il coefficiente di correlazione tra i punteggi al test e al retest oppure mediante un coefficiente di correlazione intraclasse (*intraclass correlation coefficient*, ICC).
 
@@ -302,17 +326,21 @@ Il coefficiente di correlazione esprime principalmente la *consistenza relativa*
 
 La ICC non è un singolo coefficiente, ma una famiglia di coefficienti. Quelle più pertinenti nel caso dell'affidabilità test-retest sono le ICC basate sull’**accordo assoluto**, che tengono conto delle differenze sistematiche tra test e retest e sono quindi più sensibili alla presenza di un effetto pratica.
 
-Nel tipico disegno test–retest, nel quale le due occasioni sono prestabilite e identiche per tutti i partecipanti, viene generalmente raccomandato un modello a due vie, a effetti misti, basato sull’accordo assoluto e riferito a una singola misurazione: `ICC(A,1)` nella notazione di McGraw e Wong `(\cite{mcgraw1996forming}; \cite{koo2016guideline}; \cite{qin2019assessing})`{=latex}`(McGraw & Wong, 1996; Koo & Li, 2016; Qin et al., 2019)`{=html}.
+Nel tipico disegno test–retest, nel quale le due occasioni sono prestabilite e (approssimativamente) identiche per tutti i partecipanti, viene generalmente raccomandato un modello a due vie, a effetti misti, basato sull’accordo assoluto e riferito a una singola misurazione: $ICC(2,1)$ nella notazione di Shrout e Fleiss `(\cite{shrout1979intraclass})`{=latex}`(Shrout & Fleiss, 1979)`{=html}[^ICC_conf] `(\cite{mcgraw1996forming}; \cite{koo2016guideline})`{=latex}`(McGraw & Wong, 1996; Koo & Li, 2016)`{=html}.
 
 Per un approfondimento sull’affidabilità test–retest, sull’effetto pratica e sulle differenze tra correlazione e ICC, si veda la sezione *Approfondimenti tecnici*.
 
-_Soglie indicative_: non esiste una soglia universalmente valida. Un coefficiente pari o superiore a .70 viene talvolta considerato un requisito minimo per finalità di ricerca o per confronti tra gruppi. Quando il punteggio contribuisce a decisioni importanti sul singolo individuo, sono generalmente richiesti valori più elevati: spesso almeno .90 e, idealmente, circa .95 `(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}. Questi valori costituiscono comunque regole orientative e devono essere valutati considerando lo scopo della misurazione, la popolazione, l’intervallo test–retest e l’incertezza espressa dall’intervallo di confidenza.
+_Soglie indicative_: non esiste una soglia universalmente valida. Un coefficiente pari o superiore a .70 viene talvolta considerato un requisito minimo per finalità di ricerca o per confronti tra gruppi. Quando il punteggio contribuisce a decisioni importanti sul singolo individuo, sono generalmente richiesti valori più elevati: spesso almeno .90 e, idealmente, circa .95 `(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}.
+
+[^ICC_conf]: Il modello corretto è chiamato sia $ICC(2,1)$, sia $ICC(A,1)$, generando possibili confusioni. Si veda il manuale della funziona ICC nel pacchetto R 'psych' per una spiegazione.(`?help(psych::ICC)`). Anche nella tabella 3 dell'articolo di Koo e Li`(\cite{koo2016guideline})`{=latex}`(Koo & Li, 2016)`{=html}, si può notare come le due formule per $ICC(2,1)$ (Two-way random effects, absolute agreement, single rater/measurement) e per $ICC(A,1)$ (Two-way mixed effects, absolute agreement, single rater/measurement) siano di fatto perfettamente equivalenti.
+
 
 #### Inter-Rater Agreement
 
-L'accordo tra valutatori (_inter-rater agreement_) misura quanto sia consistente il punteggio assegnato da valutatori diversi che osservano la stessa prestazione. È particolarmente rilevante per i test in cui il punteggio dipende da un giudizio qualitativo dell'esaminatore, più che da una correzione automatica e univoca: per esempio test di fluenza verbale, test di disegno, o compiti di descrizione.
+L'accordo tra valutatori (_inter-rater agreement_) misura quanto sia consistente il punteggio assegnato da valutatori diversi che osservano la stessa prestazione. È particolarmente rilevante per i test in cui il punteggio dipende da un giudizio qualitativo dell'esaminatore, più che da una correzione automatica e univoca: per esempio test di fluenza verbale, test di disegno, o compiti di descrizione, oppure compiti di interpretazione di proverbi.
 
-Si esprime tipicamente con l'Intraclass Correlation Coefficient (ICC), che varia da 0 a 1 ed è generalmente preferito alla correlazione di Pearson perché tiene conto anche dell'accordo assoluto tra i valutatori (cioè se assegnano più o meno lo stesso punteggio), e non solo di quanto i loro punteggi si muovono insieme (Fastenau et al., 1996, `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}).
+Si esprime tipicamente con l'Intraclass Correlation Coefficient (ICC) che, come anticipato nel precedente paragrafo, perché tiene conto anche dell'accordo assoluto tra i valutatori (cioè se assegnano più o meno lo stesso punteggio), e non solo di quanto i loro punteggi si muovono insieme (Fastenau et al., 1996, `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}).
+Più specificamente, nei tipico disegno sperimentali usati per definire la affidabilità inter-rater, andrebbe usato l' $ICC(2,1)$ `(\cite{shrout1979intraclass}; \cite{koo2016guideline})`{=latex}`(Shrout & Fleiss, 1979; Koo & Li, 2016)`{=html}.
 
 Valori indicativi (Cicchetti & Sparrow, 1981; `\cite{slick2006psychometrics}`{=latex}`citati in Slick, cap. 1 in Spreen & Strauss, 2006`{=html}): inferiori a .40 scarsi, tra .40 e .59 discreti, tra .60 e .74 buoni, pari o superiori a .75 eccellenti. Con una classificazione lievemente diversa, Fastenau et al. (1996) considerano .60 come soglia per un accordo "sostanziale" e .75-.80 per un accordo "quasi perfetto".
 
@@ -323,7 +351,7 @@ Tabella riassuntiva:
 | Consistenza interna | Alpha di Cronbach, Omega di McDonald | ≥ .70 (buono ≥ .80; in neuropsicologia spesso ~.60) | Cicchetti et al., 1990; `(\cite{sattler2001assessment})`{=latex}`Sattler, 2001`{=html} |
 | Test-retest | Correlazione o ICC | ≥ .70 (valutazione individuale ≥ .80) | Andrews et al., 1994; `(\cite{sattler2001assessment})`{=latex}`Sattler, 2001`{=html} |
 | Split-half | Correlazione + correzione di Spearman-Brown | ≥ .70-.80 | `(\cite{slick2006psychometrics})`{=latex}`Slick, cap. 1`{=html} |
-| Inter-rater | ICC (preferito a Pearson) | ≥ .60 buono; ≥ .75 eccellente | Cicchetti & Sparrow, 1981; Fastenau et al., 1996 |
+| Inter-rater | ICC | ≥ .60 buono; ≥ .75 eccellente | Cicchetti & Sparrow, 1981; Fastenau et al., 1996 |
 
 : Sintesi dei tipi di affidabilità, delle modalità con cui vengono tipicamente valutati e dei valori soglia indicativi riportati in letteratura. Tutti i valori sono indicativi e non costituiscono uno standard universalmente condiviso: valgono, anche qui, il principio del continuum Peggio/Meglio e le soglie più stringenti raccomandate da Sattler `(\citeyear{sattler2001assessment})`{=latex}`(2001)`{=html} per le decisioni cliniche sul singolo individuo (≥ .80; ≥ .90 per le decisioni ad alto impatto). {#tbl-affidabilita}
 
@@ -334,7 +362,7 @@ Una domanda che una/un neuropsicologa/o dovrebbe porsi prima di utilizzare un te
 Immaginando di voler fare una valutazione neuropsicologica di alta qualità, questa dipende anche dallo scegliere strumenti di qualità. Parte della qualità di un test sono appunto la validità e affidabilità, tema di questo capitolo. Ma come farlo nel concreto?
 Bisogna semplicemente recuperare informazioni su validità e affidabilità del test.
 Il primo posto in cui cercare queste informazioni è il manuale del test, oppure l'articolo scientifico originale con cui lo strumento è stato presentato: è lì che dovrebbero trovarsi le evidenze di validità e affidabilità raccolte dagli autori al momento della pubblicazione.
-Le evidenze non si esauriscono con la prima pubblicazione: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita, tramite nuove pubblicazioni o addendum. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022), quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche altri studi successivano che lo citano (per esempio tramite Google Scholar o PubMed) e che ne approfondiscono le proprietà psicometriche, per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
+Le evidenze non si esauriscono con la prima pubblicazione: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita, tramite nuove pubblicazioni o addendum. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005 `(\cite{appollonio2005frontal})`{=latex}`(Appollonio et al., 2005)`{=html}, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022) `(\cite{aiello2022frontal})`{=latex}`(Aiello et al., 2022)`{=html}, quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche altri studi successivano che lo citano (per esempio tramite Google Scholar o PubMed) e che ne approfondiscono le proprietà psicometriche, per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
 è da notare che non è raro che alcune proprietà psicometriche non siano presentata proprio perché si da per scontato che essa sia stata dimostrata in precedenti lavori con frasi del tipo "il test xxx, è noto avere buona validità e affidabilità".
 In tal caso, per volere fare un analisi approfondita, bisognerebbe però assicurarsi che il test per cui c'è evidenza di validità sia esattamente lo stesso che stiamo valutando: aveva esattamente gli stessi item? era sviluppato nella stessa lingua? con le stesse istruzioni? 
 Un test che assume la propria validità o affidabilità sulla base di informazioni ed evidenze vaghe o remote dovrebbe essere considerato come un test in cui le evidenze sono, almeno per quessti aspetti, scarse.
