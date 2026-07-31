@@ -15,6 +15,10 @@ Su questo semplice principio si fonda il presente capitolo. Anche i test neurops
 
 Entrambe sono direttamente collegate alla formula cardine $X = T + E$, (vedi il paragrafo [Teoria Classica dei Test](Misurazione.qmd#teoria-classica-dei-test) nel capitolo precedente). In sintesi, la validità risponde alla domanda _"cosa stiamo misurando?"_, cioè se il punteggio vero $T$ rifletta effettivamente il costrutto che il test intende misurare, mentre l'affidabilità risponde a _"quanto precisamente siamo misurando?"_, cioè quanto è piccola la componente d'errore $E$ rispetto al punteggio osservato $X$. Nei prossimi paragrafi tratteremo prima la validità e, di seguito, l'affidabilità.
 
+Una domanda che automaticamente verrebbe da porsi è: come faccio a capire se il mio test è sufficientemente valido o sufficientamente affidabile per poterlo utilizzare?
+Questa domanda non ha una risposta semplice e non esistono dei criteri unanimamente condivisi. Per ogni tipo di validità e affidabilità, se pertinente sono riportate alcune soglie minime indicative di quegli indici che sono utilizzate per valutarle (la fonte principale è `\cite{slick2006psychometrics}`{=latex}`Slick, cap. 1 in Spreen & Strauss, 2006`{=html}). Tali soglie sono appunto da considerare solo come "indicative". Come usare i valori di affidabilità e validità per selezionare un test è trattato in dettaglio alla fine nel capitolo, nel paragrafo [Nella pratica clinica: Come usare affidabilità e validità per scegliere i test](#prat-clin-aff-val)
+
+
 ## Validità
 
 ### Validità: introduzione
@@ -81,20 +85,21 @@ Nei manuali o articoli scientifici di alcuni test neuropsicologici potrebbe non 
 :::
 
 #### Validità di contenuto
-
+Il secondo tipo di validità a priori è la validità di contenuto.
 :::{.callout-note}
 ## Definizione
-La validità di contenuto è il grado in cui gli item di un test coprono in modo adeguato e rappresentativo tutti gli aspetti rilevanti del costrutto che si intende misurare.
+La validità di contenuto è il grado in cui gli item di un test coprono in modo adeguato e rappresentativo tutti gli aspetti rilevanti di ciò che si intende misurare (spesso del costrutto).
 :::
 
-Un test con buona validità di contenuto campiona in modo sistematico l'intero dominio del costrutto: un test per la patente di guida che simula molte condizioni di guida reali (traffico urbano, manovre, situazioni di emergenza) ha una validità di contenuto migliore di un test che valuta solo la conoscenza teorica del codice della strada. Al contrario, un test di lettura composto da sole parole isolate ha una validità di contenuto scarsa se lo scopo è valutare la comprensione di un testo, perché non considera aspetti come la capacità di leggere frasi o testi più lunghi e complessi.
+Un test con buona validità di contenuto campiona in modo sistematico l'intero dominio del costrutto. Ad esempio, un test per la patente di guida che simula molte condizioni di guida reali (traffico urbano, manovre, situazioni di emergenza) ha una validità di contenuto migliore di un test che valuta solo la conoscenza teorica del codice della strada. Al contrario, un test di lettura composto da sole parole isolate ha una validità di contenuto scarsa se lo scopo è valutare la comprensione di un testo, perché non considera aspetti come la capacità di leggere frasi o testi più lunghi e complessi.
 
 Il modo più semplice di valutare la validità di contenuto è basarsi sul giudizio qualitativo di esperti, spesso gli autori del test stesso, che dovrebbero motivare le ragioni che hanno portato a disegnare un test e stabilire gli item, in una determinata maniera.
 Oltre a questo approccio, più qualitativo, esistono anche approcci quantitativi alla validità di contenuto. Il più famoso è sicuramente quello proposto da Lawshe `(\citeyear{lawshe1975quantitative})`{=latex}`(1975)`{=html}: un gruppo di giudici esperti valuta ogni singolo item, e le loro valutazioni vengono aggregate in un indice per item (_Content Validity Ratio_, CVR) e in un indice complessivo per il test (_Content Validity Index_, CVI)[^cvi]. Più alto è il CVI maggiore è la validità di contenuto. 
-Oltre al CVI esistono altri metodi, tra cui il più famoso è certamente il _Delphi Consensus_. Questo è un metodo strutturato fatto da passi espliciti per raggiungere un accordo tra più esperti.
-Nei test neuropsicologici italiani la validità di contenuto è riportata raramente in modo esplicito, mentre prevale la presenza di argomentazioni qualitative sulla presenza di validità di contenuto; tra le eccezioni vi sono l'ABaCo `(\cite{sacco2008abaco})`{=latex}`(Sacco et al., 2008)`{=html} e l'APACS `(\cite{arcara2016apacs})`{=latex}`(Arcara & Bambini, 2016)`{=html}.
+Oltre al CVI esistono altri metodi, tra cui il più famoso è certamente il _Delphi Consensus_, un metodo tradizionalmente utilizzato per definire linee guida cliniche `(\cite{devries2018screening})`{=latex}`(de Vries et al., 2018)`{=html}. Questo è un metodo strutturato fatto da passi espliciti per raggiungere un accordo tra più esperti, che permette di identificare se gli item sono adeguati e anche se mancano item importanti all'interno del test.
+Come strategia alternativa, talvolta per la valutazione della validità di contenuto sono presenti dei report quantitativi, esclusivamente descrittivi che raccolgono, che si basano su domande e scale Likert create ad-hoc per raccogliere le opinioni degli esperti sul test.
+Nei test neuropsicologici italiani la validità di contenuto è riportata raramente in modo esplicito: tra le eccezioni vi sono l'ABaCo `(\cite{sacco2008abaco})`{=latex}`(Sacco et al., 2008)`{=html} e l'APACS `(\cite{arcara2016apacs})`{=latex}`(Arcara & Bambini, 2016)`{=html}.
 
-_Soglia indicativa_: la soglia minima suggerita per il CVI dipende dal numero dei giudici coinvolti. così come le tabelle con i valori soglia in funzione del numero di giudici coinvolti,
+_Soglia indicativa_: la soglia minima suggerita per il CVI dipende dal numero dei giudici coinvolti. così come le tabelle con i valori soglia in funzione del numero di giudici coinvolti, Per il Delphi consensus non esiste una soglia specifica, ma essa deve essere esplicitata all'inizio (in genere può essere necessario l'accordo di almeno 80% degli esperti per mantenere un item all'interno del test)
 
 [^cvi]: Il calcolo del CVR e del CVI sono trattati più in dettaglio nella sezione _Approfondimenti tecnici_.
 
@@ -261,7 +266,7 @@ Tabella riassuntiva:
 
 : Sintesi dei tipi di affidabilità, delle modalità con cui vengono tipicamente valutati e dei valori soglia indicativi riportati in letteratura. Tutti i valori sono indicativi e non costituiscono uno standard universalmente condiviso: valgono, anche qui, il principio del continuum Peggio/Meglio e le soglie più stringenti raccomandate da Sattler `(\citeyear{sattler2001assessment})`{=latex}`(2001)`{=html} per le decisioni cliniche sul singolo individuo (≥ .80; ≥ .90 per le decisioni ad alto impatto). {#tbl-affidabilita}
 
-## Nella pratica clinica: Come usare affidabilità e validità per scegliere i test
+## Nella pratica clinica: Come usare affidabilità e validità per scegliere i test {#prat-clin-aff-val}
 
 Una domanda che una/un neuropsicologa/o dovrebbe porsi prima di utilizzare un test è: _il mio test ha validità e affidabilità adeguate?_.
 
