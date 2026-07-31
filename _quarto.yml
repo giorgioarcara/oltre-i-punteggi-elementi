@@ -16,8 +16,6 @@ book:
   repo-actions: [issue, edit]
   sharing: [twitter, facebook]
   downloads: [pdf, epub]
-  cover-image: Figures/Cover2.png
-  cover-image-alt: "Copertina del libro Oltre i punteggi: elementi di psicometria e statistica per la neuropsicologia clinica"
   chapters:
     - index.qmd
     - chapters/Introduzione.qmd
@@ -52,6 +50,8 @@ format:
     date: today
     css:
       epub.css
+    cover-image: Figures/Cover2.png
+    cover-image-alt: "Copertina del libro Oltre i punteggi: elementi di psicometria e statistica per la neuropsicologia clinica"
   html:
     include-in-header:
       file: header.html
