@@ -16,13 +16,15 @@ function Header(el)
         local icon_path = offset .. "/Figures/" .. entry.file
 
         if FORMAT:match("latex") then
-          local icon = pandoc.RawInline("latex",
-            "\\raisebox{" .. ICON_RAISE .. "}{\\includegraphics[height=" .. ICON_HEIGHT .. "]{" .. icon_path .. "}}")
+          local icon = pandoc.Image({}, icon_path, "", { height = ICON_HEIGHT })
           el.content:insert(1, pandoc.Space())
+          el.content:insert(1, pandoc.RawInline("latex", "}"))
           el.content:insert(1, icon)
+          el.content:insert(1, pandoc.RawInline("latex", "\\raisebox{" .. ICON_RAISE .. "}{"))
         else
           local valign = FORMAT:match("epub") and "middle" or ICON_RAISE
           local icon = pandoc.Image({}, icon_path, "", {
+            class = "special-section-icon",
             height = ICON_HEIGHT,
             style = "vertical-align:" .. valign .. "; margin-right:0.35em;"
           })

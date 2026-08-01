@@ -4,3 +4,10 @@ iframe {
     max-inline-size: 100%;
     block-size: auto;
 }
+
+/* Nasconde le icone dei paragrafi speciali (Focus, Nella pratica clinica,
+   Errori comuni) nell'indice (nav.xhtml), dove finiscono voci racchiuse in
+   <a>; restano visibili nel titolo vero e proprio (h2, non avvolto in <a>). */
+a .special-section-icon {
+  display: none;
+}
