@@ -5,6 +5,7 @@ filters:
   - filters/date.lua
   - filters/domanda.lua
   - filters/callout_style.lua
+  - filters/focus-icon.lua
 
 book:
   title: "Oltre i punteggi"
