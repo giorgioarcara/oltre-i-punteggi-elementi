@@ -17,6 +17,13 @@ p {
   text-align: justify;
 }
 
+/* Nasconde le icone dei paragrafi speciali (Focus, Nella pratica clinica,
+   Errori comuni) negli indici/TOC, dove finiscono voci racchiuse in <a>;
+   restano visibili nel titolo vero e proprio (h2, non avvolto in <a>). */
+a .special-section-icon {
+  display: none;
+}
+
 .domanda {
   font-style: italic;
   text-align: center;
