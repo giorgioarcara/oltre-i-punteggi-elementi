@@ -451,6 +451,6 @@ L’argomento sarà ripreso nella sezione “Approfondimenti tecnici”, nel cap
 ## Errori comuni: ignorare validità e affidabilità di un test 
 
 <!--
-## Focus: validità di una specifica misurazione.
-## Errori comuni nel considerare gli aspetti psicometrici dei test.
+## Focus: ci servono veramente test con buona validità e affidabilità?
+-> influenzano le interpretazioni
 -->
