@@ -105,7 +105,7 @@ _Soglia indicativa_: la soglia minima suggerita per il CVI dipende dal numero de
 
 <!-- Per sezione "Approfondimenti tecnici": formula del CVR di Lawshe (1975), CVR = (ne - N/2)/(N/2), dove ne è il numero di giudici che valutano l'item come "essenziale" e N il numero totale di giudici; tabella dei valori soglia in funzione di N (Lawshe, 1975; aggiornamenti in Wilson et al., 2012; Ayre & Scally, 2014); relazione tra CVR per item e CVI complessivo del test (media dei CVR degli item mantenuti); cenni alla tabella di Yusoff (2019) per i valori minimi accettabili. -->
 
-#### Validità di costrutto
+#### Validità di costrutto {#validita-costrutto}
 
 La validità di costrutto è spessa considerata come la più importante delle validità. 
 
@@ -142,7 +142,7 @@ Questo può avvenire anche se il test correla in maniera coerente con la teoria 
 Relazioni coerenti con il costrutto ossono anche essere legate a variabili demografiche. Ad esempio se i punteggi ad un test mostrano una correlazione positiva con l'età e la teoria prevede che il punteggio al test vari con l'età, quest'ultima può essere considerata un'evidenza di validità di costrutto. 
 
 La validità di costrutto e in particolare la struttura fattoriale, sono spesse associate al concetto di _invarianza di misura_, la proprietà di un test di misurare la stessa cosa anche in diverse condizioni (ad esempio in diverse popolazioni di pazienti). Questo aspetto è leggermente approfondito nel paragrafo [Focus: Invarianza di misura nei test neuropsicologici](#invarianza-intro) e più in dettaglio nel capitolo dedicato degli _Approfondimenti tecnici_.
-]
+
 
 La possibilità di valutare in maniera adeguata la validità di costrutto di un test dipende anche dalla chiarezza del costrutto che si vuole misurare. In alcuni casi i costrutti potrebbero essere complessi o addirittura potrebbe non esserci un singolo costrutto che viene misurato, ma il test potrebbe essere riconosciuto come legato al funzionamento complesso di più costrutti (si veda il paragrafo [Oggetto di interesse dei test neuropsicologici](#oggetto-interesse-test)). Questo non è di per sé sbagliato o un problema, ma le analisi di validità di costrutto dovrebbero portare prove convincenti che ciò effettivamente avviene, per non basarci unicamente sulla validità di facciata (vedi par. precedente). Ad esempio, se si assume che la prestazione ad un test di _fluenza fonemica_ sia legata a controllo esecutivo, capacità di inibizione e recupero lessicale - qundi ad un insieme di costrutti- dovremmo avere delle evidenze che effettivamente sia in grado di farlo, e non basarci solo sull'apparenza che lo sia.
 
