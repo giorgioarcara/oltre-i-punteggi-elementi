@@ -323,6 +323,29 @@ Una bassa affidabilità test–retest indica quindi che il punteggio dipende in 
 
 :::
 
+```{r} 
+#| label: fig-rel-high-low
+#| echo: FALSE
+#| output: TRUE
+#| fig.dpi: 100
+#| fig-cap: "Affidabilità test-retest: La figura mostra due ipotetici test che effettuano misurazione ripetute nel caso di una bassa o alta affidabilità. L'asse delle x delle due figure indica il numero dell'osservazione (1, 2, n). Mentre le y indicano il range dei punteggi al test. Nel caso di alta affidabilità (pannello in alto), ogni osservazione è uno dei possibili cerchietti neri. La loro media, nel lungo termine corrisponderà al punteggio vero. Nel caso di bassa affidabilità (pannello in basso), la media delle varie osservazioni corrisponderà sempre al punteggio vero, ma ciascuna singola osservazione potrebbe esserne molto più distante e quindi una stima meno accurata del punteggio vero."
+#| fig.width: 7
+#| fig.height: 10
+library(ONDAutils)
+
+par(mfrow=c(2,1))
+set.seed(10)
+X = simulate_obs(Ts = 10, n = 30, rel=0.9, mu_true = 8, sd_true = 2, label = "Alta affidabilità")
+abline(h=10, col="blue", lwd=3)
+legend("topright", legend=c("punteggio osservato", "punteggio vero"), pch=c(1, NA), lty=c(NA, 1), lwd=c(NA, 3), col=c("black", "blue"))
+
+set.seed(10)
+X = simulate_obs(Ts = 10, n = 30, rel=0.4, mu_true = 8, sd_true = 2, label = "Bassa Affidabilità")
+abline(h=10, col="blue", lwd=3)
+legend("topright", legend=c("punteggio osservato", "punteggio vero"), pch=c(1, NA), lty=c(NA, 1), lwd=c(NA, 3), col=c("black", "blue"))
+```
+
+
 L’affidabilità test–retest viene spesso quantificata mediante il coefficiente di correlazione tra i punteggi al test e al retest oppure mediante un coefficiente di correlazione intraclasse (*intraclass correlation coefficient*, ICC).
 
 Il coefficiente di correlazione esprime principalmente la *consistenza relativa* tra le due misurazioni, ossia il grado in cui le persone mantengono un ordinamento simile nelle due occasioni. Una correlazione può quindi essere molto elevata anche quando i punteggi al retest sono sistematicamente più alti, per esempio a causa di un effetto pratica. Per questo motivo, quando l’affidabilità test–retest è espressa mediante una correlazione, il coefficiente dovrebbe essere accompagnato dall’analisi di eventuali cambiamenti sistematici tra le due somministrazioni, per esempio attraverso il confronto tra le medie e l’esame della distribuzione delle differenze `(\cite{arcara2016apacs})`{=latex}`(es., Arcara & Bambini, 2016)`{=html}.
@@ -355,7 +378,7 @@ Tabella riassuntiva:
 
 : Sintesi dei tipi di affidabilità, delle modalità con cui vengono tipicamente valutati e dei valori soglia indicativi riportati in letteratura. Tutti i valori sono indicativi e non costituiscono uno standard universalmente condiviso: valgono, anche qui, il principio del continuum Peggio/Meglio e le soglie più stringenti raccomandate da Sattler `(\citeyear{sattler2001assessment})`{=latex}`(2001)`{=html} per le decisioni cliniche sul singolo individuo (≥ .80; ≥ .90 per le decisioni ad alto impatto). {#tbl-affidabilita}
 
-## Nella pratica clinica: Come usare affidabilità e validità per scegliere i test {#prat-clin-aff-val}
+## Nella pratica clinica: Come usare validità e affidabilità per scegliere i test {#prat-clin-aff-val}
 
 Una domanda che una/un neuropsicologa/o dovrebbe porsi prima di utilizzare un test è: _il mio test ha validità e affidabilità adeguate?_.
 
@@ -368,7 +391,7 @@ In tal caso, per volere fare un analisi approfondita, bisognerebbe però assicur
 Un test che assume la propria validità o affidabilità sulla base di informazioni ed evidenze vaghe o remote dovrebbe essere considerato come un test in cui le evidenze sono, almeno per quessti aspetti, scarse.
 
 ```{r}
-#| label: fig-CTT-true-obs
+#| label: fig-val-aff-cont
 #| echo: false
 #| warning: false
 #| message: false
@@ -453,9 +476,23 @@ La seconda ragione è che alcune condizioni rendono particolarmente plausibile u
 
 L’argomento sarà ripreso nella sezione “Approfondimenti tecnici”, nel capitolo dedicato all’invarianza di misura.
 
-## Errori comuni: ignorare validità e affidabilità di un test 
+## Errori comuni: ignorare validità e affidabilità di un test. 
+
+Uno degli errori più comuni che ho riscontrato durante nella mia esperienza con studenti e professionisti nell'ambito neuropsicologico clinico è quello di ignorare validità e affidabilità dei test neuropsicologici, prestando attenzione esclusivamente alla qualità dei dati normativi (si veda Capitolo 3) e al giudizio qualitativo o alla popolarità del test per sceglierlo. 
+Alla mia domanda "conoscete affidabilità e validità dei vostri strumenti?", la risposta è spesso: "no" (anche se negli ultimi anni, la situazione è decisamente migliorata e stanno aumentando le persone sensibili all'importanza di questi aspetti).
+
+Questa pratica diffusa è a mio avviso rinforzata da una serie di intrinseche caratteristiche della letteratura scientifica legata ai test, specie della neuropsicologia dell'adulto e specie in Italia (si veda Aiello 2022 per qualche considerazione). L'attenzione è più rivolta ad avere ampi campioni normativi ampi e rappresentativi, o soglie calcolate con metodi sofisticati, ma raramente la domanda è: siamo certi che stiamo misurando ciò che vogliamo misurare? E con che precisione?
+
+Considerare che i test siano tutti precisi allo stesso modo è però un'assunzione forte e ingiustificata (oltre che pericolosa). Significa assumere che il test nel suo punteggio totale stia misurando il costrutto di interesse senza una reale prova (assenza di prove di validità di costrutto), significa assumere che il test abbia tutti gli item appropriate senza una reale prova (assenza di prove di consistenza interna), significa assumere che il test sia relativamente stabile nel tempo (assenza di prove di affidabilità test-retest), e così via.
+Eppure evitare questo errore è relativamente semplice, basta considerare affidabilità validità e affidabilità quando si seleziona un test (si veda par. [Nella pratica clinica: Come usare validità e affidabilità per scegliere i test](#prat-clin-aff-val)).
+
+Non voglio però banalizzare questo problema: se in accordo allo "spirito del tempo" della neuropsicologia clinica non è data molta rilevanza a validità e affidabilità, una ragione probabilmente c'è e merita di essere indagata. 
+È possibile identificare facilmente almeno due ragioni: la situazione da un lato riflette una generale poca attenzione alle proprietà psicometriche in psicologia (si veda `(\cite{flake2020measurement})`{=latex}`Flake & Fried, 2020`{=html}, per un'analisi sulla validità); la situazione probabilmente affonda le radici in quelli sono i principi - spesso impliciti - alla base della valutazione neuropsicologica e alla storia con cui la neuropsicologia clinica si è sviluppata. Questi aspetti sono trattati più in dettaglio nel Capitolo 10.
+
 
 <!--
-## Focus: ci servono veramente test con buona validità e affidabilità?
--> influenzano le interpretazioni
+## Focus: ci servono veramente test con buona validità e affidabilità? {#serve-val-aff}
+Una domanda : ma servono veramente i dati di validità e affidabilità per una buona valutazione neuropsicologica? Del resto la pratica clinica a lungo potrebbe essersi basata su test basate su pubblicazioni su test, anche recenti, in cui il problema non sembra nemmeno essere posto, a scapito di descrizione dettagliate su come sono state ottenute le soglie per l'inferenza clinica. 
+Alcune delle conseguenze del non considerare l'affidabilità del test sono state discusse nel paragrafo precedente e riportate nella Figura x.
+
 -->
