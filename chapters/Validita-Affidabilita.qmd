@@ -19,7 +19,7 @@ Una domanda che automaticamente verrebbe da porsi è: come faccio a capire se il
 Questa domanda non ha una risposta semplice e non esistono dei criteri unanimamente condivisi. Per ogni tipo di validità e affidabilità, se pertinente sono riportate alcune soglie minime indicative di quegli indici che sono utilizzate per valutarle (la fonte principale è `\cite{slick2006psychometrics}`{=latex}`Slick, cap. 1 in Spreen & Strauss, 2006`{=html}). Tali soglie sono appunto da considerare solo come "indicative". Come usare i valori di affidabilità e validità per selezionare un test è trattato in dettaglio alla fine nel capitolo, nel paragrafo [Nella pratica clinica: Come usare affidabilità e validità per scegliere i test](#prat-clin-aff-val)
 
 
-## Validità
+## Validità{#validità}
 
 ### Validità: introduzione
 
