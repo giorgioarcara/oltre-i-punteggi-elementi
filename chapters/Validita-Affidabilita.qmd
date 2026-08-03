@@ -86,6 +86,7 @@ Nei manuali o articoli scientifici di alcuni test neuropsicologici potrebbe non 
 
 #### Validità di contenuto
 Il secondo tipo di validità a priori è la validità di contenuto.
+
 :::{.callout-note}
 ## Definizione
 La validità di contenuto è il grado in cui gli item di un test coprono in modo adeguato e rappresentativo tutti gli aspetti rilevanti di ciò che si intende misurare (spesso del costrutto).
@@ -329,20 +330,22 @@ Una bassa affidabilità test–retest indica quindi che il punteggio dipende in 
 #| label: fig-rel-high-low
 #| echo: FALSE
 #| output: TRUE
-#| fig.dpi: 100
-#| fig-cap: "Affidabilità test-retest: La figura mostra due ipotetici test che effettuano misurazione ripetute nel caso di una bassa o alta affidabilità. L'asse delle x delle due figure indica il numero dell'osservazione (1, 2, n). Mentre le y indicano il range dei punteggi al test. Nel caso di alta affidabilità (pannello in alto), ogni osservazione è uno dei possibili cerchietti neri. La loro media, nel lungo termine corrisponderà al punteggio vero ed è rappresentata nella figura dalla linea continua (punteggio vero = 10). Nel caso di bassa affidabilità (pannello in basso), la media delle varie osservazioni corrisponderà sempre al punteggio vero, ma ciascuna singola osservazione potrebbe esserne molto più distante e quindi una stima meno accurata del punteggio vero."
+#| fig.dpi: 200
+#| fig-cap: "Affidabilità test-retest: La figura mostra due ipotetici test che effettuano misurazione ripetute nel caso di una bassa o alta affidabilità. L'asse delle x delle due figure indica il numero dell'osservazione (1, 2, fino a 30). Mentre le y indicano il range dei punteggi al test. Nel caso di alta affidabilità (pannello in alto), ogni osservazione è uno dei possibili cerchietti neri. La loro media, nel lungo termine corrisponderà al punteggio vero ed è rappresentata nella figura dalla linea continua (punteggio vero = 10). Nel caso di bassa affidabilità (pannello in basso), la media delle varie osservazioni corrisponderà sempre al punteggio vero, ma ciascuna singola osservazione potrebbe esserne molto più distante e quindi una stima meno accurata del punteggio vero."
 #| fig.width: 7
 #| fig.height: 10
+#| out-width: "80%"
+
 library(ONDAutils)
 
 par(mfrow=c(2,1))
 set.seed(10)
-X = simulate_obs(Ts = 10, n = 30, rel=0.9, mu_true = 8, sd_true = 2, label = "Alta affidabilità")
+X = simulate_obs(Ts = 10, n = 30, rel=0.9, mu_true = 8, sd_true = 2, label = "Alta affidabilità", xlab="osservazioni")
 abline(h=10, col="blue", lwd=3)
 legend("topright", legend=c("punteggio osservato", "punteggio vero"), pch=c(1, NA), lty=c(NA, 1), lwd=c(NA, 3), col=c("black", "blue"))
 
 set.seed(10)
-X = simulate_obs(Ts = 10, n = 30, rel=0.4, mu_true = 8, sd_true = 2, label = "Bassa Affidabilità")
+X = simulate_obs(Ts = 10, n = 30, rel=0.4, mu_true = 8, sd_true = 2, label = "Bassa Affidabilità", xlab="osservazioni")
 abline(h=10, col="blue", lwd=3)
 legend("topright", legend=c("punteggio osservato", "punteggio vero"), pch=c(1, NA), lty=c(NA, 1), lwd=c(NA, 3), col=c("black", "blue"))
 ```
@@ -354,11 +357,11 @@ Il coefficiente di correlazione esprime principalmente la *consistenza relativa*
 
 La ICC non è un singolo coefficiente, ma una famiglia di coefficienti. Quelle più pertinenti nel caso dell'affidabilità test-retest sono le ICC basate sull’**accordo assoluto**, che tengono conto delle differenze sistematiche tra test e retest e sono quindi più sensibili alla presenza di un effetto pratica.
 
-Nel tipico disegno test–retest, nel quale le due occasioni sono prestabilite e (approssimativamente) identiche per tutti i partecipanti, viene generalmente raccomandato un modello a due vie, a effetti misti, basato sull’accordo assoluto e riferito a una singola misurazione[^ICC_det]. `(\cite{shrout1979intraclass})`{=latex}`(Shrout & Fleiss, 1979)`{=html}`(\cite{mcgraw1996forming}; \cite{koo2016guideline})`{=latex}`(McGraw & Wong, 1996; Koo & Li, 2016)`{=html}. Per un approfondimento sull’affidabilità test–retest, sull’effetto pratica e sulle differenze tra correlazione e ICC, si veda la sezione *Approfondimenti tecnici*.
+Nel tipico disegno test–retest, nel quale le due occasioni sono prestabilite e (approssimativamente) identiche per tutti i partecipanti, viene generalmente raccomandato un modello a due vie, a effetti misti, basato sull’accordo assoluto e riferito a una singola misurazione[^ICC_det]. `(\cite{shrout1979intraclass}; \cite{mcgraw1996forming}; \cite{koo2016guideline})`{=latex}`(Shrout & Fleiss, 1979; McGraw & Wong, 1996; Koo & Li, 2016)`{=html}. Per un approfondimento sull’affidabilità test–retest, sull’effetto pratica e sulle differenze tra correlazione e ICC, si veda la sezione *Approfondimenti tecnici*.
 
 _Soglie indicative_: non esiste una soglia universalmente valida. Un coefficiente pari o superiore a .70 viene talvolta considerato un requisito minimo per finalità di ricerca o per confronti tra gruppi. Quando il punteggio contribuisce a decisioni importanti sul singolo individuo, sono generalmente richiesti valori più elevati: spesso almeno .90 e, idealmente, circa .95 `(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}.
 
-
+[^ICC_det]: spesso questo è definito come ICC(2,1) o ICC(A,1), si vedano gli _Approfondimenti Tecnici_.
 
 #### Inter-Rater Agreement
 
@@ -400,6 +403,7 @@ Un test che assume la propria validità o affidabilità sulla base di informazio
 #| fig-cap: "Valutare validità e affidabilità di un test neuropsicologico: piuttosto che basarsi su soglie, è spesso utile scegliere i test in maniera comparativa, e cioè quelli con proprietà migliori"
 #| fig-width: 10
 #| fig-height: 2.4
+
 
 library(ggplot2)
 
