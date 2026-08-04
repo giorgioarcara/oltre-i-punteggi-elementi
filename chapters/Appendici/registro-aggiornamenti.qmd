@@ -35,3 +35,4 @@ Rilasciata versione iniziale del libro che include
 - aggiunte citazioni a references.bib.
 - le sezioni inizialmente definite come "Approfondimenti e Curiosità" sono state rinominate come "Focus".
 - aggiunte immagini nei paragrafi sezioni speciali (Focus, Nella Pratica Clinica, Errori comuni).
+- cambiata struttura di base del libro in due parti: Elementi per la pratica clinica, Approfondimenti tecnici.

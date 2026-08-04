@@ -79,6 +79,8 @@ Per i ringraziamenti personali più estesi, si veda la sezione [**Ringraziamenti
 ### Indice Provvisorio
 Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere modificato sulla base dei commenti ricevuti durante il suo sviluppo.
 
+**PARTE 1: Elementi per la pratica clinica**
+
 **Introduzione**
 
   * Il protagonista del libro: Il test neuropsicologico
@@ -192,16 +194,13 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
  * Il potenziale ruolo dell'AI nella valutazione neuropsicologica
  * Capitolo 10: Riassunto
 
+**PARTE 2: Approfondimenti tecnici**
+
+_da definire_
 
 **Appendici**
 
   * Note di redazione
   * Definizioni
   * Registro aggiornamenti
-  * Statistica di base per la neuropsicologia clinica
-    * Elementi di probabilità
-    * Campione e popolazione (focus)
-    * Il concetto di p-value
-    * Correlazioni
-    * Correlazione e causa
-    * Regressioni lineari (in breve)
+  
