@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.3)  7 JUN 2026 09:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.3)  4 AUG 2026 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -424,7 +424,7 @@ e
 <mind.png, id=4, 1541.76pt x 1027.84pt>
 File: mind.png Graphic file (type png)
 <use mind.png>
-Package pdftex.def Info: mind.png  used on input line 47.
+Package pdftex.def Info: mind.png  used on input line 48.
 (pdftex.def)             Requested size: 71.13188pt x 47.41138pt.
 
 [1
@@ -432,22 +432,21 @@ Package pdftex.def Info: mind.png  used on input line 47.
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./mind.
 png (PNG copy)>] (./Fig_measurement_4.aux) ) 
 Here is how much of TeX's memory you used:
- 12481 strings out of 476025
- 261918 string characters out of 5790018
+ 12478 strings out of 476025
+ 261834 string characters out of 5790018
  1856388 words of memory out of 5000000
- 32735 multiletter control sequences out of 15000+600000
- 513240 words of font info for 35 fonts, out of 8000000 for 9000
+ 32732 multiletter control sequences out of 15000+600000
+ 513537 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,7n,118p,402b,684s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,7n,118p,402b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Fig_measurement_4.pdf (1 page, 1103621 bytes).
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Fig_measurement_4.pdf (1 page, 1091317 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 27 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
