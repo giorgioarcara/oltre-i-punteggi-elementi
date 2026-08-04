@@ -71,7 +71,7 @@ _“Le abilità cognitive (e le disabilità) sono proprietà funzionali dell’i
 
 In breve: 
 
-_Non esiste una corrispondenza univoca tra un comportamento e uno specifico aspetto del funzionamento cognitivo (normale o deficitario). Quasi per definizione ogni comportamento è riconducibile a più funzioni cognitive_  (CITAZIONE MONDINI ENB-3). <!--(Nota Giorgio: aggiungere? altre citazioni qui?) -->
+_Non esiste una corrispondenza univoca tra un comportamento e uno specifico aspetto del funzionamento cognitivo (normale o deficitario). Quasi per definizione ogni comportamento è riconducibile a più funzioni cognitive_ `(\cite{mondini2022enb3})`{=latex}`(Mondini et al., 2022)`{=html}. <!--(Nota Giorgio: aggiungere? altre citazioni qui?) -->
 
 È importante sottolineare che in neuropsicologia clinica non si effettuano solo misurazioni di costrutti. In numerosi casi infatti i punteggi hanno un diverso scopo, come stimare la probabilità di sviluppare una patologia neurologica, la probabilità di sviluppare sintomi comportamentali, o semplicemente predire quale potrebbe essere il punteggio di un test particolarmente lungo a partire da un test più breve. Distinguere tra questi casi è rilevante perché alcuni metodi psicometrici e alcune considerazioni statistiche valgono solo per i test che misurano costrutti oppure solo per i test che _non_ misurano costrutti. (si vedano il paragrafo [Oggetti di interesse dei test neuropsicologici](#oggetti-interesse-test) e il capitolo 4).
 
