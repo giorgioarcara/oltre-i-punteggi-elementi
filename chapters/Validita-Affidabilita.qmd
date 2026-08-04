@@ -341,13 +341,13 @@ library(ONDAutils)
 par(mfrow=c(2,1))
 set.seed(10)
 X = simulate_obs(Ts = 10, n = 30, rel=0.9, mu_true = 8, sd_true = 2, label = "Alta affidabilità", xlab="osservazioni")
-abline(h=10, col="blue", lwd=3)
-legend("topright", legend=c("punteggio osservato", "punteggio vero"), pch=c(1, NA), lty=c(NA, 1), lwd=c(NA, 3), col=c("black", "blue"))
+abline(h=10, col="steelblue", lwd=3)
+legend("topright", legend=c("punteggio osservato", "punteggio vero"), pch=c(1, NA), lty=c(NA, 1), lwd=c(NA, 3), col=c("black", "steelblue"))
 
 set.seed(10)
 X = simulate_obs(Ts = 10, n = 30, rel=0.4, mu_true = 8, sd_true = 2, label = "Bassa Affidabilità", xlab="osservazioni")
-abline(h=10, col="blue", lwd=3)
-legend("topright", legend=c("punteggio osservato", "punteggio vero"), pch=c(1, NA), lty=c(NA, 1), lwd=c(NA, 3), col=c("black", "blue"))
+abline(h=10, col="steelblue", lwd=3)
+legend("topright", legend=c("punteggio osservato", "punteggio vero"), pch=c(1, NA), lty=c(NA, 1), lwd=c(NA, 3), col=c("black", "steelblue"))
 ```
 
 
@@ -446,7 +446,7 @@ La validità può essere definita come la qualità di un test di misurare ciò c
 Esistono diversi tipi di validità e affidabilità, e ognuna cattura una diversa sfaccettatura delle proprietà del test.
 In generale sarebbe preferibile sempre scegliere test che abbiamo buone (o quantomeno migliori), validità e affidabilità. 
 
-![Sintesi dei tipi di validità e di affidabilità. A sinistra, i tipi di validità sono raggruppati nelle due famiglie introdotte all'inizio del capitolo: le validità **a priori** (di facciata e di contenuto), valutate sul contenuto del test prima della raccolta dati, e le validità **a posteriori** (di costrutto, di criterio ed ecologica), che richiedono invece evidenze empiriche. Per la validità non esistono valori soglia universali: i risultati vanno di volta in volta motivati. A destra, i quattro tipi di affidabilità trattati nel capitolo, con il valore soglia "standard" più diffuso in letteratura (vedi il testo per le soglie più stringenti raccomandate per le decisioni cliniche sul singolo individuo).](../Figures/Latex-Fig-Validita-Affidabilita/Fig_validita_affidabilita.png){#fig-validita-affidabilita fig-align="center" width=100%}
+![Sintesi dei tipi di validità e di affidabilità. A sinistra, i tipi di validità sono raggruppati nelle due famiglie introdotte all'inizio del capitolo: le validità **a priori** (di facciata e di contenuto), valutate sul contenuto del test prima della raccolta dati, e le validità **a posteriori** (di costrutto, di criterio ed ecologica), che richiedono invece evidenze empiriche. Per la validità non esistono valori soglia universali: i risultati vanno di volta in volta motivati. A destra, i quattro tipi di affidabilità trattati nel capitolo, con il valore soglia "standard" più diffuso in letteratura (vedi il testo per le soglie più stringenti raccomandate per le decisioni cliniche sul singolo individuo).](../Figures/Latex-Fig-Validita-Affidabilita/Fig_validita_affidabilita.png){#fig-validita-affidabilita fig-align="center" width=80%}
 
 ## Focus: imprecisione dei test e intervalli di confidenza.{#imprecisione}
 Le stime di affidabilità consentono di quantificare e comunicare l’incertezza associata a una misurazione. Un modo intuitivo per rappresentarla consiste nell’affiancare al punteggio osservato una fascia di valori plausibili, delimitata da un limite inferiore e uno superiore. Quanto più questa fascia è ampia, tanto maggiore è l’incertezza che circonda il punteggio.
