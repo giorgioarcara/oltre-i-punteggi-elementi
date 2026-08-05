@@ -152,7 +152,7 @@ _Soglie indicative_: Anche per questo tipo di validità non esistono soglie mini
 [^gen]: questa ultima tipologia di validità di costrutto è qui riportata per mostrare come anche altre tipologie di evidenze possono essere considerate come supporto alla validità di costrutto. Ad un occhio attento, con questa definizione però abbracciamo di fatto _tutte_ le possibili validità di costrutto.
 
 
-### Validità di criterio
+### Validità di criterio{#validita-criterio}
 
 In alcuni casi, la validità di un test viene valutata esaminando la relazione tra i suoi punteggi e una variabile esterna direttamente osservabile, denominata *criterio*. Si parla allora di **validità di criterio**.
 
