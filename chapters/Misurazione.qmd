@@ -7,10 +7,10 @@ suppress-bibliography: true
 ## Perché è importante misurare?
 Un intero capitolo dedicato alla misurazione non può che iniziare da una possibile definizione di cosa si intende appunto per misurazione:
 
-_La misurazione è l'utilizzo di numeri per descrivere delle entità di interesse_. 
+_La misurazione è l'utilizzo di numeri per descrivere degli oggetti di interesse_. 
 
 Come vedremo nel [prossimo paragrafo](#misurazione_e_neuropsicologia_clinica), esistono svariate possibili definizioni di misurazione, con implicazioni non banali, ma accontentiamoci per il momento di questa sopra per fare alcune prime considerazioni.
-Innanzitutto, misurare quasi sempre è associato ad ottenere _numeri_, cioè punteggi, che ci aiutano nella descrizione di qualcosa. Questi _oggetti di interesse_ in neuropsicologia sono di diverso tipo, ma il più delle volte sono funzioni cognitive, come attenzione o memoria.
+Innanzitutto, misurare quasi sempre è associato ad ottenere _numeri_, cioè punteggi, che ci aiutano nella descrizione di qualcosa. Questi _oggetti di interesse_ in neuropsicologia sono di diverso tipo, ma il più delle volte sono funzioni cognitive, come attenzione o memoria. <!-- capire se vuoi generalizzare rispetto ad oggetti -->
 
 Per misurare utilizziamo i **test** cioè specifici strumenti  sviluppati appositamente in ambito psicologico e neuropsicologico. Anche i test saranno oggetto di un [paragrafo dedicato](#i-test)
 
