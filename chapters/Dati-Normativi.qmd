@@ -3,15 +3,66 @@ suppress-bibliography: true
 ---
 # Dati normativi, deficit e danni
 
-<!---
+## Introduzione al significato dei dati normativi
+
 :::{.domanda}
-Possiamo considerare gli strumenti di misurazione tutti precisi allo stesso modo?
+Che informazioni cliniche ci fornisce, da solo, il punteggio ad un test neuropsicologico?
 :::
 
-## Perché usiamo i dati normativi?
-da soli i punteggi vengono utilizzati
+Se consideriamo la quasi totalità di test neuropsicologici[^test-comuni], la risposta alla domanda è: molto poche. Il punteggio "grezzo" al test, cioè il punteggio che si ottiene dopo avere semplicemente trasformato i punteggi ai singoli item in un punteggio totale, raramente è già informativo. Proviamo a pensare ad un test in cui il punteggio ottenibile vada da 0 a 30 (come i comuni MMSE o MOCA). Cosa ci dice se il punteggio ottenuto è 20? è un punteggio da considerare alto o basso?
+Come vedremo nel corso dei paragrafi di questo capitolo, uno dei più comuni scopo di una valutazione neuropsicologica è quello di identificare la presenza di possibili alterazioni nel funzionamento cognitivo (che in seguito classificheremo come _deficit_ o _danni_).
+Per farlo somministriamo test che ci aiutino a capire se ci sono effettivamente queste alterazioni. Un punteggio _in sé_ può segnalarlo? Certamente no, un punteggio pari a 20 potrebbe essere basso o alto, a seconda della difficoltà del test. E la difficoltà può essere stimata a partire dalla prestazione di altre persone, che fungano da gruppo di riferimento. Se la maggior parte delle persone ottengono punteggi molto alti ad un test (ad esempio, quasi tutti sopra il 25), allora un punteggio pari a 20/30 potrebbe essere molto basso e quindi segno di quella che abbiamo per ora chiamata come "alterazione" nel funzionamento cognitivo. Se invece la maggior parte delle persone ottengono un punteggio tra 15 e 16 e quasi nessuno un punteggio superiore, un punteggio pari a 20/30 potrebbe essere invece un punteggio straordinariamente alto. 
+Nell'esperienza di psicologhe e psicologi questa è una esperienza comune se si pensa agli esami universitari. Nonostante la scala sia sempre la stessa (con un massimo di 30 e lode), il significato del punteggio può essere molto variabile. Un voto di 25 può essere molto alto per alcuni esami, mentre molto basso per altri.
+Nel corso di questo capitolo verranno affrontati in dettaglio tutti gli aspetti che sono stati anticipati in questa introduzione, partendo da un approfondimento sul perchè utilizziamo i dati normativi, passando per il modo in cui otteniamo delle classificazioni e e le diverse interpretazioni che vengono fatte.
+Quello del confronto con i dati normativi è un aspetto fondamentale, spesso ritenuto il più importante nella neuropsicologia clinica. Per questo motivo l'argomento sarà affrontato in più passaggi, prima guardandolo da distante e poi, attraverso i diversi paragrafi, entrando sempre più nei dettagli.
 
-## Deficit e danni
+## Il razionale dell'utilizzo dei dati normativi
+
+Uno degli scopi della valutazione neuropsicologica è quello di investigare lo stato di integrità del funzionamento cognitivo di un individuo. Spesso infatti una diagnosi neuropsicologica sullo stato cognitivo passa per la valutazione di specifici domini (attenzione, memoria, funzioni esecutive), con lo scopo di indagare se uno o più domini può essere compromesso. 
+Quello che avviene, nella routine clinica, è molto semplice ed è familiare a chi ha mai visto una valutazione: un punteggio ottenuto da una persona esaminata è confrontato con una soglia e a partire da questo confronto avviene un'interpretazione. Ad esempio, un punteggio di 14 al MoCA[^after-adj] è al di sotto della soglia di 16 che indica un risultato con potenziale rilevanza clinica. 
+
+[^after-adj]: per essere preciso in questo esempio ad essere confrontato con il valore soglia è il punteggio corretto (si veda paragrafo punteggi-corretti).
+
+<!-- aggiusta questa frase -->
+
+<!-- inserisci figura qui con Utilizzo dei dati normativi nella pratica clinica -->
+
+Ciò che si nasconde dietro un'operazione così semplice è però una procedura fatta da una sequenza di passi, ciascuno con  una specifica motivazione e che richiede precise assunzioni. Esaminiamoli in sequenza.
+
+Il problema di partenza è quello descritto in apertura di questo capitolo: abbiamo bisogno di un modo che ci permetta di intepretare un punteggio per identificare prestazioni con possibile rilevanza clinica. Per raggiungere questo scopo, la confrontiamo con le prestazioni di un _gruppo di riferimento_. Questo gruppo è, la maggior parte delle volte, composto da persone che assumiamo essere sane o _normali_ da cui il nome, **dati normativi**.
+
+Avendo una distribuzione dei punteggi ottenuti da normali possiamo infatti individuare dove si colloca ad un confronta la prestazione che vogliamo valutare: questo avviene essenzialmente stimando quante persone ottengono un punteggio uguale o peggiore a quello osservato. Esistono diversi modi per farlo e anche diversi modi per concettualizzare questo problema (stima delle percentuale di persone che ottengono punteggio uguale o peggiore oppure stima della probabilità di ottenere una prestazione uguale o peggiore). I diversi metodi statistici affrontati in diversi paragrafi dedicati. <!-- NOTA GIORGIO: aggiungi link corretti ai paragrafi-->.
+
+:::{.callout-tip}
+I dati normativi ci aiutano a _classificare_ una prestazione rispetto ad un gruppo di riferimento, per facilitare l'interpretazione. <!--forse utile parlare di interpretazione di un test e? o che altre informazioni-->
+:::
+
+
+Il confronto con i dati normativi ci aiuta a classificare una prestazione e capire se questa è tra le migliori, tra la peggiori o in generale come si classifica rispetto alle persone sane. Questa classificazione spesso viene espressa trasformando il punteggio originale in una percentuale (es. 10%, 2%). Ad esempio un punteggio grezzo di 20, trasformato in 3% indica che solo il 3% delle persone del gruppo di riferimento hanno un punteggio uguale o inferiore a quello osservato. Questo ci mostra che la prestazione è straordinariamente bassa. Una classificazione del genere non è però sufficiente a fini clinici perchè è un valore all'interno di una scala sostanzialmente continua. Quando una prestazione è sufficientemente bassa da essere considerata _anomala_ e il potenziale segnale di un problema? Tornando all'esempio sopra, 3% è sufficientemente basso? E il 4% ? E il 10%?
+
+Per risolvere questo problema sono usate, con fini clinico-pragmatico, delle **soglie** o **cut-off**, valori puntuali oltre i quali consideriamo il risultato di rilevanza clinica. La soglia più comune è quella del $5%$ dei punteggi peggiori dei dati normativi. 
+Avere soglie ci permette di trasformare una variabile continua (percentuale rispetto al gruppo di riferimento), in categorie (es. punteggio "al di sotto della norma"/"nella norma" per usare delle etichette usate di frequente). Questo aspetto sarà affrontato in dettaglio nel paragrafo [L'utilità pragmatica delle soglie](#utilita-pragmatica-soglie).
+
+In neuropsicologia clinica (specie dell'adulto), la soglia è spesso espressa nella scala del punteggio originale, cosicché sia possibile confrontare direttamente un punteggio grezzo (o un punteggio "corretto" vedi paragrafo correzioni dei punteggi <!--NOTA GIORGIO: qui -->), con il valore che indica una certa percentuale soglia decisa a monte. Se nell'esempio sopra, la soglia o cut-off del $5%$ fosse $18$, indicherebbe che ogni punteggio inferiore al 18 è inferiore al 5% dei punteggi peggiori del gruppo di riferimento. 
+
+Ricapitalando il passaggio da punteggio grezzo a confronto con soglie può avvenire in due concettualmente equivalenti. Il primo modo è quello di trasformare il punteggio in una certa percentuale, e poi confrontarla eventualmente con una soglia decisa a priori per aiutare l'interpretazione. Il secondo modo comporta confrontare il punteggio grezzo con il valore che corrisponde ad una percentuale soglia.
+
+<!-- aggiungi figura delle due maniere qui, con esempio -->
+
+Una volta che la prestazione è classificata, possibilmente dopo il confronto con una soglia, rimane da ricavare una possibile interpretazione dei risultati. Quando viene indagato lo stato una certa funzione cognitiva le possibili domande potrebbero essere idantificare la presenza di un _deficit_ (nel senso di un problema funzionale conclamato) oppure di un _danno_ (un peggioramento rispetto ad uno stato precedente). Queste due possibilità sono approfondite nel paragrafo [Deficit e danni][#deficit-danni].
+
+Ciascuno di passi spiegati in questo paragrafo, e le relative assunzioni, sarà affrontato in dettaglio nei prossimi paragrafi.
+
+
+
+
+[^test-comuni]: qui per test comuni sono intesi test sviluppati secondo la teoria classica dei test (vedi il paragrafo {#teoria-classica-dei-test}, nel capitolo 1).
+
+
+## Perché usiamo i dati normativi?
+li usiamo in caso non possiamo definire il gruppo di interesse.
+
+## Deficit e danni {#deficit-danni}
 definizioni di deficit e danno, caso di deficit e non danno, caso di danno e non deficit.
 caso di entrambi.
 Danno è un inferenza ulteriore, deficit potrebbe essere la definizione (definisco deficit se un gruppo). 
@@ -19,12 +70,15 @@ Nel danno serve un caso più possibile simile a quello che sto valutando, nel ca
 
 aggiungere che non usiamo interpretare la performance per non confondere con l'interpretazione finale di una performance, che arriva alla fine (vedi capitolo 9)
 
-## l'utilità pragmatica delle soglie
+## l'utilità pragmatica delle soglie {#utilita-pragmatica-soglie}
 citazioni paper lakens
 
 ## La raccolta di dati normativi
 
 ### dati normativi e percentili 
+
+#### z-score
+#### percentili non parametrici
 
 #### limiti dei percentili
 
@@ -52,4 +106,3 @@ citazioni paper lakens
 
 ### Focus: la soglia più corretta è al 5%?
 dipende da cosa intendiamo come corretto il 5% sì, ma altrimenti è arbitrario. Se vogliamo magari maggiore sensibilità potrebbe essere  non ideale.
--->
