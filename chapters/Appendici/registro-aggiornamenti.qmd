@@ -36,3 +36,4 @@ Rilasciata versione iniziale del libro che include
 - le sezioni inizialmente definite come "Approfondimenti e Curiosità" sono state rinominate come "Focus".
 - aggiunte immagini nei paragrafi sezioni speciali (Focus, Nella Pratica Clinica, Errori comuni).
 - cambiata struttura di base del libro in due parti: Elementi per la pratica clinica, Approfondimenti tecnici.
+- aggiunto in Capitolo 1 paragrafo "oggetti di interesse dei test neuropsicologici".
