@@ -49,7 +49,7 @@ Va da sé, che se questo è uno dei presupposti della neuropsicologia clinica co
 
 La disciplina che si occupa della misurazione in psicologia (e in neuropsicologia) è la **psicometria**, una delle discipline che, insieme alla statistica, rappresentano le fondamenta di questo libro. La psicometria si occupa proprio delle questioni della misurazione in psicologia, una tipologia di misurazione molto particolare perché non tratta di proprietà di oggetti fisici ma di **costrutti**, cioè concetti psicologici non osservabili.
 
-::: {.callout-note}
+::: {.callout-note #callout-costrutto-indicatore}
 ## Definizione
 **Costrutto**:
 Un concetto psicologico non direttamente osservabile (es. memoria, attenzione, intelligenza). Per renderlo misurabile, è associato ad uno o più _indicatori_ (o _proxy_ in inglese).
@@ -76,7 +76,7 @@ _Non esiste una corrispondenza univoca tra un comportamento e uno specifico aspe
 È importante sottolineare che in neuropsicologia clinica non si effettuano solo misurazioni di costrutti. In numerosi casi infatti i punteggi hanno un diverso scopo, come stimare la probabilità di sviluppare una patologia neurologica, la probabilità di sviluppare sintomi comportamentali, o semplicemente predire quale potrebbe essere il punteggio di un test particolarmente lungo a partire da un test più breve. Distinguere tra questi casi è rilevante perché alcuni metodi psicometrici e alcune considerazioni statistiche valgono solo per i test che misurano costrutti oppure solo per i test che _non_ misurano costrutti. (si vedano il paragrafo [Oggetti di interesse dei test neuropsicologici](#oggetti-interesse-test) e il capitolo 4).
 
 
-### La definizione di misurazione di S.S. Stevens (1946) e le scale di misura
+### La definizione di misurazione di S.S. Stevens (1946) e le scale di misura {#stevens}
 
 La più famosa definizione di misurazione è certamente quella di S.S. Stevens, che in un articolo del 1946 ha fornito una definizione che ha influenzato (nel bene e nel male) la storia della psicologia:
 
@@ -211,7 +211,7 @@ Già dall'introduzione è stato detto che il protagonista assoluto del libro è 
 
 Esistono in letteratura numerose definizioni di test e, come spesso accade in psicometria, non esiste un consenso unanime su quale sia la più adeguata. Una delle più influenti in ambito psicologico è quella proposta da Lee Cronbach nel suo manuale sul testing psicologico:
 
-::: {.callout-note}
+::: {.callout-note #callout-test-cronbach}
 ## Definizione
 **Test secondo Cronbach (1990)**
 
@@ -337,7 +337,7 @@ Esistono diversi framework teorici che hanno cercato di definire questi aspetti 
 
 La Teoria Classica dei Test o _Classical Test Theory (CTT)_ è il framework psicometrico su cui si basa la grande maggioranza dei test neuropsicologici attualmente disponibili. Come già visto per altri aspetti psicometrici, spesso non vi è una dichiarazione esplicita di seguire la CTT, ma questo può essere desunto dall'utilizzo di alcune analisi (ad esempio, calcolare la consistenza interna o l'affidabilità test-retest), che ne sono una diretta espressione. Comprendere i presupposti della CTT è quindi fondamentale non solo per chi costruisce test, ma anche per chi li usa nella pratica clinica quotidiana.
 
-### Il principio cardine: X = T + E 
+### Il principio cardine: X = T + E {#ctt-xte}
 
 Il principio fondamentale della CTT è espresso in una formula apparentemente semplice:
 

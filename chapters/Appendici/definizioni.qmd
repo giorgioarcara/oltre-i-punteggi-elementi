@@ -1,26 +1,198 @@
-## A3. Definizioni {.unnumbered #definizioni}
+## A3. Glossario {.unnumbered #glossario}
 
 ### Perché sono importanti le definizioni.
-Un libro che ambisce a insegnare l'importanza della metodologia non può prescindere dall'includere una sezione con le definizioni dei termini più importanti. Wittgenstein in una delle più famose proposizioni del suo _Tractatus_ affermava: 
+Un libro che ambisce a insegnare l'importanza della metodologia non può prescindere dall'includere una sezione con le definizioni dei termini più importanti. Wittgenstein in una delle più famose proposizioni del suo _Tractatus_ affermava:
 
-_5.6 I limiti del mio linguaggio sono i limiti del mio mondo._
+_> 5.6 I limiti del mio linguaggio sono i limiti del mio mondo._
 
 Senza scendere nel dettaglio delle implicazioni di questa asserzione, è utile riflettere sul fatto che il modo in cui definiamo le entità che ci interessano definiscono il confine entro cui ci muoviamo e, anche se ce ne rendiamo conto, influenzano in maniera determinante la metodologia e il nostro approccio alla clinica. Si pensi a parole che usiamo frequentemente nella pratica clinica, come _deficit_, _normalità_, _peggioramento_. L'esatta sfumatura che diamo a questi significati ha un grande impatto sulla nostra pratica clinica e, per quanto riguarda la metodologia, nello stabilire se un metodo è adeguato oppure no.
+Anche se in questo libro si è preferito utilizzare l'Italiano il più possibile, nel caso un termine sia più comunemente utilizzato in inglese (es. Mild Cognitive Impairment) è stato riportata la versione in inglese.
+
+### Glossario
+
+Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione. Per alcuni termini già trattati in un capitolo del libro (ad esempio Costrutto, Validità, Affidabilità e le loro sottotipologie) la voce è volutamente sintetica e rimanda al paragrafo del capitolo che li tratta per esteso, per evitare di duplicare lo stesso contenuto in due punti diversi del libro. _Altri termini (ad esempio Dati normativi, Teorema di Bayes, Punteggi equivalenti) sono già citati nei capitoli attuali ma saranno approfonditi in capitoli non ancora scritti: la definizione qui riportata è quindi provvisoria e verrà ampliata quando quei capitoli saranno disponibili._ <!-- NOTA GIORGIO: parte da aggiornare -->
 
 
-#### Psicometria
+#### Activities of Daily Living (ADL) e Instrumental ADL (IADL){#adl-iadl}
+Le Activities of Daily Living (ADL) sono le attività di base necessarie per l'autosufficienza quotidiana (ad esempio lavarsi, vestirsi, alimentarsi). Le Instrumental Activities of Daily Living (IADL) sono attività più complesse, che richiedono un maggior coinvolgimento cognitivo (ad esempio gestire il denaro, i farmaci, i mezzi di trasporto). La loro valutazione integra l'esame cognitivo per stimare l'impatto funzionale reale di un eventuale deficit nella vita quotidiana della persona.
+
+#### Affidabilità{#def-affidabilita}
+La qualità di un test di fornire punteggi consistenti in diverse misurazioni; può essere intesa come la precisione di un test (per analogia con la coppia accuratezza/precisione: la validità corrisponde all'accuratezza, l'affidabilità alla precisione). Un test valido deve necessariamente essere anche affidabile, ma non è vero il contrario. Per la trattazione estesa vedi [Capitolo 2, §Affidabilità](../Validita-Affidabilita.qmd#affidabilita).
+
+#### Affidabilità split-half{#def-affidabilita-split-half}
+Un tipo di affidabilità che indica la consistenza di un test confrontando il punteggio ottenuto da metà degli item (tipicamente quelli pari) con quello ottenuto con l'altra metà (tipicamente quelli dispari), corretto poi con la formula di Spearman-Brown. Per la trattazione estesa vedi [Capitolo 2, §Affidabilità Split-Half](../Validita-Affidabilita.qmd#affidabilità-split-half).
+
+#### Affidabilità test-retest{#def-affidabilita-test-retest}
+La stabilità dei punteggi ottenuti quando lo stesso test viene somministrato alle stesse persone in due occasioni diverse, assumendo che nell'intervallo non si siano verificati cambiamenti reali nel costrutto misurato. È influenzata dall'intervallo tra le somministrazioni e dall'effetto pratica (vedi [Effetto pratica](#effetto-pratica)). Per la trattazione estesa vedi [Capitolo 2, §Affidabilità test–retest](../Validita-Affidabilita.qmd#affidabilita-test-retest).
+
+#### Alpha di Cronbach e omega di McDonald{#alpha-omega}
+Indici di consistenza interna, cioè di quanto gli item di un test o di un questionario che mirano a misurare lo stesso costrutto tendono a correlare tra loro. L'alpha di Cronbach è l'indice storicamente più usato, ma si basa su assunzioni (in particolare che tutti gli item contribuiscano in egual misura al costrutto) spesso non verificate nella pratica. L'omega di McDonald è un indice alternativo, generalmente considerato più accurato perché non richiede queste assunzioni.
+
+#### Analisi fattoriale e analisi delle componenti principali{#analisi-fattoriale}
+Tecniche statistiche che permettono di individuare, a partire dalle correlazioni tra un insieme di item o di test, un numero ridotto di dimensioni (fattori o componenti) sottostanti in grado di spiegarne l'andamento comune. L'analisi fattoriale esplorativa (EFA) è usata per esplorare quale struttura fattoriale emerge dai dati senza ipotesi predefinite; l'analisi fattoriale confermativa (CFA) è usata per verificare se una struttura fattoriale ipotizzata a priori è coerente con i dati osservati. Sono strumenti chiave per indagare la validità di costrutto di un test o di un questionario. Il dettaglio tecnico di queste analisi è rimandato agli _Approfondimenti tecnici_.
+
+#### Campione e popolazione{#campione-popolazione}
+La popolazione è l'insieme completo (spesso teorico, perché in pratica non osservabile per intero) di tutti gli individui a cui si è interessati a generalizzare un risultato. Il campione è il sottoinsieme di individui effettivamente osservato/testato, sulla base del quale si stimano le caratteristiche della popolazione.
+
+#### Consistenza interna{#def-consistenza-interna}
+Quanto gli item di un test sono tra loro coerenti, cioè quanto misurano, almeno in parte, la stessa cosa. Si stima tipicamente con l'alpha di Cronbach o l'omega di McDonald (vedi [Alpha di Cronbach e omega di McDonald](#alpha-omega)). Per la trattazione estesa vedi [Capitolo 2, §Consistenza Interna](../Validita-Affidabilita.qmd#consistenza-interna).
+
+#### Content Validity Index e Content Validity Ratio (CVI, CVR){#cvi-cvr}
+Indici quantitativi usati per stimare la validità di contenuto di un test o di un questionario, tipicamente a partire dai giudizi espressi da un panel di esperti su quanto ciascun item sia rilevante e rappresentativo del costrutto che si intende misurare.
+
+#### Correlazione{#correlazione}
+Un indice statistico, compreso tra -1 e +1, che descrive quanto due variabili tendono a variare insieme. Una correlazione positiva indica che a valori alti di una variabile tendono ad associarsi valori alti dell'altra (e viceversa); una correlazione negativa indica l'andamento opposto. Una correlazione vicina a 0 indica assenza di relazione lineare. La correlazione è uno strumento statistico usato in psicometria per stimare, tra le altre cose, l'affidabilità e alcuni tipi di validità di un test, ma _non implica di per sé un rapporto di causa-effetto_ tra le due variabili.
+Da notare inoltre che valori di correlazioni alti non idicano che i punteggi sono gli stessi, ma solo che variano in maniera simile.
+
+#### Costrutto{#costrutto}
+Un concetto psicologico non direttamente osservabile. Sono esempi di costrutti, esempi come Ansia, Depressione, Memoria, Attenzione, etc. I costrutti sono osservabili tramite _comportamenti_ direttamente osservabili che si assume siano associati al costrutto. Un aspetto fondamentale (e caratteristico della Psicometria) è che la relazione tra Costrutto e comportamenti osservabili non è mai perfetta.
+_Nota_: un costrutto è reso misurabile associandolo a uno o più _indicatori_, cioè comportamenti osservabili (ad esempio le risposte a un test) che si assume ne siano manifestazione. Per la trattazione estesa, con esempi, vedi [Capitolo 1, §Misurazione e neuropsicologia clinica](../Misurazione.qmd#callout-costrutto-indicatore).
+
+#### Curva ROC{#curva-roc}
+Un grafico che rappresenta, per tutti i possibili valori di cut-off di un test, la relazione tra sensibilità e il complemento della specificità (cioè il tasso di falsi positivi). L'area sotto la curva ROC (AUC) è un indice sintetico della capacità discriminante complessiva del test: valori vicini a 1 indicano ottima capacità di distinguere tra i gruppi considerati, valori vicini a 0.5 indicano una capacità discriminante non superiore al caso.
+
+#### Cut-off di normalità e cut-off di discriminazione{#cut-off}
+Un cut-off è un valore soglia usato per classificare un punteggio come "nella norma" oppure "fuori norma" (cut-off di normalità), o per distinguere tra due gruppi diagnostici (cut-off di discriminazione). La scelta di un cut-off comporta sempre un compromesso tra sensibilità e specificità (vedi [Sensibilità e specificità](#sensibilita-specificita)).
+
+#### Dati normativi{#dati-normativi}
+L'insieme dei punteggi ottenuti a un test da un campione di riferimento (il campione normativo), usati come termine di paragone per interpretare il punteggio ottenuto da un singolo paziente, stabilendo ad esempio se rientra nella norma per la sua età, scolarità e genere.
+I dati normativi sono ottenuti in genere su campione di persone considerate sane o prive di condizioni cliniche rilevanti.
+
+#### Delphi Consensus{#delphi}
+Un metodo strutturato per raggiungere un consenso tra un gruppo di esperti, basato su cicli successivi di raccolta di giudizi individuali (in genere in forma anonima) e restituzione dei risultati aggregati al gruppo, fino al raggiungimento di un livello di accordo ritenuto soddisfacente. È usato ad esempio per definire il contenuto di un nuovo test o le soglie cliniche di un punteggio.
+
+#### Deviazione standard{#deviazione-standard}
+Un indice di quanto, in media, i singoli valori di un insieme di dati si discostano dalla media stessa. Una deviazione standard piccola indica che i valori sono concentrati vicino alla media; una deviazione standard grande indica che i valori sono più dispersi. È alla base del calcolo dei punti-z (vedi [Punti-z](#punti-z)).
+
+#### Distribuzione (normale){#distribuzione-normale}
+La distribuzione normale (o "a campana") è una distribuzione simmetrica, molto comune in psicometria, in cui la maggior parte delle osservazioni si concentra intorno alla media e la frequenza decresce progressivamente allontanandosi da essa.
+
+#### Effetto pratica{#effetto-pratica}
+Il miglioramento della prestazione a un test che si osserva quando lo stesso test (o una sua forma molto simile) viene risomministrato alla stessa persona, dovuto non a un reale cambiamento del costrutto misurato ma alla familiarità acquisita con il compito, gli item o la procedura. L'effetto pratica è un problema centrale quando si valutano i cambiamenti nel tempo (ad esempio in un follow-up), perché un miglioramento del punteggio può riflettere in parte, o del tutto, questo effetto piuttosto che un reale miglioramento clinico.
+
+#### Errore standard di misurazione (SEM){#sem}
+Una stima di quanto un punteggio osservato a un test possa variare, per il solo effetto dell'errore di misurazione, se lo stesso test fosse somministrato più volte alla stessa persona nelle stesse condizioni. Un SEM piccolo indica una misura più precisa, un SEM grande una misura meno precisa. Viene usato per costruire intervalli di confidenza intorno al punteggio osservato di un singolo paziente ed è strettamente legato all'affidabilità del test: test più affidabili hanno un SEM più piccolo.
+
+#### Falsi positivi e falsi negativi{#falsi-positivi-negativi}
+Un falso positivo è il caso di una persona senza la condizione indagata (ad esempio senza un deficit) che il test classifica erroneamente come positiva (cioè con deficit). Un falso negativo è il caso opposto: una persona con la condizione indagata che il test classifica erroneamente come negativa (cioè senza deficit). Questi due tipi di errore hanno spesso conseguenze cliniche molto diverse, per cui la scelta di un cut-off dipende anche da quale dei due errori si vuole minimizzare in un dato contesto.
+
+#### Forme parallele{#forme-parallele}
+Versioni diverse dello stesso test, costruite in modo da misurare lo stesso costrutto con lo stesso livello di difficoltà, ma con item differenti. Sono usate nelle valutazioni ripetute nel tempo per ridurre l'effetto pratica dovuto al ricordo degli item specifici della prima somministrazione.
+
+#### Funzioni esecutive{#funzioni-esecutive}
+Un insieme di processi cognitivi di alto livello (tra cui pianificazione, inibizione, flessibilità cognitiva, memoria di lavoro) che permettono di regolare il pensiero e il comportamento in modo finalizzato a uno scopo, specie in situazioni nuove o non automatizzate. Sono un costrutto (vedi [Costrutto](#costrutto)) ampio e in parte eterogeneo, tanto che in letteratura non esiste un accordo unanime sui suoi confini esatti.
+
+#### Gold standard{#gold-standard}
+Il criterio o strumento di riferimento considerato, in un dato momento e contesto, il più accurato o affidabile disponibile per stabilire la presenza di una condizione (ad esempio una diagnosi confermata tramite esame istologico, imaging o follow-up clinico prolungato). È spesso usato come termine di paragone per stabilire la validità di criterio di un nuovo test, pur con la consapevolezza che raramente un gold standard è del tutto privo di limiti.
+
+#### Intervallo di confidenza{#intervallo-di-confidenza}
+Un intervallo di valori, calcolato a partire dai dati osservati, entro cui è ragionevole ritenere che si collochi il valore vero (non direttamente osservabile) di una misura, con un certo livello di confidenza (tipicamente 95%). Un intervallo di confidenza ampio segnala maggiore incertezza nella stima del valore; uno stretto, maggiore precisione. In ambito clinico è utile per non interpretare un singolo punteggio come se fosse un valore esatto e privo di errore.
+
+#### Inter-rater agreement {#inter-rater}
+Il grado di concordanza tra le valutazioni fornite da due o più valutatori indipendenti che osservano o valutano lo stesso fenomeno (ad esempio due clinici che assegnano un punteggio alla stessa prestazione dello steso paziente). Un buon inter-rater agreement è una condizione necessaria perché una misura, specie quando implica un giudizio soggettivo, possa essere considerata affidabile.
+
+#### Intraclass Correlation Coefficient (ICC){#icc}
+Una famiglia di indici usati per quantificare l'affidabilità di una misura quando le osservazioni ripetute provengono da valutatori diversi (affidabilità inter-giudice), da somministrazioni ripetute nel tempo (affidabilità test-retest) o da item diversi. A seconda della domanda a cui si vuole rispondere, l'ICC può stimare l'accordo assoluto (quanto i punteggi coincidono in valore assoluto) oppure la consistenza relativa (quanto l'ordine dei punteggi tra le persone si mantiene stabile), che non sono la stessa cosa e possono dare risultati anche molto diversi sugli stessi dati.
+
+#### Invarianza di misura{#invarianza-di-misura}
+La condizione per cui un test o un questionario misura lo stesso costrutto, nello stesso modo, in gruppi diversi (ad esempio per età, genere o livello culturale) o in momenti diversi. Se l'invarianza di misura non è verificata, un confronto diretto dei punteggi tra gruppi (o nel tempo) può essere fuorviante, perché le differenze osservate potrebbero riflettere, almeno in parte, un funzionamento diverso dello strumento piuttosto che una reale differenza nel costrutto misurato.
+
+#### Item Response Theory (IRT) e modello di Rasch{#irt}
+La Item Response Theory è un approccio alla misurazione psicologica, alternativo alla Teoria Classica dei Test, che modella la probabilità di rispondere correttamente a un singolo item di un test in funzione di livello in uno o più costrutti latenti posseduti dalla persona e delle caratteristiche dell'item stesso (ad esempio la sua difficoltà). Il modello di Rasch è uno dei modelli IRT più utilizzati e più semplici, e richiede che il costrutto misurato sia unidimensionale, cioè che gli item riflettano un'unica dimensione sottostante. Questi modelli sono trattati più in dettaglio negli _Approfondimenti tecnici_.
+
+#### Malingering (simulazione){#malingering}
+La simulazione intenzionale o l'esagerazione di sintomi o deficit, generalmente motivata da un vantaggio esterno (ad esempio economico, legale o di esenzione da un obbligo). Nella pratica neuropsicologica e forense si utilizzano test specifici (performance validity test) per stimare quanto l'impegno e la validità della prestazione del paziente durante la valutazione siano adeguati, prima di interpretare gli altri punteggi ottenuti.
+
+#### Media{#media}
+Il valore che si ottiene sommando tutte le osservazioni di un insieme di dati (ad esempio i punteggi ottenuti a un test da un campione di persone) e dividendo il risultato per il numero di osservazioni. È la misura di tendenza centrale più usata, ma è sensibile ai valori estremi (outlier): pochi punteggi molto alti o molto bassi possono spostarla in modo considerevole.
+
+#### Mediana{#mediana}
+Il valore che occupa la posizione centrale in un insieme di dati ordinati dal più piccolo al più grande. A differenza della media, la mediana non risente dei valori estremi, per cui è spesso preferita per descrivere distribuzioni asimmetriche (ad esempio tempi di reazione o punteggi con un forte effetto pavimento o soffitto).
+
+#### Mild Cognitive Impairment (MCI){#mci}
+Il  Mild Cognitive Impairment decadimento cognitivo lieve o moderato descrive un peggioramento delle prestazioni cognitive che non raggiunge la gravità di una demenza conclamata. Il Mild Cognitive Impairment (MCI) è una condizione clinica specifica, caratterizzata da un decadimento cognitivo superiore a quanto atteso per l'età e la scolarità della persona, ma che non compromette in modo significativo l'autonomia nelle attività quotidiane (vedi [Activities of Daily Living](#adl-iadl)); è considerata una possibile condizione di transizione, non necessariamente destinata a evolvere in demenza.
+
+#### Misurazione secondo Stevens (1946){#def-stevens}
+La misurazione è "l'assegnazione di numeri a oggetti o eventi secondo determinate regole". È la definizione di misurazione storicamente più influente in psicologia, associata alla distinzione tra scale nominale, ordinale, a intervalli e a rapporti. Per la trattazione estesa vedi [Capitolo 1, §La definizione di misurazione di S.S. Stevens](../Misurazione.qmd#stevens).
+
+#### Misurazione secondo Suppes e Zinnes (1963){#def-suppes-zinnes}
+Una definizione più formale e rigorosa di misurazione, secondo cui misurare consiste in un **omomorfismo**, cioè una corrispondenza che preserva le relazioni, tra un insieme di entità del mondo empirico (Sistema Relazionale Empirico) e un insieme di numeri (Sistema Relazionale Numerico). Per la trattazione estesa vedi [Capitolo 1, §Definizione di Misurazione secondo Suppes e Zinnes](../Misurazione.qmd#suppes-zinnes).
+
+#### Open Science{#open-science}
+Un insieme di pratiche che promuovono la trasparenza, la verificabilità e la condivisione dei risultati e processi della ricerca scientifica. All'interno dell'Open Science sono caratteristiche alcune pratiche tra cui la pre-registrazione degli studi (la dichiarazione pubblica, prima della raccolta dei dati, delle ipotesi e delle analisi previste), la condivisione di dati, materiali e codice, o la pubblicazione in accesso aperto degli articoli scientifci.
+
+#### Probabilità{#probabilita}
+Una misura numerica, compresa tra 0 e 1 (o tra 0% e 100%), di quanto un evento sia plausibile o atteso.
+
+#### Psicometria{#psicometria}
 La Psicometria è quella disciplina che studia teorie e metodi di misurazione in psicologia. Nello specifico si occupa di test, misurazioni e valutazioni di tipo psicologico e di misurazione di costrutti latenti, cioè non osservabili.
 ([(fonte: Wikpedia)](https://en.wikipedia.org/w/index.php?title=Psychometrics&oldid=1307897603)
 
-_Nota_: la psicometria fa grande utilizzo di metodi di statistica, tanto che, specie in ambito psicologico, spesso c'è confusione tra i confini tra le due discipline. Anche se è vero che ci sono numerose aree di sovrapposizione (perché la Psicometria fa utilizzo di tecniche statistiche), non sono da considerare come sinonimi, visto che molti aspetti psicometrici non sono strettamente statistici e numerosi aspetti statistici non è detto che siano rilevanti per la psicometria.
+_Nota_: la psicometria fa grande utilizzo di metodi di statistica, tanto che, specie in ambito psicologico, spesso c'è confusione tra i confini tra le due discipline. Anche se è vero che ci sono numerose aree di sovrapposizione (perché la psicometria fa utilizzo di tecniche statistiche), non sono da considerare come sinonimi, visto che molti aspetti psicometrici non sono strettamente statistici e numerosi aspetti statistici non è detto che siano rilevanti per la psicometria.
 
-#### Statistica
+#### Punteggi equivalenti{#punteggi-equivalenti}
+Un sistema di punteggi (proposto da Capitani e Laiacona, 1988) che riclassifica il punteggio corretto per età e scolarità ottenuto a un test in cinque fasce ordinate (da 0 a 4), pensate per riflettere la gravità clinica del risultato e per permettere confronti di risultati di test originariamente su scale diverse.
+
+#### Punti-z (z-score){#punti-z}
+Un punteggio trasformato che esprime a quante deviazioni standard (vedi [Deviazione standard](#deviazione-standard)) un punteggio osservato si discosta dalla media di un campione o di un gruppo normativo di riferimento. Un punto-z di 0 corrisponde alla media; un punto-z di -2 indica una prestazione due deviazioni standard al di sotto della media,  È un metodo utilizzato comunemente per interpretare i punteggi ai test neuropsicologici, ma va usato con cautela: presuppone che la distribuzione dei punteggi normativi sia (approssimativamente) normale, condizione non sempre verificata.
+
+#### Rappresentatività{#rappresentativita}
+Nel contesto dei dati normativi, è un termine utilizzato per indicare quanto un campione normativo sia rappresentativo (cioè simile) alla persona che si intende valutare. Un campione poco rappresentativo, anche se numericamente ampio, può portare a dati normativi non validi per un dato paziente.
+
+#### Reliable Change Index{#reliable-change-index}
+Un indice statistico usato per stabilire se la differenza tra il punteggio ottenuto da una persona in due somministrazioni successive dello stesso test sia sufficientemente ampia da poter essere considerata un cambiamento reale, e non solo l'effetto dell'errore di misurazione o di eventuali effetti sistematici (vedi [Effetto pratica](#effetto-pratica)).
+
+#### Riserva cognitiva{#riserva-cognitiva}
+La capacità del cervello di far fronte a un danno o a un processo patologico (ad esempio neurodegenerativo) mantenendo un funzionamento cognitivo relativamente preservato. Si considera che questa si riserva si accumuli grazie ad esperienze di vita rilevanti per il funzionamento cognitivo. che possono essere stimate a partire da indici come scolarità, occupazione, o questionari su stile di vita ed esperienze accumulate nel corso della vita. A parità di danno cerebrale, una maggiore riserva cognitiva può associarsi a una minore o più tardiva espressione clinica dei sintomi.
+
+#### Scala Likert{#scala-likert}
+Un formato di risposta molto usato nei questionari, in cui alla persona viene chiesto di esprimere il proprio grado di accordo (o la frequenza, l'intensità, etc.) rispetto a un'affermazione, scegliendo tra un numero limitato di opzioni ordinate (tipicamente da 4 a 7), ad esempio da "per niente d'accordo" a "completamente d'accordo".
+
+#### Test di Screening{#screening}
+Uno screening è una valutazione rapida, generalmente breve e poco costosa, usata per identificare in modo indicativo la possibile presenza di una condizione in una popolazione, senza fornire una diagnosi definitiva. 
+
+#### Test di primo e secondo livello{#test-primo-secondo-livello}
+In ambito neuropsicologico, i test di _primo livello_ sono strumenti spesso brevi e che indagano un ampio spettro di aspetti di funzionamento cognitivo che sono usati come prima valutazione; I test di screening sono spesso test di primo livello.
+I test di _secondo livello_ sono strumenti più approfonditi e specifici, usati per indagare più nel dettaglio un'area emersa come critica al primo livello.
+
+#### Sensibilità e specificità{#sensibilita-specificita}
+Due indici che descrivono la capacità di un test (per una specifica soglia o cut-off) di distinguere correttamente tra chi presenta una certa condizione (ad esempio un deficit) e chi non la presenta. La sensibilità è la proporzione di persone con la condizione che il test identifica correttamente come tali (veri positivi); la specificità è la proporzione di persone senza la condizione che il test identifica correttamente come tali (veri negativi). Sensibilità e specificità sono spesso in trade-off tra loro: aumentare l'una tende a ridurre l'altra.
+
+#### Statistica{#statistica}
 La statistica è quella disciplina che studia la raccolta, descrizione, analisi e interpretazione di _dati_, La statistica si occupa di ogni fase del trattamento dei dati, dalla pianificazione dei disegni, fino alle tecniche di analisi e inferenze sui risultati ottenuti. [(fonte: Wikpedia)](https://en.wikipedia.org/w/index.php?title=Statistics&oldid=1307451692)
 
 _Nota_: è importante conoscere la statistica non solo perché essa viene utilizzata abbondantemente in psicometria, ma anche perché certi aspetti rilevanti per le interpretazioni di test neuropsicologici sono meramente statistici (e non psicometrici, secondo la definizione di "psicometria" riportata sopra). Ad esempio stimare le probabilità di classificare un paziente come a rischio di Alzheimer a partire da dati biologici e anamnestici non prevede misurazioni di costrutti psicologici e quindi non è pertinenza delle psicometria.
 
-#### Valutazione neuropsicologica
+#### Teorema di Bayes{#teorema-di-bayes}
+Un teorema statistico che descrive come aggiornare la probabilità che sia vera una certa ipotesi (ad esempio una diagnosi) alla luce di una nuova informazione (ad esempio il risultato di un test), tenendo conto sia dell'accuratezza del test sia della probabilità dell'ipotesi prima di osservare quel risultato (ad esempio la prevalenza della condizione nella popolazione di riferimento).
+
+#### Teoria Classica dei Test (CTT){#def-ctt}
+Il framework psicometrico su cui si basa la maggior parte dei test neuropsicologici attualmente disponibili, riassunto dall'equazione $X = T + E$: il punteggio osservato ($X$) è la somma del punteggio vero ($T$, la quantità di costrutto effettivamente posseduta dalla persona) e di una componente di errore casuale ($E$). Per la trattazione estesa vedi [Capitolo 1, §Teoria Classica dei Test](../Misurazione.qmd#teoria-classica-dei-test).
+
+#### Test (definizione di Cronbach, 1990){#gloss-test-cronbach}
+Un test è "una procedura sistematica per l'osservazione del comportamento di una persona e per la sua descrizione con l'aiuto di una scala numerica o tramite categorie prefissate". Una delle definizioni di test più diffuse in psicologia. Per la trattazione estesa vedi [Capitolo 1, §I test](../Misurazione.qmd#callout-test-cronbach).
+
+#### Validità{#def-validita}
+Il grado in cui un test misura effettivamente ciò che intende misurare. Non è una proprietà generale e assoluta di un test, ma va sempre riferita a un suo utilizzo specifico, in una determinata popolazione e contesto. Per la trattazione estesa, con i vari tipi di validità, vedi [Capitolo 2, §Validità](../Validita-Affidabilita.qmd#validità).
+
+#### Validità di contenuto{#def-validita-contenuto}
+Il grado in cui gli item di un test coprono in modo adeguato e rappresentativo tutti gli aspetti rilevanti di ciò che si intende misurare. Si valuta tipicamente tramite giudizio di esperti, anche con metodi quantitativi come il Content Validity Index/Ratio o il Delphi Consensus (vedi [CVI/CVR](#cvi-cvr), [Delphi Consensus](#delphi)). Per la trattazione estesa vedi [Capitolo 2, §Validità di contenuto](../Validita-Affidabilita.qmd#validita-contenuto).
+
+#### Validità di costrutto{#def-validita-costrutto}
+Il grado in cui i punteggi di un test si comportano in accordo con la teoria del costrutto (vedi [Costrutto](#costrutto)) che il test intende misurare, tipicamente attraverso validità convergente/divergente, struttura fattoriale e coerenza dei risultati con la teoria. Spesso considerata il tipo di validità più importante in psicometria. Per la trattazione estesa vedi [Capitolo 2, §Validità di costrutto](../Validita-Affidabilita.qmd#validita-costrutto).
+
+#### Validità di criterio{#def-validita-criterio}
+Il grado in cui i punteggi di un test risultano associati a un criterio esterno rilevante e misurabile (ad esempio un gold standard, vedi [Gold standard](#gold-standard)). Si distingue in validità concorrente (criterio misurato nello stesso momento del test) e validità predittiva (criterio misurato in un momento successivo). Il criterio può essere una variabile continua oppure categoriale: in quest'ultimo caso si parla di validità per gruppi noti (known-groups validity). Per la trattazione estesa vedi [Capitolo 2, §Validità di criterio](../Validita-Affidabilita.qmd#validita-criterio).
+
+#### Validità di facciata{#def-validita-facciata}
+Il grado in cui un test **appare** misurare ciò che intende misurare, sulla base di un giudizio qualitativo e non di dati empirici. È il tipo di validità meno rigoroso e non è mai sufficiente, da solo, per concludere che uno strumento misuri davvero ciò che intende misurare. Per la trattazione estesa vedi [Capitolo 2, §Validità di facciata](../Validita-Affidabilita.qmd#validita-facciata).
+
+#### Validità ecologica{#def-validita-ecologica}
+Il grado in cui il punteggio di un test predice il comportamento della persona nella vita quotidiana reale, al di fuori del contesto di somministrazione. Particolarmente rilevante in neuropsicologia clinica e forense. Per la trattazione estesa vedi [Capitolo 2, §Validità ecologica](../Validita-Affidabilita.qmd#validita-ecologica).
+
+#### Valutazione neuropsicologica{#valutazione-neuropsicologica}
 La valutazione neuropsicologica è un esame clinico in cui si cerca di ottenere informazioni sullo stato cognitivo di un individuo a fini diagnostici, prognostici o riabilitativi. Essa consiste in genere in raccolta di dati anamnestici, un colloquio e la somministrazione di test standardizzati. Tutte queste informazioni sono integrate per stilare un referto neuropsicologico.
 
-#### Costrutto{#costrutto}
-Un concetto psicologico non direttamente osservabile. Sono esempi di costrutti, esempi come Ansia, Depressione, Memoria, Attenzione, etc. I costrutti sono osservabili tramite _comportamenti_ direttamente osservabili che si assume siano associati al costrutto. Un aspetto fondamentale (e caratteristico della Psicometria) è che la relazione tra Costrutto e comportamenti osservabili non è mai perfetta. 
+#### Variabili continue, categoriali e dicotomiche{#variabili}
+Una variabile continua può assumere, in linea di principio, infiniti valori intermedi lungo un continuum (ad esempio l'età o un punteggio a un test). Una variabile categoriale può assumere solo un numero limitato di categorie distinte (ad esempio il livello di scolarità, oppure la diagnosi). Una variabile dicotomica è un caso particolare di variabile categoriale che ammette solo due categorie (ad esempio presenza/assenza di un deficit).
+Nota che spesso variabile numeriche sono considerate continue anche se in realtà non sono raccolte come tali (es. punteggi a test con numero limitato di item, ma anche valori di età e scolarità).
