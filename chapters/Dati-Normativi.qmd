@@ -12,9 +12,63 @@ Che informazioni cliniche ci fornisce, da solo, il punteggio ad un test neuropsi
 Se consideriamo la quasi totalità di test neuropsicologici[^test-comuni], la risposta alla domanda è: molto poche. Il punteggio "grezzo" al test, cioè il punteggio che si ottiene dopo avere semplicemente trasformato i punteggi ai singoli item in un punteggio totale, raramente è già informativo. Proviamo a pensare ad un test in cui il punteggio ottenibile vada da 0 a 30 (come i comuni MMSE o MOCA). Cosa ci dice se il punteggio ottenuto è 20? è un punteggio da considerare alto o basso?
 
 Come vedremo nel corso dei paragrafi di questo capitolo, uno dei più comuni scopo di una valutazione neuropsicologica è quello di identificare la presenza di possibili alterazioni nel funzionamento cognitivo (che in seguito classificheremo come _deficit_ o _danni_).
-Per farlo somministriamo test che ci aiutino a capire se ci sono effettivamente queste alterazioni. Un punteggio _in sé_ può segnalarlo? Certamente no, un punteggio pari a 20 potrebbe essere basso o alto, a seconda della difficoltà del test. E la difficoltà può essere stimata a partire dalla prestazione di altre persone, che fungano da gruppo di riferimento. Se la maggior parte delle persone ottengono punteggi molto alti ad un test (ad esempio, quasi tutti sopra il 25), allora un punteggio pari a 20/30 potrebbe essere molto basso e quindi segno di quella che abbiamo per ora chiamata come "alterazione" nel funzionamento cognitivo. Se invece la maggior parte delle persone ottengono un punteggio tra 15 e 16 e quasi nessuno un punteggio superiore, un punteggio pari a 20/30 potrebbe essere invece un punteggio straordinariamente alto. 
+Per farlo somministriamo test che ci aiutino a capire se ci sono effettivamente queste alterazioni. Un punteggio _in sé_ può segnalarlo? Certamente no, un punteggio pari a 20 potrebbe essere basso o alto, a seconda della difficoltà del test. E la difficoltà può essere stimata a partire dalla prestazione di altre persone, che fungano da gruppo di riferimento. Se la maggior parte delle persone ottengono punteggi molto alti ad un test (ad esempio, quasi tutti sopra il 25), allora un punteggio pari a 20/30 potrebbe essere molto basso e quindi segno di quella che abbiamo per ora chiamata come "alterazione" nel funzionamento cognitivo. Se invece la maggior parte delle persone ottengono un punteggio tra 15 e 16 e quasi nessuno un punteggio superiore, un punteggio pari a 20/30 potrebbe essere invece un punteggio straordinariamente alto.
 
-<!-- da aggiungere un paio di figure qui con punteggio 20 con due diversi significati, magari in R -->
+La @fig-punteggio-20 illustra questo concetto con due gruppi di riferimento simulati: nel primo (a sinistra) quasi tutte le persone ottengono punteggi alti, e un punteggio di 20 cade nella coda bassa della distribuzione; nel secondo (a destra) la maggior parte delle persone si colloca intorno a 15, e lo stesso punteggio di 20 cade nella coda alta. Lo stesso valore numerico, a seconda del gruppo di riferimento, segnala quindi una prestazione straordinariamente bassa oppure straordinariamente alta.
+
+```{r}
+#| label: fig-punteggio-20
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Lo stesso punteggio (20) con due significati opposti, a seconda della distribuzione dei punteggi nel gruppo di riferimento (dati simulati). A sinistra, un test in cui la maggior parte delle persone ottiene punteggi alti: 20 cade nella coda bassa della distribuzione. A destra, un test in cui la maggior parte delle persone ottiene punteggi intorno a 15: lo stesso punteggio di 20 cade nella coda alta."
+#| fig-width: 9
+#| fig-height: 4
+
+library(ggplot2)
+library(patchwork)
+
+set.seed(42)
+n <- 500
+
+sim_facile <- data.frame(punteggio = rbinom(n, size = 30, prob = 0.87))
+sim_difficile <- data.frame(punteggio = rbinom(n, size = 30, prob = 0.5))
+
+tema_hist <- theme_minimal(base_size = 12) +
+  theme(panel.grid.minor = element_blank(),
+        panel.grid.major = element_blank(),
+        plot.title = element_text(size = 12, face = "bold"))
+
+evidenzia_20_dx <- list(
+  geom_vline(xintercept = 20, colour = "steelblue", linewidth = 1, linetype = "dashed"),
+  annotate("text", x = 20, y = Inf, label = "punteggio = 20", vjust = 1.5, hjust = -0.05,
+           colour = "steelblue", fontface = "bold", size = 3.5),
+  scale_x_continuous(limits = c(0, 30), breaks = seq(0, 30, 5)),
+  labs(x = "Punteggio", y = "Frequenza")
+)
+
+evidenzia_20_sx <- list(
+  geom_vline(xintercept = 20, colour = "steelblue", linewidth = 1, linetype = "dashed"),
+  annotate("text", x = 10, y = Inf, label = "punteggio = 20", vjust = 1.5, hjust = -0.05,
+           colour = "steelblue", fontface = "bold", size = 3.5),
+  scale_x_continuous(limits = c(0, 30), breaks = seq(0, 30, 5)),
+  labs(x = "Punteggio", y = "Frequenza")
+)
+
+p_facile <- ggplot(sim_facile, aes(x = punteggio)) +
+  geom_histogram(binwidth = 1, boundary = -0.5, fill = "grey75", colour = "grey40") +
+  evidenzia_20_sx +
+  labs(title = "La maggior parte ottiene punteggi alti") +
+  tema_hist
+
+p_difficile <- ggplot(sim_difficile, aes(x = punteggio)) +
+  geom_histogram(binwidth = 1, boundary = -0.5, fill = "grey75", colour = "grey40") +
+  evidenzia_20_dx +
+  labs(title = "La maggior parte ottiene punteggi bassi") +
+  tema_hist
+
+p_facile + p_difficile
+```
 
 Nell'esperienza di psicologhe e psicologi questa è una esperienza comune se si pensa agli esami universitari. Nonostante la scala sia sempre la stessa (con un massimo di 30 e lode), il significato del punteggio può essere molto variabile. Un voto di 25 può essere molto alto per alcuni esami, mentre molto basso per altri.
 Nel corso di questo capitolo verranno affrontati in dettaglio tutti gli aspetti che sono stati anticipati in questa introduzione, partendo da un approfondimento sul perchè utilizziamo i dati normativi, passando per il modo in cui otteniamo delle classificazioni e e le diverse interpretazioni che vengono fatte.
@@ -25,9 +79,7 @@ Quello del confronto con i dati normativi è un aspetto fondamentale, spesso rit
 Uno degli scopi della valutazione neuropsicologica è quello di investigare lo stato di integrità del funzionamento cognitivo di un individuo. Spesso infatti una diagnosi neuropsicologica sullo stato cognitivo passa per la valutazione di specifici domini (attenzione, memoria, funzioni esecutive), con lo scopo di indagare se uno o più domini può essere compromesso. 
 Quello che avviene, nella routine clinica, è molto semplice ed è familiare a chi ha mai visto una valutazione: un punteggio ottenuto da una persona esaminata è confrontato con una soglia e a partire da questo confronto avviene un'interpretazione. Ad esempio, un punteggio di 14 al MoCA[^after-adj] è al di sotto della soglia di 16 che indica un risultato con potenziale rilevanza clinica. 
 
-[^after-adj]: per essere preciso in questo esempio ad essere confrontato con il valore soglia è il punteggio corretto (si veda paragrafo punteggi-corretti).
-
-<!-- aggiusta questa frase -->
+[^after-adj]: per essere preciso in questo esempio ad essere confrontato con il valore soglia è il _punteggio corretto_ (si veda paragrafo punteggi-corretti). <!-- aggiusta questa frase -->
 
 <!-- inserisci figura qui con Utilizzo dei dati normativi nella pratica clinica -->
 
@@ -51,13 +103,11 @@ In neuropsicologia clinica (specie dell'adulto), la soglia è spesso espressa ne
 
 Ricapitalando il passaggio da punteggio grezzo a confronto con soglie può avvenire in due concettualmente equivalenti. Il primo modo è quello di trasformare il punteggio in una certa percentuale, e poi confrontarla eventualmente con una soglia decisa a priori per aiutare l'interpretazione. Il secondo modo comporta confrontare il punteggio grezzo con il valore che corrisponde ad una percentuale soglia.
 
-<!-- aggiungi figura delle due maniere qui, con esempio -->
+![Due modi concettualmente equivalenti per passare da un punteggio grezzo a un'interpretazione basata su una soglia. Nella via 1 (sopra) il punteggio grezzo è prima trasformato in percentile, poi confrontato con una soglia espressa in percentuale. Nella via 2 (sotto) il punteggio grezzo è confrontato direttamente con una soglia espressa nella stessa scala del punteggio originale.](../Figures/Latex-Fig-Dati-Normativi-Due-Vie/Fig_due-vie-soglia.png){#fig-due-vie-soglia fig-align="center" width=95%}
 
 Una volta che la prestazione è classificata, possibilmente dopo il confronto con una soglia, rimane da ricavare una possibile interpretazione dei risultati. Quando viene indagato lo stato una certa funzione cognitiva le possibili domande potrebbero essere idantificare la presenza di un _deficit_ (nel senso di un problema funzionale conclamato) oppure di un _danno_ (un peggioramento rispetto ad uno stato precedente). Queste due possibilità sono approfondite nel paragrafo [Deficit e danni][#deficit-danni].
 
 Ciascuno di passi spiegati in questo paragrafo, e le relative assunzioni, sarà affrontato in dettaglio nei prossimi paragrafi.
-
-
 
 
 [^test-comuni]: qui per test comuni sono intesi test sviluppati secondo la teoria classica dei test (vedi il paragrafo {#teoria-classica-dei-test}, nel capitolo 1).
