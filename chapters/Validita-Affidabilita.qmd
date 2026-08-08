@@ -284,7 +284,7 @@ Poiché ciascuna metà è più corta dell'intero test, e un test più corto tend
 
 [^spearmanbrown]: La formula della correzione di Spearman-Brown è trattata più in dettaglio nella sezione _Approfondimenti tecnici_.
 
-Valori indicativi: pari o superiori a .70-.80 `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}.
+_Soglie indicative_: per essere considerata sufficiente la correlazione split-half dovrebbe essere pari o superiore a .70-.80 `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}.
 
 #### Consistenza Interna {#consistenza-interna}
 
@@ -294,13 +294,14 @@ La consistenza interna misura quanto gli item di un test siano tra loro coerenti
 :::
 
 La consistenza interna rappresenta tuttora uno dei principali approcci alla stima dell’affidabilità nell’ambito della teoria classica dei test. Per la sua definizione la consistenza interna è un concetto a cavallo tra affidabilità e validità ed è legata alla  struttura fattoriale del test in quanto stima quanto gli item siano legati tra loro e, presumibilmente, misurino un'unico costrutto. L'indice più diffuso per calcolare la consistenza interna è l'alpha di Cronbach ($\alpha$), che varia da 0 a 1 e può essere pensato, in modo intuitivo, come la media di tutte le possibili affidabilità split-half calcolabili su quel test (vedi paragrafo precedente). Un'alternativa più recente, e in generale considerata più robusta, all'alpha di Cronbach è l'omega di McDonald ($\omega$)[^omega].
+Da note che per i test di velocità (in cui il punteggio dipende dal numero di item completati entro un tempo limite, più che dalla loro correttezza) la consistenza interna, sia calcolata come alpha sia come split-half, non è una misura di affidabilità appropriata `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1, in Spreen & Strauss, 2006)`{=html}.
 
 [^omega]: Dettagli su alphe e omega e le formule per calcolarli, sono trattate più in dettaglio nella sezione _Approfondimenti tecnici_.
 
-_Soglie indicative_
-Come riportato in `\cite{slick2006psychometrics}`{=latex} `Slick, 2006 (cap. 1, in Spreen & Strauss, 2006)`{=html}: valori inferiori a .70 sono considerati inaccettabili, tra .70 e .79 discreti, tra .80 e .89 buoni, e pari o superiori a .90 eccellenti. Nei test neuropsicologici la consistenza interna tende però ad essere più bassa della media, spesso intorno a .60, in parte perché molti di questi test valutano domini eterogenei di abilità piuttosto che un singolo costrutto omogeneo `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1, in Spreen & Strauss, 2006)`{=html}.
+_Soglie indicative_: come riportato in `\cite{slick2006psychometrics}`{=latex} `Slick, 2006 (cap. 1, in Spreen & Strauss, 2006)`{=html}: valori inferiori a .70 sono considerati inaccettabili, tra .70 e .79 discreti, tra .80 e .89 buoni, e pari o superiori a .90 eccellenti. Nei test neuropsicologici la consistenza interna tende però ad essere più bassa della media, spesso intorno a .60, in parte perché molti di questi test valutano domini eterogenei di abilità piuttosto che un singolo costrutto omogeneo `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1, in Spreen & Strauss, 2006)`{=html}.
 
-È importante ricordare che un'alta consistenza interna non implica di per sé validità: item molto correlati tra loro potrebbero riflettere un costrutto diverso da quello che il test intende misurare. Inoltre, per i test di velocità (in cui il punteggio dipende dal numero di item completati entro un tempo limite, più che dalla loro correttezza) la consistenza interna, sia calcolata come alpha sia come split-half, non è una misura di affidabilità appropriata `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1, in Spreen & Strauss, 2006)`{=html}.
+<!-- È importante ricordare che un'alta consistenza interna non implica di per sé validità: item molto correlati tra loro potrebbero riflettere un costrutto diverso da quello che il test intende misurare. 
+-->
 
 #### Affidabilità test–retest {#affidabilita-test-retest}
 
@@ -372,8 +373,7 @@ L'accordo tra valutatori (_inter-rater agreement_) misura quanto sia consistente
 L'Inter-rater agreement esprime tipicamente tramite l'Intraclass Correlation Coefficient (ICC) che, come anticipato nel precedente paragrafo, tiene conto anche dell'accordo assoluto tra i valutatori (cioè assume alti solo se i valutatori assegnano più o meno lo stesso punteggio), e non solo di quanto i loro punteggi sono consistenti (Fastenau et al., 1996, `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}).
 Più specificamente, nei tipico disegno sperimentali usati per definire la affidabilità inter-rater, andrebbe usato lo un modello analogo a quello già specificato per affidabilità test-retest `(\cite{shrout1979intraclass}; \cite{koo2016guideline})`{=latex}`(Shrout & Fleiss, 1979; Koo & Li, 2016)`{=html}. Si veda il paragrafo su Intra-class correlation della sezione _Approfondimenti tecnici_ per ulteriori dettagli.
 
-_Soglie indicative_
-Secodno Cicchetti & Sparrow, 1981 `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html})i valori di ICC dovrebbero essere interpretati come segue: `: inferiori a .40 scarsi, tra .40 e .59 discreti, tra .60 e .74 buoni, pari o superiori a .75 eccellenti. Con una classificazione lievemente diversa, Fastenau et al. (1996) considerano .60 come soglia per un accordo "sostanziale" e .75-.80 per un accordo "quasi perfetto".
+_Soglie indicative_: Secondo Cicchetti & Sparrow, 1981 `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html})i valori di ICC dovrebbero essere interpretati come segue: `: inferiori a .40 scarsi, tra .40 e .59 discreti, tra .60 e .74 buoni, pari o superiori a .75 eccellenti. Con una classificazione lievemente diversa, Fastenau et al. (1996) considerano .60 come soglia per un accordo "sostanziale" e .75-.80 per un accordo "quasi perfetto".
 
 Tabella riassuntiva:
 
