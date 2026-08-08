@@ -3,7 +3,11 @@
 ### Perché sono importanti le definizioni.
 Un libro che ambisce a insegnare l'importanza della metodologia non può prescindere dall'includere una sezione con le definizioni dei termini più importanti. Wittgenstein in una delle più famose proposizioni del suo _Tractatus_ affermava:
 
-_> 5.6 I limiti del mio linguaggio sono i limiti del mio mondo._
+::: {.citazione}
+"I limiti del mio linguaggio sono i limiti del mio mondo."
+
+[— Ludwig Wittgenstein, _Tractatus Logico-Philosophicus_, 5.6]{.attribuzione}
+:::
 
 Senza scendere nel dettaglio delle implicazioni di questa asserzione, è utile riflettere sul fatto che il modo in cui definiamo le entità che ci interessano definiscono il confine entro cui ci muoviamo e, anche se ce ne rendiamo conto, influenzano in maniera determinante la metodologia e il nostro approccio alla clinica. Si pensi a parole che usiamo frequentemente nella pratica clinica, come _deficit_, _normalità_, _peggioramento_. L'esatta sfumatura che diamo a questi significati ha un grande impatto sulla nostra pratica clinica e, per quanto riguarda la metodologia, nello stabilire se un metodo è adeguato oppure no.
 Anche se in questo libro si è preferito utilizzare l'Italiano il più possibile, nel caso un termine sia più comunemente utilizzato in inglese (es. Mild Cognitive Impairment) è stato riportata la versione in inglese.
@@ -19,15 +23,15 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 
 [Affidabilità]{#def-affidabilita}
 
-:   La qualità di un test di fornire punteggi consistenti in diverse misurazioni; può essere intesa come la precisione di un test (per analogia con la coppia accuratezza/precisione: la validità corrisponde all'accuratezza, l'affidabilità alla precisione). Un test valido deve necessariamente essere anche affidabile, ma non è vero il contrario. Per la trattazione estesa vedi [Capitolo 2, §Affidabilità](../Validita-Affidabilita.qmd#affidabilita).
+:   La qualità di un test di fornire punteggi consistenti in diverse misurazioni; può essere intesa come la precisione di un test (per analogia con la coppia accuratezza/precisione: la validità corrisponde all'accuratezza, l'affidabilità alla precisione). Un test valido deve necessariamente essere anche affidabile, ma non è vero il contrario. Per la trattazione estesa vedi [Capitolo 2, par. Affidabilità](../Validita-Affidabilita.qmd#affidabilita).
 
 [Affidabilità split-half]{#def-affidabilita-split-half}
 
-:   Un tipo di affidabilità che indica la consistenza di un test confrontando il punteggio ottenuto da metà degli item (tipicamente quelli pari) con quello ottenuto con l'altra metà (tipicamente quelli dispari), corretto poi con la formula di Spearman-Brown. Per la trattazione estesa vedi [Capitolo 2, §Affidabilità Split-Half](../Validita-Affidabilita.qmd#affidabilità-split-half).
+:   Un tipo di affidabilità che indica la consistenza di un test confrontando il punteggio ottenuto da metà degli item (tipicamente quelli pari) con quello ottenuto con l'altra metà (tipicamente quelli dispari), corretto poi con la formula di Spearman-Brown. Per la trattazione estesa vedi [Capitolo 2, par. Affidabilità Split-Half](../Validita-Affidabilita.qmd#affidabilità-split-half).
 
 [Affidabilità test-retest]{#def-affidabilita-test-retest}
 
-:   La stabilità dei punteggi ottenuti quando lo stesso test viene somministrato alle stesse persone in due occasioni diverse, assumendo che nell'intervallo non si siano verificati cambiamenti reali nel costrutto misurato. È influenzata dall'intervallo tra le somministrazioni e dall'effetto pratica (vedi [Effetto pratica](#effetto-pratica)). Per la trattazione estesa vedi [Capitolo 2, §Affidabilità test–retest](../Validita-Affidabilita.qmd#affidabilita-test-retest).
+:   La stabilità dei punteggi ottenuti quando lo stesso test viene somministrato alle stesse persone in due occasioni diverse, assumendo che nell'intervallo non si siano verificati cambiamenti reali nel costrutto misurato. È influenzata dall'intervallo tra le somministrazioni e dall'effetto pratica (vedi [Effetto pratica](#effetto-pratica)). Per la trattazione estesa vedi [Capitolo 2, par. Affidabilità test–retest](../Validita-Affidabilita.qmd#affidabilita-test-retest).
 
 [Alpha di Cronbach e omega di McDonald]{#alpha-omega}
 
@@ -43,7 +47,7 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 
 [Consistenza interna]{#def-consistenza-interna}
 
-:   Quanto gli item di un test sono tra loro coerenti, cioè quanto misurano, almeno in parte, la stessa cosa. Si stima tipicamente con l'alpha di Cronbach o l'omega di McDonald (vedi [Alpha di Cronbach e omega di McDonald](#alpha-omega)). Per la trattazione estesa vedi [Capitolo 2, §Consistenza Interna](../Validita-Affidabilita.qmd#consistenza-interna).
+:   Quanto gli item di un test sono tra loro coerenti, cioè quanto misurano, almeno in parte, la stessa cosa. Si stima tipicamente con l'alpha di Cronbach o l'omega di McDonald (vedi [Alpha di Cronbach e omega di McDonald](#alpha-omega)). Per la trattazione estesa vedi [Capitolo 2, par. Consistenza Interna](../Validita-Affidabilita.qmd#consistenza-interna).
 
 [Content Validity Index e Content Validity Ratio (CVI, CVR)]{#cvi-cvr}
 
@@ -57,7 +61,7 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 [Costrutto]{#costrutto}
 
 :   Un concetto psicologico non direttamente osservabile. Sono esempi di costrutti, esempi come Ansia, Depressione, Memoria, Attenzione, etc. I costrutti sono osservabili tramite _comportamenti_ direttamente osservabili che si assume siano associati al costrutto. Un aspetto fondamentale (e caratteristico della Psicometria) è che la relazione tra Costrutto e comportamenti osservabili non è mai perfetta.
-    _Nota_: un costrutto è reso misurabile associandolo a uno o più _indicatori_, cioè comportamenti osservabili (ad esempio le risposte a un test) che si assume ne siano manifestazione. Per la trattazione estesa, con esempi, vedi [Capitolo 1, §Misurazione e neuropsicologia clinica](../Misurazione.qmd#callout-costrutto-indicatore).
+    _Nota_: un costrutto è reso misurabile associandolo a uno o più _indicatori_, cioè comportamenti osservabili (ad esempio le risposte a un test) che si assume ne siano manifestazione. Per la trattazione estesa, con esempi, vedi [Capitolo 1, par. Misurazione e neuropsicologia clinica](../Misurazione.qmd#callout-costrutto-indicatore).
 
 [Curva ROC]{#curva-roc}
 
@@ -146,11 +150,11 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 
 [Misurazione secondo Stevens (1946)]{#def-stevens}
 
-:   La misurazione è "l'assegnazione di numeri a oggetti o eventi secondo determinate regole". È la definizione di misurazione storicamente più influente in psicologia, associata alla distinzione tra scale nominale, ordinale, a intervalli e a rapporti. Per la trattazione estesa vedi [Capitolo 1, §La definizione di misurazione di S.S. Stevens](../Misurazione.qmd#stevens).
+:   La misurazione è "l'assegnazione di numeri a oggetti o eventi secondo determinate regole". È la definizione di misurazione storicamente più influente in psicologia, associata alla distinzione tra scale nominale, ordinale, a intervalli e a rapporti. Per la trattazione estesa vedi [Capitolo 1, par. La definizione di misurazione di S.S. Stevens](../Misurazione.qmd#stevens).
 
 [Misurazione secondo Suppes e Zinnes (1963)]{#def-suppes-zinnes}
 
-:   Una definizione più formale e rigorosa di misurazione, secondo cui misurare consiste in un **omomorfismo**, cioè una corrispondenza che preserva le relazioni, tra un insieme di entità del mondo empirico (Sistema Relazionale Empirico) e un insieme di numeri (Sistema Relazionale Numerico). Per la trattazione estesa vedi [Capitolo 1, §Definizione di Misurazione secondo Suppes e Zinnes](../Misurazione.qmd#suppes-zinnes).
+:   Una definizione più formale e rigorosa di misurazione, secondo cui misurare consiste in un **omomorfismo**, cioè una corrispondenza che preserva le relazioni, tra un insieme di entità del mondo empirico (Sistema Relazionale Empirico) e un insieme di numeri (Sistema Relazionale Numerico). Per la trattazione estesa vedi [Capitolo 1, par. Definizione di Misurazione secondo Suppes e Zinnes](../Misurazione.qmd#suppes-zinnes).
 
 [Open Science]{#open-science}
 
@@ -177,7 +181,9 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 
 [Rappresentatività]{#rappresentativita}
 
-:   Nel contesto dei dati normativi, è un termine utilizzato per indicare quanto un campione normativo sia rappresentativo (cioè simile) alla persona che si intende valutare. Un campione poco rappresentativo, anche se numericamente ampio, può portare a dati normativi non validi per un dato paziente.
+:   
+Con il termine _rappresentatività del campione_ si intende in generale in statistica quanto un campione rispecchia le caratteristiche della popolazione da cui è estratto. 
+Nel contesto dei dati normativi il termine _rappresentatività_ è comunemente utilizzato invece frequentemente per indicare quanto un campione normativo sia simile (o contenga persone simili) alla persona che si intende valutare. Il razionale è che spesso (specie se si vuole indagare presenza di un _danno_), il campione normativo deve essere rappresentativo della persona da valutare. <!-- NOTA GIORGIO: probabilmente da cambiare o da chiarire con altro termine es. similarità -->
 
 [Reliable Change Index]{#reliable-change-index}
 
@@ -216,35 +222,35 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 
 [Teoria Classica dei Test (CTT)]{#def-ctt}
 
-:   Il framework psicometrico su cui si basa la maggior parte dei test neuropsicologici attualmente disponibili, riassunto dall'equazione $X = T + E$: il punteggio osservato ($X$) è la somma del punteggio vero ($T$, la quantità di costrutto effettivamente posseduta dalla persona) e di una componente di errore casuale ($E$). Per la trattazione estesa vedi [Capitolo 1, §Teoria Classica dei Test](../Misurazione.qmd#teoria-classica-dei-test).
+:   Il framework psicometrico su cui si basa la maggior parte dei test neuropsicologici attualmente disponibili, riassunto dall'equazione $X = T + E$: il punteggio osservato ($X$) è la somma del punteggio vero ($T$, la quantità di costrutto effettivamente posseduta dalla persona) e di una componente di errore casuale ($E$). Per la trattazione estesa vedi [Capitolo 1, par. Teoria Classica dei Test](../Misurazione.qmd#teoria-classica-dei-test).
 
 [Test (definizione di Cronbach, 1990)]{#gloss-test-cronbach}
 
-:   Un test è "una procedura sistematica per l'osservazione del comportamento di una persona e per la sua descrizione con l'aiuto di una scala numerica o tramite categorie prefissate". Una delle definizioni di test più diffuse in psicologia. Per la trattazione estesa vedi [Capitolo 1, §I test](../Misurazione.qmd#callout-test-cronbach).
+:   Un test è "una procedura sistematica per l'osservazione del comportamento di una persona e per la sua descrizione con l'aiuto di una scala numerica o tramite categorie prefissate". Una delle definizioni di test più diffuse in psicologia. Per la trattazione estesa vedi [Capitolo 1, par. I test](../Misurazione.qmd#callout-test-cronbach).
 
 [Validità]{#def-validita}
 
-:   Il grado in cui un test misura effettivamente ciò che intende misurare. Non è una proprietà generale e assoluta di un test, ma va sempre riferita a un suo utilizzo specifico, in una determinata popolazione e contesto. Per la trattazione estesa, con i vari tipi di validità, vedi [Capitolo 2, §Validità](../Validita-Affidabilita.qmd#validità).
+:   Il grado in cui un test misura effettivamente ciò che intende misurare. Non è una proprietà generale e assoluta di un test, ma va sempre riferita a un suo utilizzo specifico, in una determinata popolazione e contesto. Per la trattazione estesa, con i vari tipi di validità, vedi [Capitolo 2, par. Validità](../Validita-Affidabilita.qmd#validità).
 
 [Validità di contenuto]{#def-validita-contenuto}
 
-:   Il grado in cui gli item di un test coprono in modo adeguato e rappresentativo tutti gli aspetti rilevanti di ciò che si intende misurare. Si valuta tipicamente tramite giudizio di esperti, anche con metodi quantitativi come il Content Validity Index/Ratio o il Delphi Consensus (vedi [CVI/CVR](#cvi-cvr), [Delphi Consensus](#delphi)). Per la trattazione estesa vedi [Capitolo 2, §Validità di contenuto](../Validita-Affidabilita.qmd#validita-contenuto).
+:   Il grado in cui gli item di un test coprono in modo adeguato e rappresentativo tutti gli aspetti rilevanti di ciò che si intende misurare. Si valuta tipicamente tramite giudizio di esperti, anche con metodi quantitativi come il Content Validity Index/Ratio o il Delphi Consensus (vedi [CVI/CVR](#cvi-cvr), [Delphi Consensus](#delphi)). Per la trattazione estesa vedi [Capitolo 2, par. Validità di contenuto](../Validita-Affidabilita.qmd#validita-contenuto).
 
 [Validità di costrutto]{#def-validita-costrutto}
 
-:   Il grado in cui i punteggi di un test si comportano in accordo con la teoria del costrutto (vedi [Costrutto](#costrutto)) che il test intende misurare, tipicamente attraverso validità convergente/divergente, struttura fattoriale e coerenza dei risultati con la teoria. Spesso considerata il tipo di validità più importante in psicometria. Per la trattazione estesa vedi [Capitolo 2, §Validità di costrutto](../Validita-Affidabilita.qmd#validita-costrutto).
+:   Il grado in cui i punteggi di un test si comportano in accordo con la teoria del costrutto (vedi [Costrutto](#costrutto)) che il test intende misurare, tipicamente attraverso validità convergente/divergente, struttura fattoriale e coerenza dei risultati con la teoria. Spesso considerata il tipo di validità più importante in psicometria. Per la trattazione estesa vedi [Capitolo 2, par. Validità di costrutto](../Validita-Affidabilita.qmd#validita-costrutto).
 
 [Validità di criterio]{#def-validita-criterio}
 
-:   Il grado in cui i punteggi di un test risultano associati a un criterio esterno rilevante e misurabile (ad esempio un gold standard, vedi [Gold standard](#gold-standard)). Si distingue in validità concorrente (criterio misurato nello stesso momento del test) e validità predittiva (criterio misurato in un momento successivo). Il criterio può essere una variabile continua oppure categoriale: in quest'ultimo caso si parla di validità per gruppi noti (known-groups validity). Per la trattazione estesa vedi [Capitolo 2, §Validità di criterio](../Validita-Affidabilita.qmd#validita-criterio).
+:   Il grado in cui i punteggi di un test risultano associati a un criterio esterno rilevante e misurabile (ad esempio un gold standard, vedi [Gold standard](#gold-standard)). Si distingue in validità concorrente (criterio misurato nello stesso momento del test) e validità predittiva (criterio misurato in un momento successivo). Il criterio può essere una variabile continua oppure categoriale: in quest'ultimo caso si parla di validità per gruppi noti (known-groups validity). Per la trattazione estesa vedi [Capitolo 2, par. Validità di criterio](../Validita-Affidabilita.qmd#validita-criterio).
 
 [Validità di facciata]{#def-validita-facciata}
 
-:   Il grado in cui un test **appare** misurare ciò che intende misurare, sulla base di un giudizio qualitativo e non di dati empirici. È il tipo di validità meno rigoroso e non è mai sufficiente, da solo, per concludere che uno strumento misuri davvero ciò che intende misurare. Per la trattazione estesa vedi [Capitolo 2, §Validità di facciata](../Validita-Affidabilita.qmd#validita-facciata).
+:   Il grado in cui un test **appare** misurare ciò che intende misurare, sulla base di un giudizio qualitativo e non di dati empirici. È il tipo di validità meno rigoroso e non è mai sufficiente, da solo, per concludere che uno strumento misuri davvero ciò che intende misurare. Per la trattazione estesa vedi [Capitolo 2, par. Validità di facciata](../Validita-Affidabilita.qmd#validita-facciata).
 
 [Validità ecologica]{#def-validita-ecologica}
 
-:   Il grado in cui il punteggio di un test predice il comportamento della persona nella vita quotidiana reale, al di fuori del contesto di somministrazione. Particolarmente rilevante in neuropsicologia clinica e forense. Per la trattazione estesa vedi [Capitolo 2, §Validità ecologica](../Validita-Affidabilita.qmd#validita-ecologica).
+:   Il grado in cui il punteggio di un test predice il comportamento della persona nella vita quotidiana reale, al di fuori del contesto di somministrazione. Particolarmente rilevante in neuropsicologia clinica e forense. Per la trattazione estesa vedi [Capitolo 2, par. Validità ecologica](../Validita-Affidabilita.qmd#validita-ecologica).
 
 [Valutazione neuropsicologica]{#valutazione-neuropsicologica}
 

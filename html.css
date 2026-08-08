@@ -35,3 +35,24 @@ a .special-section-icon {
   border-bottom: 1px solid #aaa;
   max-width: 85%;
 }
+
+/* Citazioni fuori testo (es. epigrafe di Wittgenstein in Glossario) */
+.citazione {
+  font-style: italic;
+  font-size: 1.15em;
+  text-align: center;
+  color: #444;
+  max-width: 75%;
+  margin: 1.8em auto;
+  padding: 0 1.5em;
+}
+
+.citazione .attribuzione {
+  display: block;
+  font-style: normal;
+  font-size: 0.7em;
+  letter-spacing: 0.03em;
+  color: #777;
+  margin-top: 0.7em;
+  text-align: right;
+}
