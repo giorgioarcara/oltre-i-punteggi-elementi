@@ -39,5 +39,5 @@ Rilasciata versione iniziale del libro che include
 - aggiunto in Capitolo 1 paragrafo "oggetti di interesse dei test neuropsicologici".
 
 ### v0.2.2 {.unnumbered .unlisted}
-- ampliata sostanzialmente l'Appendice A3 "Definizioni" con nuove voci di glossario (concetti statistici di base, teoria classica dei test e misurazione, validità e affidabilità, vocabolario clinico ricorrente, termini che saranno approfonditi nei prossimi capitoli).
+- ampliata sostanzialmente l'Appendice A3 "Definizioni" rinominata come "Glossario". Migliorato aspetto grafico.
 - aggiunti anchor ai callout "Definizione" e ai relativi paragrafi in Misurazione.qmd e Validita-Affidabilita.qmd, e collegate dal glossario le voci corrispondenti (Costrutto, Stevens, Suppes-Zinnes, Test secondo Cronbach, Teoria Classica dei Test, Validità e sue sottotipologie, Affidabilità e sue sottotipologie) con un breve rimando al paragrafo del capitolo che le tratta in dettaglio, per evitare di duplicare le definizioni già presenti nel testo.
