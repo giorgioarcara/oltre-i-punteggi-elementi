@@ -21,7 +21,7 @@ La @fig-punteggio-20 illustra questo concetto con due gruppi di riferimento simu
 #| echo: false
 #| warning: false
 #| message: false
-#| fig-cap: "Lo stesso punteggio (20) con due significati opposti, a seconda della distribuzione dei punteggi nel gruppo di riferimento (dati simulati). A sinistra, un test in cui la maggior parte delle persone ottiene punteggi alti: 20 cade nella coda bassa della distribuzione. A destra, un test in cui la maggior parte delle persone ottiene punteggi intorno a 15: lo stesso punteggio di 20 cade nella coda alta."
+#| fig-cap: "Lo stesso punteggio (20) con due significati opposti, a seconda della distribuzione dei punteggi nel gruppo di riferimento (dati simulati). A sinistra, un test in cui la maggior parte delle persone ottiene punteggi relativamente alti: 20 cade nella coda bassa della distribuzione. A destra, un test in cui la maggior parte delle persone ottiene punteggi intorno a 15, quindi più bassi: lo stesso punteggio di 20 sarebbe considerato molto alto."
 #| fig-width: 9
 #| fig-height: 4
 
@@ -58,13 +58,13 @@ evidenzia_20_sx <- list(
 p_facile <- ggplot(sim_facile, aes(x = punteggio)) +
   geom_histogram(binwidth = 1, boundary = -0.5, fill = "grey75", colour = "grey40") +
   evidenzia_20_sx +
-  labs(title = "La maggior parte ottiene punteggi alti") +
+  labs(title = "La maggior parte dei punteggi sono più alti") +
   tema_hist
 
 p_difficile <- ggplot(sim_difficile, aes(x = punteggio)) +
   geom_histogram(binwidth = 1, boundary = -0.5, fill = "grey75", colour = "grey40") +
   evidenzia_20_dx +
-  labs(title = "La maggior parte ottiene punteggi bassi") +
+  labs(title = "La maggior parte dei punteggi sono più bassi") +
   tema_hist
 
 p_facile + p_difficile
@@ -93,7 +93,6 @@ Avendo una distribuzione dei punteggi ottenuti da normali possiamo infatti indiv
 I dati normativi ci aiutano a _classificare_ una prestazione rispetto ad un gruppo di riferimento, per facilitare l'interpretazione. <!--forse utile parlare di interpretazione di un test e? o che altre informazioni-->
 :::
 
-
 Il confronto con i dati normativi ci aiuta a classificare una prestazione e capire se questa è tra le migliori, tra la peggiori o in generale come si classifica rispetto alle persone sane. Questa classificazione spesso viene espressa trasformando il punteggio originale in una percentuale (es. 10%, 2%). Ad esempio un punteggio grezzo di 20, trasformato in 3% indica che solo il 3% delle persone del gruppo di riferimento hanno un punteggio uguale o inferiore a quello osservato. Questo ci mostra che la prestazione è straordinariamente bassa. Una classificazione del genere non è però sufficiente a fini clinici perchè è un valore all'interno di una scala sostanzialmente continua. Quando una prestazione è sufficientemente bassa da essere considerata _anomala_ e il potenziale segnale di un problema? Tornando all'esempio sopra, 3% è sufficientemente basso? E il 4% ? E il 10%?
 
 Per risolvere questo problema sono usate, con fini clinico-pragmatico, delle **soglie** o **cut-off**, valori puntuali oltre i quali consideriamo il risultato di rilevanza clinica. La soglia più comune è quella del $5%$ dei punteggi peggiori dei dati normativi. 
@@ -105,24 +104,389 @@ Ricapitalando il passaggio da punteggio grezzo a confronto con soglie può avven
 
 ![Due modi concettualmente equivalenti per passare da un punteggio grezzo a un'interpretazione basata su una soglia. Nella via 1 (sopra) il punteggio grezzo è prima trasformato in percentile, poi confrontato con una soglia espressa in percentuale. Nella via 2 (sotto) il punteggio grezzo è confrontato direttamente con una soglia espressa nella stessa scala del punteggio originale.](../Figures/Latex-Fig-Dati-Normativi-Due-Vie/Fig_due-vie-soglia.png){#fig-due-vie-soglia fig-align="center" width=95%}
 
-Una volta che la prestazione è classificata, possibilmente dopo il confronto con una soglia, rimane da ricavare una possibile interpretazione dei risultati. Quando viene indagato lo stato una certa funzione cognitiva le possibili domande potrebbero essere idantificare la presenza di un _deficit_ (nel senso di un problema funzionale conclamato) oppure di un _danno_ (un peggioramento rispetto ad uno stato precedente). Queste due possibilità sono approfondite nel paragrafo [Deficit e danni][#deficit-danni].
+Una volta che la prestazione è classificata, possibilmente dopo il confronto con una soglia, rimane da ricavare una possibile interpretazione dei risultati. Quando viene indagato lo stato una certa funzione cognitiva le possibili domande potrebbero essere idantificare la presenza di un _deficit_ (nel senso di un problema funzionale conclamato) oppure di un _peggioramento_ (una diminuzione del livello di funzionamento rispetto ad uno stato precedente). Queste due possibilità sono approfondite nel paragrafo [Deficit e danni][#deficit-danni].
 
 Ciascuno di passi spiegati in questo paragrafo, e le relative assunzioni, sarà affrontato in dettaglio nei prossimi paragrafi.
 
-
 [^test-comuni]: qui per test comuni sono intesi test sviluppati secondo la teoria classica dei test (vedi il paragrafo {#teoria-classica-dei-test}, nel capitolo 1).
+
+## Deficit e peggioramento {#deficit-peggioramenti}
+Prima di procedere con la nostra disamina dei principi alla base dei dati normativi, è importante definire alcuni importanti fondamentali, molto comuni nella neuropsicologica clinica: _deficit_, _peggioramento_, _compromissione_, _declino_[^def-norm].
+
+
+[^def-norm]: nota che mentre alcuni termini sono realmente diffusi nella letteratura, come _deficit_ e _declino_, alcune distinzioni sono state create ad-hoc nella stesura di questo libro (Agosto 2026) proprio per evitare la confusione terminologica che è presente in letteratura, italiana e internazionale.
+
+:::{.callout-note}
+## Definizione
+**Deficit (cognitivo)**
+Il deficit è una mancanza o anomalia funzionale, definita rispetto ad un gruppo di riferimento. <!-- NOTA GIORGIO: cerca se c'è letteratura migliore -->
+:::
+
+:::{.callout-note}
+## Definizione
+**Peggioramento (cognitivo)** <!-- NOTA GIORGIO: danno o declino? O cosa? forse "compromissione?" -->
+Si intende una diminuzione in un aspetto del funzionamento cognitivo, che non sia riconducibile ad aspetti fisiologici della crescita o invecchiamento e che sia quindi causato da una malattia neurodegenerativa o da un evento traumatico (fisico o non).
+Si possono distinguere due tipi di peggioramento: compromissione cognitiva e declino cognitivo.
+:::
+
+:::{.callout-note}
+## Definizione
+**Compromissione (cognitiva)** <!-- NOTA GIORGIO: danno o declino? O cosa? forse "compromissione?" -->
+Un _peggioramento_ del funzionamento cognitivo che ci si attende sia stabile.
+In genere la compromissione avviene di seguito ad un evento traumatico (come un _trauma cranico_ o uno _stroke_). Può essere, o no, reversibile.
+:::
+
+:::{.callout-note}
+## Definizione
+**Declino (cognitivo)** <!-- NOTA GIORGIO: danno o declino? O cosa? forse "compromissione?" -->
+Un _peggioramento_ del funzionamento cognitivo che si attende essere progressivo nel tempo. In genere il declino avviene a causa di una malattia neurogenerativa e spesso non è reversibile.
+:::
+
+La ragione di questa distinzione tra è legata alla possibile confusione nell'utilizzo di questi termini, che riflettere direttamente questa ambiguità nella letteratura internazionale e del termine inglese _impairment_.
+Il termine _impairment_ infatti è utilizzato comunemente, sia per indicare possibili _deficit_ (reali mancanze funzionali), sia per definire un _peggioramento_.
+Prima di passare ad un approfondimento di ciascuno di questi concetti è importante distinguere degli aggettivi comunemente associati a questi termini, _acquisito_ o _evolutivo_.
+
+:::{.callout-note}
+## Definizione
+**Acquisito** 
+Aggettivo che definisce l'origine di un deficit o peggioramento. Indica che l'alterazione è stata conseguenza di un evento avvenuto in età adulta o dopo che è stato raggiunto una maturità nel funzionamento cognitivo. <!-- NOTA GIORGIO: da rivedere -->
+:::
+
+:::{.callout-note}
+## Definizione
+**Evolutivo** <!-- NOTA GIORGIO: danno o declino? O cosa? forse "compromissione?" -->
+Aggettivo che definisce l'origine di un deficit o peggioramento. Indica che l'alterazione è stata conseguenza di un evento avvenuto in età di sviluppo o prima che è stata raggiunto una maturità nel funzionamento cognitivo. <-- 
+:::
+
+Ciascuno di questi aggettivi è spesso utilizzato insieme ai termini _deficit_ per specificare diversi tipi di origine dei disturbi: quindi _deficit acquisito_ o _deficit evolutivo_. Anche se non è comune come utilizzo, sarebbe utile distinguere anche tra equivalenti tipi ("peggioramento acquisito" e "peggioramento evolutivo"), questi termini non sono utilizzati comunemente. Infatti, come vedremo nel paragrafo (disturbi cognitivi nell'età evolutiva) <!-- NOTA GIORGIO: migliora qui -->, problemi nell'età evolutiva sono principalmente associati a deficit, piuttosto che a peggioramenti. Questo è primariamente legato al fatto che nell'età evolutiva, con un funzionamento cognitivo non ancora sviluppato è difficile poter parlare di peggioramenti, senza che essi siano veramente rilevanti e quindi classificabili come veri e propri deficit.
+
+### Deficit: approfondimento ed esempi
+
+Il _deficit_ è un concetto che è intrinsecamente legato al gruppo di riferimento con cui avviene un confronto e anzi, è definito proprio sulla base del confronto rispetto a questo gruppo.
+Se un bambino non riesce ancora a leggere a 7 anni, viene considerato avere un deficit, proprio perchè, se confrontato con i pari, non è in grado di svolgere un attività ed ha una mancanza funzionale che lo porta ad avere una differenza che è considerata clinicamente (e spesso anche socialmente) rilevante. Se il gruppo fosse definito in maniera differente una stessa caratteristica potrebbe non essere considerata un deficit. Ad esempio, se considerassimo un gruppo di bambini tra i 5 e 9 anni, non saper leggere non sarebbe più considearto un deficit, perché molti bambini (presumibilmente i più piccoli), non sarebbero in grado di farlo, rendendo quindi il "non leggere" una caratteristica non più anomala,
+Se un adulto ha un deficit nell'inibizione, questo è ancora una volta definito sulla base del gruppo di riferimento, indica che rispetto a questo gruppo, il livello in compiti di inibizione è talmente basso, da poter essere considerato una mancanza.
+_relativamente a quel gruppo_. Il deficit è quindi un concetto definito in maniera _normativa_, riflette solo il confronto con un gruppo di riferimento, spesso detto. 
+
+
+### Peggioramento: approfondimento ed esempi
+Il _peggioramento_ è invece un concetto che è legato al confronto di un individuo con sé stesso e con un livello precedentemente raggiunto stabilmente. Abbiamo distinto due tipi di peggioramenti (compromissione e declino), per catturare due sfumature diverse che spesso hanno rilevanza diagnostica e prognostica <!-- NOTA GIORGIO, ma che non sono distinguibili se il riferimento è ad una singola valutazione. -->
+Come esempi di compromissione, un adolescente che dopo un trauma cranico non riesce a concentrarsi più come prima, ha verosimilmente subito un peggioramento, così come un paziente che in seguito ad uno stroke, ha difficoltà di lettura che non aveva prima. 
+Come esempi di declino, una potrebbe cominciare ad avere un graduale peggioramento nella memoria in età avanzata per l'insorgere di una malattia neurodegenerativa, o una persona con sclerosi multipla, potrebbe avere un peggioramento nell'attenzione come conseguenza di una ricaduta.
+
+Negli esempi finora elencati abbiamo usato il termine "peggioramento" proprio per indicare un generale peggioramento e volutamente non abbiamo né usato, né fatto riferimento al concetto di deficit. Questo verrà spiegato meglio nel prossimo paragrafo.
+
+### Relazione tra deficit e peggioramento.
+Nel discutere di deficit e peggioramento abbiamo sottolineato quanto è importante considerare questi concetti come distinti. Questo può essere sembrato finora una sorta di esercizio di stile semantico, ma come vedremo ha un importante impatto nelle valutazione neuropsicologica e anche, in certi casi, nella correttezza delle intepretazioni che facciamo a partire dai . 
+
+In breve, il motivo per cui è importante distinguere questi termini è perché le condizioni che descrivono sono ortogonali: possiamo avere deficit con o senza peggioramento, o un peggioramento, ma con o senza deficit. 
+
+La @fig-compromissione-declino illustra questa distinzione con dati fittizi: a sinistra due casi di compromissione, in cui il punteggio scende bruscamente dopo una ipotetica prima valutazione avvenuta prima dell'evento acuto e lesivo; a destra due casi di declino, in cui il punteggio peggiora in modo graduale, valutazione dopo valutazione. In entrambi i pannelli, in un caso (linea in nero) il punteggio finisce sotto la soglia per il deficit, mentre nell'altro (linea in grigio grigio) resta sempre sopra la soglia di deficit.
+
+```{r}
+#| label: fig-compromissione-declino
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Andamento simulato del punteggio a un test in dieci valutazioni ripetute nel tempo, per due casi di compromissione (a sinistra) e due casi di declino (a destra). La linea tratteggiata orizzontale indica la soglia per il deficit; la linea sottile verticale indica il momento dell'evento acuto (a sinistra) o dell'inizio della malattia degenerativa (a destra). A sinistra il punteggio, alto e simile nei due casi a $t_0$, scende bruscamente subito dopo e poi resta stabile (a parte le oscillazioni dovute all'errore di misurazione): il caso grigio resta sopra soglia (nessun deficit), il caso nero scende sotto soglia e vi resta (deficit). A destra il punteggio peggiora invece in modo graduale nelle valutazioni successive: il caso grigio non raggiunge mai la soglia, il caso nero la supera verso il basso ad un certo punto."
+#| fig-width: 9
+#| fig-height: 4.5
+
+library(ggplot2)
+library(patchwork)
+
+set.seed(123)
+
+# --- Parametro per includere (o no) l'errore di misurazione nel grafico ---
+# Impostare FALSE per disegnare solo il punteggio "vero" sottostante, senza rumore
+includi_errore_misura <- TRUE
+sd_errore <- 0.8
+
+# Funzione modulare: aggiunge (o no) l'errore di misurazione a una traiettoria di punteggi veri
+aggiungi_errore_misura <- function(punteggio_vero, sd = sd_errore, includi = includi_errore_misura) {
+  if (includi) {
+    punteggio_vero + rnorm(length(punteggio_vero), mean = 0, sd = sd)
+  } else {
+    punteggio_vero
+  }
+}
+
+soglia <- 16
+n_tempi <- 10
+tempi <- 0:(n_tempi - 1)
+
+tema_traiettorie <- theme_minimal(base_size = 12) +
+  theme(panel.grid.minor = element_blank(),
+        plot.title = element_text(size = 12, face = "bold"),
+        legend.position = "bottom")
+
+soglia_layer <- list(
+  geom_hline(yintercept = soglia, linetype = "dashed", colour = "steelblue", linewidth = 0.8),
+  annotate("text", x = 2, y = soglia, label = "soglia per deficit", vjust = -0.7, hjust = 0,
+           colour = "steelblue", fontface = "italic", size = 3.3)
+)
+
+colori_casi <- scale_colour_manual(values = c("Con deficit" = "black", "Senza deficit" = "grey60"))
+
+# Linea sottile verticale che segna il momento dell'evento/inizio del peggioramento,
+# posizionata subito dopo t0 (tra la prima e la seconda valutazione)
+tempo_evento <- 0.5
+
+evento_layer <- list(
+  geom_vline(xintercept = tempo_evento, colour = "grey40", linewidth = 0.5),
+  annotate("text", x = tempo_evento, y = Inf, label = "evento acuto", vjust = 1.5, hjust = -0.05,
+           colour = "grey40", fontface = "italic", size = 3.3)
+)
+
+degenerazione_layer <- list(
+  geom_vline(xintercept = tempo_evento, colour = "grey40", linewidth = 0.5),
+  annotate("text", x = tempo_evento, y = Inf, label = "inizio degenerazione", vjust = 1.5, hjust = -0.05,
+           colour = "grey40", fontface = "italic", size = 3.3)
+)
+
+# --- Pannello sinistro: compromissione (peggioramento improvviso e poi stabile) ---
+vero_compr_deficit    <- c(28, rep(13, n_tempi - 1))
+vero_compr_no_deficit <- c(27, rep(19, n_tempi - 1))
+
+dat_compr <- data.frame(
+  tempo = rep(tempi, 2),
+  punteggio = c(aggiungi_errore_misura(vero_compr_deficit),
+                aggiungi_errore_misura(vero_compr_no_deficit)),
+  caso = rep(c("Con deficit", "Senza deficit"), each = n_tempi)
+)
+
+p_compr <- ggplot(dat_compr, aes(x = tempo, y = punteggio, colour = caso)) +
+  soglia_layer +
+  evento_layer +
+  geom_line(linewidth = 0.8) +
+  geom_point(size = 2, shape="square") +
+  colori_casi +
+  scale_x_continuous(breaks = tempi) +
+  coord_cartesian(ylim = c(5, 30)) +
+  labs(title = "Compromissione", x = "Tempo (valutazioni)", y = "Punteggio al test", colour = NULL) +
+  tema_traiettorie
+
+# --- Pannello destro: declino (peggioramento graduale e progressivo) ---
+vero_decl_deficit    <- 28 - (tempi / (n_tempi - 1)) * 18
+vero_decl_no_deficit <- 28 - (tempi / (n_tempi - 1)) * 9
+
+dat_decl <- data.frame(
+  tempo = rep(tempi, 2),
+  punteggio = c(aggiungi_errore_misura(vero_decl_deficit),
+                aggiungi_errore_misura(vero_decl_no_deficit)),
+  caso = rep(c("Con deficit", "Senza deficit"), each = n_tempi)
+)
+
+p_decl <- ggplot(dat_decl, aes(x = tempo, y = punteggio, colour = caso)) +
+  soglia_layer +
+  degenerazione_layer +
+  geom_line(linewidth = 0.8) +
+  geom_point(size = 2) +
+  colori_casi +
+  scale_x_continuous(breaks = tempi) +
+  coord_cartesian(ylim = c(5, 30)) +
+  labs(title = "Declino", x = "Tempo (valutazioni)", y = NULL, colour = NULL) +
+  tema_traiettorie
+
+p_compr + p_decl  & theme(legend.position = "bottom")# + plot_layout(guides = "collect")
+```
+
+La stessa distinzione è riassunta anche nella @fig-tabella-compromissione-declino, con un esempio per ciascuna combinazione.
+
+```{r}
+#| label: fig-tabella-compromissione-declino
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Sintesi delle quattro combinazioni illustrate nella @fig-compromissione-declino (compromissione/declino, con/senza deficit) relativi ad un disturbo acquisito, con un esempio clinico per ciascuna. Le colonne seguono lo stesso ordine della figura precedente; le etichette di riga riprendono gli stessi colori usati lì per i due casi (nero = con deficit, grigio = senza deficit)."
+#| fig-width: 7.5
+#| fig-height: 4
+
+library(ggplot2)
+
+# Contenuto della tabella: intestazioni di colonna, intestazioni di riga (colorate
+# come nella @fig-compromissione-declino) e un esempio per ciascuna delle 4 celle
+tabella_dat <- data.frame(
+  x = c(1, 2, 0, 0, 1, 2, 1, 2),
+  y = c(2, 2, 1, 0, 1, 1, 0, 0),
+  tipo = c("intestazione_colonna", "intestazione_colonna",
+           "intestazione_riga", "intestazione_riga",
+           "cella", "cella", "cella", "cella"),
+  colore = c("grey20", "grey20", "black", "grey60",
+             "grey20", "grey20", "grey20", "grey20"),
+  testo = c(
+    "Compromissione", "Declino",
+    "Con\ndeficit", "Senza\ndeficit",
+    "Trauma cranico grave: il punteggio scende bruscamente e resta stabilmente sotto la soglia per il deficit.",
+    "Malattia neurodegenerativa in fase avanzata: il punteggio peggiora gradualmente fino a scendere sotto soglia.",
+    "Trauma cranico lieve: il punteggio scende rispetto a prima ma resta stabilmente sopra la soglia di deficit.",
+    "Malattia neurodegenerativa in fase iniziale: il punteggio peggiora gradualmente ma resta ancora sopra la soglia di deficit."
+  )
+)
+
+# Va a capo automatico del testo, solo per le celle di esempio (più lunghe)
+tabella_dat$testo_wrap <- ifelse(
+  tabella_dat$tipo == "cella",
+  vapply(tabella_dat$testo, function(x) paste(strwrap(x, width = 24), collapse = "\n"), character(1)),
+  tabella_dat$testo
+)
+
+celle_sfondo <- expand.grid(x = c(1, 2), y = c(0, 1))
+
+ggplot() +
+  geom_tile(data = celle_sfondo, aes(x = x, y = y), width = 0.96, height = 0.9,
+            fill = "grey97", colour = "grey80") +
+  geom_segment(aes(x = -0.3, xend = 2.6, y = 1.55, yend = 1.55), colour = "grey40", linewidth = 0.6) +
+  geom_segment(aes(x = 0.55, xend = 0.55, y = -0.6, yend = 1.55), colour = "grey40", linewidth = 0.6) +
+  geom_text(data = subset(tabella_dat, tipo == "cella"),
+            aes(x = x, y = y, label = testo_wrap), size = 3.2, lineheight = 1, colour = "grey20") +
+  geom_text(data = subset(tabella_dat, tipo == "intestazione_colonna"),
+            aes(x = x, y = y, label = testo_wrap), size = 4, fontface = "bold", colour = "grey20") +
+  geom_text(data = subset(tabella_dat, tipo == "intestazione_riga"),
+            aes(x = x, y = y, label = testo_wrap, colour = colore), size = 3.8, fontface = "bold") +
+  scale_colour_identity() +
+  coord_cartesian(xlim = c(-0.3, 2.6), ylim = c(-0.6, 2.5), clip = "off") +
+  theme_void()
+```
+
+
+
+:::{.callout-important}
+
+Attenzione a non confondere deficit con peggioramento. Un danno cerebrale o una malattia degenerativa potrebbero causare un peggioramento senza che questo raggiunga il livello da essere considerato _deficit_.
+
+:::
+
+Perchè è importante distinguere tra tutte queste condizioni? In breve perchè sono domande diverse che possono sorgere durante la valutazione neuropsicologica.
+In alcuni casi, potremmo essere interessati a capire se la condizione.
+
+
+
+
+<!-- NOTA GIORGIO: IMPORTANTE FAI FIGURA RIASSUNTIVA DI CLASSIFICAZIONE PROPOSTA -->
+
+Un caso di deficit senza peggioramento è quando il disturbo è presente sin dalla nascita o compare in età evolutiva. 
+
+## Deficit e peggioramento nell'età evolutiva{#deficit-pegg-evol}
+Gli esempi fatti finora, si sono concentrati su casi di neuropsicologia clinica dell'adulto e cioè casi in cui sia possibile effettivamente pensare ad un _peggioramento_ (nel senso di diminuzione rispetto ad abilità precedente). Nel caso dei disturbi dello sviluppo, un alterazione non corrisponde necessariamente ad un peggioramento: potrebbe essere una performance che è stabile invece di crescere oppure con un tasso di crescita che non è in linea con quello atteso rispetto all'età. 
+In tal caso quello che spesso accade è quindi riferirsi ad una popolazione di riferimento (in genere bambini della stessa età), e considerare delle traiettorie di sviluppo e la loro variabilità. Se la bambina/il bambino hanno una prestazione molto diversa dalla traiettoria attesa, allora si considera che vi è un _deficit_. Andando infatti nello specifico la definizione che useremmo (vedremo anche da un punto di vista statistico nel corso di questo capitolo <!-- NOTA GIORGIO aggiungi qui citazione a paragrafo --> ), è in tutto e per tutto analoga a quella di deficit che si applica anche nel caso dell'adulto.
+
+Non è difficile però considerare delle situazioni in cui avviene un _peggioramento_ che non è strettamente deficit anche nel caso di età evolutiva. Ipotizziamo per esempio una/un bambina/o che subisce un trauma cranico e dopo questa mostra un leggero peggioramento, senza che sia però classificabile come deficit. Questo sarebbe in tutto e per tutto simile a quanto descritto nella @fig-compromissione-declino (pannello di destra, linea nera). Sebbene sia teoricamente possibile, questo è raramente considerato come indagabile: in questo caso infatti è difficile distinguere un reale peggioramento (cioè leggero cambio della traiettoria di sviluppo), da quella che è invece la traiettoria già in essere per quell'individuo.
+
+La @fig-traiettoria-sviluppo illustra questo concetto con una traiettoria di sviluppo simulata: a partire dalla valutazione più recente (nota), si possono immaginare diverse traiettorie future, alcune in linea con la crescita attesa dal gruppo di riferimento, altre che se ne allontanano progressivamente fino a superare la soglia inferiore della fascia di normalità.
+
+```{r}
+#| label: fig-traiettoria-sviluppo
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Traiettoria di sviluppo simulata (linea nera, punti pieni) dalla valutazione a 1 anno fino alla valutazione più recente, a 4 anni. Da qui si diramano tre possibili traiettorie future ipotetiche, in grigio scuro e con linee più sottili di quella osservata: una in linea con la crescita attesa dal gruppo di riferimento (cerchi, linea continua), una con crescita più lenta ma ancora vicina alla soglia inferiore di normalità (diamanti, linea tratteggiata), e una con una crescita anomala, che scende subito sotto la fascia di normalità (triangoli, linea tratteggiata), indicando un possibile deficit nello sviluppo. La fascia colorata rappresenta l'intervallo di normalità (soglia superiore e inferiore) atteso in base al gruppo di riferimento, per ciascuna età."
+#| fig-width: 7.5
+#| fig-height: 5
+
+library(ggplot2)
+
+set.seed(100)
+
+# --- Parametro per includere (o no) l'errore di misurazione nelle traiettorie ---
+# Impostare FALSE per disegnare solo le traiettorie "vere" sottostanti, senza rumore
+includi_errore_misura <- TRUE
+sd_errore <- 0.6
+
+# Funzione modulare: aggiunge (o no) l'errore di misurazione a una traiettoria di punteggi veri
+aggiungi_errore_misura <- function(valori, sd = sd_errore, includi = includi_errore_misura) {
+  if (includi) {
+    valori + rnorm(length(valori), mean = 0, sd = sd)
+  } else {
+    valori
+  }
+}
+
+eta <- 1:10
+eta_diramazione <- 4   # ultima valutazione nota, da cui si "diramano" le traiettorie future
+
+# Traiettoria attesa dal gruppo di riferimento, con fascia di normalità (soglie superiore e inferiore)
+traiettoria_attesa <- 5 + 1.8 * eta
+banda_ampiezza <- 3.5 + 0.2 * eta
+
+dat_banda <- data.frame(
+  eta = eta,
+  attesa = traiettoria_attesa,
+  soglia_sup = traiettoria_attesa + banda_ampiezza,
+  soglia_inf = traiettoria_attesa - banda_ampiezza
+)
+
+# Traiettoria osservata (nera): sviluppo reale fino alla valutazione attuale
+eta_oss <- 1:eta_diramazione
+dat_oss <- data.frame(
+  eta = eta_oss,
+  punteggio = aggiungi_errore_misura(5 + 1.8 * eta_oss)
+)
+
+punto_diramazione <- dat_oss$punteggio[dat_oss$eta == eta_diramazione]
+
+# Funzione modulare per costruire una traiettoria futura ipotetica, che parte dal punto di
+# diramazione e cresce con un tasso "rate" rispetto alla crescita attesa dal gruppo di riferimento
+# (rate = 1 significa crescita in linea con le attese, rate = 0 significa prestazione stabile)
+costruisci_traiettoria_futura <- function(rate, etichetta) {
+  eta_futuro <- (eta_diramazione + 1):max(eta)
+  incremento_atteso <- (5 + 1.8 * eta_futuro) - (5 + 1.8 * eta_diramazione)
+  valori_futuri <- aggiungi_errore_misura(punto_diramazione + rate * incremento_atteso)
+  data.frame(
+    eta = c(eta_diramazione, eta_futuro),
+    punteggio = c(punto_diramazione, valori_futuri),
+    traiettoria = etichetta
+  )
+}
+
+dat_fut <- rbind(
+  costruisci_traiettoria_futura(rate = 1.00, etichetta = "In linea con le attese"),
+  costruisci_traiettoria_futura(rate = 0.6, etichetta = "Crescita in seguito a peggioramento"),
+  costruisci_traiettoria_futura(rate = 0.02, etichetta = "Crescita \"deficitaria\"")
+)
+dat_fut$traiettoria <- factor(dat_fut$traiettoria,
+                               levels = c("In linea con le attese", "Crescita in seguito a peggioramento", "Crescita \"deficitaria\""))
+
+ggplot() +
+  # Fascia di normalità attesa dal gruppo di riferimento (soglie superiore e inferiore)
+  geom_ribbon(data = dat_banda, aes(x = eta, ymin = soglia_inf, ymax = soglia_sup),
+              fill = "steelblue", alpha = 0.15) +
+  annotate("text", x = 9, y = dat_banda$soglia_sup[dat_banda$eta == 9], label = "fascia di normalità attesa",
+           hjust = 1, vjust = -0.6, colour = "steelblue", fontface = "italic", size = 3.3) +
+  # Linea verticale sottile che segna la valutazione attuale, da cui si diramano le traiettorie future
+  geom_vline(xintercept = eta_diramazione, colour = "grey40", linewidth = 0.5) +
+  annotate("text", x = eta_diramazione, y = Inf, label = "possibili traiettorie future",
+           vjust = 1.5, hjust = -0.05, colour = "grey40", fontface = "italic", size = 3.3) +
+  # Tre traiettorie future ipotetiche (grigio scuro, più sottili della traiettoria osservata)
+  geom_line(data = dat_fut, aes(x = eta, y = punteggio, linetype = traiettoria, group = traiettoria),
+            colour = "grey35", linewidth = 0.6) +
+  geom_point(data = dat_fut, aes(x = eta, y = punteggio, shape = traiettoria),
+             colour = "grey35", size = 2.3) +
+  # Traiettoria osservata (nera): sviluppo reale fino alla valutazione attuale
+  geom_line(data = dat_oss, aes(x = eta, y = punteggio), colour = "black", linewidth = 1) +
+  geom_point(data = dat_oss, aes(x = eta, y = punteggio), colour = "black", size = 3) +
+  scale_linetype_manual(name = NULL, values = c("In linea con le attese" = "solid",
+                                                 "Crescita in seguito a peggioramento" = "dashed",
+                                                 "Crescita \"deficitaria\"" = "dashed")) +
+  scale_shape_manual(name = NULL, values = c("In linea con le attese" = 16,
+                                              "Crescita in seguito a peggioramento" = 18,
+                                              "Crescita \"deficitaria\"" = 17)) +
+  scale_x_continuous(breaks = eta) +
+  labs(x = "Età (anni)", y = "Punteggio al test") +
+  theme_minimal(base_size = 12) +
+  theme(panel.grid.minor = element_blank(),
+        legend.position = "bottom")
+```
+
+<!-- Danno è un inferenza ulteriore, deficit potrebbe essere la definizione (definisco deficit se un gruppo). Nel danno serve un caso più possibile simile a quello che sto valutando, nel caso di deficit spesso si decide un gruppo (arbitrario) di riferimento. Es. una persona che ha avuto gravi mancanze affettive nello sviluppo potrebbe avere un deficit, ma potrebbe non essere strano per persone che hanno avuto gravi mancanze. (vedi paragrafo dati normativi e rappresentatività)
+
+-->
+
+aggiungere che non usiamo interpretare la performance per non confondere con l'interpretazione finale di una performance, che arriva alla fine (vedi capitolo 9)
 
 
 ## Perché usiamo i dati normativi?
 li usiamo in caso non possiamo definire il gruppo di interesse.
 
-## Deficit e danni {#deficit-danni}
-definizioni di deficit e danno, caso di deficit e non danno, caso di danno e non deficit.
-caso di entrambi.
-Danno è un inferenza ulteriore, deficit potrebbe essere la definizione (definisco deficit se un gruppo). 
-Nel danno serve un caso più possibile simile a quello che sto valutando, nel caso di deficit spesso si decide un gruppo (arbitrario) di riferimento. Es. una persona che ha avuto gravi mancanze affettive nello sviluppo potrebbe avere un deficit, ma potrebbe non essere strano per persone che hanno avuto gravi mancanze. (vedi paragrafo dati normativi e rappresentatività)
-
-aggiungere che non usiamo interpretare la performance per non confondere con l'interpretazione finale di una performance, che arriva alla fine (vedi capitolo 9)
 
 ## l'utilità pragmatica delle soglie {#utilita-pragmatica-soglie}
 citazioni paper lakens
