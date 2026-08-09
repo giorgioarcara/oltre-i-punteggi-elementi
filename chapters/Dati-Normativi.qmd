@@ -180,7 +180,7 @@ Nel discutere di deficit e peggioramento abbiamo sottolineato quanto è importan
 
 In breve, il motivo per cui è importante distinguere questi termini è perché le condizioni che descrivono sono ortogonali: possiamo avere deficit con o senza peggioramento, o un peggioramento, ma con o senza deficit. 
 
-La @fig-compromissione-declino illustra questa distinzione con dati fittizi: a sinistra due casi di compromissione, in cui il punteggio scende bruscamente dopo una ipotetica prima valutazione avvenuta prima dell'evento acuto e lesivo; a destra due casi di declino, in cui il punteggio peggiora in modo graduale, valutazione dopo valutazione. In entrambi i pannelli, in un caso (linea in nero) il punteggio finisce sotto la soglia per il deficit, mentre nell'altro (linea in grigio grigio) resta sempre sopra la soglia di deficit.
+La @fig-compromissione-declino illustra questa distinzione con dati fittizi: a sinistra due casi di compromissione, in cui il punteggio scende bruscamente dopo una ipotetica prima valutazione avvenuta prima dell'evento acuto e lesivo; a destra due casi di declino, in cui il punteggio peggiora in modo graduale, valutazione dopo valutazione. In entrambi i pannelli, in un caso (linea in nero) il punteggio finisce sotto la soglia per il deficit, mentre nell'altro (linea in grigio) resta sempre sopra la soglia di deficit.
 
 ```{r}
 #| label: fig-compromissione-declino
@@ -225,7 +225,7 @@ soglia_layer <- list(
            colour = "steelblue", fontface = "italic", size = 3.3)
 )
 
-colori_casi <- scale_colour_manual(values = c("Con deficit" = "black", "Senza deficit" = "grey60"))
+colori_casi <- scale_colour_manual(values = c("Deficit raggiunto" = "black", "Deficit non raggiunto" = "grey60"))
 
 # Linea sottile verticale che segna il momento dell'evento/inizio del peggioramento,
 # posizionata subito dopo t0 (tra la prima e la seconda valutazione)
@@ -251,7 +251,7 @@ dat_compr <- data.frame(
   tempo = rep(tempi, 2),
   punteggio = c(aggiungi_errore_misura(vero_compr_deficit),
                 aggiungi_errore_misura(vero_compr_no_deficit)),
-  caso = rep(c("Con deficit", "Senza deficit"), each = n_tempi)
+  caso = rep(c("Deficit raggiunto", "Deficit non raggiunto"), each = n_tempi)
 )
 
 p_compr <- ggplot(dat_compr, aes(x = tempo, y = punteggio, colour = caso)) +
@@ -273,7 +273,7 @@ dat_decl <- data.frame(
   tempo = rep(tempi, 2),
   punteggio = c(aggiungi_errore_misura(vero_decl_deficit),
                 aggiungi_errore_misura(vero_decl_no_deficit)),
-  caso = rep(c("Con deficit", "Senza deficit"), each = n_tempi)
+  caso = rep(c("Deficit raggiunto", "Deficit non raggiunto"), each = n_tempi)
 )
 
 p_decl <- ggplot(dat_decl, aes(x = tempo, y = punteggio, colour = caso)) +
@@ -297,7 +297,7 @@ La stessa distinzione è riassunta anche nella @fig-tabella-compromissione-decli
 #| echo: false
 #| warning: false
 #| message: false
-#| fig-cap: "Sintesi delle quattro combinazioni illustrate nella @fig-compromissione-declino (compromissione/declino, con/senza deficit) relativi ad un disturbo acquisito, con un esempio clinico per ciascuna. Le colonne seguono lo stesso ordine della figura precedente; le etichette di riga riprendono gli stessi colori usati lì per i due casi (nero = con deficit, grigio = senza deficit)."
+#| fig-cap: "Sintesi delle quattro combinazioni illustrate nella @fig-compromissione-declino (compromissione/declino, con/senza deficit) relativi ad un disturbo acquisito, con un esempio clinico per ciascuna. Le colonne seguono lo stesso ordine della figura precedente; le etichette di riga riprendono gli stessi colori usati lì per i due casi (nero = deficit raggiunto, grigio = deficit non raggiunto)."
 #| fig-width: 7.5
 #| fig-height: 4
 
@@ -441,7 +441,7 @@ costruisci_traiettoria_futura <- function(rate, etichetta) {
 dat_fut <- rbind(
   costruisci_traiettoria_futura(rate = 1.00, etichetta = "In linea con le attese"),
   costruisci_traiettoria_futura(rate = 0.6, etichetta = "Crescita in seguito a peggioramento"),
-  costruisci_traiettoria_futura(rate = 0.02, etichetta = "Crescita \"deficitaria\"")
+  costruisci_traiettoria_futura(rate = -0.05, etichetta = "Crescita \"deficitaria\"")
 )
 dat_fut$traiettoria <- factor(dat_fut$traiettoria,
                                levels = c("In linea con le attese", "Crescita in seguito a peggioramento", "Crescita \"deficitaria\""))
@@ -477,7 +477,7 @@ ggplot() +
         legend.position = "bottom")
 ```
 
-Un altro caso possibile, sempre nell'ambito delle traiettorie di sviluppo, è quello di un peggioramento non graduale ma improvviso, ad esempio in seguito ad un evento acuto come un trauma cranico. La @fig-traiettoria-peggioramento-acuto illustra tre possibili esiti di questo tipo di evento: in un caso il punteggio non ne risente e prosegue come atteso; in un altro scende ma resta all'interno della fascia di normalità attesa; nell'ultimo scende al punto da uscire subito dalla fascia, già dalla prima valutazione successiva all'evento.
+Un altro caso possibile, sempre nell'ambito delle traiettorie di sviluppo, è quello di un peggioramento non graduale ma improvviso, ad esempio in seguito ad un evento acuto come un trauma cranico. La @fig-traiettoria-peggioramento-acuto illustra tre possibili esiti di questo tipo di evento: in un caso il punteggio non ne risente e prosegue come atteso; in un avviene un peggioramento ma resta all'interno della fascia di normalità attesa: non viene considerato un deficit; nell'ultimo scende al punto da uscire subito dai limiti e verrebbe quindi considerato un deficit.
 
 ```{r}
 #| label: fig-traiettoria-peggioramento-acuto
@@ -591,11 +591,11 @@ ggplot() +
 
 -->
 
-aggiungere che non usiamo interpretare la performance per non confondere con l'interpretazione finale di una performance, che arriva alla fine (vedi capitolo 9)
 
 
 ## Perché usiamo i dati normativi?
 li usiamo in caso non possiamo definire il gruppo di interesse.
+aggiungere che non usiamo interpretare la performance per non confondere con l'interpretazione finale di una performance, che arriva alla fine (vedi capitolo 9)
 
 
 ## l'utilità pragmatica delle soglie {#utilita-pragmatica-soglie}
