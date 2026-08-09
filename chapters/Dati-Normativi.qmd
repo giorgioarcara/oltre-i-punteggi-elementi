@@ -1,7 +1,7 @@
 ---
 suppress-bibliography: true
 ---
-# Dati normativi, deficit e danni
+# Dati normativi, deficit e peggioramento
 
 ## Introduzione al significato dei dati normativi
 
@@ -336,7 +336,7 @@ ggplot() +
   geom_tile(data = celle_sfondo, aes(x = x, y = y), width = 0.96, height = 0.9,
             fill = "grey97", colour = "grey80") +
   geom_segment(aes(x = -0.3, xend = 2.6, y = 1.55, yend = 1.55), colour = "grey40", linewidth = 0.6) +
-  geom_segment(aes(x = 0.55, xend = 0.55, y = -0.6, yend = 1.55), colour = "grey40", linewidth = 0.6) +
+  geom_segment(aes(x = 0.45, xend = 0.45, y = -0.6, yend = 1.55), colour = "grey40", linewidth = 0.6) +
   geom_text(data = subset(tabella_dat, tipo == "cella"),
             aes(x = x, y = y, label = testo_wrap), size = 3.2, lineheight = 1, colour = "grey20") +
   geom_text(data = subset(tabella_dat, tipo == "intestazione_colonna"),
@@ -470,6 +470,116 @@ ggplot() +
   scale_shape_manual(name = NULL, values = c("In linea con le attese" = 16,
                                               "Crescita in seguito a peggioramento" = 18,
                                               "Crescita \"deficitaria\"" = 17)) +
+  scale_x_continuous(breaks = eta) +
+  labs(x = "Età (anni)", y = "Punteggio al test") +
+  theme_minimal(base_size = 12) +
+  theme(panel.grid.minor = element_blank(),
+        legend.position = "bottom")
+```
+
+Un altro caso possibile, sempre nell'ambito delle traiettorie di sviluppo, è quello di un peggioramento non graduale ma improvviso, ad esempio in seguito ad un evento acuto come un trauma cranico. La @fig-traiettoria-peggioramento-acuto illustra tre possibili esiti di questo tipo di evento: in un caso il punteggio non ne risente e prosegue come atteso; in un altro scende ma resta all'interno della fascia di normalità attesa; nell'ultimo scende al punto da uscire subito dalla fascia, già dalla prima valutazione successiva all'evento.
+
+```{r}
+#| label: fig-traiettoria-peggioramento-acuto
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Traiettoria di sviluppo simulata (linea nera, punti pieni) dalla valutazione a 1 anno fino alla valutazione più recente, a 4 anni, seguita da un evento acuto (linea verticale) che può causare un peggioramento improvviso del punteggio. Tre traiettorie ipotetiche successive all'evento, tutte in grigio scuro e con gli stessi simboli usati nella @fig-traiettoria-sviluppo: una non risente dell'evento e prosegue in linea con la crescita attesa dal gruppo di riferimento (cerchi, linea continua); una scende ma resta all'interno della fascia di normalità (diamanti, linea tratteggiata); una scende al punto da uscire subito dalla fascia già alla prima valutazione successiva all'evento, e vi resta nelle valutazioni seguenti (triangoli, linea tratteggiata). In tutti i casi, dopo il salto iniziale la crescita prosegue con lo stesso ritmo atteso dal gruppo di riferimento (scarto dalla norma stabile nel tempo)."
+#| fig-width: 7.5
+#| fig-height: 5
+
+library(ggplot2)
+
+set.seed(100)
+
+# --- Parametro per includere (o no) l'errore di misurazione nelle traiettorie ---
+# Impostare FALSE per disegnare solo le traiettorie "vere" sottostanti, senza rumore
+includi_errore_misura <- TRUE
+sd_errore <- 0.6
+
+# Funzione modulare: aggiunge (o no) l'errore di misurazione a una traiettoria di punteggi veri
+aggiungi_errore_misura <- function(valori, sd = sd_errore, includi = includi_errore_misura) {
+  if (includi) {
+    valori + rnorm(length(valori), mean = 0, sd = sd)
+  } else {
+    valori
+  }
+}
+
+eta <- 1:10
+eta_diramazione <- 4   # ultima valutazione nota, subito dopo la quale avviene l'evento acuto
+
+# Traiettoria attesa dal gruppo di riferimento, con fascia di normalità (soglie superiore e inferiore)
+traiettoria_attesa <- 5 + 1.8 * eta
+banda_ampiezza <- 3.5 + 0.2 * eta
+
+dat_banda <- data.frame(
+  eta = eta,
+  attesa = traiettoria_attesa,
+  soglia_sup = traiettoria_attesa + banda_ampiezza,
+  soglia_inf = traiettoria_attesa - banda_ampiezza
+)
+
+# Traiettoria osservata (nera): sviluppo reale fino alla valutazione precedente all'evento acuto
+eta_oss <- 1:eta_diramazione
+dat_oss <- data.frame(
+  eta = eta_oss,
+  punteggio = aggiungi_errore_misura(5 + 1.8 * eta_oss)
+)
+
+punto_diramazione <- dat_oss$punteggio[dat_oss$eta == eta_diramazione]
+
+# Funzione modulare per costruire una traiettoria che, subito dopo l'evento acuto, scende di
+# "entita_peggioramento" punti rispetto alla crescita attesa, e da lì prosegue con un tasso di
+# crescita "rate" rispetto a quella attesa dal gruppo di riferimento (rate = 1, il valore di
+# default, significa che lo scarto dalla norma introdotto dall'evento resta costante nel tempo;
+# è comunque parametrizzato per poter esplorare in seguito anche recuperi parziali o ulteriori
+# peggioramenti dopo l'evento, semplicemente cambiando "rate")
+costruisci_traiettoria_con_peggioramento_acuto <- function(entita_peggioramento, rate = 1, etichetta) {
+  eta_futuro <- (eta_diramazione + 1):max(eta)
+  incremento_atteso <- (5 + 1.8 * eta_futuro) - (5 + 1.8 * eta_diramazione)
+  valore_dopo_evento <- punto_diramazione - entita_peggioramento
+  valori_futuri <- aggiungi_errore_misura(valore_dopo_evento + rate * incremento_atteso)
+  data.frame(
+    eta = c(eta_diramazione, eta_futuro),
+    punteggio = c(punto_diramazione, valori_futuri),
+    traiettoria = etichetta
+  )
+}
+
+dat_fut <- rbind(
+  costruisci_traiettoria_con_peggioramento_acuto(entita_peggioramento = 0.0, rate = 1, etichetta = "In linea con le attese"),
+  costruisci_traiettoria_con_peggioramento_acuto(entita_peggioramento = 2.8, rate = 1, etichetta = "Nella norma"),
+  costruisci_traiettoria_con_peggioramento_acuto(entita_peggioramento = 8.0, rate = 1, etichetta = "Fuori norma")
+)
+dat_fut$traiettoria <- factor(dat_fut$traiettoria,
+                               levels = c("In linea con le attese", "Nella norma", "Fuori norma"))
+
+ggplot() +
+  # Fascia di normalità attesa dal gruppo di riferimento (soglie superiore e inferiore)
+  geom_ribbon(data = dat_banda, aes(x = eta, ymin = soglia_inf, ymax = soglia_sup),
+              fill = "steelblue", alpha = 0.15) +
+  annotate("text", x = 9, y = dat_banda$soglia_sup[dat_banda$eta == 9], label = "fascia di normalità attesa",
+           hjust = 1, vjust = -0.6, colour = "steelblue", fontface = "italic", size = 3.3) +
+  # Linea verticale sottile che segna l'evento acuto, subito dopo l'ultima valutazione nota
+  geom_vline(xintercept = eta_diramazione, colour = "grey40", linewidth = 0.5) +
+  annotate("text", x = eta_diramazione, y = Inf, label = "evento acuto",
+           vjust = 1.5, hjust = -0.05, colour = "grey40", fontface = "italic", size = 3.3) +
+  # Le tre traiettorie dopo l'evento acuto: tutte grigio scuro, più sottili della traiettoria
+  # osservata, distinte da linetype/simbolo con la stessa convenzione della @fig-traiettoria-sviluppo
+  geom_line(data = dat_fut, aes(x = eta, y = punteggio, linetype = traiettoria, group = traiettoria),
+            colour = "grey35", linewidth = 0.6) +
+  geom_point(data = dat_fut, aes(x = eta, y = punteggio, shape = traiettoria),
+             colour = "grey35", size = 2.3) +
+  # Traiettoria osservata (nera): sviluppo reale fino alla valutazione precedente all'evento
+  geom_line(data = dat_oss, aes(x = eta, y = punteggio), colour = "black", linewidth = 1) +
+  geom_point(data = dat_oss, aes(x = eta, y = punteggio), colour = "black", size = 3) +
+  scale_linetype_manual(name = NULL, values = c("In linea con le attese" = "solid",
+                                                 "Nella norma" = "dashed",
+                                                 "Fuori norma" = "dashed")) +
+  scale_shape_manual(name = NULL, values = c("In linea con le attese" = 16,
+                                              "Nella norma" = 18,
+                                              "Fuori norma" = 17)) +
   scale_x_continuous(breaks = eta) +
   labs(x = "Età (anni)", y = "Punteggio al test") +
   theme_minimal(base_size = 12) +
