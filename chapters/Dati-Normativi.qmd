@@ -217,11 +217,19 @@ Questa soglia ci permette di introdurre un nuovo termine, apparentemente simile 
 
 :::{.callout-note}
 ## Definizione
-**Nella norma**
-Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, entro una soglia che ci aiuta a identificare prestazioni potenzialmenta anomale. In genere si considera nella norma un punteggio che è uguale o al di sopra del 5% delle prestazioni più basse.
+**Prestazione nella norma**
+Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _entro_ una soglia che ci aiuta a identificare prestazioni potenzialmente anomale[^per-bassa]. In genere si considera nella norma un punteggio che è uguale o al di sopra del 5% delle prestazioni più basse.
 :::
 
-Siamo partiti da una distribuzione di persone che consideriamo _sane_ o normali e i dati normativi di hanno permesso di ottenere una soglia che ci permette di classificare delle prestazioni come _nella norma_ oppure come _deficitaria_.
+:::{.callout-note}
+## Definizione
+**Prestazione deficitaria**
+Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _oltre_ una soglia che ci aiuta a identificare prestazioni potenzialmente anomale[^per-bassa]. In genere si considera nella norma un punteggio che è uguale o al di sopra del 5% delle prestazioni più basse.
+:::
+
+[^per-bassa]: si noti che non è stato utilizzato il termine _più bassa_ o _più alta_ perchè il significato dipende da come è costruito il punteggio del test. Generalmente nei test neuropsicologici un punteggio più basso corrisponde una performance migliore, ma non sempre è così. Per esempio punteggi basati sul tempo impiegato a svolgere un compito, oppure basati sul numero di errori commessi hanno punteggi peggiori quando sono alti. In questo caso la soglia 
+
+Siamo partiti da una distribuzione di persone che consideriamo _sane_ o normali e i dati normativi di hanno permesso di ottenere una soglia che ci permette di classificare delle prestazioni come _prestazione nella norma_ oppure come _prestazione deficitaria_.
 
 ```{r}
 #| label: fig-classificazione-soglia
@@ -289,8 +297,8 @@ testo_tabella <- data.frame(
   x = c(col1$centro, col2$centro, col1$centro, col2$centro, col1$centro, col2$centro),
   y = c(3, 3, 2, 2, 1, 1),
   testo = c("Risultato", "Classificazione",
-            "Sopra soglia", "Nella norma",
-            "Sotto soglia", "Deficitario"),
+            "Sopra soglia", "Prestazione\n nella norma",
+            "Sotto soglia", "Prestazione \n deficitaria"),
   intestazione = c(TRUE, TRUE, FALSE, FALSE, FALSE, FALSE)
 )
 
@@ -312,21 +320,19 @@ p_densita + p_tabella + plot_layout(widths = c(1.2, 1))
 ```
 
 
-L'uso del termine deficitario potrebbe sembrare piuttosto "pericoloso", ma in questo caso è cogente perchè è proprio in questa maniera che definiamo un punteggio deficitario (o più genericamente "un deficit", vedi anche @deficit-peggioramenti). Definiamo un punteggio deficitario come un punteggio dal di sotto di una soglia. Ci sono alcuni punti che conseguono da questa definizione che è importante sottolineare
+L'uso del termine prestazione deficitaria come una prestazione ottenuta da sani, potrebbe sembrare piuttosto "pericoloso", ma in questo caso è cogente perchè è proprio conseguenza della definizione che adottiamo (o più genericamente "un deficit", vedi anche @deficit-peggioramenti). Ci sono però alcuni punti che conseguono da questa definizione che è importante sottolineare
 
-La definizione di deficit non implica necessariamente una _disabilità_ o una qualche forma di problema grave. Anzi i due concetti non sono sovrapposti. Abbiamo definito il deficit a partire dalla prestazione dei normali, senza tirarare in causa persone che avessero un qualche tipo di problema.
-
-Utilizzando questa definizione di prestazione deficitaria, anche i soggetti che assumevamo essere _sani_ possono avere delle prestazioni deficitarie. Questa potrebbe sembrare un'affermazione paradossale. Ma risulta invece ovvia quando si vede la @fig-costruzione-istogramma. Proprio perchè definiamo la nostra soglia come il valore che delimita le prestazioni più basse dei sani, inevitabilmente alcuni dei sani otterrano quel valore. Ci troviamo quindi di fronte ad una sorta di paradosso già in partenza, definiamo _deficitarie_ alcune prestazioni di individui sani. 
+1. La definizione di prestazione deficitaria non implica necessariamente una _disabilità_ o una qualche forma di problema grave. Anzi i due concetti non sono sovrapposti. Abbiamo definito prestazione deficitaria come una prestazione ottenuta a partire da persone che erano normali per definizione, senza tirarare in causa persone che avessero un qualche tipo di problema. Ne consegue che tra i soggetti che assumevamo essere _sani_ alcuni possono avere delle prestazioni deficitarie. Questa potrebbe sembrare un'affermazione paradossale. Ma risulta invece ovvia quando si vede la @fig-costruzione-istogramma. Proprio perchè definiamo la nostra soglia come il valore che delimita le prestazioni più basse dei sani, inevitabilmente alcuni dei sani otterrano quel valore. Ci troviamo quindi di fronte ad una sorta di paradosso già in partenza, definiamo _deficitarie_ alcune prestazioni osservate in individui sani. 
 
 :::{.callout-important}
-Per il modo in cui vengono definite, sulla base dei dati normativi, le soglie che separano le prestazioni nella norma da quelle deficitarie, una certa percentuale di soggetti sani — compresi alcuni individui del campione normativo — otterrà punteggi classificati come _deficitari_. Non si tratta di un’anomalia, ma di una conseguenza inevitabile del principio utilizzato per stabilire la soglia.
+Per il modo in cui vengono definite, sulla base dei dati normativi, le soglie che separano le prestazioni nella norma da quelle deficitarie, una certa percentuale di soggetti sani — compresi alcuni individui del campione normativo — otterrà punteggi che veranno classificate come _prestazione deficitaria_. Non si tratta di un’anomalia, ma di una conseguenza inevitabile del principio utilizzato per stabilire la soglia.
 :::
 
 Questa apparente stranezza diventa ancora più tale se facciamo un piccolo esperimento mentale. Immaginate di raccogliere i dati su una variabile qualsiasi, ad esempio l'altezza, di un gruppo di persone. Sono tutte persone che non hanno particolari problemi nella vita quotidiana e quindi consideriamo _sane_ nel senso utilizzato finora per i dati normativi. Immaginate di costruire un grafico come quello riportato nella @fig-costruzione-istogramma e di calcolare quindi una soglia con lo stesso principio e di ottenere il valore 145 cm. Utilizzando la definizione di sopra (di classificazione di valori al di sotto della soglia come deficitaria), stiamo definendo che quei valori sono _deficitari_ e non, semplicemente, molto bassi. Questa conclusione potrebbe sembrare stridente, ma è una naturale conseguenza della definizione da cui siamo partite.
-Questa conseguenza diventa ancora più rilevante se applicata nell'ambito dei disturbi evolutivi: la comune soglia utilizzata per la soglia di deficit, fa sì che prendendo qualsiasi gruppo di bambini _sani_, inevitabilmente parte di essi otterranno punteggi "deficitari" (per definizione, circa il 5% di quelli che hanno composto i dati normativi, e all'incirca la stessa percentuale se si facessero molte classificazioni di bambini "normali").
+Questa conseguenza diventa ancora più rilevante se applicata nell'ambito dei disturbi evolutivi: la comune soglia utilizzata per la soglia di prestazione deficitarie, fa sì che prendendo qualsiasi gruppo di bambini _sani_, inevitabilmente parte di essi otterranno punteggi "deficitari" (per definizione, circa il 5% di quelli che hanno composto i dati normativi, e all'incirca la stessa percentuale se si facessero molte classificazioni di bambini "normali").
 
 :::{.callout-important}
-La definizione di deficit a partire dalla definizione è di cui sopra tende a confondere perché alla parola "deficit", associamo automaticamente, problemi nella vita quotidiana, disabilità o gravi mancanze, ma queste non sono necessariamente presenti in persone con prestazioni deficitarie.
+La definizione di _prestazione deficitaria_ utilizzata sopra tende a confondere perché alla parola "deficit", associamo automaticamente, problemi nella vita quotidiana, disabilità o gravi mancanze, ma queste non sono necessariamente presenti in persone con prestazioni deficitarie.
 :::
 
 Questa definizione e queste considerazioni non sono problematiche in sé, ma è utile sottolinearle per chiarire che, nel momento che utilizziamo i dati normativi per delle classificazioni, questa è proprio la definizione che abbiamo dato di prestazione deficitaria, identificato come prestazione al di là di un valore soglia (statistica).
