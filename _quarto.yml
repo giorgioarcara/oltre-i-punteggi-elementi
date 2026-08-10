@@ -81,6 +81,12 @@ format:
     include-in-header:
       text: |
         \KOMAoptions{DIV=12, BCOR=10mm, headings=standardclasses}
+        % scrbook usa flushbottom di default: lo spazio elastico a fondo pagina
+        % viene "stirato" per giustificare il margine inferiore. Questo interagisce
+        % male con i box tcolorbox usati per i callout (es. "Definizione"): lo
+        % stiramento finisce prima del box, e il box successivo può sovrapporsi
+        % al precedente. raggedbottom evita lo stiramento e risolve il problema.
+        \raggedbottom
         \usepackage{draftwatermark}
         \SetWatermarkText{BOZZA}
         \SetWatermarkScale{1.5} % bigger/smaller watermark
