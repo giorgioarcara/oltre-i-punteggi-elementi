@@ -131,9 +131,171 @@ I dati normativi sono i dati di un gruppo di riferimento che ci aiutano a defini
 Con questa locuzione si intende che un punteggio è rispetto ai dati normativi, entro una soglia che ci aiuta a identificare prestazioni potenzialmenta anomale.
 :::
 
-La figura di seguito riassume le due possibilità quando si classifica un punteggio rispetto ai dati normativi. 
 
-<!-- inserisci qui figura con due pannelli a sinistra  c'è distribuzione con soglia. A destra e le due classificazione con punteggio inferiore o superiori a soglia. I colori richiamano la parte della distribuzione in cui si ricade -->
+
+
+
+Da un punto di vista pratico, una distribuzione di dati normativi non è altro che l'insieme delle singole osservazioni raccolte da un gruppo di riferimento. La @fig-costruzione-istogramma illustra questa idea passo per passo: si parte da una singola osservazione (a), si aggiungono altre osservazioni singole (b), fino ad arrivare ad una distribuzione completa (c), costruita "impilando" ogni singola osservazione come se fosse un quadratino. Una volta ottenuta la distribuzione completa, è possibile individuare una soglia (d) che permette di distinguere le prestazioni "nella norma" da quelle che non lo sono.
+
+```{r}
+#| label: fig-costruzione-istogramma
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Costruzione di una distribuzione di dati normativi a partire dalle singole osservazioni. In (a) è rappresentata una sola osservazione (punteggio = 5). In (b) sono rappresentate tre osservazioni (un punteggio di 2 e due punteggi di 5): ogni osservazione è visibile come un singolo quadratino, cosicché un punteggio ottenuto da più persone sia rappresentato da più quadratini impilati. In (c) è rappresentata una distribuzione completa, costruita impilando ogni singola osservazione di un ipotetico gruppo di riferimento di 20 persone. In (d) alla stessa distribuzione è stata aggiunta una soglia (linea verticale), che permette di distinguere le prestazioni considerate \"nella norma\" da quelle che non lo sono. (Adattato da Mondini, Mapelli, Arcara, Semeiotica e diagnosi neuropsicologica)"
+#| fig-width: 8
+#| fig-height: 6
+
+library(ggplot2)
+library(patchwork)
+
+# funzione ad hoc: aggiunge una singola osservazione ad un data.frame di
+# quadratini, impilandola sopra le osservazioni già presenti per lo stesso
+# punteggio. Usarla più volte (una per osservazione) rende facile
+# aggiungere/togliere singole osservazioni per costruire ciascun pannello.
+aggiungi_osservazione <- function(dati, punteggio) {
+  n_gia_presenti <- sum(dati$punteggio == punteggio)
+  nuova_osservazione <- data.frame(
+    punteggio = punteggio,
+    ymin = n_gia_presenti,
+    ymax = n_gia_presenti + 1
+  )
+  rbind(dati, nuova_osservazione)
+}
+
+tema_quadratini <- theme_minimal(base_size = 12) +
+  theme(panel.grid = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.line = element_line(colour = "black"),
+        plot.title = element_text(size = 12, face = "italic"),
+        aspect.ratio = 1)
+
+disegna_quadratini <- function(dati, titolo) {
+  ggplot(dati) +
+    geom_rect(aes(xmin = punteggio - 0.5, xmax = punteggio + 0.5,
+                   ymin = ymin, ymax = ymax),
+              fill = "grey75", colour = "grey40") +
+    scale_x_continuous(limits = c(-0.5, 7.5), breaks = 0:7) +
+    scale_y_continuous(limits = c(0, 8)) +
+    labs(x = "Punteggio osservato", y = "Numero di osservazioni", title = titolo) +
+    tema_quadratini
+}
+
+# pannello a: una sola osservazione
+dati_a <- data.frame(punteggio = numeric(0), ymin = numeric(0), ymax = numeric(0))
+dati_a <- aggiungi_osservazione(dati_a, 5)
+
+# pannello b: tre osservazioni
+dati_b <- data.frame(punteggio = numeric(0), ymin = numeric(0), ymax = numeric(0))
+dati_b <- aggiungi_osservazione(dati_b, 2)
+dati_b <- aggiungi_osservazione(dati_b, 5)
+dati_b <- aggiungi_osservazione(dati_b, 5)
+
+# pannelli c e d: distribuzione completa (20 osservazioni)
+dati_c <- data.frame(punteggio = numeric(0), ymin = numeric(0), ymax = numeric(0))
+punteggi_completi <- rep(0:7, times = c(1, 2, 3, 4, 4, 3, 2, 1))
+for (p in punteggi_completi) {
+  dati_c <- aggiungi_osservazione(dati_c, p)
+}
+
+p_a <- disegna_quadratini(dati_a, "Una singola osservazione")
+p_b <- disegna_quadratini(dati_b, "Alcune osservazioni")
+p_c <- disegna_quadratini(dati_c, "Distribuzione completa")
+p_d <- disegna_quadratini(dati_c, "Distribuzione con soglia") +
+  geom_vline(xintercept = 0.5, linewidth = 1, colour = "steelblue", linetype=2)
+
+(p_a + p_b) / (p_c + p_d) +
+  plot_annotation(tag_levels = "a", tag_suffix = ")")
+```
+
+La @fig-classificazione-soglia riassume le due possibilità quando si classifica un punteggio rispetto ai dati normativi.
+
+```{r}
+#| label: fig-classificazione-soglia
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Classificazione di un punteggio rispetto ad una soglia. A sinistra, la distribuzione dei punteggi nel gruppo di riferimento (dati simulati): l'area a destra della soglia (in grigio) corrisponde ai punteggi considerati \"nella norma\", l'area a sinistra della soglia (in blu) ai punteggi con potenziale rilevanza clinica. A destra, la classificazione che ne risulta, a seconda che il punteggio osservato sia sopra o sotto la soglia."
+#| fig-width: 9
+#| fig-height: 4
+
+library(ggplot2)
+library(patchwork)
+
+soglia <- 13
+media <- 20
+sd_punteggio <- 4
+
+colori_soglia <- c(sopra = "grey70", sotto = "steelblue")
+alpha_soglia <- c(sopra = 1, sotto = 0.45)
+
+# pannello sinistro: densità con soglia, colorata diversamente sopra/sotto soglia
+x_sotto <- seq(0, soglia, length.out = 150)
+x_sopra <- seq(soglia, 30, length.out = 150)
+dens_sotto <- data.frame(punteggio = x_sotto,
+                          densita = dnorm(x_sotto, mean = media, sd = sd_punteggio),
+                          area = "sotto")
+dens_sopra <- data.frame(punteggio = x_sopra,
+                          densita = dnorm(x_sopra, mean = media, sd = sd_punteggio),
+                          area = "sopra")
+dens <- rbind(dens_sotto, dens_sopra)
+
+dens_contorno <- data.frame(punteggio = seq(0, 30, length.out = 300))
+dens_contorno$densita <- dnorm(dens_contorno$punteggio, mean = media, sd = sd_punteggio)
+
+p_densita <- ggplot(dens, aes(x = punteggio, y = densita)) +
+  geom_area(aes(fill = area, alpha = area), colour = NA) +
+  geom_line(data = dens_contorno, colour = "grey20", linewidth = 0.5) +
+  geom_vline(xintercept = soglia, linewidth = 1, colour = "black") +
+  scale_fill_manual(values = colori_soglia, guide = "none") +
+  scale_alpha_manual(values = alpha_soglia, guide = "none") +
+  scale_x_continuous(breaks = seq(0, 30, 5)) +
+  labs(x = "Punteggio", y = "Densità", title = "Distribuzione con soglia") +
+  theme_minimal(base_size = 12) +
+  theme(panel.grid = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.line = element_line(colour = "black"),
+        plot.title = element_text(size = 12, face = "italic"))
+
+# pannello destro: tabella risultato -> classificazione
+col1 <- list(min = 0.3, max = 1.9, centro = 1.1)
+col2 <- list(min = 2.0, max = 3.6, centro = 2.8)
+
+celle_tabella <- data.frame(
+  xmin = c(col1$min, col2$min, col1$min, col2$min),
+  xmax = c(col1$max, col2$max, col1$max, col2$max),
+  ymin = c(1.5, 1.5, 0.5, 0.5),
+  ymax = c(2.5, 2.5, 1.5, 1.5),
+  area = c("sopra", "sopra", "sotto", "sotto")
+)
+
+testo_tabella <- data.frame(
+  x = c(col1$centro, col2$centro, col1$centro, col2$centro, col1$centro, col2$centro),
+  y = c(3, 3, 2, 2, 1, 1),
+  testo = c("Risultato", "Classificazione",
+            "Sopra soglia", "Nella norma",
+            "Sotto soglia", "Potenziale\nrilevanza clinica"),
+  intestazione = c(TRUE, TRUE, FALSE, FALSE, FALSE, FALSE)
+)
+
+p_tabella <- ggplot() +
+  geom_rect(data = celle_tabella,
+            aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = area),
+            alpha = 0.25, colour = "grey40", linewidth = 0.6) +
+  geom_text(data = subset(testo_tabella, intestazione),
+            aes(x = x, y = y, label = testo), fontface = "bold", size = 4) +
+  geom_text(data = subset(testo_tabella, !intestazione),
+            aes(x = x, y = y, label = testo), size = 3.8, lineheight = 0.9) +
+  scale_fill_manual(values = colori_soglia, guide = "none") +
+  coord_cartesian(xlim = c(0, 4), ylim = c(0.3, 3.5)) +
+  labs(title = "Classificazione") +
+  theme_void(base_size = 12) +
+  theme(plot.title = element_text(size = 12, face = "italic"))
+
+p_densita + p_tabella + plot_layout(widths = c(1.2, 1))
+```
 
 ## Deficit e peggioramento {#deficit-peggioramenti}
 Prima di procedere con la nostra disamina dei principi alla base dei dati normativi, è importante definire alcuni importanti fondamentali, molto comuni nella neuropsicologica clinica: _deficit_, _peggioramento_, _compromissione_, _declino_[^def-norm].
