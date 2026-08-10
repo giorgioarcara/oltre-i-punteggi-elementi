@@ -124,17 +124,15 @@ Il primo concetto che approfondiremo in questo capitolo è proprio quello dei da
 :::{.callout-note}
 ## Definizione
 **Dati normativi**
-I dati normativi sono i dati di un gruppo di riferimento che ci aiutano a definire cosa si può intendere _nella norma_ o meno.
+I dati normativi sono i dati di un gruppo di riferimento che ci aiutano a definire cosa si può intendere _nella norma_ o meno. In genere consiste in un gruppo di persone considerate _sane_, in quanto prive di disturbi del neurosviluppo o di altri disturbi psichiatrici o neurologici noti.
 :::
 
+Già questa prima definizione apre una una serie di domande non banali. Cosa si intende esattamente per essere "normali"? Come vedremo nell'approfondimento nel paragrafo Focus: normalità nella neuropsicologia dell'adulto e dell'età evolutiva, non sempre i criteri usati sono gli stessi. La definizione riportata sopra è però comunque una delle più diffuse e certamente una delle più comunemente utilizzate.
 
-:::{.callout-note}
-## Definizione
-**Nella norma**
-Con questa locuzione si intende che un punteggio è rispetto ai dati normativi, entro una soglia che ci aiuta a identificare prestazioni potenzialmenta anomale.
-:::
+Il modo più semplice per familiarizzare con i dati normativi è immaginare come avviene la loro raccolta. La @fig-costruzione-istogramma illustra questo processo passo per passo. Immaginiamo di voler raccogliere i dati normativi di un test, il cui punteggio spazia da 0 a 7. Identifichiamo dei potenziali candidati -sani- e somministriamo loro il test (un approfondimento di questa fase si trova in Focus: potenziali bias di selezione nei dati normativi <!-- NOTA GIORGIO: amplia qui-->). 
+Raccogliamo i dati da un primo individuo, che ottiene un punteggio pari a 2. Questa osservazione è rappresentata da un quadratino (vedi @fig-costruzione-istogramma, pannello _a_). 
+Aggiungiamo adesso altre due osservazioni, due altri individui ottengono il punteggio di 2 e 5 (pannello _b_). Notare che nel caso del punteggio 2, c'è già un osservazione per quel punteggio e la nuova osservazione va impilata con quella già esistente. Aggiungiamo infine altre 17 osservazioni, che ci portano ad avere la distribuzione che è riportata nel pannello _c_. Una volta ottenuta questa distribuzione di dati (immaginando che la riteniamo sia sufficiente), è possibile individuare eventualmente una soglia (d), che useremo per facilitare le interpretazione dei punteggi.
 
-Da un punto di vista pratico, una distribuzione di dati normativi non è altro che l'insieme delle singole osservazioni raccolte da un gruppo di riferimento. La @fig-costruzione-istogramma illustra questa idea passo per passo. Immaginiamo di raccogliere deisi parte da una singola osservazione, un'individuo ottiene un punteggio pari a 2 (a). Questa osservazione è rappresentata da un quadratino. Aggiungiamo adesso altre due osservazioni, due altri individuoi ottengono il punteggio di 2 e 5 (b). Se c'è già un osservazione per quel punteggio va impilata con quele esistenti. Aggiungiamo infine altre 17 osservazioni, che ci portano ad avere la distribuzione che è riportata nel pannello (c). Una volta ottenuta questa distribuzione di dati (immaginando che riteniamo sia sufficiente), è possibile individuare eventualmente una soglia (d), che useremo per facilitare le interpretazione dei punteggi.
 
 ```{r}
 #| label: fig-costruzione-istogramma
@@ -214,14 +212,23 @@ p_d <- disegna_quadratini(dati_c, "Distribuzione con soglia") +
   plot_annotation(tag_levels = "a", tag_suffix = ")")
 ```
 
-La @fig-classificazione-soglia riassume le due possibilità quando si classifica un punteggio rispetto ai dati normativi.
+
+Questa soglia ci permette di introdurre un nuovo termine, apparentemente simile ma con una sfumatura diversa, essere _nella norma_.
+
+:::{.callout-note}
+## Definizione
+**Nella norma**
+Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, entro una soglia che ci aiuta a identificare prestazioni potenzialmenta anomale. In genere si considera nella norma un punteggio che è uguale o al di sopra del 5% delle prestazioni più basse.
+:::
+
+Siamo partiti da una distribuzione di persone che consideriamo _sane_ o normali e i dati normativi di hanno permesso di ottenere una soglia che ci permette di classificare delle prestazioni come _nella norma_ oppure come _deficitaria_.
 
 ```{r}
 #| label: fig-classificazione-soglia
 #| echo: false
 #| warning: false
 #| message: false
-#| fig-cap: "Classificazione di un punteggio rispetto ad una soglia. A sinistra, la distribuzione dei punteggi nel gruppo di riferimento (dati simulati): l'area a destra della soglia (in grigio) corrisponde ai punteggi considerati \"nella norma\", l'area a sinistra della soglia (in blu) ai punteggi con potenziale rilevanza clinica. A destra, la classificazione che ne risulta, a seconda che il punteggio osservato sia sopra o sotto la soglia."
+#| fig-cap: "Classificazione di un punteggio rispetto ad una soglia. A sinistra, la distribuzione dei punteggi nel gruppo di riferimento (dati simulati): l'area a destra della soglia (in grigio) corrisponde ai punteggi considerati \"nella norma\", l'area a sinistra della soglia (in blu) ai punteggi considerati \"deficitari\". A destra, la classificazione che ne risulta, a seconda che il punteggio osservato sia sopra o sotto la soglia."
 #| fig-width: 9
 #| fig-height: 4
 #| fig-dpi: 200
@@ -254,7 +261,7 @@ dens_contorno$densita <- dnorm(dens_contorno$punteggio, mean = media, sd = sd_pu
 p_densita <- ggplot(dens, aes(x = punteggio, y = densita)) +
   geom_area(aes(fill = area, alpha = area), colour = NA) +
   geom_line(data = dens_contorno, colour = "grey20", linewidth = 0.5) +
-  geom_vline(xintercept = soglia, linewidth = 1, colour = "black") +
+  geom_vline(xintercept = soglia, linewidth = 1, colour = "steelblue") +
   scale_fill_manual(values = colori_soglia, guide = "none") +
   scale_alpha_manual(values = alpha_soglia, guide = "none") +
   scale_x_continuous(breaks = seq(0, 30, 5)) +
@@ -283,7 +290,7 @@ testo_tabella <- data.frame(
   y = c(3, 3, 2, 2, 1, 1),
   testo = c("Risultato", "Classificazione",
             "Sopra soglia", "Nella norma",
-            "Sotto soglia", "Potenziale\nrilevanza clinica"),
+            "Sotto soglia", "Deficitario"),
   intestazione = c(TRUE, TRUE, FALSE, FALSE, FALSE, FALSE)
 )
 
@@ -303,6 +310,37 @@ p_tabella <- ggplot() +
 
 p_densita + p_tabella + plot_layout(widths = c(1.2, 1))
 ```
+
+
+L'uso del termine deficitario potrebbe sembrare piuttosto "pericoloso", ma in questo caso è cogente perchè è proprio in questa maniera che definiamo un punteggio deficitario (o più genericamente "un deficit", vedi anche @deficit-peggioramenti). Definiamo un punteggio deficitario come un punteggio dal di sotto di una soglia. Ci sono alcuni punti che conseguono da questa definizione che è importante sottolineare
+
+La definizione di deficit non implica necessariamente una _disabilità_ o una qualche forma di problema grave. Anzi i due concetti non sono sovrapposti. Abbiamo definito il deficit a partire dalla prestazione dei normali, senza tirarare in causa persone che avessero un qualche tipo di problema.
+
+Utilizzando questa definizione di prestazione deficitaria, anche i soggetti che assumevamo essere _sani_ possono avere delle prestazioni deficitarie. Questa potrebbe sembrare un'affermazione paradossale. Ma risulta invece ovvia quando si vede la @fig-costruzione-istogramma. Proprio perchè definiamo la nostra soglia come il valore che delimita le prestazioni più basse dei sani, inevitabilmente alcuni dei sani otterrano quel valore. Ci troviamo quindi di fronte ad una sorta di paradosso già in partenza, definiamo _deficitarie_ alcune prestazioni di individui sani. 
+
+:::{.callout-important}
+Per il modo in cui vengono definite, sulla base dei dati normativi, le soglie che separano le prestazioni nella norma da quelle deficitarie, una certa percentuale di soggetti sani — compresi alcuni individui del campione normativo — otterrà punteggi classificati come _deficitari_. Non si tratta di un’anomalia, ma di una conseguenza inevitabile del principio utilizzato per stabilire la soglia.
+:::
+
+Questa apparente stranezza diventa ancora più tale se facciamo un piccolo esperimento mentale. Immaginate di raccogliere i dati su una variabile qualsiasi, ad esempio l'altezza, di un gruppo di persone. Sono tutte persone che non hanno particolari problemi nella vita quotidiana e quindi consideriamo _sane_ nel senso utilizzato finora per i dati normativi. Immaginate di costruire un grafico come quello riportato nella @fig-costruzione-istogramma e di calcolare quindi una soglia con lo stesso principio e di ottenere il valore 145 cm. Utilizzando la definizione di sopra (di classificazione di valori al di sotto della soglia come deficitaria), stiamo definendo che quei valori sono _deficitari_ e non, semplicemente, molto bassi. Questa conclusione potrebbe sembrare stridente, ma è una naturale conseguenza della definizione da cui siamo partite.
+Questa conseguenza diventa ancora più rilevante se applicata nell'ambito dei disturbi evolutivi: la comune soglia utilizzata per la soglia di deficit, fa sì che prendendo qualsiasi gruppo di bambini _sani_, inevitabilmente parte di essi otterranno punteggi "deficitari" (per definizione, circa il 5% di quelli che hanno composto i dati normativi, e all'incirca la stessa percentuale se si facessero molte classificazioni di bambini "normali").
+
+:::{.callout-important}
+La definizione di deficit a partire dalla definizione è di cui sopra tende a confondere perché alla parola "deficit", associamo automaticamente, problemi nella vita quotidiana, disabilità o gravi mancanze, ma queste non sono necessariamente presenti in persone con prestazioni deficitarie.
+:::
+
+Questa definizione e queste considerazioni non sono problematiche in sé, ma è utile sottolinearle per chiarire che, nel momento che utilizziamo i dati normativi per delle classificazioni, questa è proprio la definizione che abbiamo dato di prestazione deficitaria, identificato come prestazione al di là di un valore soglia (statistica).
+
+<!-- NOTA GIORGIO: qui stai usando "punteggio deficitario", ma dopo "deficit". Da chiarire! -->
+## Perché usiamo i dati normativi per definire i deficit?
+Una domanda lecita che potrebbe sorgere è: perché utilizziamo i dati normativi per definire i deficit? 
+Per esempio, non potrebbe essere più semplice prendere dei pazienti con problemi di memoria e usare loro come _criterio_ (vedi @validita-criterio)?. Questo approccio sposterebbe il problema perché non definiremmo più il deficit esclusivamente a partire dai sani, e aprirebbe tutta una serie di scenari analitici (approfonditi nel capitolo 4), molto più dettagliati.
+Il perché questo non avviene è molto semplice e ancora una volta si può risolvere con un semplice esperimento mentale. 
+Immaginiamo di voler adottare questo approccio e quindi selezionare delle persone con problemi di memoria e utilizzare un test per trovare la soglia ottimale che discrimina tra persone con deficit di memoria da persone sane. Il problema si pone già subito: come definireste le persone con problemi di memoria? Qui volutamente non ho definito "con deficit di memoria", ma di fatto è lo stesso, a meno di non fornire una definizione dettagliata di "problema" di memoria. 
+Si potrebbe pensare di utilizzare un altro test o un altro metodo che ci identifichi il deficit/problema di memoria, ma avremmo solo rinviato il problema. Il secondo test, infatti, avrebbe lo stesso problema del primo test: come definire il deficit/problema di memoria? Potremmo immaginare che il secondo test dovrebbe fare riferimento ad un terzo e così via, di fatto portando ad un _regressus ad infinitum_, che certamente non porterebbe ad alcuna soluzione.
+
+La ragione per cui usiamo i dati normativi può essere considerata come molto pragmatica: proprio poiché _non sappiamo bene come definire il deficit, lo definiamo come prestazione tra le più basse ottenute tra soggetti sani_.
+
 
 ## Deficit e peggioramento {#deficit-peggioramenti}
 Prima di procedere con la nostra disamina dei principi alla base dei dati normativi, è importante definire alcuni importanti fondamentali, molto comuni nella neuropsicologica clinica: _deficit_, _peggioramento_, _compromissione_, _declino_[^def-norm].
