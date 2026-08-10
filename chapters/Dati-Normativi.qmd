@@ -24,6 +24,8 @@ La @fig-punteggio-20 illustra questo concetto con due gruppi di riferimento simu
 #| fig-cap: "Lo stesso punteggio (20) con due significati opposti, a seconda della distribuzione dei punteggi nel gruppo di riferimento (dati simulati). A sinistra, un test in cui la maggior parte delle persone ottiene punteggi relativamente alti: 20 cade nella coda bassa della distribuzione. A destra, un test in cui la maggior parte delle persone ottiene punteggi intorno a 15, quindi più bassi: lo stesso punteggio di 20 sarebbe considerato molto alto."
 #| fig-width: 9
 #| fig-height: 4
+#| fig-dpi: 200
+#| out-height: "250%"
 
 library(ggplot2)
 library(patchwork)
@@ -125,15 +127,182 @@ Il primo concetto che approfondiremo in questo capitolo è proprio quello dei da
 I dati normativi sono i dati di un gruppo di riferimento che ci aiutano a definire cosa si può intendere _nella norma_ o meno.
 :::
 
+
 :::{.callout-note}
 ## Definizione
 **Nella norma**
 Con questa locuzione si intende che un punteggio è rispetto ai dati normativi, entro una soglia che ci aiuta a identificare prestazioni potenzialmenta anomale.
 :::
 
-La figura di seguito riassume le due possibilità quando si classifica un punteggio rispetto ai dati normativi. 
+Da un punto di vista pratico, una distribuzione di dati normativi non è altro che l'insieme delle singole osservazioni raccolte da un gruppo di riferimento. La @fig-costruzione-istogramma illustra questa idea passo per passo. Immaginiamo di raccogliere deisi parte da una singola osservazione, un'individuo ottiene un punteggio pari a 2 (a). Questa osservazione è rappresentata da un quadratino. Aggiungiamo adesso altre due osservazioni, due altri individuoi ottengono il punteggio di 2 e 5 (b). Se c'è già un osservazione per quel punteggio va impilata con quele esistenti. Aggiungiamo infine altre 17 osservazioni, che ci portano ad avere la distribuzione che è riportata nel pannello (c). Una volta ottenuta questa distribuzione di dati (immaginando che riteniamo sia sufficiente), è possibile individuare eventualmente una soglia (d), che useremo per facilitare le interpretazione dei punteggi.
 
-<!-- inserisci qui figura con due pannelli a sinistra  c'è distribuzione con soglia. A destra e le due classificazione con punteggio inferiore o superiori a soglia. I colori richiamano la parte della distribuzione in cui si ricade -->
+```{r}
+#| label: fig-costruzione-istogramma
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Costruzione di una distribuzione di dati normativi a partire dalle singole osservazioni. In (a) è rappresentata una sola osservazione (punteggio = 5). In (b) sono rappresentate tre osservazioni (un punteggio di 2 e due punteggi di 5): ogni osservazione è visibile come un singolo quadratino, cosicché un punteggio ottenuto da più persone sia rappresentato da più quadratini impilati. In (c) è rappresentata una distribuzione completa, costruita impilando ogni singola osservazione di un ipotetico gruppo di riferimento di 20 persone. In (d) alla stessa distribuzione è stata aggiunta una soglia (linea verticale), che permette di distinguere le prestazioni considerate \"nella norma\" da quelle che non lo sono. (Adattato da Mondini, Mapelli, Arcara, Semeiotica e diagnosi neuropsicologica)"
+#| fig-width: 8
+#| fig-height: 6
+#| fig-dpi: 200
+#| out-width: "80%"
+
+library(ggplot2)
+library(patchwork)
+
+# funzione ad hoc: aggiunge una singola osservazione ad un data.frame di
+# quadratini, impilandola sopra le osservazioni già presenti per lo stesso
+# punteggio. Usarla più volte (una per osservazione) rende facile
+# aggiungere/togliere singole osservazioni per costruire ciascun pannello.
+aggiungi_osservazione <- function(dati, punteggio) {
+  n_gia_presenti <- sum(dati$punteggio == punteggio)
+  nuova_osservazione <- data.frame(
+    punteggio = punteggio,
+    ymin = n_gia_presenti,
+    ymax = n_gia_presenti + 1
+  )
+  rbind(dati, nuova_osservazione)
+}
+
+distanza_pannelli <- 15  # spazio tra i pannelli (punti): aumenta/diminuisci per più/meno distanza
+
+tema_quadratini <- theme_minimal(base_size = 12) +
+  theme(panel.grid = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.line = element_line(colour = "black"),
+        plot.title = element_text(size = 12, face = "italic"),
+        plot.margin = margin(t = distanza_pannelli, r = distanza_pannelli,
+                              b = distanza_pannelli, l = distanza_pannelli),
+        aspect.ratio = 1)
+
+disegna_quadratini <- function(dati, titolo) {
+  ggplot(dati) +
+    geom_rect(aes(xmin = punteggio - 0.5, xmax = punteggio + 0.5,
+                   ymin = ymin, ymax = ymax),
+              fill = "grey75", colour = "grey40") +
+    scale_x_continuous(limits = c(-0.5, 7.5), breaks = 0:7) +
+    scale_y_continuous(limits = c(0, 8)) +
+    labs(x = "Punteggio osservato", y = "Numero di osservazioni", title = titolo) +
+    tema_quadratini
+}
+
+# pannello a: una sola osservazione
+dati_a <- data.frame(punteggio = numeric(0), ymin = numeric(0), ymax = numeric(0))
+dati_a <- aggiungi_osservazione(dati_a, 5)
+
+# pannello b: tre osservazioni
+dati_b <- data.frame(punteggio = numeric(0), ymin = numeric(0), ymax = numeric(0))
+dati_b <- aggiungi_osservazione(dati_b, 2)
+dati_b <- aggiungi_osservazione(dati_b, 5)
+dati_b <- aggiungi_osservazione(dati_b, 5)
+
+# pannelli c e d: distribuzione completa (20 osservazioni)
+dati_c <- data.frame(punteggio = numeric(0), ymin = numeric(0), ymax = numeric(0))
+punteggi_completi <- rep(0:7, times = c(1, 2, 3, 4, 4, 3, 2, 1))
+for (p in punteggi_completi) {
+  dati_c <- aggiungi_osservazione(dati_c, p)
+}
+
+p_a <- disegna_quadratini(dati_a, "Una singola osservazione")
+p_b <- disegna_quadratini(dati_b, "Alcune osservazioni")
+p_c <- disegna_quadratini(dati_c, "Distribuzione completa")
+p_d <- disegna_quadratini(dati_c, "Distribuzione con soglia") +
+  geom_vline(xintercept = 0.5, linewidth = 1, colour = "steelblue", linetype=2)
+
+(p_a + p_b) / (p_c + p_d) +
+  plot_annotation(tag_levels = "a", tag_suffix = ")")
+```
+
+La @fig-classificazione-soglia riassume le due possibilità quando si classifica un punteggio rispetto ai dati normativi.
+
+```{r}
+#| label: fig-classificazione-soglia
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Classificazione di un punteggio rispetto ad una soglia. A sinistra, la distribuzione dei punteggi nel gruppo di riferimento (dati simulati): l'area a destra della soglia (in grigio) corrisponde ai punteggi considerati \"nella norma\", l'area a sinistra della soglia (in blu) ai punteggi con potenziale rilevanza clinica. A destra, la classificazione che ne risulta, a seconda che il punteggio osservato sia sopra o sotto la soglia."
+#| fig-width: 9
+#| fig-height: 4
+#| fig-dpi: 200
+#| out-width: "100%"
+
+library(ggplot2)
+library(patchwork)
+
+soglia <- 13
+media <- 20
+sd_punteggio <- 4
+
+colori_soglia <- c(sopra = "grey70", sotto = "steelblue")
+alpha_soglia <- c(sopra = 1, sotto = 0.45)
+
+# pannello sinistro: densità con soglia, colorata diversamente sopra/sotto soglia
+x_sotto <- seq(0, soglia, length.out = 150)
+x_sopra <- seq(soglia, 30, length.out = 150)
+dens_sotto <- data.frame(punteggio = x_sotto,
+                          densita = dnorm(x_sotto, mean = media, sd = sd_punteggio),
+                          area = "sotto")
+dens_sopra <- data.frame(punteggio = x_sopra,
+                          densita = dnorm(x_sopra, mean = media, sd = sd_punteggio),
+                          area = "sopra")
+dens <- rbind(dens_sotto, dens_sopra)
+
+dens_contorno <- data.frame(punteggio = seq(0, 30, length.out = 300))
+dens_contorno$densita <- dnorm(dens_contorno$punteggio, mean = media, sd = sd_punteggio)
+
+p_densita <- ggplot(dens, aes(x = punteggio, y = densita)) +
+  geom_area(aes(fill = area, alpha = area), colour = NA) +
+  geom_line(data = dens_contorno, colour = "grey20", linewidth = 0.5) +
+  geom_vline(xintercept = soglia, linewidth = 1, colour = "black") +
+  scale_fill_manual(values = colori_soglia, guide = "none") +
+  scale_alpha_manual(values = alpha_soglia, guide = "none") +
+  scale_x_continuous(breaks = seq(0, 30, 5)) +
+  labs(x = "Punteggio", y = "Densità", title = "Distribuzione con soglia") +
+  theme_minimal(base_size = 12) +
+  theme(panel.grid = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.line = element_line(colour = "black"),
+        plot.title = element_text(size = 12, face = "italic"))
+
+# pannello destro: tabella risultato -> classificazione
+col1 <- list(min = 0.3, max = 1.9, centro = 1.1)
+col2 <- list(min = 2.0, max = 3.6, centro = 2.8)
+
+celle_tabella <- data.frame(
+  xmin = c(col1$min, col2$min, col1$min, col2$min),
+  xmax = c(col1$max, col2$max, col1$max, col2$max),
+  ymin = c(1.5, 1.5, 0.5, 0.5),
+  ymax = c(2.5, 2.5, 1.5, 1.5),
+  area = c("sopra", "sopra", "sotto", "sotto")
+)
+
+testo_tabella <- data.frame(
+  x = c(col1$centro, col2$centro, col1$centro, col2$centro, col1$centro, col2$centro),
+  y = c(3, 3, 2, 2, 1, 1),
+  testo = c("Risultato", "Classificazione",
+            "Sopra soglia", "Nella norma",
+            "Sotto soglia", "Potenziale\nrilevanza clinica"),
+  intestazione = c(TRUE, TRUE, FALSE, FALSE, FALSE, FALSE)
+)
+
+p_tabella <- ggplot() +
+  geom_rect(data = celle_tabella,
+            aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = area),
+            alpha = 0.25, colour = "grey40", linewidth = 0.6) +
+  geom_text(data = subset(testo_tabella, intestazione),
+            aes(x = x, y = y, label = testo), fontface = "bold", size = 4) +
+  geom_text(data = subset(testo_tabella, !intestazione),
+            aes(x = x, y = y, label = testo), size = 3.8, lineheight = 0.9) +
+  scale_fill_manual(values = colori_soglia, guide = "none") +
+  coord_cartesian(xlim = c(0, 4), ylim = c(0.3, 3.5)) +
+  labs(title = "Classificazione") +
+  theme_void(base_size = 12) +
+  theme(plot.title = element_text(size = 12, face = "italic"))
+
+p_densita + p_tabella + plot_layout(widths = c(1.2, 1))
+```
 
 ## Deficit e peggioramento {#deficit-peggioramenti}
 Prima di procedere con la nostra disamina dei principi alla base dei dati normativi, è importante definire alcuni importanti fondamentali, molto comuni nella neuropsicologica clinica: _deficit_, _peggioramento_, _compromissione_, _declino_[^def-norm].
@@ -205,16 +374,18 @@ Nel discutere di deficit e peggioramento abbiamo sottolineato quanto è importan
 
 In breve, il motivo per cui è importante distinguere questi termini è perché le condizioni che descrivono sono ortogonali: possiamo avere deficit con o senza peggioramento, o un peggioramento, ma con o senza deficit. 
 
-La @fig-compromissione-declino illustra questa distinzione con dati fittizi: a sinistra due casi di compromissione, in cui il punteggio scende bruscamente dopo una ipotetica prima valutazione avvenuta prima dell'evento acuto e lesivo; a destra due casi di declino, in cui il punteggio peggiora in modo graduale, valutazione dopo valutazione. In entrambi i pannelli, in un caso (linea in nero) il punteggio finisce sotto la soglia per il deficit, mentre nell'altro (linea in grigio) resta sempre sopra la soglia di deficit.
+La @fig-compromissione-declino illustra questa distinzione con dati fittizi: a sinistra due casi di compromissione, in cui il punteggio scende bruscamente dopo una ipotetica prima valutazione avvenuta prima dell'evento acuto e lesivo; a destra due casi di declino, in cui il punteggio peggiora in modo graduale, valutazione dopo valutazione. Tutte le traiettorie, in entrambi i pannelli, partono dallo stesso punto, perché prima dell'evento acuto (o dell'inizio della degenerazione) non c'è ancora nessuna differenza da osservare. In un caso (triangoli, linea nera tratteggiata) il punteggio finisce sotto la soglia per il deficit, in un altro (diamanti, linea grigia tratteggiata) resta sempre sopra la soglia. Come riferimento, è riportato anche un profilo di prestazione attesa (cerchi, linea grigia continua), che a differenza delle traiettorie di sviluppo viste più avanti in questo capitolo è qui stabile nel tempo, dato che nell'adulto non ci si attende una crescita ma il mantenimento del livello di funzionamento raggiunto.
 
 ```{r}
 #| label: fig-compromissione-declino
 #| echo: false
 #| warning: false
 #| message: false
-#| fig-cap: "Andamento simulato del punteggio a un test in dieci valutazioni ripetute nel tempo, per due casi di compromissione (a sinistra) e due casi di declino (a destra). La linea tratteggiata orizzontale indica la soglia per il deficit; la linea sottile verticale indica il momento dell'evento acuto (a sinistra) o dell'inizio della malattia degenerativa (a destra). A sinistra il punteggio, alto e simile nei due casi a $t_0$, scende bruscamente subito dopo e poi resta stabile (a parte le oscillazioni dovute all'errore di misurazione): il caso grigio resta sopra soglia (nessun deficit), il caso nero scende sotto soglia e vi resta (deficit). A destra il punteggio peggiora invece in modo graduale nelle valutazioni successive: il caso grigio non raggiunge mai la soglia, il caso nero la supera verso il basso ad un certo punto."
+#| fig-cap: "Andamento simulato del punteggio a un test in dieci valutazioni ripetute nel tempo, per due casi di compromissione (a sinistra) e due casi di declino (a destra), con lo stesso schema di colori/simboli usato per le traiettorie ipotetiche nella @fig-traiettoria-sviluppo (solo nero o scale di grigio). Tutte le traiettorie partono dallo stesso punto, prima dell'evento acuto o dell'inizio della degenerazione (linea sottile verticale). Il profilo \"Performance attesa\" (cerchi, linea continua) rappresenta l'andamento, stabile nel tempo, di una persona senza peggioramento. Il caso \"Deficit non raggiunto\" (diamanti, linea tratteggiata) si allontana dalla prestazione attesa ma resta sempre sopra la soglia per il deficit (linea tratteggiata orizzontale). Il caso \"Deficit raggiunto\" (triangoli, linea tratteggiata) scende sotto la soglia: bruscamente e poi stabilmente a sinistra, gradualmente a destra."
 #| fig-width: 9
 #| fig-height: 4.5
+#| fig-dpi: 200
+#| out-width: "100%"
 
 library(ggplot2)
 library(patchwork)
@@ -250,7 +421,37 @@ soglia_layer <- list(
            colour = "steelblue", fontface = "italic", size = 3.3)
 )
 
-colori_casi <- scale_colour_manual(values = c("Deficit raggiunto" = "black", "Deficit non raggiunto" = "grey60"))
+# Schema di colori/simboli/linetype coerente con quello usato per le traiettorie ipotetiche
+# nella @fig-traiettoria-sviluppo: solo nero o scale di grigio (niente azzurro), cerchio/linea
+# continua per il profilo "in linea con le attese", diamante/tratteggiata per lo scarto che
+# resta nella norma, triangolo/tratteggiata per lo scarto che raggiunge il deficit
+colori_casi <- scale_colour_manual(values = c("Performance attesa" = "grey35",
+                                               "Deficit raggiunto" = "black",
+                                               "Deficit non raggiunto" = "grey60"))
+forme_casi <- scale_shape_manual(values = c("Performance attesa" = 16,
+                                             "Deficit raggiunto" = 17,
+                                             "Deficit non raggiunto" = 18))
+linee_casi <- scale_linetype_manual(values = c("Performance attesa" = "solid",
+                                                "Deficit raggiunto" = "dashed",
+                                                "Deficit non raggiunto" = "dashed"))
+
+# Livello "vero" comune a tutte le traiettorie prima dell'evento/dell'inizio della degenerazione
+# e valore stabile del profilo di prestazione attesa (nessun peggioramento): a differenza della
+# traiettoria attesa crescente delle figure sull'età evolutiva, qui è piatto nel tempo
+livello_iniziale <- 28
+vero_attesa <- rep(livello_iniziale, n_tempi)
+
+# Punto osservato a t0, condiviso da tutte le traiettorie (in entrambi i pannelli): prima
+# dell'evento acuto o dell'inizio della degenerazione non c'è ancora nessuna differenza da
+# osservare, quindi tutte le linee devono partire esattamente dallo stesso punto
+punto_iniziale <- aggiungi_errore_misura(livello_iniziale)
+
+# Funzione modulare per costruire una traiettoria che condivide con le altre lo stesso punto
+# osservato a t0 ("punto_iniziale"), e prosegue poi con il proprio andamento "vero" (con il suo
+# errore di misurazione indipendente) per le valutazioni successive
+costruisci_traiettoria_condivisa <- function(vero) {
+  c(punto_iniziale, aggiungi_errore_misura(vero[-1]))
+}
 
 # Linea sottile verticale che segna il momento dell'evento/inizio del peggioramento,
 # posizionata subito dopo t0 (tra la prima e la seconda valutazione)
@@ -269,50 +470,60 @@ degenerazione_layer <- list(
 )
 
 # --- Pannello sinistro: compromissione (peggioramento improvviso e poi stabile) ---
-vero_compr_deficit    <- c(28, rep(13, n_tempi - 1))
-vero_compr_no_deficit <- c(27, rep(19, n_tempi - 1))
+# Tutte le traiettorie partono dallo stesso punto (livello_iniziale), prima dell'evento acuto
+vero_compr_deficit    <- c(livello_iniziale, rep(13, n_tempi - 1))
+vero_compr_no_deficit <- c(livello_iniziale, rep(19, n_tempi - 1))
 
 dat_compr <- data.frame(
-  tempo = rep(tempi, 2),
-  punteggio = c(aggiungi_errore_misura(vero_compr_deficit),
-                aggiungi_errore_misura(vero_compr_no_deficit)),
-  caso = rep(c("Deficit raggiunto", "Deficit non raggiunto"), each = n_tempi)
+  tempo = rep(tempi, 3),
+  punteggio = c(costruisci_traiettoria_condivisa(vero_attesa),
+                costruisci_traiettoria_condivisa(vero_compr_deficit),
+                costruisci_traiettoria_condivisa(vero_compr_no_deficit)),
+  caso = rep(c("Performance attesa", "Deficit raggiunto", "Deficit non raggiunto"), each = n_tempi)
 )
+dat_compr$caso <- factor(dat_compr$caso, levels = c("Performance attesa", "Deficit raggiunto", "Deficit non raggiunto"))
 
-p_compr <- ggplot(dat_compr, aes(x = tempo, y = punteggio, colour = caso)) +
+p_compr <- ggplot(dat_compr, aes(x = tempo, y = punteggio, colour = caso, shape = caso, linetype = caso)) +
   soglia_layer +
   evento_layer +
   geom_line(linewidth = 0.8) +
-  geom_point(size = 2, shape="square") +
+  geom_point(size = 2.3) +
   colori_casi +
+  forme_casi +
+  linee_casi +
   scale_x_continuous(breaks = tempi) +
-  coord_cartesian(ylim = c(5, 30)) +
-  labs(title = "Compromissione", x = "Tempo (valutazioni)", y = "Punteggio al test", colour = NULL) +
+  coord_cartesian(ylim = c(5, 31)) +
+  labs(title = "Compromissione", x = "Tempo (valutazioni)", y = "Punteggio al test", colour = NULL, shape = NULL, linetype = NULL) +
   tema_traiettorie
 
 # --- Pannello destro: declino (peggioramento graduale e progressivo) ---
-vero_decl_deficit    <- 28 - (tempi / (n_tempi - 1)) * 18
-vero_decl_no_deficit <- 28 - (tempi / (n_tempi - 1)) * 9
+# Tutte le traiettorie partono dallo stesso punto (livello_iniziale), prima dell'inizio della degenerazione
+vero_decl_deficit    <- livello_iniziale - (tempi / (n_tempi - 1)) * 18
+vero_decl_no_deficit <- livello_iniziale - (tempi / (n_tempi - 1)) * 9
 
 dat_decl <- data.frame(
-  tempo = rep(tempi, 2),
-  punteggio = c(aggiungi_errore_misura(vero_decl_deficit),
-                aggiungi_errore_misura(vero_decl_no_deficit)),
-  caso = rep(c("Deficit raggiunto", "Deficit non raggiunto"), each = n_tempi)
+  tempo = rep(tempi, 3),
+  punteggio = c(costruisci_traiettoria_condivisa(vero_attesa),
+                costruisci_traiettoria_condivisa(vero_decl_deficit),
+                costruisci_traiettoria_condivisa(vero_decl_no_deficit)),
+  caso = rep(c("Performance attesa", "Deficit raggiunto", "Deficit non raggiunto"), each = n_tempi)
 )
+dat_decl$caso <- factor(dat_decl$caso, levels = c("Performance attesa", "Deficit raggiunto", "Deficit non raggiunto"))
 
-p_decl <- ggplot(dat_decl, aes(x = tempo, y = punteggio, colour = caso)) +
+p_decl <- ggplot(dat_decl, aes(x = tempo, y = punteggio, colour = caso, shape = caso, linetype = caso)) +
   soglia_layer +
   degenerazione_layer +
   geom_line(linewidth = 0.8) +
-  geom_point(size = 2) +
+  geom_point(size = 2.3) +
   colori_casi +
+  forme_casi +
+  linee_casi +
   scale_x_continuous(breaks = tempi) +
-  coord_cartesian(ylim = c(5, 30)) +
-  labs(title = "Declino", x = "Tempo (valutazioni)", y = NULL, colour = NULL) +
+  coord_cartesian(ylim = c(5, 31)) +
+  labs(title = "Declino", x = "Tempo (valutazioni)", y = NULL, colour = NULL, shape = NULL, linetype = NULL) +
   tema_traiettorie
 
-p_compr + p_decl  & theme(legend.position = "bottom")# + plot_layout(guides = "collect")
+p_compr + p_decl + plot_layout(guides = "collect") & theme(legend.position = "bottom")
 ```
 
 La stessa distinzione è riassunta anche nella @fig-tabella-compromissione-declino, con un esempio per ciascuna combinazione.
@@ -325,6 +536,8 @@ La stessa distinzione è riassunta anche nella @fig-tabella-compromissione-decli
 #| fig-cap: "Sintesi delle quattro combinazioni illustrate nella @fig-compromissione-declino (compromissione/declino, con/senza deficit) relativi ad un disturbo acquisito, con un esempio clinico per ciascuna. Le colonne seguono lo stesso ordine della figura precedente; le etichette di riga riprendono gli stessi colori usati lì per i due casi (nero = deficit raggiunto, grigio = deficit non raggiunto)."
 #| fig-width: 7.5
 #| fig-height: 4
+#| fig-dpi: 200
+#| out-width: "100%"
 
 library(ggplot2)
 
@@ -397,18 +610,21 @@ In tal caso quello che spesso accade è quindi riferirsi ad una popolazione di r
 
 Non è difficile però considerare delle situazioni in cui avviene un _peggioramento_ che non è strettamente deficit anche nel caso di età evolutiva. Ipotizziamo per esempio una/un bambina/o che subisce un trauma cranico e dopo questa mostra un leggero peggioramento, senza che sia però classificabile come deficit. Questo sarebbe in tutto e per tutto simile a quanto descritto nella @fig-compromissione-declino (pannello di destra, linea nera). Sebbene sia teoricamente possibile, questo è raramente considerato come indagabile: in questo caso infatti è difficile distinguere un reale peggioramento (cioè leggero cambio della traiettoria di sviluppo), da quella che è invece la traiettoria già in essere per quell'individuo.
 
-La @fig-traiettoria-sviluppo illustra questo concetto con una traiettoria di sviluppo simulata: a partire dalla valutazione più recente (nota), si possono immaginare diverse traiettorie future, alcune in linea con la crescita attesa dal gruppo di riferimento, altre che se ne allontanano progressivamente fino a superare la soglia inferiore della fascia di normalità.
+La @fig-traiettoria-sviluppo illustra questi concetti con dati simulati, in un formato analogo alla @fig-compromissione-declino ma adattato alle traiettorie di sviluppo: a sinistra un possibile evento acuto (come un trauma cranico), a destra una crescita atipica che si allontana gradualmente da quella attesa. Una differenza importante rispetto alla figura sull'adulto: lì le due linee colorate erano due scenari alternativi completi; qui invece c'è una singola traiettoria osservata (nera), nota fino alla valutazione più recente, da cui si diramano diverse traiettorie future ipotetiche (grigie). Un'altra differenza è che, a differenza della soglia fissa della @fig-compromissione-declino, qui la normalità attesa è una fascia che cresce con l'età (in azzurro): non solo la soglia, ma la prestazione stessa è attesa in crescita.
 
 ```{r}
 #| label: fig-traiettoria-sviluppo
 #| echo: false
 #| warning: false
 #| message: false
-#| fig-cap: "Traiettoria di sviluppo simulata (linea nera, punti pieni) dalla valutazione a 1 anno fino alla valutazione più recente, a 4 anni. Da qui si diramano tre possibili traiettorie future ipotetiche, in grigio scuro e con linee più sottili di quella osservata: una in linea con la crescita attesa dal gruppo di riferimento (cerchi, linea continua), una con crescita più lenta ma ancora vicina alla soglia inferiore di normalità (diamanti, linea tratteggiata), e una con una crescita anomala, che scende subito sotto la fascia di normalità (triangoli, linea tratteggiata), indicando un possibile deficit nello sviluppo. La fascia colorata rappresenta l'intervallo di normalità (soglia superiore e inferiore) atteso in base al gruppo di riferimento, per ciascuna età."
-#| fig-width: 7.5
-#| fig-height: 5
+#| fig-cap: "Traiettoria di sviluppo simulata (linea nera, punti pieni) dalla valutazione a 1 anno fino alla valutazione più recente, a 4 anni, identica nei due pannelli. Da qui si diramano tre traiettorie future ipotetiche per pannello, tutte in grigio scuro e incluse nella stessa legenda della traiettoria osservata. A sinistra (Peggioramento acuto): un evento acuto (linea verticale) può causare un peggioramento improvviso del punteggio; una traiettoria non ne risente e prosegue come atteso (cerchi, linea continua), una scende ma resta entro la fascia di normalità (diamanti, linea tratteggiata), una scende al punto da uscire subito dalla fascia e vi resta (triangoli, linea tratteggiata). A destra (Crescita atipica): dallo stesso punto (linea verticale \"inizio della divergenza\") la crescita può proseguire in linea con l'attesa (cerchi, linea continua), rallentare restando comunque entro la fascia (diamanti, linea tratteggiata), oppure allontanarsene gradualmente fino a uscirne (triangoli, linea tratteggiata). La fascia colorata rappresenta, in entrambi i pannelli, l'intervallo di normalità (soglia superiore e inferiore) atteso dal gruppo di riferimento per ciascuna età."
+#| fig-width: 10
+#| fig-height: 5.5
+#| fig-dpi: 200
+#| out-width: "100%"
 
 library(ggplot2)
+library(patchwork)
 
 set.seed(100)
 
@@ -420,9 +636,9 @@ sd_errore <- 0.6
 # --- Parametro per mostrare (o no) la linea verticale che segna il momento della diramazione ---
 mostra_linea_evento <- TRUE
 
-# --- Parametro per impostare l'età (in anni) in cui avviene la diramazione: qualunque valore
-# tra 1 e max(eta) - 1, ad esempio anche 1 o 2 per una diramazione molto più precoce ---
-eta_diramazione <- 2   # ultima valutazione nota, da cui si "diramano" le traiettorie future
+# --- Parametro per impostare l'età (in anni) in cui avviene la diramazione, condiviso da
+# entrambi i pannelli: qualunque valore tra 1 e max(eta) - 1, ad esempio anche 1 o 2 ---
+eta_diramazione <- 4   # ultima valutazione nota, da cui si "diramano" le traiettorie future
 
 # Funzione modulare: aggiunge (o no) l'errore di misurazione a una traiettoria di punteggi veri
 aggiungi_errore_misura <- function(valori, sd = sd_errore, includi = includi_errore_misura) {
@@ -435,7 +651,8 @@ aggiungi_errore_misura <- function(valori, sd = sd_errore, includi = includi_err
 
 eta <- 1:10
 
-# Traiettoria attesa dal gruppo di riferimento, con fascia di normalità (soglie superiore e inferiore)
+# Traiettoria attesa dal gruppo di riferimento, con fascia di normalità (soglie superiore e
+# inferiore): condivisa da entrambi i pannelli
 traiettoria_attesa <- 5 + 1.8 * eta
 banda_ampiezza <- 3.5 + 0.2 * eta
 
@@ -446,14 +663,87 @@ dat_banda <- data.frame(
   soglia_inf = traiettoria_attesa - banda_ampiezza
 )
 
-# Traiettoria osservata (nera): sviluppo reale fino alla valutazione attuale
+banda_layer <- list(
+  geom_ribbon(data = dat_banda, aes(x = eta, ymin = soglia_inf, ymax = soglia_sup),
+              fill = "steelblue", alpha = 0.15, inherit.aes = FALSE),
+  annotate("text", x = 9, y = dat_banda$soglia_sup[dat_banda$eta == 9], label = "fascia di normalità attesa",
+           hjust = 1, vjust = -0.6, colour = "steelblue", fontface = "italic", size = 3.3)
+)
+
+# Traiettoria osservata (nera): sviluppo reale fino alla valutazione attuale, condivisa da
+# entrambi i pannelli. Entra anche lei nella variabile "traiettoria", come livello aggiuntivo,
+# così da comparire nella stessa legenda delle traiettorie future ipotetiche
 eta_oss <- 1:eta_diramazione
 dat_oss <- data.frame(
   eta = eta_oss,
-  punteggio = aggiungi_errore_misura(5 + 1.8 * eta_oss)
+  punteggio = aggiungi_errore_misura(5 + 1.8 * eta_oss),
+  traiettoria = "Traiettoria osservata"
 )
 
 punto_diramazione <- dat_oss$punteggio[dat_oss$eta == eta_diramazione]
+
+# Funzione modulare per la linea verticale (opzionale, vedi "mostra_linea_evento") che segna la
+# diramazione, con etichetta specifica per ciascun pannello (come "evento acuto"/"inizio
+# degenerazione" nella @fig-compromissione-declino)
+linea_diramazione_layer <- function(etichetta) {
+  if (!mostra_linea_evento) return(NULL)
+  list(
+    geom_vline(xintercept = eta_diramazione, colour = "grey40", linewidth = 0.5),
+    annotate("text", x = eta_diramazione, y = Inf, label = etichetta,
+             vjust = 1.5, hjust = -0.05, colour = "grey40", fontface = "italic", size = 3.3)
+  )
+}
+
+# --- Pannello sinistro: peggioramento acuto ---
+
+# Funzione modulare per costruire una traiettoria che, subito dopo l'evento acuto, scende di
+# "entita_peggioramento" punti rispetto alla crescita attesa, e da lì prosegue con un tasso di
+# crescita "rate" rispetto a quella attesa dal gruppo di riferimento (rate = 1, il valore di
+# default, significa che lo scarto dalla norma introdotto dall'evento resta costante nel tempo)
+costruisci_traiettoria_con_peggioramento_acuto <- function(entita_peggioramento, rate = 1, etichetta) {
+  eta_futuro <- (eta_diramazione + 1):max(eta)
+  incremento_atteso <- (5 + 1.8 * eta_futuro) - (5 + 1.8 * eta_diramazione)
+  valore_dopo_evento <- punto_diramazione - entita_peggioramento
+  valori_futuri <- aggiungi_errore_misura(valore_dopo_evento + rate * incremento_atteso)
+  data.frame(
+    eta = c(eta_diramazione, eta_futuro),
+    punteggio = c(punto_diramazione, valori_futuri),
+    traiettoria = etichetta
+  )
+}
+
+dat_evento <- rbind(
+  dat_oss,
+  costruisci_traiettoria_con_peggioramento_acuto(entita_peggioramento = 0.0, rate = 1, etichetta = "In linea con le attese"),
+  costruisci_traiettoria_con_peggioramento_acuto(entita_peggioramento = 2.8, rate = 1, etichetta = "Nella norma"),
+  costruisci_traiettoria_con_peggioramento_acuto(entita_peggioramento = 8.0, rate = 1, etichetta = "Fuori norma")
+)
+dat_evento$traiettoria <- factor(dat_evento$traiettoria,
+                                  levels = c("Traiettoria osservata", "In linea con le attese", "Nella norma", "Fuori norma"))
+
+p_evento <- ggplot(dat_evento, aes(x = eta, y = punteggio, colour = traiettoria, group = traiettoria)) +
+  banda_layer +
+  linea_diramazione_layer("evento acuto") +
+  geom_line(aes(linetype = traiettoria, linewidth = traiettoria)) +
+  geom_point(aes(shape = traiettoria), size = 2.5) +
+  scale_colour_manual(name = NULL, values = c("Traiettoria osservata" = "black", "In linea con le attese" = "grey35",
+                                               "Nella norma" = "grey35", "Fuori norma" = "grey35")) +
+  scale_linetype_manual(name = NULL, values = c("Traiettoria osservata" = "solid", "In linea con le attese" = "solid",
+                                                 "Nella norma" = "dashed", "Fuori norma" = "dashed")) +
+  scale_shape_manual(name = NULL, values = c("Traiettoria osservata" = 16, "In linea con le attese" = 16,
+                                              "Nella norma" = 18, "Fuori norma" = 17)) +
+  scale_linewidth_manual(name = NULL, values = c("Traiettoria osservata" = 1, "In linea con le attese" = 0.6,
+                                                  "Nella norma" = 0.6, "Fuori norma" = 0.6)) +
+  scale_x_continuous(breaks = eta) +
+  labs(title = "Peggioramento acuto", x = "Età (anni)", y = "Punteggio al test") +
+  guides(colour = guide_legend(nrow = 2), linetype = guide_legend(nrow = 2),
+         shape = guide_legend(nrow = 2), linewidth = guide_legend(nrow = 2)) +
+  theme_minimal(base_size = 12) +
+  theme(panel.grid.minor = element_blank(),
+        plot.title = element_text(size = 12, face = "bold"),
+        legend.position = "bottom")
+
+# --- Pannello destro: crescita atipica (graduale) ---
 
 # Funzione modulare per costruire una traiettoria futura ipotetica, che parte dal punto di
 # diramazione e cresce con un tasso "rate" rispetto alla crescita attesa dal gruppo di riferimento
@@ -469,162 +759,42 @@ costruisci_traiettoria_futura <- function(rate, etichetta) {
   )
 }
 
-dat_fut <- rbind(
+dat_crescita <- rbind(
+  dat_oss,
   costruisci_traiettoria_futura(rate = 1.00, etichetta = "In linea con attesa media"),
-  costruisci_traiettoria_futura(rate = 0.65, etichetta =  "Crescita bassa, ma non deficitaria"),
+  costruisci_traiettoria_futura(rate = 0.65, etichetta = "Crescita bassa, ma non deficitaria"),
   costruisci_traiettoria_futura(rate = -0.05, etichetta = "Crescita \"deficitaria\"")
 )
-dat_fut$traiettoria <- factor(dat_fut$traiettoria,
-                               levels = c("In linea con attesa media",  "Crescita bassa, ma non deficitaria", "Crescita \"deficitaria\""))
+dat_crescita$traiettoria <- factor(dat_crescita$traiettoria,
+                                    levels = c("Traiettoria osservata", "In linea con attesa media",
+                                               "Crescita bassa, ma non deficitaria", "Crescita \"deficitaria\""))
 
-# Linea verticale sottile (opzionale, vedi "mostra_linea_evento") che segna la valutazione
-# attuale, da cui si diramano le traiettorie future
-linea_evento_layer <- if (mostra_linea_evento) {
-  list(
-    geom_vline(xintercept = eta_diramazione, colour = "grey40", linewidth = 0.5),
-    annotate("text", x = eta_diramazione, y = Inf, label = "possibili traiettorie future",
-             vjust = 1.5, hjust = -0.05, colour = "grey40", fontface = "italic", size = 3.3)
-  )
-} else {
-  NULL
-}
-
-ggplot() +
-  # Fascia di normalità attesa dal gruppo di riferimento (soglie superiore e inferiore)
-  geom_ribbon(data = dat_banda, aes(x = eta, ymin = soglia_inf, ymax = soglia_sup),
-              fill = "steelblue", alpha = 0.15) +
-  annotate("text", x = 9, y = dat_banda$soglia_sup[dat_banda$eta == 9], label = "fascia di normalità attesa",
-           hjust = 1, vjust = -0.6, colour = "steelblue", fontface = "italic", size = 3.3) +
-  linea_evento_layer +
-  # Tre traiettorie future ipotetiche (grigio scuro, più sottili della traiettoria osservata)
-  geom_line(data = dat_fut, aes(x = eta, y = punteggio, linetype = traiettoria, group = traiettoria),
-            colour = "grey35", linewidth = 0.6) +
-  geom_point(data = dat_fut, aes(x = eta, y = punteggio, shape = traiettoria),
-             colour = "grey35", size = 2.3) +
-  # Traiettoria osservata (nera): sviluppo reale fino alla valutazione attuale
-  geom_line(data = dat_oss, aes(x = eta, y = punteggio), colour = "black", linewidth = 1) +
-  geom_point(data = dat_oss, aes(x = eta, y = punteggio), colour = "black", size = 3) +
-  scale_linetype_manual(name = NULL, values = c("In linea con attesa media" = "solid",
-                                                 "Crescita bassa, ma non deficitaria" = "dashed",
-                                                 "Crescita \"deficitaria\"" = "dashed")) +
-  scale_shape_manual(name = NULL, values = c("In linea con attesa media" = 16,
-                                               "Crescita bassa, ma non deficitaria" = 18,
-                                              "Crescita \"deficitaria\"" = 17)) +
+p_crescita <- ggplot(dat_crescita, aes(x = eta, y = punteggio, colour = traiettoria, group = traiettoria)) +
+  banda_layer +
+  linea_diramazione_layer("inizio della divergenza") +
+  geom_line(aes(linetype = traiettoria, linewidth = traiettoria)) +
+  geom_point(aes(shape = traiettoria), size = 2.5) +
+  scale_colour_manual(name = NULL, values = c("Traiettoria osservata" = "black", "In linea con attesa media" = "grey35",
+                                               "Crescita bassa, ma non deficitaria" = "grey35", "Crescita \"deficitaria\"" = "grey35")) +
+  scale_linetype_manual(name = NULL, values = c("Traiettoria osservata" = "solid", "In linea con attesa media" = "solid",
+                                                 "Crescita bassa, ma non deficitaria" = "dashed", "Crescita \"deficitaria\"" = "dashed")) +
+  scale_shape_manual(name = NULL, values = c("Traiettoria osservata" = 16, "In linea con attesa media" = 16,
+                                              "Crescita bassa, ma non deficitaria" = 18, "Crescita \"deficitaria\"" = 17)) +
+  scale_linewidth_manual(name = NULL, values = c("Traiettoria osservata" = 1, "In linea con attesa media" = 0.6,
+                                                  "Crescita bassa, ma non deficitaria" = 0.6, "Crescita \"deficitaria\"" = 0.6)) +
   scale_x_continuous(breaks = eta) +
-  labs(x = "Età (anni)", y = "Punteggio al test") +
+  labs(title = "Crescita atipica", x = "Età (anni)", y = NULL) +
+  guides(colour = guide_legend(nrow = 2), linetype = guide_legend(nrow = 2),
+         shape = guide_legend(nrow = 2), linewidth = guide_legend(nrow = 2)) +
   theme_minimal(base_size = 12) +
   theme(panel.grid.minor = element_blank(),
+        plot.title = element_text(size = 12, face = "bold"),
         legend.position = "bottom")
-```
 
-Un altro caso possibile, sempre nell'ambito delle traiettorie di sviluppo, è quello di un peggioramento non graduale ma improvviso, ad esempio in seguito ad un evento acuto come un trauma cranico. La @fig-traiettoria-peggioramento-acuto illustra tre possibili esiti di questo tipo di evento: in un caso il punteggio non ne risente e prosegue come atteso; in un avviene un peggioramento ma resta all'interno della fascia di normalità attesa: non viene considerato un deficit; nell'ultimo scende al punto da uscire subito dai limiti e verrebbe quindi considerato un deficit.
-
-```{r}
-#| label: fig-traiettoria-peggioramento-acuto
-#| echo: false
-#| warning: false
-#| message: false
-#| fig-cap: "Traiettoria di sviluppo simulata (linea nera, punti pieni) dalla valutazione a 1 anno fino alla valutazione più recente, a 4 anni, seguita da un evento acuto (linea verticale) che può causare un peggioramento improvviso del punteggio. Tre traiettorie ipotetiche successive all'evento, tutte in grigio scuro e con gli stessi simboli usati nella @fig-traiettoria-sviluppo: una non risente dell'evento e prosegue in linea con la crescita attesa dal gruppo di riferimento (cerchi, linea continua); una scende ma resta all'interno della fascia di normalità (diamanti, linea tratteggiata); una scende al punto da uscire subito dalla fascia già alla prima valutazione successiva all'evento, e vi resta nelle valutazioni seguenti (triangoli, linea tratteggiata). In tutti i casi, dopo il salto iniziale la crescita prosegue con lo stesso ritmo atteso dal gruppo di riferimento (scarto dalla norma stabile nel tempo)."
-#| fig-width: 7.5
-#| fig-height: 5
-
-library(ggplot2)
-
-set.seed(100)
-
-# --- Parametro per includere (o no) l'errore di misurazione nelle traiettorie ---
-# Impostare FALSE per disegnare solo le traiettorie "vere" sottostanti, senza rumore
-includi_errore_misura <- TRUE
-sd_errore <- 0.6
-
-# Funzione modulare: aggiunge (o no) l'errore di misurazione a una traiettoria di punteggi veri
-aggiungi_errore_misura <- function(valori, sd = sd_errore, includi = includi_errore_misura) {
-  if (includi) {
-    valori + rnorm(length(valori), mean = 0, sd = sd)
-  } else {
-    valori
-  }
-}
-
-eta <- 1:10
-eta_diramazione <- 4   # ultima valutazione nota, subito dopo la quale avviene l'evento acuto
-
-# Traiettoria attesa dal gruppo di riferimento, con fascia di normalità (soglie superiore e inferiore)
-traiettoria_attesa <- 5 + 1.8 * eta
-banda_ampiezza <- 3.5 + 0.2 * eta
-
-dat_banda <- data.frame(
-  eta = eta,
-  attesa = traiettoria_attesa,
-  soglia_sup = traiettoria_attesa + banda_ampiezza,
-  soglia_inf = traiettoria_attesa - banda_ampiezza
-)
-
-# Traiettoria osservata (nera): sviluppo reale fino alla valutazione precedente all'evento acuto
-eta_oss <- 1:eta_diramazione
-dat_oss <- data.frame(
-  eta = eta_oss,
-  punteggio = aggiungi_errore_misura(5 + 1.8 * eta_oss)
-)
-
-punto_diramazione <- dat_oss$punteggio[dat_oss$eta == eta_diramazione]
-
-# Funzione modulare per costruire una traiettoria che, subito dopo l'evento acuto, scende di
-# "entita_peggioramento" punti rispetto alla crescita attesa, e da lì prosegue con un tasso di
-# crescita "rate" rispetto a quella attesa dal gruppo di riferimento (rate = 1, il valore di
-# default, significa che lo scarto dalla norma introdotto dall'evento resta costante nel tempo;
-# è comunque parametrizzato per poter esplorare in seguito anche recuperi parziali o ulteriori
-# peggioramenti dopo l'evento, semplicemente cambiando "rate")
-costruisci_traiettoria_con_peggioramento_acuto <- function(entita_peggioramento, rate = 1, etichetta) {
-  eta_futuro <- (eta_diramazione + 1):max(eta)
-  incremento_atteso <- (5 + 1.8 * eta_futuro) - (5 + 1.8 * eta_diramazione)
-  valore_dopo_evento <- punto_diramazione - entita_peggioramento
-  valori_futuri <- aggiungi_errore_misura(valore_dopo_evento + rate * incremento_atteso)
-  data.frame(
-    eta = c(eta_diramazione, eta_futuro),
-    punteggio = c(punto_diramazione, valori_futuri),
-    traiettoria = etichetta
-  )
-}
-
-dat_fut <- rbind(
-  costruisci_traiettoria_con_peggioramento_acuto(entita_peggioramento = 0.0, rate = 1, etichetta = "In linea con le attese"),
-  costruisci_traiettoria_con_peggioramento_acuto(entita_peggioramento = 2.8, rate = 1, etichetta = "Nella norma"),
-  costruisci_traiettoria_con_peggioramento_acuto(entita_peggioramento = 8.0, rate = 1, etichetta = "Fuori norma")
-)
-dat_fut$traiettoria <- factor(dat_fut$traiettoria,
-                               levels = c("In linea con le attese", "Nella norma", "Fuori norma"))
-
-ggplot() +
-  # Fascia di normalità attesa dal gruppo di riferimento (soglie superiore e inferiore)
-  geom_ribbon(data = dat_banda, aes(x = eta, ymin = soglia_inf, ymax = soglia_sup),
-              fill = "steelblue", alpha = 0.15) +
-  annotate("text", x = 9, y = dat_banda$soglia_sup[dat_banda$eta == 9], label = "fascia di normalità attesa",
-           hjust = 1, vjust = -0.6, colour = "steelblue", fontface = "italic", size = 3.3) +
-  # Linea verticale sottile che segna l'evento acuto, subito dopo l'ultima valutazione nota
-  geom_vline(xintercept = eta_diramazione, colour = "grey40", linewidth = 0.5) +
-  annotate("text", x = eta_diramazione, y = Inf, label = "evento acuto",
-           vjust = 1.5, hjust = -0.05, colour = "grey40", fontface = "italic", size = 3.3) +
-  # Le tre traiettorie dopo l'evento acuto: tutte grigio scuro, più sottili della traiettoria
-  # osservata, distinte da linetype/simbolo con la stessa convenzione della @fig-traiettoria-sviluppo
-  geom_line(data = dat_fut, aes(x = eta, y = punteggio, linetype = traiettoria, group = traiettoria),
-            colour = "grey35", linewidth = 0.6) +
-  geom_point(data = dat_fut, aes(x = eta, y = punteggio, shape = traiettoria),
-             colour = "grey35", size = 2.3) +
-  # Traiettoria osservata (nera): sviluppo reale fino alla valutazione precedente all'evento
-  geom_line(data = dat_oss, aes(x = eta, y = punteggio), colour = "black", linewidth = 1) +
-  geom_point(data = dat_oss, aes(x = eta, y = punteggio), colour = "black", size = 3) +
-  scale_linetype_manual(name = NULL, values = c("In linea con le attese" = "solid",
-                                                 "Nella norma" = "dashed",
-                                                 "Fuori norma" = "dashed")) +
-  scale_shape_manual(name = NULL, values = c("In linea con le attese" = 16,
-                                              "Nella norma" = 18,
-                                              "Fuori norma" = 17)) +
-  scale_x_continuous(breaks = eta) +
-  labs(x = "Età (anni)", y = "Punteggio al test") +
-  theme_minimal(base_size = 12) +
-  theme(panel.grid.minor = element_blank(),
-        legend.position = "bottom")
+# Le categorie ipotetiche sono diverse nei due pannelli (narrativamente specifiche per ciascun
+# caso), quindi qui non si usa plot_layout(guides = "collect"): ogni pannello mantiene la sua
+# legenda, coerente con le proprie etichette
+p_evento + p_crescita
 ```
 
 <!-- Danno è un inferenza ulteriore, deficit potrebbe essere la definizione (definisco deficit se un gruppo). Nel danno serve un caso più possibile simile a quello che sto valutando, nel caso di deficit spesso si decide un gruppo (arbitrario) di riferimento. Es. una persona che ha avuto gravi mancanze affettive nello sviluppo potrebbe avere un deficit, ma potrebbe non essere strano per persone che hanno avuto gravi mancanze. (vedi paragrafo dati normativi e rappresentatività)
