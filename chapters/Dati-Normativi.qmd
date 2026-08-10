@@ -11,8 +11,8 @@ Che informazioni cliniche ci fornisce, da solo, il punteggio ad un test neuropsi
 
 Se consideriamo la quasi totalità di test neuropsicologici[^test-comuni], la risposta alla domanda è: molto poche. Il punteggio "grezzo" al test, cioè il punteggio che si ottiene dopo avere semplicemente trasformato i punteggi ai singoli item in un punteggio totale, raramente è già informativo. Proviamo a pensare ad un test in cui il punteggio ottenibile vada da 0 a 30 (come i comuni MMSE o MOCA). Cosa ci dice se il punteggio ottenuto è 20? è un punteggio da considerare alto o basso?
 
-Come vedremo nel corso dei paragrafi di questo capitolo, uno dei più comuni scopo di una valutazione neuropsicologica è quello di identificare la presenza di possibili alterazioni nel funzionamento cognitivo (che in seguito classificheremo come _deficit_ o _danni_).
-Per farlo somministriamo test che ci aiutino a capire se ci sono effettivamente queste alterazioni. Un punteggio _in sé_ può segnalarlo? Certamente no, un punteggio pari a 20 potrebbe essere basso o alto, a seconda della difficoltà del test. E la difficoltà può essere stimata a partire dalla prestazione di altre persone, che fungano da gruppo di riferimento. Se la maggior parte delle persone ottengono punteggi molto alti ad un test (ad esempio, quasi tutti sopra il 25), allora un punteggio pari a 20/30 potrebbe essere molto basso e quindi segno di quella che abbiamo per ora chiamata come "alterazione" nel funzionamento cognitivo. Se invece la maggior parte delle persone ottengono un punteggio tra 15 e 16 e quasi nessuno un punteggio superiore, un punteggio pari a 20/30 potrebbe essere invece un punteggio straordinariamente alto.
+Come vedremo nel corso dei paragrafi di questo capitolo, uno dei più comuni scopo di una valutazione neuropsicologica è quello di identificare la presenza di possibili alterazioni nel funzionamento cognitivo (che in seguito classificheremo come _deficit_ o _peggioramenti_).
+Per farlo somministriamo test che ci aiutino a capire se ci sono effettivamente queste alterazioni. Un punteggio _in sé_ può segnalarlo? Certamente no, un punteggio pari a 20 - in un ipotetico test in cui i punteggi possibili vanno da 0 a 30 - potrebbe essere basso o alto, a seconda della difficoltà del test. La difficoltà del test può essere stimata a partire dalla prestazione di altre persone, che fungano da gruppo di riferimento. Se la maggior parte delle persone ottengono punteggi molto alti ad un test (ad esempio, quasi tutti sopra il 25), allora un punteggio pari a 20/30 potrebbe essere molto basso e quindi segno di quella che abbiamo per ora chiamata come "alterazione" nel funzionamento cognitivo. Se invece la maggior parte delle persone ottengono un punteggio tra 15 e 16 e quasi nessuno un punteggio superiore, un punteggio pari a 20/30 potrebbe essere invece un punteggio straordinariamente alto.
 
 La @fig-punteggio-20 illustra questo concetto con due gruppi di riferimento simulati: nel primo (a sinistra) quasi tutte le persone ottengono punteggi alti, e un punteggio di 20 cade nella coda bassa della distribuzione; nel secondo (a destra) la maggior parte delle persone si colloca intorno a 15, e lo stesso punteggio di 20 cade nella coda alta. Lo stesso valore numerico, a seconda del gruppo di riferimento, segnala quindi una prestazione straordinariamente bassa oppure straordinariamente alta.
 
@@ -70,16 +70,19 @@ p_difficile <- ggplot(sim_difficile, aes(x = punteggio)) +
 p_facile + p_difficile
 ```
 
-Nell'esperienza di psicologhe e psicologi questa è una esperienza comune se si pensa agli esami universitari. Nonostante la scala sia sempre la stessa (con un massimo di 30 e lode), il significato del punteggio può essere molto variabile. Un voto di 25 può essere molto alto per alcuni esami, mentre molto basso per altri.
+Nell'esperienza di psicologhe e psicologi questa è una esperienza comune se si pensa agli esami universitari. Nonostante la scala sia sempre la stessa (con un massimo di 30 e lode), il significato del punteggio può essere molto variabile. Un voto di 25 può essere molto alto per alcuni esami, mentre molto basso per altri, a seconda della difficoltà dell'esame.
+
+Come vedremo, prestazioni che sono tra le più basse (o più in generale peggiori) rispetto al gruppo di riferimento, saranno quelle poi considerate di rilevanza clinica.
+
 Nel corso di questo capitolo verranno affrontati in dettaglio tutti gli aspetti che sono stati anticipati in questa introduzione, partendo da un approfondimento sul perchè utilizziamo i dati normativi, passando per il modo in cui otteniamo delle classificazioni e e le diverse interpretazioni che vengono fatte.
 Quello del confronto con i dati normativi è un aspetto fondamentale, spesso ritenuto il più importante nella neuropsicologia clinica. Per questo motivo l'argomento sarà affrontato in più passaggi, prima guardandolo da distante e poi, attraverso i diversi paragrafi, entrando sempre più nei dettagli.
 
 ## Il razionale dell'utilizzo dei dati normativi
 
-Uno degli scopi della valutazione neuropsicologica è quello di investigare lo stato di integrità del funzionamento cognitivo di un individuo. Spesso infatti una diagnosi neuropsicologica sullo stato cognitivo passa per la valutazione di specifici domini (attenzione, memoria, funzioni esecutive), con lo scopo di indagare se uno o più domini può essere compromesso. 
-Quello che avviene, nella routine clinica, è molto semplice ed è familiare a chi ha mai visto una valutazione: un punteggio ottenuto da una persona esaminata è confrontato con una soglia e a partire da questo confronto avviene un'interpretazione. Ad esempio, un punteggio di 14 al MoCA[^after-adj] è al di sotto della soglia di 16 che indica un risultato con potenziale rilevanza clinica. 
+Uno degli scopi della valutazione neuropsicologica è quello di investigare lo stato di integrità del funzionamento cognitivo di un individuo. Spesso infatti una diagnosi neuropsicologica sullo stato cognitivo passa per la valutazione di specifici domini (attenzione, memoria, funzioni esecutive), con lo scopo di indagare se uno o più domini può essere con un funzionamento anomalo. 
+Quello che avviene, nella routine clinica, è di fatto molto semplice ed è familiare a chi ha mai visto una valutazione: un punteggio ottenuto da una persona esaminata è confrontato con una soglia e a partire da questo confronto avviene un'interpretazione. Ad esempio, un punteggio di 14 al MoCA[^after-adj] è al di sotto della soglia di 16 che indica un risultato con potenziale rilevanza clinica. 
 
-[^after-adj]: per essere preciso in questo esempio ad essere confrontato con il valore soglia è il _punteggio corretto_ (si veda paragrafo punteggi-corretti). <!-- aggiusta questa frase -->
+[^after-adj]: per essere precisi con il MoCA, così come in altri test ad essere confrontato con il valore soglia è il _punteggio corretto_ (si veda paragrafo punteggi-corretti). <!-- aggiusta questa frase -->
 
 <!-- inserisci figura qui con Utilizzo dei dati normativi nella pratica clinica -->
 
@@ -87,20 +90,22 @@ Ciò che si nasconde dietro un'operazione così semplice è però una procedura 
 
 Il problema di partenza è quello descritto in apertura di questo capitolo: abbiamo bisogno di un modo che ci permetta di intepretare un punteggio per identificare prestazioni con possibile rilevanza clinica. Per raggiungere questo scopo, la confrontiamo con le prestazioni di un _gruppo di riferimento_. Questo gruppo è, la maggior parte delle volte, composto da persone che assumiamo essere sane o _normali_ da cui il nome, **dati normativi**.
 
-Avendo una distribuzione dei punteggi ottenuti da normali possiamo infatti individuare dove si colloca ad un confronta la prestazione che vogliamo valutare: questo avviene essenzialmente stimando quante persone ottengono un punteggio uguale o peggiore a quello osservato. Esistono diversi modi per farlo e anche diversi modi per concettualizzare questo problema (stima delle percentuale di persone che ottengono punteggio uguale o peggiore oppure stima della probabilità di ottenere una prestazione uguale o peggiore). I diversi metodi statistici affrontati in diversi paragrafi dedicati. <!-- NOTA GIORGIO: aggiungi link corretti ai paragrafi-->.
+Avendo una distribuzione dei punteggi ottenuti da normali possiamo infatti individuare dove si colloca ad un confronta la prestazione che vogliamo valutare: questo avviene essenzialmente stimando quante persone ottengono un punteggio uguale o peggiore a quello osservato. Esistono diversi modi per farlo e anche diversi modi per concettualizzare questo problema (stima delle percentuale di persone del gruppo di riferimento che ottengono punteggio uguale o peggiore oppure stima della probabilità di ottenere una prestazione uguale o peggiore). I diversi metodi statistici affrontati in diversi paragrafi dedicati. <!-- NOTA GIORGIO: aggiungi link corretti ai paragrafi-->.
 
 :::{.callout-tip}
-I dati normativi ci aiutano a _classificare_ una prestazione rispetto ad un gruppo di riferimento, per facilitare l'interpretazione. <!--forse utile parlare di interpretazione di un test e? o che altre informazioni-->
+I dati normativi ci aiutano a _classificare_ una prestazione rispetto ad un gruppo di riferimento, per facilitare l'interpretazione. <!--forse utile parlare di interpretazione di un test e? o che altra definizione -->
 :::
 
-Il confronto con i dati normativi ci aiuta a classificare una prestazione e capire se questa è tra le migliori, tra la peggiori o in generale come si classifica rispetto alle persone sane. Questa classificazione spesso viene espressa trasformando il punteggio originale in una percentuale (es. 10%, 2%). Ad esempio un punteggio grezzo di 20, trasformato in 3% indica che solo il 3% delle persone del gruppo di riferimento hanno un punteggio uguale o inferiore a quello osservato. Questo ci mostra che la prestazione è straordinariamente bassa. Una classificazione del genere non è però sufficiente a fini clinici perchè è un valore all'interno di una scala sostanzialmente continua. Quando una prestazione è sufficientemente bassa da essere considerata _anomala_ e il potenziale segnale di un problema? Tornando all'esempio sopra, 3% è sufficientemente basso? E il 4% ? E il 10%?
+Il confronto con i dati normativi ci aiuta dunque a classificare una prestazione e capire se questa è tra le migliori, tra la peggiori o in generale come si classifica rispetto alle persone sane. Questa classificazione spesso viene espressa trasformando il punteggio originale in una percentuale (es. 10%, 2%). Ad esempio un punteggio grezzo di 20, trasformato in 3% indica che solo il 3% delle persone del gruppo di riferimento hanno un punteggio uguale o inferiore a quello osservato. Questo ci mostra che la prestazione è straordinariamente bassa. Una classificazione del genere non è però sufficiente a fini clinici perchè è un valore all'interno di una scala sostanzialmente continua. Quando una prestazione è sufficientemente bassa da essere considerata _anomala_ e il potenziale segnale di un problema? Tornando all'esempio sopra, 3% è sufficientemente basso? E il 4% ? E il 10%?
 
 Per risolvere questo problema sono usate, con fini clinico-pragmatico, delle **soglie** o **cut-off**, valori puntuali oltre i quali consideriamo il risultato di rilevanza clinica. La soglia più comune è quella del $5%$ dei punteggi peggiori dei dati normativi. 
 Avere soglie ci permette di trasformare una variabile continua (percentuale rispetto al gruppo di riferimento), in categorie (es. punteggio "al di sotto della norma"/"nella norma" per usare delle etichette usate di frequente). Questo aspetto sarà affrontato in dettaglio nel paragrafo [L'utilità pragmatica delle soglie](#utilita-pragmatica-soglie).
 
-In neuropsicologia clinica (specie dell'adulto), la soglia è spesso espressa nella scala del punteggio originale, cosicché sia possibile confrontare direttamente un punteggio grezzo (o un punteggio "corretto" vedi paragrafo correzioni dei punteggi <!--NOTA GIORGIO: qui -->), con il valore che indica una certa percentuale soglia decisa a monte. Se nell'esempio sopra, la soglia o cut-off del $5%$ fosse $18$, indicherebbe che ogni punteggio inferiore al 18 è inferiore al 5% dei punteggi peggiori del gruppo di riferimento. 
 
-Ricapitalando il passaggio da punteggio grezzo a confronto con soglie può avvenire in due concettualmente equivalenti. Il primo modo è quello di trasformare il punteggio in una certa percentuale, e poi confrontarla eventualmente con una soglia decisa a priori per aiutare l'interpretazione. Il secondo modo comporta confrontare il punteggio grezzo con il valore che corrisponde ad una percentuale soglia.
+In neuropsicologia clinico dello sviluppo, spesso avviene invece una trasformazione prima in un valore percentuale (es 5% delle prestazioni peggiori) e solo dopo viene confrontato questa con una soglia percentuale. Ad esempio, un punteggio di $16$, potrebbe indicare un valore che identifica il $3%$ dei punteggi peggiori, e la soglia potrebbe essere fissata al $5%$
+In neuropsicologia clinica dell'adulto, la soglia è spesso espressa nella scala del punteggio originale, cosicché sia possibile confrontare direttamente un punteggio grezzo (o un punteggio "corretto" vedi paragrafo correzioni dei punteggi <!--NOTA GIORGIO: qui -->), con il valore che indica una certa percentuale soglia decisa a monte. Se nell'esempio sopra, la soglia o cut-off del $5%$ fosse $18$, indicherebbe che ogni punteggio inferiore al 18 è inferiore al 5% dei punteggi peggiori del gruppo di riferimento.  
+
+Ricapitolando, il passaggio da punteggio grezzo a confronto con soglie può avvenire in due concettualmente equivalenti. Il primo modo è quello di trasformare il punteggio in una certa percentuale, e poi confrontarla eventualmente con una soglia decisa a priori per aiutare l'interpretazione. Il secondo modo comporta confrontare il punteggio grezzo con il valore che corrisponde ad una percentuale soglia.
 
 ![Due modi concettualmente equivalenti per passare da un punteggio grezzo a un'interpretazione basata su una soglia. Nella via 1 (sopra) il punteggio grezzo è prima trasformato in percentile, poi confrontato con una soglia espressa in percentuale. Nella via 2 (sotto) il punteggio grezzo è confrontato direttamente con una soglia espressa nella stessa scala del punteggio originale.](../Figures/Latex-Fig-Dati-Normativi-Due-Vie/Fig_due-vie-soglia.png){#fig-due-vie-soglia fig-align="center" width=95%}
 
@@ -109,6 +114,26 @@ Una volta che la prestazione è classificata, possibilmente dopo il confronto co
 Ciascuno di passi spiegati in questo paragrafo, e le relative assunzioni, sarà affrontato in dettaglio nei prossimi paragrafi.
 
 [^test-comuni]: qui per test comuni sono intesi test sviluppati secondo la teoria classica dei test (vedi il paragrafo {#teoria-classica-dei-test}, nel capitolo 1).
+
+## Dati normativi
+
+Il primo concetto che approfondiremo in questo capitolo è proprio quello dei dati normativi.
+
+:::{.callout-note}
+## Definizione
+**Dati normativi**
+I dati normativi sono i dati di un gruppo di riferimento che ci aiutano a definire cosa si può intendere _nella norma_ o meno.
+:::
+
+:::{.callout-note}
+## Definizione
+**Nella norma**
+Con questa locuzione si intende che un punteggio è rispetto ai dati normativi, entro una soglia che ci aiuta a identificare prestazioni potenzialmenta anomale.
+:::
+
+La figura di seguito riassume le due possibilità quando si classifica un punteggio rispetto ai dati normativi. 
+
+<!-- inserisci qui figura con due pannelli a sinistra  c'è distribuzione con soglia. A destra e le due classificazione con punteggio inferiore o superiori a soglia. I colori richiamano la parte della distribuzione in cui si ricade -->
 
 ## Deficit e peggioramento {#deficit-peggioramenti}
 Prima di procedere con la nostra disamina dei principi alla base dei dati normativi, è importante definire alcuni importanti fondamentali, molto comuni nella neuropsicologica clinica: _deficit_, _peggioramento_, _compromissione_, _declino_[^def-norm].
@@ -165,15 +190,15 @@ Ciascuno di questi aggettivi è spesso utilizzato insieme ai termini _deficit_ p
 Il _deficit_ è un concetto che è intrinsecamente legato al gruppo di riferimento con cui avviene un confronto e anzi, è definito proprio sulla base del confronto rispetto a questo gruppo.
 Se un bambino non riesce ancora a leggere a 7 anni, viene considerato avere un deficit, proprio perchè, se confrontato con i pari, non è in grado di svolgere un attività ed ha una mancanza funzionale che lo porta ad avere una differenza che è considerata clinicamente (e spesso anche socialmente) rilevante. Se il gruppo fosse definito in maniera differente una stessa caratteristica potrebbe non essere considerata un deficit. Ad esempio, se considerassimo un gruppo di bambini tra i 5 e 9 anni, non saper leggere non sarebbe più considearto un deficit, perché molti bambini (presumibilmente i più piccoli), non sarebbero in grado di farlo, rendendo quindi il "non leggere" una caratteristica non più anomala,
 Se un adulto ha un deficit nell'inibizione, questo è ancora una volta definito sulla base del gruppo di riferimento, indica che rispetto a questo gruppo, il livello in compiti di inibizione è talmente basso, da poter essere considerato una mancanza.
-_relativamente a quel gruppo_. Il deficit è quindi un concetto definito in maniera _normativa_, riflette solo il confronto con un gruppo di riferimento, spesso detto. 
+_relativamente a quel gruppo_. Il deficit è quindi un concetto definito in maniera _normativa_, riflette il confronto dell'individuo da valutare con un gruppo di riferimento, quello dei _dati normativi_. 
 
 
 ### Peggioramento: approfondimento ed esempi
 Il _peggioramento_ è invece un concetto che è legato al confronto di un individuo con sé stesso e con un livello precedentemente raggiunto stabilmente. Abbiamo distinto due tipi di peggioramenti (compromissione e declino), per catturare due sfumature diverse che spesso hanno rilevanza diagnostica e prognostica <!-- NOTA GIORGIO, ma che non sono distinguibili se il riferimento è ad una singola valutazione. -->
 Come esempi di compromissione, un adolescente che dopo un trauma cranico non riesce a concentrarsi più come prima, ha verosimilmente subito un peggioramento, così come un paziente che in seguito ad uno stroke, ha difficoltà di lettura che non aveva prima. 
-Come esempi di declino, una potrebbe cominciare ad avere un graduale peggioramento nella memoria in età avanzata per l'insorgere di una malattia neurodegenerativa, o una persona con sclerosi multipla, potrebbe avere un peggioramento nell'attenzione come conseguenza di una ricaduta.
+Come esempi di declino, una potrebbe cominciare ad avere un graduale peggioramento nella memoria in età avanzata per l'insorgere di una malattia neurodegenerativa, o una persona con sclerosi multipla, potrebbe avere un peggioramento nell'attenzione come conseguenza di una ricaduta. Il concetto di peggioramento ha dunque un concetto definito in maniera detta _ipsativa_, perchè riflette il confronto di un'individuo con sé stesso. 
 
-Negli esempi finora elencati abbiamo usato il termine "peggioramento" proprio per indicare un generale peggioramento e volutamente non abbiamo né usato, né fatto riferimento al concetto di deficit. Questo verrà spiegato meglio nel prossimo paragrafo.
+Negli esempi finora elencati abbiamo usato il termine "peggioramento" proprio per indicare un generale peggioramento e volutamente non abbiamo né usato, né fatto riferimento al già menzionato concetto di deficit. La relazione tra i due verrà spiegata meglio nel prossimo paragrafo.
 
 ### Relazione tra deficit e peggioramento.
 Nel discutere di deficit e peggioramento abbiamo sottolineato quanto è importante considerare questi concetti come distinti. Questo può essere sembrato finora una sorta di esercizio di stile semantico, ma come vedremo ha un importante impatto nelle valutazione neuropsicologica e anche, in certi casi, nella correttezza delle intepretazioni che facciamo a partire dai . 
@@ -392,6 +417,13 @@ set.seed(100)
 includi_errore_misura <- TRUE
 sd_errore <- 0.6
 
+# --- Parametro per mostrare (o no) la linea verticale che segna il momento della diramazione ---
+mostra_linea_evento <- TRUE
+
+# --- Parametro per impostare l'età (in anni) in cui avviene la diramazione: qualunque valore
+# tra 1 e max(eta) - 1, ad esempio anche 1 o 2 per una diramazione molto più precoce ---
+eta_diramazione <- 2   # ultima valutazione nota, da cui si "diramano" le traiettorie future
+
 # Funzione modulare: aggiunge (o no) l'errore di misurazione a una traiettoria di punteggi veri
 aggiungi_errore_misura <- function(valori, sd = sd_errore, includi = includi_errore_misura) {
   if (includi) {
@@ -402,7 +434,6 @@ aggiungi_errore_misura <- function(valori, sd = sd_errore, includi = includi_err
 }
 
 eta <- 1:10
-eta_diramazione <- 4   # ultima valutazione nota, da cui si "diramano" le traiettorie future
 
 # Traiettoria attesa dal gruppo di riferimento, con fascia di normalità (soglie superiore e inferiore)
 traiettoria_attesa <- 5 + 1.8 * eta
@@ -439,12 +470,24 @@ costruisci_traiettoria_futura <- function(rate, etichetta) {
 }
 
 dat_fut <- rbind(
-  costruisci_traiettoria_futura(rate = 1.00, etichetta = "In linea con le attese"),
-  costruisci_traiettoria_futura(rate = 0.6, etichetta = "Crescita in seguito a peggioramento"),
+  costruisci_traiettoria_futura(rate = 1.00, etichetta = "In linea con attesa media"),
+  costruisci_traiettoria_futura(rate = 0.65, etichetta =  "Crescita bassa, ma non deficitaria"),
   costruisci_traiettoria_futura(rate = -0.05, etichetta = "Crescita \"deficitaria\"")
 )
 dat_fut$traiettoria <- factor(dat_fut$traiettoria,
-                               levels = c("In linea con le attese", "Crescita in seguito a peggioramento", "Crescita \"deficitaria\""))
+                               levels = c("In linea con attesa media",  "Crescita bassa, ma non deficitaria", "Crescita \"deficitaria\""))
+
+# Linea verticale sottile (opzionale, vedi "mostra_linea_evento") che segna la valutazione
+# attuale, da cui si diramano le traiettorie future
+linea_evento_layer <- if (mostra_linea_evento) {
+  list(
+    geom_vline(xintercept = eta_diramazione, colour = "grey40", linewidth = 0.5),
+    annotate("text", x = eta_diramazione, y = Inf, label = "possibili traiettorie future",
+             vjust = 1.5, hjust = -0.05, colour = "grey40", fontface = "italic", size = 3.3)
+  )
+} else {
+  NULL
+}
 
 ggplot() +
   # Fascia di normalità attesa dal gruppo di riferimento (soglie superiore e inferiore)
@@ -452,10 +495,7 @@ ggplot() +
               fill = "steelblue", alpha = 0.15) +
   annotate("text", x = 9, y = dat_banda$soglia_sup[dat_banda$eta == 9], label = "fascia di normalità attesa",
            hjust = 1, vjust = -0.6, colour = "steelblue", fontface = "italic", size = 3.3) +
-  # Linea verticale sottile che segna la valutazione attuale, da cui si diramano le traiettorie future
-  geom_vline(xintercept = eta_diramazione, colour = "grey40", linewidth = 0.5) +
-  annotate("text", x = eta_diramazione, y = Inf, label = "possibili traiettorie future",
-           vjust = 1.5, hjust = -0.05, colour = "grey40", fontface = "italic", size = 3.3) +
+  linea_evento_layer +
   # Tre traiettorie future ipotetiche (grigio scuro, più sottili della traiettoria osservata)
   geom_line(data = dat_fut, aes(x = eta, y = punteggio, linetype = traiettoria, group = traiettoria),
             colour = "grey35", linewidth = 0.6) +
@@ -464,11 +504,11 @@ ggplot() +
   # Traiettoria osservata (nera): sviluppo reale fino alla valutazione attuale
   geom_line(data = dat_oss, aes(x = eta, y = punteggio), colour = "black", linewidth = 1) +
   geom_point(data = dat_oss, aes(x = eta, y = punteggio), colour = "black", size = 3) +
-  scale_linetype_manual(name = NULL, values = c("In linea con le attese" = "solid",
-                                                 "Crescita in seguito a peggioramento" = "dashed",
+  scale_linetype_manual(name = NULL, values = c("In linea con attesa media" = "solid",
+                                                 "Crescita bassa, ma non deficitaria" = "dashed",
                                                  "Crescita \"deficitaria\"" = "dashed")) +
-  scale_shape_manual(name = NULL, values = c("In linea con le attese" = 16,
-                                              "Crescita in seguito a peggioramento" = 18,
+  scale_shape_manual(name = NULL, values = c("In linea con attesa media" = 16,
+                                               "Crescita bassa, ma non deficitaria" = 18,
                                               "Crescita \"deficitaria\"" = 17)) +
   scale_x_continuous(breaks = eta) +
   labs(x = "Età (anni)", y = "Punteggio al test") +
