@@ -127,17 +127,14 @@ Il primo concetto che approfondiremo in questo capitolo è proprio quello dei da
 I dati normativi sono i dati di un gruppo di riferimento che ci aiutano a definire cosa si può intendere _nella norma_ o meno.
 :::
 
+
 :::{.callout-note}
 ## Definizione
 **Nella norma**
 Con questa locuzione si intende che un punteggio è rispetto ai dati normativi, entro una soglia che ci aiuta a identificare prestazioni potenzialmenta anomale.
 :::
 
-
-
-
-
-Da un punto di vista pratico, una distribuzione di dati normativi non è altro che l'insieme delle singole osservazioni raccolte da un gruppo di riferimento. La @fig-costruzione-istogramma illustra questa idea passo per passo: si parte da una singola osservazione (a), si aggiungono altre osservazioni singole (b), fino ad arrivare ad una distribuzione completa (c), costruita "impilando" ogni singola osservazione come se fosse un quadratino. Una volta ottenuta la distribuzione completa, è possibile individuare una soglia (d) che permette di distinguere le prestazioni "nella norma" da quelle che non lo sono.
+Da un punto di vista pratico, una distribuzione di dati normativi non è altro che l'insieme delle singole osservazioni raccolte da un gruppo di riferimento. La @fig-costruzione-istogramma illustra questa idea passo per passo. Immaginiamo di raccogliere deisi parte da una singola osservazione, un'individuo ottiene un punteggio pari a 2 (a). Questa osservazione è rappresentata da un quadratino. Aggiungiamo adesso altre due osservazioni, due altri individuoi ottengono il punteggio di 2 e 5 (b). Se c'è già un osservazione per quel punteggio va impilata con quele esistenti. Aggiungiamo infine altre 17 osservazioni, che ci portano ad avere la distribuzione che è riportata nel pannello (c). Una volta ottenuta questa distribuzione di dati (immaginando che riteniamo sia sufficiente), è possibile individuare eventualmente una soglia (d), che useremo per facilitare le interpretazione dei punteggi.
 
 ```{r}
 #| label: fig-costruzione-istogramma
@@ -148,7 +145,7 @@ Da un punto di vista pratico, una distribuzione di dati normativi non è altro c
 #| fig-width: 8
 #| fig-height: 6
 #| fig-dpi: 200
-#| out-width: "120%"
+#| out-width: "80%"
 
 library(ggplot2)
 library(patchwork)
@@ -167,12 +164,16 @@ aggiungi_osservazione <- function(dati, punteggio) {
   rbind(dati, nuova_osservazione)
 }
 
+distanza_pannelli <- 15  # spazio tra i pannelli (punti): aumenta/diminuisci per più/meno distanza
+
 tema_quadratini <- theme_minimal(base_size = 12) +
   theme(panel.grid = element_blank(),
         axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         axis.line = element_line(colour = "black"),
         plot.title = element_text(size = 12, face = "italic"),
+        plot.margin = margin(t = distanza_pannelli, r = distanza_pannelli,
+                              b = distanza_pannelli, l = distanza_pannelli),
         aspect.ratio = 1)
 
 disegna_quadratini <- function(dati, titolo) {
@@ -221,8 +222,8 @@ La @fig-classificazione-soglia riassume le due possibilità quando si classifica
 #| warning: false
 #| message: false
 #| fig-cap: "Classificazione di un punteggio rispetto ad una soglia. A sinistra, la distribuzione dei punteggi nel gruppo di riferimento (dati simulati): l'area a destra della soglia (in grigio) corrisponde ai punteggi considerati \"nella norma\", l'area a sinistra della soglia (in blu) ai punteggi con potenziale rilevanza clinica. A destra, la classificazione che ne risulta, a seconda che il punteggio osservato sia sopra o sotto la soglia."
-#| fig-width: 8
-#| fig-height: 3.5
+#| fig-width: 9
+#| fig-height: 4
 #| fig-dpi: 200
 #| out-width: "100%"
 
