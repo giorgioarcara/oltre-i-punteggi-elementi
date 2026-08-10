@@ -205,14 +205,14 @@ Nel discutere di deficit e peggioramento abbiamo sottolineato quanto è importan
 
 In breve, il motivo per cui è importante distinguere questi termini è perché le condizioni che descrivono sono ortogonali: possiamo avere deficit con o senza peggioramento, o un peggioramento, ma con o senza deficit. 
 
-La @fig-compromissione-declino illustra questa distinzione con dati fittizi: a sinistra due casi di compromissione, in cui il punteggio scende bruscamente dopo una ipotetica prima valutazione avvenuta prima dell'evento acuto e lesivo; a destra due casi di declino, in cui il punteggio peggiora in modo graduale, valutazione dopo valutazione. In entrambi i pannelli, in un caso (linea in nero) il punteggio finisce sotto la soglia per il deficit, mentre nell'altro (linea in grigio) resta sempre sopra la soglia di deficit.
+La @fig-compromissione-declino illustra questa distinzione con dati fittizi: a sinistra due casi di compromissione, in cui il punteggio scende bruscamente dopo una ipotetica prima valutazione avvenuta prima dell'evento acuto e lesivo; a destra due casi di declino, in cui il punteggio peggiora in modo graduale, valutazione dopo valutazione. Tutte le traiettorie, in entrambi i pannelli, partono dallo stesso punto, perché prima dell'evento acuto (o dell'inizio della degenerazione) non c'è ancora nessuna differenza da osservare. In un caso (triangoli, linea nera tratteggiata) il punteggio finisce sotto la soglia per il deficit, in un altro (diamanti, linea grigia tratteggiata) resta sempre sopra la soglia. Come riferimento, è riportato anche un profilo di prestazione attesa (cerchi, linea grigia continua), che a differenza delle traiettorie di sviluppo viste più avanti in questo capitolo è qui stabile nel tempo, dato che nell'adulto non ci si attende una crescita ma il mantenimento del livello di funzionamento raggiunto.
 
 ```{r}
 #| label: fig-compromissione-declino
 #| echo: false
 #| warning: false
 #| message: false
-#| fig-cap: "Andamento simulato del punteggio a un test in dieci valutazioni ripetute nel tempo, per due casi di compromissione (a sinistra) e due casi di declino (a destra). La linea tratteggiata orizzontale indica la soglia per il deficit; la linea sottile verticale indica il momento dell'evento acuto (a sinistra) o dell'inizio della malattia degenerativa (a destra). A sinistra il punteggio, alto e simile nei due casi a $t_0$, scende bruscamente subito dopo e poi resta stabile (a parte le oscillazioni dovute all'errore di misurazione): il caso grigio resta sopra soglia (nessun deficit), il caso nero scende sotto soglia e vi resta (deficit). A destra il punteggio peggiora invece in modo graduale nelle valutazioni successive: il caso grigio non raggiunge mai la soglia, il caso nero la supera verso il basso ad un certo punto."
+#| fig-cap: "Andamento simulato del punteggio a un test in dieci valutazioni ripetute nel tempo, per due casi di compromissione (a sinistra) e due casi di declino (a destra), con lo stesso schema di colori/simboli usato per le traiettorie ipotetiche nella @fig-traiettoria-sviluppo (solo nero o scale di grigio). Tutte le traiettorie partono dallo stesso punto, prima dell'evento acuto o dell'inizio della degenerazione (linea sottile verticale). Il profilo \"Performance attesa\" (cerchi, linea continua) rappresenta l'andamento, stabile nel tempo, di una persona senza peggioramento. Il caso \"Deficit non raggiunto\" (diamanti, linea tratteggiata) si allontana dalla prestazione attesa ma resta sempre sopra la soglia per il deficit (linea tratteggiata orizzontale). Il caso \"Deficit raggiunto\" (triangoli, linea tratteggiata) scende sotto la soglia: bruscamente e poi stabilmente a sinistra, gradualmente a destra."
 #| fig-width: 9
 #| fig-height: 4.5
 
@@ -250,7 +250,37 @@ soglia_layer <- list(
            colour = "steelblue", fontface = "italic", size = 3.3)
 )
 
-colori_casi <- scale_colour_manual(values = c("Deficit raggiunto" = "black", "Deficit non raggiunto" = "grey60"))
+# Schema di colori/simboli/linetype coerente con quello usato per le traiettorie ipotetiche
+# nella @fig-traiettoria-sviluppo: solo nero o scale di grigio (niente azzurro), cerchio/linea
+# continua per il profilo "in linea con le attese", diamante/tratteggiata per lo scarto che
+# resta nella norma, triangolo/tratteggiata per lo scarto che raggiunge il deficit
+colori_casi <- scale_colour_manual(values = c("Performance attesa" = "grey35",
+                                               "Deficit raggiunto" = "black",
+                                               "Deficit non raggiunto" = "grey60"))
+forme_casi <- scale_shape_manual(values = c("Performance attesa" = 16,
+                                             "Deficit raggiunto" = 17,
+                                             "Deficit non raggiunto" = 18))
+linee_casi <- scale_linetype_manual(values = c("Performance attesa" = "solid",
+                                                "Deficit raggiunto" = "dashed",
+                                                "Deficit non raggiunto" = "dashed"))
+
+# Livello "vero" comune a tutte le traiettorie prima dell'evento/dell'inizio della degenerazione
+# e valore stabile del profilo di prestazione attesa (nessun peggioramento): a differenza della
+# traiettoria attesa crescente delle figure sull'età evolutiva, qui è piatto nel tempo
+livello_iniziale <- 28
+vero_attesa <- rep(livello_iniziale, n_tempi)
+
+# Punto osservato a t0, condiviso da tutte le traiettorie (in entrambi i pannelli): prima
+# dell'evento acuto o dell'inizio della degenerazione non c'è ancora nessuna differenza da
+# osservare, quindi tutte le linee devono partire esattamente dallo stesso punto
+punto_iniziale <- aggiungi_errore_misura(livello_iniziale)
+
+# Funzione modulare per costruire una traiettoria che condivide con le altre lo stesso punto
+# osservato a t0 ("punto_iniziale"), e prosegue poi con il proprio andamento "vero" (con il suo
+# errore di misurazione indipendente) per le valutazioni successive
+costruisci_traiettoria_condivisa <- function(vero) {
+  c(punto_iniziale, aggiungi_errore_misura(vero[-1]))
+}
 
 # Linea sottile verticale che segna il momento dell'evento/inizio del peggioramento,
 # posizionata subito dopo t0 (tra la prima e la seconda valutazione)
@@ -269,47 +299,57 @@ degenerazione_layer <- list(
 )
 
 # --- Pannello sinistro: compromissione (peggioramento improvviso e poi stabile) ---
-vero_compr_deficit    <- c(28, rep(13, n_tempi - 1))
-vero_compr_no_deficit <- c(27, rep(19, n_tempi - 1))
+# Tutte le traiettorie partono dallo stesso punto (livello_iniziale), prima dell'evento acuto
+vero_compr_deficit    <- c(livello_iniziale, rep(13, n_tempi - 1))
+vero_compr_no_deficit <- c(livello_iniziale, rep(19, n_tempi - 1))
 
 dat_compr <- data.frame(
-  tempo = rep(tempi, 2),
-  punteggio = c(aggiungi_errore_misura(vero_compr_deficit),
-                aggiungi_errore_misura(vero_compr_no_deficit)),
-  caso = rep(c("Deficit raggiunto", "Deficit non raggiunto"), each = n_tempi)
+  tempo = rep(tempi, 3),
+  punteggio = c(costruisci_traiettoria_condivisa(vero_attesa),
+                costruisci_traiettoria_condivisa(vero_compr_deficit),
+                costruisci_traiettoria_condivisa(vero_compr_no_deficit)),
+  caso = rep(c("Performance attesa", "Deficit raggiunto", "Deficit non raggiunto"), each = n_tempi)
 )
+dat_compr$caso <- factor(dat_compr$caso, levels = c("Performance attesa", "Deficit raggiunto", "Deficit non raggiunto"))
 
-p_compr <- ggplot(dat_compr, aes(x = tempo, y = punteggio, colour = caso)) +
+p_compr <- ggplot(dat_compr, aes(x = tempo, y = punteggio, colour = caso, shape = caso, linetype = caso)) +
   soglia_layer +
   evento_layer +
   geom_line(linewidth = 0.8) +
-  geom_point(size = 2) +
+  geom_point(size = 2.3) +
   colori_casi +
+  forme_casi +
+  linee_casi +
   scale_x_continuous(breaks = tempi) +
-  coord_cartesian(ylim = c(5, 30)) +
-  labs(title = "Compromissione", x = "Tempo (valutazioni)", y = "Punteggio al test", colour = NULL) +
+  coord_cartesian(ylim = c(5, 31)) +
+  labs(title = "Compromissione", x = "Tempo (valutazioni)", y = "Punteggio al test", colour = NULL, shape = NULL, linetype = NULL) +
   tema_traiettorie
 
 # --- Pannello destro: declino (peggioramento graduale e progressivo) ---
-vero_decl_deficit    <- 28 - (tempi / (n_tempi - 1)) * 18
-vero_decl_no_deficit <- 28 - (tempi / (n_tempi - 1)) * 9
+# Tutte le traiettorie partono dallo stesso punto (livello_iniziale), prima dell'inizio della degenerazione
+vero_decl_deficit    <- livello_iniziale - (tempi / (n_tempi - 1)) * 18
+vero_decl_no_deficit <- livello_iniziale - (tempi / (n_tempi - 1)) * 9
 
 dat_decl <- data.frame(
-  tempo = rep(tempi, 2),
-  punteggio = c(aggiungi_errore_misura(vero_decl_deficit),
-                aggiungi_errore_misura(vero_decl_no_deficit)),
-  caso = rep(c("Deficit raggiunto", "Deficit non raggiunto"), each = n_tempi)
+  tempo = rep(tempi, 3),
+  punteggio = c(costruisci_traiettoria_condivisa(vero_attesa),
+                costruisci_traiettoria_condivisa(vero_decl_deficit),
+                costruisci_traiettoria_condivisa(vero_decl_no_deficit)),
+  caso = rep(c("Performance attesa", "Deficit raggiunto", "Deficit non raggiunto"), each = n_tempi)
 )
+dat_decl$caso <- factor(dat_decl$caso, levels = c("Performance attesa", "Deficit raggiunto", "Deficit non raggiunto"))
 
-p_decl <- ggplot(dat_decl, aes(x = tempo, y = punteggio, colour = caso)) +
+p_decl <- ggplot(dat_decl, aes(x = tempo, y = punteggio, colour = caso, shape = caso, linetype = caso)) +
   soglia_layer +
   degenerazione_layer +
   geom_line(linewidth = 0.8) +
-  geom_point(size = 2) +
+  geom_point(size = 2.3) +
   colori_casi +
+  forme_casi +
+  linee_casi +
   scale_x_continuous(breaks = tempi) +
-  coord_cartesian(ylim = c(5, 30)) +
-  labs(title = "Declino", x = "Tempo (valutazioni)", y = NULL, colour = NULL) +
+  coord_cartesian(ylim = c(5, 31)) +
+  labs(title = "Declino", x = "Tempo (valutazioni)", y = NULL, colour = NULL, shape = NULL, linetype = NULL) +
   tema_traiettorie
 
 p_compr + p_decl + plot_layout(guides = "collect") & theme(legend.position = "bottom")
