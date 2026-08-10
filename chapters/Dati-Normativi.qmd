@@ -24,6 +24,8 @@ La @fig-punteggio-20 illustra questo concetto con due gruppi di riferimento simu
 #| fig-cap: "Lo stesso punteggio (20) con due significati opposti, a seconda della distribuzione dei punteggi nel gruppo di riferimento (dati simulati). A sinistra, un test in cui la maggior parte delle persone ottiene punteggi relativamente alti: 20 cade nella coda bassa della distribuzione. A destra, un test in cui la maggior parte delle persone ottiene punteggi intorno a 15, quindi più bassi: lo stesso punteggio di 20 sarebbe considerato molto alto."
 #| fig-width: 9
 #| fig-height: 4
+#| fig-dpi: 200
+#| out-height: "250%"
 
 library(ggplot2)
 library(patchwork)
@@ -145,6 +147,8 @@ Da un punto di vista pratico, una distribuzione di dati normativi non è altro c
 #| fig-cap: "Costruzione di una distribuzione di dati normativi a partire dalle singole osservazioni. In (a) è rappresentata una sola osservazione (punteggio = 5). In (b) sono rappresentate tre osservazioni (un punteggio di 2 e due punteggi di 5): ogni osservazione è visibile come un singolo quadratino, cosicché un punteggio ottenuto da più persone sia rappresentato da più quadratini impilati. In (c) è rappresentata una distribuzione completa, costruita impilando ogni singola osservazione di un ipotetico gruppo di riferimento di 20 persone. In (d) alla stessa distribuzione è stata aggiunta una soglia (linea verticale), che permette di distinguere le prestazioni considerate \"nella norma\" da quelle che non lo sono. (Adattato da Mondini, Mapelli, Arcara, Semeiotica e diagnosi neuropsicologica)"
 #| fig-width: 8
 #| fig-height: 6
+#| fig-dpi: 200
+#| out-width: "120%"
 
 library(ggplot2)
 library(patchwork)
@@ -217,8 +221,10 @@ La @fig-classificazione-soglia riassume le due possibilità quando si classifica
 #| warning: false
 #| message: false
 #| fig-cap: "Classificazione di un punteggio rispetto ad una soglia. A sinistra, la distribuzione dei punteggi nel gruppo di riferimento (dati simulati): l'area a destra della soglia (in grigio) corrisponde ai punteggi considerati \"nella norma\", l'area a sinistra della soglia (in blu) ai punteggi con potenziale rilevanza clinica. A destra, la classificazione che ne risulta, a seconda che il punteggio osservato sia sopra o sotto la soglia."
-#| fig-width: 9
-#| fig-height: 4
+#| fig-width: 8
+#| fig-height: 3.5
+#| fig-dpi: 200
+#| out-width: "100%"
 
 library(ggplot2)
 library(patchwork)
@@ -377,6 +383,8 @@ La @fig-compromissione-declino illustra questa distinzione con dati fittizi: a s
 #| fig-cap: "Andamento simulato del punteggio a un test in dieci valutazioni ripetute nel tempo, per due casi di compromissione (a sinistra) e due casi di declino (a destra), con lo stesso schema di colori/simboli usato per le traiettorie ipotetiche nella @fig-traiettoria-sviluppo (solo nero o scale di grigio). Tutte le traiettorie partono dallo stesso punto, prima dell'evento acuto o dell'inizio della degenerazione (linea sottile verticale). Il profilo \"Performance attesa\" (cerchi, linea continua) rappresenta l'andamento, stabile nel tempo, di una persona senza peggioramento. Il caso \"Deficit non raggiunto\" (diamanti, linea tratteggiata) si allontana dalla prestazione attesa ma resta sempre sopra la soglia per il deficit (linea tratteggiata orizzontale). Il caso \"Deficit raggiunto\" (triangoli, linea tratteggiata) scende sotto la soglia: bruscamente e poi stabilmente a sinistra, gradualmente a destra."
 #| fig-width: 9
 #| fig-height: 4.5
+#| fig-dpi: 200
+#| out-width: "100%"
 
 library(ggplot2)
 library(patchwork)
@@ -527,6 +535,8 @@ La stessa distinzione è riassunta anche nella @fig-tabella-compromissione-decli
 #| fig-cap: "Sintesi delle quattro combinazioni illustrate nella @fig-compromissione-declino (compromissione/declino, con/senza deficit) relativi ad un disturbo acquisito, con un esempio clinico per ciascuna. Le colonne seguono lo stesso ordine della figura precedente; le etichette di riga riprendono gli stessi colori usati lì per i due casi (nero = deficit raggiunto, grigio = deficit non raggiunto)."
 #| fig-width: 7.5
 #| fig-height: 4
+#| fig-dpi: 200
+#| out-width: "100%"
 
 library(ggplot2)
 
@@ -609,6 +619,8 @@ La @fig-traiettoria-sviluppo illustra questi concetti con dati simulati, in un f
 #| fig-cap: "Traiettoria di sviluppo simulata (linea nera, punti pieni) dalla valutazione a 1 anno fino alla valutazione più recente, a 4 anni, identica nei due pannelli. Da qui si diramano tre traiettorie future ipotetiche per pannello, tutte in grigio scuro e incluse nella stessa legenda della traiettoria osservata. A sinistra (Peggioramento acuto): un evento acuto (linea verticale) può causare un peggioramento improvviso del punteggio; una traiettoria non ne risente e prosegue come atteso (cerchi, linea continua), una scende ma resta entro la fascia di normalità (diamanti, linea tratteggiata), una scende al punto da uscire subito dalla fascia e vi resta (triangoli, linea tratteggiata). A destra (Crescita atipica): dallo stesso punto (linea verticale \"inizio della divergenza\") la crescita può proseguire in linea con l'attesa (cerchi, linea continua), rallentare restando comunque entro la fascia (diamanti, linea tratteggiata), oppure allontanarsene gradualmente fino a uscirne (triangoli, linea tratteggiata). La fascia colorata rappresenta, in entrambi i pannelli, l'intervallo di normalità (soglia superiore e inferiore) atteso dal gruppo di riferimento per ciascuna età."
 #| fig-width: 10
 #| fig-height: 5.5
+#| fig-dpi: 200
+#| out-width: "100%"
 
 library(ggplot2)
 library(patchwork)
