@@ -298,7 +298,7 @@ Da note che per i test di velocità (in cui il punteggio dipende dal numero di i
 
 [^omega]: Dettagli su $\alpha$ e $\omega$ e le formule per calcolarli, sono trattate più in dettaglio nella sezione _Approfondimenti tecnici_.
 
-_Soglie indicative_: come riportato in `\cite{slick2006psychometrics}`{=latex} `Slick, 2006 (cap. 1, in Spreen & Strauss, 2006)`{=html}: valori inferiori a .70 sono considerati inaccettabili, tra .70 e .79 discreti, tra .80 e .89 buoni, e pari o superiori a .90 eccellenti. Nei test neuropsicologici la consistenza interna tende però ad essere più bassa della media, spesso intorno a .60, in parte perché molti di questi test valutano domini eterogenei di abilità piuttosto che un singolo costrutto omogeneo.
+_Soglie indicative_: come riportato in `\cite{slick2006psychometrics}`{=latex} `Slick, 2006 (cap. 1, in Spreen & Strauss, 2006)`{=html}: valori inferiori a .70 sono considerati inaccettabili, tra .70 e .79 discreti, tra .80 e .89 buoni, e pari o superiori a .90 eccellenti. Nei test neuropsicologici la consistenza interna tende però ad essere più bassa della media, spesso intorno a .60.
 
 <!-- È importante ricordare che un'alta consistenza interna non implica di per sé validità: item molto correlati tra loro potrebbero riflettere un costrutto diverso da quello che il test intende misurare. 
 -->
@@ -444,7 +444,7 @@ Come già sottolineato all'inizio di questa sezione, le evidenze di validità e 
 
 ## Capitolo 2: Riassunto
 
-In questo capitolo sono state approfondite Validità e Affidabilità, due qualità fondamentali dei test neuropsicologici.
+In questo capitolo sono state approfondite validità e affidabilità, due qualità fondamentali dei test neuropsicologici.
 La validità può essere definita, sommariamente, come la qualità di un test di misurare ciò che intende misurare, mentre l'affidabilità la precisione di un test.
 Esistono diversi tipi di validità e affidabilità, e ognuna cattura una diversa sfaccettature delle proprietà del test.
 In generale sarebbe preferibile sempre scegliere test che abbiamo buone (o quantomeno migliori in termini comparativi), validità e affidabilità. 
