@@ -39,7 +39,7 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 
 [Analisi fattoriale e analisi delle componenti principali]{#analisi-fattoriale}
 
-:   Tecniche statistiche che permettono di individuare, a partire dalle correlazioni tra un insieme di item o di test, un numero ridotto di dimensioni (fattori o componenti) sottostanti in grado di spiegarne l'andamento comune. L'analisi fattoriale esplorativa (EFA) è usata per esplorare quale struttura fattoriale emerge dai dati senza ipotesi predefinite; l'analisi fattoriale confermativa (CFA) è usata per verificare se una struttura fattoriale ipotizzata a priori è coerente con i dati osservati. Sono strumenti chiave per indagare la validità di costrutto di un test o di un questionario. Il dettaglio tecnico di queste analisi è rimandato agli _Approfondimenti tecnici_.
+:   Tecniche statistiche che permettono di individuare, a partire dalle correlazioni tra un insieme di item o di test, un numero ridotto di dimensioni (fattori o componenti) sottostanti in grado di spiegarne l'andamento comune. L'analisi fattoriale esplorativa (EFA) è usata per esplorare quale struttura fattoriale emerge dai dati senza ipotesi predefinite; l'analisi fattoriale confermativa (CFA) è usata per verificare se una struttura fattoriale ipotizzata a priori è coerente con i dati osservati. Sono strumenti chiave per indagare la validità di costrutto di un test o di un questionario. Il dettaglio tecnico di queste analisi è rimandato al _Tomo II – Approfondimenti tecnici_.
 
 [Campione e popolazione]{#campione-popolazione}
 
@@ -138,7 +138,7 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 
 [Item Response Theory (IRT) e modello di Rasch]{#irt}
 
-:   La Item Response Theory è un approccio alla misurazione psicologica, alternativo alla Teoria Classica dei Test, che modella la probabilità di rispondere correttamente a un singolo item di un test in funzione di livello in uno o più costrutti latenti posseduti dalla persona e delle caratteristiche dell'item stesso (ad esempio la sua difficoltà). Il modello di Rasch è uno dei modelli IRT più utilizzati e più semplici, e richiede che il costrutto misurato sia unidimensionale, cioè che gli item riflettano un'unica dimensione sottostante. Questi modelli sono trattati più in dettaglio negli _Approfondimenti tecnici_.
+:   La Item Response Theory è un approccio alla misurazione psicologica, alternativo alla Teoria Classica dei Test, che modella la probabilità di rispondere correttamente a un singolo item di un test in funzione di livello in uno o più costrutti latenti posseduti dalla persona e delle caratteristiche dell'item stesso (ad esempio la sua difficoltà). Il modello di Rasch è uno dei modelli IRT più utilizzati e più semplici, e richiede che il costrutto misurato sia unidimensionale, cioè che gli item riflettano un'unica dimensione sottostante. Questi modelli sono trattati più in dettaglio nel _Tomo II – Approfondimenti tecnici_.
 
 [Malingering (simulazione)]{#malingering}
 
