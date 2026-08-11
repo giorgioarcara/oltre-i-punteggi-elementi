@@ -213,6 +213,12 @@ Nel contesto dei dati normativi il termine _rappresentatività_ è comunemente u
 
 :   Un formato di risposta molto usato nei questionari, in cui alla persona viene chiesto di esprimere il proprio grado di accordo (o la frequenza, l'intensità, etc.) rispetto a un'affermazione, scegliendo tra un numero limitato di opzioni ordinate (tipicamente da 4 a 7), ad esempio da "per niente d'accordo" a "completamente d'accordo".
 
+[Scale di misura (nominale, ordinale, a intervalli, a rapporti)]{#scale-di-misura}
+
+:   Le quattro categorie di scale di misura individuate da S.S. Stevens (1946), organizzate gerarchicamente in base alle operazioni statistiche che consentono. La scala nominale permette solo di classificare in categorie senza ordine (es. sesso, colori). La scala ordinale introduce un ordine tra le categorie, ma le distanze tra loro non hanno un significato definito (es. titolo di studio). La scala a intervalli ha ordine e intervalli uguali, ma senza uno zero assoluto (es. temperatura in °C). La scala a rapporti ha in aggiunta uno zero assoluto, che rende possibili tutte le operazioni aritmetiche (es. età, tempi di reazione). Ogni livello superiore della gerarchia consente le operazioni possibili ai livelli inferiori, oltre alle proprie. Per la trattazione estesa vedi [Capitolo 1, par. La definizione di misurazione di S.S. Stevens (1946) e le scale di misura](../Misurazione.qmd#stevens).
+
+<!-- Voce di glossario in bozza (proposta durante /revisiona-capitolo su Misurazione.qmd): da rivedere prima di considerarla definitiva. -->
+
 [Test di Screening]{#screening}
 
 :   Uno screening è una valutazione rapida, generalmente breve e poco costosa, usata per identificare in modo indicativo la possibile presenza di una condizione in una popolazione, senza fornire una diagnosi definitiva. 
@@ -225,6 +231,12 @@ Nel contesto dei dati normativi il termine _rappresentatività_ è comunemente u
 [Sensibilità e specificità]{#sensibilita-specificita}
 
 :   Due indici che descrivono la capacità di un test (per una specifica soglia o cut-off) di distinguere correttamente tra chi presenta una certa condizione (ad esempio un deficit) e chi non la presenta. La sensibilità è la proporzione di persone con la condizione che il test identifica correttamente come tali (veri positivi); la specificità è la proporzione di persone senza la condizione che il test identifica correttamente come tali (veri negativi). Sensibilità e specificità sono spesso in trade-off tra loro: aumentare l'una tende a ridurre l'altra.
+
+[Sistema Relazionale Empirico e Sistema Relazionale Numerico]{#sistema-relazionale-empirico-numerico}
+
+:   Concetti alla base della definizione di misurazione di Suppes e Zinnes (1963). Il Sistema Relazionale Empirico è l'insieme delle entità del mondo empirico che possiedono la proprietà che si vuole misurare (ad esempio oggetti di diversa lunghezza), insieme alle relazioni osservabili tra queste entità (ad esempio "essere più lungo di"). Il Sistema Relazionale Numerico è l'insieme di numeri (ad esempio i numeri Reali) usato per rappresentare il Sistema Relazionale Empirico. Misurare, secondo questa definizione, consiste nel trovare un omomorfismo, cioè una corrispondenza che preserva le relazioni, tra i due sistemi. Per la trattazione estesa vedi [Capitolo 1, par. Definizione di misurazione secondo Suppes e Zinnes (1963)](../Misurazione.qmd#suppes-zinnes).
+
+<!-- Voce di glossario in bozza (proposta durante /revisiona-capitolo su Misurazione.qmd): da rivedere prima di considerarla definitiva. -->
 
 [Statistica]{#statistica}
 
