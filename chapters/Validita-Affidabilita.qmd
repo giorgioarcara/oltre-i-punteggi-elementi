@@ -508,7 +508,7 @@ Considerare che i test siano tutti precisi allo stesso modo è però un'assunzio
 Eppure evitare questo errore è relativamente semplice, basta considerare affidabilità validità e affidabilità quando si seleziona un test (si veda par. [Nella pratica clinica: Come usare validità e affidabilità per scegliere i test](#prat-clin-aff-val)).
 
 Non voglio però banalizzare questo problema: se in accordo allo "spirito del tempo" della neuropsicologia clinica non è data molta rilevanza a validità e affidabilità, una ragione probabilmente c'è e merita di essere indagata. 
-È possibile identificare facilmente almeno due ragioni: la situazione da un lato riflette una generale poca attenzione alle proprietà psicometriche in psicologia (si veda `(\cite{flake2020measurement})`{=latex}`Flake & Fried, 2020`{=html}, per un'analisi sulla validità); la situazione probabilmente affonda le radici in quelli sono i principi - spesso impliciti - alla base della valutazione neuropsicologica e alla storia con cui la neuropsicologia clinica si è sviluppata. Questi aspetti sono trattati più in dettaglio nel Capitolo 10.
+È possibile identificare facilmente almeno due ragioni: la situazione da un lato riflette una generale poca attenzione alle proprietà psicometriche in psicologia (si veda `(\cite{flake2020measurement})`{=latex}`Flake & Fried, 2020`{=html}, per un'analisi sulla validità); la situazione probabilmente affonda le radici in quelli sono i principi - spesso impliciti - alla base della valutazione neuropsicologica e alla storia con cui la neuropsicologia clinica si è sviluppata. Questi aspetti sono trattati più in dettaglio nel Capitolo 11.
 
 <!-- ## Focus: il mio test è sufficientemente valido e affidabile -->
 <!-- è una d

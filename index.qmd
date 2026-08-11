@@ -152,10 +152,10 @@ Di seguito trovi un indice provvisorio dell'opera. La suddivisione dei contenuti
   * Focus: invarianza di misura nei test neuropsicologici
   * Errori comuni: ignorare validità e affidabilità di un test.
 
-**3. Identificare deficit e danni cognitivi**
+**3. Identificare deficit e danni cognitivi (da scrivere)**
 
-  * I concetti di _deficit_ e _danno_ in valutazione dell'adulto
-  * Il concetto di _deficit_ in età evolutiva
+  * I concetti di _deficit_ e _peggioramento_ nella valutazione dell'adulto
+  * Il concetto di _deficit_ e _peggioramento_ in età evolutiva
   * Dati normativi, percentili e _cut-off di normalità_ 
     * Come si ottengono i dati normativi
   * Metodi per calcolare i cut-off di normalità
@@ -173,7 +173,7 @@ Di seguito trovi un indice provvisorio dell'opera. La suddivisione dei contenuti
   * Capitolo 3: Riassunto
 
 
-**4. Identificare patologie o condizioni di interesse**
+**4. Identificare patologie o condizioni di interesse (da scrivere)**
 
   * Il _gold standard_ in neuropsicologia clinica e forense
   * Cut-off di discriminazione
@@ -200,23 +200,34 @@ Di seguito trovi un indice provvisorio dell'opera. La suddivisione dei contenuti
  * Punteggi Equivalenti.
  * Capitolo 6: Riassunto
 
-**7. Valutazioni forensi e il problema della simulazione**
+**7. Valutazioni forensi e il problema della simulazione (da scrivere)**
 
   * La validità di performance
   * Identificare la simulazione in una valutazione
   * Capitolo 7: Riassunto
+  
+**8. Scegliere i test neuropsicologici**
 
+  * Scegliere i test per la propria cassetta detli attrezzi 
+    * I tre elementi: obiettivi, caratteristiche psicometriche, aspetti pratici.
+  * Scegliere i test per una specifica valutazione
+    * Approccio a batteria fissa
+    * approccio a batteria variabile
+    * approcci ibridi
+  * Tenersi aggiornati con i nuovi test
+  * Suggerimenti pratici per la scelta dei test
+  * Focus: dovrei utilizzare i test più diffusi? <!-- non banalizzare questo e dire che dipende, può avere senso-->
 
-**8. Il teorema di Bayes e la sua rilevanza in clinica**
+**9. Il teorema di Bayes e la sua rilevanza in clinica (da scrivere)**
 
   * Il teorema di Bayes in breve
   * Perché il teorema di Bayes è rilevante in neuropsicologia clinica
   * Perché il teorema di Bayes è rilevante in neuropsicologia forense
   * Errori comuni: cosa può succedere se non si utilizza il Teorema di Bayes nelle interpretazioni.
-  * Capitolo 8: Riassunto
+  * Capitolo 9: Riassunto
 
 
-**9. Interpretare i risultati ai test neuropsicologici**
+**10. Interpretare i risultati ai test neuropsicologici (da scrivere)**
 
   * Perché _Interpretazione_ e non _Lettura_?
   * L' _Interpretative Approach_ nella pratica clinica
@@ -225,16 +236,17 @@ Di seguito trovi un indice provvisorio dell'opera. La suddivisione dei contenuti
     * Integrare i risultati ai test con informazioni qualitative
     * Interpretare casi anomali
   * Conclusioni: il ruolo fondamentale della/del professionista nell'utilizzo dei test.
-  * Capitolo 9: Riassunto
+  * Capitolo 10: Riassunto
 
-**10. Fondamenti della neuropsicologia clinica: scopi, misurazione e giustificazione delle inferenze cliniche**
-
+**11. Fondamenti della neuropsicologia clinica: scopi, misurazione e giustificazione delle inferenze cliniche (da scrivere)**
+  
  * Perché è importante un capitolo sull'Epistemologia?
- * Metodologia ed Epistemologia
+ * Assunti comuni (e impliciti della neuropsicologia clinica)
+ * Epistemologia e metodologia
  * Il potenziale ruolo dell'AI nella valutazione neuropsicologica
- * Capitolo 10: Riassunto
+ * Capitolo 11: Riassunto
 
-**TOMO II: Approfondimenti tecnici**
+**TOMO II: Approfondimenti tecnici (da scrivere)**
 
 _da definire_
 
