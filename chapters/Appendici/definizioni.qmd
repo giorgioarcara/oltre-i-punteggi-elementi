@@ -84,6 +84,10 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 
 :   Un indice di quanto, in media, i singoli valori di un insieme di dati si discostano dalla media stessa. Una deviazione standard piccola indica che i valori sono concentrati vicino alla media; una deviazione standard grande indica che i valori sono più dispersi. È alla base del calcolo dei punti-z (vedi [Punti-z](#punti-z)).
 
+[Digit Span]{#digit-span}
+
+:   Compito che misura la memoria a breve termine e la memoria di lavoro uditivo-verbale, attraverso la ripetizione di sequenze di cifre lette dall'esaminatore. Nella forma diretta (_forward_) al paziente si chiede di ripetere le cifre nello stesso ordine in cui sono state presentate; nella forma inversa (_backward_), più impegnativa, di ripeterle in ordine invertito. Non richiede materiali oltre a un protocollo con le sequenze da leggere ad alta voce. Il punteggio corrisponde tipicamente alla lunghezza massima di sequenza correttamente ripetuta (lo _span_); nelle versioni standardizzate (ad esempio nelle scale Wechsler, di cui è un subtest storico) viene inoltre calcolato un punteggio complessivo basato sul numero di sequenze superate. È uno dei compiti di memoria "storici" in psicologia. `\cite{jacobs1887experiments}`{=latex}`(Jacobs, 1887)`{=html}.
+
 [Distribuzione (normale)]{#distribuzione-normale}
 
 :   La distribuzione normale (o "a campana") è una distribuzione simmetrica, molto comune in psicometria, in cui la maggior parte delle osservazioni si concentra intorno alla media e la frequenza decresce progressivamente allontanandosi da essa.
@@ -99,6 +103,10 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 [Falsi positivi e falsi negativi]{#falsi-positivi-negativi}
 
 :   Un falso positivo è il caso di una persona senza la condizione indagata (ad esempio senza un deficit) che il test classifica erroneamente come positiva (cioè con deficit). Un falso negativo è il caso opposto: una persona con la condizione indagata che il test classifica erroneamente come negativa (cioè senza deficit). Questi due tipi di errore hanno spesso conseguenze cliniche molto diverse, per cui la scelta di un cut-off dipende anche da quale dei due errori si vuole minimizzare in un dato contesto.
+
+[Fluenza verbale (fonemica e semantica)]{#fluenza-verbale}
+
+:   Compiti che misurano la capacità di recupero lessicale e spesso associate anche ad altri processi cognitivi (vedi sotto in questa voce). Nel compito è chiesto di generare quante più parole possibile secondo un criterio dato, in un tempo limitato (tipicamente 60 secondi). Nella fluenza fonemica il criterio è la lettera iniziale (es. "dica tutte le parole che iniziano per F"); nella fluenza semantica il criterio è una categoria semantica (es. "dica tutti gli animali che conosce"). Non richiedono materiali oltre a un cronometro. Il punteggio corrisponde al numero di parole valide prodotte (escludendo ripetizioni, derivazioni della stessa radice e nomi propri), poi corretto per età e scolarità (vedi [Dati normativi](#dati-normativi)). La fluenza fonemica è più legata a processi esecutivi e di controllo (vedi [Funzioni esecutive](#funzioni-esecutive)), la fluenza semantica coinvolge maggiormente l'organizzazione della memoria semantica. `\cite{novelli1986tre,carlesimo1996mental}`{=latex}`(Novelli et al., 1986; Carlesimo et al., 1996)`{=html}.
 
 [Forme parallele]{#forme-parallele}
 
@@ -155,6 +163,14 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 [Misurazione secondo Suppes e Zinnes (1963)]{#def-suppes-zinnes}
 
 :   Una definizione più formale e rigorosa di misurazione, secondo cui misurare consiste in un **omomorfismo**, cioè una corrispondenza che preserva le relazioni, tra un insieme di entità del mondo empirico (Sistema Relazionale Empirico) e un insieme di numeri (Sistema Relazionale Numerico). Per la trattazione estesa vedi [Capitolo 1, par. Definizione di Misurazione secondo Suppes e Zinnes](../Misurazione.qmd#suppes-zinnes).
+
+[MMSE (Mini-Mental State Examination)]{#mmse}
+
+:   Test di screening che misura il funzionamento cognitivo globale, esplorando in modo sintetico più domini (orientamento, memoria, attenzione, linguaggio, prassia costruttiva). Si somministra individualmente in circa 10 minuti attraverso una serie di domande e brevi compiti (es. ricordo di parole, copia di un disegno, esecuzione di un comando scritto); richiede pochi materiali (carta, penna, un foglio con un disegno da copiare). Il punteggio grezzo va da 0 a 30, con punteggi più bassi indicativi di maggiore compromissione cognitiva; viene poi tipicamente corretto per età e scolarità prima di essere confrontato con un cut-off di normalità (vedi [Cut-off](#cut-off)). `\cite{folstein1975mini}`{=latex}`(Folstein et al., 1975)`{=html}.
+
+[MoCA (Montreal Cognitive Assessment)]{#moca}
+
+:   Test di screening cognitivo sviluppato per essere più sensibile del MMSE (vedi [MMSE](#mmse)) nell'identificare compromissioni cognitive lievi, nello specifico nel distinguere MCI e AD da individui sani; esplora più domini (funzioni esecutive, memoria, linguaggio, attenzione, orientamento, abilità visuospaziali). Si somministra individualmente in circa 10-15 minuti, con materiali analoghi al MMSE (protocollo cartaceo con disegni da copiare e compiti da eseguire). Il punteggio grezzo va da 0 a 30, con punteggi più bassi indicativi di maggiore compromissione. `\cite{nasreddine2005montreal}`{=latex}`(Nasreddine et al., 2005)`{=html}.
 
 [Open Science]{#open-science}
 
@@ -227,6 +243,14 @@ Nel contesto dei dati normativi il termine _rappresentatività_ è comunemente u
 [Test (definizione di Cronbach, 1990)]{#gloss-test-cronbach}
 
 :   Un test è "una procedura sistematica per l'osservazione del comportamento di una persona e per la sua descrizione con l'aiuto di una scala numerica o tramite categorie prefissate". Una delle definizioni di test più diffuse in psicologia. Per la trattazione estesa vedi [Capitolo 1, par. I test](../Misurazione.qmd#callout-test-cronbach).
+
+[Test dei Proverbi]{#test-proverbi}
+
+:   Compito che misura il pensiero astratto e il ragionamento verbale, attraverso l'interpretazione del significato di proverbi comuni. Si somministra chiedendo al paziente di spiegare a voce il significato di una serie di proverbi riportati su un protocollo; le risposte vengono trascritte e classificate come corrette, parzialmente corrette (interpretazioni concrete o solo parzialmente astratte) o errate. Il punteggio corrisponde al numero (o alla somma di punteggi parziali) di interpretazioni corrette; il range esatto dipende dal numero di proverbi somministrati nella versione utilizzata. È incluso, tra gli altri compiti, nella prova dei "giudizi verbali" della standardizzazione italiana di Spinnler e Tognoni. `\cite{spinnler1987standardizzazione}`{=latex}`(Spinnler & Tognoni, 1987)`{=html}.
+
+[Test dell'Orologio (Clock Drawing Test)]{#test-orologio}
+
+:   Test che misura, tra le altre cose, abilità visuospaziali, prassia costruttiva, pianificazione e recupero da memoria semantica (la rappresentazione mentale di un orologio), richiedendo l'integrazione di più funzioni cognitive in un singolo compito. Si somministra chiedendo al paziente di disegnare il quadrante di un orologio, posizionare i numeri e le lancette in modo da indicare un orario dato (es. "le undici e dieci"); richiede solo carta e penna. Il punteggio dipende dal sistema di correzione utilizzato (ne esistono diversi), generalmente basato sulla presenza e correttezza di elementi come il quadrante, la posizione dei numeri e delle lancette. `\cite{sunderland1989clock,caffarra2011clock}`{=latex}`(Sunderland et al., 1989; Caffarra et al., 2011)`{=html}.
 
 [Validità]{#def-validita}
 
