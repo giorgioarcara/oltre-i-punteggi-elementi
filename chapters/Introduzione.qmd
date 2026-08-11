@@ -4,7 +4,7 @@ suppress-bibliography: true
 
 # Introduzione {.unnumbered}
 
-## Il protagonista del libro: Il test neuropsicologico
+## Il protagonista del libro: il test neuropsicologico
 È utile precisare sin da subito che questo volume avrà un protagonista indiscusso: il **test neuropsicologico**. Il libro però non sarà, come ci si potrebbe aspettare, una celebrazione dei test e un continuo sottolineare su perché è importante utilizzarli. Dovrete piuttosto aspettarvi un libro che insegna a capire i _limiti_ dei test neuropsicologici e delle informazioni che ci forniscono. Se da un lato questo può spaventare (delegare la responsabilità delle conclusioni allo strumento di misurazione è certamente confortante), il messaggio che se ne può derivare è in realtà assolutamente positivo per la professionalità della/del neuropsicologa/o. Quello che penso sia chiaro emergerà è che il ruolo della/del professionista nell'atto dell'utilizzo di un test è molto più rilevante di quello che potrebbe sembrare, specie se si conoscono i principi psicometrici e statistici alla base dell'utilizzo degli strumenti di misurazione neuropsicologica e psicologica.
 
 ## Il libro in breve

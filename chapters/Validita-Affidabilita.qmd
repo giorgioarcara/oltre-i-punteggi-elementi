@@ -1,7 +1,7 @@
 ---
 suppress-bibliography: true
 ---
-# Validità e Affidabilità {#validita-e-affidabilita}
+# Validità e affidabilità {#validita-e-affidabilita}
 
 :::{.domanda}
 Possiamo considerare gli strumenti di misurazione tutti precisi allo stesso modo?
@@ -134,7 +134,7 @@ Con questo nome si intende la capacità del punteggio del test di convergere o d
 _Soglie indicative_: Per la validità di costrutto non esiste un valore soglia universale (una correlazione convergente "abbastanza alta" o divergente "abbastanza bassa"), il che la rende, tra i tipi di validità, quella più esposta al rischio di flessibilità interpretativa post-hoc: è facile, guardando i dati a posteriori, trovare una spiegazione plausibile per qualunque pattern di correlazioni osservato. Per questo motivo, le ipotesi su quali correlazioni ci si aspetta di trovare (e quali no) andrebbero specificate prima di raccogliere i dati oppure andrebbero testate in due passi: una prima analisi esplorativa su un campione e una seconda analisi confermativa su un campione indipendente. La "pre-registrazione" dei risultati (cioè una registrazione in un punto sicuro e pubblico delle attese sperimentali) è uno strumento della _Open Science_ che sembra particolarmente utile per una valutazione della robustezza della validità di costrutto `(\cite{binney2025practical})`{=latex}`(Binney et al., 2025)`{=html}.
 
 
-#### struttura fattoriale
+#### Struttura fattoriale
 Con questo tipo di validità si indica la qualità degli item del test di raggrupparsi in modo coerente con il modello teorico del costrutto, tipicamente verificata con l'analisi fattoriale esplorativa (Exploratory Factor Analysis, EFA) o confermativa (Confirmatory Factor Analysis, CFA). Talvolta, anche se non è propriamente corretto dal punto di vista statistico, a questo scopo viene utilizzata anche l'analisi delle componenti principali (Principal Component Analysis, PCA). Non è facile spiegare queste tipologia di analisi in maniera concisa senza essere imprecisi. Per tale ragione sono approfondite nella sezione di _Approfondimenti tecnici_. In breve, un'analisi fattoriale per essere a supporto della validità di costrutto dovrebbe mostrare che gli item del test si comportano in modo coerente con il costrutto o i costrutti misurati. L'analisi fattoriale è infatti spesso utilizzata in fase di sviluppo dei test, come strumento statistico per selezionare quali item tenere e quali invece escludere dalla versione finale. Esistono diverse metriche per valutare l'adeguatezza del modello fattoriale e diversi valori soglia proposti in letteratura legati. Si rimanda al paragrafo su analisi fattoriale negli approfondimenti tecnici per i dettagli. <!-- Nota giorgio: aggiungere citazione corretta-->
 
 
@@ -271,7 +271,7 @@ Anche in questo caso le soglie sono da considerare come indicative: per le decis
 
 È da notare che anche in questo aspetto la letteratura non è unanime, e non è raro che test pubblicati e ampiamente utilizzati circolino con valori di affidabilità ben al di sotto di quelli raccomandati. Per tale ragione, per quanto riguarda i valori di affidabilità, suggerisco un approccio _comparativo_ : meglio scegliere i test con affidabilità più alta (e con più evidenze di affidabilità), interpretando con cautela quando l'affidabilità è al di sotto di valori raccomandati (si veda anche il paragrafo [Nella pratica clinica: Come usare affidabilità e validità per scegliere i test]({#prat-clin-aff-val}).
 
-#### Affidabilità Split-Half{#affidabilità-split-half}
+#### Affidabilità split-half{#affidabilità-split-half}
 
 :::{.callout-note}
 ## Definizione
@@ -286,7 +286,7 @@ Poiché ciascuna metà è più corta dell'intero test, e un test più corto tend
 
 _Soglie indicative_: per essere considerata sufficiente la correlazione split-half dovrebbe essere pari o superiore a .70-.80 `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}.
 
-#### Consistenza Interna {#consistenza-interna}
+#### Consistenza interna {#consistenza-interna}
 
 :::{.callout-note}
 ## Definizione
@@ -367,7 +367,7 @@ _Soglie indicative_: non esiste una soglia universalmente valida. Un coefficient
 
 [^ICC_det]: spesso questo è definito come ICC(2,1) o ICC(A,1), si veda la sezione _Approfondimenti Tecnici_.
 
-#### Inter-Rater Agreement
+#### Inter-rater agreement
 
 L'accordo tra valutatori (_inter-rater agreement_) misura quanto sia consistente il punteggio assegnato da valutatori diversi che osservano la stessa prestazione. È particolarmente rilevante per i test in cui il punteggio dipende da un giudizio qualitativo dell'esaminatore, e meno quanto è prevista una correzione automatica o univoca. Sono quindi test in cui è importante valutare inter-rater agreement per esempio i test di fluenza verbale, test di disegno, o compiti di descrizione, oppure compiti di interpretazione di proverbi. <!-- valutare se approfondire questi esempi). -->
 
@@ -387,7 +387,7 @@ Tabella riassuntiva:
 
 : Sintesi dei tipi di affidabilità, delle modalità con cui vengono tipicamente valutati e dei valori soglia indicativi riportati in letteratura. Tutti i valori sono indicativi e non costituiscono uno standard universalmente condiviso: valgono, anche qui, il principio del continuum Peggio/Meglio e le soglie più stringenti raccomandate da Sattler `(\citeyear{sattler2001assessment})`{=latex}`(2001)`{=html} per le decisioni cliniche sul singolo individuo (≥ .80; ≥ .90 per le decisioni ad alto impatto). {#tbl-affidabilita}
 
-## Nella pratica clinica: Come usare validità e affidabilità per scegliere i test {#prat-clin-aff-val}
+## Nella pratica clinica: come usare validità e affidabilità per scegliere i test {#prat-clin-aff-val}
 
 Una domanda che una/un neuropsicologa/o dovrebbe porsi prima di utilizzare un test è: _il mio test ha validità e affidabilità adeguate?_.
 
@@ -441,7 +441,12 @@ Uno strumento pubblicato potrebbe comunque avere una bassa validità (o non nota
 
 Come già sottolineato all'inizio di questa sezione, le evidenze di validità e affidabilità si accumulano nel tempo, e vanno considerate come all'interno di un continuum. Ci sono test con migliore validità e test con peggiore validità. Il fatto che informazioni su affidabilità o validità non siano disponibile non significa necessariamente che siano scarse, ma segnalano l'importante fatto che non le conosciamo e non siamo quindi in grado di giudicare se quel test è adeguato o no. Per tale motivo, scegliere di usare test senza che queste evidenze siano note andrebbe visto come muoversi verso il polo peggiore del continuum, specie se ci sono alternative in cui questi test.
 
-È anche per questo motivo che l'aggiornamento professionale continuo è così rilevante in questo ambito: nuove prove pubblicate nel tempo possono spostare la valutazione complessiva di uno strumento, in meglio o in peggio, verso una scelta più consapevolezza degli strumenti da mettere nella propria cassetta degli attrezzi. Ovviamente non ci sono soltanto validità e affibilidità come criteri per scegliere un test e questi saranno affrontati nel capitolo Scegliere un test neuropsicologico.
+Purtroppo, potrebbe capitare che dati di validità e affidabilità non siano disponibili (e siano disponibili, ad esempio solo le norme). In questo caso sarebbero da preferire i test che quantomeno mi forniscono evidenze su queste caratteristiche. Per fornire un esempio pratico, se siete interessati in un test di memoria (in particolare di recupero libero o su suggerimento), per il test Free and Cued Selective Reminding Test sono state pubblicate evidenza su consistenza interna e di validità `(\cite{clerici2017construct})`{=latex}`(Clerici et al., 2017)`{=html}, e sarebbe da preferire rispetto ad altri test che misurano lo stesso costrutto ma non forniscono evidenze di questo tipo.
+
+È anche per questo motivo che l'aggiornamento professionale continuo è così rilevante in questo ambito: nuove prove pubblicate nel tempo possono spostare la valutazione complessiva di uno strumento, in meglio o in peggio, verso una scelta più consapevolezza degli strumenti da mettere nella propria cassetta degli attrezzi.
+
+Una domanda che potrebbe sorgere è: come fare nei casi in cui questa valutazione comparativa non sia così chiara? Potrebbe per esempio capitare di confrontare due test in cui in uno è migliore la validità mentre in un altro l'affidabilità, etc. Questi casi sono trattati più estesamente nel capitolo _Scegliere i test neuropsicologici_ in cui sono tenuti in considerazione anche gli altri elementi fondamentali per selezionare un test da utilizzare nella pratica clinica.
+
 
 ## Capitolo 2: Riassunto
 
@@ -465,7 +470,7 @@ Sebbene l’esplicitazione dell’incertezza di misura sia considerata molto imp
 
 Lo Standard Error of Measurement (SEM) e gli intervalli di confidenza che possono essere costruiti a partire da esso sono trattati più estesamente nella sezione _Approfondimenti tecnici_.
 
-## Focus: Dalla validità di un test alla validità di una specifica valutazione {#focus-validità-misurazione}
+## Focus: dalla validità di un test alla validità di una specifica valutazione {#focus-validità-misurazione}
 
 Nel corso del capitolo si è più volte parlato, per semplicità, della validità come di una proprietà del test. In senso rigoroso, tuttavia, questa formulazione è imprecisa. Secondo la concezione oggi prevalente, infatti, la validità riguarda il grado in cui la teoria e le evidenze disponibili sostengono una determinata interpretazione dei punteggi per uno specifico uso e in uno specifico contesto, e non il test considerato in astratto. Di conseguenza, nemmeno un test supportato da solide evidenze di validità può garantire che ogni punteggio ottenuto sia interpretabile allo stesso modo.
 
@@ -473,12 +478,12 @@ Immaginiamo, per esempio, un test di memoria dotato di ottime proprietà psicome
 
 Questa distinzione è comunemente tenuta in considerazione in neuropsicologia forense, ma è anche considerata importante in contesto clinico (sebbene non altrettanto diffusa). Il *performance validity testing* comprende procedure e indicatori volti a valutare se la prestazione osservata possa essere considerata una rappresentazione credibile delle capacità della persona esaminata. Questo è appunto rilevante in ambito forense, in cui possono suggerire che una persona stia deliberatamente simulando un deficit. Il Capitolo 7 è specificamente dedicato a queste procedure e al loro ruolo nella valutazione della simulazione.
 
-## Focus: Validità e Affidabilità come proprietà riferite ad un contesto.
+## Focus: validità e affidabilità come proprietà riferite ad un contesto.
 
 Più volte in questo capitolo è stato affermato che validità e affidabilità sono proprietà riconducibili ad un test. La letteratura scientifica evidenzia però spesso come questa definizione rischia di veicolare un messaggio scorretto, e cioè che validità e affidabilità siano proprietà più generiche di quanto effettivamente siano. Ogni volta che è dimostrata validità e affidabilità secondo una delle maniera che abbiamo esaminato nel corso di questo capitolo, questa si riferisce ad uno specifico contesto, che può essere una specifica popolazione clinica, uno specifico intervallo di tempo (per affidabilità test-retest) o in generale uno specifica situazione di utilizzo del test. Ogni volta che l'utilizzo del test si allontana dalla situazione in cui le informazioni di validità e affidabilità sono state ottenute, non è detto che validità e affidabilità siano le stesse. 
 Questo aspetto è particolarmente importante perché invita chi utilizza il test a conoscere bene il test e il modo in cui è stato sviluppato. Ogni qual volta ci si allontana molto dal campione o in generale la situazionew in cui sono state ottenute evidenze sulle proprietà psicometriche, dovrebbe essere considerata la possibilità che validità e affidabilità potrebbero essere diverse. <!-- valutare se è una ripetizione -->
 
-## Focus: Invarianza di misura nei test neuropsicologici{#invarianza-intro}
+## Focus: invarianza di misura nei test neuropsicologici{#invarianza-intro}
 
 Un tema fondamentale della psicometria, che meriterebbe un capitolo a sé, è quello dell’ _invarianza di misura_. Con questa espressione si indica un insieme di condizioni in base alle quali, rispetto a specifici gruppi, contesti od occasioni di misurazione, la relazione tra il costrutto e le prestazioni osservate rimane sufficientemente stabile da consentire le inferenze o i confronti di interesse.
 
@@ -504,6 +509,9 @@ Eppure evitare questo errore è relativamente semplice, basta considerare affida
 
 Non voglio però banalizzare questo problema: se in accordo allo "spirito del tempo" della neuropsicologia clinica non è data molta rilevanza a validità e affidabilità, una ragione probabilmente c'è e merita di essere indagata. 
 È possibile identificare facilmente almeno due ragioni: la situazione da un lato riflette una generale poca attenzione alle proprietà psicometriche in psicologia (si veda `(\cite{flake2020measurement})`{=latex}`Flake & Fried, 2020`{=html}, per un'analisi sulla validità); la situazione probabilmente affonda le radici in quelli sono i principi - spesso impliciti - alla base della valutazione neuropsicologica e alla storia con cui la neuropsicologia clinica si è sviluppata. Questi aspetti sono trattati più in dettaglio nel Capitolo 10.
+
+<!-- ## Focus: il mio test è sufficientemente valido e affidabile -->
+<!-- è una d
 
 <!-- ## Focus: Validità e affidabilità dei test in Italia -->
 
