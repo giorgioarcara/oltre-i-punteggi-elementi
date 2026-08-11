@@ -144,6 +144,8 @@ format:
         
         % remove table number from captions (to uniform with html)
         \usepackage{caption}
+        % Reduce caption font size (figures and tables), otherwise too large
+        \captionsetup{font=footnotesize}
         % Remove the "Table X:" label for tables (only affects printed captions)
         \captionsetup[table]{labelformat=empty, labelsep=none}
         
