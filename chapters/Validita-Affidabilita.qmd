@@ -307,15 +307,16 @@ _Soglie indicative_: come riportato in `\cite{slick2006psychometrics}`{=latex} `
 
 :::{.callout-note}
 ## Definizione
-L’affidabilità test–retest riguarda la stabilità dei punteggi ottenuti quando lo stesso test viene somministrato alle stesse persone in due momenti diversi, assumendo che nell’intervallo tra le somministrazioni non si siano verificati cambiamenti reali nel costrutto misurato e che le condizioni di valutazione siano comparabili.
+L’affidabilità test–retest è una misura della consistenza dei punteggi ottenuti quando lo stesso test viene somministrato alle stessa persone in due momenti diversi, assumendo che nell’intervallo tra le somministrazioni non si siano verificati cambiamenti reali nel costrutto misurato e che le condizioni di valutazione siano comparabili.
 :::
 
 L’affidabilità test–retest è una delle principali aspetti di affidabilità di un test e in numerosi casi è proprio considerato il più importante `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}. 
 Questo dipo di affidabilità ha però una serie di caratteristiche e sfumature che è importante approfondire per una corretta interpretazione.
 Innanzitutto l'affidabilità test-retest, del resto come altre proprietà, non è una proprietà univoca e immutabile del test, ma dipendente dal contesto in cui è valutata: la sua stima dipende dalla popolazione considerata, dalle condizioni di somministrazione e, soprattutto, dall’intervallo tra test e retest. Due aspetti meritano particolare attenzione:
 
-1. **Dipendenza dall’intervallo**: uno stesso punteggio non possiede un unico valore di affidabilità test–retest. In genere, il coefficiente tende a essere più elevato quando l’intervallo è breve, mentre intervalli più lunghi aumentano la possibilità che si verifichino cambiamenti reali nella caratteristica misurata `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}.
-2. **Effetto pratica**: quando il test misura una prestazione, la seconda somministrazione può beneficiare dell’esperienza acquisita durante la prima. Un miglioramento sistematico può non essere rilevato da alcuni indici comunemente utilizzati per quantificare l’affidabilità test–retest, come il coefficiente di correlazione o una ICC basata sulla consistenza `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}.
+1. **Dipendenza dall’intervallo**: uno stesso punteggio non possiede un unico valore di affidabilità test–retest. In genere, il coefficiente tende a essere più elevato quando l’intervallo è breve, mentre intervalli più lunghi aumentano la possibilità che si verifichino cambiamenti reali nella caratteristica misurata o che fattori contestuali influenzino la prestazione
+
+2. **Effetto pratica**: in diversi test cognitivi (specie i test di _prestazione massima_) la seconda somministrazione può beneficiare dell’esperienza acquisita durante la prima. Un miglioramento sistematico può non essere rilevato da alcuni indici comunemente utilizzati per quantificare l’affidabilità test–retest, come il coefficiente di correlazione o una ICC basata sulla consistenza e non su accordo `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}.
 
 In ambito clinico, l’affidabilità test–retest è particolarmente rilevante quando si assume che il punteggio rappresenti una caratteristica relativamente stabile oppure quando si vogliono confrontare valutazioni effettuate in momenti diversi. Tuttavia, il solo coefficiente di affidabilità non permette di stabilire se la variazione osservata nel singolo individuo sia sufficientemente ampia da superare l’errore di misurazione. A questo scopo sono necessarie procedure specifiche, eventualmente corretti per l’effetto pratica (si veda il capitolo _indagare cambiamenti nel tempo_).
 
@@ -323,9 +324,9 @@ In ambito clinico, l’affidabilità test–retest è particolarmente rilevante 
 
 ## Rilevanza per una singola misurazione
 
-Contrariamente a quanto si potrebbe pensare, l’affidabilità test–retest non è importante soltanto quando si vogliono confrontare misurazioni effettuate in tempi diversi: se il punteggio è interpretato come misura di una caratteristica relativamente stabile, la singola somministrazione può essere concepita come una delle molte possibili somministrazioni comparabili del test. Nella teoria classica dei test, il _punteggio vero_ corrisponde infatti al valore atteso dei punteggi che la persona otterrebbe attraverso un numero indefinito di misurazioni equivalenti.
+Contrariamente a quanto si potrebbe pensare, l’affidabilità test–retest non è importante soltanto quando si vogliono confrontare misurazioni effettuate in tempi diversi: se il punteggio è interpretato come misura di una caratteristica relativamente stabile, la singola somministrazione può essere concepita come una delle molte possibili somministrazioni del test. Nella teoria classica dei test, il _punteggio vero_ è definito infatti al valore atteso dei punteggi che la persona otterrebbe attraverso un numero indefinito di misurazioni equivalenti.
 
-Una bassa affidabilità test–retest indica quindi che il punteggio dipende in misura rilevante dalla specifica occasione in cui è stato rilevato. Di conseguenza, anche quando il test viene somministrato una sola volta, il punteggio osservato può rappresentare con scarsa precisione la caratteristica stabile che si intende misurare.
+Una bassa affidabilità test–retest indica quindi che il punteggio osservato può dipendere in misura rilevante dalla specifica occasione in cui è stato rilevato. Di conseguenza, anche quando il test viene somministrato una sola volta, il punteggio osservato può rappresentare con scarsa precisione la caratteristica stabile che si intende misurare.
 
 :::
 
@@ -334,7 +335,7 @@ Una bassa affidabilità test–retest indica quindi che il punteggio dipende in 
 #| echo: FALSE
 #| output: TRUE
 #| fig.dpi: 200
-#| fig-cap: "Affidabilità test-retest: La figura mostra due ipotetici test che effettuano misurazione ripetute nel caso di una bassa o alta affidabilità. L'asse delle x delle due figure indica il numero dell'osservazione (1, 2, fino a 30). Mentre le y indicano il range dei punteggi al test. Nel caso di alta affidabilità (pannello in alto), ogni osservazione è uno dei possibili cerchietti neri. La loro media, nel lungo termine corrisponderà al punteggio vero ed è rappresentata nella figura dalla linea continua (punteggio vero = 10). Nel caso di bassa affidabilità (pannello in basso), la media delle varie osservazioni corrisponderà sempre al punteggio vero, ma ciascuna singola osservazione potrebbe esserne molto più distante e quindi una stima meno accurata del punteggio vero."
+#| fig-cap: "Affidabilità test-retest: La figura mostra due ipotetici test che effettuano misurazione ripetute nel caso di una bassa o alta affidabilità. L'asse delle x delle due figure indica il numero dell'osservazione (1, 2, fino a 30). Mentre le y indicano il range dei punteggi al test. Nel caso di alta affidabilità (pannello in alto), ogni osservazione è uno dei possibili cerchietti neri. La loro media, nel lungo termine corrisponderà al punteggio vero ed è rappresentata nella figura dalla linea continua (punteggio vero = 10). Nel caso di bassa affidabilità (pannello in basso), la media delle varie osservazioni corrisponderà sempre al punteggio vero, ma ciascuna singola osservazione potrebbe esserne molto più distante e quindi una stima meno accurata del punteggio vero. Ogni qualvolta si effettua una misurazione, osserveremo solo una delle realizzazioni, cioè uno solo dei cerchietti."
 #| fig.width: 7
 #| fig.height: 10
 #| out-width: "80%"
