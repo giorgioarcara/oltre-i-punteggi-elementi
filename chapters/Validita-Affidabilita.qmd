@@ -111,7 +111,7 @@ _Soglia indicativa_: la soglia minima suggerita per il CVI dipende dal numero de
 
 #### Validità di costrutto {#validita-costrutto}
 
-La validità di costrutto è spessa considerata come la più importante delle validità. 
+La validità di costrutto è spessa considerata come la più importante delle validità e rappresenta la prima delle validità a posteriori (come tutti i tipi di validità dei paragrafi successivi a questo, che fanno parte del gruppo di _validità a posteriori_) 
 
 :::{.callout-note}
 ## Definizione
@@ -336,9 +336,9 @@ Una bassa affidabilità test–retest indica quindi che il punteggio osservato p
 #| output: TRUE
 #| fig.dpi: 200
 #| fig-cap: "Affidabilità test-retest: La figura mostra due ipotetici test che effettuano misurazione ripetute nel caso di una bassa o alta affidabilità. L'asse delle x delle due figure indica il numero dell'osservazione (1, 2, fino a 30). Mentre le y indicano il range dei punteggi al test. Nel caso di alta affidabilità (pannello in alto), ogni osservazione è uno dei possibili cerchietti neri. La loro media, nel lungo termine corrisponderà al punteggio vero ed è rappresentata nella figura dalla linea continua (punteggio vero = 10). Nel caso di bassa affidabilità (pannello in basso), la media delle varie osservazioni corrisponderà sempre al punteggio vero, ma ciascuna singola osservazione potrebbe esserne molto più distante e quindi una stima meno accurata del punteggio vero. Ogni qualvolta si effettua una misurazione, osserveremo solo una delle realizzazioni, cioè uno solo dei cerchietti."
-#| fig.width: 7
-#| fig.height: 10
-#| out-width: "80%"
+#| fig.width: 5.5
+#| fig.height: 9
+#| out-width: "70%"
 
 library(ONDAutils)
 
@@ -371,8 +371,8 @@ _Soglie indicative_: non esiste una soglia universalmente valida. Un coefficient
 
 L'accordo tra valutatori (_inter-rater agreement_) misura quanto sia consistente il punteggio assegnato da valutatori diversi che osservano la stessa prestazione. È particolarmente rilevante per i test in cui il punteggio dipende da un giudizio qualitativo dell'esaminatore, e meno quanto è prevista una correzione automatica o univoca. Sono quindi test in cui è importante valutare inter-rater agreement per esempio i test di fluenza verbale, test di disegno, o compiti di descrizione, oppure compiti di interpretazione di proverbi. <!-- valutare se approfondire questi esempi). -->
 
-L'Inter-rater agreement esprime tipicamente tramite l'Intraclass Correlation Coefficient (ICC) che, come anticipato nel precedente paragrafo, tiene conto anche dell'accordo assoluto tra i valutatori (cioè assume alti solo se i valutatori assegnano più o meno lo stesso punteggio), e non solo di quanto i loro punteggi sono consistenti (Fastenau et al., 1996, `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}).
-Più specificamente, nei tipico disegno sperimentali usati per definire la affidabilità inter-rater, andrebbe usato lo un modello analogo a quello già specificato per affidabilità test-retest `(\cite{shrout1979intraclass}; \cite{koo2016guideline})`{=latex}`(Shrout & Fleiss, 1979; Koo & Li, 2016)`{=html}. Si veda il paragrafo su Intra-class correlation del _Tomo II – Approfondimenti tecnici_ per ulteriori dettagli.
+L'Inter-rater agreement esprime tipicamente tramite l'Intraclass Correlation Coefficient (ICC) che, come anticipato nel precedente paragrafo, tiene conto anche dell'accordo assoluto tra i valutatori (cioè assume alti solo se i valutatori assegnano più o meno lo stesso punteggio), e non solo di quanto i loro punteggi sono consistenti (Fastenau et al., 1996, `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}.
+Più specificamente, nei tipici disegni sperimentali usati per definire la affidabilità inter-rater, andrebbe usato lo un modello analogo a quello già specificato per affidabilità test-retest `(\cite{shrout1979intraclass}; \cite{koo2016guideline})`{=latex}`(Shrout & Fleiss, 1979; Koo & Li, 2016)`{=html}. Si veda il paragrafo su Intra-class correlation del _Tomo II – Approfondimenti tecnici_ per ulteriori dettagli.
 
 _Soglie indicative_: Secondo Cicchetti & Sparrow, 1981 `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html})i valori di ICC dovrebbero essere interpretati come segue: `: inferiori a .40 scarsi, tra .40 e .59 discreti, tra .60 e .74 buoni, pari o superiori a .75 eccellenti. Con una classificazione lievemente diversa, Fastenau et al. (1996) considerano .60 come soglia per un accordo "sostanziale" e .75-.80 per un accordo "quasi perfetto".
 
@@ -394,7 +394,7 @@ Una domanda che una/un neuropsicologa/o dovrebbe porsi prima di utilizzare un te
 Immaginando di voler fare una valutazione neuropsicologica di alta qualità, questa dipende anche dallo scegliere strumenti di alta qualità. Parte della qualità di un test sono appunto la validità e affidabilità, tema di questo capitolo. Ma come farlo nel concreto?
 Bisogna semplicemente recuperare le informazioni rilevanti.
 
-Il primo posto in cui cercare validità e affidabilità è all'interno del manuale del test, oppure nell'articolo scientifico originale con cui lo strumento è stato presentato: è lì che dovrebbero trovarsi le evidenze di validità e affidabilità raccolte dagli autori al momento della pubblicazione.
+Il primo posto in cui cercare validità e affidabilità è all'interno del manuale del test oppure, se pertinente, nell'articolo scientifico originale con cui lo strumento è stato presentato: è lì che dovrebbero trovarsi le evidenze di validità e affidabilità raccolte dagli autori al momento della pubblicazione.
 Le evidenze non si esauriscono però con la prima pubblicazione: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita, tramite nuove pubblicazioni o addendum. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005 `(\cite{appollonio2005frontal})`{=latex}`(Appollonio et al., 2005)`{=html}, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022) `(\cite{aiello2022frontal})`{=latex}`(Aiello et al., 2022)`{=html}, quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche altri studi successivi che lo citano (per esempio tramite Google Scholar o PubMed) e che ne approfondiscono le proprietà psicometriche, per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
 È da notare che non è raro che alcune proprietà psicometriche non siano presentata proprio perché si da per scontato che essa sia stata dimostrata in precedenti lavori con frasi del tipo "il test $X$, è noto avere buona validità e affidabilità".
 In tal caso, per volere fare un analisi approfondita, bisognerebbe però assicurarsi che il test per cui c'è evidenza di validità sia esattamente lo stesso che stiamo valutando: aveva esattamente gli stessi item? era sviluppato nella stessa lingua? con le stesse istruzioni? 
@@ -439,9 +439,11 @@ ggplot(grad, aes(x = x, y = 0, fill = z)) +
 Uno strumento pubblicato potrebbe comunque avere una bassa validità (o non nota), e lo stesso vale per l'affidabilità. Questo vale indipendentemente dall'autorevolezza degli autori.
 :::
 
-Come già sottolineato all'inizio di questa sezione, le evidenze di validità e affidabilità si accumulano nel tempo, e vanno considerate come all'interno di un continuum. Ci sono test con migliore validità e test con peggiore validità. Il fatto che informazioni su affidabilità o validità non siano disponibile non significa necessariamente che siano scarse, ma segnalano l'importante fatto che non le conosciamo e non siamo quindi in grado di giudicare se quel test è adeguato o no. Per tale motivo, scegliere di usare test senza che queste evidenze siano note andrebbe visto come muoversi verso il polo peggiore del continuum, specie se ci sono alternative in cui questi test.
+Come già sottolineato all'inizio di questa sezione, le evidenze di validità e affidabilità si accumulano nel tempo, e vanno considerate come all'interno di un continuum. Ci sono test con migliore validità e test con peggiore validità. Il fatto che informazioni su affidabilità o validità non siano disponibile non significa necessariamente che siano scarse, ma segnalano l'importante fatto che non le conosciamo e non siamo quindi in grado di giudicare se quel test è adeguato o no. Per tale motivo, scegliere di usare test senza che queste evidenze siano note andrebbe visto come muoversi verso il polo peggiore del continuum della @fig-val-aff-cont.
 
-Purtroppo, potrebbe capitare che dati di validità e affidabilità non siano disponibili (e siano disponibili, ad esempio solo le norme). In questo caso sarebbero da preferire i test che quantomeno mi forniscono evidenze su queste caratteristiche. Per fornire un esempio pratico, se siete interessati in un test di memoria (in particolare di recupero libero o su suggerimento), per il test Free and Cued Selective Reminding Test sono state pubblicate evidenza su consistenza interna e di validità `(\cite{clerici2017construct})`{=latex}`(Clerici et al., 2017)`{=html}, e sarebbe da preferire rispetto ad altri test che misurano lo stesso costrutto ma non forniscono evidenze di questo tipo.
+Purtroppo, potrebbe capitare che per alcuni test dati di validità e affidabilità non siano disponibili e siano siano disponibili, ad esempio, solo le norme. Questi test andrebbero utilizzati con molta cautela, dal momento che in sostanza ci stiamo solo basando sulla _validità di facciata_ per stabilire se sono adeguati e non abbiamo idea se effettivamente siano sufficientemente affidabili. Di nuovo, l'approccio che suggerisco in questa sede è pragamatico e si basa su una scelta comparativa tra test.
+
+Per fornire un esempio pratico, se siete interessati in un test di memoria (in particolare di recupero libero o su suggerimento), per il test Free and Cued Selective Reminding Test sono state pubblicate evidenza su consistenza interna e di validità `(\cite{clerici2017construct})`{=latex}`(Clerici et al., 2017)`{=html}, e sarebbe da preferire rispetto ad altri test che misurano lo stesso costrutto ma non forniscono evidenze di questo tipo.
 
 È anche per questo motivo che l'aggiornamento professionale continuo è così rilevante in questo ambito: nuove prove pubblicate nel tempo possono spostare la valutazione complessiva di uno strumento, in meglio o in peggio, verso una scelta più consapevolezza degli strumenti da mettere nella propria cassetta degli attrezzi.
 
@@ -464,24 +466,17 @@ Le stime di affidabilità consentono di quantificare e comunicare l’incertezza
 
 Immaginiamo, per esempio, che un paziente ottenga un punteggio di $16$ a un test e che a questo risultato sia associato il seguente intervallo: $16\ [13,19]$. Consideriamo ora lo stesso punteggio osservato, ma accompagnato da un intervallo più ampio: $16\ [8,24]$. Sebbene la stima puntuale sia identica, i due risultati hanno implicazioni molto diverse. Nel secondo caso, la gamma dei valori plausibili è considerevolmente più estesa e le conclusioni dovrebbero quindi essere formulate con maggiore cautela. Ciò risulta particolarmente evidente quando l’intervallo include una soglia clinica (si veda il capitolo 3).
 
-Più tecnicamente, nell’ambito della teoria classica dei test intervalli di questo tipo possono essere costruiti mediante l’errore standard di misurazione ( _standard error of measurement_, _SEM_), che dipende dall’affidabilità del test e dalla variabilità dei punteggi. Fissato un determinato livello di confidenza, il SEM permette di calcolare un intervallo di confidenza associato al punteggio osservato.
+Più tecnicamente, nell’ambito della teoria classica dei test intervalli di questo tipo possono essere costruiti mediante l’errore standard di misurazione ( _standard error of measurement_, _SEM_), che dipende dall’affidabilità del test e dalla variabilità dei punteggi. Fissato un determinato livello di confidenza (tipicamente il 95%), il SEM permette di calcolare un intervallo di confidenza associato al punteggio osservato.
 
 Sebbene l’esplicitazione dell’incertezza di misura sia considerata molto importante in psicometria, ho scelto di non approfondire ulteriormente questo argomento nella presente sezione perchè nella pratica neuropsicologica non esiste una prassi generale e condivisa su come integrare sistematicamente questi intervalli nelle decisioni cliniche e nella formulazione delle conclusioni. Presentarli senza mostrare chiaramente come dovrebbero modificare l’interpretazione del risultato rischierebbe quindi di aggiungere informazioni formalmente corrette, ma di difficile applicazione pratica.
 
 Lo Standard Error of Measurement (SEM) e gli intervalli di confidenza che possono essere costruiti a partire da esso sono trattati più estesamente nel _Tomo II – Approfondimenti tecnici_.
 
-## Focus: dalla validità di un test alla validità di una specifica valutazione {#focus-validità-misurazione}
-
-Nel corso del capitolo si è più volte parlato, per semplicità, della validità come di una proprietà del test. In senso rigoroso, tuttavia, questa formulazione è imprecisa. Secondo la concezione oggi prevalente, infatti, la validità riguarda il grado in cui la teoria e le evidenze disponibili sostengono una determinata interpretazione dei punteggi per uno specifico uso e in uno specifico contesto, e non il test considerato in astratto. Di conseguenza, nemmeno un test supportato da solide evidenze di validità può garantire che ogni punteggio ottenuto sia interpretabile allo stesso modo.
-
-Immaginiamo, per esempio, un test di memoria dotato di ottime proprietà psicometriche e di solide evidenze a sostegno dell’interpretazione dei suoi punteggi. Supponiamo però di somministrarlo a un paziente fortemente oppositivo nei confronti della valutazione, che decide di non impegnarsi nei compiti proposti. Un eventuale punteggio basso non potrebbe essere interpretato automaticamente come indicatore di un deficit di memoria, perché la prestazione potrebbe riflettere soprattutto lo scarso coinvolgimento nella prova. Ciò non annulla le evidenze di validità accumulate per il test; indica, piuttosto, che le inferenze abitualmente tratte dai suoi punteggi non sono giustificate in quella specifica somministrazione. La qualità psicometrica dello strumento e l’interpretabilità dei dati ottenuti nel singolo caso costituiscono quindi condizioni distinte, ma entrambe necessarie.
-
-Questa distinzione è comunemente tenuta in considerazione in neuropsicologia forense, ma è anche considerata importante in contesto clinico (sebbene non altrettanto diffusa). Il *performance validity testing* comprende procedure e indicatori volti a valutare se la prestazione osservata possa essere considerata una rappresentazione credibile delle capacità della persona esaminata. Questo è appunto rilevante in ambito forense, in cui possono suggerire che una persona stia deliberatamente simulando un deficit. Il Capitolo 7 è specificamente dedicato a queste procedure e al loro ruolo nella valutazione della simulazione.
-
-## Focus: validità e affidabilità come proprietà riferite ad un contesto.
+## Focus: validità e affidabilità come proprietà riferite ad un contesto. {#val-aff-cont}
 
 Più volte in questo capitolo è stato affermato che validità e affidabilità sono proprietà riconducibili ad un test. La letteratura scientifica evidenzia però spesso come questa definizione rischia di veicolare un messaggio scorretto, e cioè che validità e affidabilità siano proprietà più generiche di quanto effettivamente siano. Ogni volta che è dimostrata validità e affidabilità secondo una delle maniera che abbiamo esaminato nel corso di questo capitolo, questa si riferisce ad uno specifico contesto, che può essere una specifica popolazione clinica, uno specifico intervallo di tempo (per affidabilità test-retest) o in generale uno specifica situazione di utilizzo del test. Ogni volta che l'utilizzo del test si allontana dalla situazione in cui le informazioni di validità e affidabilità sono state ottenute, non è detto che validità e affidabilità siano le stesse. 
 Questo aspetto è particolarmente importante perché invita chi utilizza il test a conoscere bene il test e il modo in cui è stato sviluppato. Ogni qual volta ci si allontana molto dal campione o in generale la situazionew in cui sono state ottenute evidenze sulle proprietà psicometriche, dovrebbe essere considerata la possibilità che validità e affidabilità potrebbero essere diverse. <!-- valutare se è una ripetizione -->
+
 
 ## Focus: invarianza di misura nei test neuropsicologici{#invarianza-intro}
 
@@ -491,11 +486,25 @@ L’invarianza non è una proprietà assoluta del test, ma deve essere valutata 
 
 Per esempio, un test di memoria utilizzato sia con persone sane sia con persone con malattia di Alzheimer presenta il livello di invarianza necessario al confronto quando la relazione tra l’abilità mnestica e le prestazioni osservate rimane sufficientemente stabile nei due gruppi. Non ci si aspetta, naturalmente, che essi ottengano gli stessi risultati, ma che i punteggi conservino un significato comparabile. Lo studio di Chang e Brainerd (2021) `(\cite{chang2021factor})`{=latex}`(Chang & Brainerd, 2021)`{=html} sulla batteria neuropsicologica dell’ADNI mostra bene come questa condizione non possa essere data per scontata: gli autori hanno mostrato una invarianza nel tempo all'interno di ciascun gruppo, ma problemi di invarianza nei confronti tra gruppi.
 
-L’invarianza di misura costituisce un tema particolarmente delicato per i test neuropsicologici per almeno due ragioni. La prima è che, per molti strumenti, la struttura fattoriale di riferimento è stata ricavata prevalentemente da campioni normativi di persone sane, mentre le verifiche formali dell’invarianza rispetto alle popolazioni cliniche rimangono relativamente poco frequenti. Non è quindi possibile assumere automaticamente che il modello di misura e il significato dei punteggi rimangano invariati nelle diverse condizioni cliniche.
+L’invarianza di misura costituisce un tema particolarmente delicato per i test neuropsicologici per almeno due ragioni. La prima è che per molti strumenti la struttura fattoriale di riferimento è stata ricavata prevalentemente da campioni normativi composti da persone sane, e non da campioni di persone con patologie o condizioni di interesse. Non è quindi possibile assumere automaticamente che il modello di misura e il significato dei punteggi rimangano invariati in altre condizioni cliniche.
 
-La seconda ragione è che alcune condizioni rendono particolarmente plausibile un diverso funzionamento delle prove. Si consideri, per esempio, il MoCA, uno strumento di screening cognitivo generale, somministrato a persone con grave afasia. Le richieste linguistiche di diversi compiti possono influenzare il risultato, facendo sì che il punteggio totale rifletta non soltanto il funzionamento cognitivo generale, ma anche le abilità di compromissione linguistica.  Il problema può essere formulato propriamente in termini di invarianza quando si verifica empiricamente se le prove funzionino in maniera sistematicamente diversa tra gruppi di persone con e senza afasia. Nella pratica clinica tuttavia, questa possibilità viene spesso affrontata attraverso l’interpretazione qualitativa della singola prestazione e le conoscenze teoriche del neuropsicologo, senza che siano necessariamente disponibili verifiche psicometriche formali.
+La seconda ragione è che alcune condizioni rendono particolarmente plausibile un diverso funzionamento delle prove. Si consideri, per esempio, il _MoCA_, uno strumento di screening cognitivo generale, quando è somministrato a persone con grave afasia. Le richieste linguistiche di diversi compiti possono influenzare il risultato, facendo sì che il punteggio totale rifletta non soltanto il funzionamento cognitivo generale, ma anche le abilità di compromissione linguistica.  Il problema può essere formulato propriamente in termini di invarianza, quando si verifica empiricamente se le prove funzionino in maniera sistematicamente diversa tra gruppi di persone con e senza afasia. Nella pratica clinica tuttavia, questa possibilità viene spesso affrontata attraverso l’interpretazione qualitativa della singola prestazione e le conoscenze teoriche della/del neuropsicologa/o, senza che siano necessariamente disponibili verifiche psicometriche formali.
 
 L’argomento sarà ripreso nel _Tomo II – Approfondimenti tecnici_, nel capitolo dedicato all’invarianza di misura.
+
+
+## Focus: dalla validità di un test alla validità di una specifica valutazione {#focus-validità-misurazione}
+
+Nel corso del capitolo si è più volte parlato, per semplicità, della validità come di una proprietà del test. Già nei due paragrafi @val-aff-cont e @invarianza-intro abbiamo visto come le proprietà di un test siano quantomeno di considerare come relative ad un contesto.
+Possiamo spingerci ancora oltre in questa elaborazione.
+
+Immaginiamo di avere a disposizine un test di memoria con eccellenti proprietà psicometriche, alta validità e affidabilità, mostrate sia in persone sane, sia in pazienti con MCI. Immaginiamo di testare una persona con sospetto MCI con questo test. Il contesto ci suggerirebbe che è analogo a quello in cui è stato sviluppato il testo, a sostegno quindi della pertinenza delle prove di validità.
+
+Immaginiamo però che questo individuo sia fortemente oppositivo nei confronti della valutazione, e in particolare che decida di non impegnarsi nei compiti proposti perché scettico sulla loro utilità. Un eventuale punteggio basso non potrebbe essere interpretato con leggerezza come segnale di un problema nella memoria, perché la prestazione potrebbe riflettere soprattutto lo scarso coinvolgimento nella prova (nonostante le eccellenti proprietà del test). Ciò non annulla le evidenze di validità accumulate per il test; indica, piuttosto, che le inferenze abitualmente tratte dai suoi punteggi non sono giustificate in quella specifica somministrazione. La qualità psicometrica dello strumento e l’interpretabilità dei dati ottenuti nel singolo caso costituiscono quindi condizioni distinte.
+
+Questa distinzione è comunemente tenuta in considerazione in neuropsicologia forense, ma è anche considerata importante in contesto clinico (sebbene non altrettanto diffusa). Il *performance validity testing* comprende procedure e indicatori volti a valutare se la prestazione osservata possa essere considerata una rappresentazione credibile delle capacità della persona esaminata. Questo è appunto rilevante in ambito forense, in cui possono suggerire che una persona stia deliberatamente simulando un deficit. Il Capitolo 7 è specificamente dedicato a queste procedure e al loro ruolo nella valutazione della simulazione, mentre il Capitolo 10 sarà dedicato all'interpretazione dei test e riprenderà questi aspetti.
+
+
 
 ## Errori comuni: ignorare validità e affidabilità di un test. 
 
@@ -511,7 +520,6 @@ Non voglio però banalizzare questo problema: se in accordo allo "spirito del te
 È possibile identificare facilmente almeno due ragioni: la situazione da un lato riflette una generale poca attenzione alle proprietà psicometriche in psicologia (si veda `(\cite{flake2020measurement})`{=latex}`Flake & Fried, 2020`{=html}, per un'analisi sulla validità); la situazione probabilmente affonda le radici in quelli sono i principi - spesso impliciti - alla base della valutazione neuropsicologica e alla storia con cui la neuropsicologia clinica si è sviluppata. Questi aspetti sono trattati più in dettaglio nel Capitolo 11.
 
 <!-- ## Focus: il mio test è sufficientemente valido e affidabile -->
-<!-- è una d
 
 <!-- ## Focus: Validità e affidabilità dei test in Italia -->
 
