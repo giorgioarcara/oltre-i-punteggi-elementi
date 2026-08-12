@@ -530,7 +530,9 @@ Questa distinzione è comunemente tenuta in considerazione in neuropsicologia fo
 
 ## Errori comuni: ignorare validità e affidabilità di un test. 
 
-Uno degli errori più comuni che ho riscontrato durante nella mia esperienza con studentesse, studenti e anche professioniste/i nell'ambito neuropsicologico clinico è quello di ignorare validità e affidabilità dei test neuropsicologici. Questa attitudine è accompagnata spesso da un'attenzione esclusivamente focalizzata sulla qualità dei dati normativi (si veda Capitolo 3).  Alla mia domanda "conoscete affidabilità e validità dei vostri strumenti?", la risposta è spesso: "no" (anche se negli ultimi anni, la situazione è decisamente migliorata e stanno aumentando le persone sensibili all'importanza di questi aspetti).
+Uno degli errori più comuni che ho riscontrato durante nella mia esperienza con studentesse, studenti e anche professioniste/i nell'ambito neuropsicologico clinico è quello di ignorare validità e affidabilità dei test neuropsicologici. Questa attitudine è accompagnata spesso da un'attenzione esclusivamente focalizzata sulla qualità dei dati normativi (si veda Capitolo 3).  Alla mia domanda "conoscete affidabilità e validità dei vostri strumenti?", la risposta è spesso: "no"[^conosc]. 
+
+[^conosc]: A voler essere precisi, negli ultimi anni la situazione è decisamente migliorata e stanno aumentando le persone sensibili all'importanza di questi aspetti. Tuttavia, le persone attente ad affidabilità e validità rimangono una minoranza.
 
 Questa pratica diffusa è a mio avviso rinforzata da una serie di intrinseche caratteristiche della letteratura scientifica legata ai test, specie della neuropsicologia dell'adulto e specie in Italia (si veda `\cite{aiello2022frontal}`{=latex}`Aiello et al., 2022`{=html} per qualche considerazione). L'attenzione è più rivolta ad avere ampi campioni normativi ampi e rappresentativi, o soglie calcolate con metodi sofisticati, ma raramente la domanda è: siamo certi che stiamo misurando ciò che vogliamo misurare? E con che precisione?
 
