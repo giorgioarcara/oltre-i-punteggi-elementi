@@ -409,7 +409,7 @@ Bisogna semplicemente recuperare le informazioni rilevanti.
 
 :::{.callout-tip}
 Un modo semplice per verificare affidabilità e validità di un test e scorrere il manuale o articolo del test e usare la lista di validità e affidabilità in @tbl-validita e in @tbl-affidabilita, oppure nella @fig-validita-affidabilita.
-A partire da queste tabelle è possibile verificare innanzitutto se ci sono evidenze per quelle specifiche tipologie di validità ed affidabilità. Già l'assenza di informazioni è di per sé un'informazione. Per quei valori che sono disponibili con opportuna cautela può essere valutato se i valori sono sufficienti oppure possono essere confrontati con quelli di alti test.
+A partire da queste è possibile verificare innanzitutto se ci sono evidenze per quelle specifiche tipologie di validità ed affidabilità. Già l'assenza di informazioni è di per sé un'informazione. Per quei valori che sono disponibili con opportuna cautela può essere valutato se i valori sono sufficienti oppure possono essere confrontati con quelli di alti test.
 :::
 
 Il primo posto in cui cercare validità e affidabilità è all'interno del manuale del test oppure, se pertinente, nell'articolo scientifico originale con cui lo strumento è stato presentato: è lì che dovrebbero trovarsi le evidenze di validità e affidabilità raccolte dagli autori al momento della pubblicazione.
