@@ -9,7 +9,7 @@ Un libro che ambisce a insegnare l'importanza della metodologia non può prescin
 [— Ludwig Wittgenstein, _Tractatus Logico-Philosophicus_, 5.6]{.attribuzione}
 :::
 
-Senza scendere nel dettaglio delle implicazioni di questa asserzione, è utile riflettere sul fatto che il modo in cui definiamo le entità che ci interessano definiscono il confine entro cui ci muoviamo e, anche se ce ne rendiamo conto, influenzano in maniera determinante la metodologia e il nostro approccio alla clinica. Si pensi a parole che usiamo frequentemente nella pratica clinica, come _deficit_, _normalità_, _peggioramento_. L'esatta sfumatura che diamo a questi significati ha un grande impatto sulla nostra pratica clinica e, per quanto riguarda la metodologia, nello stabilire se un metodo è adeguato oppure no.
+Senza scendere nel dettaglio delle implicazioni di questa asserzione (che si presta a molteplici interpretazioni), è utile riflettere sul fatto che il modo in cui definiamo le entità che ci interessano definiscono il confine entro cui ci muoviamo e, anche se ce ne rendiamo conto, influenzano in maniera determinante la metodologia e il nostro approccio alla clinica. Si pensi a parole che usiamo frequentemente nella pratica clinica, come _deficit_, _normalità_, _peggioramento_. L'esatta sfumatura che diamo a questi significati ha un grande impatto sulla nostra pratica clinica e, per quanto riguarda la metodologia, nello stabilire se un metodo è adeguato oppure no.
 Anche se in questo libro si è preferito utilizzare l'Italiano il più possibile, nel caso un termine sia più comunemente utilizzato in inglese (es. Mild Cognitive Impairment) è stato riportata la versione in inglese.
 
 ### Glossario
@@ -47,7 +47,7 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 
 [Consistenza interna]{#def-consistenza-interna}
 
-:   Quanto gli item di un test sono tra loro coerenti, cioè quanto misurano, almeno in parte, la stessa cosa. Si stima tipicamente con l'alpha di Cronbach o l'omega di McDonald (vedi [Alpha di Cronbach e omega di McDonald](#alpha-omega)). Per la trattazione estesa vedi [Capitolo 2, par. Consistenza Interna](../Validita-Affidabilita.qmd#consistenza-interna).
+:   Indice che esprime quanto gli item di un test sono tra loro coerenti, cioè quanto misurano, almeno in parte, la stessa cosa. Si stima tipicamente con l'alpha di Cronbach o l'omega di McDonald (vedi [Alpha di Cronbach e omega di McDonald](#alpha-omega)). Per la trattazione estesa vedi [Capitolo 2, par. Consistenza Interna](../Validita-Affidabilita.qmd#consistenza-interna).
 
 [Content Validity Index e Content Validity Ratio (CVI, CVR)]{#cvi-cvr}
 
@@ -291,5 +291,5 @@ Nel contesto dei dati normativi il termine _rappresentatività_ è comunemente u
 
 [Variabili continue, categoriali e dicotomiche]{#variabili}
 
-:   Una variabile continua può assumere, in linea di principio, infiniti valori intermedi lungo un continuum (ad esempio l'età o un punteggio a un test). Una variabile categoriale può assumere solo un numero limitato di categorie distinte (ad esempio il livello di scolarità, oppure la diagnosi). Una variabile dicotomica è un caso particolare di variabile categoriale che ammette solo due categorie (ad esempio presenza/assenza di un deficit).
+:   Una variabile è "una classe di esiti che può assumere più di un valore" [@salkind2007variable]. Una variabile continua può assumere, in linea di principio, infiniti valori intermedi lungo un continuum (ad esempio l'età o un punteggio a un test). Una variabile categoriale può assumere solo un numero limitato di categorie distinte (ad esempio il livello di scolarità, oppure la diagnosi). Una variabile dicotomica è un caso particolare di variabile categoriale che ammette solo due categorie (ad esempio presenza/assenza di un deficit).
     Nota che spesso variabile numeriche sono considerate continue anche se in realtà non sono raccolte come tali (es. punteggi a test con numero limitato di item, ma anche valori di età e scolarità).
