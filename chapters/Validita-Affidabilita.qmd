@@ -153,7 +153,7 @@ _Soglie indicative_: Anche per questo tipo di validità non esistono soglie mini
 [^gen]: questa ultima tipologia di validità di costrutto è qui riportata per mostrare come anche altre tipologie di evidenze possono essere considerate come supporto alla validità di costrutto. Ad un occhio attento, con questa definizione però abbracciamo di fatto _tutte_ le possibili validità di costrutto.
 
 
-### Validità di criterio{#validita-criterio}
+#### Validità di criterio{#validita-criterio}
 
 In alcuni casi, la validità di un test viene valutata esaminando la relazione tra i suoi punteggi e una variabile esterna direttamente osservabile, denominata *criterio*. Si parla allora di **validità di criterio**.
 
@@ -221,7 +221,7 @@ La validità ecologica è raramente disponibile, in parte perché raccogliere da
 
 _Soglia indicativa_: non esiste un valore soglia condiviso in letteratura per giudicare la validità ecologica come sufficiente, anche perché non esiste un'analisi standard. Spesso sono riportate correlazioni o analisi di regressione (es. `(\cite{higginson2000ecological})`{=latex}`(Higginson, Arnett, & Voss, 2000)`{=html}).
 
-Tabella riassuntiva:
+Tabella riassuntiva Validità:
 
 | Tipo di validità | Come si valuta | Soglia indicativa |
 |---|---|---|
@@ -238,6 +238,8 @@ Tabella riassuntiva:
 
 ## Affidabilità {#affidabilita}
 
+### Affidabilità introduzione
+
 :::{.callout-note}
 ## Definizione
 L'affidabilità è la qualità di un test di fornire punteggi consistenti in diverse misurazioni; può essere intesa come la precisione di un test.
@@ -251,8 +253,6 @@ Affidabilità e validità sono concetti distinti ma collegati, in un modo spesso
 
 
 ![Relazione tra affidabilità e validità: questa figura riporta le possibili relazioni tra affidabilità e validità. La vicinanza tra i punti rappresenta l'affidabilità (punti molto vicini indicano risultati consistenti e quindi un test affidabile). Il centro del bersaglio è il costrutto target del test: punti nel centro indicano misurazioni valide. A) un test affidabile e valido dà risultati consistenti e che valutano correttamente il costrutto. B) un test affidabile ma non valido dà punteggi consistenti, ma non legati al costrutto (es. un test preciso che intende misura l'attenzione, ma in realtà misura la memoria. C) e D) nel caso un test non sia affidabile viene pesso considerato automaticamente non valido. la condizione C)è infatti solo teorica e indica misurazioni non precise ma che, in media, misurerebbero il costrutto (colpendo il centro del bersaglio)](../Figures/affidabilità_validità_w.png){ fig-align="center" width=70%}
-
-### Valori soglia per affidabilità.
 
 Come abbiamo già visto per la validità una domanda comune è: l'affidabilità del mio test è sufficiente alta?
 Questa è una domanda delicata in cui la risposta dipenda anche dal tipo di utilizzo che si intende fare con il test. Di seguito è riportata una classificazione generale della grandezza dei coefficienti di affidabilità, che vale come riferimento orientativo per tutti i tipi di affidabilità trattati di seguito `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}:
@@ -376,7 +376,7 @@ Più specificamente, nei tipici disegni sperimentali usati per definire la affid
 
 _Soglie indicative_: Secondo Cicchetti & Sparrow, 1981 `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html})i valori di ICC dovrebbero essere interpretati come segue: `: inferiori a .40 scarsi, tra .40 e .59 discreti, tra .60 e .74 buoni, pari o superiori a .75 eccellenti. Con una classificazione lievemente diversa, Fastenau et al. (1996) considerano .60 come soglia per un accordo "sostanziale" e .75-.80 per un accordo "quasi perfetto".
 
-Tabella riassuntiva:
+Tabella riassuntiva Affidabilità:
 
 | Tipo di affidabilità | Come si valuta | Soglia indicativa | Fonte |
 |---|---|---|---|
@@ -387,12 +387,30 @@ Tabella riassuntiva:
 
 : Sintesi dei tipi di affidabilità, delle modalità con cui vengono tipicamente valutati e dei valori soglia indicativi riportati in letteratura. Tutti i valori sono indicativi e non costituiscono uno standard universalmente condiviso: valgono, anche qui, il principio del continuum Peggio/Meglio e le soglie più stringenti raccomandate da Sattler `(\citeyear{sattler2001assessment})`{=latex}`(2001)`{=html} per le decisioni cliniche sul singolo individuo (≥ .80; ≥ .90 per le decisioni ad alto impatto). {#tbl-affidabilita}
 
+
+## Capitolo 2: Riassunto
+
+In questo capitolo sono state approfondite validità e affidabilità, due qualità fondamentali dei test neuropsicologici.
+La validità può essere definita, sommariamente, come la qualità di un test di misurare ciò che intende misurare, mentre l'affidabilità la precisione di un test.
+Esistono diversi tipi di validità e affidabilità, e ognuna cattura una diversa sfaccettature delle proprietà del test.
+In generale sarebbe preferibile sempre scegliere test che abbiamo buone (o quantomeno migliori in termini comparativi), validità e affidabilità. 
+
+`\pagebreak`{=latex}
+
+![Sintesi dei tipi di validità e di affidabilità. A sinistra, i tipi di validità sono raggruppati nelle due famiglie introdotte all'inizio del capitolo: le validità **a priori** (di facciata e di contenuto), valutate sul contenuto del test prima della raccolta dati, e le validità **a posteriori** (di costrutto, di criterio ed ecologica), che richiedono invece evidenze empiriche. Per la validità non esistono valori soglia universali: i risultati vanno di volta in volta motivati. A destra, i quattro tipi di affidabilità trattati nel capitolo, con il valore soglia "standard" più diffuso in letteratura (vedi il testo per le soglie più stringenti raccomandate per le decisioni cliniche sul singolo individuo).](../Figures/Latex-Fig-Validita-Affidabilita/Fig_validita_affidabilita.png){#fig-validita-affidabilita fig-align="center" width=85%}
+
+
 ## Nella pratica clinica: come usare validità e affidabilità per scegliere i test {#prat-clin-aff-val}
 
-Una domanda che una/un neuropsicologa/o dovrebbe porsi prima di utilizzare un test è: _il mio test ha validità e affidabilità adeguate?_.
+Una domanda che una/un neuropsicologa/o dovrebbe porsi prima di utilizzare un test è: _il mio test ha validità e affidabilità adeguate?_
 
 Immaginando di voler fare una valutazione neuropsicologica di alta qualità, questa dipende anche dallo scegliere strumenti di alta qualità. Parte della qualità di un test sono appunto la validità e affidabilità, tema di questo capitolo. Ma come farlo nel concreto?
 Bisogna semplicemente recuperare le informazioni rilevanti.
+
+:::{.callout-tip}
+Un modo semplice per verificare affidabilità e validità di un test e scorrere il manuale o articolo del test e usare la lista di validità e affidabilità in @tbl-validita e in @tbl-affidabilita, oppure nella @fig-validita-affidabilita.
+A partire da queste tabelle è possibile verificare se ci sono evidenze per quelle specifiche tipologie di validità ed affidabilità e, con cautela, anche se i valori sono sufficienti.
+:::
 
 Il primo posto in cui cercare validità e affidabilità è all'interno del manuale del test oppure, se pertinente, nell'articolo scientifico originale con cui lo strumento è stato presentato: è lì che dovrebbero trovarsi le evidenze di validità e affidabilità raccolte dagli autori al momento della pubblicazione.
 Le evidenze non si esauriscono però con la prima pubblicazione: un test può accumulare nuove prove di validità e affidabilità anche molti anni dopo la sua uscita, tramite nuove pubblicazioni o addendum. Per esempio, la Frontal Assessment Battery (FAB), pubblicata da Appollonio et al. nel 2005 `(\cite{appollonio2005frontal})`{=latex}`(Appollonio et al., 2005)`{=html}, ha visto pubblicare nuove evidenze psicometriche in Aiello et al. (2022) `(\cite{aiello2022frontal})`{=latex}`(Aiello et al., 2022)`{=html}, quasi vent'anni dopo. Vale quindi la pena cercare, oltre all'articolo originale, anche altri studi successivi che lo citano (per esempio tramite Google Scholar o PubMed) e che ne approfondiscono le proprietà psicometriche, per verificare se sono emerse nuove evidenze in popolazioni o contesti diversi.
@@ -449,17 +467,6 @@ Per fornire un esempio pratico, se siete interessati in un test di memoria (in p
 
 Una domanda che potrebbe sorgere è: come fare nei casi in cui questa valutazione comparativa non sia così chiara? Potrebbe per esempio capitare di confrontare due test in cui in uno è migliore la validità mentre in un altro l'affidabilità, etc. Questi casi sono trattati più estesamente nel capitolo _Scegliere i test neuropsicologici_ in cui sono tenuti in considerazione anche gli altri elementi fondamentali per selezionare un test da utilizzare nella pratica clinica.
 
-
-## Capitolo 2: Riassunto
-
-In questo capitolo sono state approfondite validità e affidabilità, due qualità fondamentali dei test neuropsicologici.
-La validità può essere definita, sommariamente, come la qualità di un test di misurare ciò che intende misurare, mentre l'affidabilità la precisione di un test.
-Esistono diversi tipi di validità e affidabilità, e ognuna cattura una diversa sfaccettature delle proprietà del test.
-In generale sarebbe preferibile sempre scegliere test che abbiamo buone (o quantomeno migliori in termini comparativi), validità e affidabilità. 
-
-`\pagebreak`{=latex}
-
-![Sintesi dei tipi di validità e di affidabilità. A sinistra, i tipi di validità sono raggruppati nelle due famiglie introdotte all'inizio del capitolo: le validità **a priori** (di facciata e di contenuto), valutate sul contenuto del test prima della raccolta dati, e le validità **a posteriori** (di costrutto, di criterio ed ecologica), che richiedono invece evidenze empiriche. Per la validità non esistono valori soglia universali: i risultati vanno di volta in volta motivati. A destra, i quattro tipi di affidabilità trattati nel capitolo, con il valore soglia "standard" più diffuso in letteratura (vedi il testo per le soglie più stringenti raccomandate per le decisioni cliniche sul singolo individuo).](../Figures/Latex-Fig-Validita-Affidabilita/Fig_validita_affidabilita.png){#fig-validita-affidabilita fig-align="center" width=85%}
 
 ## Focus: imprecisione dei test e intervalli di confidenza.{#imprecisione}
 Le stime di affidabilità consentono di quantificare e comunicare l’incertezza associata a una misurazione. Un modo intuitivo per rappresentarla consiste nell’affiancare al punteggio osservato una fascia di valori plausibili, delimitata da un limite inferiore e uno superiore. Quanto più questa fascia è ampia, tanto maggiore è l’incertezza che circonda il punteggio.
