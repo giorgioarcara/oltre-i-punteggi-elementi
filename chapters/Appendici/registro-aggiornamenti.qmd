@@ -40,5 +40,4 @@ Rilasciata versione iniziale del libro che include
 
 ### v0.2.2 {.unnumbered .unlisted}
 - ampliata sostanzialmente l'Appendice A3 "Definizioni" rinominata come "Glossario". Migliorato aspetto grafico.
-
 - il libro è ora concepito come un unico libro suddiviso in due parti, "Parte I – Test, misurazione e ragionamento clinico" e "Parte II – Approfondimenti tecnici".
