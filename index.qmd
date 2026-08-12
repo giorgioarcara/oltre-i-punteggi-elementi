@@ -15,18 +15,18 @@ knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 ```
 
 
-### Obiettivo e struttura dell'opera
+### Obiettivo e struttura del libro
 Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica neuropsicologica. In aggiunta a ciò, il libro contiene sezioni dedicate alla neuropsicologia forense e alla psicologia clinica in generale. 
 Nel corso dei suoi capitoli sono trattati diversi aspetti psicometrici e statistici in una maniera che cerca di essere il più possibile accessibile e basata su esempi concreti, senza però banalizzare la complessità degli argomenti trattati. 
 Per le psicologhe e gli psicologi alle parole "psicometria" e "statistica" spesso si associano ricordi dolorosi del periodo universitario piuttosto che aspetti quotidiani dell'attività professionale. Questo libro ha l'ambizioso obiettivo di mostrarvi come questo sia profondamente sbagliato e che sia la psicometria, sia la statistica possano avere un ruolo cruciale nell'attività clinica.
 
 A differenza di altri testi di psicometria disponibili, il libro si focalizza specificamente sull' __applicazione pratica__ delle conoscenze psicometriche e statistiche. 
 
-_Oltre i punteggi_ è concepito come un'unica opera articolata in due tomi complementari, che corrispondono a due livelli di approfondimento e non a due pubblici rigidamente separati. Il **Tomo I – Fondamenti per la pratica clinica** presenta i concetti necessari per applicazione di psicometria e statistica nella pratica clinica, al fine di scegliere e interpretare i test, privilegiando esempi concreti e conseguenze per la pratica. Include i dettagli tecnici indispensabili, ma evita, quando possibile, di soffermarsi sulle formalizzazioni matematiche e sugli aspetti computazionali più avanzati.
+_Oltre i punteggi_ è concepito come un unico libro articolato in due parti complementari, che corrispondono a due livelli di approfondimento e non a due pubblici rigidamente separati. La **Parte I – Test, misurazione e ragionamento clinico** presenta i concetti necessari per applicazione di psicometria e statistica nella pratica clinica, al fine di scegliere e interpretare i test, privilegiando esempi concreti e conseguenze per la pratica. Include i dettagli tecnici indispensabili, ma evita, quando possibile, di soffermarsi sulle formalizzazioni matematiche e sugli aspetti computazionali più avanzati.
 
-Il **Tomo II – Approfondimenti tecnici** approfondisce gli aspetti formali e specialistici degli argomenti trattati, discutendo formule, assunzioni, procedure di stima, simulazioni e codice in `R`. È pensato per chi desidera comprendere più in dettaglio i metodi psicometrici e statistici rilevanti per la neuropsicologia clinica e, in particolare, per chi svolge attività di ricerca, ma non è concepito come un'opera autonoma rivolta esclusivamente a ricercatrici e ricercatori.
+La **Parte II – Approfondimenti tecnici** approfondisce gli aspetti formali e specialistici degli argomenti trattati, discutendo formule, assunzioni, procedure di stima, simulazioni e codice in `R`. È pensata per chi desidera comprendere più in dettaglio i metodi psicometrici e statistici rilevanti per la neuropsicologia clinica e, in particolare, per chi svolge attività di ricerca, ma non è concepita come un libro autonomo rivolto esclusivamente a ricercatrici e ricercatori.
 
-Questa struttura permette due percorsi di lettura, uno essenziale e applicativo e uno di approfondimento tecnico, tra loro strettamente collegati. La scelta editoriale di riunire i due tomi in un unico volume oppure di pubblicarli in due volumi distinti potrà essere presa in seguito, sulla base dell'estensione complessiva dell'opera, senza modificarne l'architettura concettuale.
+Questa struttura permette due percorsi di lettura, uno essenziale e applicativo e uno di approfondimento tecnico, tra loro strettamente collegati. La scelta editoriale di riunire le due parti in un unico volume oppure di pubblicarle in due volumi distinti potrà essere presa in seguito, sulla base dell'estensione complessiva del libro, senza modificarne l'architettura concettuale.
 
 ### Un libro in sviluppo
 Il libro "Oltre i Punteggi" è reso già disponibile anche prima della sua stesura definitiva. La versione che state per leggere infatti è un lavoro in via di sviluppo ancora incompleto. Potete seguire aggiornamenti più puntuali e commenti sugli sviluppi del libro nella newsletter associata [https://oltreipunteggi.substack.com/](https://oltreipunteggi.substack.com/). 
@@ -82,9 +82,9 @@ Per i ringraziamenti personali più estesi, si veda la sezione [**Ringraziamenti
 <!-- code above necessary for epub rendering -->
 
 ### Indice provvisorio
-Di seguito trovi un indice provvisorio dell'opera. La suddivisione dei contenuti nei due tomi e l'organizzazione dei singoli capitoli potranno essere modificate sulla base dei commenti ricevuti durante il suo sviluppo.
+Di seguito trovi un indice provvisorio del libro. La suddivisione dei contenuti nelle due parti e l'organizzazione dei singoli capitoli potranno essere modificate sulla base dei commenti ricevuti durante il suo sviluppo.
 
-**TOMO I: Fondamenti, interpretazione e uso clinico**
+**PARTE I: Test, misurazione e ragionamento clinico**
 
 **Introduzione**
 
@@ -246,7 +246,7 @@ Di seguito trovi un indice provvisorio dell'opera. La suddivisione dei contenuti
  * Il potenziale ruolo dell'AI nella valutazione neuropsicologica
  * Capitolo 11: Riassunto
 
-**TOMO II: Approfondimenti tecnici (da scrivere)**
+**PARTE II: Approfondimenti tecnici (da scrivere)**
 
 _da definire_
 

@@ -105,9 +105,9 @@ Nei test neuropsicologici italiani la validità di contenuto è riportata rarame
 
 _Soglia indicativa_: la soglia minima suggerita per il CVI dipende dal numero dei giudici coinvolti. così come le tabelle con i valori soglia in funzione del numero di giudici coinvolti, Per il Delphi consensus non esiste una soglia specifica, ma essa deve essere esplicitata all'inizio (in genere può essere necessario l'accordo di almeno 80% degli esperti per mantenere un item all'interno del test)
 
-[^cvi]: Il calcolo del CVR e del CVI sono trattati più in dettaglio nel _Tomo II – Approfondimenti tecnici_.
+[^cvi]: Il calcolo del CVR e del CVI sono trattati più in dettaglio nella _Parte II – Approfondimenti tecnici_.
 
-<!-- Per Tomo II – Approfondimenti tecnici: formula del CVR di Lawshe (1975), CVR = (ne - N/2)/(N/2), dove ne è il numero di giudici che valutano l'item come "essenziale" e N il numero totale di giudici; tabella dei valori soglia in funzione di N (Lawshe, 1975; aggiornamenti in Wilson et al., 2012; Ayre & Scally, 2014); relazione tra CVR per item e CVI complessivo del test (media dei CVR degli item mantenuti); cenni alla tabella di Yusoff (2019) per i valori minimi accettabili. -->
+<!-- Per Parte II – Approfondimenti tecnici: formula del CVR di Lawshe (1975), CVR = (ne - N/2)/(N/2), dove ne è il numero di giudici che valutano l'item come "essenziale" e N il numero totale di giudici; tabella dei valori soglia in funzione di N (Lawshe, 1975; aggiornamenti in Wilson et al., 2012; Ayre & Scally, 2014); relazione tra CVR per item e CVI complessivo del test (media dei CVR degli item mantenuti); cenni alla tabella di Yusoff (2019) per i valori minimi accettabili. -->
 
 #### Validità di costrutto {#validita-costrutto}
 
@@ -135,7 +135,7 @@ _Soglie indicative_: Per la validità di costrutto non esiste un valore soglia u
 
 
 #### Struttura fattoriale
-Con questo tipo di validità si indica la qualità degli item del test di raggrupparsi in modo coerente con il modello teorico del costrutto, tipicamente verificata con l'analisi fattoriale esplorativa (Exploratory Factor Analysis, EFA) o confermativa (Confirmatory Factor Analysis, CFA). Talvolta, anche se non è propriamente corretto dal punto di vista statistico, a questo scopo viene utilizzata anche l'analisi delle componenti principali (Principal Component Analysis, PCA). Non è facile spiegare queste tipologia di analisi in maniera concisa senza essere imprecisi. Per tale ragione sono approfondite nel _Tomo II – Approfondimenti tecnici_. In breve, un'analisi fattoriale per essere a supporto della validità di costrutto dovrebbe mostrare che gli item del test si comportano in modo coerente con il costrutto o i costrutti misurati. L'analisi fattoriale è infatti spesso utilizzata in fase di sviluppo dei test, come strumento statistico per selezionare quali item tenere e quali invece escludere dalla versione finale. Esistono diverse metriche per valutare l'adeguatezza del modello fattoriale e diversi valori soglia proposti in letteratura legati. Si rimanda al paragrafo su analisi fattoriale nel _Tomo II – Approfondimenti tecnici_ per i dettagli. <!-- Nota giorgio: aggiungere citazione corretta-->
+Con questo tipo di validità si indica la qualità degli item del test di raggrupparsi in modo coerente con il modello teorico del costrutto, tipicamente verificata con l'analisi fattoriale esplorativa (Exploratory Factor Analysis, EFA) o confermativa (Confirmatory Factor Analysis, CFA). Talvolta, anche se non è propriamente corretto dal punto di vista statistico, a questo scopo viene utilizzata anche l'analisi delle componenti principali (Principal Component Analysis, PCA). Non è facile spiegare queste tipologia di analisi in maniera concisa senza essere imprecisi. Per tale ragione sono approfondite nella _Parte II – Approfondimenti tecnici_. In breve, un'analisi fattoriale per essere a supporto della validità di costrutto dovrebbe mostrare che gli item del test si comportano in modo coerente con il costrutto o i costrutti misurati. L'analisi fattoriale è infatti spesso utilizzata in fase di sviluppo dei test, come strumento statistico per selezionare quali item tenere e quali invece escludere dalla versione finale. Esistono diverse metriche per valutare l'adeguatezza del modello fattoriale e diversi valori soglia proposti in letteratura legati. Si rimanda al paragrafo su analisi fattoriale nella _Parte II – Approfondimenti tecnici_ per i dettagli. <!-- Nota giorgio: aggiungere citazione corretta-->
 
 
 #### Risultati coerenti con il costrutto
@@ -143,7 +143,7 @@ Ogni evidenza che il punteggio al test si comporta in maniera adeguata secondo l
 Questo può avvenire anche se il test correla in maniera coerente con la teoria con altri costrutti diversi (magari con una correlazione debole o moderata) o addirittura se il punteggio correla con altre variabili che non siano costrutti. Per esempio un test di memoria che però si assumi coinvolga anche l'attenzione, avrebbe supporto a validità di costrutto se mostrasse una debole correlazione con l'attenzione. Oppure un test su abilità di calcolo in età scolare avrebbe validità di costrutto se correlasse con la media di voti in matematica.
 Relazioni coerenti con il costrutto ossono anche essere legate a variabili demografiche o cliniche. Ad esempio se i punteggi ad un test mostrano una correlazione positiva con l'età e la teoria prevede che il punteggio al test vari con l'età, quest'ultima può essere considerata un'evidenza di validità di costrutto. Oppure, se il punteggio è in media più bassa in una popolazione clinica in cui ci si attende che la prestazione sia peggiore, questa può essere considerato un risultato a supporto della validità di costrutto.
 
-La validità di costrutto e in particolare la struttura fattoriale, sono spesse associate al concetto di _invarianza di misura_, la proprietà di un test di misurare la stessa cosa anche in diverse condizioni (ad esempio in diverse popolazioni di pazienti). Questo aspetto è leggermente approfondito nel paragrafo [Focus: Invarianza di misura nei test neuropsicologici](#invarianza-intro) e più in dettaglio nel capitolo dedicato del _Tomo II – Approfondimenti tecnici_.
+La validità di costrutto e in particolare la struttura fattoriale, sono spesse associate al concetto di _invarianza di misura_, la proprietà di un test di misurare la stessa cosa anche in diverse condizioni (ad esempio in diverse popolazioni di pazienti). Questo aspetto è leggermente approfondito nel paragrafo [Focus: Invarianza di misura nei test neuropsicologici](#invarianza-intro) e più in dettaglio nel capitolo dedicato della _Parte II – Approfondimenti tecnici_.
 
 
 La possibilità di valutare in maniera adeguata la validità di costrutto di un test dipende anche dalla chiarezza del costrutto che si vuole misurare. In alcuni casi i costrutti potrebbero essere complessi o addirittura potrebbe non esserci un singolo costrutto che viene misurato, ma il test potrebbe essere riconosciuto come legato al funzionamento complesso di più costrutti (si veda il paragrafo [Oggetto di interesse dei test neuropsicologici](#oggetto-interesse-test)). Questo non è di per sé sbagliato o un problema, ma le analisi di validità di costrutto dovrebbero portare prove convincenti che ciò effettivamente avviene, per non basarci unicamente sulla validità di facciata (vedi par. precedente). Ad esempio, se si assume che la prestazione ad un test di _fluenza fonemica_ sia legata a controllo esecutivo, capacità di inibizione e recupero lessicale - qundi ad un insieme di costrutti- dovremmo avere delle evidenze che effettivamente sia in grado di farlo, e non basarci solo sull'apparenza che lo sia.
@@ -198,7 +198,7 @@ _Soglie indicative_: Non esiste una soglia universale oltre la quale la validit�
 
 Quando il criterio è continuo, la relazione viene spesso espressa mediante un coefficiente di correlazione. Valori pari o superiori a 0.70–0.80 possono essere considerati elevati in molti contesti applicativi, ma appunto non rappresentano requisiti universalmente validi.
 
-Quando il criterio è categoriale, possono essere utilizzati indici quali sensibilità, specificità e area sotto la curva ROC. Anche in questo caso, valori pari o superiori a 0.80 sono talvolta proposti come indicativamente adeguati, ma la loro interpretazione deve tenere conto dello scopo del test, della prevalenza della condizione e dei costi associati ai falsi positivi e ai falsi negativi. Questi indici e la scelta dei punteggi di soglia sono approfonditi nei capitoli dedicati del _Tomo II – Approfondimenti tecnici_.
+Quando il criterio è categoriale, possono essere utilizzati indici quali sensibilità, specificità e area sotto la curva ROC. Anche in questo caso, valori pari o superiori a 0.80 sono talvolta proposti come indicativamente adeguati, ma la loro interpretazione deve tenere conto dello scopo del test, della prevalenza della condizione e dei costi associati ai falsi positivi e ai falsi negativi. Questi indici e la scelta dei punteggi di soglia sono approfonditi nei capitoli dedicati della _Parte II – Approfondimenti tecnici_.
 
 <!--
 #### Validità interna
@@ -282,7 +282,7 @@ L'affidabilità split-half stima l'affidabilità di un test dividendolo in due m
 
 Poiché ciascuna metà è più corta dell'intero test, e un test più corto tende ad essere meno affidabile di uno più lungo, il coefficiente di correlazione tra le due metà sottostima l'affidabilità del test completo. Per correggere questa sottostima si applica tipicamente la correzione di Spearman-Brown[^spearmanbrown].
 
-[^spearmanbrown]: La formula della correzione di Spearman-Brown è trattata più in dettaglio nel _Tomo II – Approfondimenti tecnici_.
+[^spearmanbrown]: La formula della correzione di Spearman-Brown è trattata più in dettaglio nella _Parte II – Approfondimenti tecnici_.
 
 _Soglie indicative_: per essere considerata sufficiente la correlazione split-half dovrebbe essere pari o superiore a .70-.80 `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}.
 
@@ -296,7 +296,7 @@ La consistenza interna misura quanto gli item di un test siano tra loro coerenti
 La consistenza interna rappresenta tuttora uno dei principali approcci alla stima dell’affidabilità nell’ambito della teoria classica dei test. Per la sua definizione la consistenza interna è un concetto a cavallo tra affidabilità e validità ed è legata alla  struttura fattoriale del test in quanto stima quanto gli item siano legati tra loro e, presumibilmente, misurino un'unico costrutto. L'indice più diffuso per calcolare la consistenza interna è l'alfa di Cronbach ($\alpha$), che varia da 0 a 1 e può essere pensato, in modo intuitivo, come la media di tutte le possibili affidabilità split-half calcolabili su quel test (vedi paragrafo precedente). Un'alternativa più recente, e in generale considerata più robusta, all'alpha di Cronbach è l'omega di McDonald ($\omega$)[^omega].
 Da note che per i test di velocità (in cui il punteggio dipende dal numero di item completati entro un tempo limite, più che dalla loro correttezza) la consistenza interna, sia calcolata come alpha sia come split-half, non è una misura di affidabilità appropriata `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1, in Spreen & Strauss, 2006)`{=html}.
 
-[^omega]: Dettagli su $\alpha$ e $\omega$ e le formule per calcolarli, sono trattate più in dettaglio nel _Tomo II – Approfondimenti tecnici_.
+[^omega]: Dettagli su $\alpha$ e $\omega$ e le formule per calcolarli, sono trattate più in dettaglio nella _Parte II – Approfondimenti tecnici_.
 
 _Soglie indicative_: come riportato in `\cite{slick2006psychometrics}`{=latex} `Slick, 2006 (cap. 1, in Spreen & Strauss, 2006)`{=html}: valori inferiori a .70 sono considerati inaccettabili, tra .70 e .79 discreti, tra .80 e .89 buoni, e pari o superiori a .90 eccellenti. Nei test neuropsicologici la consistenza interna tende però ad essere più bassa della media, spesso intorno a .60.
 
@@ -361,18 +361,18 @@ Il coefficiente di correlazione esprime principalmente la *consistenza relativa*
 
 La ICC non è un singolo coefficiente, ma una famiglia di coefficienti. Quelle più pertinenti nel caso dell'affidabilità test-retest sono le ICC basate sull’**accordo assoluto**, che tengono conto delle differenze sistematiche tra test e retest e sono quindi più sensibili alla presenza di un effetto pratica.
 
-Nel tipico disegno test–retest, nel quale le due occasioni sono prestabilite e (approssimativamente) identiche per tutti i partecipanti, viene generalmente raccomandato un modello a due vie, a effetti misti, basato sull’accordo assoluto e riferito a una singola misurazione[^ICC_det]. `(\cite{shrout1979intraclass}; \cite{mcgraw1996forming}; \cite{koo2016guideline})`{=latex}`(Shrout & Fleiss, 1979; McGraw & Wong, 1996; Koo & Li, 2016)`{=html}. Per un approfondimento sull’affidabilità test–retest, sull’effetto pratica e sulle differenze tra correlazione e ICC, si veda il _Tomo II – Approfondimenti tecnici_.
+Nel tipico disegno test–retest, nel quale le due occasioni sono prestabilite e (approssimativamente) identiche per tutti i partecipanti, viene generalmente raccomandato un modello a due vie, a effetti misti, basato sull’accordo assoluto e riferito a una singola misurazione[^ICC_det]. `(\cite{shrout1979intraclass}; \cite{mcgraw1996forming}; \cite{koo2016guideline})`{=latex}`(Shrout & Fleiss, 1979; McGraw & Wong, 1996; Koo & Li, 2016)`{=html}. Per un approfondimento sull’affidabilità test–retest, sull’effetto pratica e sulle differenze tra correlazione e ICC, si veda la _Parte II – Approfondimenti tecnici_.
 
 _Soglie indicative_: non esiste una soglia universalmente valida. Un coefficiente pari o superiore a .70 viene talvolta considerato un requisito minimo per finalità di ricerca o per confronti tra gruppi. Quando il punteggio contribuisce a decisioni importanti sul singolo individuo, sono generalmente richiesti valori più elevati: spesso almeno .90 e, idealmente, circa .95 `(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}.
 
-[^ICC_det]: spesso questo è definito come ICC(2,1) o ICC(A,1), si veda il _Tomo II – Approfondimenti tecnici_.
+[^ICC_det]: spesso questo è definito come ICC(2,1) o ICC(A,1), si veda la _Parte II – Approfondimenti tecnici_.
 
 #### Inter-rater agreement
 
 L'accordo tra valutatori (_inter-rater agreement_) misura quanto sia consistente il punteggio assegnato da valutatori diversi che osservano la stessa prestazione. È particolarmente rilevante per i test in cui il punteggio dipende da un giudizio qualitativo dell'esaminatore, e meno quanto è prevista una correzione automatica o univoca. Sono quindi test in cui è importante valutare inter-rater agreement per esempio i test di fluenza verbale, test di disegno, o compiti di descrizione, oppure compiti di interpretazione di proverbi. <!-- valutare se approfondire questi esempi). -->
 
 L'Inter-rater agreement esprime tipicamente tramite l'Intraclass Correlation Coefficient (ICC) che, come anticipato nel precedente paragrafo, tiene conto anche dell'accordo assoluto tra i valutatori (cioè assume alti solo se i valutatori assegnano più o meno lo stesso punteggio), e non solo di quanto i loro punteggi sono consistenti (Fastenau et al., 1996, `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}.
-Più specificamente, nei tipici disegni sperimentali usati per definire la affidabilità inter-rater, andrebbe usato lo un modello analogo a quello già specificato per affidabilità test-retest `(\cite{shrout1979intraclass}; \cite{koo2016guideline})`{=latex}`(Shrout & Fleiss, 1979; Koo & Li, 2016)`{=html}. Si veda il paragrafo su Intra-class correlation del _Tomo II – Approfondimenti tecnici_ per ulteriori dettagli.
+Più specificamente, nei tipici disegni sperimentali usati per definire la affidabilità inter-rater, andrebbe usato lo un modello analogo a quello già specificato per affidabilità test-retest `(\cite{shrout1979intraclass}; \cite{koo2016guideline})`{=latex}`(Shrout & Fleiss, 1979; Koo & Li, 2016)`{=html}. Si veda il paragrafo su Intra-class correlation della _Parte II – Approfondimenti tecnici_ per ulteriori dettagli.
 
 _Soglie indicative_: Secondo Cicchetti & Sparrow, 1981 `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html})i valori di ICC dovrebbero essere interpretati come segue: `: inferiori a .40 scarsi, tra .40 e .59 discreti, tra .60 e .74 buoni, pari o superiori a .75 eccellenti. Con una classificazione lievemente diversa, Fastenau et al. (1996) considerano .60 come soglia per un accordo "sostanziale" e .75-.80 per un accordo "quasi perfetto".
 
@@ -470,7 +470,7 @@ Più tecnicamente, nell’ambito della teoria classica dei test intervalli di qu
 
 Sebbene l’esplicitazione dell’incertezza di misura sia considerata molto importante in psicometria, ho scelto di non approfondire ulteriormente questo argomento nella presente sezione perchè nella pratica neuropsicologica non esiste una prassi generale e condivisa su come integrare sistematicamente questi intervalli nelle decisioni cliniche e nella formulazione delle conclusioni. Presentarli senza mostrare chiaramente come dovrebbero modificare l’interpretazione del risultato rischierebbe quindi di aggiungere informazioni formalmente corrette, ma di difficile applicazione pratica.
 
-Lo Standard Error of Measurement (SEM) e gli intervalli di confidenza che possono essere costruiti a partire da esso sono trattati più estesamente nel _Tomo II – Approfondimenti tecnici_.
+Lo Standard Error of Measurement (SEM) e gli intervalli di confidenza che possono essere costruiti a partire da esso sono trattati più estesamente nella _Parte II – Approfondimenti tecnici_.
 
 ## Focus: validità e affidabilità come proprietà riferite ad un contesto. {#val-aff-cont}
 
@@ -490,7 +490,7 @@ L’invarianza di misura costituisce un tema particolarmente delicato per i test
 
 La seconda ragione è che alcune condizioni rendono particolarmente plausibile un diverso funzionamento delle prove. Si consideri, per esempio, il _MoCA_, uno strumento di screening cognitivo generale, quando è somministrato a persone con grave afasia. Le richieste linguistiche di diversi compiti possono influenzare il risultato, facendo sì che il punteggio totale rifletta non soltanto il funzionamento cognitivo generale, ma anche le abilità di compromissione linguistica.  Il problema può essere formulato propriamente in termini di invarianza, quando si verifica empiricamente se le prove funzionino in maniera sistematicamente diversa tra gruppi di persone con e senza afasia. Nella pratica clinica tuttavia, questa possibilità viene spesso affrontata attraverso l’interpretazione qualitativa della singola prestazione e le conoscenze teoriche della/del neuropsicologa/o, senza che siano necessariamente disponibili verifiche psicometriche formali.
 
-L’argomento sarà ripreso nel _Tomo II – Approfondimenti tecnici_, nel capitolo dedicato all’invarianza di misura.
+L’argomento sarà ripreso nella _Parte II – Approfondimenti tecnici_, nel capitolo dedicato all’invarianza di misura.
 
 
 ## Focus: dalla validità di un test alla validità di una specifica valutazione {#focus-validità-misurazione}
