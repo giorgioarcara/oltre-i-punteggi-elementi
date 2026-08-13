@@ -26,7 +26,7 @@ Questa domanda non ha una risposta semplice e non esistono dei criteri unanimame
 Nel contesto della Teoria Classica dei Test, la validità esprime quanto il punteggio vero $T$ descrive correttamente ciò che si intende misurare[^val-t].
 Come per molti termini di questo libro, non esiste una definizione unanimamente accettata di validità. Di seguito ne è riportata una che ne cattura bene l'essenza principale.
 
-[^val-t]: ad una riflessione attenta, questa definizione pone già un problema, perché il punteggio $T$ non dipende solo dal costrutto misurato, ma anche dal test che si utilizza per misurarlo (ad es., un valore di $10$ al test per indicare il costrutto è dipendente dai punteggi ottenibili al test). Il punteggio $T$ è strettamente legato al modo in cui il costrutto è operazionalizzato e al test, e non semplicemente ad un unità di misura `(\cite{borsboom2005measuring})`{=latex}`(Borsboom, 2005)`{=html}.
+[^val-t]: ad una riflessione attenta, questa definizione pone già un problema, perché il punteggio $T$ non dipende solo dal costrutto misurato, ma anche dal test che si utilizza per misurarlo (ad es., un valore di $"10"$ al test per indicare il costrutto è banalmente dipendente dal range di punteggi che si possono ottenere al test). Il punteggio $T$ è quindi strettamente legato al modo in cui il costrutto è operazionalizzato dal test. `(\cite{borsboom2005measuring})`{=latex}`(Borsboom, 2005)`{=html}.
 
 :::{.callout-note}
 ## Definizione
