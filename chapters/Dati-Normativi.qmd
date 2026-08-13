@@ -131,7 +131,13 @@ Già questa prima definizione apre una una serie di domande non banali. Cosa si 
 
 Il modo più semplice per familiarizzare con i dati normativi è immaginare come avviene la loro raccolta. La @fig-costruzione-istogramma illustra questo processo passo per passo. Immaginiamo di voler raccogliere i dati normativi di un test, il cui punteggio spazia da 0 a 7. Identifichiamo dei potenziali candidati -sani- e somministriamo loro il test (un approfondimento di questa fase si trova in Focus: potenziali bias di selezione nei dati normativi <!-- NOTA GIORGIO: amplia qui-->). 
 Raccogliamo i dati da un primo individuo, che ottiene un punteggio pari a 2. Questa osservazione è rappresentata da un quadratino (vedi @fig-costruzione-istogramma, pannello _a_). 
-Aggiungiamo adesso altre due osservazioni, due altri individui ottengono il punteggio di 2 e 5 (pannello _b_). Notare che nel caso del punteggio 2, c'è già un osservazione per quel punteggio e la nuova osservazione va impilata con quella già esistente. Aggiungiamo infine altre 17 osservazioni, che ci portano ad avere la distribuzione che è riportata nel pannello _c_. Una volta ottenuta questa distribuzione di dati (immaginando che la riteniamo sia sufficiente), è possibile individuare eventualmente una soglia (d), che useremo per facilitare le interpretazione dei punteggi.
+Aggiungiamo adesso altre due osservazioni, due altri individui ottengono il punteggio di 2 e 5 (pannello _b_). Notare che nel caso del punteggio 2, c'è già un osservazione per quel punteggio e la nuova osservazione va impilata con quella già esistente. Aggiungiamo infine altre 17 osservazioni, che ci portano ad avere la distribuzione che è riportata nel pannello _c_. Una volta ottenuta questa distribuzione di dati (immaginando che la riteniamo sia sufficiente), è possibile individuare eventualmente una soglia (d), che useremo per facilitare le interpretazione dei punteggi. Tale soglia è spesso nota come **cut-off di normalità**
+
+:::{.callout-note}
+## Definizione
+**cut-off di normalità**
+La soglia che divide i possibili punteggi al test da prestazione che consideriamo _deficitaria_ da una prestazione che consideriamo _nella norma_ (da Mondini, Mapelli, Arcara)
+:::
 
 
 ```{r}
@@ -213,23 +219,36 @@ p_d <- disegna_quadratini(dati_c, "Distribuzione con soglia") +
 ```
 
 
-Questa soglia ci permette di introdurre un nuovo termine, apparentemente simile ma con una sfumatura diversa, essere _nella norma_.
-
 :::{.callout-note}
 ## Definizione
 **Prestazione nella norma**
-Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _entro_ una soglia che ci aiuta a identificare prestazioni potenzialmente anomale[^per-bassa]. In genere si considera nella norma un punteggio che è uguale o al di sopra del 5% delle prestazioni più basse.
+Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _entro_ una soglia che ci aiuta a identificare prestazioni potenzialmente anomale[^per-bassa]. In genere si considera nella norma un punteggio che è uguale o al di sopra del 5% delle prestazioni più basse .
 :::
 
 :::{.callout-note}
 ## Definizione
 **Prestazione deficitaria**
-Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _oltre_ una soglia che ci aiuta a identificare prestazioni potenzialmente anomale[^per-bassa]. In genere si considera nella norma un punteggio che è uguale o al di sopra del 5% delle prestazioni più basse.
+Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _oltre_ una soglia (spesso nota come cut-off di normalità) che ci aiuta a identificare prestazioni potenzialmente anomale[^per-bassa]. In genere si considera nella norma un punteggio che è uguale o al di sopra del 5% delle prestazioni più basse.
 :::
+
+
 
 [^per-bassa]: si noti che non è stato utilizzato il termine _più bassa_ o _più alta_ perchè il significato dipende da come è costruito il punteggio del test. Generalmente nei test neuropsicologici un punteggio più basso corrisponde una performance migliore, ma non sempre è così. Per esempio punteggi basati sul tempo impiegato a svolgere un compito, oppure basati sul numero di errori commessi hanno punteggi peggiori quando sono alti. In questo caso la soglia 
 
 Siamo partiti da una distribuzione di persone che consideriamo _sane_ o normali e i dati normativi di hanno permesso di ottenere una soglia che ci permette di classificare delle prestazioni come _prestazione nella norma_ oppure come _prestazione deficitaria_.
+
+
+
+<!-- NOTA GIORGIO: FIGURA figura prestazione prestazione deficiaria deficit. A destra una serie di baloon, es. 
+ansia, scarsa motivazione, volontò di simulare, DEFICIT, e tutte queste portano a prestazione deficitaria. Il punto è non sempre una prestazione deficitaria è dovuta al deficit. Volendo citabile modus tollens -->
+
+<!-- NOTA GIORGIO: FIGURA CHE SOTTOLINEA ULTERIORMENTE DEFICIT: immagine di un neuropsicologo? Il mio paziente ha un possibile declino? e una riga che dice che in questo caso interesse è in peggioramento non deficit. Mel testo mettere che poi prestazione deficitaria è speso associata ad un peggioramento proprio perché non abbiamo dati prima o premorbosi) --> 
+
+:::{.callout-tip}
+## Riflessione
+Il termine _prestazione deficitaria_ porta con sé dei problemi perchè sembra inevitabilmente suggerire che c'è un deficit. Questa però è solo una delle possibili ragioni. Un termine forse più neutro che potrebbe indurre meno in errori è _prestazione al di sotto della soglia di normalità_ (o al di sopra, nei test in cui il punteggio è descritto).  In questa maniera ci limiteremmo a descrivere cosa è, lasciando alla fase dell'Interpretazione (Capitolo 10), decidere se è un deficit oppure no.
+:::
+
 
 ```{r}
 #| label: fig-classificazione-soglia
@@ -337,7 +356,8 @@ La definizione di _prestazione deficitaria_ utilizzata sopra tende a confondere 
 
 Questa definizione e queste considerazioni non sono problematiche in sé, ma è utile sottolinearle per chiarire che, nel momento che utilizziamo i dati normativi per delle classificazioni, questa è proprio la definizione che abbiamo dato di prestazione deficitaria, identificato come prestazione al di là di un valore soglia (statistica).
 
-<!-- NOTA GIORGIO: qui stai usando "punteggio deficitario", ma dopo "deficit". Da chiarire! -->
+<!-- NOTA GIORGIO: qui stai usando "punteggio deficitario", ma dopo "deficit". Da chiarire e sottolineare, magari con figura -->
+
 ## Perché usiamo i dati normativi per definire i deficit?
 Una domanda lecita che potrebbe sorgere è: perché utilizziamo i dati normativi per definire i deficit? 
 Per esempio, non potrebbe essere più semplice prendere dei pazienti con problemi di memoria e usare loro come _criterio_ (vedi @validita-criterio)?. Questo approccio sposterebbe il problema perché non definiremmo più il deficit esclusivamente a partire dai sani, e aprirebbe tutta una serie di scenari analitici (approfonditi nel capitolo 4), molto più dettagliati.
@@ -875,12 +895,36 @@ citazioni paper lakens
 ### Metodi di regressione per i dati normativi
 
 ### I Punteggi Equivalenti
+<!-- pensa se scrivere già la sezione di Approfondimenti Tecnici, magari insieme a Alessio Facchin -->
 
-### Focus: diversi concetti di normalità (DA VALUTARE)
 
-### Focus: meglio un campione numeroso o un campione rappresentativo?
+### Nella pratica clinica: come comportarsi quando ci sono più norme a disposizione?
+- sono veramente equivalenti o alcune sono migliori? (es. più simili al paziente)
+- se sono equivalenti, puoi proprio anche citare approccio Multiverse, come possibile estensione concettuale.
+
+### Nella pratica clinica: confondere peggioramento vs deficit.
+In persone poco tipiche la corrispondenza tra deficit e peggioramento è meno ragionevole.
+(Aggiungere figure qui, sia per persona che peggiora, ma non va sotto soglia, che viceversa persona che è sotto soglia, ma non peggiora). Altro modi di formulare la cosa è dire che un peggioramento può o non può (se la persona non è tipica, essere un deficit)
+
+### Nella pratica clinica (PENSA AD ALTRI VARI CASI TIPICI): intepretare un risulto tra due fasce di età o scolarità.
+
+### Focus: quanto simili devono essere gli individui del mio campione per un deficit?
+altro caso estremo, di persone in cui, se indagassimo dati normativi estremanente rappresetnativo si può raggiungere una sorta di paradosso. Per esempio (caso sviluppo), bambini che hanno avuto problemi di ipossia alla nascita, che sono prematuri, etc. potrebbe avere una performance nella norma rispetto alle persone completmanete simili a lui. Nell'adulto, persone che hanno ipertensione e altre condizioni. Si potrebbe obiettare che questi sono fattori di rischio, ma lo sono anche età e scolarità! (metti citazioni). Il punto è capire che il gruppo di riferimento sarà, inevitabilmente, arbitrario.
+
+### Focus: Robust norming (prendi citazione da Weintraub 2025 (già in cartella references))
+
+### Focus: diversi concetti di normalità (ISPIRATI A CAPITANI/LAIACONA DA VALUTARE SE HA SENSO)
+
+### Focus normalità o tipicità?
+La parola normalità (anche etimologicamente)  rimanda a come _si dovrebbe essere_ . Usare la parola tipicità ha vantaggio di suggerire di considerare anche l'altro lato (le persone eccezionalmente brave), perché loro non sono tipiche. E non ha connotazione di come si dovrebbe essere. 
+Anche se a livello puramente speculativo, si può pensare che usare la parola tipico potrebbe migliorare aspetti interpretativi o di ragionamento clinico.
+
+### Focus: meglio un campione numeroso o un campione simile a chi vogliamo valutare?
+LA risposta è meglio un campione numeroso _e_ simile a chi vogliamo valutare. Ma tra i due, meglio piccolo, ma con metodi adatti (es. Crawford) e considerando che si ha possibilmente bassa sensibilità. 
 
 ### Errori comuni: utilizzare i punti-z indiscriminatemente
+
+
 
 ### Errori comuni: utilizzo generico della performance (sotto cut-off) (da valutare se mettere in sezione Interpretazione).
 
