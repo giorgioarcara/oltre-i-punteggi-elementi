@@ -1,3 +1,7 @@
+---
+suppress-bibliography: true
+---
+
 ## A3. Glossario {.unnumbered #glossario}
 
 ### Perché sono importanti le definizioni.
