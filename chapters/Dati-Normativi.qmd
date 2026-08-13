@@ -401,7 +401,9 @@ Un _peggioramento_ del funzionamento cognitivo che si attende essere progressivo
 :::
 
 La ragione di questa distinzione tra è legata alla possibile confusione nell'utilizzo di questi termini, che riflettere direttamente questa ambiguità nella letteratura internazionale e del termine inglese _impairment_.
-Il termine _impairment_ infatti è utilizzato comunemente, sia per indicare possibili _deficit_ (reali mancanze funzionali), sia per definire un _peggioramento_.
+Il termine _impairment_ infatti è utilizzato comunemente, sia per indicare possibili _deficit_ (reali mancanze funzionali), sia per definire un _peggioramento_, come si può notare per esempio nei manuali dell'_International Classification of Functioning, Disability and Health (ICF)_ `(\cite{who2013icf})`{=latex}`(World Health Organization, 2013)`{=html}[^icf-manual], in cui il termine _impairment_ è definito come "Problems in body function and structure such as significant deviation or loss" (tr. let. "problemi in funzione e struttura corporea come deviazioni significativa o perdita"), di fatto includendo sia la "deviazione" (che è legata al concetto di deficit), sia quello della "perdita" (che è legata al concetto di peggioramento).
+
+[^icf-manual]: World Health Organization (2013). _How to use the ICF: A practical manual for using the International Classification of Functioning, Disability and Health_. Disponibile su: <https://cdn.who.int/media/docs/default-source/classification/icf/drafticfpracticalmanual2.pdf>
 Prima di passare ad un approfondimento di ciascuno di questi concetti è importante distinguere degli aggettivi comunemente associati a questi termini, _acquisito_ o _evolutivo_.
 
 :::{.callout-note}
@@ -417,6 +419,8 @@ Aggettivo che definisce l'origine di un deficit o peggioramento. Indica che l'al
 :::
 
 Ciascuno di questi aggettivi è spesso utilizzato insieme ai termini _deficit_ per specificare diversi tipi di origine dei disturbi: quindi _deficit acquisito_ o _deficit evolutivo_. Anche se non è comune come utilizzo, sarebbe utile distinguere anche tra equivalenti tipi ("peggioramento acquisito" e "peggioramento evolutivo"), questi termini non sono utilizzati comunemente. Infatti, come vedremo nel paragrafo (disturbi cognitivi nell'età evolutiva) <!-- NOTA GIORGIO: migliora qui -->, problemi nell'età evolutiva sono principalmente associati a deficit, piuttosto che a peggioramenti. Questo è primariamente legato al fatto che nell'età evolutiva, con un funzionamento cognitivo non ancora sviluppato è difficile poter parlare di peggioramenti, senza che essi siano veramente rilevanti e quindi classificabili come veri e propri deficit.
+
+<!-- NOTA GIORGIO: CITA ICF che confonde con impairment loss e deviation e documenti ICF -->
 
 ### Deficit: approfondimento ed esempi
 
