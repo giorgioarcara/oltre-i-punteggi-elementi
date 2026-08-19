@@ -206,12 +206,12 @@ Gli esempi forniti sopra sul MoCA e del Digit Span mostrano come questo presuppo
 Va tuttavia chiarito che la/il neuropsicologa/o non deve porsi quotidianamente il problema della scala di misurazione, a meno che non decida di effettuare operazioni sui punteggi al di là di quelle previste dalla pratica clinica standard. 
 Il messaggio centrale è: _ottenere dei numeri non ci autorizza a fare di essi ciò che vogliamo_. Alcune operazioni, pur tecnicamente possibili, possono essere delicate o problematiche, e sapere che derivano da un'assunzione discutibile è fondamentale per un'interpretazione consapevole dei punteggi. 
 
-Un altro modo per affrontare la questione della misurazione in neuropsicologia clinica è focalizzarsi non tanto sul processo di misurazione, ma sugli strumenti che usiamo per fare la misurazione e su quale è il significato dei punteggi che tali strumenti producono. Questo è difatti il presupposto della Teoria Classica dei Test, il framework più utilizzato nello sviluppo dei test psicologici e neuropsicologici[^ctt-meas] (si veda @teoria-classica-dei-test).
+Un altro modo per affrontare la questione della misurazione in neuropsicologia clinica è focalizzarsi non tanto sul processo di misurazione, ma sugli strumenti che usiamo per fare la misurazione e su quale è il significato dei punteggi che tali strumenti producono. Questo è il presupposto della Teoria Classica dei Test, il framework più utilizzato nello sviluppo dei test psicologici e neuropsicologici[^ctt-meas] (si veda @teoria-classica-dei-test).
 
 Prima di passare alla teoria classica dei test, cambiamo quindi prospettiva e dedichiamo adesso dello spazio a quelli che sono gli strumenti di misurazione in neuropsicologia: i test.
 
 
-[^ctt-meas]: si noti che anche la teoria classica dei test che può essere a sua volta pensata come un modello di misurazione `(\cite{borsboom2005measuring})`{=latex}`Borsboom (2005)`{=html}. 
+[^ctt-meas]: ad essere precisi, si noti che anche la teoria classica dei test che può essere a sua volta pensata come un modello di misurazione, sebbene non privo di problematiche `(\cite{borsboom2005measuring})`{=latex}`Borsboom (2005)`{=html}. 
 
 
 ## I test {#i-test}
