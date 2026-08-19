@@ -181,7 +181,7 @@ Proviamo però ad applicare lo stesso ragionamento a qualche test neuropsicologi
 
 Lo stesso vale per il **Digit Span**, test in cui si chiede di ricordare sequenze di numeri di lunghezza crescente e il punteggio corrisponde alla sequenza più lunga correttamente richiamata. Un aumento di 2 punti da 3 a 5 segna il passaggio da una prestazione molto bassa a una intermedia; un aumento da 8 a 10 porta invece da una prestazione già eccellente a una quasi irraggiungibile (provate a ricordare una sequenza di 10 cifre per capire). Anche qui le due variazioni potrebbero non sembrare equivalenti.
 
-Questi esempi, per quanto informali, mostrano come interpretare i punteggi grezzi di un test come se fossero su scala a intervalli non si possa dare per scontato. Eppure, la maggior parte dei test neuropsicologici non riporta evidenze o non effettua verifiche che mostrino l'effettiva adeguatezza dell'utilizzo di una scala ad intervalli.
+Questi esempi, per quanto informali, mostrano come interpretare i punteggi grezzi di un test come se fossero su scala a intervalli abbia senz'altro delle criticità. Eppure, la maggior parte dei test neuropsicologici non riporta evidenze o non effettua verifiche che mostrino l'effettiva adeguatezza dell'utilizzo di una scala ad intervalli.
 
 [^mis3]: per complicare ulteriormente il quadro qualcuno che conosce il MoCA potrebbe anche dire che il significato di questi $+2$, dipende molto da quale è l'item (o gli item) a cui è legato questo punteggio, questo esempio è trattato in un Focus dedicato. <!-- Focus da scrivere: approfondimento sugli item arbitrari nel MoCA; collegare con anchor #Focus-item-arbitrari una volta creato -->
 
@@ -196,15 +196,23 @@ Tutte queste considerazioni sono sensate e condivisibili, ma, dal punto di vista
 -->
 
 
-È doveroso anticipare già adesso che non sempre i test psicologici soffrono di queste problematiche. Alcuni infatti sono costruiti in modo tale che il significato delle variazioni di punteggio sia formalmente definito e preciso, grazie all'impiego di modelli alternativi di misurazione, ad esempio quelli appartenenti all' **Item Response Theory**. Purtroppo, per ragioni pratiche e storiche, strumenti con tali caratteristiche sono ancora poco diffusi nella pratica neuropsicologica italiana, e dobbiamo quindi accontentarci di test che assumono una scala ad intervalli, con tutte le problematicità evidenziate. <!-- si veda il paragrafo "Introduzione all'Item Response Theory" per un approfondimento: paragrafo non ancora attivo, per ora solo in bozza commentata più sotto in questo file -->
+È doveroso anticipare già adesso che non sempre le misurazioni in neuropsicologia soffrono delle problematiche citate finora. Alcuni infatti sono costruiti in modo tale che il significato delle variazioni di punteggio sia formalmente definito e preciso, grazie all'impiego di modelli alternativi di misurazione, ad esempio quelli appartenenti all' **Item Response Theory**. Purtroppo, per ragioni pratiche e storiche, strumenti con tali caratteristiche sono ancora poco diffusi nella pratica neuropsicologica italiana, e dobbiamo quindi accontentarci di test che assumono una scala ad intervalli, con tutte le problematicità evidenziate. <!-- si veda il paragrafo "Introduzione all'Item Response Theory" per un approfondimento: paragrafo non ancora attivo, per ora solo in bozza commentata più sotto in questo file -->
 
 Devo però anche anticipare che adotterò una posizione molto pragmatica su questo aspetto. Anche quando alcune assunzioni di un test risultano discutibili, ciò non significa che il test vada scartato: uno strumento con limitazioni può essere comunque più utile di una valutazione clinica puramente qualitativa.
 
-Ricapitolando: la maggior parte dei test neuropsicologici adotta implicitamente la concezione della misurazione proposta da Stevens e tratta i punteggi come misure su scala a intervalli, senza però esplicitare o verificare l'adeguatezza di tale assunzione. 
-Gli esempi forniti sul MoCA e del Digit Span mostrano come questa assunzione non si possa però dare per scontata con leggerezza. Va tuttavia chiarito che la/il neuropsicologa/o non deve porsi quotidianamente il problema della scala di misurazione, a meno che non decida di effettuare operazioni sui punteggi al di là di quelle previste dalla pratica clinica standard. 
-Il messaggio centrale è: _ottenere dei numeri non ci autorizza a fare di essi ciò che vogliamo_. Alcune operazioni, pur tecnicamente possibili, possono essere delicate o problematiche, e sapere che derivano da un'assunzione discutibile è fondamentale per un'interpretazione consapevole dei punteggi.
 
-Abbiamo parlato a lungo di misurazione, ma lasciamo adesso spazio a quelli che sono gli strumenti di misurazione in neuropsicologia: i test.
+Ricapitolando: spesso in neuropsicologia si fa un utilizzo dei punteggi che, implicitamente, è affine alla concezione della misurazione proposta da Stevens e nello specifico assume che i punteggi possano essere trattati misure su scala a intervalli, senza però esplicitare o verificare l'adeguatezza di tale assunzione. 
+Gli esempi forniti sopra sul MoCA e del Digit Span mostrano come questo presupposto non sia privo di problematiche.
+Va tuttavia chiarito che la/il neuropsicologa/o non deve porsi quotidianamente il problema della scala di misurazione, a meno che non decida di effettuare operazioni sui punteggi al di là di quelle previste dalla pratica clinica standard. 
+Il messaggio centrale è: _ottenere dei numeri non ci autorizza a fare di essi ciò che vogliamo_. Alcune operazioni, pur tecnicamente possibili, possono essere delicate o problematiche, e sapere che derivano da un'assunzione discutibile è fondamentale per un'interpretazione consapevole dei punteggi. 
+
+Un altro modo per affrontare la questione della misurazione in neuropsicologia clinica è focalizzarsi non tanto sul processo di misurazione, ma sugli strumenti che usiamo per fare la misurazione e su quale è il significato dei punteggi che tali strumenti producono. Questo è difatti il presupposto della Teoria Classica dei Test, il framework più utilizzato nello sviluppo dei test psicologici e neuropsicologici[^ctt-meas] (si veda @teoria-classica-dei-test).
+
+Prima di passare alla teoria classica dei test, cambiamo quindi prospettiva e dedichiamo adesso dello spazio a quelli che sono gli strumenti di misurazione in neuropsicologia: i test.
+
+
+[^ctt-meas]: si noti che anche la teoria classica dei test che può essere a sua volta pensata come un modello di misurazione `(\cite{borsboom2005measuring})`{=latex}`Borsboom (2005)`{=html}. 
+
 
 ## I test {#i-test}
 Già dall'introduzione è stato detto che il protagonista assoluto del libro è il test neuropsicologico. Ma cos'è un test? Come sempre, non possiamo non procedere senza fornire una definizione precisa che ci aiuti a definire cosa è un test (e cosa non lo è) e quali sono le caratteristiche che lo contraddistinguono.
