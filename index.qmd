@@ -5,7 +5,7 @@ suppress-bibliography: true
 `<img src="Figures/cover-html.png" style="width:100%; height:auto; display:block; margin:auto;" />`{=html}
 
 ```{r, echo=FALSE}
-cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.2.2"))
+cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.3.0"))
 ```
 
 
@@ -127,30 +127,36 @@ Di seguito trovi un indice provvisorio del libro. La suddivisione dei contenuti 
 
   * Validità
     * Validità: introduzione
-    * Validità di facciata
-    * Validità di contenuto
-    * Validità di costrutto
-      * Validità convergente/divergente
+    * Mapping: dalle etichette classiche alle fonti di evidenza (Standards 2014)
+    * Una nota a parte: la validità di facciata
+    * Evidenze basate sul contenuto del test
+      * Validità di contenuto
+    * Evidenze basate sui processi di risposta
+    * Evidenze basate sulla struttura interna
       * Struttura fattoriale
-      * Risultati coerenti con il costrutto
-    * Validità di criterio
-      * Validità concorrente
-      * Validità predittiva
-    * Validità ecologica
+    * Evidenze basate sulle relazioni con altre variabili
+      * Validità di costrutto: un'etichetta che attraversa più fonti
+      * Validità convergente/divergente
+      * Relazioni con altre variabili coerenti con il costrutto
+      * Chiarezza del costrutto
+      * Validità di criterio (concorrente, predittiva, gruppi noti)
+      * Validità ecologica
+    * Evidenze basate sulle conseguenze del testing
   * Affidabilità
-    * Valori soglia per affidabilità
+    * Affidabilità introduzione
     * Affidabilità split-half
     * Consistenza interna
     * Affidabilità test-retest
     * Inter-rater agreement
+  * Capitolo 2: Riassunto
   * Nella pratica clinica: come usare validità e affidabilità per scegliere i test
   * Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test **(da scrivere)**
-  * Capitolo 2: Riassunto
   * Focus: imprecisione dei test e intervalli di confidenza
-  * Focus: dalla validità di un test alla validità di una specifica valutazione
   * Focus: validità e affidabilità come proprietà riferite ad un contesto
   * Focus: invarianza di misura nei test neuropsicologici
+  * Focus: dalla validità di un test alla validità di una specifica valutazione
   * Errori comuni: ignorare validità e affidabilità di un test.
+  * Focus: valutare la validità di costrutto
 
 **3. Identificare deficit e danni cognitivi (da scrivere)**
 

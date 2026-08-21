@@ -38,11 +38,12 @@ In questo caso è messo in evidenza un aspetto importante, e cioè che la validi
 
 È importante notare che _ciò che si intende misurare_ non è necessariamente un costrutto (come la memoria o l'attenzione).
 Un test può infatti avere uno scopo diverso dalla misurazione di un concetto psicologico inosservabile: pensiamo, per esempio, a un test che deve prevedere le possibilità di reinserimento lavorativo dopo un trauma cranico, oppure a uno che deve distinguere pazienti con Mild Cognitive Impairment (MCI) da soggetti con invecchiamento fisiologico. In questi casi l'obiettivo è chiaro e misurabile, ma non è, in senso stretto, un «costrutto» (questo aspetto è stato in parte discusso nel par. @prob-app-gruppo e sarà ripreso nel par. @validita-criterio).
+In accordo a visioni recenti la validità dovrebbe essere pensata come un concetto unitario `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}, valutato attraverso diverse fonti di evidenza, che possono supportare una certa interpretazione dei risultati di un test.
 
-A prescindere da come si definisca esattamente la validità, essa è sempre associata alla presenza di evidenze scientifiche di diverso tipo, che forniscono una base per interpretare i punteggi.
+A prescindere da come si definisca esattamente la validità, essa è quindi sempre associata alla presenza di evidenze scientifiche di diverso tipo, che forniscono una base per interpretare i punteggi.
 Un test con buona validità per la memoria, per esempio, dispone di evidenze scientifiche che ne confermano l'effettiva capacità di misurare la memoria; allo stesso modo, uno strumento in grado di distinguere pazienti con MCI da soggetti sani dispone di evidenze che ne dimostrano l'efficacia in questo compito.
 
-Un aspetto che è fondamentale sottolinare sin da subito è che la validità non è una proprietà generale e assoluta di un test, ma è sempre riferita a un suo **utilizzo specifico**. Non ha pertanto senso dire semplicemente che "un test è valido", mentre ha senso dire che un test ha evidenze di validità per un certo scopo, in una certa popolazione, in un certo contesto. Uno stesso test di memoria può avere buone evidenze di validità per identificare un decadimento cognitivo in soggetti anziani, e nessuna evidenza per, ad esempio, predire il rendimento scolastico in età evolutiva.
+Un aspetto che è fondamentale sottolinare sin da subito è che la validità non è una proprietà generale e assoluta di un test, ma è sempre riferita a un suo **utilizzo specifico**. Non ha pertanto senso dire semplicemente che "un test è valido", mentre ha senso dire che un test ha evidenze di validità per un certo scopo, in una certa popolazione, in un certo contesto. Uno stesso test di memoria può avere buone evidenze di validità per identificare un decadimento cognitivo in soggetti anziani, e nessuna evidenza per, ad esempio, predire il rendimento scolastico in età evolutiva. Un altro modo per pensare a questo aspetto è che la validità non è una proprietà del test ma è una proprietà dell'interpretazione dei risultati del test per un certo scopo.
 
 :::{.callout-note}
 ## Non ha senso dire che un test "è valido".
@@ -53,13 +54,46 @@ Un altro motivo per evitare affermazioni come "quel test è valido/non valido" �
 
 Proprio per via della complessità spesso vengono riconosciuti diversi tipi di validità, ognuno in grado di cogliere aspetti diversi del test. Anche in questo caso non esiste una classificazione unanimamente riconosciuta. Questa complessità del concetto di validità e delle sue classificazioni è perfettamente testimoniata dai cambiamenti tra le due edizioni di "Essentials of Psychological Testing" di Susana Urbina -uno dei testi più diffusi sul testing psicologico- in cui la sezione sulla classificazione dei tipi di validità ha ricevuto una grande revisione `(\cite{urbina2004essentials}; \cite{urbina2014essentials})`{=latex}`(Urbina, 2004; Urbina, 2014)`{=html}.
 
-Quella che troverete di seguito è quindi solo una delle possibili classificazioni di validità, selezionata per la sua utilità in ambito neuropsicologico.
-Una prima importante distinzione è tra validità a priori e validità a posteriori. Le validità **a priori** (di facciata e di contenuto) si valutano analizzando il contenuto del test stesso, prima ancora di somministrarlo e raccogliere dati. Le validità **a posteriori** (di costrutto, di criterio ed ecologica, etc.) richiedono invece la raccolta di dati empirici, tipicamente confrontando il punteggio del test con altre misure esterne oppure analizzando il comportamento ai diversi item dello strumento.
+Quella che troverete di seguito è una classificazione aggiornata, ispirata alle fonti di evidenza descritte dagli Standards for Educational and Psychological Testing, elaborati congiuntamente da American Educational Research Association, American Psychological Association e National Council on Measurement in Education `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}, e adattata al contesto neuropsicologico[^constr-crit][^prior-post]. 
+
+
+[^constr_crit]: Per dovere di precisione, in accordo agli Standards for Educational and Psychological Testing, il concetto di costrutto è ben più ampio di quello riportato in questo libro e include anche quello di criterio. La definizione negli di costrutto è infatti "the concept or characteristic that a test is designed to measure" `(\cite{aera2014standards}, p. 11)`{=latex}`(AERA, APA, & NCME, 2014, p. 11)`{=html}. Per rimanere più aderente ai termini utilizzati spessi in neuropsicologia e per maggiore chiarezza, ho preferito mantenere la distinzione tra costrutto e criterio (Cronbach & Meehl, 1955).
+
+[^prior-post]: Una distinzione che è talvolta riportata, è quella tra validità "a priori" (valutabile analizzando il contenuto del test prima ancora di raccoglierne dati) e "a posteriori" (che richiede invece dati empirici). Questa distinzione non è adottata in questo libro, per evitare di frammentare ulteriormente la classificazione in tipi di validità.
+
+<!-- BLUEPRINT DA COMPLETARE (Giorgio): 1-2 paragrafi che introducono la validità come concetto unitario secondo gli Standards 2014, prima della tabella di mapping qui sotto. Punti essenziali da integrare: (INSERITA)
+- Definizione di validità (p. 11): "Validity refers to the degree to which evidence and theory support the interpretations of test scores for proposed uses of tests" - è l'interpretazione/uso a essere valutata, non il test in sé. (INSERITA)
+- DA CITARE VERBATIM (p. 11, frase immediatamente successiva): "Validity is, therefore, the most fundamental consideration in developing tests and evaluating tests." Riportarla in inglese come citazione diretta. 
+- Definizione di costrutto (p. 11): "the concept or characteristic that a test is designed to measure" - ampia, include anche ciò che qui chiamiamo "criterio" (vedi la nota a parte più sotto, nel paragrafo sulla validità di criterio, sulla distinzione osservabile/inosservabile e il richiamo a Cronbach & Meehl, 1955). (INSERITA)
+- Le due "minacce" comuni a tutte le 5 fonti (p. 12): construct underrepresentation (il test non copre aspetti rilevanti del costrutto) e construct-irrelevant variance (il punteggio è influenzato da fattori estranei al costrutto).
+- Frase-chiave (p. 13-14): "Validity is a unitary concept". (INSERITA)
+- Standard 1.2 (p. 23): "No type of evidence is inherently preferable to others" - nessuna delle 5 fonti "vale di più" in assoluto.
+- Standard 1.3/1.4 (p. 23-24): se la validità per un uso non è stata valutata va dichiarato chiaramente; se un clinico usa un punteggio in un modo non validato dallo sviluppatore, la responsabilità di giustificarlo è sua.
+Dopo l'introduzione, elencare le 5 fonti per nome prima della tabella di mapping qui sotto. (NON INSERITO) -->
+
+| Etichetta classica | Fonte di evidenza (Standards 2014) | Note |
+|---|---|---|
+| Validità di contenuto | Evidenze basate sul contenuto del test | Include sia giudizio di esperti sia indici quantitativi (CVI/CVR, Delphi) |
+| Validità di costrutto | Si distribuisce su due fonti: struttura interna + relazioni con altre variabili | Non è più una fonte a sé; gli Standards 2014 la citano una sola volta in tutto il testo, come nomenclatura storica superata |
+| Struttura fattoriale | Evidenze basate sulla struttura interna | EFA/CFA, coerenza tra item |
+| Validità convergente/divergente | Evidenze basate sulle relazioni con altre variabili | Sotto-tipo: convergent/discriminant evidence |
+| Risultati coerenti con il costrutto | Evidenze basate sulle relazioni con altre variabili | Coerenza generale con le previsioni della teoria del costrutto |
+| Validità di criterio (concorrente, predittiva, gruppi noti) | Evidenze basate sulle relazioni con altre variabili | Sotto-tipo: test-criterion relationships; concorrente/predittiva riguardano solo la tempistica di raccolta del criterio |
+| Validità ecologica | Evidenze basate sulle relazioni con altre variabili | Caso applicativo, qui mantenuto in evidenza per rilevanza clinica/forense |
+| Validità di facciata | _Nessuna_ | Non è una fonte di evidenza tecnica; vedi nota a parte |
+| _(nessuna etichetta classica)_ | Evidenze basate sui processi di risposta | Argomento nuovo per il libro |
+| _(nessuna etichetta classica)_ | Evidenze basate sulle conseguenze del testing | Posizione "debole" degli Standards: conta solo se riconducibile a sotto-rappresentazione o varianza irrilevante del costrutto |
+
+: Corrispondenza tra le etichette classiche di validità usate in questo libro e le fonti di evidenza descritte dagli Standards for Educational and Psychological Testing `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}. {#tbl-mapping-validita}
 
 [^val]: Considerando che possono esistere più scopi, forse sarebbe più esatto usare il plurale e dire che le diverse validità sono più proprietà lungo diversi continuum.
 
-#### Validità di facciata {#validita-facciata}
-Il primo tipo di validità a priori è la **validità di facciata**.
+#### Una nota storica: la validità di facciata {#validita-facciata}
+
+A differenza delle cinque fonti di evidenza appena introdotte, non appare un termine che spesso è stato considerata come uno degli aspetti della validità e cioè "la validità di facciata". È significativo che il termine «validità di facciata» (*face validity*) non compaia nemmeno una volta nelle oltre 230 pagine degli Standards for Educational and Psychological Testing `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}, proprio a sostegno del fatto che sia considerato un concetto superato e che anzi considerarla come un tipo di validità possa indurre ad errori. Per questo motivo la trattiamo qui come un concetto storico che vale la pena menzionare, ma non come un'evidenza tecnica di validità.
+
+<!--
+[^facciata-standards]: Verifica diretta sul testo integrale degli Standards for Educational and Psychological Testing (AERA, APA, & NCME, 2014): il termine face validity non vi compare in alcun punto. La validità di facciata non ha peraltro mai fatto parte nemmeno del precedente modello "trinitario" classico (contenuto, costrutto, criterio): è un concetto più informale e risalente (Mosier, anni '40), relativo a quanto un test "sembri" misurare ciò che dichiara, più che un'evidenza tecnica di validità. -->
 
 :::{.callout-note}
 ## Definizione
@@ -88,8 +122,11 @@ Nei manuali o articoli scientifici di alcuni test neuropsicologici potrebbe non 
  <!-- NOTA GIORGIO: fare paragrafo (si veda Focus: affidabilità e validità nei test neuropsicologici in Italia).-->
 :::
 
-#### Validità di contenuto {#validita-contenuto}
-Il secondo tipo di validità a priori è la **validità di contenuto**.
+#### Evidenze basate sul contenuto del test {#validita-contenuto-fonte}
+
+La prima fonte di evidenza descritta dagli Standards riguarda il contenuto del test: in questo libro la chiamiamo, con l'etichetta classica, **validità di contenuto**.
+
+##### Validità di contenuto {#validita-contenuto}
 
 :::{.callout-note}
 ## Definizione
@@ -110,33 +147,18 @@ _Soglia indicativa_: la soglia minima suggerita per il CVI dipende dal numero de
 
 <!-- Per Parte II – Approfondimenti tecnici: formula del CVR di Lawshe (1975), CVR = (ne - N/2)/(N/2), dove ne è il numero di giudici che valutano l'item come "essenziale" e N il numero totale di giudici; tabella dei valori soglia in funzione di N (Lawshe, 1975; aggiornamenti in Wilson et al., 2012; Ayre & Scally, 2014); relazione tra CVR per item e CVI complessivo del test (media dei CVR degli item mantenuti); cenni alla tabella di Yusoff (2019) per i valori minimi accettabili. -->
 
-#### Validità di costrutto {#validita-costrutto}
+#### Evidenze basate sui processi di risposta {#validita-processi-risposta}
 
-La **validità di costrutto** è spessa considerata come la più importante delle validità e rappresenta la prima delle validità a posteriori.
+<!-- BLUEPRINT DA COMPLETARE (Giorgio): sezione interamente nuova, nessun contenuto pregresso. Punti essenziali da integrare:
+- Definizione (p. 15): "Theoretical and empirical analyses of the response processes of test takers can provide evidence concerning the fit between the construct and the detailed nature of the performance or response actually engaged in by test takers."
+- Metodi tipici citati dagli Standards: interviste, "think-aloud", tempi di risposta, movimenti oculari.
+- Include anche l'analisi della coerenza dei processi di valutatori/rater con i criteri previsti, per i test con correzione qualitativa o soggettiva - collegamento naturale con "Inter-rater agreement" (sezione Affidabilità).
+- Nomenclatura Standards: "(b) Evidence Regarding Cognitive Processes" (Standard 1.12).
+- DA CITARE: il Boston Process Approach (E. Kaplan) - analizzare come un paziente arriva a una risposta, non solo se è corretta o no. Esempio-cardine di questa fonte in neuropsicologia. Verificare se già menzionato altrove nel libro prima di introdurlo, e in tal caso linkarlo invece di riscriverlo. -->
 
-:::{.callout-note}
-## Definizione
-La validità di costrutto è il grado in cui i punteggi di un test si comportano in accordo con la teoria del costrutto che il test intende misurare.
-:::
+#### Evidenze basate sulla struttura interna {#validita-struttura-interna}
 
-Dal momento che nella psicometria l'oggetto principale è la misurazione di costrutti, non è sorprendente che la validità di costrutto sia considerata il principale tipo di validità. Alcune classificazioni di fatto considerano tutte le validità come nient'altro che diverse sfaccettature della validità di costrutto `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}. Essa viene tipicamente classificata in tre aspetti:
-
-- Validità convergente/divergente
-- Struttura fattoriale
-- Risultati coerenti con il costrutto
-
-La validità di costrutto e in particolare la struttura fattoriale, sono spesse associate al concetto di _invarianza di misura_, la proprietà di un test di misurare la stessa cosa anche in diverse condizioni (ad esempio in diverse popolazioni di pazienti). Questo aspetto è leggermente approfondito nel paragrafo [Focus: Invarianza di misura nei test neuropsicologici](#invarianza-intro) e più in dettaglio nel capitolo dedicato della _Parte II – Approfondimenti tecnici_.
-
-
-##### Validità convergente/divergente {#validità-convergentedivergente}
-Con questo nome si intende la capacità del punteggio del test di convergere o divergere in maniera coerente con altre misure. 
-
-- **Validità convergente**: è la qualità del punteggio al test di correlare con altre misure dello stesso costrutto, o di costrutti teoricamente vicini. Ad esempio, un test di memoria è atteso che correli con altri test di memoria. Un test di abilità di comprensione del linguaggio, avrebbe evidenza di validità di costrutto se il punteggio correlasse con un altro test che misura abilità di comprensione del testo scritto (che è una parte della comprensione del linguaggio).
-
-- **Validità divergente (o discriminante)**: e la qualità punteggio del punteggio al test di avere correlazioni basse con misure di costrutti teoricamente distinti. Per esempio, un test che misuri un test di comprensione del linguaggio, dovrebbe correlare poco con test di memoria differita, se si assume che i due strumenti misurano davvero costrutti diversi. Questo tipo di validità è molto importante per valutare la selettività con cui un test misura un costrutto, piuttosto che effetti aspecifici e generali. Si noti infatti che generalmente i test neuropsicologici tendono ad essere molto correlati fra loro `(es. \cite{trevino2021attention,mondini2022enb3})`{=latex}`(es., Treviño et al., 2021; Mondini et al., 2022)`{=html}.
-
-_Soglie indicative_: Per la validità di costrutto non esiste un valore soglia universale (una correlazione convergente "abbastanza alta" o divergente "abbastanza bassa"), il che la rende tra le più difficili da interpretare. È quindi compito della/del neuropsicologa/o leggere con giudizio e valutare se sono sufficienti le eventuali motivazioni a sostegno delle interpretazione sulla validità di costrutto. Come prima indicazione, le correlazioni con test che misurano lo stesso costrutto dovrebbero quantomeno essere più alte delle correlazioni con test che misurano costrutti diversi. Dovrebbero inoltre essere riportare delle motivazioni convincenti del perché le correlazioni supportano la validità di costrutto. Un approfondimento di altri modi per valutare la validità di costrutto può essere trovata nel paragrafo [Focus: valutare la validità di costrutto](#focus-valutare-validita-costrutto)
-
+La terza fonte di evidenza riguarda la struttura interna del test: nella classificazione classica corrisponde a quella che viene chiamata **struttura fattoriale**.
 
 ##### Struttura fattoriale {#struttura-fattoriale}
 Con questo tipo di validità si indica la qualità degli item del test di raggrupparsi in modo coerente con il modello teorico del costrutto, tipicamente verificata con l'analisi fattoriale esplorativa (Exploratory Factor Analysis, EFA) o confermativa (Confirmatory Factor Analysis, CFA). Talvolta, anche se non è propriamente corretto dal punto di vista statistico, a questo scopo viene utilizzata anche l'analisi delle componenti principali (Principal Component Analysis, PCA). Tutti gli aspetti legati all'utilizzo di formule e metodi statistici di queste analisi sono trattate nella _Parte II – Approfondimenti tecnici_.
@@ -151,12 +173,12 @@ Affinché i risultati di un'analisi fattoriale siano a supporto della validità 
 [^espl-conf]: in questo caso, per evitare circolarità nelle analisi, sarebbe importante che l'analisi esplorativa e confermativa non siano fatte sullo stesso campione.
 
 Supponiamo di avere un questionario (l'analisi fattoriale è usata più comunemente nei i questionari), che valuta qualità di vita legata ai disturbi cognitivi percepiti. Il questionario potrebbe comporsi di due sezioni. I primi dieci item che indagano i disurbi cognitivi percepiti e altri dieci item che indagano la qualità di vita.
-Un questionario del genere avrebbe supporto da un'analisi fattoriale se, conducendo un'analisi di questo tipo su dati raccolti su numerosi partecipanti si trovasse che effettivamente i primi dieci item _saturano_[^loadings] su un fattore, mentre i rimanenti item saturano su un altro fattore. 
-L'analisi fattoriale è usata anche per capire se alcuni item sono da rimuovere. Ad esempio un item, nonostante di facciata appaia perfetto, potrebbe empiricamente comportarsi in maniera scollegata dagli altri (ad esempio avendo valori di saturazioni molto bassi su un fattore), suggerendo che non è legato allo stesso costrutto. 
+Un questionario del genere avrebbe supporto da un'analisi fattoriale se, conducendo un'analisi di questo tipo su dati raccolti su numerosi partecipanti si trovasse che effettivamente i primi dieci item _saturano_[^loadings] su un fattore, mentre i rimanenti item saturano su un altro fattore.
+L'analisi fattoriale è usata anche per capire se alcuni item sono da rimuovere. Ad esempio un item, nonostante di facciata appaia perfetto, potrebbe empiricamente comportarsi in maniera scollegata dagli altri (ad esempio avendo valori di saturazioni molto bassi su un fattore), suggerendo che non è legato allo stesso costrutto.
 
-Passiamo adesso ad un ipotetico test di prestazione massima e, in particolare, ad un test che misuri la memoria di lavoro. Assimendo che ci si aspetti che questo test misuri principalmente una sola funzione cognitiva dovrebbe, ad un'analisi fattoriale, restituire una soluzione con un solo fattore con tutti gli item che saturano su quel fattore. 
+Passiamo adesso ad un ipotetico test di prestazione massima e, in particolare, ad un test che misuri la memoria di lavoro. Assimendo che ci si aspetti che questo test misuri principalmente una sola funzione cognitiva dovrebbe, ad un'analisi fattoriale, restituire una soluzione con un solo fattore con tutti gli item che saturano su quel fattore.
 
-È da notare, che da sola l'analisi fattoriale non ci permette mai di sapere quale è il costrutto che si sta misurando, ma solo che gli item si stanno comportando in maniera coerente. L'etichetta che viene attribuita al fattore (es. il fattore che spiega le relazioni è la "memoria"), dipende da un'interpretazione che è svincolata dal risultato dall'analisi fattoriale stessa e riflette un'interpretazione, possibilmente supportata da altre evidenze. 
+È da notare, che da sola l'analisi fattoriale non ci permette mai di sapere quale è il costrutto che si sta misurando, ma solo che gli item si stanno comportando in maniera coerente. L'etichetta che viene attribuita al fattore (es. il fattore che spiega le relazioni è la "memoria"), dipende da un'interpretazione che è svincolata dal risultato dall'analisi fattoriale stessa e riflette un'interpretazione, possibilmente supportata da altre evidenze.
 Tornando all'esempio del questionario, se la sottoscala ottenuta sommando i primi dieci item correlasse effettivamente con un altro test che indaga i disturbi cognitivi acquisiti, avremmo ragione di interpretare in questo senso il punteggio alla sottoscala. Stessa cosa per interpretare i secondi dieci item. L'analisi fattoriale ci dice se si comportano in maniera coerente, ma per poterli interpretare come indice su qualità della vita, dovremmo avere anche altre evidenze, ad esempio correlando la sottoscala con un altro test su qualità della vita.
 
 Passando al secondo esempio dell test di memoria in cui gli item saturano tutti su uno stesso fattore, questo ci dice che gli item sono legati allo stesso costrutto, ma non quale. Se poi il punteggio totale del test correlasse in maniera soddisfacente con un altro test di memoria di lavoro, questo sarebbe evidenza che un'etichetta ragionevole per il costrutto misurato è proprio "memoria di lavoro".
@@ -166,12 +188,38 @@ Passando al secondo esempio dell test di memoria in cui gli item saturano tutti 
 
 Esistono diverse metriche per valutare l'adeguatezza delle soluzioni di un'analisi fattoriale e diversi valori soglia proposti in letteratura. Si rimanda al paragrafo su **analisi fattoriale** nella _Parte II – Approfondimenti tecnici_ per i dettagli. <!-- Nota giorgio: aggiungere citazione corretta-->
 
+#### Evidenze basate sulle relazioni con altre variabili {#validita-relazioni-variabili}
 
-#### Relazioni con altre variabili coerenti con il costrutto {#risultati-coerenti-con-il-costrutto}
+La quarta fonte di evidenza descritta dagli Standards riguarda la relazione tra il punteggio del test e altre variabili esterne. È la più ampia delle cinque fonti, e comprende diverse etichette classiche che il libro ha sempre trattato separatamente: la validità di costrutto (per gli aspetti non già coperti dalla struttura interna), la validità di criterio e la validità ecologica.
+
+##### Validità di costrutto: un'etichetta che oggi attraversa più fonti {#validita-costrutto}
+
+La **validità di costrutto** è storicamente considerata la più importante tra le validità, ed è spesso presentata come quella verso cui tutte le altre convergono: alcune classificazioni di fatto considerano tutte le validità come nient'altro che diverse sfaccettature della validità di costrutto `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}. Non stupisce quindi che, nella cornice adottata in questo capitolo, ciò che tradizionalmente chiamiamo "validità di costrutto" non sia una fonte a sé, ma si distribuisca su due delle cinque fonti di evidenza: la struttura interna, appena vista, e le relazioni con altre variabili, di cui questo paragrafo tratta i restanti aspetti.
+
+:::{.callout-note}
+## Definizione
+La validità di costrutto è il grado in cui i punteggi di un test si comportano in accordo con la teoria del costrutto che il test intende misurare.
+:::
+
+Tradizionalmente la validità di costrutto viene scomposta in tre aspetti: la **struttura fattoriale**, appena trattata come evidenza basata sulla struttura interna, e la **validità convergente/divergente** e la **coerenza dei risultati con la teoria del costrutto**, trattate di seguito come evidenze basate sulle relazioni con altre variabili.
+
+La validità di costrutto, e in particolare la struttura fattoriale, sono spesso associate al concetto di _invarianza di misura_, la proprietà di un test di misurare la stessa cosa anche in diverse condizioni (ad esempio in diverse popolazioni di pazienti). Questo aspetto è leggermente approfondito nel paragrafo [Focus: Invarianza di misura nei test neuropsicologici](#invarianza-intro) e più in dettaglio nel capitolo dedicato della _Parte II – Approfondimenti tecnici_.
+
+
+##### Validità convergente/divergente {#validità-convergentedivergente}
+Con questo nome si intende la capacità del punteggio del test di convergere o divergere in maniera coerente con altre misure. 
+
+- **Validità convergente**: è la qualità del punteggio al test di correlare con altre misure dello stesso costrutto, o di costrutti teoricamente vicini. Ad esempio, un test di memoria è atteso che correli con altri test di memoria. Un test di abilità di comprensione del linguaggio, avrebbe evidenza di validità di costrutto se il punteggio correlasse con un altro test che misura abilità di comprensione del testo scritto (che è una parte della comprensione del linguaggio).
+
+- **Validità divergente (o discriminante)**: e la qualità punteggio del punteggio al test di avere correlazioni basse con misure di costrutti teoricamente distinti. Per esempio, un test che misuri un test di comprensione del linguaggio, dovrebbe correlare poco con test di memoria differita, se si assume che i due strumenti misurano davvero costrutti diversi. Questo tipo di validità è molto importante per valutare la selettività con cui un test misura un costrutto, piuttosto che effetti aspecifici e generali. Si noti infatti che generalmente i test neuropsicologici tendono ad essere molto correlati fra loro `(es. \cite{trevino2021attention,mondini2022enb3})`{=latex}`(es., Treviño et al., 2021; Mondini et al., 2022)`{=html}.
+
+_Soglie indicative_: Per la validità di costrutto non esiste un valore soglia universale (una correlazione convergente "abbastanza alta" o divergente "abbastanza bassa"), il che la rende tra le più difficili da interpretare. È quindi compito della/del neuropsicologa/o leggere con giudizio e valutare se sono sufficienti le eventuali motivazioni a sostegno delle interpretazione sulla validità di costrutto. Come prima indicazione, le correlazioni con test che misurano lo stesso costrutto dovrebbero quantomeno essere più alte delle correlazioni con test che misurano costrutti diversi. Dovrebbero inoltre essere riportare delle motivazioni convincenti del perché le correlazioni supportano la validità di costrutto. Un approfondimento di altri modi per valutare la validità di costrutto può essere trovata nel paragrafo [Focus: valutare la validità di costrutto](#focus-valutare-validita-costrutto)
+
+##### Relazioni con altre variabili coerenti con il costrutto {#risultati-coerenti-con-il-costrutto}
 
 In questo terzo gruppo rientrano le evidenze non comprese nei due precedenti, ma comunque capaci di sostenere la validità dell’interpretazione dei punteggi.
 
-In linea generale, ogni risultato che mostri come i punteggi del test si comportino secondo previsioni derivate dalla teoria del costrutto può fornire evidenze a favore della loro validità[^gen]. La forza di tali evidenze dipende, tuttavia, dalla precisione delle previsioni formulate: non è sufficiente osservare una relazione qualsiasi, ma occorre che la sua direzione e, possibilmente, la sua intensità siano coerenti con quanto previsto.
+In linea generale, ogni risultato che mostri come i punteggi del test si comportino secondo previsioni derivate dalla teoria del costrutto può fornire evidenze a favore della loro validità. La forza di tali evidenze dipende, tuttavia, dalla precisione delle previsioni formulate: non è sufficiente osservare una relazione qualsiasi, ma occorre che la sua direzione e, possibilmente, la sua intensità siano coerenti con quanto previsto.
 
 Queste evidenze possono riguardare anche le relazioni con costrutti diversi da quello principalmente misurato dal test. Per esempio, se si assume che l’esecuzione di un test di memoria richieda anche un modesto coinvolgimento dell’attenzione, una correlazione debole o moderata con i punteggi ottenuti in test attentivi potrebbe risultare coerente con la teoria. Una correlazione troppo elevata, al contrario, potrebbe sollevare il dubbio che il test misuri l’attenzione in misura maggiore di quanto desiderato.
 
@@ -180,12 +228,12 @@ Queste previsioni possono riguardare variabili demografiche o cliniche. Se la te
 _Soglie indicative_: Anche per questo tipo di validità non esistono soglie minime, anche perché non esiste un'analisi specifica per valutarla (qualsiasi analisi che mostri la coerenza dei punteggi con la teoria legata al costrutto sarebbe adeguata). I valori che sono ritenuti a supporto della validità dovrebbero però essere motivati e accompagnati, preferibilmente, da una pre-registrazione che di chiare i valori minimi considerati come a supporto (o meno) del fatto che il test stia effettivamente misurando il costrutto oggetto del test.
 
 
-#### Chiarezza del costrutto
-La possibilità di valutare in maniera adeguata la validità di costrutto di un test dipende anche dalla chiarezza del costrutto che si vuole misurare. In alcuni casi i costrutti potrebbero essere complessi o addirittura potrebbe non esserci un singolo costrutto che viene misurato, ma il test potrebbe essere riconosciuto come legato al funzionamento complesso di più costrutti (si veda il paragrafo [Oggetti di interesse dei test neuropsicologici](Misurazione.qmd#oggetti-interesse-test)). Questo non è di per sé sbagliato o un problema, ma le analisi di validità di costrutto dovrebbero portare prove convincenti che ciò effettivamente avviene, per non basarci unicamente sulla validità di facciata (vedi par. precedente). Ad esempio, se si assume che la prestazione ad un test di _fluenza fonemica_ sia legata a controllo esecutivo, capacità di inibizione e recupero lessicale - quindi ad un insieme di costrutti- dovremmo avere delle evidenze che effettivamente sia in grado di farlo, e non basarci solo sull'apparenza che lo sia.
+##### Chiarezza del costrutto {#chiarezza-del-costrutto}
+La possibilità di valutare in maniera adeguata la validità di costrutto di un test dipende anche dalla chiarezza del costrutto che si vuole misurare. In alcuni casi i costrutti potrebbero essere complessi o addirittura potrebbe non esserci un singolo costrutto che viene misurato, ma il test potrebbe essere riconosciuto come legato al funzionamento complesso di più costrutti (si veda il paragrafo [Oggetti di interesse dei test neuropsicologici](Misurazione.qmd#oggetti-interesse-test)). Questo non è di per sé sbagliato o un problema, ma le analisi di validità di costrutto dovrebbero portare prove convincenti che ciò effettivamente avviene, per non basarci unicamente sulla [validità di facciata](#validita-facciata). Ad esempio, se si assume che la prestazione ad un test di _fluenza fonemica_ sia legata a controllo esecutivo, capacità di inibizione e recupero lessicale - quindi ad un insieme di costrutti- dovremmo avere delle evidenze che effettivamente sia in grado di farlo, e non basarci solo sull'apparenza che lo sia.
 Per approfondimenti su come questo potrebbe essere fatto si veda di nuovo il par. [Focus: valutare la validità di costrutto](#focus-valutare-validita-costrutto)
 
 
-#### Validità di criterio {#validita-criterio}
+##### Validità di criterio {#validita-criterio}
 
 In alcuni casi, la validità di un test viene valutata esaminando la relazione tra i suoi punteggi e una variabile esterna direttamente osservabile, denominata *criterio*. Si parla allora di **validità di criterio**.
 
@@ -197,6 +245,8 @@ La validità di criterio indica il grado in cui i punteggi di un test risultano 
 
 :::
 
+Nella cornice adottata in questo capitolo, la validità di criterio è presentata come una sotto-voce delle evidenze basate sulle relazioni con altre variabili, per uniformarsi all'impostazione unitaria degli Standards for Educational and Psychological Testing `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}. È utile però tenere presente che si tratta di un tipo di evidenza concettualmente diverso da quello discusso a proposito del costrutto: mentre un costrutto è per definizione non direttamente osservabile, un criterio è (almeno in linea di principio) una variabile osservabile e stabilita indipendentemente dal test. Non è un caso che il termine "validità di costrutto" sia stato introdotto proprio in contrapposizione a questa situazione: secondo la formulazione originaria di Cronbach e Meehl, si parla di validità di costrutto "quando non esiste un criterio o un dominio di contenuto accettato come pienamente adeguato per definire la qualità che si vuole misurare" `(\cite{cronbach1955construct})`{=latex}`(Cronbach & Meehl, 1955)`{=html}. Questa distinzione, per quanto sfumata nella cornice più recente, resta utile nella pratica: per un costrutto inosservabile servono evidenze convergenti e coerenza teorica, mentre per un criterio osservabile ha senso un confronto più diretto, come quelli discussi nel resto di questo paragrafo.
+
 Nel contesto della neuropsicologia clinica, il criterio può essere rappresentato da una variabile continua oppure categoriale[^class-crit].
 
 Nel primo caso, il criterio può essere, per esempio, il punteggio ottenuto mediante una procedura di valutazione più lunga e approfondita. Talvolta questa procedura viene considerata un **gold standard**, ossia il migliore metodo disponibile per valutare una determinata condizione o raggiungere una specifica conclusione clinica. Si noti che un altro test non costituisce automaticamente un *gold standard*: in genere, affinché sia considerata criterio, deve dovrebbe avere qualità tali da poter essere considerato la migliore alternativa possibile.
@@ -207,19 +257,15 @@ La validità di criterio viene frequentemente studiata nei test detti _di screen
 
 In base alla relazione temporale tra la somministrazione del test e la rilevazione del criterio, si distinguono tradizionalmente la validità concorrente e la validità predittiva.
 
-#### Validità concorrente {#validità-concorrente}
+**Validità concorrente.** Si parla di validità concorrente quando il test e il criterio vengono misurati nello stesso momento, o comunque a una distanza temporale sufficientemente breve da rendere improbabile un cambiamento rilevante nella condizione esaminata.
 
-Si parla di **validità concorrente** quando il test e il criterio vengono misurati nello stesso momento, o comunque a una distanza temporale sufficientemente breve da rendere improbabile un cambiamento rilevante nella condizione esaminata.
-
-Un esempio è rappresentato dalla relazione tra il punteggio ottenuto a un breve test di screening e l’esito di una batteria neuropsicologica più approfondita somministrata nella stessa sessione. 
+Un esempio è rappresentato dalla relazione tra il punteggio ottenuto a un breve test di screening e l’esito di una batteria neuropsicologica più approfondita somministrata nella stessa sessione.
 
 Quando il criterio è categoriale, la validità concorrente può essere indagata verificando se i punteggi del test discriminano condizioni diagnostiche stabilite approssimativamente al momento della valutazione. Il MoCA `(\cite{nasreddine2005montreal})`{=latex}`(Nasreddine et al., 2005)`{=html} e il MMSE `(\cite{folstein1975mini})`{=latex}`(Folstein et al., 1975)`{=html}, per esempio, sono stati originariamente studiati anche valutando la capacità dei loro punteggi di distinguere gruppi con differenti condizioni di funzionamento cognitivo.
 
 In ambito forense, la validità di criterio concorrente viene utilizzata anche nello sviluppo di strumenti finalizzati a discriminare prestazioni di potenziali simulatori da quelli di non simulatori, definiti a priori in ambito sperimentale. L’argomento sarà approfondito nel capitolo 7.
 
-#### Validità predittiva {#validità-predittiva}
-
-Si parla invece di **validità predittiva** quando il criterio esterno viene rilevato in un momento successivo rispetto alla somministrazione del test.
+**Validità predittiva.** Si parla invece di validità predittiva quando il criterio esterno viene rilevato in un momento successivo rispetto alla somministrazione del test.
 
 Un esempio è rappresentato da un punteggio neuropsicologico rilevato ad una prima valutazione e utilizzato per predire la diagnosi di demenza a due anni di distanza. Analogamente, un test di previsione della prestazione scolastica può essere valutato in base alla sua capacità di predire gli esiti scolastici alla fine dell’anno.
 
@@ -240,7 +286,9 @@ Un aspetto distinto, ma strettamente collegato, riguarda la qualità metodologic
 La validità interna si contrappone alla **validità esterna**, cioè alla generalizzabilità dei risultati di uno studio ad altri contesti, popolazioni o momenti temporali. Un disegno di ricerca con alta validità interna, ma condotto su un campione molto specifico, può avere scarsa validità esterna, e viceversa.
 -->
 
-#### Validità ecologica {#validita-ecologica}
+##### Validità ecologica {#validita-ecologica}
+
+Per la sua centralità in ambito clinico e forense, la validità ecologica merita qui una trattazione a sé, pur rientrando concettualmente tra le evidenze basate sulle relazioni con altre variabili.
 
 :::{.callout-note}
 ## Definizione
@@ -253,20 +301,28 @@ La validità ecologica è raramente disponibile, in parte perché raccogliere da
 
 _Soglia indicativa_: non esiste un valore soglia condiviso in letteratura per giudicare la validità ecologica come sufficiente, anche perché non esiste un'analisi standard. Spesso sono riportate correlazioni o analisi di regressione (es. `(\cite{higginson2000ecological})`{=latex}`(Higginson, Arnett, & Voss, 2000)`{=html}).
 
+#### Evidenze basate sulle conseguenze del testing {#validita-conseguenze}
+
+<!-- BLUEPRINT DA COMPLETARE (Giorgio): sezione nuova nella cornice, ma può appoggiarsi ai Focus già scritti più avanti nel capitolo. Punti essenziali da integrare:
+- Definizione (p. 19): "Some consequences of test use follow directly from the interpretation of test scores for uses intended by the test developer. The validation process involves gathering evidence to evaluate the soundness of these proposed interpretations for their intended uses."
+- Tre sotto-aree (Background, p. 19-20): (1) interpretazioni/usi intesi dagli sviluppatori del test, (2) pretese sull'uso del test non direttamente basate sull'interpretazione dei punteggi, (3) conseguenze non intenzionali.
+- PUNTO ESSENZIALE - Standard 1.25 (p. 30), posizione "debole": una conseguenza conta ai fini della validità SOLO se riconducibile a construct underrepresentation o construct-irrelevant variance; conseguenze non riconducibili a questi due difetti non intaccano di per sé la validità. Senza questa precisazione il lettore rischia di leggere "conseguenza negativa" come automaticamente "test non valido".
+- Materiale già scritto nel capitolo da riorganizzare/richiamare qui: "Nella pratica clinica: come usare validità e affidabilità per scegliere i test", "Focus: dalla validità di un test alla validità di una specifica valutazione" (PVT), il callout su validità di facciata in ambito forense, "Errori comuni: ignorare validità e affidabilità di un test". -->
+
 Tabella riassuntiva Validità:
 
-| Tipo di validità | Come si valuta | Soglia indicativa |
-|---|---|---|
-| Facciata | Giudizio qualitativo | Nessuna (solo qualitativa) |
-| Contenuto | Giudizio di esperti; CVR/CVI `(\cite{lawshe1975quantitative})`{=latex}`(Lawshe, 1975)`{=html} | Dipende dal numero di giudici |
-| Costrutto (convergente) | Correlazione con test dello stesso costrutto | Nessun valore universale |
-| Costrutto (divergente) | Correlazione (bassa attesa) con costrutto diverso | Nessun valore universale |
-| Costrutto (struttura fattoriale) | Analisi fattoriale (EFA/CFA) | Dipende dal modello teorico |
-| Concorrente | Correlazione con criterio esterno simultaneo | ≥ 0.70-0.80 |
-| Predittiva / gruppi noti | Correlazione, oppure sensibilità/specificità | ≥ 0.80 per sensibilità/specificità |
-| Ecologica | Correlazione con scale di vita quotidiana | Nessuna soglia condivisa |
+| Fonte di evidenza (Standards 2014) | Etichetta classica | Come si valuta | Soglia indicativa |
+|---|---|---|---|
+| Contenuto | Validità di contenuto | Giudizio di esperti; CVI/CVR `(\cite{lawshe1975quantitative})`{=latex}`(Lawshe, 1975)`{=html} | Dipende dal numero di giudici |
+| Struttura interna | Struttura fattoriale | Analisi fattoriale (EFA/CFA) | Dipende dal modello teorico |
+| Relazioni con altre variabili | Convergente | Correlazione con test dello stesso costrutto | Nessun valore universale |
+| Relazioni con altre variabili | Divergente | Correlazione (bassa attesa) con costrutto diverso | Nessun valore universale |
+| Relazioni con altre variabili | Coerenza con la teoria del costrutto | Qualsiasi analisi coerente con previsioni teoriche | Nessuna (motivazione qualitativa) |
+| Relazioni con altre variabili | Concorrente | Correlazione con criterio esterno simultaneo | ≥ 0.70-0.80 |
+| Relazioni con altre variabili | Predittiva / gruppi noti | Correlazione, oppure sensibilità/specificità | ≥ 0.80 per sensibilità/specificità |
+| Relazioni con altre variabili | Ecologica | Correlazione con scale di vita quotidiana | Nessuna soglia condivisa |
 
-: Sintesi dei tipi di validità, delle modalità con cui vengono tipicamente valutati e dei valori soglia indicativi riportati in letteratura. {#tbl-validita}
+: Sintesi delle fonti di evidenza di validità, delle etichette classiche corrispondenti, delle modalità con cui vengono tipicamente valutate e dei valori soglia indicativi riportati in letteratura. La validità di facciata non è inclusa perché non costituisce, in questa cornice, un'evidenza tecnica di validità (vedi la [nota a parte](#validita-facciata)). Le evidenze basate sui processi di risposta e sulle conseguenze del testing non sono ancora rappresentate in tabella. {#tbl-validita}
 
 ## Affidabilità {#affidabilita}
 
@@ -278,6 +334,10 @@ L'affidabilità è la qualità di un test di fornire punteggi consistenti in div
 :::
 
 Tornando all'equazione cardine della CTT ($X = T + E$), l'affidabilità esprime quanto la componente d'errore $E$ sia piccola rispetto al punteggio osservato $X$: un test molto affidabile è un test in cui, in diverse misurazioni, $E$ resta sistematicamente piccolo, e i punteggi osservati approssimano con maggiore precisione il punteggio vero $T$.
+
+Gli Standards for Educational and Psychological Testing `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html} usano il termine ombrello "affidabilità/precisione" (*reliability/precision*) proprio per sottolineare che l'affidabilità non è un'unica proprietà, ma un insieme di stime di precisione, ciascuna specifica alla fonte di errore che si intende quantificare. La terminologia classica usata in questo libro (consistenza interna, test-retest, forme parallele) resta pienamente valida: gli Standards non la sostituiscono, ma la inquadrano sotto questa etichetta più ampia, che comprende anche estensioni più moderne come la Teoria della Generalizzabilità (*Generalizability Theory*) e le stime di precisione basate sulla Item Response Theory[^precisione-parte2].
+
+[^precisione-parte2]: La Teoria della Generalizzabilità e le stime di precisione basate su IRT sono trattate più in dettaglio nella _Parte II – Approfondimenti tecnici_.
 
 Come per l'affidabilità è importante considerare che questa proprietà è sempre da considerare come valutata all'interno di un certo specifico contesto. Non ha pertanto senso pensare alla affidabilità come una proprietà generica e immutabile di un test, ma come qualcosa che è stata testata in specifiche situazioni (es. con campioni da specifiche popolazioni, con specifiche fasce di età, etc.), e che non potrebbe generalizzare a contesti non direttamente testati.
 
@@ -424,12 +484,12 @@ Tabella riassuntiva Affidabilità:
 
 In questo capitolo sono state approfondite validità e affidabilità, due qualità fondamentali dei test neuropsicologici.
 La validità può essere definita, sommariamente, come la qualità di un test di misurare ciò che intende misurare, mentre l'affidabilità la precisione di un test.
-Esistono diversi tipi di validità e affidabilità, e ognuna cattura una diversa sfaccettature delle proprietà del test.
-In generale sarebbe preferibile sempre scegliere test che abbiamo buone (o quantomeno migliori in termini comparativi), validità e affidabilità. 
+Abbiamo visto come la validità sia oggi concepita come un concetto unitario, sostenuto da diverse fonti di evidenza piuttosto che da tipi distinti e indipendenti: evidenze basate sul contenuto del test, sui processi di risposta, sulla struttura interna, sulle relazioni con altre variabili (che comprendono quelle che tradizionalmente erano chiamate validità di costrutto, di criterio - concorrente e predittiva - ed ecologica) e sulle conseguenze del testing. Le etichette classiche restano un vocabolario utile e sono state mantenute nel capitolo, ricollocate all'interno di questa cornice più aggiornata. La validità di facciata, pur storicamente citata tra i tipi di validità, è stata trattata a parte, come considerazione pratica utile ma non come evidenza tecnica di validità.
+In generale sarebbe preferibile sempre scegliere test che abbiano buone (o quantomeno migliori in termini comparativi) evidenze di validità e affidabilità.
 
 `\pagebreak`{=latex}
 
-![Sintesi dei tipi di validità e di affidabilità. A sinistra, i tipi di validità sono raggruppati nelle due famiglie introdotte all'inizio del capitolo: le validità **a priori** (di facciata e di contenuto), valutate sul contenuto del test prima della raccolta dati, e le validità **a posteriori** (di costrutto, di criterio ed ecologica), che richiedono invece evidenze empiriche. Per la validità non esistono valori soglia universali: i risultati vanno di volta in volta motivati. A destra, i quattro tipi di affidabilità trattati nel capitolo, con il valore soglia "standard" più diffuso in letteratura (vedi il testo per le soglie più stringenti raccomandate per le decisioni cliniche sul singolo individuo).](../Figures/Latex-Fig-Validita-Affidabilita/Fig_validita_affidabilita.png){#fig-validita-affidabilita fig-align="center" width=85%}
+![Sintesi delle fonti di evidenza di validità e dei tipi di affidabilità. A sinistra, le fonti di evidenza per la validità secondo gli Standards for Educational and Psychological Testing `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}: contenuto, struttura interna, e relazioni con altre variabili (che comprendono costrutto, criterio ed ecologica); la validità di facciata è segnalata a parte come non evidenza tecnica. Per la validità non esistono valori soglia universali: i risultati vanno di volta in volta motivati. A destra, i quattro tipi di affidabilità trattati nel capitolo, con il valore soglia "standard" più diffuso in letteratura (vedi il testo per le soglie più stringenti raccomandate per le decisioni cliniche sul singolo individuo).](../Figures/Latex-Fig-Validita-Affidabilita/Fig_validita_affidabilita.png){#fig-validita-affidabilita fig-align="center" width=85%}
 
 
 ## Nella pratica clinica: come usare validità e affidabilità per scegliere i test {#prat-clin-aff-val}
@@ -443,7 +503,7 @@ Un modo semplice per verificare affidabilità e validità di un test e scorrere 
 A partire da queste è possibile verificare innanzitutto se ci sono evidenze per le tipologie di validità ed affidabilità rilevanti per il test e per l'utilizzo che se ne vuole fare. Già l'assenza di informazioni è di per sé un'informazione. Per quei valori che sono disponibili con opportuna cautela può essere valutato se i valori sono sufficienti oppure possono essere confrontati con quelli di alti test.
 :::
 
-Quando si parla di valutazione di validità e affidabilità non si deve immaginare però una semplice lettura dei nomi il e confronto con una checklist. In accordo con lo spirito degli Standards of Educational and Psychological Testing <!--(aggiungere citazione qui) -->, il/la professionista dovrebbe utilizzare il proprio giudizio critico per valutare se le evidenze fornite sono adeguate e sufficienti per gli scopi per i quali vuole utilizzare il test.
+Quando si parla di valutazione di validità e affidabilità non si deve immaginare però una semplice lettura dei nomi il e confronto con una checklist. In accordo con lo spirito degli Standards for Educational and Psychological Testing `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}, il/la professionista dovrebbe utilizzare il proprio giudizio critico per valutare se le evidenze fornite sono adeguate e sufficienti per gli scopi per i quali vuole utilizzare il test. Questo è anche lo spirito con cui gli Standards trattano le evidenze basate sulle conseguenze del testing, discusse in apertura della sezione sulla validità: la responsabilità di un uso appropriato del test è condivisa tra chi lo sviluppa e chi lo utilizza nella pratica.
 Ogni test ha le sue caratteristiche ed è difficile, se non impossibile, pensare ad una lista esaustiva che copra tutte le possibilità. 
 
 L'elenco delle tipologie di validità e affidabilità fornite in questo capitolo forniscono semplicemente un'aiuto per ricordare quali aspetti bisogno approfondire e su quali sono valori - indicativi - desiderabili  per giudicare la bontà del test. Resta però una responsabilità del/della professionista approfondire se effettivamente questi valori sono pertinenti e se le evidenze riportate sono adeguate.
@@ -557,6 +617,8 @@ Immaginiamo di avere a disposizione un test di memoria con eccellenti proprietà
 Immaginiamo però che questo individuo sia fortemente oppositivo nei confronti della valutazione, e in particolare che decida di non impegnarsi nei compiti proposti perché scettico sulla loro utilità. Un eventuale punteggio basso non potrebbe essere interpretato con leggerezza come segnale di un problema nella memoria, perché la prestazione potrebbe riflettere soprattutto lo scarso coinvolgimento nella prova (nonostante le eccellenti proprietà del test). Ciò non annulla le evidenze di validità accumulate: indica, piuttosto, che le inferenze abitualmente tratte dai suoi punteggi non sono giustificate in quella specifica somministrazione. La qualità psicometrica dello strumento e l’interpretabilità dei dati ottenuti nel singolo caso sono quindi condizioni che è utile considerare come dissociabili.
 
 Questa distinzione è comunemente tenuta in considerazione in neuropsicologia forense, ma è anche considerata importante in contesto clinico (sebbene non altrettanto diffusa). Il *Performance Validity Testing (PVT)* comprende procedure e indicatori volti a valutare se la prestazione osservata possa essere considerata una rappresentazione credibile delle capacità della persona esaminata. In ambito forense è rilevante nei casi in cui è verosimile che la persona stia deliberatamente simulando un deficit, per ottenere un vantaggio. Il Capitolo 7 è specificamente dedicato a queste procedure e al loro ruolo nella valutazione della simulazione in ambito forense. Il Capitolo 10 riprenderà in parte questi concetti in ambito più clinico e sarà dedicato in generale all'interpretazione dei test.
+
+Questo tema si ricollega anche alle evidenze basate sulle conseguenze del testing, introdotte in apertura della sezione sulla validità: un punteggio ottenuto in condizioni non credibili non segnala necessariamente un problema di validità del test in sé, ma un problema di validità della specifica misurazione in cui è stato ottenuto.
 
 
 

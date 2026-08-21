@@ -267,7 +267,7 @@ Nel contesto dei dati normativi il termine _rappresentatività_ è comunemente u
 
 [Validità]{#def-validita}
 
-:   Il grado in cui un test misura effettivamente ciò che intende misurare. Non è una proprietà generale e assoluta di un test, ma va sempre riferita a un suo utilizzo specifico, in una determinata popolazione e contesto. Per la trattazione estesa, con i vari tipi di validità, vedi [Capitolo 2, par. Validità](../Validita-Affidabilita.qmd#validità).
+:   Il grado in cui un test misura effettivamente ciò che intende misurare. Non è una proprietà generale e assoluta di un test, ma va sempre riferita a un suo utilizzo specifico, in una determinata popolazione e contesto. È oggi concepita come un concetto unitario, sostenuto da diverse fonti di evidenza (basate su contenuto, processi di risposta, struttura interna, relazioni con altre variabili e conseguenze del testing) piuttosto che da tipi distinti di validità `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}. Per la trattazione estesa, con le varie fonti di evidenza, vedi [Capitolo 2, par. Validità](../Validita-Affidabilita.qmd#validità).
 
 [Validità di contenuto]{#def-validita-contenuto}
 
@@ -275,7 +275,7 @@ Nel contesto dei dati normativi il termine _rappresentatività_ è comunemente u
 
 [Validità di costrutto]{#def-validita-costrutto}
 
-:   Il grado in cui i punteggi di un test si comportano in accordo con la teoria del costrutto (vedi [Costrutto](#costrutto)) che il test intende misurare, tipicamente attraverso validità convergente/divergente, struttura fattoriale e coerenza dei risultati con la teoria. Spesso considerata il tipo di validità più importante in psicometria. Per la trattazione estesa vedi [Capitolo 2, par. Validità di costrutto](../Validita-Affidabilita.qmd#validita-costrutto).
+:   Il grado in cui i punteggi di un test si comportano in accordo con la teoria del costrutto (vedi [Costrutto](#costrutto)) che il test intende misurare. Nella classificazione più recente degli Standards 2014 non costituisce più una fonte di evidenza a sé, ma è distribuita soprattutto tra le evidenze di struttura interna (struttura fattoriale) e quelle di relazione con altre variabili (validità convergente/divergente, coerenza dei risultati con la teoria). Resta un'etichetta classica ampiamente utilizzata. Per la trattazione estesa vedi [Capitolo 2, par. Validità di costrutto](../Validita-Affidabilita.qmd#validita-costrutto).
 
 [Validità di criterio]{#def-validita-criterio}
 
@@ -283,7 +283,7 @@ Nel contesto dei dati normativi il termine _rappresentatività_ è comunemente u
 
 [Validità di facciata]{#def-validita-facciata}
 
-:   Il grado in cui un test **appare** misurare ciò che intende misurare, sulla base di un giudizio qualitativo e non di dati empirici. È il tipo di validità meno rigoroso e non è mai sufficiente, da solo, per concludere che uno strumento misuri davvero ciò che intende misurare. Per la trattazione estesa vedi [Capitolo 2, par. Validità di facciata](../Validita-Affidabilita.qmd#validita-facciata).
+:   Il grado in cui un test **appare** misurare ciò che intende misurare, sulla base di un giudizio qualitativo e non di dati empirici. È il tipo di validità meno rigoroso e non è mai sufficiente, da solo, per concludere che uno strumento misuri davvero ciò che intende misurare. Nonostante sia storicamente citata tra i tipi di validità, non compare come fonte di evidenza negli Standards for Educational and Psychological Testing (AERA, APA, & NCME, 2014) ed è quindi trattata nel capitolo come una considerazione pratica a parte, non come evidenza tecnica di validità. Per la trattazione estesa vedi [Capitolo 2, par. Validità di facciata](../Validita-Affidabilita.qmd#validita-facciata).
 
 [Validità ecologica]{#def-validita-ecologica}
 

@@ -41,3 +41,11 @@ Rilasciata versione iniziale del libro che include
 ### v0.2.2 {.unnumbered .unlisted}
 - ampliata sostanzialmente l'Appendice A3 "Definizioni" rinominata come "Glossario". Migliorato aspetto grafico.
 - il libro è ora concepito come un unico libro suddiviso in due parti, "Parte I – Test, misurazione e ragionamento clinico" e "Parte II – Approfondimenti tecnici".
+
+### v0.3.0 {.unnumbered .unlisted}
+- ristrutturata la sezione Validità del Capitolo 2 secondo il framework delle fonti di evidenza degli Standards for Educational and Psychological Testing (AERA, APA, NCME, 2014): validità come concetto unitario, articolata in evidenze basate su contenuto, processi di risposta, struttura interna, relazioni con altre variabili (che ora comprendono costrutto, criterio - concorrente/predittiva - ed ecologica) e conseguenze del testing.
+- mantenute le etichette classiche di validità (contenuto, costrutto, criterio, ecologica) come vocabolario riconoscibile all'interno delle nuove fonti, con tabella di corrispondenza vecchio/nuovo termine.
+- ricollocata la validità di facciata come nota a parte, non più in parallelo con le altre forme di validità.
+- corretta la gerarchia dei titoli nella sezione Validità (alcuni livelli errati preesistenti).
+- aggiunta menzione di "affidabilità/precisione" come termine ombrello nella sezione Affidabilità.
+- aggiornati di conseguenza Glossario (Appendice A3), riferimenti incrociati nel Capitolo 1, e indice provvisorio.
