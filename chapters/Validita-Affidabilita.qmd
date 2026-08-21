@@ -584,6 +584,10 @@ Tali deti sono però particolarmente esposti al rischio di flessibilità interpr
 
 Una possibilità promettente per risolvere questo problema è quello di "pre-registrare" i risultati attesi che sono considerati come soddisfacenti `(\cite{binney2025practical})`{=latex}`(Binney et al., 2025)`{=html}. Gli autori di un test con valutazione rigorosa della validità di costrutto dovrebbero effettuare una registrazione in un punto sicuro e pubblico (in genere un sito interne dedicato alle pre-registrazioni) in cui sono riportati quali sono le attese e i range di valori considerati sufficienti per validità. Aspetto fondamentale, questa pre-registrazione dovrebbe avvenire prima ancora di raccogliere i dati. In questa maniera si può avere sicurezza che i valori ottenuti per la validità non sono stati interpretati post-hoc come adeguati, ma rientrano effettivamente tra le previsioni degli autori. Quello della pre-registrazione è uno strumento legato al movimento dell' _Open Science_ che sembra particolarmente utile per questo caso, ma ovviamente va considerato più come una raccomandazione o un suggerimento per chi costruisce o sviluppa i test per permetterne una valutazione più trasparente e non è detto sia presente nei test di nostro interesse.
 
+<!-- ## Errori comuni: sovrastimare le evidenze su validità del test 
+Questo paragrafo potrebbe trattare come spesso non ci rendiamo conto che quello che facciamo sono _interpretazioni_ (rimanda al test), di fatto non supportate da evidenze di validità del test. Ad esempio un test che non è validato "clinimetricamente" che però viene interpretato come "ho sospetto MCI", oppure un test che dice che c'è un deficit e viene interpretato come: devo fare questo trattamento". Non ci sono evidenze. Rimanda a capitolo Inteprretazione e forse capitolo fondamenti.
+-->
+
 <!-- ## Focus: il mio test è sufficientemente valido e affidabile -->
 
 <!-- ## Focus: Validità e affidabilità dei test in Italia -->
