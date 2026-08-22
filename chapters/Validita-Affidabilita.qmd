@@ -20,7 +20,7 @@ Una domanda che automaticamente verrebbe da porsi è: come faccio a capire se il
 Questa domanda non ha una risposta semplice e non esistono dei criteri unanimamente condivisi. Per ogni tipo di validità e affidabilità, se pertinente sono riportate alcune soglie minime indicative di quegli indici che sono utilizzati per valutarle (la fonte principale è `\cite{slick2006psychometrics}`{=latex}`Slick, cap. 1 in Spreen & Strauss, 2006`{=html}). Tali soglie sono appunto da considerare solo come "indicative". Come usare i valori di affidabilità e validità per selezionare un test è trattato in dettaglio alla fine nel capitolo, nel paragrafo [Nella pratica clinica: Come usare affidabilità e validità per scegliere i test](#prat-clin-aff-val).
 
 ## Come leggere questo capitolo
-Questo capitolo sarà denso di classificazioni e di definizioni. Questo riflette la complessità e le diverse sfaccetatture degli aspetti trattati. Questo capitolo adotta una suddivisioni tra le più recenti ed autorevoli, quella degli _Standards for Educational and Psychological Testing_, elaborati congiuntamente da American Educational Research Association, American Psychological Association e National Council on Measurement in Education `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}, ma che mantiene alcuni definizioni classiche, che secondo gli _Standards_ non sono più utilizzate (es. la distinzione tra _validità di costrutto_ e _validità di criterio_). Questa scelta riflette un allineamento rispetto alla terminologia che si potrebbe trovare in articoli o manuali di test neuropsicologici, in cui la tendenza è di usare termini più classici.
+Questo capitolo sarà denso di classificazioni e di definizioni. Ciò riflette la complessità e le diverse sfaccettatture che caratterizzano validità e affidabilità. Nel presentare i concetti il capitolo adotta una suddivisione tra le più recenti ed autorevoli, quella degli _Standards for Educational and Psychological Testing_, elaborati congiuntamente da American Educational Research Association, American Psychological Association e National Council on Measurement in Education `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}, ma che mantiene alcuni definizioni classiche, che secondo gli _Standards_ non sono più utilizzate (es. la distinzione tra _validità di costrutto_ e _validità di criterio_). Questa scelta riflette un allineamento rispetto alla terminologia che si potrebbe trovare in articoli o manuali di test neuropsicologici, in cui la tendenza è di usare termini più classici.
 
 Dato il grande numero di classificazioni e di termini che saranno introdotti il rischio è quello di sentirsi un po' smarriti. Il consiglio nell'affrontare di questo capitolo è quello di non perdere di vista il quadro generale, che è di fatto semplice: esistono diverse fonti di evidenza per validità e affidabilità che colgono le diverse sfaccettature di questi concetti.  Le classificazioni sono semplicemente tentativi di raggrupparle per semplificarne la lettura.
 
@@ -39,7 +39,7 @@ Come per molti termini di questo libro, non esiste una definizione unanimamente 
 _"La validità è il grado in cui un test misura effettivamente ciò che intende misurare."_ `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}
 :::
 
-Un'altra definizione possibile, con una sfumatura leggermente diversa, la descrive come "la capacità di misurare quanto bene misura ciò che si propone di misurare, nel contesto in cui deve essere applicato"`(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}.
+Un'altra definizione possibile, con una sfumatura leggermente diversa, la descrive come "la capacità di misurare quanto bene misura ciò che si propone di misurare, nel contesto in cui deve essere applicato" `(\cite{nunnally1994psychometric})`{=latex}`(Nunnally & Bernstein, 1994)`{=html}.
 In questo caso è messo in evidenza un aspetto importante, e cioè che la validità non è semplicemente una proprietà del test, ma può cambiare a seconda del contesto in cui è utilizzato. 
 
 È importante notare che _ciò che si intende misurare_ non è necessariamente un costrutto (come la memoria o l'attenzione).
@@ -74,21 +74,6 @@ Quella che troverete di seguito è una classificazione aggiornata, ispirata alle
 - Standard 1.2 (p. 23): "No type of evidence is inherently preferable to others" - nessuna delle 5 fonti "vale di più" in assoluto.
 - Standard 1.3/1.4 (p. 23-24): se la validità per un uso non è stata valutata va dichiarato chiaramente; se un clinico usa un punteggio in un modo non validato dallo sviluppatore, la responsabilità di giustificarlo è sua.
 Dopo l'introduzione, elencare le 5 fonti per nome prima della tabella di mapping qui sotto. (NON INSERITO) -->
-
-| Etichetta classica | Fonte di evidenza (Standards 2014) | Note |
-|---|---|---|
-| Validità di contenuto | Evidenze basate sul contenuto del test | Include sia giudizio di esperti sia indici quantitativi (CVI/CVR, Delphi) |
-| Validità di costrutto | Si distribuisce su due fonti: struttura interna + relazioni con altre variabili | Non è più una fonte a sé; gli Standards 2014 la citano una sola volta in tutto il testo, come nomenclatura storica superata |
-| Struttura fattoriale | Evidenze basate sulla struttura interna | EFA/CFA, coerenza tra item |
-| Validità convergente/divergente | Evidenze basate sulle relazioni con altre variabili | Sotto-tipo: convergent/discriminant evidence |
-| Risultati coerenti con il costrutto | Evidenze basate sulle relazioni con altre variabili | Coerenza generale con le previsioni della teoria del costrutto |
-| Validità di criterio (concorrente, predittiva, gruppi noti) | Evidenze basate sulle relazioni con altre variabili | Sotto-tipo: test-criterion relationships; concorrente/predittiva riguardano solo la tempistica di raccolta del criterio |
-| Validità ecologica | Evidenze basate sulle relazioni con altre variabili | Caso applicativo, qui mantenuto in evidenza per rilevanza clinica/forense |
-| Validità di facciata | _Nessuna_ | Non è una fonte di evidenza tecnica; vedi nota a parte |
-| _(nessuna etichetta classica)_ | Evidenze basate sui processi di risposta | Argomento nuovo per il libro |
-| _(nessuna etichetta classica)_ | Evidenze basate sulle conseguenze del testing | Posizione "debole" degli Standards: conta solo se riconducibile a sotto-rappresentazione o varianza irrilevante del costrutto |
-
-: Corrispondenza tra le etichette classiche di validità usate in questo libro e le fonti di evidenza descritte dagli Standards for Educational and Psychological Testing `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}. {#tbl-mapping-validita}
 
 [^val]: Considerando che possono esistere più scopi, forse sarebbe più esatto usare il plurale e dire che le diverse validità sono più proprietà lungo diversi continuum.
 
