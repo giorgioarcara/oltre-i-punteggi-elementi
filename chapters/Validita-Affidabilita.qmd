@@ -3,6 +3,7 @@ suppress-bibliography: true
 ---
 # Validità e affidabilità {#validita-e-affidabilita}
 
+## Introduzione a validità e affidabilità
 :::{.domanda}
 Possiamo considerare gli strumenti di misurazione tutti precisi allo stesso modo?
 :::
