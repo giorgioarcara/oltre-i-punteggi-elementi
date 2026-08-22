@@ -442,14 +442,14 @@ Nel discutere di deficit e peggioramento abbiamo sottolineato quanto è importan
 
 In breve, il motivo per cui è importante distinguere questi termini è perché le condizioni che descrivono sono ortogonali: possiamo avere deficit con o senza peggioramento, o un peggioramento, ma con o senza deficit. 
 
-La @fig-compromissione-declino illustra questa distinzione con dati fittizi: a sinistra due casi di compromissione, in cui il punteggio scende bruscamente dopo una ipotetica prima valutazione avvenuta prima dell'evento acuto e lesivo; a destra due casi di declino, in cui il punteggio peggiora in modo graduale, valutazione dopo valutazione. Tutte le traiettorie, in entrambi i pannelli, partono dallo stesso punto, perché prima dell'evento acuto (o dell'inizio della degenerazione) non c'è ancora nessuna differenza da osservare. In un caso (triangoli, linea nera tratteggiata) il punteggio finisce sotto la soglia per il deficit, in un altro (diamanti, linea grigia tratteggiata) resta sempre sopra la soglia. Come riferimento, è riportato anche un profilo di prestazione attesa (cerchi, linea grigia continua), che a differenza delle traiettorie di sviluppo viste più avanti in questo capitolo è qui stabile nel tempo, dato che nell'adulto non ci si attende una crescita ma il mantenimento del livello di funzionamento raggiunto.
+La @fig-compromissione-declino illustra questa distinzione con dati fittizi: a sinistra due casi di compromissione, in cui il punteggio scende bruscamente dopo alcune valutazioni iniziali stabili, avvenute prima dell'evento acuto e lesivo; a destra due casi di declino, in cui il punteggio peggiora in modo graduale, valutazione dopo valutazione. Tutte le traiettorie, in entrambi i pannelli, condividono lo stesso andamento stabile nelle valutazioni iniziali, perché prima dell'evento acuto (o dell'inizio della degenerazione) non c'è ancora nessuna differenza da osservare. In un caso (triangoli, linea nera tratteggiata) il punteggio finisce sotto la soglia per il deficit, in un altro (diamanti, linea grigia tratteggiata) resta sempre sopra la soglia. Come riferimento, è riportato anche un profilo di prestazione attesa (cerchi, linea grigia continua), che a differenza delle traiettorie di sviluppo viste più avanti in questo capitolo è qui stabile nel tempo, dato che nell'adulto non ci si attende una crescita ma il mantenimento del livello di funzionamento raggiunto.
 
 ```{r}
 #| label: fig-compromissione-declino
 #| echo: false
 #| warning: false
 #| message: false
-#| fig-cap: "Andamento simulato del punteggio a un test in dieci valutazioni ripetute nel tempo, per due casi di compromissione (a sinistra) e due casi di declino (a destra), con lo stesso schema di colori/simboli usato per le traiettorie ipotetiche nella @fig-traiettoria-sviluppo (solo nero o scale di grigio). Tutte le traiettorie partono dallo stesso punto, prima dell'evento acuto o dell'inizio della degenerazione (linea sottile verticale). Il profilo \"Performance attesa\" (cerchi, linea continua) rappresenta l'andamento, stabile nel tempo, di una persona senza peggioramento. Il caso \"Deficit non raggiunto\" (diamanti, linea tratteggiata) si allontana dalla prestazione attesa ma resta sempre sopra la soglia per il deficit (linea tratteggiata orizzontale). Il caso \"Deficit raggiunto\" (triangoli, linea tratteggiata) scende sotto la soglia: bruscamente e poi stabilmente a sinistra, gradualmente a destra."
+#| fig-cap: "Andamento simulato del punteggio a un test in dieci valutazioni ripetute nel tempo, per due casi di compromissione (a sinistra) e due casi di declino (a destra), con lo stesso schema di colori/simboli usato per le traiettorie ipotetiche nella @fig-traiettoria-sviluppo (solo nero o scale di grigio). Tutte le traiettorie condividono lo stesso andamento stabile nelle prime tre valutazioni, prima dell'evento acuto o dell'inizio della degenerazione (linea sottile verticale). Il profilo \"Performance attesa\" (cerchi, linea continua) rappresenta l'andamento, stabile nel tempo, di una persona senza peggioramento. Il caso \"Deficit non raggiunto\" (diamanti, linea tratteggiata) si allontana dalla prestazione attesa ma resta sempre sopra la soglia per il deficit (linea tratteggiata orizzontale). Il caso \"Deficit raggiunto\" (triangoli, linea tratteggiata) scende sotto la soglia: bruscamente e poi stabilmente a sinistra, gradualmente a destra."
 #| fig-width: 9
 #| fig-height: 4.5
 #| fig-dpi: 200
@@ -475,7 +475,9 @@ aggiungi_errore_misura <- function(punteggio_vero, sd = sd_errore, includi = inc
 }
 
 soglia <- 16
-n_tempi <- 10
+n_pre  <- 3
+n_post <- 7
+n_tempi <- n_pre + n_post
 tempi <- 0:(n_tempi - 1)
 
 tema_traiettorie <- theme_minimal(base_size = 12) +
@@ -485,7 +487,7 @@ tema_traiettorie <- theme_minimal(base_size = 12) +
 
 soglia_layer <- list(
   geom_hline(yintercept = soglia, linetype = "dashed", colour = "steelblue", linewidth = 0.8),
-  annotate("text", x = 2, y = soglia, label = "soglia per deficit", vjust = -0.7, hjust = 0,
+  annotate("text", x = n_pre + 1, y = soglia, label = "soglia per deficit", vjust = -0.7, hjust = 0,
            colour = "steelblue", fontface = "italic", size = 3.3)
 )
 
@@ -509,21 +511,23 @@ linee_casi <- scale_linetype_manual(values = c("Performance attesa" = "solid",
 livello_iniziale <- 28
 vero_attesa <- rep(livello_iniziale, n_tempi)
 
-# Punto osservato a t0, condiviso da tutte le traiettorie (in entrambi i pannelli): prima
-# dell'evento acuto o dell'inizio della degenerazione non c'è ancora nessuna differenza da
-# osservare, quindi tutte le linee devono partire esattamente dallo stesso punto
-punto_iniziale <- aggiungi_errore_misura(livello_iniziale)
+# Punti osservati nelle valutazioni pre-evento (t0...t_{n_pre-1}), condivisi da tutte le
+# traiettorie (in entrambi i pannelli): prima dell'evento acuto o dell'inizio della degenerazione
+# non c'è ancora nessuna differenza da osservare, quindi tutte le linee condividono lo stesso
+# andamento di baseline. Ogni punto ha il proprio errore di misurazione indipendente, così il
+# baseline appare stabile ma con la normale variabilità test-retest, non un singolo valore fisso
+punti_iniziali <- aggiungi_errore_misura(rep(livello_iniziale, n_pre))
 
-# Funzione modulare per costruire una traiettoria che condivide con le altre lo stesso punto
-# osservato a t0 ("punto_iniziale"), e prosegue poi con il proprio andamento "vero" (con il suo
-# errore di misurazione indipendente) per le valutazioni successive
+# Funzione modulare per costruire una traiettoria che condivide con le altre gli stessi punti
+# di baseline ("punti_iniziali"), e prosegue poi con il proprio andamento "vero" (con il suo
+# errore di misurazione indipendente) per le valutazioni successive all'evento
 costruisci_traiettoria_condivisa <- function(vero) {
-  c(punto_iniziale, aggiungi_errore_misura(vero[-1]))
+  c(punti_iniziali, aggiungi_errore_misura(vero[(n_pre + 1):n_tempi]))
 }
 
 # Linea sottile verticale che segna il momento dell'evento/inizio del peggioramento,
-# posizionata subito dopo t0 (tra la prima e la seconda valutazione)
-tempo_evento <- 0.5
+# posizionata subito dopo l'ultima valutazione di baseline
+tempo_evento <- (n_pre - 1) + 0.5
 
 evento_layer <- list(
   geom_vline(xintercept = tempo_evento, colour = "grey40", linewidth = 0.5),
@@ -538,9 +542,10 @@ degenerazione_layer <- list(
 )
 
 # --- Pannello sinistro: compromissione (peggioramento improvviso e poi stabile) ---
-# Tutte le traiettorie partono dallo stesso punto (livello_iniziale), prima dell'evento acuto
-vero_compr_deficit    <- c(livello_iniziale, rep(13, n_tempi - 1))
-vero_compr_no_deficit <- c(livello_iniziale, rep(19, n_tempi - 1))
+# Tutte le traiettorie condividono lo stesso baseline (livello_iniziale) nelle valutazioni
+# pre-evento, prima dell'evento acuto
+vero_compr_deficit    <- c(rep(livello_iniziale, n_pre), rep(13, n_post))
+vero_compr_no_deficit <- c(rep(livello_iniziale, n_pre), rep(19, n_post))
 
 dat_compr <- data.frame(
   tempo = rep(tempi, 3),
@@ -565,9 +570,12 @@ p_compr <- ggplot(dat_compr, aes(x = tempo, y = punteggio, colour = caso, shape 
   tema_traiettorie
 
 # --- Pannello destro: declino (peggioramento graduale e progressivo) ---
-# Tutte le traiettorie partono dallo stesso punto (livello_iniziale), prima dell'inizio della degenerazione
-vero_decl_deficit    <- livello_iniziale - (tempi / (n_tempi - 1)) * 18
-vero_decl_no_deficit <- livello_iniziale - (tempi / (n_tempi - 1)) * 9
+# Tutte le traiettorie condividono lo stesso baseline (livello_iniziale) nelle valutazioni
+# pre-evento, prima dell'inizio della degenerazione: il tempo relativo resta a 0 durante il
+# baseline e cresce solo dopo, così la discesa parte solo dall'inizio della degenerazione
+tempi_rel_post <- pmax(tempi - (n_pre - 1), 0)
+vero_decl_deficit    <- livello_iniziale - (tempi_rel_post / n_post) * 18
+vero_decl_no_deficit <- livello_iniziale - (tempi_rel_post / n_post) * 9
 
 dat_decl <- data.frame(
   tempo = rep(tempi, 3),
@@ -936,3 +944,7 @@ LA risposta è meglio un campione numeroso _e_ simile a chi vogliamo valutare. M
 
 ### Focus: la soglia più corretta è al 5%?
 dipende da cosa intendiamo come corretto il 5% sì, ma altrimenti è arbitrario. Se vogliamo magari maggiore sensibilità potrebbe essere  non ideale.
+
+<!-- FORSE FOCUS: peggioramento o deficit?
+highlights con figure che mostrano come in un singolo punto non ci permette di distinguere tra queste due possibilità".
+-->
