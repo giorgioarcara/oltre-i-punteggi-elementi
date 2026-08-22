@@ -77,6 +77,17 @@ Dopo l'introduzione, elencare le 5 fonti per nome prima della tabella di mapping
 
 [^val]: Considerando che possono esistere più scopi, forse sarebbe più esatto usare il plurale e dire che le diverse validità sono più proprietà lungo diversi continuum.
 
+## Possibili problemi della validità
+
+Secondo la classificazione qui adottata è utile chiarire quali sono i principali problemi che un test potrebbe avere nella sua validità e cioè, la _sottorapresentazione del costrutto_ o la _varianza non legata al costrutto_.
+Questi due difetti possono influenzare tutte e cinque le aree e dovrebbero sempre essere considerate.
+
+Con _sottorappresentazione del costrutto_ si intende il problema che il test potrebbe avere quando non valuta in maniera completa il costrutto, potenzialmente inducendo ad interpretazioni sbagliate. Supponiamo per esempio di avere un test di linguaggio che indaga la comprensione del linguaggio, ma che ha items focalizzati solo su comprensione scritta (e non orale). Un test del genere potrebbe indurre interpretazioni errate e generalizzate anche alla comprensione orale, quando in realtà il test non indaga questi aspetti. Il costrutto generico indicato inizialmente "comprensione del linguaggio" non sareppre rappresentato adeguatamente. Questo aspetto è valutato soprattutto dalle [Evidenze basate sul contenuto](#validita-contenuto-fonte) e dalle [Evidenze basate sulla struttura interna](#validita-struttura-interna).
+
+
+Per _varianza non legata al costrutto_ si intende il problema che può avere un test quando la variabilità dei suoi punteggi dipende sistematicamente da altri aspetti, non legati al costrutto di interesse. Ad esempio un test di attenzione che è sistamaticamente legato ad alcuni aspetti di memoria a breve termine avrebbe problemi di questo tipo. Questo aspetto è indagato soprattutto valutate dalle [Evidenze basate sulle relazioni con altre variabili](#validita-relazioni-variabili).
+
+
 ### Una nota storica: la validità di facciata {#validita-facciata}
 
 A differenza delle cinque fonti di evidenza appena introdotte, non appare un termine che spesso è stato considerata come uno degli aspetti della validità e cioè "la validità di facciata", definita come il grado in cui un test **appare** misurare ciò che intende misurare, sulla base di un giudizio e non di dati empirici.
