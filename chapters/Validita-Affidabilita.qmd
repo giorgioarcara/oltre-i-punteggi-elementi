@@ -298,6 +298,8 @@ Un altro esempio potrebbe riguardare l’accesso a trial farmacologici vincolato
 
 Non bisogna però ritenere che una conseguenza negativa dell’uso di un test per un gruppo di persone costituisca necessariamente, di per sé, un indice di scarsa validità. Si può parlare di un problema di validità quando la conseguenza è riconducibile a un limite nell’interpretazione dei punteggi, per esempio, all'influenza sui risultati al test di caratteristiche estranee al costrutto o a problemi di contenuto, che non riflette differenze effettive nel costrutto di interesse. Anche quando non segnala un problema di validità, una conseguenza negativa può comunque rimanere rilevante sul piano sociale, etico o delle decisioni sull’uso del test, ma questo è un aspetto distinguibile.
 
+Questo aspetto della validità non è associata ad un nome specifico e non è classicamente valutata, ma è un aspetto certamente importante che dovrebbe essere valutato sia dallo sviluppatore del test, sia dal suo utilizzatore (si veda il capitolo 8 _Scegliere i test Neuropsicologici_) 
+
 <!-- BLUEPRINT DA COMPLETARE (Giorgio): sezione nuova nella cornice, ma può appoggiarsi ai Focus già scritti più avanti nel capitolo. Punti essenziali da integrare:
 - Definizione (p. 19): "Some consequences of test use follow directly from the interpretation of test scores for uses intended by the test developer. The validation process involves gathering evidence to evaluate the soundness of these proposed interpretations for their intended uses."
 - Tre sotto-aree (Background, p. 19-20): (1) interpretazioni/usi intesi dagli sviluppatori del test, (2) pretese sull'uso del test non direttamente basate sull'interpretazione dei punteggi, (3) conseguenze non intenzionali.
