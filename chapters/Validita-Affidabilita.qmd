@@ -287,7 +287,13 @@ _Soglia indicativa_: non esiste un valore soglia condiviso in letteratura per gi
 
 ### Evidenze basate sulle conseguenze del testing {#validita-conseguenze}
 
-Uno degli aspetti importanti che secondo gli _Standards_ va valutato è la conseguenza
+Uno degli aspetti importanti che, secondo gli _Standards_, dovrebbe essere valutato e approfondito è la presenza di eventuali conseguenze, soprattutto non intenzionali, derivanti dall’uso del test. In particolare, occorre verificare se tali conseguenze dipendano da limiti nella validità delle interpretazioni dei punteggi per l’uso previsto.
+
+Ad esempio, un test neuropsicologico utilizzato in età evolutiva potrebbe classificare sistematicamente in modo diverso persone appartenenti a gruppi con differente stato socioeconomico, penalizzandone alcune nell’accesso ai servizi di supporto. Questa potrebbe rappresentare una conseguenza non intenzionale di grande rilevanza sociale ed etica.
+
+Un altro esempio potrebbe riguardare l’accesso a trial farmacologici vincolato ai punteggi ottenuti a un determinato test. Se le interpretazioni dei punteggi per questo uso presentassero problemi di validità, il test potrebbe penalizzare sistematicamente alcuni gruppi di persone e impedire loro di accedere al trial.
+
+Non bisogna però ritenere che una conseguenza negativa dell’uso di un test per un gruppo di persone costituisca necessariamente, di per sé, un indice di scarsa validità. Si può parlare di un problema di validità quando la conseguenza è riconducibile a un limite nell’interpretazione dei punteggi, per esempio, all'influenza sui risultati al test di caratteristiche estranee al costrutto o a problemi di contenuto, che non riflette differenze effettive nel costrutto di interesse. Anche quando non segnala un problema di validità, una conseguenza negativa può comunque rimanere rilevante sul piano sociale, etico o delle decisioni sull’uso del test, ma questo è un aspetto distinguibile.
 
 <!-- BLUEPRINT DA COMPLETARE (Giorgio): sezione nuova nella cornice, ma può appoggiarsi ai Focus già scritti più avanti nel capitolo. Punti essenziali da integrare:
 - Definizione (p. 19): "Some consequences of test use follow directly from the interpretation of test scores for uses intended by the test developer. The validation process involves gathering evidence to evaluate the soundness of these proposed interpretations for their intended uses."
