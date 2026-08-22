@@ -283,6 +283,8 @@ Si valuta tipicamente calcolando la correlazione tra il punteggio del test e mis
 
 La validità ecologica è raramente disponibile, in parte perché raccogliere dati sul funzionamento quotidiano reale è più difficile e costoso che raccogliere altri tipi di evidenza (come la relazione con altri test). È però una dimensione particolarmente rilevante in neuropsicologia clinica e forense, dove l'obiettivo ultimo della valutazione è spesso proprio stabilire l'impatto di un deficit cognitivo sul funzionamento della persona nella vita reale, al di fuori dell'ambulatorio e del setting di valutazione. Per considerazioni legati si veda il capitolo 10 su interpretazione ai test.
 
+La validità ecologica non va confusa con l'**ecologicità** di un test, un termine collegato, ma non un sinonimo. Con ecologicità di un test indichiamo quanto il test presenta delle situazioni che sono analoghe o ricalcano quelle della vita quotidiana. Ad esempio, un test che ha l'obiettivo di valutare le abilità di guida e che utilizzi un simulatore con un volante, un cambio e dei pedali, è certamente dotato di grande _ecologicità_. Questa però è solo presumibilmente, e non necessariamente, un indice di validità ecologica, cioè capacità di predire come ci si comporterà nella vita quotidiana e quindi in condizioni di guida reale, che andrebbe dimostrata empiricamente.
+
 _Soglia indicativa_: non esiste un valore soglia condiviso in letteratura per giudicare la validità ecologica come sufficiente, anche perché non esiste un'analisi standard. Spesso sono riportate correlazioni o analisi di regressione (es. `\cite{higginson2000ecological}`{=latex}`Higginson, Arnett, & Voss, 2000`{=html}).
 
 ### Evidenze basate sulle conseguenze del testing {#validita-conseguenze}
