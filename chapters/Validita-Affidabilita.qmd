@@ -47,7 +47,7 @@ Un aspetto che è fondamentale sottolinare sin da subito è che la validità non
 
 :::{.callout-note}
 ## Non ha senso dire che un test "è valido".
-La validità non è una proprietà generale, ma è relativa ad una specifica interpretazione di un test.
+La validità non è una proprietà generale del test, ma è relativa ad una sua specifica interpretazione.
 :::
 
 Un altro motivo per evitare affermazioni come "quel test è valido/non valido" è che la validità non è una proprietà tutto o nulla, ma una proprietà lungo un **continuum**[^val]: un test accumula, nel tempo e attraverso diversi studi, un insieme di evidenze a favore (o contro) un determinato utilizzo, e la nostra fiducia nel test dovrebbe aggiornarsi di conseguenza.
