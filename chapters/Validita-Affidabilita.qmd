@@ -128,6 +128,14 @@ _Soglia indicativa_: la soglia minima suggerita per il CVI dipende dal numero de
 
 ### Evidenze basate sui processi di risposta {#validita-processi-risposta}
 
+In accordo alla classificazione degli _Standards_, uno dei criteri di validità riguarda i processi di risposta, cioè quali processi portano a raggiungere il risultato.
+Quando si somministra un test, per esempio potrebbero essere usate delle strategie alternative, magari non previste, che però alterano la relazione tra costrutto di interesse e comportamento. Si pensi per esempio ad un test di memoria di parole in cui venga usata una _mnemotecnica_ per ricordare le parole appena presentate. La performance potrebbe essere molto buona, ma non riflettere più il costrutto che si intende misurare quando si somministra quel test di memoria.
+
+Questo tipo di validità non è comunemente valutata nei test neuropsicologici e pertanto non ci si dovrebbe aspettare di trovare all'interno dei test sezioni su questo aspetto. Una probabile ragione è l'assunzione, implicita, che i test siano sufficientemente semplici da coinvolgere un insieme di processi simili tra i diversi partecipanti che effettuano il test. Questa è un'assunzione piuttosto forte, e anch'essa implicita, ma di fatto dominante, nella neuropsicologia clinica.
+
+È interessante notare che nella storia della neuropsicologia clinica, lo studio dei processi di svolgimento dei compiti abbia avuto un ruolo importante. Il _Boston Process Approach_, termine coniato da Edith Kaplan `(\cite{kaplan1988process})`{=latex}`(Kaplan, 1988)`{=html}, è stato un approccio alla neuropsicologia clinica focalizzato appunto sull'analisi del modo in cui i pazienti svolgevano i compiti, piuttosto che del semplice risultato ottenuto al test `(\cite{whiterose1997boston})`{=latex}`(White & Rose, cap. 6 in Goldstein & Incagnoli, 1997)`{=html}.
+Storicamente però questa attenzione è scemata e la maggior parte dei test neuropsicologici adesso non indaga appunto il processo di svolgimento del compito, a favore di una maggior attenzione sul risultato.
+
 <!-- BLUEPRINT DA COMPLETARE (Giorgio): sezione interamente nuova, nessun contenuto pregresso. Punti essenziali da integrare:
 - Definizione (p. 15): "Theoretical and empirical analyses of the response processes of test takers can provide evidence concerning the fit between the construct and the detailed nature of the performance or response actually engaged in by test takers."
 - Metodi tipici citati dagli Standards: interviste, "think-aloud", tempi di risposta, movimenti oculari.
