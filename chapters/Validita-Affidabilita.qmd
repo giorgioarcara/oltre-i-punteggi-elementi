@@ -77,7 +77,7 @@ Dopo l'introduzione, elencare le 5 fonti per nome prima della tabella di mapping
 
 [^val]: Considerando che possono esistere più scopi, forse sarebbe più esatto usare il plurale e dire che le diverse validità sono più proprietà lungo diversi continuum.
 
-## Possibili problemi della validità
+## Possibili problemi della validità{#possibili-problemi-val}
 
 Secondo la classificazione qui adottata è utile chiarire quali sono i principali problemi che un test potrebbe avere nella sua validità e cioè, la _sottorapresentazione del costrutto_ o la _varianza non legata al costrutto_.
 Questi due difetti possono influenzare tutte e cinque le aree e dovrebbero sempre essere considerate.
@@ -287,9 +287,10 @@ La validità ecologica non va confusa con l'**ecologicità** di un test, un term
 
 _Soglia indicativa_: non esiste un valore soglia condiviso in letteratura per giudicare la validità ecologica come sufficiente, anche perché non esiste un'analisi standard. Spesso sono riportate correlazioni o analisi di regressione (es. `\cite{higginson2000ecological}`{=latex}`Higginson, Arnett, & Voss, 2000`{=html}).
 
-### Evidenze basate sulle conseguenze del testing {#validita-conseguenze}
+### Evidenze basate sulle conseguenze dei test {#validita-conseguenze}
 
-Uno degli aspetti importanti che, secondo gli _Standards_, dovrebbe essere valutato e approfondito è la presenza di eventuali conseguenze, soprattutto non intenzionali, derivanti dall’uso del test. In particolare, occorre verificare se tali conseguenze dipendano da limiti nella validità delle interpretazioni dei punteggi per l’uso previsto.
+Uno degli aspetti importanti che, secondo gli _Standards_, dovrebbe essere valutato e approfondito è la presenza di eventuali conseguenze, soprattutto non intenzionali, derivanti dall’uso del test. In particolare, occorre verificare se tali conseguenze dipendano da limiti nella validità delle interpretazioni dei punteggi per l’uso previsto (si veda il par. [Possibili problemi della validità](#possibili-problemi-val)).
+.
 
 Ad esempio, un test neuropsicologico utilizzato in età evolutiva potrebbe classificare sistematicamente in modo diverso persone appartenenti a gruppi con differente stato socioeconomico, penalizzandone alcune nell’accesso ai servizi di supporto. Questa potrebbe rappresentare una conseguenza non intenzionale di grande rilevanza sociale ed etica.
 
@@ -300,8 +301,7 @@ Non bisogna però ritenere che una conseguenza negativa dell’uso di un test pe
 <!-- BLUEPRINT DA COMPLETARE (Giorgio): sezione nuova nella cornice, ma può appoggiarsi ai Focus già scritti più avanti nel capitolo. Punti essenziali da integrare:
 - Definizione (p. 19): "Some consequences of test use follow directly from the interpretation of test scores for uses intended by the test developer. The validation process involves gathering evidence to evaluate the soundness of these proposed interpretations for their intended uses."
 - Tre sotto-aree (Background, p. 19-20): (1) interpretazioni/usi intesi dagli sviluppatori del test, (2) pretese sull'uso del test non direttamente basate sull'interpretazione dei punteggi, (3) conseguenze non intenzionali.
-- PUNTO ESSENZIALE - Standard 1.25 (p. 30), posizione "debole": una conseguenza conta ai fini della validità SOLO se riconducibile a construct underrepresentation o construct-irrelevant variance; conseguenze non riconducibili a questi due difetti non intaccano di per sé la validità. Senza questa precisazione il lettore rischia di leggere "conseguenza negativa" come automaticamente "test non valido".
-- Materiale già scritto nel capitolo da riorganizzare/richiamare qui: "Nella pratica clinica: come usare validità e affidabilità per scegliere i test", "Focus: dalla validità di un test alla validità di una specifica valutazione" (PVT), il callout su validità di facciata in ambito forense, "Errori comuni: ignorare validità e affidabilità di un test". -->
+- PUNTO ESSENZIALE - Standard 1.25 (p. 30), posizione "debole": una conseguenza conta ai fini della validità SOLO se riconducibile a construct underrepresentation o construct-irrelevant variance; conseguenze non riconducibili a questi due difetti non intaccano di per sé la validità. Senza questa precisazione il lettore rischia di leggere "conseguenza negativa" come automaticamente "test non valido". -->
 
 ## Validità: riassunto
 
