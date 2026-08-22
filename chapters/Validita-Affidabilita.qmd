@@ -278,7 +278,7 @@ Si valuta tipicamente calcolando la correlazione tra il punteggio del test e mis
 
 La validità ecologica è raramente disponibile, in parte perché raccogliere dati sul funzionamento quotidiano reale è più difficile e costoso che raccogliere altri tipi di evidenza (come la relazione con altri test). È però una dimensione particolarmente rilevante in neuropsicologia clinica e forense, dove l'obiettivo ultimo della valutazione è spesso proprio stabilire l'impatto di un deficit cognitivo sul funzionamento della persona nella vita reale, al di fuori dell'ambulatorio e del setting di valutazione. Per considerazioni legati si veda il capitolo 10 su interpretazione ai test.
 
-_Soglia indicativa_: non esiste un valore soglia condiviso in letteratura per giudicare la validità ecologica come sufficiente, anche perché non esiste un'analisi standard. Spesso sono riportate correlazioni o analisi di regressione (es. `(\cite{higginson2000ecological})`{=latex}`(Higginson, Arnett, & Voss, 2000)`{=html}).
+_Soglia indicativa_: non esiste un valore soglia condiviso in letteratura per giudicare la validità ecologica come sufficiente, anche perché non esiste un'analisi standard. Spesso sono riportate correlazioni o analisi di regressione (es. `\cite{higginson2000ecological}`{=latex}`Higginson, Arnett, & Voss, 2000`{=html}).
 
 ### Evidenze basate sulle conseguenze del testing {#validita-conseguenze}
 
@@ -287,6 +287,10 @@ _Soglia indicativa_: non esiste un valore soglia condiviso in letteratura per gi
 - Tre sotto-aree (Background, p. 19-20): (1) interpretazioni/usi intesi dagli sviluppatori del test, (2) pretese sull'uso del test non direttamente basate sull'interpretazione dei punteggi, (3) conseguenze non intenzionali.
 - PUNTO ESSENZIALE - Standard 1.25 (p. 30), posizione "debole": una conseguenza conta ai fini della validità SOLO se riconducibile a construct underrepresentation o construct-irrelevant variance; conseguenze non riconducibili a questi due difetti non intaccano di per sé la validità. Senza questa precisazione il lettore rischia di leggere "conseguenza negativa" come automaticamente "test non valido".
 - Materiale già scritto nel capitolo da riorganizzare/richiamare qui: "Nella pratica clinica: come usare validità e affidabilità per scegliere i test", "Focus: dalla validità di un test alla validità di una specifica valutazione" (PVT), il callout su validità di facciata in ambito forense, "Errori comuni: ignorare validità e affidabilità di un test". -->
+
+## Validità: riassunto
+
+Abbiamo esaminato diversi tipi di Validità, secondo la classificazione proposta, che parte dai principi degli _Standards_ , che riassumono in cinque macrocategorie, ma mantenendo la nomenclatura classica (es. validità di costrutto, di contenuto, etc.). In questa maniera una classificazione aggiornata e rigorosa può essere vista in parallelo a quei termini che è più probabile trovare in articoli o manuali di test neuropsicologici. La tabella di seguito riassume i tipi di validità (secondo le diversi classificazioni) e anche i principi base per valutarli.
 
 Tabella riassuntiva Validità:
 
@@ -447,6 +451,11 @@ Più specificamente, nei tipici disegni sperimentali usati per definire la affid
 
 _Soglie indicative_: Secondo Cicchetti & Sparrow, 1981 `(\cite{slick2006psychometrics})`{=latex}`(citati in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html} i valori di ICC dovrebbero essere interpretati come segue: `: inferiori a .40 scarsi, tra .40 e .59 discreti, tra .60 e .74 buoni, pari o superiori a .75 eccellenti. Con una classificazione lievemente diversa, Fastenau et al. (1996) considerano .60 come soglia per un accordo "sostanziale" e .75-.80 per un accordo "quasi perfetto".
 
+## Affidabilità: riassunto
+
+Abbiamo esaminato diversi tipi di Affidabilità, che secondo gli _Standards_  è un principio unitario, ma che di fatto è analizzata, specie nel contesto della Teoria Classica dei Test, secondo gli specifici tipi di affidabilità esaminati. La tabella di seguito riassume i tipi di affidabilità e i principi base per valutarli.
+
+
 Tabella riassuntiva Affidabilità:
 
 | Tipo di affidabilità | Come si valuta | Soglia indicativa | Fonte |
@@ -468,7 +477,7 @@ In generale sarebbe preferibile sempre scegliere test che abbiano buone (o quant
 
 `\pagebreak`{=latex}
 
-![Sintesi delle fonti di evidenza di validità e dei tipi di affidabilità. A sinistra, le fonti di evidenza per la validità secondo gli Standards for Educational and Psychological Testing `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}: contenuto, struttura interna, e relazioni con altre variabili (che comprendono costrutto, criterio ed ecologica); la validità di facciata è segnalata a parte come non evidenza tecnica. Per la validità non esistono valori soglia universali: i risultati vanno di volta in volta motivati. A destra, i quattro tipi di affidabilità trattati nel capitolo, con il valore soglia "standard" più diffuso in letteratura (vedi il testo per le soglie più stringenti raccomandate per le decisioni cliniche sul singolo individuo).](../Figures/Latex-Fig-Validita-Affidabilita/Fig_validita_affidabilita.png){#fig-validita-affidabilita fig-align="center" width=85%}
+![Sintesi delle fonti di evidenza di validità e dell'affidabilità. A sinistra, le fonti di evidenza per la validità secondo gli Standards for Educational and Psychological Testing `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}: contenuto, struttura interna, relazioni con altre variabili (che comprendono costrutto, criterio ed ecologica), processi di risposta e conseguenze del testing (queste ultime due, pur previste dagli Standards, sono raramente documentate nei manuali dei test neuropsicologici); la validità di facciata è segnalata a parte come non evidenza tecnica. Per la validità non esistono valori soglia universali: i risultati vanno di volta in volta motivati. A destra, l'affidabilità, qui rappresentata come un'unica dimensione (coerentemente con gli Standards, che non la suddividono in tipi indipendenti) declinata nelle diverse modalità con cui viene tipicamente valutata (consistenza interna, test-retest, split-half, inter-rater agreement), con il valore soglia "standard" più diffuso in letteratura (vedi il testo per le soglie più stringenti raccomandate per le decisioni cliniche sul singolo individuo).](../Figures/Latex-Fig-Validita-Affidabilita/Fig_validita_affidabilita.png){#fig-validita-affidabilita fig-align="center" width=85%}
 
 
 ## Nella pratica clinica: come usare validità e affidabilità per scegliere i test {#prat-clin-aff-val}
