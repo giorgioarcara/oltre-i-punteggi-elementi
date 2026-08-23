@@ -359,22 +359,22 @@ Come per l'affidabilità è importante considerare che questa proprietà è semp
 Affidabilità e validità sono concetti distinti ma collegati, in un modo spesso riportato con l'analogia tra  **accuratezza** (per la validità) e **precisione** (per l'affidabilità): un test può essere affidabile senza essere valido, cioè misurare qualcosa con grande precisione, ma non il costrutto che ci interessa. Il contrario non è invece possibile: un test valido deve necessariamente essere anche affidabile, perché non è possibile misurare bene un costrutto con uno strumento impreciso. L'affidabilità è quindi una condizione necessaria, ma non sufficiente, per la validità.
 
 
-![Relazione tra affidabilità e validità: questa figura riporta le possibili relazioni tra affidabilità e validità. La vicinanza tra i punti rappresenta l'affidabilità (punti molto vicini indicano risultati consistenti e quindi un test affidabile). Il centro del bersaglio è il costrutto target del test: punti nel centro indicano misurazioni valide. A) un test affidabile e valido dà risultati consistenti e che valutano correttamente il costrutto. B) un test affidabile ma non valido dà punteggi consistenti, ma non legati al costrutto (es. un test preciso che intende misura l'attenzione, ma in realtà misura la memoria. C) e D) nel caso un test non sia affidabile viene pesso considerato automaticamente non valido. la condizione C)è infatti solo teorica e indica misurazioni non precise ma che, in media, misurerebbero il costrutto (colpendo il centro del bersaglio)](../Figures/affidabilità_validità_w.png){ fig-align="center" width=70%}
+![Relazione tra affidabilità e validità: questa figura riporta le possibili relazioni tra affidabilità e validità. La vicinanza tra i punti rappresenta l'affidabilità (punti molto vicini indicano risultati consistenti e quindi un test affidabile). Il centro del bersaglio è il costrutto target del test: punti nel centro indicano misurazioni valide. A) un test affidabile e valido dà risultati consistenti e che valutano correttamente il costrutto. B) un test affidabile ma non valido dà punteggi consistenti, ma non legati al costrutto (es. un test preciso che intende misura l'attenzione, ma in realtà misura la memoria. C) e D) nel caso un test non sia affidabile viene pesso considerato automaticamente non valido. la condizione C) è infatti solo teorica e indica misurazioni non precise ma che, in media, misurerebbero il costrutto (colpendo il centro del bersaglio)](../Figures/affidabilità_validità_w.png){ fig-align="center" width=70%}
 
 Come abbiamo già visto per la validità una domanda comune è: l'affidabilità del mio test è sufficiente alta?
 Questa è una domanda delicata in cui la risposta dipenda anche dal tipo di utilizzo che si intende fare con il test. Di seguito è riportata una classificazione generale della grandezza dei coefficienti di affidabilità, che vale come riferimento orientativo per tutti i tipi di affidabilità trattati di seguito `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1)`{=html}:
 
 | Grandezza del coefficiente | Interpretazione |
 |---|---|
-| ≥ .90 | Molto alta |
-| .80-.89 | Alta |
-| .70-.79 | Adeguata |
-| .60-.69 | Marginale |
-| < .60 | Bassa |
+| ≥ 0.90 | Molto alta |
+| 0.80-0.89 | Alta |
+| 0.70-0.79 | Adeguata |
+| 0.60-0.69 | Marginale |
+| < 0.60 | Bassa |
 
 : Classificazione generale della grandezza dei coefficienti di affidabilità `(\cite{slick2006psychometrics})`{=latex}`(Slick, cap. 1 in Spreen & Strauss, 2006)`{=html}. {#tbl-affidabilita-generale}
 
-Anche in questo caso le soglie sono da considerare come indicative: per le decisioni cliniche, Sattler `(\citeyear{sattler2001assessment})`{=latex}`(2001)`{=html} `(\cite{slick2006psychometrics})`{=latex}`(citato in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html} propone soglie più stringenti: per i test usati nella valutazione del singolo individuo si raccomanda un'affidabilità pari o superiore a .80; per i test usati per decisioni particolarmente importanti (per esempio la stima del QI o una diagnosi), .90 è considerato il minimo assoluto, e .95 il valore ottimale.
+Anche in questo caso le soglie sono da considerare come indicative: per le decisioni cliniche, Sattler `(\citeyear{sattler2001assessment})`{=latex}`(2001)`{=html} `(\cite{slick2006psychometrics})`{=latex}`(citato in Slick, cap. 1 in Spreen & Strauss, 2006)`{=html} propone soglie più stringenti: per i test usati nella valutazione del singolo individuo si raccomanda un'affidabilità pari o superiore a 0.80; per i test usati per decisioni particolarmente importanti (per esempio la stima del QI o una diagnosi), 0.90 è considerato il minimo assoluto, e 0.95 il valore ottimale.
 
 È da notare che anche in questo aspetto la letteratura non è unanime, e non è raro che test pubblicati e ampiamente utilizzati circolino con valori di affidabilità ben al di sotto di quelli raccomandati. Per tale ragione, per quanto riguarda i valori di affidabilità, suggerisco un approccio _comparativo_ : meglio scegliere i test con affidabilità più alta (e con più evidenze di affidabilità), interpretando con cautela quando l'affidabilità è al di sotto di valori raccomandati (si veda anche il paragrafo [Nella pratica clinica: Come usare affidabilità e validità per scegliere i test](#prat-clin-aff-val)).
 
@@ -385,9 +385,10 @@ Anche in questo caso le soglie sono da considerare come indicative: per le decis
 L'affidabilità split-half indica la consistenza di un test quando si confrontano il punteggio totale ottenuto da metà degli item con il punteggio totale ottenuto con la rimanente metà degli item.
 :::
 
-L'affidabilità split-half stima l'affidabilità di un test dividendolo in due metà (tipicamente gli item pari da un lato e gli item dispari dall'altro) e calcolando la correlazione tra i punteggi ottenuti sulle due metà. Il vantaggio principale, rispetto ad altri tipi di affidabilità come la test–retest, è che non richiede due somministrazioni separate. Il limite principale è che il risultato dipende, almeno in parte, da come viene effettuata la divisione in due metà, che resta in una certa misura arbitraria.
+L'affidabilità split-half stima l'affidabilità di un test dividendolo in due metà (tipicamente gli item pari da un lato e gli item dispari dall'altro) e calcolando la correlazione tra i punteggi ottenuti sulle due metà. Il vantaggio principale è la semplicità nell'ottenerla, visto che si può facilmente calcolare dopo una sola somministrazione del test. Il limite principale è che il risultato dipende, almeno in parte, da come viene effettuata la divisione in due metà, che resta in una certa misura arbitraria.
 
 Poiché ciascuna metà è più corta dell'intero test, e un test più corto tende ad essere meno affidabile di uno più lungo, il coefficiente di correlazione tra le due metà sottostima l'affidabilità del test completo. Per correggere questa sottostima si applica tipicamente la correzione di Spearman-Brown[^spearmanbrown].
+Data la sua limitazione spesso all'affidabilità split-half è preferita la sua estensione, la _consistenza interna_ trattata nel prossimo paragrafo.
 
 [^spearmanbrown]: La formula della correzione di Spearman-Brown è trattata più in dettaglio nella _Parte II – Approfondimenti tecnici_.
 
@@ -405,7 +406,7 @@ Da notare che per i test di velocità (in cui il punteggio dipende dal numero di
 
 [^omega]: Dettagli su $\alpha$ e $\omega$ e le formule per calcolarli, sono trattate più in dettaglio nella _Parte II – Approfondimenti tecnici_.
 
-_Soglie indicative_: come riportato in `\cite{slick2006psychometrics}`{=latex} `Slick, 2006 (cap. 1, in Spreen & Strauss, 2006)`{=html}: valori inferiori a .70 sono considerati inaccettabili, tra .70 e .79 discreti, tra .80 e .89 buoni, e pari o superiori a .90 eccellenti. Nei test neuropsicologici la consistenza interna tende però ad essere più bassa della media, spesso intorno a .60.
+_Soglie indicative_: come riportato in `\cite{slick2006psychometrics}`{=latex} `Slick, 2006 (cap. 1, in Spreen & Strauss, 2006)`{=html}: valori inferiori a 0.70 sono considerati inaccettabili, tra 0.70 e 0.79 discreti, tra 0.80 e 0.89 buoni, e pari o superiori a 0.90 eccellenti. Nei test neuropsicologici la consistenza interna tende però ad essere più bassa della media, spesso intorno a .60.
 
 <!-- È importante ricordare che un'alta consistenza interna non implica di per sé validità: item molto correlati tra loro potrebbero riflettere un costrutto diverso da quello che il test intende misurare. 
 -->
@@ -520,11 +521,13 @@ Immaginando di voler fare una valutazione neuropsicologica di alta qualità, que
 
 :::{.callout-tip}
 Un modo semplice per verificare affidabilità e validità di un test e scorrere il manuale o articolo del test e usare la lista di validità e affidabilità in @tbl-validita e in @tbl-affidabilita, oppure nella @fig-validita-affidabilita.
-A partire da queste è possibile verificare innanzitutto se ci sono evidenze per le tipologie di validità ed affidabilità rilevanti per il test e per l'utilizzo che se ne vuole fare. Già l'assenza di informazioni è di per sé un'informazione. Per quei valori che sono disponibili con opportuna cautela può essere valutato se i valori sono sufficienti oppure possono essere confrontati con quelli di alti test.
+A partire da queste è possibile verificare innanzitutto se ci sono evidenze per le tipologie di validità ed affidabilità rilevanti per il test e per l'utilizzo che se ne vuole fare. Già l'assenza di dati su validità e affidabilità è di per sé un'informazione. Per quei valori che sono disponibili con opportuna cautela può essere valutato se i valori sono sufficienti oppure possono essere confrontati con quelli di alti test.
 :::
 
 Quando si parla di valutazione di validità e affidabilità non si deve immaginare però una semplice lettura dei nomi il e confronto con una checklist. In accordo con lo spirito degli Standards for Educational and Psychological Testing `(\cite{aera2014standards})`{=latex}`(AERA, APA, & NCME, 2014)`{=html}, il/la professionista dovrebbe utilizzare il proprio giudizio critico per valutare se le evidenze fornite sono adeguate e sufficienti per gli scopi per i quali vuole utilizzare il test. Questo è anche lo spirito con cui gli Standards trattano le evidenze basate sulle conseguenze del testing, discusse in apertura della sezione sulla validità: la responsabilità di un uso appropriato del test è condivisa tra chi lo sviluppa e chi lo utilizza nella pratica.
 Ogni test ha le sue caratteristiche ed è difficile, se non impossibile, pensare ad una lista esaustiva che copra tutte le possibilità. 
+
+<!-- NOTA GIORGIO: forse aggiungere tips per suggerire come utilizzare validità e affidabiilità. es. per validità occorrerebbe chiedersi: il mio test ha evidenze rispetto all'utilizzo che vorrò farne nella pratica clinica. Per affidabilità, il mio test ha riportato dati di affidabilità? e sono sufficientemente alte? Questo potrebbe essere riportato in una figura, per attrarre più attenzione rispetto ad una semplice callout-tip -->
 
 L'elenco delle tipologie di validità e affidabilità fornite in questo capitolo forniscono semplicemente un'aiuto per ricordare quali aspetti bisogno approfondire e su quali sono valori - indicativi - desiderabili  per giudicare la bontà del test. Resta però una responsabilità del/della professionista approfondire se effettivamente questi valori sono pertinenti e se le evidenze riportate sono adeguate.
 
