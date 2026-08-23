@@ -128,7 +128,7 @@ _Soglia indicativa_: la soglia minima suggerita per il CVI dipende dal numero de
 ### Evidenze basate sui processi di risposta {#validita-processi-risposta}
 
 In accordo alla classificazione degli _Standards_, uno dei criteri di validità riguarda i processi di risposta, cioè quali processi portano a raggiungere il risultato.
-Quando si somministra un test, per esempio potrebbero essere usate delle strategie alternative, magari non previste, che però alterano la relazione tra costrutto di interesse e comportamento. Si pensi per esempio ad un test di memoria di parole in cui venga usata una _mnemotecnica_ per ricordare le parole appena presentate. La performance potrebbe essere molto buona, ma non riflettere più il costrutto che si intende misurare quando si somministra quel test di memoria.
+Quando si somministra un test, per esempio potrebbero essere usate delle strategie alternative, magari non previste, che però alterano la relazione tra costrutto di interesse e comportamento. Si pensi per esempio ad un test di memoria di parole in cui venga usata una _mnemotecnica_ per ricordare le parole appena presentate. La performance potrebbe essere molto buona, ma non riflettere più il costrutto che si intende misurare quando si somministra quel test di memoria. Il tipo di processo coinvolto può essere investigato tramite tecniche come interviste, analisi dei tempi di risposta (se sono attesi diversi tempi di risposta a seconda del processo coinvolto), o altre tecniche, come l'analisi dei movimenti oculari.
 
 Questo tipo di validità non è comunemente valutata nei test neuropsicologici e pertanto non ci si dovrebbe aspettare di trovare all'interno dei test sezioni su questo aspetto. Una probabile ragione è l'assunzione, implicita, che i test siano sufficientemente semplici da coinvolgere un insieme di processi simili tra i diversi partecipanti che effettuano il test. Questa è un'assunzione piuttosto forte, e anch'essa implicita, ma di fatto dominante, nella neuropsicologia clinica.
 
@@ -323,8 +323,11 @@ Tabella riassuntiva Validità:
 | Relazioni con altre variabili | Concorrente | Correlazione con criterio esterno simultaneo | ≥ 0.70-0.80 |
 | Relazioni con altre variabili | Predittiva / gruppi noti | Correlazione, oppure sensibilità/specificità | ≥ 0.80 per sensibilità/specificità |
 | Relazioni con altre variabili | Ecologica | Correlazione con scale di vita quotidiana | Nessuna soglia condivisa |
+| Processi di risposta | Nessuna corrispondenza con etichette classiche | Interviste, tempi di risposta,(raramente documentata nei test neuropsicologici) | Nessuna soglia indicativa |
+| Conseguenze del testing | Nessuna corrispondenza con etichette classiche | Analisi delle conseguenze, intenzionali e non, dell'uso del test (raramente documentata nei test neuropsicologici) | Nessuna soglia indicativa |
 
-: Sintesi delle fonti di evidenza di validità, delle etichette classiche corrispondenti, delle modalità con cui vengono tipicamente valutate e dei valori soglia indicativi riportati in letteratura. La validità di facciata non è inclusa perché non costituisce, in questa cornice, un'evidenza tecnica di validità (vedi la [nota a parte](#validita-facciata)). Le evidenze basate sui processi di risposta e sulle conseguenze del testing non sono ancora rappresentate in tabella. {#tbl-validita}
+: Sintesi delle fonti di evidenza di validità, delle etichette classiche corrispondenti, delle modalità con cui vengono tipicamente valutate e dei valori soglia indicativi riportati in letteratura. La validità di facciata non è inclusa perché non costituisce, in questa cornice, un'evidenza tecnica di validità (vedi la [nota a parte](#validita-facciata)). {#tbl-validita}
+
 
 ## Affidabilità {#affidabilita}
 
