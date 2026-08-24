@@ -125,38 +125,37 @@ Di seguito trovi un indice provvisorio del libro. La suddivisione dei contenuti 
 
 **2. Validità e affidabilità**
 
+  * Come leggere questo capitolo
   * Validità
     * Validità: introduzione
-    * Mapping: dalle etichette classiche alle fonti di evidenza (Standards 2014)
-    * Una nota a parte: la validità di facciata
+    * Una nota storica: la validità di facciata
     * Evidenze basate sul contenuto del test
       * Validità di contenuto
     * Evidenze basate sui processi di risposta
     * Evidenze basate sulla struttura interna
       * Struttura fattoriale
     * Evidenze basate sulle relazioni con altre variabili
-      * Validità di costrutto: un'etichetta che attraversa più fonti
+      * Validità di costrutto
       * Validità convergente/divergente
       * Relazioni con altre variabili coerenti con il costrutto
-      * Chiarezza del costrutto
       * Validità di criterio (concorrente, predittiva, gruppi noti)
       * Validità ecologica
-    * Evidenze basate sulle conseguenze del testing
+    * Evidenze basate sulle conseguenze dei test
   * Affidabilità
-    * Affidabilità introduzione
+    * Affidabilità: introduzione
     * Affidabilità split-half
     * Consistenza interna
     * Affidabilità test-retest
     * Inter-rater agreement
   * Capitolo 2: Riassunto
   * Nella pratica clinica: come usare validità e affidabilità per scegliere i test
-  * Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test **(da scrivere)**
   * Focus: imprecisione dei test e intervalli di confidenza
   * Focus: validità e affidabilità come proprietà riferite ad un contesto
   * Focus: invarianza di misura nei test neuropsicologici
   * Focus: dalla validità di un test alla validità di una specifica valutazione
   * Errori comuni: ignorare validità e affidabilità di un test.
   * Focus: valutare la validità di costrutto
+  * Focus: chiarezza del costrutto o del criterio
 
 **3. Identificare deficit e danni cognitivi (da scrivere)**
 
