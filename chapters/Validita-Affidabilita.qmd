@@ -157,7 +157,7 @@ Storicamente però questa attenzione è scemata e la maggior parte dei test neur
 
 La terza fonte di evidenza riguarda la struttura interna del test: nella classificazione classica corrisponde a quella che viene chiamata **struttura fattoriale**.
 
-##### Struttura fattoriale {#struttura-fattoriale}
+#### Struttura fattoriale {#struttura-fattoriale}
 Con questo tipo di validità si indica la qualità degli item del test di raggrupparsi in modo coerente con il modello teorico del costrutto, tipicamente verificata con l'analisi fattoriale esplorativa (Exploratory Factor Analysis, EFA) o confermativa (Confirmatory Factor Analysis, CFA). Talvolta viene impiegata a questo scopo anche l’analisi delle componenti principali (Principal Component Analysis, PCA)[^PCA]. Tutti gli aspetti legati all'utilizzo di formule e metodi statistici di queste analisi sono trattate nella _Parte II – Approfondimenti tecnici_.
 
 [^PCA]: La PCA, diversamente dall'analisi fattoriale, ha principalmente uno scopo di riduzione dei dati e non è equivalente all’analisi fattoriale quando l’obiettivo è formulare inferenze su costrutti latenti. 
@@ -202,7 +202,7 @@ _Soglie indicative_: Non esistono soglie generali per l'analisi fattoriale visto
 
 La quarta fonte di evidenza descritta dagli _Standards_ riguarda la relazione tra il punteggio del test e altre variabili esterne. È la più ampia delle cinque fonti, e se si fa riferimento ad una terminologia più classica comprende diverse etichette che sono spesso trattate separatamente: la _validità di costrutto_ (per gli aspetti non già coperti dalla struttura interna), la _validità di criterio_ e la _validità ecologica_.
 
-##### Validità di costrutto {#validita-costrutto}
+#### Validità di costrutto {#validita-costrutto}
 
 La **validità di costrutto** è storicamente considerata la più importante tra le validità, ed è spesso presentata come quella verso cui tutte le altre convergono: alcune classificazioni di fatto considerano tutte le validità come nient'altro che diverse sfaccettature della validità di costrutto. Questo però dipende da ciò che noi decidiamo di definire "costrutto". In accordo agli _Standards_, il concetto di costrutto è ben più ampio di quello riportato in questo libro e include anche quello di criterio. La loro definizione di costrutto è "il concetto o caratteristica che il test dovrebbe misurare" `(\cite{aera2014standards}, p. 11)`{=latex}`(AERA, APA, & NCME, 2014, p. 11)`{=html}. Per rimanere più aderente ai termini utilizzati spessi in neuropsicologia e per maggiore chiarezza, ho preferito mantenere la distinzione tra costrutto (concetto psicologico inosservabile) e criterio, come caratteristica osservabile (Cronbach & Meehl, 1955).
 
@@ -218,7 +218,7 @@ Tradizionalmente la validità di costrutto viene scomposta in tre aspetti: la **
 La validità di costrutto, e in particolare la struttura fattoriale, sono spesso associate al concetto di _invarianza di misura_, la proprietà di un test di misurare la stessa cosa anche in diverse condizioni (ad esempio in diverse popolazioni di pazienti). Questo aspetto è leggermente approfondito nel paragrafo [Focus: Invarianza di misura nei test neuropsicologici](#invarianza-intro) e più in dettaglio nel capitolo dedicato della _Parte II – Approfondimenti tecnici_.
 
 
-##### Validità convergente/divergente {#validità-convergentedivergente}
+#### Validità convergente/divergente {#validità-convergentedivergente}
 Con questo nome si intende la capacità del punteggio del test di convergere o divergere in maniera coerente con altre misure. 
 
 - **Validità convergente**: è la qualità del punteggio al test di correlare con altre misure dello stesso costrutto, o di costrutti teoricamente vicini. Ad esempio, un test di memoria è atteso che correli con altri test di memoria. Un test di abilità di comprensione del linguaggio, avrebbe evidenza di validità di costrutto se il punteggio correlasse con un altro test che misura abilità di comprensione del testo scritto (che è una parte della comprensione del linguaggio).
