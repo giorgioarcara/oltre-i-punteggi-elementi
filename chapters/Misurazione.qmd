@@ -512,7 +512,8 @@ Un errore frequente nella valutazione di un test consiste nel dedurre ciò che m
 Per stabilire se tale interpretazione sia giustificata, occorre esaminare come il test è stato costruito, quali processi sono coinvolti nello svolgimento dei compiti e, soprattutto, quali evidenze empiriche ne sostengono l’impiego nella popolazione e nel contesto di interesse. Il prossimo capitolo, dedicato a [validità e affidabilità](Validita-Affidabilita.qmd#validita-e-affidabilita), presenta i criteri con cui valutare queste evidenze.
 
 `\pagebreak`{=latex}
-::: {.callout-important}
+
+:::{.callout-important}
 Il nome di un test non ci dice _necessariamente_ cosa misura quel test. Ad esempio, un test che si presenta come "test di memoria di lavoro" non è detto misuri efficacemente la memoria di lavoro. Dovremmo sempre indagare se ci sono prove empiriche sufficienti che il test misuri con efficacia ciò che intende misurare.
 :::
 
