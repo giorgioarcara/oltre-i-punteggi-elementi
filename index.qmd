@@ -5,7 +5,7 @@ suppress-bibliography: true
 `<img src="Figures/cover-html.png" style="width:100%; height:auto; display:block; margin:auto;" />`{=html}
 
 ```{r, echo=FALSE}
-cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.2.1"))
+cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.3.0"))
 ```
 
 
@@ -15,20 +15,25 @@ knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
 ```
 
 
-### Obiettivo del libro
+### Obiettivo e struttura del libro
 Questo libro ha come obiettivo fornire le conoscenze fondamentali di psicometria e di statistica da utilizzare nella pratica clinica neuropsicologica. In aggiunta a ciò, il libro contiene sezioni dedicate alla neuropsicologia forense e alla psicologia clinica in generale. 
 Nel corso dei suoi capitoli sono trattati diversi aspetti psicometrici e statistici in una maniera che cerca di essere il più possibile accessibile e basata su esempi concreti, senza però banalizzare la complessità degli argomenti trattati. 
 Per le psicologhe e gli psicologi alle parole "psicometria" e "statistica" spesso si associano ricordi dolorosi del periodo universitario piuttosto che aspetti quotidiani dell'attività professionale. Questo libro ha l'ambizioso obiettivo di mostrarvi come questo sia profondamente sbagliato e che sia la psicometria, sia la statistica possano avere un ruolo cruciale nell'attività clinica.
 
 A differenza di altri testi di psicometria disponibili, il libro si focalizza specificamente sull' __applicazione pratica__ delle conoscenze psicometriche e statistiche. 
-Al momento iniziale di scrittura di questo libro è in programma la scrittura di due volumi, separati ma strettamente connessi. Il primo (quello presente) è destinato proprio a chi si occupa di clinica: contiene tutti gli elementi fondamentali, ma evita approfondimenti relativi alle formule e non scende nei dettagli più tecnici. Il secondo, più specialistico, sarà sviluppato in un secondo momento e sarà destinato a chiunque voglia conoscere più in dettaglio gli aspetti psicometrici e statistici rilevanti per la neuropsicologia clinica. Quest'ultimo volume sarà dedicato anche a chi voglia effettuare attività di ricerca nell'ambito e conterrà codice in `R` per approfondire gli argomenti esplorati, 
+
+_Oltre i punteggi_ è concepito come un unico libro articolato in due parti complementari, che corrispondono a due livelli di approfondimento e non a due pubblici rigidamente separati. La **Parte I – Test, misurazione e ragionamento clinico** presenta i concetti necessari per applicazione di psicometria e statistica nella pratica clinica, al fine di scegliere e interpretare i test, privilegiando esempi concreti e conseguenze per la pratica. Include i dettagli tecnici indispensabili, ma evita, quando possibile, di soffermarsi sulle formalizzazioni matematiche e sugli aspetti computazionali più avanzati.
+
+La **Parte II – Approfondimenti tecnici** approfondisce gli aspetti formali e specialistici degli argomenti trattati, discutendo formule, assunzioni, procedure di stima, simulazioni e codice in `R`. È pensata per chi desidera comprendere più in dettaglio i metodi psicometrici e statistici rilevanti per la neuropsicologia clinica e, in particolare, per chi svolge attività di ricerca, ma non è concepita come un libro autonomo rivolto esclusivamente a ricercatrici e ricercatori.
+
+Questa struttura permette due percorsi di lettura, uno essenziale e applicativo e uno di approfondimento tecnico, tra loro strettamente collegati. La scelta editoriale di riunire le due parti in un unico volume oppure di pubblicarle in due volumi distinti potrà essere presa in seguito, sulla base dell'estensione complessiva del libro, senza modificarne l'architettura concettuale.
 
 ### Un libro in sviluppo
 Il libro "Oltre i Punteggi" è reso già disponibile anche prima della sua stesura definitiva. La versione che state per leggere infatti è un lavoro in via di sviluppo ancora incompleto. Potete seguire aggiornamenti più puntuali e commenti sugli sviluppi del libro nella newsletter associata [https://oltreipunteggi.substack.com/](https://oltreipunteggi.substack.com/). 
 Questo modello di scrittura potrebbe sembrare strano, ma è molto comune in Open Science e ha due principali vantaggi: 1) presenta la conoscenza scientifica per quello che è, cioè qualcosa di fallibile e in costante miglioramento. Un libro scritto in questa maniera può più facilmente essere al passo con i più recenti sviluppi e anche dopo la sua conclusione potrà essere migliorato. È un modello che permette un maggiore contributo di lettrici e lettori, che possono, già nel corso della scrittura, dare suggerimenti o commenti su come il libro potrebbe essere scritto per essere più fruibile.
 
 ### Contribuire a questo libro
-Questo libro è pensato per professioniste/i (principalmente neuropsicologhe/i cliniche/i e forensi) e idealmente è anche _sviluppato insieme a loro_ in maniera collaborativa. Se hai un suggerimento su un argomento da trattare, su come migliorare una spiegazione, se vuoi segnalare un errore di battitura o in generale per qualsiasi consiglio, puoi usare i pulsanti _"Segnala un problema"_ e _"Modifica questa pagina"_ che trovi a destra nella versione web del libro. In alternativa puoi scrivermi una mail a <giorgio.arcara@gmail.com> . Cercherò di integrare ogni segnalazione/richiesta e il tuo nome verrà inserito all'interno dei ringraziamenti del libro per riconoscere il tuo contributo.
+Questo libro è pensato per professioniste/i (principalmente neuropsicologhe/i cliniche/i e forensi) e idealmente è anche _sviluppato insieme a loro_ in maniera collaborativa. Se hai un suggerimento su un argomento da trattare, su come migliorare una spiegazione, se vuoi segnalare un errore di battitura o in generale per qualsiasi consiglio, puoi usare i pulsanti _"Segnala un problema"_ e _"Modifica questa pagina"_ che trovi a destra nella versione web del libro. In alternativa puoi scrivermi una mail a <giorgio.arcara@gmail.com>. Cercherò di integrare ogni segnalazione/richiesta e il tuo nome verrà inserito all'interno dei ringraziamenti del libro per riconoscere il tuo contributo.
 
 
 ### Due principi fondamentali
@@ -58,7 +63,7 @@ Per alcune informazioni aggiuntive sulle scelte stilistiche/redazionali guarda l
 ### Ringraziamenti
 Per la stesura di questo libro ho ricevuto un grande supporto da parte di molte persone, a cui va il mio più sentito ringraziamento. 
 
-Vorrei innanzitutto ringraziare la Associazione Italiana di Specialisti in Neuropsicologia [_AISN_](https://aisn.pro/) (e in particolare la sua presidente la dott.ssa Jessica Rigon), per il supporto al progetto e per avere organizzato dei momenti di scambio con i suoi membri. Tutti i commenti e le discussioni sono stati fondamentali per la stesura di questo libro.
+Vorrei innanzitutto ringraziare l'Associazione Italiana di Specialisti in Neuropsicologia [_AISN_](https://aisn.pro/) (e in particolare la sua presidente la dott.ssa Jessica Rigon), per il supporto al progetto e per avere organizzato dei momenti di scambio con i suoi membri. Tutti i commenti e le discussioni sono stati fondamentali per la stesura di questo libro.
 
 Di seguito trovate una lista dettagliata delle persone che hanno contribuito singolarmente, in ordine alfabetico.
 
@@ -76,20 +81,21 @@ Per i ringraziamenti personali più estesi, si veda la sezione [**Ringraziamenti
 :::
 <!-- code above necessary for epub rendering -->
 
-### Indice Provvisorio
-Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere modificato sulla base dei commenti ricevuti durante il suo sviluppo.
+### Indice provvisorio
+Di seguito trovi un indice provvisorio del libro. La suddivisione dei contenuti nelle due parti e l'organizzazione dei singoli capitoli potranno essere modificate sulla base dei commenti ricevuti durante il suo sviluppo.
 
-**PARTE 1: Elementi per la pratica clinica**
+**PARTE I: Test, misurazione e ragionamento clinico**
 
 **Introduzione**
 
-  * Il protagonista del libro: Il test neuropsicologico
+  * Il protagonista del libro: il test neuropsicologico
   * Il libro in breve
   * Una metafora utile
+  * Competenze psicometriche/statistiche e competenze cliniche
   * Cosa il libro NON tratta
   * Sezioni speciali: _Focus_, _Nella pratica clinica_, _Errori comuni_
 
-**1. Misurazione e Test in Neuropsicologia Clinica**
+**1. Misurazione e test in neuropsicologia clinica**
 
   * Perché è importante misurare?
   * Misurazione e neuropsicologia clinica
@@ -98,24 +104,63 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
     * Tipologie di test
     * Test di prestazione massima
     * Test di comportamento tipico
+    * Altri strumenti utili per la valutazione neuropsicologica
+  * Oggetti di interesse dei test neuropsicologici
+    * Funzioni cognitive o costrutti specifici
+    * Costrutti più generici
+    * Costrutti legati ad abilità funzionali
+    * Altri costrutti di potenziale rilevanza clinica
+    * Probabilità di appartenere ad un gruppo (diagnostico)
+    * Gruppi di funzioni cognitive
+  * Questo è un buon test?
   * Teoria Classica dei Test
-  * Sviluppo di test tramite Teoria Classica dei Test
-  * Oltre la Teoria Classica dei Test
+    * Il principio cardine: X = T + E
+    * Limiti della CTT
+    * La CTT in sintesi
+  * Sviluppo di test tramite Teoria Classica dei Test **(da scrivere)**
+  * Oltre la Teoria Classica dei Test **(da scrivere)**
   * Capitolo 1: Riassunto
+  * Focus: utilizzare i punteggi ai test per comunicare lo stato clinico
+  * Errori comuni: cambiare la procedura di un test.
 
-**2. Validità e Affidabilità**
+**2. Validità e affidabilità**
 
+  * Come leggere questo capitolo
   * Validità
+    * Validità: introduzione
+    * Una nota storica: la validità di facciata
+    * Evidenze basate sul contenuto del test
+      * Validità di contenuto
+    * Evidenze basate sui processi di risposta
+    * Evidenze basate sulla struttura interna
+      * Struttura fattoriale
+    * Evidenze basate sulle relazioni con altre variabili
+      * Validità di costrutto
+      * Validità convergente/divergente
+      * Relazioni con altre variabili coerenti con il costrutto
+      * Validità di criterio (concorrente, predittiva, gruppi noti)
+      * Validità ecologica
+    * Evidenze basate sulle conseguenze dei test
   * Affidabilità
-  * Nella pratica clinica: Come usare Affidabilità e Validità per scegliere i test
-  * Nella pratica clinica: Come usare Affidabilità e Validità per interpretare i test
-  * Errori comuni nel considerare gli aspetti psicometrici dei test
+    * Affidabilità: introduzione
+    * Affidabilità split-half
+    * Consistenza interna
+    * Affidabilità test-retest
+    * Inter-rater agreement
   * Capitolo 2: Riassunto
+  * Nella pratica clinica: come usare validità e affidabilità per scegliere i test
+  * Focus: imprecisione dei test e intervalli di confidenza
+  * Focus: validità e affidabilità come proprietà riferite ad un contesto
+  * Focus: invarianza di misura nei test neuropsicologici
+  * Focus: dalla validità di un test alla validità di una specifica valutazione
+  * Errori comuni: ignorare validità e affidabilità di un test.
+  * Focus: valutare la validità di costrutto
+  * Focus: chiarezza del costrutto o del criterio
 
-**3. Identificare Deficit e danni cognitivi**
+**3. Identificare deficit e danni cognitivi (da scrivere)**
 
-  * I concetti di _deficit_ e _danno_ in valutazione dell'adulto
-  * Il concetto di _deficit_ in età evolutiva
+  * I concetti di _deficit_ e _peggioramento_ nella valutazione dell'adulto
+  * Il concetto di _deficit_ e _peggioramento_ in età evolutiva
   * Dati normativi, percentili e _cut-off di normalità_ 
     * Come si ottengono i dati normativi
   * Metodi per calcolare i cut-off di normalità
@@ -133,7 +178,7 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
   * Capitolo 3: Riassunto
 
 
-**4. Identificare patologie o condizioni di interesse**
+**4. Identificare patologie o condizioni di interesse (da scrivere)**
 
   * Il _gold standard_ in neuropsicologia clinica e forense
   * Cut-off di discriminazione
@@ -160,23 +205,34 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
  * Punteggi Equivalenti.
  * Capitolo 6: Riassunto
 
-**7. Valutazioni forensi e il problema della Simulazione**
+**7. Valutazioni forensi e il problema della simulazione (da scrivere)**
 
   * La validità di performance
   * Identificare la simulazione in una valutazione
   * Capitolo 7: Riassunto
+  
+**8. Scegliere i test neuropsicologici**
 
+  * Scegliere i test per la propria cassetta detli attrezzi 
+    * I tre elementi: obiettivi, caratteristiche psicometriche, aspetti pratici.
+  * Scegliere i test per una specifica valutazione
+    * Approccio a batteria fissa
+    * approccio a batteria variabile
+    * approcci ibridi
+  * Tenersi aggiornati con i nuovi test
+  * Suggerimenti pratici per la scelta dei test
+  * Focus: dovrei utilizzare i test più diffusi? <!-- non banalizzare questo e dire che dipende, può avere senso-->
 
-**8. Il teorema di Bayes e la sua rilevanza in clinica**
+**9. Il teorema di Bayes e la sua rilevanza in clinica (da scrivere)**
 
   * Il teorema di Bayes in breve
   * Perché il teorema di Bayes è rilevante in neuropsicologia clinica
   * Perché il teorema di Bayes è rilevante in neuropsicologia forense
   * Errori comuni: cosa può succedere se non si utilizza il Teorema di Bayes nelle interpretazioni.
-  * Capitolo 8: Riassunto
+  * Capitolo 9: Riassunto
 
 
-**9. Interpretare i risultati ai test neuropsicologici**
+**10. Interpretare i risultati ai test neuropsicologici (da scrivere)**
 
   * Perché _Interpretazione_ e non _Lettura_?
   * L' _Interpretative Approach_ nella pratica clinica
@@ -185,16 +241,17 @@ Di seguito trovi un indice provvisorio del libro. Questo indice potrà essere mo
     * Integrare i risultati ai test con informazioni qualitative
     * Interpretare casi anomali
   * Conclusioni: il ruolo fondamentale della/del professionista nell'utilizzo dei test.
-  * Capitolo 9: Riassunto
+  * Capitolo 10: Riassunto
 
-**10. Fondamenti della Neuropsicologia Clinica: Scopi, Misurazione e Giustificazione delle Inferenze Cliniche**
-
+**11. Fondamenti della neuropsicologia clinica: scopi, misurazione e giustificazione delle inferenze cliniche (da scrivere)**
+  
  * Perché è importante un capitolo sull'Epistemologia?
- * Metodologia ed Epistemologia
+ * Assunti comuni (e impliciti della neuropsicologia clinica)
+ * Epistemologia e metodologia
  * Il potenziale ruolo dell'AI nella valutazione neuropsicologica
- * Capitolo 10: Riassunto
+ * Capitolo 11: Riassunto
 
-**PARTE 2: Approfondimenti tecnici**
+**PARTE II: Approfondimenti tecnici (da scrivere)**
 
 _da definire_
 
@@ -203,4 +260,5 @@ _da definire_
   * Note di redazione
   * Definizioni
   * Registro aggiornamenti
+  * Ringraziamenti personali
   

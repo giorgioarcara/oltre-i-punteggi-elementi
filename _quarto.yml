@@ -4,6 +4,7 @@ project:
 filters:
   - filters/date.lua
   - filters/domanda.lua
+  - filters/citazione.lua
   - filters/callout_style.lua
   - filters/special-section-icons.lua
 
@@ -81,6 +82,12 @@ format:
     include-in-header:
       text: |
         \KOMAoptions{DIV=12, BCOR=10mm, headings=standardclasses}
+        % scrbook usa flushbottom di default: lo spazio elastico a fondo pagina
+        % viene "stirato" per giustificare il margine inferiore. Questo interagisce
+        % male con i box tcolorbox usati per i callout (es. "Definizione"): lo
+        % stiramento finisce prima del box, e il box successivo può sovrapporsi
+        % al precedente. raggedbottom evita lo stiramento e risolve il problema.
+        \raggedbottom
         \usepackage{draftwatermark}
         \SetWatermarkText{BOZZA}
         \SetWatermarkScale{1.5} % bigger/smaller watermark
@@ -123,12 +130,23 @@ format:
         }{%
           \end{center}\vspace{-4pt}\noindent\rule{\linewidth}{0.4pt}\par\medskip
         }
+        \newenvironment{citazione}{%
+          \par\medskip
+          \begin{center}\large\itshape
+        }{%
+          \end{center}\medskip
+        }
+        \newcommand{\citeattrib}[1]{%
+          \par\normalfont\upshape\small #1\par\medskip
+        }
         \usepackage{pdfpages}
         % Redefine \maketitle to do nothing
         \renewcommand{\maketitle}{}
         
         % remove table number from captions (to uniform with html)
         \usepackage{caption}
+        % Reduce caption font size (figures and tables), otherwise too large
+        \captionsetup{font=footnotesize}
         % Remove the "Table X:" label for tables (only affects printed captions)
         \captionsetup[table]{labelformat=empty, labelsep=none}
         
