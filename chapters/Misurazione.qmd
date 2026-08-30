@@ -4,27 +4,23 @@ suppress-bibliography: true
 
 # Misurazione e test in neuropsicologia clinica {#misurazione-e-test-in-neuropsicologia-clinica}
 
-## Perché è importante misurare?
-Un intero capitolo dedicato alla misurazione non può che iniziare da una possibile definizione di cosa si intende appunto per misurazione:
+## Introduzione alla misurazione {#introduzione-alla-misurazione}
 
-_La misurazione è l'utilizzo di numeri per descrivere degli oggetti di interesse_. 
+:::{.domanda}
+_Perché è importante misurare?_
+:::
 
-Come vedremo nel [prossimo paragrafo](#misurazione_e_neuropsicologia_clinica), esistono svariate possibili definizioni di misurazione, con implicazioni non banali, ma accontentiamoci per il momento di questa sopra per fare alcune prime considerazioni.
-Innanzitutto, misurare quasi sempre è associato ad ottenere _numeri_, cioè punteggi, che ci aiutano nella descrizione di qualcosa. Questi _oggetti di interesse_ in neuropsicologia sono di diverso tipo, ma il più delle volte sono funzioni cognitive, come attenzione o memoria. <!-- capire se vuoi generalizzare rispetto ad oggetti -->
+Prima di entrare nei dettagli è importante soffermarsi su questa domanda fondamentale. Non possiamo dare per scontato che misurare sia una cosa necessaria o indispensabile (in neuropsicologia clinica e in generale). Prima di tentare di rispondere a questo domanda dobbiamo chiarire cosa si intende per misurazione. Una definizione possibile, semplice, è la seguente:
 
-Per misurare utilizziamo i **test** cioè specifici strumenti  sviluppati appositamente in ambito psicologico e neuropsicologico. Anche i test saranno oggetto di un [paragrafo dedicato](#i-test)
+_La misurazione è l'utilizzo di numeri per descrivere degli oggetti di interesse_.
+
+Come vedremo nel [prossimo paragrafo](#misurazione_e_neuropsicologia_clinica), esistono svariate possibili definizioni di misurazione, con implicazioni non banali, ma accontentiamoci per il momento di questa per fare alcune prime considerazioni. Innanzitutto, misurare quasi sempre è associato ad ottenere _numeri_, cioè punteggi, che ci aiutano nella descrizione di qualcosa. Questi _oggetti di interesse_ in neuropsicologia sono di diverso tipo, ma il più delle volte sono funzioni cognitive, come attenzione o memoria. <!-- capire se vuoi generalizzare rispetto ad oggetti -->
+
+Per misurare utilizziamo i **test**, cioè specifici strumenti sviluppati appositamente in ambito psicologico e neuropsicologico. Anche i test saranno oggetto di un [paragrafo dedicato](#i-test).
 
 `\pagebreak`{=latex}
 
-Prima di cominciare ad entrare in tutti i dettagli è importante soffermarsi su una domanda fondamentale: 
-
-:::{.domanda}
-_Perché è importante misurare?_ 
-:::
-
-Non possiamo dare per scontato che sia una cosa necessaria o indispensabile e anzi, è utile riflettere sull'utilità di utilizzare numeri per descrivere qualcosa.
-
-La misurazione è innanzitutto considerata una delle basi del metodo scientifico e un approccio scientifico e basato sull'evidenza, non può che passare dalla misurazione. Un celebre aforisma (probabilmente apocrifo) di Galileo Galilei, uno dei padri del metodo scientifico è: _misura ciò che puoi misurare, rendi misurabile ciò che non lo è_ .  Anche ogni libro che parli di epistemologia, cioè la filosofia della scienza, tende ad avere un capitolo o una sezione dedicata alla misurazione, a sostegno di quanto sia fondamentale per il processo scientifico `(\cite{boniolo1999filosofia})`{=latex}`(Boniolo & Vidali, 1999)`{=html}. In breve quindi:
+Tornando alla domanda iniziale: la misurazione è innanzitutto considerata una delle basi del metodo scientifico, e un approccio scientifico e basato sull'evidenza non può che passare dalla misurazione. Un celebre aforisma (probabilmente apocrifo) di Galileo Galilei, uno dei padri del metodo scientifico è: _misura ciò che puoi misurare, rendi misurabile ciò che non lo è_ .  Anche ogni libro che parli di epistemologia, cioè la filosofia della scienza, tende ad avere un capitolo o una sezione dedicata alla misurazione, a sostegno di quanto sia fondamentale per il processo scientifico `(\cite{boniolo1999filosofia})`{=latex}`(Boniolo & Vidali, 1999)`{=html}. In breve quindi:
 
 _misurare in neuropsicologia clinica ci permette di adottare un approccio scientifico e andare oltre la semplice osservazione clinica qualitativa_
 
