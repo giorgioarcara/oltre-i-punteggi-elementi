@@ -8,6 +8,7 @@
 \begin{document}
 
 \begin{tikzpicture}[
+    every node/.style={font=\Large}, % Larger global text size
     node distance=4cm, % Default spacing between blocks
     thick,             % Line thickness
     block1/.style={draw, minimum width=2.5cm, minimum height=1.5cm, align=center, rounded corners}, % block1: with border
@@ -15,13 +16,13 @@
 ]
 
 % Define blocks with styles
-\node[block1, text width=3cm] (A)
+\node[block1, text width=3.8cm] (A)
     {\textbf{Costrutto}\\ \textit{(Es. Memoria)}};
 
-\node[block1, text width=3.5cm, right of=A, xshift=2cm] (B)
+\node[block1, text width=4.5cm, right of=A, xshift=2.5cm] (B)
     {\textbf{Comportamento}\\ \textbf{Osservabile}\\ \textit{(Es. Numero di elementi ricordati)}};
 
-\node[block1, text width=3cm, right of=B, xshift=2cm] (C)
+\node[block1, text width=3.8cm, right of=B, xshift=2.5cm] (C)
     {\textbf{Punteggio al test}};
 
 % Draw double arrows

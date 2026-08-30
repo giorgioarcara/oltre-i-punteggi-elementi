@@ -1,22 +1,51 @@
 ## A2. Registro aggiornamenti {.unnumbered #registro_aggiornamenti}
 
-### v0.0.1 - 5/09/2025
+### v0.0.1 - 5/09/2025 {.unnumbered .unlisted}
 Rilasciata versione iniziale del libro che include
 
 - Premesse
 - Introduzione
 - Appendici A1 e A2
 
-### v0.1.0
+### v0.1.0 {.unnumbered .unlisted}
 
 - corretti vari typos e migliorato il flusso di alcune frasi.
 - aggiunta quarta di copertina.
 - aggiunta prima versione del Capitolo 1.
 - aggiunta previsione di nuovi paragrafi (Riassunti a fine capitolo e paragrafo su AI).
 
-### v0.1.1
+### v0.1.1 {.unnumbered .unlisted}
 
 - aggiunta prima parte paragrafo misurazione
 
-### v0.1.2
+### v0.1.2 {.unnumbered .unlisted}
 - migliorata prima parte paragrafo misurazione.
+
+### v0.1.3 {.unnumbered .unlisted}
+- aggiunta sezione su Validità (teoria).
+- aggiornata figura sulla CTT.
+- aggiornata sezione su Validità.
+
+### v0.2.0 {.unnumbered .unlisted}
+- separata la sezione Validità e Affidabilità in un capitolo autonomo (chapters/Validita-Affidabilita.qmd), distinto dal capitolo su misurazione e test (rinominato "Misurazione e Test in Neuropsicologia Clinica").
+- aggiornati indice provvisorio e riferimenti incrociati (Introduzione, numerazione dei capitoli) di conseguenza.
+
+### v0.2.1 {.unnumbered .unlisted}
+- corrette numerose citazioni non inserite correttamente nello standard a doppio rendering (LaTeX/HTML): parentesi sbilanciate, citazioni narrative con nome autore duplicato, citazioni testuali senza markup.
+- aggiunte citazioni a references.bib.
+- le sezioni inizialmente definite come "Approfondimenti e Curiosità" sono state rinominate come "Focus".
+- aggiunte immagini nei paragrafi sezioni speciali (Focus, Nella Pratica Clinica, Errori comuni).
+- cambiata struttura di base del libro in due parti: Elementi per la pratica clinica, Approfondimenti tecnici.
+- aggiunto in Capitolo 1 paragrafo "oggetti di interesse dei test neuropsicologici".
+
+### v0.2.2 {.unnumbered .unlisted}
+- ampliata sostanzialmente l'Appendice A3 "Definizioni" rinominata come "Glossario". Migliorato aspetto grafico.
+- il libro è ora concepito come un unico libro suddiviso in due parti, "Parte I – Test, misurazione e ragionamento clinico" e "Parte II – Approfondimenti tecnici".
+
+### v0.3.0 {.unnumbered .unlisted}
+- ristrutturata la sezione Validità del Capitolo 2 secondo il framework delle fonti di evidenza degli Standards for Educational and Psychological Testing (AERA, APA, NCME, 2014): validità come concetto unitario, articolata in evidenze basate su contenuto, processi di risposta, struttura interna, relazioni con altre variabili (che ora comprendono costrutto, criterio - concorrente/predittiva - ed ecologica) e conseguenze del testing.
+- mantenute le etichette classiche di validità (contenuto, costrutto, criterio, ecologica) come vocabolario riconoscibile all'interno delle nuove fonti, con tabella di corrispondenza vecchio/nuovo termine.
+- ricollocata la validità di facciata come nota a parte, non più in parallelo con le altre forme di validità.
+- corretta la gerarchia dei titoli nella sezione Validità (alcuni livelli errati preesistenti).
+- aggiunta menzione di "affidabilità/precisione" come termine ombrello nella sezione Affidabilità.
+- aggiornati di conseguenza Glossario (Appendice A3), riferimenti incrociati nel Capitolo 1, e indice provvisorio.

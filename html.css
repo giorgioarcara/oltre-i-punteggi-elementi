@@ -17,6 +17,13 @@ p {
   text-align: justify;
 }
 
+/* Nasconde le icone dei paragrafi speciali (Focus, Nella pratica clinica,
+   Errori comuni) negli indici/TOC, dove finiscono voci racchiuse in <a>;
+   restano visibili nel titolo vero e proprio (h2, non avvolto in <a>). */
+a .special-section-icon {
+  display: none;
+}
+
 .domanda {
   font-style: italic;
   text-align: center;
@@ -27,4 +34,25 @@ p {
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
   max-width: 85%;
+}
+
+/* Citazioni fuori testo (es. epigrafe di Wittgenstein in Glossario) */
+.citazione {
+  font-style: italic;
+  font-size: 1.15em;
+  text-align: center;
+  color: #444;
+  max-width: 75%;
+  margin: 1.8em auto;
+  padding: 0 1.5em;
+}
+
+.citazione .attribuzione {
+  display: block;
+  font-style: normal;
+  font-size: 0.7em;
+  letter-spacing: 0.03em;
+  color: #777;
+  margin-top: 0.7em;
+  text-align: right;
 }

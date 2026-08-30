@@ -1,0 +1,55 @@
+---
+suppress-bibliography: true
+---
+# Dati normativi, deficit e danni
+
+<!---
+:::{.domanda}
+Possiamo considerare gli strumenti di misurazione tutti precisi allo stesso modo?
+:::
+
+## Perché usiamo i dati normativi?
+da soli i punteggi vengono utilizzati
+
+## Deficit e danni
+definizioni di deficit e danno, caso di deficit e non danno, caso di danno e non deficit.
+caso di entrambi.
+Danno è un inferenza ulteriore, deficit potrebbe essere la definizione (definisco deficit se un gruppo). 
+Nel danno serve un caso più possibile simile a quello che sto valutando, nel caso di deficit spesso si decide un gruppo (arbitrario) di riferimento. Es. una persona che ha avuto gravi mancanze affettive nello sviluppo potrebbe avere un deficit, ma potrebbe non essere strano per persone che hanno avuto gravi mancanze. (vedi paragrafo dati normativi e rappresentatività)
+
+aggiungere che non usiamo interpretare la performance per non confondere con l'interpretazione finale di una performance, che arriva alla fine (vedi capitolo 9)
+
+## l'utilità pragmatica delle soglie
+citazioni paper lakens
+
+## La raccolta di dati normativi
+
+### dati normativi e percentili 
+
+#### limiti dei percentili
+
+### dati normativi e probabilità
+
+### metodi statistici base per i dati normativi
+
+### percentili o probabilità?
+
+### Dati normativi e rappresentatività
+
+### Metodi di regressione per i dati normativi
+
+### I Punteggi Equivalenti
+
+### Focus: diversi concetti di normalità (DA VALUTARE)
+
+### Focus: meglio un campione numeroso o un campione rappresentativo?
+
+### Errori comuni: utilizzare i punti-z indiscriminatemente
+
+### Errori comuni: utilizzo generico della performance (sotto cut-off) (da valutare se mettere in sezione Interpretazione).
+
+### Errori comuni: interpretazione dei punteggi sotto soglia come segno di un deficit.
+
+### Focus: la soglia più corretta è al 5%?
+dipende da cosa intendiamo come corretto il 5% sì, ma altrimenti è arbitrario. Se vogliamo magari maggiore sensibilità potrebbe essere  non ideale.
+-->

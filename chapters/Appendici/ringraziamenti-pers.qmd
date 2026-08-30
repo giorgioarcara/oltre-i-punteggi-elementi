@@ -10,3 +10,9 @@ Ringrazio tutto il personale clinico con cui ho avuto modo di discutere e collab
 Vorrei ringraziare i membri del Quantitative Psychology Lab (QP Lab), del Dipartimento di Psicologia Generale dell'Università di Padova per le discussioni stimolanti e le considerazioni. Varie parti di questo libro sono state sviluppate a partire da scambi con loro, spesso illuminanti. In ordine alfabetico: Giovanni Bruno, Umberto Granziol, Stefano Noventa, Massimo Nucci, Andrea Spoto, Michele Vicovaro.
 
 Grazie a Rachele, per la sua pazienza senza fine.
+
+:::{.content-visible when-format="epub" style="page-break-before: always;"}
+
+![](../../Figures/Quarta.png){fig-align="center" width=100%}
+
+:::
