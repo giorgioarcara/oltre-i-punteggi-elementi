@@ -176,6 +176,10 @@ Le voci seguenti sono ordinate alfabeticamente, per facilitarne la consultazione
 
 :   Test di screening cognitivo sviluppato per essere più sensibile del MMSE (vedi [MMSE](#mmse)) nell'identificare compromissioni cognitive lievi, nello specifico nel distinguere MCI e AD da individui sani; esplora più domini (funzioni esecutive, memoria, linguaggio, attenzione, orientamento, abilità visuospaziali). Si somministra individualmente in circa 10-15 minuti, con materiali analoghi al MMSE (protocollo cartaceo con disegni da copiare e compiti da eseguire). Il punteggio grezzo va da 0 a 30, con punteggi più bassi indicativi di maggiore compromissione. `\cite{nasreddine2005montreal}`{=latex}`(Nasreddine et al., 2005)`{=html}.
 
+[Oggettività]{#oggettività}
+:   In questo libro per oggettività si intende l'indipendenza dall'osservatore. Nel contesto di test neuropsicologici, un test è considerato più oggettivo quanto più i risultati non dipendono dall'esaminatore.
+
+
 [Open Science]{#open-science}
 
 :   Un insieme di pratiche che promuovono la trasparenza, la verificabilità e la condivisione dei risultati e processi della ricerca scientifica. All'interno dell'Open Science sono caratteristiche alcune pratiche tra cui la pre-registrazione degli studi (la dichiarazione pubblica, prima della raccolta dei dati, delle ipotesi e delle analisi previste), la condivisione di dati, materiali e codice, o la pubblicazione in accesso aperto degli articoli scientifci.
