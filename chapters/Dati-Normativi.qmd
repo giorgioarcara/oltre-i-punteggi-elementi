@@ -931,11 +931,6 @@ Nel capitolo dedicato però agli aspetti statistici della neuropsicologia, in cu
 L'ambiguità terminologica si può riscontrare anche in altre sedi, non strettamente confinate alla neuropsicologia clinica. La seconda sorgente in cui la scelta terminologica può creare confusione è quella dei manuali dell'_International Classification of Functioning, Disability and Health (ICF)_ `(\cite{who2013icf})`{=latex}`(World Health Organization, 2013)`{=html}[^icf-manual]. In questi manuali infatti il termine _impairment_ è definito come "Problems in body function and structure such as significant deviation or loss" (tr. let. "problemi in funzione e struttura corporea come deviazioni significativa o perdita"), di fatto includendo sia la "deviazione", che in questo libro è stato legato al concetto di _deficit_, sia quello della "perdita", che è legata al concetto di _peggioramento_.
 
 
-## Perché usiamo i dati normativi?
-li usiamo in caso non possiamo definire il gruppo di interesse.
-aggiungere che non usiamo interpretare la performance per non confondere con l'interpretazione finale di una performance, che arriva alla fine (vedi capitolo 9)
-
-
 ## l'utilità pragmatica delle soglie {#utilita-pragmatica-soglie}
 citazioni paper lakens
 
