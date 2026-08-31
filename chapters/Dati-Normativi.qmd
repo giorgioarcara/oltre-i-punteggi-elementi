@@ -76,6 +76,8 @@ p_facile + p_difficile
 
 Nell'esperienza di psicologhe e psicologi questa è una esperienza comune se si pensa agli esami universitari. Nonostante la scala sia sempre la stessa (con un massimo di 30 e lode), il significato del punteggio può essere molto variabile. Un voto di 25 può essere molto alto per alcuni esami, mentre molto basso per altri, a seconda della difficoltà dell'esame.
 
+<!-- da aggiungere? Capire come considerare un punteggio è solo però una prima parte di ciò che potrebbe essere necessario. Anche se capire come si colloca una prestazione a volte è interessante in sé, per esempio nei disturbi evolutivi. Altre volte però l'interesse è più nel capire se c'è stato un cambiamento, e spesso un peggioramento rispetto ad una condizione precedente. -->
+
 Come vedremo, prestazioni che sono tra le più basse (o più in generale peggiori) rispetto al gruppo di riferimento, saranno quelle poi considerate di rilevanza clinica.
 
 Nel corso di questo capitolo verranno affrontati in dettaglio tutti gli aspetti che sono stati anticipati in questa introduzione, partendo da un approfondimento sul perchè utilizziamo quello che finora è stato chiamato "gruppo di riferimento" e che presto chiamaremo _dati normativi_. Spiegheremo poi gli ulteriori passaggi che vengono fatti nell'utilizzare il confronto con questi dati, che ci porterà a delle trasformazioni e, il più delle volte, a delle classificazioni in categorie.
@@ -91,10 +93,10 @@ Cercherò il più possibile di chiarire quando il significato di un certo termin
 
 Uno dei punti cardine di questo libro è infatti l'importanza dell'utilizzo di termini con un significato chiaro e l'impatto di una terminologia vaga nell'influenzare aspetti metodologici, e anche clinici, in neuropsicologia e questo sarà ampiamente discusso nel Capitolo 11.
 
-## Il razionale dell'utilizzo dei dati normativi
+## Dal punteggio grezzo all'interpretazione, in breve
 
 Ricordiamo per un attimo uno degli scopi fondamentali della valutazione neuropsicologica:  investigare lo stato di integrità del funzionamento cognitivo di un individuo. Una diagnosi neuropsicologica sullo stato cognitivo spesso passa per la valutazione di specifici domini (attenzione, memoria, funzioni esecutive), con lo scopo di indagare se uno o più domini può essere con un funzionamento anomalo. 
-Quello che avviene nella routine clinica è di fatto molto semplice ed è familiare a chi ha mai visto o svolto una valutazione: un punteggio ottenuto da una persona esaminata è confrontato con una soglia e a partire da questo confronto avviene un'interpretazione. Ad esempio, un punteggio di 14 al MoCA[^after-adj] è al di sotto della soglia di 16, utilizzando specifici valori di riferimento, potrebbe indicare un risultato con potenziale rilevanza clinica. 
+Quello che avviene nella routine clinica è di fatto molto semplice ed è familiare a chi ha mai visto o svolto una valutazione: un punteggio ottenuto da una persona esaminata è confrontato con una soglia e a partire da questo confronto avviene un'interpretazione. Ad esempio, immaginiamo di ottenere un punteggio di 14 al MoCA[^after-adj] e che questo punteggio sia al di sotto di un'ipotetica soglia pari a 16 che abbiamo ricavato da un articolo scientifico di riferimento: questo potrebbe indicare un risultato con potenziale rilevanza clinica. 
 
 [^after-adj]: per essere precisi con il MoCA, così come in altri test ad essere confrontato con il valore soglia è il _punteggio corretto_ (si veda paragrafo punteggi-corretti). <!-- aggiusta questa frase -->
 
@@ -258,13 +260,13 @@ p_d <- disegna_quadratini(dati_c, "Distribuzione con soglia") +
 :::{.callout-note}
 ## Definizione
 **Prestazione nella norma**
-Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _entro_ una soglia che ci aiuta a identificare prestazioni potenzialmente anomale. In genere si considera nella norma un punteggio che è uguale o migliore del 5% delle prestazioni peggiori[^per-bassa].
+Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _entro_ una soglia che ci aiuta a identificare prestazioni potenzialmente anomale. In genere si considera nella norma una punteggio che è uguale o migliore al valore che delimita il 5% dei punteggi peggiori[^per-bassa]. <!-- NOTA GIORGIO: valutare se mettere invece semplificato con più basso, per poi rimandare a nota -->
 :::
 
 :::{.callout-note}
 ## Definizione
 **Prestazione deficitaria**
-Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _oltre_ una soglia (spesso nota come cut-off di normalità) che ci aiuta a identificare prestazioni potenzialmente anomale. In genere si considera nella norma un punteggio che è uguale o migliore del 5% delle prestazioni peggiori[^per-bassa].
+Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _oltre_ una soglia (spesso nota come cut-off di normalità) che ci aiuta a identificare prestazioni potenzialmente anomale. In genere si considera deficitaria un punteggio peggiore del valore che delimita il 5% delle prestazioni peggiori[^per-bassa].
 :::
 
 
@@ -395,7 +397,7 @@ Questa definizione e queste considerazioni non sono problematiche in sé, ma è 
 
 <!-- NOTA GIORGIO: qui stai usando "punteggio deficitario", ma dopo "deficit". Da chiarire e sottolineare, magari con figura -->
 
-## Perché usiamo i dati normativi per definire i deficit?
+### Perché usiamo i dati normativi per definire i deficit?
 Una domanda lecita che potrebbe sorgere è: perché utilizziamo i dati normativi per definire i deficit? 
 Per esempio, non potrebbe essere più semplice prendere dei pazienti con problemi di memoria e usare loro come _criterio_ (vedi @validita-criterio)?. Questo approccio sposterebbe il problema perché non definiremmo più il deficit esclusivamente a partire dai sani, e aprirebbe tutta una serie di scenari analitici ulteriori (approfonditi nel capitolo 4).
 Il perché questo non avviene è molto semplice e ancora una volta si può comprendere con un semplice esperimento mentale. 
@@ -470,8 +472,8 @@ Come esempi di declino, una potrebbe cominciare ad avere un graduale peggioramen
 
 Negli esempi finora elencati abbiamo usato il termine "peggioramento" proprio per indicare un generale peggioramento e volutamente non abbiamo né usato, né fatto riferimento al già menzionato concetto di deficit. La relazione tra i due verrà spiegata meglio nel prossimo paragrafo.
 
-### Relazione tra deficit e peggioramento.
-Nel discutere di deficit e peggioramento abbiamo sottolineato quanto è importante considerare questi concetti come distinti. Questo può essere sembrato finora una sorta di esercizio di stile semantico, ma come vedremo ha un importante impatto nelle valutazione neuropsicologica e anche, in certi casi, nella correttezza delle intepretazioni che facciamo a partire dai . 
+### Relazione tra deficit e peggioramento
+Nel discutere di deficit e peggioramento abbiamo sottolineato quanto è importante considerare questi concetti come distinti. Questo può essere sembrato finora una sorta di esercizio di stile semantico, ma come vedremo ha un importante impatto nelle valutazione neuropsicologica e anche, in certi casi, nella correttezza delle intepretazioni che sono supportate anche dal linguaggio che utilizziamo. 
 
 In breve, il motivo per cui è importante distinguere questi termini è perché le condizioni che descrivono sono ortogonali: possiamo avere deficit con o senza peggioramento, o un peggioramento, ma con o senza deficit. 
 
@@ -921,7 +923,10 @@ Lezak stessa inoltre in vari casi usa un altro termine, in inglese _impairment_ 
 
 [^Lez-cit2]: “Surgical intervention stopped the bleeding but left him with memory impairments”, (Lezak, 2014). 
 
-Considerando invece un ambito prettamente italiano e considerando il "Manuale di Neuropsicologia" (Vallar & Papagno), è interessante notare come attraverso tutto il testo sia utilizzato comunemente (più o meno in ogni capitolo), il termine "deficit" per indicare vari tipi di compromissioni importanti che si possono avere in seguito a danni neurologici e tipici della neuropsicologia classica. Il termine deficit è utilizzato attraverso il libro sia nel senso di peggioramento, generico, sia come grave compromissione (ad. esempio associata a sintomi classici della neuropsicologia). Nel capitolo dedicato però agli aspetti statistici della neuropsicologia in cui è dato spazio al metodo dei Punteggi Equivalenti, la parola "deficit", non viene mai utilizzata. Questa è una scelta saggia visto che il capitolo è incentrato su dati normativi e quindi su soggetti "sani" o "normali" e si parla semmai di bassa probabilità di osservare alcune prestazioni quando si è sani (questo aspetto è approfondito <!-- NOTA GIORGIO: Espandi e capisci dove mettere qui -->). Lo stesso glossario a fine del capitolo metodologico, non fornisce infatti una definizione né per deficit, né per compromissione. <!-- NOTA GIORGIO: capire meglio quale punto vuoi fare qui -->
+Considerando invece un ambito prettamente italiano e considerando il "Manuale di Neuropsicologia" (Vallar & Papagno), è interessante notare come attraverso tutto il testo sia utilizzato comunemente (più o meno in ogni capitolo), il termine "deficit" per indicare vari tipi di compromissioni importanti che si possono avere in seguito a danni neurologici e tipici della neuropsicologia classica. Il termine deficit è utilizzato attraverso il libro sia nel senso di peggioramento, generico, sia come compromissione più o meno grave (ad. esempio associata a sintomi classici della neuropsicologia). 
+Nel capitolo dedicato però agli aspetti statistici della neuropsicologia, in cui è dato spazio alla spiegazione del metodo dei Punteggi Equivalenti e di altri metodi, la parola "deficit" o "compromissione" non viene mai utilizzata. Questa è una scelta saggia visto che il capitolo è incentrato su dati normativi e quindi su soggetti "sani" o "normali" e si parla semmai di bassa probabilità di osservare alcune prestazioni quando si è sani (questo aspetto è approfondito <!-- NOTA GIORGIO: Espandi e capisci dove mettere qui -->). Lo stesso glossario a fine del capitolo metodologico, non fornisce infatti una definizione né per deficit, né per compromissione. Questo non è però da considerare come una critica o come sbagliato, dal momento che questo glossario fornisce definizioni di termini psicometrici e statistici. A mio avviso però, la mancanza di una chiara definizione di questi termini rischia di creare una scollatura tra gli aspetti metodologici e la quotidianità clinica, in cui sono meno comuni termini tecnici statistici, mentre sono comuni e rilevanti termini come _deficit_ o _compromissione_ il cui utilizzo in senso generico o poco definito, rischia di creare ambiguità o addirittura diversi significati tra diversi professionisti.
+
+<!-- NOTA GIORGIO: capire meglio quale punto vuoi fare qui -->
 
 L'ambiguità terminologica si può riscontrare anche in altre sedi, non strettamente confinate alla neuropsicologia clinica. La seconda sorgente in cui la scelta terminologica può creare confusione è quella dei manuali dell'_International Classification of Functioning, Disability and Health (ICF)_ `(\cite{who2013icf})`{=latex}`(World Health Organization, 2013)`{=html}[^icf-manual]. In questi manuali infatti il termine _impairment_ è definito come "Problems in body function and structure such as significant deviation or loss" (tr. let. "problemi in funzione e struttura corporea come deviazioni significativa o perdita"), di fatto includendo sia la "deviazione", che in questo libro è stato legato al concetto di _deficit_, sia quello della "perdita", che è legata al concetto di _peggioramento_.
 
