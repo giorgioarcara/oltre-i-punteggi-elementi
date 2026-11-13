@@ -17,7 +17,17 @@ book:
   repo-url: "https://github.com/giorgioarcara/oltre-i-punteggi-elementi"
   repo-actions: [issue, edit]
   sharing: [twitter, facebook]
-  downloads: [pdf, epub]
+  # PDF ed EPUB sono allegati alle GitHub Releases: il pulsante punta sempre all'ultima release.
+  # Ogni release deve allegare file con esattamente questi nomi.
+  sidebar:
+    tools:
+      - icon: download
+        text: "Scarica"
+        menu:
+          - text: "Scarica PDF"
+            href: https://github.com/giorgioarcara/oltre-i-punteggi-elementi/releases/latest/download/Oltre-i-punteggi.pdf
+          - text: "Scarica ePub"
+            href: https://github.com/giorgioarcara/oltre-i-punteggi-elementi/releases/latest/download/Oltre-i-punteggi.epub
   chapters:
     - index.qmd
     - chapters/Introduzione.qmd
