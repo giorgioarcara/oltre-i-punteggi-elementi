@@ -13,9 +13,9 @@ Che informazioni cliniche ci fornisce, da solo, il punteggio ad un test neuropsi
 
 Se consideriamo la quasi totalità di test neuropsicologici[^test-comuni], la risposta alla domanda è: molto poche. Il punteggio "grezzo" al test, cioè il punteggio che si ottiene dopo avere semplicemente trasformato i punteggi ai singoli item in un punteggio totale, raramente è in sé informativo. 
 
-Proviamo a pensare ad un test in cui il punteggio ottenibile vada da 0 a 30 (come i comuni MMSE o MOCA). Cosa ci dice se il punteggio ottenuto è 20? è un punteggio da considerare alto o basso?
+Proviamo a pensare ad un test in cui il punteggio ottenibile vada da 0 a 30 (come i comuni MMSE o MoCA). Cosa ci dice se il punteggio ottenuto è 20? È un punteggio da considerare alto o basso?
 
-Nel corso di questo capitolo discuteremo il modo in cui si cerca, da un punto di vista metodologico, a rispondere ad uno degli scopi più comuni di una valutazione neuropsicologica è quello di identificare la presenza di possibili alterazioni nel funzionamento cognitivo (che in seguito classificheremo come _deficit_ o _peggioramenti_).
+Nel corso di questo capitolo discuteremo il modo in cui si cerca, da un punto di vista metodologico, di rispondere ad uno degli scopi più comuni di una valutazione neuropsicologica, cioè quello di identificare la presenza di possibili alterazioni nel funzionamento cognitivo (che in seguito classificheremo come _deficit_ o _peggioramenti_).
 Per farlo somministriamo test che ci aiutino a capire se ci sono effettivamente queste alterazioni. Un punteggio _in sé_ può segnalarlo? Certamente no, un punteggio pari a 20 - in un ipotetico test in cui i punteggi possibili vanno da 0 a 30 - potrebbe essere basso o alto, a seconda della difficoltà del test. La difficoltà del test può essere stimata a partire dalla prestazione di altre persone, che fungano da gruppo di riferimento. Se la maggior parte delle persone ottengono punteggi molto alti ad un test (ad esempio, quasi tutti sopra il 25), allora un punteggio pari a 20/30 potrebbe essere molto basso e quindi segno di quella che abbiamo per ora chiamata come "alterazione" nel funzionamento cognitivo. Se invece in media le persone ottengono un punteggio tra 15 e 16 e quasi nessuno un punteggio superiore a 18, un punteggio pari a 20/30 potrebbe essere invece un punteggio straordinariamente alto.
 
 La @fig-punteggio-20 illustra questo concetto con due gruppi di riferimento simulati: nel primo (a sinistra) quasi tutte le persone ottengono punteggi alti, e un punteggio di 20 cade nella coda bassa della distribuzione; nel secondo (a destra) la maggior parte delle persone si colloca intorno a 15, e lo stesso punteggio di 20 cade nella coda alta. Lo stesso valore numerico, a seconda del gruppo di riferimento, segnala quindi una prestazione straordinariamente bassa oppure straordinariamente alta.
@@ -78,16 +78,16 @@ p_facile + p_difficile
 
 Nell'esperienza di psicologhe e psicologi questa è una esperienza comune se si pensa agli esami universitari. Nonostante la scala sia sempre la stessa (con un massimo di 30 e lode), il significato del punteggio può essere molto variabile. Un voto di 25 può essere molto alto per alcuni esami, mentre molto basso per altri, a seconda della difficoltà dell'esame. 
 
-Capire se dobbiamo considerare un punteggio come particolarmente alto o basso rispetto a un gruppo di riferimento è spesso solo un punto di partenza. In alcuni casi, infatti non solo vogliamo sapere come considerare il punteggio ottenuto, ma anche se questo punteggio potrebbe essere sintomo di qualcosa che non va, come il potenziale sintomo di una malattia neurodegenerativa o la conseguenza di un evento acuto (come un ictus). Come vedremo, questo richiede una serie di assunzioni aggiuntive ed esistono più approcci per rispondere a questa domanda.
+Capire se dobbiamo considerare un punteggio come particolarmente alto o basso rispetto a un gruppo di riferimento è spesso solo un punto di partenza. In alcuni casi, infatti, non solo vogliamo sapere come considerare il punteggio ottenuto, ma anche se questo punteggio potrebbe essere sintomo di qualcosa che non va, come il potenziale sintomo di una malattia neurodegenerativa o la conseguenza di un evento acuto (come un ictus). Come vedremo, questo richiede una serie di assunzioni aggiuntive ed esistono più approcci per rispondere a questa domanda.
 
-Nel corso di questo capitolo verranno affrontati in dettaglio tutti gli aspetti che sono stati anticipati in questa introduzione, partendo da un approfondimento sul perchè utilizziamo quello che finora è stato chiamato "gruppo di riferimento" e che presto chiamaremo _dati normativi_. Spiegheremo poi gli ulteriori passaggi che vengono fatti nell'utilizzare il confronto con questi dati, che ci porterà a delle trasformazioni e, il più delle volte, a delle classificazioni in categorie.
+Nel corso di questo capitolo verranno affrontati in dettaglio tutti gli aspetti che sono stati anticipati in questa introduzione, partendo da un approfondimento sul perché utilizziamo quello che finora è stato chiamato "gruppo di riferimento" e che presto chiameremo _dati normativi_. Spiegheremo poi gli ulteriori passaggi che vengono fatti nell'utilizzare il confronto con questi dati, che ci porterà a delle trasformazioni e, il più delle volte, a delle classificazioni in categorie.
 
 Il confronto con i dati normativi è un aspetto fondamentale della neuropsicologia clinica, spesso considerato il più importante tra quelli di natura psicometrica e statistica. Per questa ragione, l’argomento sarà affrontato gradualmente: dapprima da una prospettiva generale e poi, nei paragrafi successivi, con un livello di dettaglio crescente.
 
 ## Tante definizioni
-Nel corso di questo capitolo, saranno forniti numerose definizioni e saranno introdotti nuovi termini, che saranno necessari per affrontare gli argomenti. 
+Nel corso di questo capitolo, saranno fornite numerose definizioni e saranno introdotti nuovi termini, che saranno necessari per affrontare gli argomenti. 
 
-A differenza di quanto però abbiamo visto nel precedente capitolo, in cui le letteratura della Teoria Classica dei Test ci ha fornito coordinate precise e definizioni spesso piuttosto condivise, per gli argomenti di questo capitolo (dati normativi, soglie e classificazioni), la letteratura non è così uniforme e anzi, in certi casi ho ritenuto necessario introdurre dei termini e dare loro dei significati ben precisi. 
+A differenza di quanto però abbiamo visto nel precedente capitolo, in cui la letteratura della Teoria Classica dei Test ci ha fornito coordinate precise e definizioni spesso piuttosto condivise, per gli argomenti di questo capitolo (dati normativi, soglie e classificazioni), la letteratura non è così uniforme e anzi, in certi casi ho ritenuto necessario introdurre dei termini e dare loro dei significati ben precisi. 
 
 Cercherò il più possibile di chiarire quando il significato di un certo termine è quantomeno in parte condiviso (es. _dati normativi_) o quando è stato specificamente introdotto in questo libro per superare delle ambiguità terminologiche presenti (es. la distinzione esplicita tra _deficit_ e _peggioramento_).
 
@@ -95,44 +95,43 @@ Uno dei punti cardine di questo libro è infatti l'importanza dell'utilizzo di t
 
 ## Dal punteggio grezzo all'interpretazione, in breve
 
-Ricordiamo per un attimo uno degli scopi fondamentali della valutazione neuropsicologica:  investigare lo stato di integrità del funzionamento cognitivo di un individuo. Una diagnosi neuropsicologica sullo stato cognitivo spesso passa per la valutazione di specifici domini (attenzione, memoria, funzioni esecutive), con lo scopo di indagare se uno o più domini può essere con un funzionamento anomalo. 
+Ricordiamo per un attimo uno degli scopi fondamentali della valutazione neuropsicologica: investigare lo stato di integrità del funzionamento cognitivo di un individuo. Una diagnosi neuropsicologica sullo stato cognitivo spesso passa per la valutazione di specifici domini (attenzione, memoria, funzioni esecutive), con lo scopo di indagare se uno o più domini possa avere un funzionamento anomalo. 
 Quello che avviene nella routine clinica è di fatto molto semplice ed è familiare a chi ha mai visto o svolto una valutazione: un punteggio ottenuto da una persona esaminata è confrontato con una soglia e a partire da questo confronto avviene un'interpretazione. Ad esempio, immaginiamo di ottenere un punteggio di 14 al MoCA[^after-adj] e che questo punteggio sia al di sotto di un'ipotetica soglia pari a 16 che abbiamo ricavato da un articolo scientifico di riferimento: questo potrebbe indicare un risultato con potenziale rilevanza clinica. 
 
-[^after-adj]: per essere precisi con il MoCA, così come in altri test ad essere confrontato con il valore soglia è il _punteggio corretto_ (si veda paragrafo punteggi-corretti). <!-- aggiusta questa frase -->
+[^after-adj]: per essere precisi con il MoCA, così come in altri test, ad essere confrontato con il valore soglia è il _punteggio corretto_ (si veda paragrafo punteggi-corretti). <!-- aggiusta questa frase -->
 
 <!-- inserisci figura qui con Utilizzo dei dati normativi nella pratica clinica -->
 
-Ciò che si nasconde dietro un'operazione così semplice è però una procedura fatta da una sequenza di passi, ciascuno con  una specifica motivazione e con precise assunzioni. Esaminiamoli in sequenza.
+Ciò che si nasconde dietro un'operazione così semplice è però una procedura fatta da una sequenza di passi, ciascuno con una specifica motivazione e con precise assunzioni. Esaminiamoli in sequenza.
 
-Il problema di partenza è quello descritto in apertura di questo capitolo: abbiamo bisogno di un modo che ci permetta di intepretare un punteggio per identificare prestazioni con possibile rilevanza clinica. Per raggiungere questo scopo, la confrontiamo con le prestazioni di un _gruppo di riferimento_. Questo gruppo è, la maggior parte delle volte, composto da persone che assumiamo essere sane o _normali_ da cui il nome, **dati normativi**.
+Il problema di partenza è quello descritto in apertura di questo capitolo: abbiamo bisogno di un modo che ci permetta di interpretare un punteggio per identificare prestazioni con possibile rilevanza clinica. Per raggiungere questo scopo, lo confrontiamo con le prestazioni di un _gruppo di riferimento_. Questo gruppo è, la maggior parte delle volte, composto da persone che assumiamo essere sane o _normali_ da cui il nome, **dati normativi**.
 
-Avendo una distribuzione dei punteggi ottenuti da normali possiamo infatti individuare dove si colloca ad un confronta la prestazione che vogliamo valutare: questo avviene essenzialmente stimando quante persone ottengono un punteggio uguale o peggiore a quello osservato. Esistono diversi modi per farlo e anche diversi modi per concettualizzare questo problema (stima delle percentuale di persone del gruppo di riferimento che ottengono punteggio uguale o peggiore oppure stima della probabilità di ottenere una prestazione uguale o peggiore). I diversi metodi statistici affrontati in diversi paragrafi dedicati. <!-- NOTA GIORGIO: aggiungi link corretti ai paragrafi-->.
+Avendo una distribuzione dei punteggi ottenuti da normali possiamo infatti individuare dove si colloca la prestazione che vogliamo valutare: questo avviene essenzialmente stimando quante persone ottengono un punteggio uguale o peggiore a quello osservato. Esistono diversi modi per farlo e anche diversi modi per concettualizzare questo problema (stima della percentuale di persone del gruppo di riferimento che ottengono punteggio uguale o peggiore oppure stima della probabilità di ottenere una prestazione uguale o peggiore). I diversi metodi statistici sono affrontati in diversi paragrafi dedicati. <!-- NOTA GIORGIO: aggiungi link corretti ai paragrafi-->.
 
 :::{.callout-tip}
 ## Riflessione
 I dati normativi ci aiutano a _classificare_ una prestazione rispetto ad un gruppo di riferimento, per facilitare l'interpretazione. <!--forse utile parlare di interpretazione di un test e? o che altra definizione -->
 :::
 
-Il confronto con i dati normativi ci aiuta dunque a classificare una prestazione e capire se questa è tra le migliori, tra la peggiori o in generale come si classifica rispetto alle persone sane. Questa classificazione spesso viene espressa trasformando il punteggio originale in una percentuale (es. 10%, 2%). Ad esempio un punteggio grezzo di 20, trasformato in 3% indica che solo il 3% delle persone del gruppo di riferimento hanno un punteggio uguale o inferiore a quello osservato. Questo ci mostra che la prestazione è straordinariamente bassa. Una classificazione del genere non è però sufficiente a fini clinici perchè è un valore all'interno di una scala sostanzialmente continua. Quando una prestazione è sufficientemente bassa da poter essere considerata _anomala_ e il potenziale segnale di un problema? Tornando all'esempio sopra, 3% è sufficientemente basso? E il 4% ? E il 10%?
+Il confronto con i dati normativi ci aiuta dunque a classificare una prestazione e capire se questa è tra le migliori, tra le peggiori o in generale come si classifica rispetto alle persone sane. Questa classificazione spesso viene espressa trasformando il punteggio originale in una percentuale (es. 10%, 2%). Ad esempio un punteggio grezzo di 20, trasformato in 3% indica che solo il 3% delle persone del gruppo di riferimento hanno un punteggio uguale o inferiore a quello osservato. Questo ci mostra che la prestazione è straordinariamente bassa. Una classificazione del genere non è però sufficiente a fini clinici perché è un valore all'interno di una scala sostanzialmente continua. Quando una prestazione è sufficientemente bassa da poter essere considerata _anomala_ e il potenziale segnale di un problema? Tornando all'esempio sopra, 3% è sufficientemente basso? E il 4%? E il 10%?
 
-Per risolvere questo problema sono usate, con fini clinico-pragmatico, delle **soglie** o **cut-off**, valori puntuali oltre i quali consideriamo il risultato di rilevanza clinica. La soglia più comune è quella del $5%$ dei punteggi peggiori dei dati normativi. 
+Per risolvere questo problema sono usate, con fini clinico-pragmatici, delle **soglie** o **cut-off**, valori puntuali oltre i quali consideriamo il risultato di rilevanza clinica. La soglia più comune è quella del 5% dei punteggi peggiori dei dati normativi. 
 Avere soglie ci permette di trasformare una variabile continua (percentuale rispetto al gruppo di riferimento), in categorie (es. punteggio "al di sotto della norma"/"nella norma" per usare delle etichette usate di frequente). Questo aspetto sarà affrontato in dettaglio nel paragrafo [L'utilità pragmatica delle soglie](#utilita-pragmatica-soglie).
 
 
-In neuropsicologia clinico dello sviluppo, spesso avviene invece una trasformazione prima in un valore percentuale (es 5% delle prestazioni peggiori) e solo dopo viene confrontato questa con una soglia percentuale. Ad esempio, un punteggio di $16$, potrebbe indicare un valore che identifica il $3%$ dei punteggi peggiori, e la soglia potrebbe essere fissata al $5%$
-In neuropsicologia clinica dell'adulto, la soglia è spesso espressa nella scala del punteggio originale, cosicché sia possibile confrontare direttamente un punteggio grezzo (o un punteggio "corretto" vedi paragrafo correzioni dei punteggi <!--NOTA GIORGIO: qui -->), con il valore che indica una certa percentuale soglia decisa a monte. Se nell'esempio sopra, la soglia o cut-off del $5%$ fosse $18$, indicherebbe che ogni punteggio inferiore al 18 è inferiore al 5% dei punteggi peggiori del gruppo di riferimento. 
+In neuropsicologia clinica dello sviluppo, spesso avviene invece una trasformazione prima in un valore percentuale (es. 5% delle prestazioni peggiori) e solo dopo viene confrontata questa con una soglia percentuale. Ad esempio, un punteggio di $16$, potrebbe indicare un valore che identifica il 3% dei punteggi peggiori, e la soglia potrebbe essere fissata al 5%.
+In neuropsicologia clinica dell'adulto, la soglia è spesso espressa nella scala del punteggio originale, cosicché sia possibile confrontare direttamente un punteggio grezzo (o un punteggio "corretto" vedi paragrafo correzioni dei punteggi <!--NOTA GIORGIO: qui -->), con il valore che indica una certa percentuale soglia decisa a monte. Se nell'esempio sopra, la soglia o cut-off del 5% fosse $18$, indicherebbe che ogni punteggio inferiore al 18 è inferiore al 5% dei punteggi peggiori del gruppo di riferimento. 
 Questi due approcci rappresentano però solo consuetudini (e caratteristiche della realtà italiana), ma che portano di fatto a risultati identici.
 
-Ricapitolando, il passaggio da punteggio grezzo a confronto con soglie può avvenire in due modi  equivalenti. Il primo modo è quello di trasformare il punteggio in una certa percentuale, e poi confrontarla eventualmente con una soglia decisa a priori per aiutare l'interpretazione. Il secondo modo comporta confrontare il punteggio grezzo con il valore che corrisponde ad una percentuale soglia nota.
+Ricapitolando, il passaggio da punteggio grezzo a confronto con soglie può avvenire in due modi equivalenti. Il primo modo è quello di trasformare il punteggio in una certa percentuale, e poi confrontarla eventualmente con una soglia decisa a priori per aiutare l'interpretazione. Il secondo modo comporta confrontare il punteggio grezzo con il valore che corrisponde ad una percentuale soglia nota.
 
 ![Due modi concettualmente equivalenti per passare da un punteggio grezzo a un'interpretazione basata su una soglia. Nella via 1 (sopra) il punteggio grezzo è prima trasformato in percentile, poi confrontato con una soglia espressa in percentuale. Nella via 2 (sotto) il punteggio grezzo è confrontato direttamente con una soglia espressa nella stessa scala del punteggio originale.](../Figures/Latex-Fig-Dati-Normativi-Due-Vie/Fig_due-vie-soglia.png){#fig-due-vie-soglia fig-align="center" width=95%}
 
-Una volta che la prestazione è classificata, possibilmente dopo il confronto con una soglia, rimane da ricavare una possibile interpretazione dei risultati. Quando viene indagato lo stato una certa funzione cognitiva le possibili domande potrebbero essere idantificare la presenza di un _deficit_ (nel senso di un problema funzionale conclamato) oppure di un _peggioramento_ (una diminuzione del livello di funzionamento rispetto ad uno stato precedente). L'importante differenza tra questi due termini è approfondita nel paragrafo [Deficit e danni][#deficit-danni], mentre la catena di assunzioni nell'interpretare una prestazione come segno di un deficit o di un peggioramento è trattata nel paragrafo [Inferenze a partire dal confronto con dati normativi](#Inferenze-dati-normativi)
-).
+Una volta che la prestazione è classificata, possibilmente dopo il confronto con una soglia, rimane da ricavare una possibile interpretazione dei risultati. Quando viene indagato lo stato di una certa funzione cognitiva le possibili domande potrebbero essere identificare la presenza di un _deficit_ (nel senso di un problema funzionale conclamato) oppure di un _peggioramento_ (una diminuzione del livello di funzionamento rispetto ad uno stato precedente). L'importante differenza tra questi due termini è approfondita nel paragrafo [Deficit e peggioramento](#deficit-peggioramenti), mentre la catena di assunzioni nell'interpretare una prestazione come segno di un deficit o di un peggioramento è trattata nel paragrafo [Inferenze a partire dal confronto con dati normativi](#inferenze-dati-normativi).
 
-Ciascuno di passi illustrati in questo paragrafo, e le relative assunzioni, sarà affrontato in dettaglio nei prossimi paragrafi.
+Ciascuno dei passi illustrati in questo paragrafo, e le relative assunzioni, sarà affrontato in dettaglio nei prossimi paragrafi.
 
-[^test-comuni]: qui per test comuni sono intesi test sviluppati secondo la teoria classica dei test (vedi il paragrafo {#teoria-classica-dei-test}, nel capitolo 1).
+[^test-comuni]: qui per test comuni sono intesi test sviluppati secondo la Teoria Classica dei Test (vedi il paragrafo [Teoria Classica dei Test](Misurazione.qmd#teoria-classica-dei-test), nel Capitolo 1).
 
 ## Dati normativi
 
@@ -146,11 +145,11 @@ I dati normativi sono i dati di un gruppo di riferimento che ci aiutano a defini
 
 Abbiamo quindi dato un nome più preciso al nostro gruppo di riferimento introdotto ad inizio capitolo e abbiamo aggiunto un importante dettaglio: il gruppo di riferimento è di persone "sane" e prive di patologie rilevanti. 
 
-Già questa prima definizione apre però una una serie di potenziali domande non banali. Cosa si intende esattamente per essere "sani"? Per adesso ci accontentiamo di quanto già detto: definiamo sane, persone prive di patologie rilevanti che possono influenzare performance in test cognitivi. Come vedremo nell'approfondimento nel paragrafo "Focus: normalità nella neuropsicologia dell'adulto e dell'età evolutiva", non sempre i criteri usati sono gli stessi ed esiste una certa variabilità. La definizione riportata sopra è però comunque una delle più diffuse e certamente una delle più comunemente utilizzate.
+Già questa prima definizione apre però una serie di potenziali domande non banali. Cosa si intende esattamente per essere "sani"? Per adesso ci accontentiamo di quanto già detto: definiamo sane, persone prive di patologie rilevanti che possono influenzare performance in test cognitivi. Come vedremo nell'approfondimento nel paragrafo "Focus: normalità nella neuropsicologia dell'adulto e dell'età evolutiva", non sempre i criteri usati sono gli stessi ed esiste una certa variabilità. La definizione riportata sopra è però comunque una delle più diffuse e certamente una delle più comunemente utilizzate.
 
-Talvolta nella definizione di "sani" rientra anche la valutazione tramite un test, spesso di screening, come il MMSE(`\cite{folstein1975mini}`{=latex}`Folstein et al., 1975`{=html}), il MoCA `(\cite{nasreddine2005montreal})`{=latex}`(Nasreddine et al., 2005)`{=html}. Solo se il punteggio è superiore ad una certa soglia, allora la persona viene considerata _sana_ e inclusa nei dati normativi. L'effetto di includere questo criterio è approfondita nel paragrafo "Focus: selezionare i partecipanti per i dati normativi"  <!-- CITAZIONE QUI DI FOCUS: a potresti nello stesso focus citare Robust norming-->.
+Talvolta nella definizione di "sani" rientra anche la valutazione tramite un test, spesso di screening, come il MMSE `(\cite{folstein1975mini})`{=latex}`(Folstein et al., 1975)`{=html}, il MoCA `(\cite{nasreddine2005montreal})`{=latex}`(Nasreddine et al., 2005)`{=html}. Solo se il punteggio è superiore ad una certa soglia, allora la persona viene considerata _sana_ e inclusa nei dati normativi. L'effetto di includere questo criterio è approfondito nel paragrafo "Focus: selezionare i partecipanti per i dati normativi" <!-- CITAZIONE QUI DI FOCUS: a potresti nello stesso focus citare Robust norming-->.
 
-Spesso in un articolo, manuale, sono specificate esattamente criteri di inclusioni ed esclusione (come esempio di patologie che erano considerate per esclusione) che sono state utilizzate per definire chi erano i soggetti che abbiamo definito come sani.
+Spesso in un articolo, manuale, sono specificati esattamente i criteri di inclusione ed esclusione (come esempio di patologie che erano considerate per esclusione) che sono state utilizzate per definire chi erano i soggetti che abbiamo definito come sani.
 
 A titolo di esempio si riporta un elenco di criteri da <!-- CITAZIONE Da Por -->.
 
@@ -166,7 +165,7 @@ A titolo di esempio si riporta un elenco di criteri da <!-- CITAZIONE Da Por -->
 5. Capacità adeguata di percepire correttamente e ripetere tutte le sequenze uditive preliminari e gli esempi delle sequenze uditive sperimentali
 :::
 
-Nell'articolo in questione le persone che soddisfacevano questi criteri tra quelli contattati per partecipare allo studio, sono stati incluse nel campione finale di dati normativi.
+Nell'articolo in questione le persone che soddisfacevano questi criteri tra quelli contattati per partecipare allo studio, sono state incluse nel campione finale di dati normativi.
 
 
 ### Raccolta dei dati normativi
@@ -174,12 +173,12 @@ Nell'articolo in questione le persone che soddisfacevano questi criteri tra quel
 Come si passa dai dati normativi ad una trasformazione in percentuali e al confronto con soglie? Il modo più semplice per familiarizzare con questi concetti è immaginare come avviene la raccolta di dati normativi. La @fig-costruzione-istogramma illustra questo processo passo per passo. Immaginiamo di voler raccogliere i dati normativi di un test, il cui punteggio va da 0 a 7. Identifichiamo dei potenziali candidati sani, facciamo firmare loro un consenso informato, e somministriamo loro il test (un approfondimento di questa fase si trova in Focus: potenziali bias di selezione nei dati normativi <!-- NOTA GIORGIO: amplia qui-->). 
 Per semplificare immaginiamo di pianificare la raccolta di un totale di 20 individui (per approfondimenti si veda anche Focus: quanto numeroso deve essere il mio campione normativo? <!-- NOTA GIORGIO: aggiungi qui riflessioni, probabilmente serve anche citaizone nel test e non solo di Focus -->).
 Raccogliamo i dati da un primo individuo, che ottiene un punteggio pari a 2. Questa osservazione è rappresentata da un quadratino (vedi @fig-costruzione-istogramma, pannello _a_). 
-Aggiungiamo adesso altre due osservazioni, due altri individui ottengono il punteggio di 2 e 5 (pannello _b_). Notare che nel caso del punteggio 5, c'è già un osservazione per quel punteggio e la nuova osservazione va impilata con quella già esistente. Aggiungiamo infine altre 17 osservazioni, che ci portano a raggiungere la nostra numerosità obiettivo di venti individui e di ottenere la distribuzione che è riportata nel pannello _c_. Una volta ottenuta questa distribuzione di dati, è possibile individuare eventualmente una soglia (d), che useremo per facilitare le interpretazione dei punteggi. Tale soglia è spesso nota come **cut-off di normalità**
+Aggiungiamo adesso altre due osservazioni, due altri individui ottengono il punteggio di 2 e 5 (pannello _b_). Notare che nel caso del punteggio 5, c'è già un'osservazione per quel punteggio e la nuova osservazione va impilata con quella già esistente. Aggiungiamo infine altre 17 osservazioni, che ci portano a raggiungere la nostra numerosità obiettivo di venti individui e di ottenere la distribuzione che è riportata nel pannello _c_. Una volta ottenuta questa distribuzione di dati, è possibile individuare eventualmente una soglia (d), che useremo per facilitare l'interpretazione dei punteggi. Tale soglia è spesso nota come **cut-off di normalità**.
 
 :::{.callout-note}
 ## Definizione
 **cut-off di normalità**
-La soglia che divide i possibili punteggi al test da prestazione che consideriamo _deficitaria_ da una prestazione che consideriamo _nella norma_ (da Mondini, Mapelli, Arcara, 2022)
+La soglia che divide i possibili punteggi al test da una prestazione che consideriamo _deficitaria_ da una prestazione che consideriamo _nella norma_ (da Mondini, Mapelli, Arcara, 2022)
 :::
 
 
@@ -265,20 +264,20 @@ p_d <- disegna_quadratini(dati_c, "Distribuzione con soglia") +
 :::{.callout-note}
 ## Definizione
 **Prestazione nella norma**
-Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _entro_ una soglia che ci aiuta a identificare prestazioni potenzialmente anomale. In genere si considera nella norma una punteggio che è uguale o migliore al valore che delimita il 5% dei punteggi peggiori[^per-bassa]. <!-- NOTA GIORGIO: valutare se mettere invece semplificato con più basso, per poi rimandare a nota -->
+Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, è _entro_ una soglia che ci aiuta a identificare prestazioni potenzialmente anomale. In genere si considera nella norma un punteggio che è uguale o migliore al valore che delimita il 5% dei punteggi peggiori[^per-bassa]. <!-- NOTA GIORGIO: valutare se mettere invece semplificato con più basso, per poi rimandare a nota -->
 :::
 
 :::{.callout-note}
 ## Definizione
 **Prestazione deficitaria**
-Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, _oltre_ una soglia (spesso nota come cut-off di normalità) che ci aiuta a identificare prestazioni potenzialmente anomale. In genere si considera deficitaria un punteggio peggiore del valore che delimita il 5% delle prestazioni peggiori[^per-bassa].
+Con questa locuzione si indica un punteggio che, in relazione ai dati normativi, è _oltre_ una soglia (spesso nota come cut-off di normalità) che ci aiuta a identificare prestazioni potenzialmente anomale. In genere si considera deficitario un punteggio peggiore del valore che delimita il 5% delle prestazioni peggiori[^per-bassa].
 :::
 
 
 
-[^per-bassa]: si noti che non è stato utilizzato il termine _più bassa_ o _più alta_ perchè il significato dipende da come è costruito il punteggio del test. Generalmente nei test neuropsicologici un punteggio più basso corrisponde una performance peggiore, ma non sempre è così. Per esempio punteggi basati sul tempo impiegato a svolgere un compito, oppure basati sul numero di errori commessi hanno punteggi peggiori quando sono alti. In questo caso la soglia va usata al contrario: punteggi superiori alla soglia sono considerati prestazione deficitarie.
+[^per-bassa]: si noti che non è stato utilizzato il termine _più bassa_ o _più alta_ perché il significato dipende da come è costruito il punteggio del test. Generalmente nei test neuropsicologici un punteggio più basso corrisponde a una performance peggiore, ma non sempre è così. Per esempio punteggi basati sul tempo impiegato a svolgere un compito, oppure basati sul numero di errori commessi hanno punteggi peggiori quando sono alti. In questo caso la soglia va usata al contrario: punteggi superiori alla soglia sono considerati prestazioni deficitarie.
 
-Siamo partiti da una distribuzione di persone che consideriamo _sane_ o normali e i dati normativi di hanno permesso di ottenere una soglia che ci permette di classificare delle prestazioni come _prestazione nella norma_ oppure come _prestazione deficitaria_.
+Siamo partiti da una distribuzione di persone che consideriamo _sane_ o normali e i dati normativi ci hanno permesso di ottenere una soglia che ci permette di classificare delle prestazioni come _prestazione nella norma_ oppure come _prestazione deficitaria_.
 
 
 <!-- NOTA GIORGIO: FIGURA figura prestazione prestazione deficiaria deficit. A destra una serie di baloon, es. 
@@ -288,7 +287,7 @@ ansia, scarsa motivazione, volontò di simulare, DEFICIT, e tutte queste portano
 
 :::{.callout-tip}
 ## Riflessione
-Il termine _prestazione deficitaria_ porta con sé dei problemi perchè sembra inevitabilmente suggerire che c'è un deficit. Questa però è solo una delle possibili ragioni. Un termine forse più neutro che potrebbe indurre meno in errori è _prestazione al di sotto della soglia di normalità_ (o al di sopra, nei test in cui il punteggio è descritto). In questa maniera ci limiteremmo a descrivere cosa è, lasciando alla fase dell'Interpretazione (Capitolo 10),decidere se è un deficit oppure no. In questo libro è stato scelto di mantenere il termine "prestazione deficitaria", nonostante questi possibili limiti, per uniformarsi a prassi di utilizzo del linguaggio in neuropsicologia.
+Il termine _prestazione deficitaria_ porta con sé dei problemi perché sembra inevitabilmente suggerire che c'è un deficit. Questa però è solo una delle possibili ragioni. Un termine forse più neutro che potrebbe indurre meno in errore è _prestazione al di sotto della soglia di normalità_ (o al di sopra, nei test in cui il punteggio è descritto). In questa maniera ci limiteremmo a descrivere cosa è, lasciando alla fase dell'Interpretazione (Capitolo 10), decidere se è un deficit oppure no. In questo libro è stato scelto di mantenere il termine "prestazione deficitaria", nonostante questi possibili limiti, per uniformarsi a prassi di utilizzo del linguaggio in neuropsicologia.
 :::
 
 
@@ -380,30 +379,30 @@ p_tabella <- ggplot() +
 p_densita + p_tabella + plot_layout(widths = c(1.2, 1))
 ```
 
-L'uso del termine _prestazione deficitaria_ come una prestazione ottenuta da sani, potrebbe sembrare piuttosto "pericoloso", ma in questo caso è sensata perchè è proprio conseguenza della definizione che adottiamo (o più genericamente "un deficit", vedi anche @deficit-peggioramenti). Ci sono però alcuni punti che conseguono da questa definizione che è importante sottolineare
+L'uso del termine _prestazione deficitaria_ come una prestazione ottenuta da sani, potrebbe sembrare piuttosto "pericoloso", ma in questo caso è sensato perché è proprio conseguenza della definizione che adottiamo (o più genericamente "un deficit", vedi anche [Deficit e peggioramento](#deficit-peggioramenti)). Ci sono però alcuni punti che conseguono da questa definizione che è importante sottolineare:
 
 1. La definizione di prestazione deficitaria non implica necessariamente una _disabilità_ o una qualche forma di problema grave. Anzi è importante non confondere i due concetti. Abbiamo definito prestazione deficitaria come una prestazione ottenuta a partire da persone che erano normali per definizione, senza tirare in causa persone che avessero un qualche tipo di problema. 
 
-2. Inevitabilmente, alcuni tra i soggetti che assumevamo essere _sani_, avranno delle prestazioni deficitarie. Questa potrebbe sembrare un'affermazione priva di senso, ma risulta invece ovvia quando si vede la @fig-costruzione-istogramma. Proprio perchè definiamo la nostra soglia come il valore che delimita le prestazioni più basse dei sani, inevitabilmente anche alcuni dei sani potrebbero ottenere valori inferiori a quella soglia (nella figura il quadratino più a sinistra, in corrispondenza del punteggio 0). Ci troviamo quindi di fronte ad una sorta di paradosso già in partenza, definiamo _deficitarie_ alcune prestazioni osservate in individui sani. 
+2. Inevitabilmente, alcuni tra i soggetti che assumevamo essere _sani_, avranno delle prestazioni deficitarie. Questa potrebbe sembrare un'affermazione priva di senso, ma risulta invece ovvia quando si vede la @fig-costruzione-istogramma. Proprio perché definiamo la nostra soglia come il valore che delimita le prestazioni più basse dei sani, inevitabilmente anche alcuni dei sani potrebbero ottenere valori inferiori a quella soglia (nella figura il quadratino più a sinistra, in corrispondenza del punteggio 0). Ci troviamo quindi di fronte ad una sorta di paradosso già in partenza, definiamo _deficitarie_ alcune prestazioni osservate in individui sani. 
 
 :::{.callout-important}
-Per il modo in cui vengono definite, sulla base dei dati normativi, le soglie che separano le prestazioni nella norma da quelle deficitarie, una certa percentuale di soggetti sani — compresi alcuni individui del campione normativo — otterrà punteggi che veranno classificate come _prestazione deficitaria_. Non si tratta di un’anomalia, ma di una conseguenza inevitabile del principio utilizzato per stabilire la soglia.
+Per il modo in cui vengono definite, sulla base dei dati normativi, le soglie che separano le prestazioni nella norma da quelle deficitarie, una certa percentuale di soggetti sani — compresi alcuni individui del campione normativo — otterrà punteggi che verranno classificati come _prestazione deficitaria_. Non si tratta di un’anomalia, ma di una conseguenza inevitabile del principio utilizzato per stabilire la soglia.
 :::
 
 Questa apparente stranezza diventa ancora più tale se facciamo un piccolo esperimento mentale. Immaginate di raccogliere i dati su una variabile qualsiasi, ad esempio l'altezza, di un gruppo di persone. Sono tutte persone che non hanno particolari problemi nella vita quotidiana e quindi consideriamo _sane_ nel senso utilizzato finora per i dati normativi. Immaginate di costruire un grafico come quello riportato nella @fig-costruzione-istogramma e di calcolare quindi una soglia con lo stesso principio e di ottenere il valore 145 cm. Utilizzando la definizione di sopra (di classificazione di valori al di sotto della soglia come deficitaria), stiamo definendo che quei valori sono _deficitari_ e non, semplicemente, particolarmente bassi relativamente al gruppo di riferimento. Questa conclusione potrebbe sembrare stridente, ma è una naturale conseguenza della definizione da cui siamo partite.
-Questa conseguenza diventa ancora più rilevante se applicata nell'ambito dei disturbi evolutivi: la comune soglia utilizzata per la soglia di prestazione deficitarie, fa sì che prendendo qualsiasi gruppo di bambini _sani_, inevitabilmente parte di essi otterranno punteggi "deficitari" (per definizione, circa il 5% di quelli che hanno composto i dati normativi, e all'incirca la stessa percentuale se si facessero molte classificazioni di bambini "normali").
+Questa conseguenza diventa ancora più rilevante se applicata nell'ambito dei disturbi evolutivi: la comune soglia utilizzata per la soglia di prestazioni deficitarie, fa sì che prendendo qualsiasi gruppo di bambini _sani_, inevitabilmente parte di essi otterranno punteggi "deficitari" (per definizione, circa il 5% di quelli che hanno composto i dati normativi, e all'incirca la stessa percentuale se si facessero molte classificazioni di bambini "normali").
 
 :::{.callout-important}
-La definizione di _prestazione deficitaria_ utilizzata sopra tende a confondere perché alla parola "deficit", associamo automaticamente, problemi nella vita quotidiana, disabilità o gravi mancanze, ma queste non sono necessariamente presenti in persone con prestazioni deficitarie.
+La definizione di _prestazione deficitaria_ utilizzata sopra tende a confondere perché alla parola "deficit" associamo automaticamente problemi nella vita quotidiana, disabilità o gravi mancanze, ma queste non sono necessariamente presenti in persone con prestazioni deficitarie.
 :::
 
-Questa definizione e queste considerazioni non sono problematiche in sé, ma è utile sottolinearle per chiarire che, nel momento che utilizziamo i dati normativi per delle classificazioni, questa è proprio la definizione che abbiamo dato di prestazione deficitaria, identificato come prestazione al di là di un valore soglia (statistica).
+Questa definizione e queste considerazioni non sono problematiche in sé, ma è utile sottolinearle per chiarire che, nel momento in cui utilizziamo i dati normativi per delle classificazioni, questa è proprio la definizione che abbiamo dato di prestazione deficitaria, identificata come prestazione al di là di un valore soglia (statistica).
 
 <!-- NOTA GIORGIO: qui stai usando "punteggio deficitario", ma dopo "deficit". Da chiarire e sottolineare, magari con figura -->
 
 ### Perché usiamo i dati normativi per definire i deficit?
 Una domanda lecita che potrebbe sorgere è: perché utilizziamo i dati normativi per definire i deficit? 
-Per esempio, non potrebbe essere più semplice prendere dei pazienti con problemi di memoria e usare loro come _criterio_ (vedi @validita-criterio)?. Questo approccio sposterebbe il problema perché non definiremmo più il deficit esclusivamente a partire dai sani, e aprirebbe tutta una serie di scenari analitici ulteriori (approfonditi nel capitolo 4).
+Per esempio, non potrebbe essere più semplice prendere dei pazienti con problemi di memoria e usarli come _criterio_ (vedi [Validità di criterio](Validita-Affidabilita.qmd#validita-criterio))? Questo approccio sposterebbe il problema perché non definiremmo più il deficit esclusivamente a partire dai sani, e aprirebbe tutta una serie di scenari analitici ulteriori (approfonditi nel Capitolo 4).
 Il perché questo non avviene è molto semplice e ancora una volta si può comprendere con un semplice esperimento mentale. 
 Immaginiamo di voler adottare questo approccio e quindi selezionare delle persone con problemi di memoria e utilizzare un test per trovare la soglia ottimale che discrimina tra persone con deficit di memoria da persone sane. Il problema si pone già subito: come definireste le persone con problemi di memoria? Qui volutamente non ho definito "con deficit di memoria", ma di fatto è lo stesso, a meno di non fornire una definizione dettagliata e diversa di "problema" di memoria. Si potrebbe pensare di utilizzare un altro test che identifichi il deficit/problema di memoria, ma avremmo solo rinviato il problema. Il secondo test, infatti, avrebbe lo stesso problema del primo test: come definire il deficit/problema di memoria? Potremmo immaginare che il secondo test dovrebbe fare riferimento ad un terzo e così via, di fatto portando ad un _regressus ad infinitum_, che certamente non porterebbe ad alcuna soluzione.
 <!-- valutare se considereare possibile valutazione sterna ecologica -->
@@ -412,8 +411,8 @@ La ragione per cui usiamo i dati normativi può essere considerata come molto pr
 
 
 ## Deficit e peggioramento {#deficit-peggioramenti}
-Prima di procedere con la nostra disamina dei principi alla base dei dati normativi, è importante definire alcuni importanti fondamentali, molto comuni nella neuropsicologica clinica: _deficit_, _peggioramento_, _compromissione_, _declino_[^def-norm].
-Mentre alcuni termini sono realmente diffusi nella letteratura, come _deficit_ e _declino_, alcune distinzioni sono state create ad-hoc nella stesura di questo libro[^data-termini]  proprio per evitare la confusione terminologica che è presente in letteratura, italiana e internazionale.
+Prima di procedere con la nostra disamina dei principi alla base dei dati normativi, è importante definire alcuni termini fondamentali, molto comuni nella neuropsicologia clinica: _deficit_, _peggioramento_, _compromissione_, _declino_[^def-norm].
+Mentre alcuni termini sono realmente diffusi nella letteratura, come _deficit_ e _declino_, alcune distinzioni sono state create ad-hoc nella stesura di questo libro[^data-termini] proprio per evitare la confusione terminologica che è presente in letteratura, italiana e internazionale.
 
 [^data-termini]: (Agosto 2026)
 
@@ -434,50 +433,50 @@ Si possono distinguere due tipi di peggioramento: compromissione cognitiva e dec
 ## Definizione
 **Compromissione (cognitiva)** <!-- NOTA GIORGIO: danno o declino? O cosa? forse "compromissione?" -->
 Un _peggioramento_ del funzionamento cognitivo che ci si attende non sia progressivo.
-In genere la compromissione avviene di seguito ad un evento traumatico (come un _trauma cranico_ o uno _stroke_). Può essere, o no, reversibile.
+In genere la compromissione avviene in seguito ad un evento traumatico (come un _trauma cranico_ o uno _stroke_). Può essere, o no, reversibile.
 :::
 
 :::{.callout-note}
 ## Definizione
 **Declino (cognitivo)** <!-- NOTA GIORGIO: danno o declino? O cosa? forse "compromissione?" -->
-Un _peggioramento_ del funzionamento cognitivo che si attende essere progressivo nel tempo. In genere il declino avviene a causa di una malattia neurogenerativa e spesso non è reversibile.
+Un _peggioramento_ del funzionamento cognitivo che si attende essere progressivo nel tempo. In genere il declino avviene a causa di una malattia neurodegenerativa e spesso non è reversibile.
 :::
 
 [^icf-manual]: World Health Organization (2013). _How to use the ICF: A practical manual for using the International Classification of Functioning, Disability and Health_. Disponibile su: <https://cdn.who.int/media/docs/default-source/classification/icf/drafticfpracticalmanual2.pdf>
+
 Prima di passare ad un approfondimento di ciascuno di questi concetti è importante distinguere degli aggettivi comunemente associati a questi termini, _acquisito_ o _evolutivo_.
 
 :::{.callout-note}
 ## Definizione
 **Acquisito** 
-Aggettivo che definisce l'origine di un deficit o peggioramento. Indica che l'alterazione è stata conseguenza di un evento avvenuto in età adulta o dopo che è stato raggiunto una maturità nel funzionamento cognitivo. <!-- NOTA GIORGIO: da rivedere -->
+Aggettivo che definisce l'origine di un deficit o peggioramento. Indica che l'alterazione è stata conseguenza di un evento avvenuto in età adulta o dopo che è stata raggiunta una maturità nel funzionamento cognitivo. <!-- NOTA GIORGIO: da rivedere -->
 :::
 
 :::{.callout-note}
 ## Definizione
 **Evolutivo** <!-- NOTA GIORGIO: danno o declino? O cosa? forse "compromissione?" -->
-Aggettivo che definisce l'origine di un deficit o peggioramento. Indica che l'alterazione è stata conseguenza di un evento avvenuto in età di sviluppo o prima che è stata raggiunto una maturità nel funzionamento cognitivo. <-- 
+Aggettivo che definisce l'origine di un deficit o peggioramento. Indica che l'alterazione è stata conseguenza di un evento avvenuto in età di sviluppo o prima che sia stata raggiunta una maturità nel funzionamento cognitivo.
 :::
 
-Ciascuno di questi aggettivi è spesso utilizzato insieme ai termini _deficit_ per specificare diversi tipi di origine dei disturbi: quindi _deficit acquisito_ o _deficit evolutivo_. Anche se non è comune come utilizzo, sarebbe utile distinguere anche tra equivalenti tipi ("peggioramento acquisito" e "peggioramento evolutivo"), questi termini non sono utilizzati comunemente. Infatti, come vedremo nel paragrafo (disturbi cognitivi nell'età evolutiva) <!-- NOTA GIORGIO: migliora qui -->, problemi nell'età evolutiva sono principalmente associati a deficit, piuttosto che a peggioramenti. Questo è primariamente legato al fatto che nell'età evolutiva, con un funzionamento cognitivo non ancora sviluppato è difficile poter parlare di peggioramenti, senza che essi siano veramente rilevanti e quindi classificabili come veri e propri deficit.
+Ciascuno di questi aggettivi è spesso utilizzato insieme al termine _deficit_ per specificare diversi tipi di origine dei disturbi: quindi _deficit acquisito_ o _deficit evolutivo_. Anche se non è comune come utilizzo, sarebbe utile distinguere anche tra equivalenti tipi ("peggioramento acquisito" e "peggioramento evolutivo"), questi termini non sono utilizzati comunemente. Infatti, come vedremo nel paragrafo (disturbi cognitivi nell'età evolutiva) <!-- NOTA GIORGIO: migliora qui -->, problemi nell'età evolutiva sono principalmente associati a deficit, piuttosto che a peggioramenti. Questo è primariamente legato al fatto che nell'età evolutiva, con un funzionamento cognitivo non ancora sviluppato è difficile poter parlare di peggioramenti, senza che essi siano veramente rilevanti e quindi classificabili come veri e propri deficit.
 
 
 ### Deficit: approfondimento ed esempi
 
 Il _deficit_ è un concetto che è intrinsecamente legato al gruppo di riferimento con cui avviene un confronto e anzi, è definito proprio sulla base del confronto rispetto a questo gruppo.
-Se un bambino non riesce ancora a leggere a 7 anni, viene considerato avere un deficit, proprio perchè, se confrontato con i pari, non è in grado di svolgere un attività ed ha una mancanza funzionale che lo porta ad avere una differenza che è considerata clinicamente (e spesso anche socialmente) rilevante. Se il gruppo fosse definito in maniera differente una stessa caratteristica potrebbe non essere considerata un deficit. Ad esempio, se considerassimo un gruppo di bambini tra i 5 e 9 anni, non saper leggere non sarebbe più considearto un deficit, perché molti bambini (presumibilmente i più piccoli), non sarebbero in grado di farlo, rendendo quindi il "non leggere" una caratteristica non più anomala,
-Se un adulto ha un deficit nell'inibizione, questo è ancora una volta definito sulla base del gruppo di riferimento, indica che rispetto a questo gruppo, il livello in compiti di inibizione è talmente basso, da poter essere considerato una mancanza.
-_relativamente a quel gruppo_. Il deficit è quindi un concetto definito in maniera _normativa_, riflette il confronto dell'individuo da valutare con un gruppo di riferimento, quello dei _dati normativi_. 
+Se un bambino non riesce ancora a leggere a 7 anni, viene considerato avere un deficit, proprio perché, se confrontato con i pari, non è in grado di svolgere un'attività ed ha una mancanza funzionale che lo porta ad avere una differenza che è considerata clinicamente (e spesso anche socialmente) rilevante. Se il gruppo fosse definito in maniera differente una stessa caratteristica potrebbe non essere considerata un deficit. Ad esempio, se considerassimo un gruppo di bambini tra i 5 e 9 anni, non saper leggere non sarebbe più considerato un deficit, perché molti bambini (presumibilmente i più piccoli), non sarebbero in grado di farlo, rendendo quindi il "non leggere" una caratteristica non più anomala.
+Se un adulto ha un deficit nell'inibizione, questo è ancora una volta definito sulla base del gruppo di riferimento, indica che rispetto a questo gruppo, il livello in compiti di inibizione è talmente basso, da poter essere considerato una mancanza _relativamente a quel gruppo_. Il deficit è quindi un concetto definito in maniera _normativa_, riflette il confronto dell'individuo da valutare con un gruppo di riferimento, quello dei _dati normativi_. 
 
 
 ### Peggioramento: approfondimento ed esempi
 Il _peggioramento_ è invece un concetto che è legato al confronto di un individuo con sé stesso e con un livello precedentemente raggiunto stabilmente. Abbiamo distinto due tipi di peggioramenti (compromissione e declino), per catturare due sfumature diverse che spesso hanno rilevanza diagnostica e prognostica <!-- NOTA GIORGIO, ma che non sono distinguibili se il riferimento è ad una singola valutazione. -->
 Come esempi di compromissione, un adolescente che dopo un trauma cranico non riesce a concentrarsi più come prima, ha verosimilmente subito un peggioramento, così come un paziente che in seguito ad uno stroke, ha difficoltà di lettura che non aveva prima. 
-Come esempi di declino, una potrebbe cominciare ad avere un graduale peggioramento nella memoria in età avanzata per l'insorgere di una malattia neurodegenerativa, o una persona con sclerosi multipla, potrebbe avere un peggioramento nell'attenzione come conseguenza di una ricaduta. Il concetto di peggioramento ha dunque un concetto definito in maniera detta _ipsativa_, perchè riflette il confronto di un'individuo con sé stesso. 
+Come esempi di declino, una persona potrebbe cominciare ad avere un graduale peggioramento nella memoria in età avanzata per l'insorgere di una malattia neurodegenerativa, o una persona con sclerosi multipla, potrebbe avere un peggioramento nell'attenzione come conseguenza di una ricaduta. Il peggioramento è dunque un concetto definito in maniera detta _ipsativa_, perché riflette il confronto di un individuo con sé stesso. 
 
 Negli esempi finora elencati abbiamo usato il termine "peggioramento" proprio per indicare un generale peggioramento e volutamente non abbiamo né usato, né fatto riferimento al già menzionato concetto di deficit. La relazione tra i due verrà spiegata meglio nel prossimo paragrafo.
 
 ### Relazione tra deficit e peggioramento
-Nel discutere di deficit e peggioramento abbiamo sottolineato quanto è importante considerare questi concetti come distinti. Questo può essere sembrato finora una sorta di esercizio di stile semantico, ma come vedremo ha un importante impatto nelle valutazione neuropsicologica e anche, in certi casi, nella correttezza delle intepretazioni che sono supportate anche dal linguaggio che utilizziamo. 
+Nel discutere di deficit e peggioramento abbiamo sottolineato quanto è importante considerare questi concetti come distinti. Questo può essere sembrato finora una sorta di esercizio di stile semantico, ma come vedremo ha un importante impatto nella valutazione neuropsicologica e anche, in certi casi, nella correttezza delle interpretazioni che sono supportate anche dal linguaggio che utilizziamo. 
 
 In breve, il motivo per cui è importante distinguere questi termini è perché le condizioni che descrivono sono ortogonali: possiamo avere deficit con o senza peggioramento, o un peggioramento, ma con o senza deficit. 
 
@@ -648,7 +647,7 @@ La stessa distinzione è riassunta anche nella @fig-tabella-compromissione-decli
 #| echo: false
 #| warning: false
 #| message: false
-#| fig-cap: "Sintesi delle quattro combinazioni illustrate nella @fig-compromissione-declino (compromissione/declino, con/senza deficit) relativi ad un disturbo acquisito, con un esempio clinico per ciascuna. Le colonne seguono lo stesso ordine della figura precedente; le etichette di riga riprendono gli stessi colori usati lì per i due casi (nero = deficit raggiunto, grigio = deficit non raggiunto)."
+#| fig-cap: "Sintesi delle quattro combinazioni illustrate nella @fig-compromissione-declino (compromissione/declino, con/senza deficit) relative ad un disturbo acquisito, con un esempio clinico per ciascuna. Le colonne seguono lo stesso ordine della figura precedente; le etichette di riga riprendono gli stessi colori usati lì per i due casi (nero = deficit raggiunto, grigio = deficit non raggiunto)."
 #| fig-width: 7.5
 #| fig-height: 4
 #| fig-dpi: 200
@@ -709,7 +708,7 @@ Attenzione a non confondere deficit con peggioramento. Un danno cerebrale o una 
 
 :::
 
-Perchè è importante distinguere tra tutte queste condizioni? In breve perchè sono domande diverse che possono sorgere durante la valutazione neuropsicologica.
+Perché è importante distinguere tra tutte queste condizioni? In breve, perché sono domande diverse che possono sorgere durante la valutazione neuropsicologica.
 In alcuni casi, potremmo essere interessati a capire se la condizione.
 
 
@@ -719,11 +718,11 @@ In alcuni casi, potremmo essere interessati a capire se la condizione.
 
 Un caso di deficit senza peggioramento è quando il disturbo è presente sin dalla nascita o compare in età evolutiva. 
 
-### Deficit e peggioramento nell'età evolutiva{#deficit-pegg-evol}
-Gli esempi fatti finora, si sono concentrati su casi di neuropsicologia clinica dell'adulto e cioè casi in cui sia possibile effettivamente pensare ad un _peggioramento_ (nel senso di diminuzione rispetto ad abilità precedente). Nel caso dei disturbi dello sviluppo, un alterazione non corrisponde necessariamente ad un peggioramento: potrebbe essere una performance che è stabile invece di crescere oppure con un tasso di crescita che non è in linea con quello atteso rispetto all'età. 
+### Deficit e peggioramento nell'età evolutiva {#deficit-pegg-evol}
+Gli esempi fatti finora, si sono concentrati su casi di neuropsicologia clinica dell'adulto e cioè casi in cui sia possibile effettivamente pensare ad un _peggioramento_ (nel senso di diminuzione rispetto ad abilità precedente). Nel caso dei disturbi dello sviluppo, un'alterazione non corrisponde necessariamente ad un peggioramento: potrebbe essere una performance che è stabile invece di crescere oppure con un tasso di crescita che non è in linea con quello atteso rispetto all'età. 
 In tal caso quello che spesso accade è quindi riferirsi ad una popolazione di riferimento (in genere bambini della stessa età), e considerare delle traiettorie di sviluppo e la loro variabilità. Se la bambina/il bambino hanno una prestazione molto diversa dalla traiettoria attesa, allora si considera che vi è un _deficit_. Andando infatti nello specifico la definizione che useremmo (vedremo anche da un punto di vista statistico nel corso di questo capitolo <!-- NOTA GIORGIO aggiungi qui citazione a paragrafo --> ), è in tutto e per tutto analoga a quella di deficit che si applica anche nel caso dell'adulto.
 
-Non è difficile però considerare delle situazioni in cui avviene un _peggioramento_ che non è strettamente deficit anche nel caso di età evolutiva. Ipotizziamo per esempio una/un bambina/o che subisce un trauma cranico e dopo questa mostra un leggero peggioramento, senza che sia però classificabile come deficit. Questo sarebbe in tutto e per tutto simile a quanto descritto nella @fig-compromissione-declino (pannello di destra, linea nera). Sebbene sia teoricamente possibile, questo è raramente considerato come indagabile: in questo caso infatti è difficile distinguere un reale peggioramento (cioè leggero cambio della traiettoria di sviluppo), da quella che è invece la traiettoria già in essere per quell'individuo.
+Non è difficile però considerare delle situazioni in cui avviene un _peggioramento_ che non è strettamente deficit anche nel caso di età evolutiva. Ipotizziamo per esempio una/un bambina/o che subisce un trauma cranico e dopo questo mostra un leggero peggioramento, senza che sia però classificabile come deficit. Questo sarebbe in tutto e per tutto simile a quanto descritto nella @fig-compromissione-declino (pannello di destra, linea nera). Sebbene sia teoricamente possibile, questo è raramente considerato come indagabile: in questo caso infatti è difficile distinguere un reale peggioramento (cioè leggero cambio della traiettoria di sviluppo), da quella che è invece la traiettoria già in essere per quell'individuo.
 
 La @fig-traiettoria-sviluppo illustra questi concetti con dati simulati, in un formato analogo alla @fig-compromissione-declino ma adattato alle traiettorie di sviluppo: a sinistra un possibile evento acuto (come un trauma cranico), a destra una crescita atipica che si allontana gradualmente da quella attesa. Una differenza importante rispetto alla figura sull'adulto: lì le due linee colorate erano due scenari alternativi completi; qui invece c'è una singola traiettoria osservata (nera), nota fino alla valutazione più recente, da cui si diramano diverse traiettorie future ipotetiche (grigie). Un'altra differenza è che, a differenza della soglia fissa della @fig-compromissione-declino, qui la normalità attesa è una fascia che cresce con l'età (in azzurro): non solo la soglia, ma la prestazione stessa è attesa in crescita.
 
@@ -917,34 +916,34 @@ p_evento + p_crescita
 -->
 
 ### Confusione terminologica nella letteratura {#confusione-terminologica-letteratura}
-Nel corso dei precedente paragrafi sono stati introdotti una serie di termini e sono state date motivazioni del perchè è utile utilizzare questi termini diversi: esistono concetti rilevanti per la neuropsicologia clinica letteratura che è utile distinguere con termini diversi. Questi stessi concetti sonoo spesso confusi e con significati almeno parzialmente sovrapposti. 
+Nel corso dei precedenti paragrafi sono stati introdotti una serie di termini e sono state date motivazioni del perché è utile utilizzare questi termini diversi: esistono concetti rilevanti per la neuropsicologia clinica che è utile distinguere con termini diversi. Questi stessi concetti sono spesso confusi e con significati almeno parzialmente sovrapposti. 
 
-In assenza di un esame sistematico della letteratura, cito innanzitutto "La valutazione neuropsicologica" o "Neurosychological Assesssment" di Muriel Lezak, una delle madri delle neuropsicologia moderna (<!--- CITAZIONI QUI -->). Nelle diverse edizioni del suo importantissimo manuale Muriel Lezak usa specificamente il termine _deficit_ per indicare un danno sostenuto in seguito ad un evento. Lezak infatti parla specificamente di "quantità di deficit sostenuto", come se si potesse ricevere più o meno deficit[^Lez-cit1].  
+In assenza di un esame sistematico della letteratura, cito innanzitutto "La valutazione neuropsicologica" o "Neuropsychological Assessment" di Muriel Lezak, una delle madri della neuropsicologia moderna (<!--- CITAZIONI QUI -->). Nelle diverse edizioni del suo importantissimo manuale Muriel Lezak usa specificamente il termine _deficit_ per indicare un danno sostenuto in seguito ad un evento. Lezak infatti parla specificamente di "quantità di deficit sostenuto", come se si potesse ricevere più o meno deficit[^Lez-cit1].  
 La definizione di deficit quindi è più simile a quella che abbiamo dato in questo testo a _peggioramento_, ma crea potenziali ambiguità soprattutto in caso di disturbi del neurosviluppo, in cui è utile la presenza di un termine specifico che ha solo valore rispetto al confronto con un gruppo di riferimento. Ad esempio, un "deficit di lettura" in un bambino che ha questo disturbo sin da piccolo, non ha un senso di peggioramento rispetto ad una condizione precedente, ma solo perché la maggior parte dei pari hanno una performance di lettura migliore.
-Lezak stessa inoltre in vari casi usa un altro termine, in inglese _impairment_ (tr. let. "compromissione"), con significato molto simile a quello che aveva usato prima per deficit. Ad esempio nella descrizione di un caso clinico Lezak parla di un "intervento chirurgico che aveva fermato il sanguinamento, ma lo aveva lasciato con un _impairment_ nella memoria[^Lez-cit2]. 
+Lezak stessa inoltre in vari casi usa un altro termine, in inglese _impairment_ (tr. let. "compromissione"), con significato molto simile a quello che aveva usato prima per deficit. Ad esempio nella descrizione di un caso clinico Lezak parla di un "intervento chirurgico che aveva fermato il sanguinamento, ma lo aveva lasciato con un _impairment_ nella memoria"[^Lez-cit2]. 
 
-[^Lez-cit1]: “The extent of the discrepancy between the level of performance expected for an adult and the level of the patient’s performance (which may be given in terms of the age at which the average child performs in a comparable manner) provides one measure of the amount of deficit the patient has sustained.", traduzione: "La grandezza di questa discrepazna tra livello di prestazione attesa da un adulto e prestaizone del paziente (che potrebbe essere definita come l'età a cui un bambino in media ha una prestazione simile) fornisce una misura dell'ammontare di deficit sostenuto dal paziente". (Lezak, 2014), 
+[^Lez-cit1]: “The extent of the discrepancy between the level of performance expected for an adult and the level of the patient’s performance (which may be given in terms of the age at which the average child performs in a comparable manner) provides one measure of the amount of deficit the patient has sustained.", traduzione: "La grandezza di questa discrepanza tra livello di prestazione attesa da un adulto e prestazione del paziente (che potrebbe essere definita come l'età a cui un bambino in media ha una prestazione simile) fornisce una misura dell'ammontare di deficit sostenuto dal paziente". (Lezak, 2014).
 
 [^Lez-cit2]: “Surgical intervention stopped the bleeding but left him with memory impairments”, (Lezak, 2014). 
 
-Considerando invece un ambito prettamente italiano e considerando il "Manuale di Neuropsicologia" (Vallar & Papagno), è interessante notare come attraverso tutto il testo sia utilizzato comunemente (più o meno in ogni capitolo), il termine "deficit" per indicare vari tipi di compromissioni importanti che si possono avere in seguito a danni neurologici e tipici della neuropsicologia classica. Il termine deficit è utilizzato attraverso il libro sia nel senso di peggioramento, generico, sia come compromissione più o meno grave (ad. esempio associata a sintomi classici della neuropsicologia). 
+Considerando invece un ambito prettamente italiano e considerando il "Manuale di Neuropsicologia" (Vallar & Papagno), è interessante notare come attraverso tutto il testo sia utilizzato comunemente (più o meno in ogni capitolo), il termine "deficit" per indicare vari tipi di compromissioni importanti che si possono avere in seguito a danni neurologici e tipici della neuropsicologia classica. Il termine deficit è utilizzato attraverso il libro sia nel senso di peggioramento, generico, sia come compromissione più o meno grave (ad esempio associata a sintomi classici della neuropsicologia). 
 Nel capitolo dedicato però agli aspetti statistici della neuropsicologia, in cui è dato spazio alla spiegazione del metodo dei Punteggi Equivalenti e di altri metodi, la parola "deficit" o "compromissione" non viene mai utilizzata. Questa è una scelta saggia visto che il capitolo è incentrato su dati normativi e quindi su soggetti "sani" o "normali" e si parla semmai di bassa probabilità di osservare alcune prestazioni quando si è sani (questo aspetto è approfondito <!-- NOTA GIORGIO: Espandi e capisci dove mettere qui -->). Lo stesso glossario a fine del capitolo metodologico, non fornisce infatti una definizione né per deficit, né per compromissione. Questo non è però da considerare come una critica o come sbagliato, dal momento che questo glossario fornisce definizioni di termini psicometrici e statistici. A mio avviso però, la mancanza di una chiara definizione di questi termini rischia di creare una scollatura tra gli aspetti metodologici e la quotidianità clinica, in cui sono meno comuni termini tecnici statistici, mentre sono comuni e rilevanti termini come _deficit_ o _compromissione_ il cui utilizzo in senso generico o poco definito, rischia di creare ambiguità o addirittura diversi significati tra diversi professionisti.
 
 <!-- NOTA GIORGIO: capire meglio quale punto vuoi fare qui -->
 
-L'ambiguità terminologica si può riscontrare anche in altre sedi, non strettamente confinate alla neuropsicologia clinica. La seconda sorgente in cui la scelta terminologica può creare confusione è quella dei manuali dell'_International Classification of Functioning, Disability and Health (ICF)_ `(\cite{who2013icf})`{=latex}`(World Health Organization, 2013)`{=html}[^icf-manual]. In questi manuali infatti il termine _impairment_ è definito come "Problems in body function and structure such as significant deviation or loss" (tr. let. "problemi in funzione e struttura corporea come deviazioni significativa o perdita"), di fatto includendo sia la "deviazione", che in questo libro è stato legato al concetto di _deficit_, sia quello della "perdita", che è legata al concetto di _peggioramento_.
+L'ambiguità terminologica si può riscontrare anche in altre sedi, non strettamente confinate alla neuropsicologia clinica. La seconda sorgente in cui la scelta terminologica può creare confusione è quella dei manuali dell'_International Classification of Functioning, Disability and Health (ICF)_ `(\cite{who2013icf})`{=latex}`(World Health Organization, 2013)`{=html}[^icf-manual]. In questi manuali infatti il termine _impairment_ è definito come "Problems in body function and structure such as significant deviation or loss" (tr. let. "problemi in funzione e struttura corporea come deviazione significativa o perdita"), di fatto includendo sia la "deviazione", che in questo libro è stato legato al concetto di _deficit_, sia quello della "perdita", che è legata al concetto di _peggioramento_.
 
 
 ## L'utilità pragmatica delle soglie {#utilita-pragmatica-soglie}
-citazioni paper lakens
+<!-- citazioni paper lakens -->
 
 <!-- NOTA GIORGIO, come raggruppo i metodi? forse meglio group-based e regression-based? --> 
 
-## scegliere i dati normativi appropriati.
+## Scegliere i dati normativi appropriati
 
-### dati normativi appropriati per deficit
+### Dati normativi appropriati per deficit
 
-### dati normativi appropriati per peggioramento
+### Dati normativi appropriati per peggioramento
 
 ## Inferenze a partire dal confronto con dati normativi {#inferenze-dati-normativi}
 
@@ -988,18 +987,21 @@ citazioni paper lakens
 
 
 ## Nella pratica clinica: come comportarsi quando ci sono più norme a disposizione?
+<!--
 - sono veramente equivalenti o alcune sono migliori? (es. più simili al paziente)
 - se sono equivalenti, puoi proprio anche citare approccio Multiverse, come possibile estensione concettuale.
+-->
 
 ## Nella pratica clinica: confondere peggioramento vs deficit.
 In persone poco tipiche la corrispondenza tra deficit e peggioramento è meno ragionevole.
-(Aggiungere figure qui, sia per persona che peggiora, ma non va sotto soglia, che viceversa persona che è sotto soglia, ma non peggiora). Altro modi di formulare la cosa è dire che un peggioramento può o non può (se la persona non è tipica, essere un deficit)
+<!-- (Aggiungere figure qui, sia per persona che peggiora, ma non va sotto soglia, che viceversa persona che è sotto soglia, ma non peggiora). Altro modo di formulare la cosa è dire che un peggioramento può o non può (se la persona non è tipica, essere un deficit) -->
 
 
-## Nella pratica clinica: intepretare un risulto tra due fasce di età o scolarità.
+## Nella pratica clinica: interpretare un risultato tra due fasce di età o scolarità.
 
 ## Nella pratica clinica: abbracciare le inevitabili approssimazioni
-Questo potrebbe essere follow-up del precedente in cui si generalizza. Talvolta bisogna accettare l'approssimazione e farlo con giudizio e piuttosto utilizzare consapevolezza i risultati (es. fasce di età o altro).
+<!-- Questo potrebbe essere follow-up del precedente in cui si generalizza. -->
+Talvolta bisogna accettare l'approssimazione e farlo con giudizio e piuttosto utilizzare consapevolezza i risultati (es. fasce di età o altro).
 
 
 <!-- (NOTA GIORGIO: PENSA AD ALTRI VARI CASI TIPICI che è utile mettere, tipo FAQ) -->
@@ -1025,13 +1027,13 @@ Il punto di questo esperimento mentale è chiarire che, nel caso dei dati normat
 <!-- (ISPIRATI A CAPITANI/LAIACONA DA VALUTARE SE HA SENSO) -->
 
 ### Focus: normalità o tipicità?
-La parola normalità (anche etimologicamente)  rimanda a come _si dovrebbe essere_ . Usare la parola tipicità ha vantaggio di suggerire di considerare anche l'altro lato (le persone eccezionalmente brave), perché loro non sono tipiche. E non ha connotazione di come si dovrebbe essere. 
+La parola normalità (anche etimologicamente) rimanda a come _si dovrebbe essere_. Usare la parola tipicità ha il vantaggio di suggerire di considerare anche l'altro lato (le persone eccezionalmente brave), perché loro non sono tipiche. E non ha connotazione di come si dovrebbe essere. 
 Anche se a livello puramente speculativo, si può pensare che usare la parola tipico potrebbe migliorare aspetti interpretativi o di ragionamento clinico.
 
 ### Focus: meglio un campione numeroso o un campione simile a chi vogliamo valutare?
-LA risposta è meglio un campione numeroso _e_ simile a chi vogliamo valutare. Ma tra i due, meglio piccolo, ma con metodi adatti (es. Crawford) e considerando che si ha possibilmente bassa sensibilità. 
+La risposta è meglio un campione numeroso _e_ simile a chi vogliamo valutare. Ma tra i due, meglio piccolo, ma con metodi adatti (es. Crawford) e considerando che si ha possibilmente bassa sensibilità. 
 
-### Errori comuni: utilizzare i punti-z indiscriminatemente
+### Errori comuni: utilizzare i punti-z indiscriminatamente
 <!-- 
 ### Errori comuni: utilizzo generico della performance (sotto cut-off) 
 (da valutare se mettere in sezione Interpretazione). 
@@ -1040,7 +1042,7 @@ LA risposta è meglio un campione numeroso _e_ simile a chi vogliamo valutare. M
 ### Errori comuni: interpretazione dei punteggi sotto soglia come segno di un deficit.
 
 ### Focus: la soglia più corretta è al 5%?
-dipende da cosa intendiamo come corretto il 5% sì, ma altrimenti è arbitrario. Se vogliamo magari maggiore sensibilità potrebbe essere  non ideale.
+Dipende da cosa intendiamo come corretto: il 5% sì, ma altrimenti è arbitrario. Se vogliamo magari maggiore sensibilità potrebbe essere non ideale.
 
 <!-- Focus: peggioramento o deficit?
 NOTA GIORGIO: Valutare se inserire. highlights con figure che mostrano come in un singolo punto non ci permette di distinguere tra queste due possibilità".
