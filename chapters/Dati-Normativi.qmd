@@ -3,6 +3,8 @@ suppress-bibliography: true
 ---
 # Dati normativi, deficit e peggioramento
 
+_NOTA: Questa è una versione preliminare di questo capitolo, che potrebbe anche andare incontro a revisioni sostanziali_.
+
 ## Introduzione al significato dei dati normativi
 
 :::{.domanda}
@@ -388,7 +390,7 @@ L'uso del termine _prestazione deficitaria_ come una prestazione ottenuta da san
 Per il modo in cui vengono definite, sulla base dei dati normativi, le soglie che separano le prestazioni nella norma da quelle deficitarie, una certa percentuale di soggetti sani — compresi alcuni individui del campione normativo — otterrà punteggi che veranno classificate come _prestazione deficitaria_. Non si tratta di un’anomalia, ma di una conseguenza inevitabile del principio utilizzato per stabilire la soglia.
 :::
 
-Questa apparente stranezza diventa ancora più tale se facciamo un piccolo esperimento mentale. Immaginate di raccogliere i dati su una variabile qualsiasi, ad esempio l'altezza, di un gruppo di persone. Sono tutte persone che non hanno particolari problemi nella vita quotidiana e quindi consideriamo _sane_ nel senso utilizzato finora per i dati normativi. Immaginate di costruire un grafico come quello riportato nella @fig-costruzione-istogramma e di calcolare quindi una soglia con lo stesso principio e di ottenere il valore 145 cm. Utilizzando la definizione di sopra (di classificazione di valori al di sotto della soglia come deficitaria), stiamo definendo che quei valori sono _deficitari_ e non, semplicemente, molto bassi. Questa conclusione potrebbe sembrare stridente, ma è una naturale conseguenza della definizione da cui siamo partite.
+Questa apparente stranezza diventa ancora più tale se facciamo un piccolo esperimento mentale. Immaginate di raccogliere i dati su una variabile qualsiasi, ad esempio l'altezza, di un gruppo di persone. Sono tutte persone che non hanno particolari problemi nella vita quotidiana e quindi consideriamo _sane_ nel senso utilizzato finora per i dati normativi. Immaginate di costruire un grafico come quello riportato nella @fig-costruzione-istogramma e di calcolare quindi una soglia con lo stesso principio e di ottenere il valore 145 cm. Utilizzando la definizione di sopra (di classificazione di valori al di sotto della soglia come deficitaria), stiamo definendo che quei valori sono _deficitari_ e non, semplicemente, particolarmente bassi relativamente al gruppo di riferimento. Questa conclusione potrebbe sembrare stridente, ma è una naturale conseguenza della definizione da cui siamo partite.
 Questa conseguenza diventa ancora più rilevante se applicata nell'ambito dei disturbi evolutivi: la comune soglia utilizzata per la soglia di prestazione deficitarie, fa sì che prendendo qualsiasi gruppo di bambini _sani_, inevitabilmente parte di essi otterranno punteggi "deficitari" (per definizione, circa il 5% di quelli che hanno composto i dati normativi, e all'incirca la stessa percentuale se si facessero molte classificazioni di bambini "normali").
 
 :::{.callout-important}
@@ -938,6 +940,12 @@ citazioni paper lakens
 
 <!-- NOTA GIORGIO, come raggruppo i metodi? forse meglio group-based e regression-based? --> 
 
+## scegliere i dati normativi appropriati.
+
+### dati normativi appropriati per deficit
+
+### dati normativi appropriati per peggioramento
+
 ## Inferenze a partire dal confronto con dati normativi {#inferenze-dati-normativi}
 
 ### Inferire un deficit
@@ -996,8 +1004,21 @@ Questo potrebbe essere follow-up del precedente in cui si generalizza. Talvolta 
 
 <!-- (NOTA GIORGIO: PENSA AD ALTRI VARI CASI TIPICI che è utile mettere, tipo FAQ) -->
 
-## Focus: quanto simili devono essere gli individui del mio campione normativo?
-altro caso estremo, di persone in cui, se indagassimo dati normativi estremanente rappresetnativo si può raggiungere una sorta di paradosso. Per esempio (caso sviluppo), bambini che hanno avuto problemi di ipossia alla nascita, che sono prematuri, etc. potrebbe avere una performance nella norma rispetto alle persone completmanete simili a lui. Nell'adulto, persone che hanno ipertensione e altre condizioni. Si potrebbe obiettare che questi sono fattori di rischio, ma lo sono anche età e scolarità! (metti citazioni). Il punto è capire che il gruppo di riferimento sarà, inevitabilmente, arbitrario.
+## Focus: quanto simili devono essere gli individui del mio campione normativo? Il paradosso della similitudine.
+Un punto utile da approfondire è relativo alla scelta di quale debba essere il campione normativo per definire un deficit. Di base è ritenuto opportuno (nell'adulto) che siano quantomeno persone di età, scolarità simili e talvolta sesso. Perché queste variabili? Perché è noto che influenzino la performance attesa in test neuropsicologici. L'assunto di base è: per capire se la persona ha un deficit deve essere confrontata con un gruppo di riferimento che sia sufficientemente simile per rendere questo confronto sensato.
+A questo però consegue un'altra domanda: quanto deve essere simile questo campione normativo all'individuo da valutare? Lo scopo di questo Focus è mostrare come questa scelta è inevitabilmente arbitraria.
+
+Partiamo dall'altro caso discusso in questo capitolo e cioè la stima del _peggioramento_, che come vedremo è decisamente più semplice. In questo caso il confronto è di tipo _ipsativo_ (un individuo con sé stesso). In assenza di dati precedenti all'evento/malattia di interesse possiamo stimare a partire da altri dati da persone simili, spesso proprio dai dati normativi, che in questo caso dovrebbero essere più simili possibili alla persona da valutare. Supponiamo di avere una persona con 75 anni di età, 8 anni di scolarità, una speciale storia clinica e personale con un sospetto disturbo di apprendimento. Per stimare un potenziale _peggioramento_ il gruppo di confronto ideale sarà proprio un gruppo di persone con 75 anni di età, 8 di scolarità, disturbo di apprendimento e ogni altra variabile che mi aiuti a stimare esattamente cosa è atteso da quella persona. Non avendo i dati, quanto più ho un gruppo simile, quanto più è verosimile che stia stimando correttamente la performance attesa.
+
+Nel caso del _deficit_ la situazione è però diversa. Fino a che punto dobbiamo spingerci per creare un gruppo di riferimento simile alla persona? La prassi e le convenzioni, oltre che il buon senso, ci evidenziano alcuni principi. Ad esempio, non possiamo usare con leggerezza dati normativi provenienti da un'altra cultura dal momento che varie differenze potrebbero alterare la stima e il senso del confronto: il sistema scolastico potrebbe essere diverso, potrebbero esserci diversità nell'utilizzo del linguaggio, etc. La **neuropsicologia cross-culturale** è nata proprio per tenere conto di questa importanza e dell'impatto nelle valutazioni `(\cite{franzen2021cross})`{=latex}`(Franzen et al., 2021)`{=html}. 
+Sappiamo anche che i dati normativi non devono essere troppo lontani nel tempo. Utilizzare dati di riferimento raccolti 25 anni prima può rendere il gruppo di riferimento troppo diverso (nel tempo può essere cambiata l'esposizione a situazioni di valutazione simili al test, l'esposizione a tecnologia, etc.; `\cite{flynn1987massive}; \cite{bratsberg2018flynn}`{=latex}`Flynn, 1987; Bratsberg & Rogeberg, 2018`{=html}).
+Tutte queste considerazioni possono sembrare ovvie e chiare, ma il punto qui è sottolineare che sono _arbitrarie_.
+Per mostrare questo punto è utile fare un esperimento mentale. Supponiamo cercassimo di utilizzare un principio (per la composizione dei dati normativi per identificare _deficit_), che sia simile a quello del peggioramento. Focalizziamo questo esempio su un caso di neuropsicologia dello sviluppo, ma si può estendere facilmente all'adulto.
+Per definire il gruppo di riferimento decidiamo di utilizzare, come di prassi, età e sesso (la scolarità non è inclusa dando per scontato che sia uguale). Alcuni test vanno però oltre ed includono altre variabili, ad esempio, l'istruzione dei genitori `(es. \cite{scarpa2017lets})`{=latex}`(es. Scarpa et al., 2017)`{=html}. Questo è, a livello intuitivo, perfettamente ragionevole: data una certa istruzione dei genitori ci si attende una performance cognitiva diversa e se vogliamo capire se c'è qualcosa di anomalo, dobbiamo tenere conto di questa variabile. Astraendo, se la variabile $X$ può avere un'influenza rilevante rispetto alla performance al test, allora dovrei considerarla per i dati normativi. Questo però potrebbe e, idealmente, dovrebbe essere esteso a qualsiasi numero di variabili al fine di ottenere una stima il più precisa possibile. Ad esempio, in bambini prematuri è possibile che la traiettoria di sviluppo cognitivo sia diversa e questo potrebbe essere considerato. Stessa cosa per bambini che hanno avuto problemi al parto, o che hanno avuto malattie importanti alla nascita. O che nascono in zone o paesi svantaggiati. Aggiungere queste variabili ci aiuterebbe ad avere stime più precise sì, ma ci porterebbe verso un paradosso: in questa maniera avremmo delle norme, talmente specifiche e precise che non sono più in grado di identificare realmente condizioni anomale. Ogni persona è del resto "normale", se consideriamo tutte le sue caratteristiche e idiosincrasie. 
+Nell'adulto, si può fare un simile ragionamento: se volessimo norme più simili possibile alla persona da valutare potremmo (ragionando per assurdo) sviluppare norme che considerino se la persona ha malattie sistemiche importanti, ha avuto traumi, condizioni di vita (es. stress lavorativo), fino a che ogni performance non sarà più anomala, date tutte le variabili che influenzano la performance.
+
+Il punto di questo esperimento mentale è chiarire che, nel caso dei dati normativi usati per stabilire cosa è la norma e cosa no (e quindi i _deficit_), la scelta delle variabili sarà sempre e inevitabilmente arbitraria e dovrà mantenere sempre una certa variabilità. Questo ragionamento non implica un giudizio su cosa sia giusto o sbagliato fare, ma invita ad essere consapevoli di questa arbitrarietà, importante per focalizzarsi sul punto realmente importante e cioè l'interpretazione del confronto. Quest'ultimo infatti dipenderà molto dalle variabili effettivamente incluse. Tornando al nostro esempio, inferire un deficit di sviluppo a partire da norme che contengono solo età, scolarità e sesso, non è la stessa cosa di inferirlo a partire da norme che contengono età, scolarità, sesso e istruzione dei genitori. Nel primo caso sappiamo che la stima sarà più severa (non importa l'istruzione dei tuoi genitori, sarai valutato ugualmente), mentre nel secondo caso è più conservativa. 
+È utile ribadirlo: non c'è un "giusto" o "sbagliato" nel definire quali sono le variabili da inserire nelle norme per il _deficit_, ma sono due modi diversi di definire il gruppo di riferimento, con conseguenze interpretative.
 
 
 ## Focus: diversi concetti di normalità 
