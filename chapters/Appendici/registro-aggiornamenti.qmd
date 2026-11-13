@@ -49,3 +49,7 @@ Rilasciata versione iniziale del libro che include
 - corretta la gerarchia dei titoli nella sezione Validità (alcuni livelli errati preesistenti).
 - aggiunta menzione di "affidabilità/precisione" come termine ombrello nella sezione Affidabilità.
 - aggiornati di conseguenza Glossario (Appendice A3), riferimenti incrociati nel Capitolo 1, e indice provvisorio.
+
+### v0.4.0 {.unnumbered .unlisted}
+- Aggiunti primi paragrafi capitolo 3
+

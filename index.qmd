@@ -5,7 +5,7 @@ suppress-bibliography: true
 `<img src="Figures/cover-html.png" style="width:100%; height:auto; display:block; margin:auto;" />`{=html}
 
 ```{r, echo=FALSE}
-cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.3.0"))
+cat(paste("Ultima modifica:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z."), "Versione 0.4.0"))
 ```
 
 
@@ -97,7 +97,7 @@ Di seguito trovi un indice provvisorio del libro. La suddivisione dei contenuti 
 
 **1. Misurazione e test in neuropsicologia clinica**
 
-  * Perché è importante misurare?
+  * Introduzione alla misurazione
   * Misurazione e neuropsicologia clinica
   * Quale definizione di misurazione adottano i test neuropsicologici?
   * I test

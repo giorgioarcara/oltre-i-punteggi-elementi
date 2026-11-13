@@ -1,0 +1,199 @@
+---
+title: 'Anteprima stili "domanda"'
+lang: it
+format:
+  html:
+    theme:
+      light: flatly
+      dark: solar
+    toc: false
+---
+
+<!--
+File di lavoro, NON incluso nel libro (non e in _quarto.yml).
+Confronto visivo delle possibili rese del blocco `:::{.domanda}`.
+
+Anteprima:  quarto render templates/stili-domanda-anteprima.qmd --to html
+poi apri    templates/stili-domanda-anteprima.html  (usa il toggle tema chiaro/scuro di Quarto)
+
+Esiste anche una versione a file unico senza dipendenze (comoda da inviare):
+templates/stili-domanda-anteprima-standalone.html
+
+Accento: teal #18bc9c, secondario nativo del tema flatly, non in conflitto
+con i callout Quarto (note = blu, important = rosso, tip = verde).
+
+Quando la variante e scelta:
+  1. html.css      : sostituire il corpo di `.domanda` (righe ~27-37) con quello
+                     della variante, togliendo il suffisso -a/-b/-c/-d dal selettore,
+                     e aggiungere la regola `.quarto-dark .domanda { ... }`.
+  2. epub.css      : aggiungere una `.domanda` equivalente (oggi manca). `::before`
+                     con `content` testuale non e affidabile su tutti i reader EPUB:
+                     per l'etichetta affidarsi a bordo/sfondo.
+  3. _quarto.yml   : riscrivere `\newenvironment{domanda}` (righe ~127-132); per le
+                     varianti A e D conviene `\newtcolorbox{domanda}` (tcolorbox e gia
+                     caricato, fontawesome disponibile). `\definecolor{domandateal}{HTML}{18BC9C}`.
+  4. filters/domanda.lua : nessuna modifica se l'ambiente LaTeX resta un semplice
+                           `\begin{domanda}...\end{domanda}`.
+-->
+
+```{=html}
+<style>
+/* ===== STILE ATTUALE (riferimento) ===== */
+.domanda {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.1em;
+  padding: 0.6em 1.5em;
+  margin: 1.5em auto;
+  color: #555;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  max-width: 85%;
+}
+.quarto-dark .domanda { color: #b0b0b0; }
+
+/* ===== VARIANTE A - Barra laterale + etichetta ===== */
+.domanda-a {
+  text-align: left;
+  font-size: 1.05em;
+  max-width: 90%;
+  margin: 2em auto;
+  padding: 1em 1.25em;
+  border-left: 4px solid #18bc9c;
+  background: #f3faf8;
+  border-radius: 0 4px 4px 0;
+}
+.quarto-dark .domanda-a { background: rgba(24, 188, 156, 0.12); }
+.domanda-a::before {
+  content: "\2753  Domanda";
+  display: block;
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #18bc9c;
+  margin-bottom: 0.5em;
+}
+.domanda-a > *:last-child { margin-bottom: 0; }
+
+/* ===== VARIANTE B - Epigrafe potenziata ===== */
+.domanda-b {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.15em;
+  max-width: 85%;
+  margin: 2em auto;
+  padding: 0.7em 1.5em;
+  color: #444;
+  border-top: 2px solid #18bc9c;
+  border-bottom: 2px solid #18bc9c;
+}
+.quarto-dark .domanda-b { color: #ccc; }
+.domanda-b::before {
+  content: "?  Domanda";
+  display: block;
+  font-style: normal;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #18bc9c;
+  margin-bottom: 0.6em;
+}
+
+/* ===== VARIANTE C - Pull-quote editoriale ===== */
+.domanda-c {
+  position: relative;
+  text-align: left;
+  font-style: italic;
+  font-size: 1.1em;
+  color: #444;
+  max-width: 88%;
+  margin: 2em auto;
+  padding-left: 3.2em;
+}
+.quarto-dark .domanda-c { color: #ccc; }
+.domanda-c::before {
+  content: "?";
+  position: absolute;
+  left: 0;
+  top: -0.15em;
+  font: 700 3.5em/1 Georgia, "Times New Roman", serif;
+  color: rgba(24, 188, 156, 0.35);
+}
+
+/* ===== VARIANTE D - Finto callout ===== */
+.domanda-d {
+  margin: 2em 0;
+  border: 1px solid #bfe9df;
+  border-left: 4px solid #18bc9c;
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 1.02em;
+}
+.quarto-dark .domanda-d { border-color: rgba(24, 188, 156, 0.4); }
+.domanda-d::before {
+  content: "\2753  Domanda";
+  display: block;
+  background: #e4f6f1;
+  color: #12876f;
+  font-weight: 700;
+  padding: 0.4em 0.9em;
+}
+.quarto-dark .domanda-d::before { background: rgba(24, 188, 156, 0.18); color: #4fd1b5; }
+.domanda-d > * { padding-left: 0.9em; padding-right: 0.9em; }
+.domanda-d > *:last-child { margin-bottom: 0.6em; }
+</style>
+```
+
+Ogni variante e mostrata sulle due domande reali gia presenti nel libro.
+
+## Stile attuale (riferimento)
+
+:::{.domanda}
+_Perché è importante misurare?_
+:::
+
+:::{.domanda}
+Ma questo è davvero un buon test per la memoria?
+:::
+
+## Variante A — Barra laterale + etichetta
+
+:::{.domanda-a}
+_Perché è importante misurare?_
+:::
+
+:::{.domanda-a}
+Ma questo è davvero un buon test per la memoria?
+:::
+
+## Variante B — Epigrafe potenziata
+
+:::{.domanda-b}
+_Perché è importante misurare?_
+:::
+
+:::{.domanda-b}
+Ma questo è davvero un buon test per la memoria?
+:::
+
+## Variante C — Pull-quote editoriale
+
+:::{.domanda-c}
+_Perché è importante misurare?_
+:::
+
+:::{.domanda-c}
+Ma questo è davvero un buon test per la memoria?
+:::
+
+## Variante D — Finto callout
+
+:::{.domanda-d}
+_Perché è importante misurare?_
+:::
+
+:::{.domanda-d}
+Ma questo è davvero un buon test per la memoria?
+:::

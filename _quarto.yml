@@ -23,6 +23,7 @@ book:
     - chapters/Introduzione.qmd
     - chapters/Misurazione.qmd
     - chapters/Validita-Affidabilita.qmd
+    - chapters/Dati-Normativi.qmd
     - chapters/Bibliografia.qmd
     - chapters/Temp.qmd
     - part: "Appendici"
